@@ -135,8 +135,7 @@ Own backend (firebase or express)
 
 | Checkin 2                | Status                    |
 |--------------------------|---------------------------|
-| BE: Build pending tables | 1 table pending           |
-| BE: add Bookshelf        | pending  (finishing knex) |
+| BE: Build pending tables | completed                 |
 | BE: Backend testing      | pending                   |
 | BE: OAuth                | pending                   |
 | FE: Side Bar with Routes | completed                 |
