@@ -126,6 +126,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/dhubertus/46bde017d79302c0c95c5c3b1cd3a4c0)
 * [JWT Tutorial](https://github.com/cjorda15/plzWorkJwt)
 * [Pattern Party](https://github.com/cjorda15/pattrn)
+* [Web-Socket](https://github.com/cjorda15/web-socket)
 
 ### Adam Carpenter
 
