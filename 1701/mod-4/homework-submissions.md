@@ -24,7 +24,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/anderswood/mod-4-hw/blob/master/express-server.js)
 * [Promise Practice Exercises](https://github.com/anderswood/mod-4-hw/blob/master/promises.js)
 * [CircleCI & Git Hooks](https://gist.github.com/anderswood/43b05e613346722058858d7a65b2f3e6)
-* [JWT Tutorial]()
+* [JWT Tutorial](https://github.com/anderswood/jwt-tutorial)
 * [Pattern Party](https://github.com/anderswood/pattrn-party)
 * [Sockets Tutorial](https://github.com/anderswood/chat-app-tut)
 
