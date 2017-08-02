@@ -123,8 +123,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Devon Bull
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/DBULL7/express-homework)
+* [Promise Practice Exercises](https://github.com/DBULL7/promises-homework)
 * [CircleCI & Git Hooks](https://gist.github.com/DBULL7/5d344f5432a8703902f217deba13772d)
 * [JWT Tutorial](https://github.com/DBULL7/jwt-tutorial)
 * [Pattern Party](https://github.com/DBULL7/pttrn-party)
