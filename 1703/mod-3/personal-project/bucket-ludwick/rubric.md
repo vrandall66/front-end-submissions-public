@@ -14,10 +14,7 @@ A good project idea should:
 
 **2. Organization**
 
-* 4: Developer used a project management tool and updated their progress in real-time.
 * 3: Developer used a project management tool to keep their project organized.
-* 2: Developer used a project management tool but didn't update the progress frequently.
-* 1: Developer failed to use a project management tool to track its progress.
 
 ### Technical Quality
 
