@@ -97,11 +97,21 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Project has a running test suite that covers most happy and sad paths for each endpoint. Error handling has been implemented but does not cover all possible scenarios or is unhelpful for the end-user. Linter has some errors that need fixing.
+
+* Tests aren't happy
+
+* Don't hardcode [tokens](https://github.com/DBULL7/VoterData/blob/master/test/routes.spec.js#L233). This should be saved as an environment variable and accessed through `process.env`.
+
+* It would be nice to send back what voter the user was trying to get in an error message like [this](https://github.com/DBULL7/VoterData/blob/master/server/controllers/voterController.js#L42)
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* I'd file issues for comments like [this](https://github.com/DBULL7/VoterData/blob/master/server/controllers/districtController.js#L59) rather than storing them directly in your codebase
+
+* There's an ES6 shorthand for [this](https://github.com/DBULL7/VoterData/blob/master/server/controllers/districtController.js#L114-L123)
 
 
 ## Project is worth 150 points
@@ -109,5 +119,5 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 113 / 150
 

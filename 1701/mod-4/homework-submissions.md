@@ -24,8 +24,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/anderswood/mod-4-hw/blob/master/express-server.js)
 * [Promise Practice Exercises](https://github.com/anderswood/mod-4-hw/blob/master/promises.js)
 * [CircleCI & Git Hooks](https://gist.github.com/anderswood/43b05e613346722058858d7a65b2f3e6)
-* [JWT Tutorial]()
-* [Pattern Party]()
+* [JWT Tutorial](https://github.com/anderswood/jwt-tutorial)
+* [Pattern Party](https://github.com/anderswood/pattrn-party)
 * [Sockets Tutorial](https://github.com/anderswood/chat-app-tut)
 
 ### Jenn Peavler
@@ -35,7 +35,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/DBULL7/5d344f5432a8703902f217deba13772d)
 * [JWT Tutorial](https://github.com/jennPeavler/jwt-lesson)
 * [Web Sockets](https://github.com/jennPeavler/web-socket-tutorial)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/jennPeavler/pattern-party)
 
 ### John Binning
 
@@ -45,7 +45,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/JohnBinning/cf5e15a9dabedcdb02c45a44d795db2d)
 * [JWT Tutorial](https://github.com/JohnBinning/jwt-tutorial)
 * [Web Sockets Tutorial](https://github.com/JohnBinning/web-socket-tutorial)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/JohnBinning/style-guide)
 
 ### Leta Keane
 
@@ -54,7 +54,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/JohnBinning/cf5e15a9dabedcdb02c45a44d795db2d)
 * [Web Sockets](https://gist.github.com/letakeane/33cb23433702957c42e7e5b5e58580c5)
 * [JWT Tutorial](https://github.com/letakeane/jwt-homework)
-* [Pattern Party](https://github.com/letakeane/pattrnparty)
+* [Pattrn Party - repo](https://github.com/letakeane/pattrnparty)
+* [Pattrn Party - gh-pages](https://letakeane.github.io/pattrnparty/)
+* [Blog post for House of Vars assignment](https://medium.com/@letakeane/contributing-to-open-source-the-sharks-are-photoshopped-47e22db1ab86)
 
 ### Devin Dixon
 
@@ -62,7 +64,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://gist.github.com/devthehuman/53859cabf66b88d23b283b361327f9f3)
 * [CircleCI & Git Hooks](https://gist.github.com/devthehuman/4dc0004d8ba60ec7019e2f4fedca6e76)
 * [JWT Tutorial](https://github.com/devthehuman/jwt-tutorial)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/devthehuman/pattrn-party)
 * [Web Socket Tutorial](https://github.com/devthehuman/web-socket-workshop)
 
 ### Laura Turk
@@ -71,7 +73,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://repl.it/JQcD/1)
 * [CircleCI & Git Hooks](https://gist.github.com/lauraturk/263adc607f171b6a2b9c99752ef37b90)
 * [JWT Tutorial](https://github.com/lauraturk/jwt-practice)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/lauraturk/lt-pattrn-party)
 * [WebSockets](https://github.com/lauraturk/lt-chat-sockets)
 
 ### Chris Bandrowsky
@@ -80,15 +82,18 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://repl.it/JAaF/2)
 * [CircleCI & Git Hooks](https://gist.github.com/cbandrow/2f65f7e1bba71c02c93281a3eda6f6f9)
 * [JWT Tutorial](https://github.com/cbandrow/jvt-practice)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/cbandrow/ui-style-guide)
+* [Pattern Party GithubPages](https://cbandrow.github.io/ui-style-guide/)
+* [Web Socket Tutorial](https://github.com/cbandrow/web-sockets-fun)
+
 
 ### Spencer Hilvitz
 
 * [Express Tutorial](https://github.com/hilvitzs/express-tutorial)
 * [Promise Practice Exercises](https://github.com/hilvitzs/promises)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
-* [Pattern Party]()
+* [CircleCI & Git Hooks](https://gist.github.com/hilvitzs/4dab991836d99e3ff08919e0e84df9cb)
+* [JWT Tutorial](https://github.com/hilvitzs/jwt-tutorial)
+* [Pattern Party](https://github.com/hilvitzs/pattrn-party)
 * [Web Sockets](https://github.com/hilvitzs/chat-example)
 
 ### Kelly Miller
@@ -98,7 +103,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/kellymiller6/3b8894127bd1c4b8b2a7ff4ff6e4c4e5)
 * [JWT Tutorial](https://github.com/kellymiller6/jwt-tutorial)
 * [Sockets Tutorial](https://gist.github.com/kellymiller6/ff7ed146bb7a4378cb226699b75085e7)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/kellymiller6/pattrn-party)
 
 ### Keji Amos
 
@@ -106,7 +111,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://repl.it/JB4q/4)
 * [CircleCI & Git Hooks](https://gist.github.com/kellymiller6/3b8894127bd1c4b8b2a7ff4ff6e4c4e5)
 * [JWT Tutorial](https://github.com/kamos1/jwt)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/kamos1/pattrnparty)
 * [Websocket Tutorial](https://github.com/kamos1/chat-app)
 
 ### Jack Bevis
@@ -117,15 +122,15 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/anderswood/43b05e613346722058858d7a65b2f3e6)
 * [JWT Tutorial](https://github.com/jbevis/jwt-tutorial)
 * [Web Socket Tutorial](https://github.com/jbevis/websockets-chatroom)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/jbevis/pattrn-party)
 
 ### Devon Bull
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/DBULL7/express-homework)
+* [Promise Practice Exercises](https://github.com/DBULL7/promises-homework)
 * [CircleCI & Git Hooks](https://gist.github.com/DBULL7/5d344f5432a8703902f217deba13772d)
-* [JWT Tutorial]()
-* [Pattern Party]()
+* [JWT Tutorial](https://github.com/DBULL7/jwt-tutorial)
+* [Pattern Party](https://github.com/DBULL7/pttrn-party)
 * [Websockets Chat Room](https://github.com/DBULL7/socket.io-chatroom)
 
 ### Christopher Jordan
@@ -135,6 +140,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [CircleCI & Git Hooks](https://gist.github.com/dhubertus/46bde017d79302c0c95c5c3b1cd3a4c0)
 * [JWT Tutorial](https://github.com/cjorda15/plzWorkJwt)
 * [Pattern Party](https://github.com/cjorda15/pattrn)
+* [Web-Socket](https://github.com/cjorda15/web-socket)
 
 ### Adam Carpenter
 
@@ -150,19 +156,21 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Zane Russell
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/zanedr/express-tutorial)
+* [Promise Practice Exercises](https://repl.it/JshE)
 * [CircleCI Passing Stage Build](http://imgur.com/SnYWzum)
 * [CircleCI Passing Production Build](http://imgur.com/Q9kjfRV)
 * [Heroku Pipeline](http://imgur.com/IxY3vZ4)
 * [Github Repo JetFuel - Staging Branch with validate-nlf file](https://github.com/Adamj1232/Jet-Fuel/tree/staging)
-* [JWT Tutorial]()
-* [Pattern Party]()
+* [Websockets](https://github.com/zanedr/websockets-practice)
+* [JWT Tutorial](https://github.com/zanedr/jwt-tutorial)
+* [Pattern Party](https://github.com/zanedr/pattern-party)
 
 ### Dave Hubertus
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/dhubertus/express-pre-work)
+* [Promise Practice Exercises](https://repl.it/JfAw/5)
 * [CircleCI & Git Hooks](https://gist.github.com/dhubertus/46bde017d79302c0c95c5c3b1cd3a4c0)
-* [JWT Tutorial]()
-* [Pattern Party]()
+* [JWT Tutorial](https://github.com/dhubertus/jwt-tutorial)
+* [Pattern Party](https://github.com/dhubertus/pattrn)
+* [Chat-Sockets](https://github.com/dhubertus/chat-web-sockets-demo)
