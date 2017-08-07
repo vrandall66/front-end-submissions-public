@@ -119,6 +119,16 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
 
+### Justyna Field
+
+* [Express Tutorial]()
+* [Promises Practice Exercises]()
+* [CircleCI & Git Hooks]()
+* [JWT Tutorial]()
+* [Sockets Tutorial]()
+* [Pattern Party GitHub Repo]()
+* [Pattern Party GitHub Pages Site]()
+
 ### Lindsay Parker
 
 * [Express Tutorial]()
