@@ -22,7 +22,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Ciara Bujanos
 
 * [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Promises Practice Exercises](https://repl.it/KFMP/1)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
