@@ -132,7 +132,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Lindsay Parker
 
 * [Express Tutorial](https://github.com/lindsaywparker/m4-express-tutorial)
-* [Promises Practice Exercises](https://repl.it/KAa7/0)
+* [Promises Practice Exercises](https://repl.it/KAa7/4)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
