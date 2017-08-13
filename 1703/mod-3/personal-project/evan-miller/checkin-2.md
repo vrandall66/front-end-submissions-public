@@ -2,10 +2,10 @@
 
 #### Check In: 1  
 
-#### Project Pitch 
-A Magic Mirror, is a reflective monitor that will show data to the participant on top of a mirror. Positioned to be a unit the user would see during their daily routine, it can include the current date, daily weather outside, travel information, music currently playing, and daily schedule. 
+#### Project Pitch
+A Magic Mirror, is a reflective monitor that will show data to the participant on top of a mirror. Positioned to be a unit the user would see during their daily routine, it can include the current date, daily weather outside, travel information, music currently playing, and daily schedule.
 
-On top of that, if set goals were to be made, adding Alexa for voice interaction would make the unit hands free and customisable. 
+On top of that, if set goals were to be made, adding Alexa for voice interaction would make the unit hands free and customisable.
 
 ### Deliverables  
 
@@ -14,12 +14,12 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 - Redux
 - Electron
 
-#### APIs: 
-- Weather Underground 
+#### APIs:
+- Weather Underground
 - Newsapi
 - Alexa
 
-#### Hardware: 
+#### Hardware:
 - 27" LED Monitor
 - 2 Way Mirror
 - Raspberry Pi 3
@@ -35,9 +35,9 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 
 [waffle](https://waffle.io/EvanSays/magic-mirror)
 
-#### Order Of Attack 
+#### Order Of Attack
 
-##### iteration 0 : Initial Discovery and Reasearch
+##### iteration 0 : Initial Discovery and Research
 - ~~Create wireframes in Sketch~~
 - ~~Research APIs~~
 - ~~Create BOM for physical materials~~
@@ -46,8 +46,8 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 ##### iteration 1 : Order BOM / Build Boilerplate / Harness Data
 - ~~Order BOM~~
 - ~~Create React/Redux boilerplate~~
-- Wireframe and position data/mock content, which includes routing content, and some CSS styling **(in progress)** 
-- Connect to Weather Underground and NewsAPI, create cleaner functions to harness data needed **(in progress)** 
+- Wireframe and position data/mock content, which includes routing content, and some CSS styling **(in progress)**
+- Connect to Weather Underground and NewsAPI, create cleaner functions to harness data needed **(in progress)**
 - Add Youtube playlist to play
 - Show APIs information
 
@@ -73,11 +73,11 @@ On top of that, if set goals were to be made, adding Alexa for voice interaction
 
 #### MVP
 
-A working smart mirror that displays the weather and daily news. 
+A working smart mirror that displays the weather and daily news.
 
 #### Nice To Haves   
 - Alexa
-- Calender 
+- Calender
 - More APIs
 - Music
 

@@ -80,12 +80,12 @@ Favoriting & favorite listing tests
 
 
 * Maintain own ingredients - Stretch
-* What cocktails can you make from you cabinet - Stretch
+* What cocktails can you make from your cabinet - Stretch
 
 #### Deliverables for next checkin:
-* Users can create an account
-* Users can login / logout
-* Login persists to local storage
-* User can see all drinks pulled from ADDb
-* User can favorite / unfavorite a drinks
-* Tests for all the above
+* Users can create an account (done)
+* Users can login / logout (done)
+* Login persists to local storage (done)
+* User can see all drinks pulled from ADDb (done, with added search)
+* User can favorite / unfavorite a drinks (carry-over)
+* Tests for all the above (some carry-over)
