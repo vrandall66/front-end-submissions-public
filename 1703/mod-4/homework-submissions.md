@@ -71,8 +71,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### George Goering
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/Ggoering/FE-Mod-4-Express-tutorial)
+* [Promises Practice Exercises](https://github.com/Ggoering/FE-Mod-4-Promises-Exercises)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
