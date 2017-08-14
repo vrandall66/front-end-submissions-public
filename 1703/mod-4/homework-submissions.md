@@ -102,7 +102,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Joe Heitkamp
 
 * [Express Tutorial](https://github.com/noetic97/node-express-tutorial)
-* [Promises Practice Exercises](https://repl.it/KIbd/1)
+* [Promises Practice Exercises](https://repl.it/KIbd/4)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
