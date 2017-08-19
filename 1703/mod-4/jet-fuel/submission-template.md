@@ -10,9 +10,6 @@
 #### Link to the Deployed Application
 [heroku]()
 
-#### Provide a Screenshot of your Application
-![screenshot]()
-
 ## Completion
 
 #### Were you able to complete the base functionality?
