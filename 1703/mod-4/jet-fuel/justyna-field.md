@@ -22,7 +22,7 @@ I have all of the base functionality working, except for these two pieces:
 - Visit a folder and sort the folder’s URLs by how recently they were added (both descending and ascending order)
 - Enter a URL to be shortened only if it is a valid URL (impose some kind of URL validation)
 
-I ran out of time, also I found these last two things a little complex and time-consuming.
+I ran out of time, also, I found these last two things a little complex and time-consuming.
 
 # Code Quality
 
@@ -37,7 +37,7 @@ It is the first time that I built back-end code and it makes me feel really good
 #### Link to a specific block of your code on Github that you feel not great about
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-I do not feel awesome about not completing the sorting function. It was harder than I thought it would be. jQuery ''bubbling' made it hard to create events on elements inside folders. 
+I do not feel awesome about not completing the sorting function. It was harder than I thought it would be. jQuery ''bubbling' made it difficult to create events on elements inside folders. 
 I tried url validation by either using regex, or npm package, and could not make it to work.
 Also, the heroku page does not represent the most up-to-date version of my app. I didn't know how to update my app on heroku.
 
