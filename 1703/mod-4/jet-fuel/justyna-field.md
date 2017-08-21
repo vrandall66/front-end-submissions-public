@@ -17,12 +17,12 @@
 
 #### Were you able to complete the base functionality?
 
-I feel that I have all of the basic functionality working, except for these two pieces:
+I have all of the basic functionality working, except for these two pieces:
 
 - Visit a folder and sort the folder’s URLs by how recently they were added (both descending and ascending order)
 - Enter a URL to be shortened only if it is a valid URL (impose some kind of URL validation)
 
-I ran out of time, also I found it a little complex and time-consuming.
+I ran out of time, also I found these two last things a little complex and time-consuming.
 
 # Code Quality
 
@@ -31,11 +31,13 @@ I ran out of time, also I found it a little complex and time-consuming.
 [happy code](https://github.com/JustynaField/jet-fuel/blob/master/db/test/seeds/folders.js)
 
 * Why were you proud of this piece of code?
+It is the first time that I built back-end code and it makes me feel proud.  
 
 #### Link to a specific block of your code on Github that you feel not great about
-[sad code]()
-
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+
+I do not feet awesome about not completing the sorting function. It was harder than I thought it would be. jQuery ''bubbling' made it hard to create events on elements inside folders. 
+I tried url validation by either using regex, or npm package, and could not make it to work.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
@@ -74,10 +76,6 @@ travel
   9 passing (828ms)
   3 pending
 ```
-
-#### Test suite:
-[test suite](https://github.com/JustynaField/jet-fuel/tree/master)
-
 
 
 #### Please feel free to ask any other questions or make any other statements below!
