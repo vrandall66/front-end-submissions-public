@@ -27,17 +27,18 @@ I ran out of time, also I found these two last things a little complex and time-
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[happy code](https://github.com/JustynaField/jet-fuel/blob/master/server.js),
-[happy code](https://github.com/JustynaField/jet-fuel/blob/master/db/test/seeds/folders.js)
+[server.js](https://github.com/JustynaField/jet-fuel/blob/master/server.js),
+[test seeds](https://github.com/JustynaField/jet-fuel/blob/master/db/test/seeds/folders.js)
 
 * Why were you proud of this piece of code?
-It is the first time that I built back-end code and it makes me feel proud.  
+It is the first time that I built back-end code and it makes me feel proud. 
 
 #### Link to a specific block of your code on Github that you feel not great about
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
 I do not feet awesome about not completing the sorting function. It was harder than I thought it would be. jQuery ''bubbling' made it hard to create events on elements inside folders. 
 I tried url validation by either using regex, or npm package, and could not make it to work.
+Also, the heroku page does not represent the most up-to-date version of my app. I didn't know how to update my app on heroku.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
