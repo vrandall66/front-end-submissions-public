@@ -31,8 +31,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Cole Worsley
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/coleworsley/express-tutorial-2)
+* [Promises Practice Exercises](https://repl.it/KDyv/1)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
