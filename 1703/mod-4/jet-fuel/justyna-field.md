@@ -40,7 +40,7 @@ I ran out of time, also I found it a little complex and time-consuming.
 
 [test suite]()
 #### Test suite:
-![Test Suite](screenshots/screenshot3.png)
+![Test Suite](https://github.com/JustynaField/jet-fuel/tree/master)
 
 #### Please feel free to ask any other questions or make any other statements below!
 
