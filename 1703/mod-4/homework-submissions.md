@@ -11,7 +11,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 2**
 
-* [CircleCI & Git Hooks](https://gist.github.com/brittanystoroz/16b1a223d70dc6b73e8313cb7c9666c5) - Link to gist with all deliverables
+* [Elevator Challenge](https://gist.github.com/brittanystoroz/16b1a223d70dc6b73e8313cb7c9666c5) - Link to gist with all deliverables
 * [JWTs Tutorial](http://frontend.turing.io/lessons/security-with-jwts.html) - Link to completed repo from the tutorial
 
 **Week 5**
@@ -23,8 +23,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/buji405/node-tutorial)
 * [Promises Practice Exercises](https://repl.it/KFMP/1)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -33,8 +32,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/coleworsley/express-tutorial-2)
 * [Promises Practice Exercises](https://repl.it/KDyv/1)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -43,8 +41,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promises Practice Exercises]()
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -53,8 +50,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/dstock48/express-intro-tutorial)
 * [Promises Practice Exercises](https://repl.it/KFgV/)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -63,8 +59,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/EvanSays/express_tutorial_prework)
 * [Promises Practice Exercises](https://repl.it/KH2F/4)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -73,8 +68,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/Ggoering/FE-Mod-4-Express-tutorial)
 * [Promises Practice Exercises](https://github.com/Ggoering/FE-Mod-4-Promises-Exercises)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -83,8 +77,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/jsullivan5/express-intro)
 * [Promises Practice Exercises](https://gist.github.com/jsullivan5/6e590142516cc069eb618daea3732ae8)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -93,8 +86,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/the-oem/node-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIZL/7)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -103,8 +95,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/noetic97/node-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIbd/4)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -113,8 +104,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/jdiejim/express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIRe/1)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -123,8 +113,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promises Practice Exercises]()
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -133,8 +122,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/lindsaywparker/m4-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KAa7/4)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -143,8 +131,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/tlgreg86/intermission-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIeG)
-* [CircleCI & Git Hooks]()
-* [JWT Tutorial]()
+* [Elevator Challenge]()
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
