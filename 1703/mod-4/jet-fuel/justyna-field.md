@@ -32,7 +32,7 @@ I ran out of time, also I found these two last things a little complex and time-
 
 * Why were you proud of this piece of code?
 
-It is the first time that I built back-end code and it makes me feel proud. 
+It is the first time that I built back-end code and it makes me feel really good. 
 
 #### Link to a specific block of your code on Github that you feel not great about
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
