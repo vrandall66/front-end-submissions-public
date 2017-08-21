@@ -49,27 +49,19 @@ Also, the heroku page does not represent the most up-to-date version of my app. 
 
   API Routes
     GET /api/v1/folders
-travel
       ✓ should return all of the folders
     GET /api/v1/folders/:id
       - should return folder by id
-travel
       ✓ should return an error if a requested folder does not exist
     POST /api/v1/folders
-travel
       ✓ should create a new folder (40ms)
-travel
       ✓ should not create a record with missing data
     GET /api/v1/links
-travel
       ✓ should return all of the links
     POST /api/v1/links
-travel
       ✓ should post a new link
-double callback!
       - should not create link if required data is missing
     GET /api/v1/folders/:id/links
-travel
       ✓ should return links belonging to a specific folder
       - should not return links for folrder that does not exist
 
