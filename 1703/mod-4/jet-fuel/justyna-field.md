@@ -17,7 +17,7 @@
 
 #### Were you able to complete the base functionality?
 
-I have all of the basic functionality working, except for these two pieces:
+I have all of the base functionality working, except for these two pieces:
 
 - Visit a folder and sort the folder’s URLs by how recently they were added (both descending and ascending order)
 - Enter a URL to be shortened only if it is a valid URL (impose some kind of URL validation)
