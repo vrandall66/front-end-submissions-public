@@ -22,7 +22,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Ciara Bujanos
 
 * [Express Tutorial](https://github.com/buji405/node-tutorial)
-* [Promises Practice Exercises]()
+* [Promises Practice Exercises](https://repl.it/KFMP/1)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
@@ -51,8 +51,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### David Weinstock
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/dstock48/express-intro-tutorial)
+* [Promises Practice Exercises](https://repl.it/KFgV/)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
@@ -61,8 +61,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Evan Miller
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/EvanSays/express_tutorial_prework)
+* [Promises Practice Exercises](https://repl.it/KH2F/4)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
@@ -71,8 +71,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### George Goering
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/Ggoering/FE-Mod-4-Express-tutorial)
+* [Promises Practice Exercises](https://github.com/Ggoering/FE-Mod-4-Promises-Exercises)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
@@ -81,8 +81,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### James Sullivan
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/jsullivan5/express-intro)
+* [Promises Practice Exercises](https://gist.github.com/jsullivan5/6e590142516cc069eb618daea3732ae8)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
@@ -91,8 +91,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jason Collins
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/the-oem/node-express-tutorial)
+* [Promises Practice Exercises](https://repl.it/KIZL/7)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
@@ -101,8 +101,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Joe Heitkamp
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/noetic97/node-express-tutorial)
+* [Promises Practice Exercises](https://repl.it/KIbd/4)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
@@ -111,8 +111,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Juan Diego Jimenez
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/jdiejim/express-tutorial)
+* [Promises Practice Exercises](https://repl.it/KIRe/1)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
@@ -131,8 +131,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Lindsay Parker
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/lindsaywparker/m4-express-tutorial)
+* [Promises Practice Exercises](https://repl.it/KAa7/4)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
@@ -141,8 +141,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Travis Gregory
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/tlgreg86/intermission-express-tutorial)
+* [Promises Practice Exercises](https://repl.it/KIeG)
 * [CircleCI & Git Hooks]()
 * [JWT Tutorial]()
 * [Sockets Tutorial]()
