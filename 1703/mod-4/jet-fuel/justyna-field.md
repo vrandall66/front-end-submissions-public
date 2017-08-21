@@ -31,6 +31,7 @@ I ran out of time, also I found these two last things a little complex and time-
 [test seeds](https://github.com/JustynaField/jet-fuel/blob/master/db/test/seeds/folders.js)
 
 * Why were you proud of this piece of code?
+
 It is the first time that I built back-end code and it makes me feel proud. 
 
 #### Link to a specific block of your code on Github that you feel not great about
