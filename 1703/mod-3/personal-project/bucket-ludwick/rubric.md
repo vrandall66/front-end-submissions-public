@@ -31,8 +31,8 @@ A good project idea should:
 
 **1. User Experience**
 
-<!-- * 3: Project exhibits a production-ready user experience. -->
-* 2: Project exhibits some gaps in the UX.
+* 3: Project exhibits a production-ready user experience.
+
 
 **2. Performance**
 
