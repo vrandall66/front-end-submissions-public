@@ -22,7 +22,7 @@ I have all of the base functionality working, except for these two pieces:
 - Visit a folder and sort the folder’s URLs by how recently they were added (both descending and ascending order)
 - Enter a URL to be shortened only if it is a valid URL (impose some kind of URL validation)
 
-I ran out of time, also I found these two last things a little complex and time-consuming.
+I ran out of time, also I found these last two things a little complex and time-consuming.
 
 # Code Quality
 
