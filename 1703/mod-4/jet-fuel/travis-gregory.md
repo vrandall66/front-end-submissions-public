@@ -11,14 +11,14 @@
 [heroku](https://tg-jetfuel.herokuapp.com/)
 
 #### Link to your annotated server file
-[annotated server file]()
+[annotated server file](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js)
 * I ran out of time and didn't get to annotate my server file.
 
 ## Completion
 
 #### Were you able to complete the base functionality?
 
-I wasn't able to get to the point of sorting the data and I didn't get the urls add date formatted the way I wanted because I just had a difficult time getting through testing and getting the routes and backend hooked up. Those are the only pieces I wasn't able to complete, that I know of at least.
+I wasn't able to get to the point of sorting the data and I didn't get the urls add date formatted the way I wanted because I just had a difficult time getting through testing and getting the routes and backend hooked up. I also couldn't get the redirect route to pass in testing. Those are the only pieces I wasn't able to complete, that I know of at least.
 
 #### Which extensions, if any, did you complete?
 
