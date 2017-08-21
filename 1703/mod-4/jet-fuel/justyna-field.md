@@ -39,6 +39,8 @@ I ran out of time, also I found it a little complex and time-consuming.
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
 [test suite]()
+#### Test suite:
+![Test Suite](screenshots/screenshot3.png)
 
 #### Please feel free to ask any other questions or make any other statements below!
 
