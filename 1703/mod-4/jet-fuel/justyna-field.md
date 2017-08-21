@@ -27,7 +27,8 @@ I ran out of time, also I found it a little complex and time-consuming.
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[happy code]()
+[happy code](https://github.com/JustynaField/jet-fuel/blob/master/server.js),
+[happy code](https://github.com/JustynaField/jet-fuel/blob/master/db/test/seeds/folders.js)
 
 * Why were you proud of this piece of code?
 
@@ -38,9 +39,46 @@ I ran out of time, also I found it a little complex and time-consuming.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite]()
+```
+  Client Routes
+    ✓ Should return homepage (47ms)
+    ✓ should return a 404 for a route that does not exist
+
+  API Routes
+    GET /api/v1/folders
+travel
+      ✓ should return all of the folders
+    GET /api/v1/folders/:id
+      - should return folder by id
+travel
+      ✓ should return an error if a requested folder does not exist
+    POST /api/v1/folders
+travel
+      ✓ should create a new folder (40ms)
+travel
+      ✓ should not create a record with missing data
+    GET /api/v1/links
+travel
+      ✓ should return all of the links
+    POST /api/v1/links
+travel
+      ✓ should post a new link
+double callback!
+      - should not create link if required data is missing
+    GET /api/v1/folders/:id/links
+travel
+      ✓ should return links belonging to a specific folder
+      - should not return links for folrder that does not exist
+
+
+  9 passing (828ms)
+  3 pending
+```
+
 #### Test suite:
-![Test Suite](https://github.com/JustynaField/jet-fuel/tree/master)
+[test suite](https://github.com/JustynaField/jet-fuel/tree/master)
+
+
 
 #### Please feel free to ask any other questions or make any other statements below!
 
