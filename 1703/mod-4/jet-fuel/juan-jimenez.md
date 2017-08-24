@@ -103,7 +103,7 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 
 -----
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
@@ -115,6 +115,10 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 
 ## Data Persistence with SQL Database
 
+**18 points**: The application persists data in a SQL database but with correct relationships between folders and URLs, slight error with column fields re: uniqueness
+
+* The [shortUrl](https://github.com/jdiejim/Jet-Fuel/blob/master/db/migrations/20170815171324_paths.js#L10) must be a unique value. If you generate two of the same short URLs, that point to different long URLs, one of them will be overridden. 
+ 
 **x points**: Lorem ipsum dolor set amet
 
 ## Testing
@@ -127,8 +131,11 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**14 points**: The developer makes a series of small, atomic commits that document the evolution of their application. There are some formatting issues in the code base.
 
+* ~40 commits likely isn't enough for the scope of this project. Commits like [this](https://github.com/jdiejim/Jet-Fuel/commit/1c44d676ca9b1a053b29c2d1191314af69b67efd) are doing way too much. Pull requesting a diff this large in a single commit would make it more difficult for teammates to do a code review on it.
+* Good use of branches, though I'm not sure I would prefix their names with your initials. (You may have been told to do this by previous mentors/instructors). Just as an FYI I've never seen that convention in the real world. Multiple people can actually work on branches so it might not make sense all the time. I would stick to naming them in regards to what functionality they'll be adding.
+* Nice, consistently formatted commit messages though I would recommend starting them all with a capital letter. [This](https://chris.beams.io/posts/git-commit/) is a good set of rules to follow for formatting your commit messages.
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher

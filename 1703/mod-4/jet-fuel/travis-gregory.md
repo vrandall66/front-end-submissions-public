@@ -75,7 +75,7 @@ This project was really difficult for me and though I got through most of it I d
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
@@ -87,7 +87,9 @@ This project was really difficult for me and though I got through most of it I d
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+* [Long url](https://github.com/tlgreg86/jet-fuel/blob/master/db/migrations/20170816184259_initial.js#L13) doesn't necessarily need to be unique here. You might want to put the same long URL in multiple folders.
 
 ## Testing
 
@@ -99,8 +101,12 @@ This project was really difficult for me and though I got through most of it I d
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**14 points**: The developer makes a series of small, atomic commits that document the evolution of their application. There are some formatting issues in the code base.
 
+* Good use of branches all appropriately named
+* ~40 commits likely isn't enough for the scope of this project. I'd likely expect somewhere in the 100s. This low number is an indicator that your commits are all likely doing a little too much and should be broken out into further commits.
+* Some [instances](https://github.com/tlgreg86/jet-fuel/commit/f6d491a62b5d1e1cf5e53a8da6a784cad2bc179d) of commented out code being committed to the repo
+* Don't commit [WIPS](https://github.com/tlgreg86/jet-fuel/commit/c1973dc638326d1b4ab912cde1b30547bec3f256) to master. This commit also does a bit more than the commit message implies. The diff is still easy to read, but there are irrelevant additions in this changest (get request)
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher

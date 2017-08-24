@@ -48,7 +48,7 @@ _~ This is the code to toggle showing and hiding the list of links for a given f
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
@@ -60,7 +60,9 @@ _~ This is the code to toggle showing and hiding the list of links for a given f
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: The application persists data in a SQL database but with correct relationships between folders and URLs, slight error with column fields re: uniqueness
+
+* The [shortUrl](https://github.com/the-oem/jetfuel/blob/master/src/server/db/migrations/20170815155033_initial.js#L16) must be a unique value. If you generate two of the same short URLs, that point to different long URLs, one of them will be overridden. 
 
 ## Testing
 
@@ -72,7 +74,13 @@ _~ This is the code to toggle showing and hiding the list of links for a given f
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**16 points**: The developer makes a series of small, atomic commits that document the evolution of their application though some are taking on a bit too much responsibility.
+
+* Nice readme!
+* Nice consistently formatted commit messages, though I'm concerned about the low number of commits. I'd expect a project like this to have a least 100; that's how granular and specific your changesets should be. Commits like [this](https://github.com/the-oem/jetfuel/commit/897d17af767053f44b6a66404050b81267bf3f62) are doing a bit too much and more than I'd expect given the commit message.
+* Nice use of branches appropriately named
+* I would avoid committing TO DO comments - file issues for those things instead or keep those on a branch, and remove them when the branch functionality is complete and you want to merge to master.
+* [Ahhhhh](https://github.com/the-oem/jetfuel/blob/master/src/server/db/migrations/20170815155033_initial.js#L23)
 
 
 ### To get a 3 on this project, you need to score 110 points or higher

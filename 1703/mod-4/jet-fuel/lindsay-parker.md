@@ -46,7 +46,7 @@ None
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
@@ -58,7 +58,9 @@ None
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: The application persists data in a SQL database but with correct relationships between folders and URLs, slight error with column fields re: uniqueness
+
+* This short url [here](https://github.com/lindsaywparker/jet-fuel/blob/master/db/migrations/20170816133448_initial.js#L14-L15) is actually the field that needs to be unique, not the long url. You can create as many short links to `https://www.google.com` as you want and place them in as many folders as you want, but they should each have their own unique short url.
 
 ## Testing
 
@@ -70,8 +72,10 @@ None
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: The developer makes a series of small, atomic commits that document the evolution of their application. There are some formatting issues in the code base.
 
+* Great use of branches informatively named
+* Nice consistently formatted commit messages though [some of them](https://github.com/lindsaywparker/jet-fuel/commit/7199a9877995cc89a017a56923342a85b2c83858) aren't super informative and contain some instances of commented out code. 
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher

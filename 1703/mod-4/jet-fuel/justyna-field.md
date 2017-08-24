@@ -79,7 +79,7 @@ Anything else you wanna say!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
@@ -91,8 +91,10 @@ Anything else you wanna say!
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: The application persists data in a SQL database but with correct relationships between folders and URLs, slight error with column fields re: uniqueness
 
+* The [shortUrl](https://github.com/JustynaField/jet-fuel/blob/master/db/migrations/20170816132247_initial.js#L14) must be a unique value. If you generate two of the same short URLs, that point to different long URLs, one of them will be overridden. 
+ 
 ## Testing
 
 **x points**: Lorem ipsum dolor set amet
@@ -103,7 +105,12 @@ Anything else you wanna say!
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**13 points**: The developer makes a series of small, atomic commits that document the evolution of their application. There are some formatting issues in the code base, some commits would've been better on branches.
+
+* Would like to see more use of feature branches rather than committing straight to master
+* Another file you want to make sure to .gitignore is this [DS_Store](https://github.com/JustynaField/jet-fuel/blob/master/.DS_Store) file
+* Nice, consistently formatted commit messages though I would recommend starting them all with a capital letter.  [This](https://chris.beams.io/posts/git-commit/) is a good set of rules to follow for formatting your commit messages.
+* [Some](https://github.com/JustynaField/jet-fuel/commit/ad4cf691ba18813148882b16de5c6edf04e5d860) commits would have been better on a branch rather than committed to master, especially when they contain commented-out code or are a work in progress.
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
