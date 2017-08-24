@@ -70,7 +70,11 @@ _~ This is the code to toggle showing and hiding the list of links for a given f
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
+
+* Don't do [rollbacks](https://github.com/the-oem/jetfuel/blob/master/test/integration/routes.spec.js#L18-L20) in your test file. (Also not in an afterEach). You're undoing it by running a migrate latest immediately after anyway, so it's not doing anything. But it's also putting your database out of sync for some amount of time. You only want to be testing on the latest most up-to-date schema and by doing a rollback you are outdating your database.
+
+* I wouldn't necessarily respond with a 404 [here](https://github.com/the-oem/jetfuel/blob/master/test/integration/routes.spec.js#L153-L165) as a folder can exist without links. 404 means the endpoint cannot find a resource to exist at it or the endpoint doesn't exist. When you do a select you actually get back an empty array, which is still *something*. It's not technically an error if a folder doesn't have URLs. This is a good discussion on when to use [404s](https://softwareengineering.stackexchange.com/questions/203492/when-to-use-http-status-code-404-in-an-api)
 
 ## JavaScript Style
 

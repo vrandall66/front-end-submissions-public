@@ -67,7 +67,13 @@ None
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
+
+* I'd rather see you set this [environment](https://github.com/lindsaywparker/jet-fuel/blob/master/test/routes.spec.js#L6) variable in your test running script in your package.json rather than hardcoding it here
+
+* Still good to have .catches [here](https://github.com/lindsaywparker/jet-fuel/blob/master/test/routes.spec.js#L33-L38) in case there is something wrong with your test seed data
+
+* I'm surprised if [this](https://github.com/lindsaywparker/jet-fuel/blob/master/test/routes.spec.js#L50-L53) is consistently passing? There is no gaurantee your data will come back in a sorted order so these folder names could come back in different spots in the array.
 
 ## JavaScript Style
 

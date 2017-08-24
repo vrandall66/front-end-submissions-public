@@ -134,11 +134,20 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
+
+* This is a bizarre [way](https://github.com/jdiejim/Jet-Fuel/blob/master/test/routes.spec.js#L1) to set your environment. I'd recommend doing it in your package.json 'test' script instead. You're reassigning `process.env.NODE_ENV` to itself. At the very least I would change this line to `const env = 'test'`. There's really no need to do a fallback here because you're only ever going to want this file to run in your test environment.
+* And then you're setting an [environment variable here](https://github.com/jdiejim/Jet-Fuel/blob/master/test/routes.spec.js#L7-L9)?
+* Curious what you're doing with [these](https://github.com/jdiejim/Jet-Fuel/blob/master/test/routes.spec.js#L12-L13)? If these are the basis of your assertions, now you're storing a reference to them in [two](https://github.com/jdiejim/Jet-Fuel/blob/master/db/seeds/test/seed.js#L4-L8) different places. If you want to make a set of consistent fixture data I'd create a directory or file called 'fixtures' and import it wherever you need.
+* You shouldn't need to do [any](https://github.com/jdiejim/Jet-Fuel/blob/master/test/routes.spec.js#L19-L20) rollbacks in your database. When you rollback you put your database in a different schema setup than the most current and you'll be testing on an outdated version of your database. You're also undoing your rollbacks with a migration immediately after on the next line, so what are these actually doing? 
+* [This](https://github.com/jdiejim/Jet-Fuel/blob/master/test/routes.spec.js#L35) is a nice way to avoid having to hardcode your id's but it also opens up a little more potential for your assertion to go wrong. You're now asserting on data that you've manipulated (by pulling out just the name) rather than asserting on the actual response data.
+* This is kind of a weird [test](https://github.com/jdiejim/Jet-Fuel/blob/master/test/routes.spec.js#L78-L89). A route like this shouldn't really exist - if someone tries to do a delete on `/api/v1/folders` it should return a 404 because it's not possible. There's no guarantee that if someone tries to hit `/api/v1/folders/` that they were trying to do a DELETE, so you can't assume that it's simply an endpoint that's missing an ID parameter. A better sad path for a delete request would be sending an error message if the ID passed in doesn't exist.
 
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet
+
+* I wouldn't make the user pass in the ID through the body in a [delete request](https://github.com/jdiejim/Jet-Fuel/blob/master/test/routes.spec.js#L93-L94) the endpoint for this should be `/api/v1/folders/:id`. This falls more in line with RESTful API architecture.
 
 ## Workflow
 
