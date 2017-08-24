@@ -130,7 +130,12 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 
 * The [shortUrl](https://github.com/jdiejim/Jet-Fuel/blob/master/db/migrations/20170815171324_paths.js#L10) must be a unique value. If you generate two of the same short URLs, that point to different long URLs, one of them will be overridden. 
  
-**x points**: Lorem ipsum dolor set amet
+## Annotated Server File
+
+**8 points**: Most lines of the server file (on a separate branch) are commented and explain the code using accurate terminology
+
+* [What's this line doing?](https://github.com/jdiejim/Jet-Fuel/blob/jdj-server-comments/server.js#L38)
+* [And this one?](https://github.com/jdiejim/Jet-Fuel/blob/jdj-server-comments/server.js#L31)
 
 ## Testing
 
