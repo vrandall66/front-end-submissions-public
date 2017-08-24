@@ -107,7 +107,7 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 
 ## Specification Adherence
 
-**45 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use except the URL validation is a little buggy.
+**40 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use except the URL validation is a little buggy.
 
 * URL validation is off or unrecognizable - I can't type in a URL that is www.nhl.com and have the short URL bring me to the NHL website. (It tries to bring me to https://jdj-jet-fuel.herokuapp.com/www.nhl.com instead)
 

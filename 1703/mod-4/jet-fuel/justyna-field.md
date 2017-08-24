@@ -83,7 +83,7 @@ Anything else you wanna say!
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: There are two features missing from the base expectations that make the application feel incomplete or hard to use.
 
 ## User Interface
 
