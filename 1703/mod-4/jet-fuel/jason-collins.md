@@ -68,6 +68,10 @@ _~ This is the code to toggle showing and hiding the list of links for a given f
 
 * The [shortUrl](https://github.com/the-oem/jetfuel/blob/master/src/server/db/migrations/20170815155033_initial.js#L16) must be a unique value. If you generate two of the same short URLs, that point to different long URLs, one of them will be overridden. 
 
+## Annotated Server File
+
+**10 points**: Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
+
 ## Testing
 
 **18 points**: Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
