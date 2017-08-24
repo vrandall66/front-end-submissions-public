@@ -92,6 +92,9 @@ Anything else you wanna say!
 
 **x points**: Lorem ipsum dolor set amet
 
+* Ahhhhh the blue is burning my retinas.
+* There is a lot of low-hanging fruit here that could significantly improve the front-end. Spend some time picking a font and adding some padding to the content so it's not so flush-left. I know time is always an issue with these projects, but remember that you're a front-end developer and these are the things you'll be showing in your portfolio to employers. This particular UI doesn't seem to demonstrate a solid effort.
+
 ## Data Persistence with SQL Database
 
 **15 points**: Mostly set up the database with the correct relationships and fields though there are a lot of inaccuracies and inconsistencies throughout the migrations directory.

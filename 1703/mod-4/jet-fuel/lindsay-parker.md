@@ -54,7 +54,10 @@ None
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: The application is pleasant, logical, and easy to use. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
+
+* Nice user messaging on successful creation of a new folder/url.
+* CSS animation on expanding a folder is a little bizarre, we didn't set any hard requirements on it but from a UI perspective I'd imagine a vertical slide down for the URls rather than a horizontal shift in the data.
 
 ## Data Persistence with SQL Database
 

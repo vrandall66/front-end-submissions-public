@@ -56,7 +56,11 @@ _~ This is the code to toggle showing and hiding the list of links for a given f
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: The application is logical, and easy to use. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
+
+* Some sort of active styling on the Add Folder/Add Link buttons would be nice. I could see these being tabs where the form itself has a background on it that attaches it to these two toggleable tabs.
+* CSS Animation is a little rigid at points but I think the vertical slide is a good use case for opening folders.
+* Nice input validation/error handling in the UI for invalid URLs and folders.
 
 ## Data Persistence with SQL Database
 

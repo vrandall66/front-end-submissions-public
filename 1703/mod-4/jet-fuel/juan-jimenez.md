@@ -109,9 +109,20 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 
 **x points**: Lorem ipsum dolor set amet
 
+* URL validation is off or unrecognizable - I can't type in a URL that is www.nhl.com and have the short URL bring me to the NHL website. (It tries to bring me to https://jdj-jet-fuel.herokuapp.com/www.nhl.com instead)
+
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**12 points**: The application shows a lot of effort in the interface, but there are a few things that make the interactions a bit confusing. The evaluator has some difficulty using the application when reviewing the features in the user stories.
+
+* I like how you broke out the flow of the user interaction to let the user focus solely on creating a URL first, then assigning it to a folder, but the timing of when the folder selection shows up is a little bizarre. Instead of having it show up as soon as I key into the URL field, I would wait until the user has a valid URL in the input. 
+* Top left logos usually link you back to the default/home page, I'd make this a link to the shorten page
+* I'd expect to be able to click on a folder and have it show me the collections page and the URLs - it's also weird that the 'Save' buttons still exist on the list of folders even after I've saved my URL and the input boxes have been cleared out.
+* The 'URL not valid' message sticks around long after I've entered a new valid url. 
+* The overflow: scroll on all your containers is a little offputting, when there is no scroll it looks like you have very large white borders on the right and bottom of all your elements.
+* It's difficult to tell that the sorting arrows are going to sort the URLs by date. I'd add a label to those or make them line up more closely with the dates in the URL list.
+* There's some bizarre bug where I can click on the top border of the URL list and the urls will completely disappear. Clicking one of the sorting arrows makes them return.
+
 
 ## Data Persistence with SQL Database
 

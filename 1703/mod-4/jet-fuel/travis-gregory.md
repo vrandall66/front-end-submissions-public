@@ -85,6 +85,8 @@ This project was really difficult for me and though I got through most of it I d
 
 **x points**: Lorem ipsum dolor set amet
 
+* Tough to tell that I've successfully created a new folder, I see it's added in the drop down but there's no other visial indication that the request succeeded.
+
 ## Data Persistence with SQL Database
 
 **20 points**: The application persists data in a SQL database but with correct relationships between folders and URLs.
