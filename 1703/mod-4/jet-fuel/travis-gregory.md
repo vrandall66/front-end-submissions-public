@@ -79,7 +79,7 @@ This project was really difficult for me and though I got through most of it I d
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**40 points**: There is one feature missing from the base expectations that makes the application feel incomplete or hard to use.
 
 ## User Interface
 
@@ -87,6 +87,7 @@ This project was really difficult for me and though I got through most of it I d
 
 * Tough to tell that I've successfully created a new folder, I see it's added in the drop down but there's no other visial indication that the request succeeded.
 * It's bizarre that you can't see the folders or links until you select a folder from the drop-down menu. I wouldn't have that form element controlling a display element. It should simply be for selecting a folder to create a new URL. Especially when the message about clicking on the links below is persistent.  It's also hard to tell what folder is being displayed because it's simply a list of the URLs with no folder container or header.
+* It's tough to tell that the submit button is disabled due to an invalid URL. I'd like some indication of what I did wrong (an error message or something) when I enter an invalid URL so that I can fix it.
 
 ## Data Persistence with SQL Database
 
