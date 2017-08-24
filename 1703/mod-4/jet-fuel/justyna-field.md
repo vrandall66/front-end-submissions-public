@@ -97,6 +97,15 @@ Anything else you wanna say!
 
 * The [shortUrl](https://github.com/JustynaField/jet-fuel/blob/master/db/migrations/20170816132247_initial.js#L14) must be a unique value. If you generate two of the same short URLs, that point to different long URLs, one of them will be overridden. 
  
+## Annotated Server File
+
+**8 points**: Each line of the server file (on a separate branch) is commented and explains the code using mostly accurate terminology
+
+* [Note also that it's falling back to running on port 3000, not that it is always running on 3000](https://github.com/JustynaField/jet-fuel/blob/master/server-comments.js#L21)
+* [What does a POST request actually do? I'd like to know that you recognize that it creates a new resource](https://github.com/JustynaField/jet-fuel/blob/master/server-comments.js#L53-L54)
+* I wouldn't call id a [placeholder](https://github.com/JustynaField/jet-fuel/blob/master/server-comments.js#L81) here, it represents a 'dynamic segment' of the URL
+
+
 ## Testing
 
 **x points**: Lorem ipsum dolor set amet

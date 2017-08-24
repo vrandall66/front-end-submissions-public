@@ -65,6 +65,10 @@ None
 
 * This short url [here](https://github.com/lindsaywparker/jet-fuel/blob/master/db/migrations/20170816133448_initial.js#L14-L15) is actually the field that needs to be unique, not the long url. You can create as many short links to `https://www.google.com` as you want and place them in as many folders as you want, but they should each have their own unique short url.
 
+## Annotated Server File
+
+**10 points**: Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
+
 ## Testing
 
 **20 points**: Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.

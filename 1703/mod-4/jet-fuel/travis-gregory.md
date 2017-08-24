@@ -95,13 +95,32 @@ This project was really difficult for me and though I got through most of it I d
 
 * [Long url](https://github.com/tlgreg86/jet-fuel/blob/master/db/migrations/20170816184259_initial.js#L13) doesn't necessarily need to be unique here. You might want to put the same long URL in multiple folders.
 
+## Annotated Server File
+
+**8 points**: Each line of the server file (on a separate branch) is commented and explains the code using mostly accurate terminology
+
+* [Imports the knex configuration file that specifies a database setup for each environment our application will be running in](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L12)
+* [This](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L14) doesn't **create** a new database, but rather gives us access to one that we've previously created.
+* I'd like a little more specificity in your understanding with [these](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L16-L19) lines.
+* [This](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L24) isn't the *local* server, it's the entire application - that title will also be set in production and staging and anywhere else your code runs, not just locally.
+* [You aren't sending anything back to the client yet here - you are only sending back to the client when you actually return a response](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L30)
+* [Here is where you are sending a successful response to the client.](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L33)
+* [Send a 500-level response back to the client to indicate that there was an internal server error when retrieving folders](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L37)
+* [This](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L45) isn't looping through the **requests** parameters, it's looping through an array that you've defined of properties you want to be required.
+
+
 ## Testing
 
 **x points**: Lorem ipsum dolor set amet
 
+* Still good to have .catches [here](https://github.com/tlgreg86/jet-fuel/blob/master/test/routes.spec.js#L34-L39) in case there is something wrong with your test seed data
+
+
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet
+
+* [This](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L68-L70) isn't the only thing that could go wrong with your database transaction. We should still have an additional generic 500-level error to return if this isn't what actually went wrong. 
 
 ## Workflow
 
