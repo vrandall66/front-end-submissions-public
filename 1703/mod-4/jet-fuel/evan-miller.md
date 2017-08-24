@@ -17,7 +17,7 @@
 
 #### Were you able to complete the base functionality?
 
-No, I am missing the functionality of having each folder expand when clicked upon. Time was the limiting factor, due to a slow work pace and missing a night to code to focus on my Demo Night performance. All the other functionality is there. Im happy with the result, but would of loved to implement that final piece.
+No, I am missing the functionality of having each folder expand when clicked upon. Time was the limiting factor, due to a slow work pace and missing a night to code to focus on my Demo Night performance. All the other functionality is there. I'm happy with the result, but would of loved to implement that final piece.
  
 #### Which extensions, if any, did you complete?
 
@@ -47,7 +47,7 @@ The CSS and HTML are a cluster mess imo. This was partly due to rushing through 
 
 Anything else you wanna say!
 
-Overall, a fun project to practice using Jquery again. I also enjoyed going full circle with Heroku and CircleCI. 
+Overall, a fun project to practice using jQuery again. I also enjoyed going full circle with Heroku and CircleCI. 
 
 -----
 

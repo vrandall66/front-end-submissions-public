@@ -38,7 +38,7 @@ $('.info-wrapper').empty()
 
 * Why were you proud of this piece of code?
 because it took me forever to target this and get the toggle going. was exciting when it finally worked! 
-Also the second line because I had a problem for a long time where everytime I clicked the folder it was 
+Also the second line because I had a problem for a long time where every time I clicked the folder it was 
 duplicating all the links, took a long time to figure out what I needed to clean to get it to not duplicate. 
 
 #### Link to a specific block of your code on Github that you feel not great about
@@ -46,7 +46,7 @@ duplicating all the links, took a long time to figure out what I needed to clean
 appendInfo(res.origURL, res.description, parentElement, res.shortURL, res.id, res.created_at)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-I don't like all the things I'm having to pass through. I think I could have just passed res and parentelement 
+I don't like all the things I'm having to pass through. I think I could have just passed res and parent element 
 but when I tried doing this it was breaking everywhere so I think I just would need more time to figure out all the 
 places to change everything. 
 

@@ -22,8 +22,8 @@ No.
 
 If not, explain what is missing and why.
 
-I completed everything but the CSS transisiton. I finished this really late Sunday night and could not figure out how to debug
-the issues in time.  See sad code below.
+I completed everything but the CSS transition. I finished this really late Sunday night and could not figure out how to debug
+the issues in time. See sad code below.
 
 None
 
@@ -39,7 +39,7 @@ impliment it without any server side code, which I initially thought I would nee
 [sad code](https://github.com/jsullivan5/jet-fuel/blob/master/public/styles.css#L115)
 
 This was the CSS transition I could not figure out at 3:00 AM.  I thought it would be simpler to do.  My app has a get request 
-every time the folder changes and renders.  My understading is that adding a class can be trickier when a component is rendering
+every time the folder changes and renders.  My understanding is that adding a class can be trickier when a component is rendering
 and there are default browser optimizations to consider.  I wish I would have gotten this to work.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
@@ -96,7 +96,7 @@ done seeding
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-It was a fun project.  I really enjoyed working in the back and and have some ideas on how I need to level up on these skills.
+It was a fun project. I really enjoyed working in the back and and have some ideas on how I need to level up on these skills.
 
 -----
 

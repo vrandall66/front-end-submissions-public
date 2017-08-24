@@ -33,6 +33,7 @@ If not, explain what is missing and why.
 * Time is the number one challenge. When you spend 3/7 days trying to remember how to write jQuery and another 2 days troubleshooting, you're left with 2 days of actual code writing.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
+
 `
 Server is running on 3300
   Client Routes
@@ -89,3 +90,10 @@ Anything else you wanna say!
 ### To get a 4 on this project, you need to score 135 points or higher
 
 # Final Score: x / 150
+
+**Need to fix before eval can be completed**
+
+* Production is not working - one big reason for this is that your `baseRoute` is defined on your client side using `localhost`, which is not the URL of your heroku app, which is why you're getting a 404 response for POST to `/folders` in the console
+  * Instead of using an absolute path with `localhost:3000`, use relative paths in your fetch calls. For instance, instead of the absolute path to `localhost:3000/api/v1/folders`, just use the relative path `/api/v1/folders`
+
+* You need to have s separate branch where you have commented lines explaining your sever file (as described in the project spec)
