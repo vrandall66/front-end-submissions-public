@@ -87,7 +87,9 @@ Anything else you wanna say!
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: The application is pleasant, logical, and easy to use. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
+
+* CSS transition is a little rigid when opening or closing a folder. I'd also like the cursor to turn into a 'hand' like a regular clickable link when I hover on one of the folders so that there's a more clear indication that I can click on this thing to expand or collapse it.
 
 ## Data Persistence with SQL Database
 
