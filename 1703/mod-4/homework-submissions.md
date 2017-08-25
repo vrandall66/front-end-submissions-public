@@ -122,7 +122,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/lindsaywparker/m4-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KAa7/4)
-* [Elevator Challenge]()
+* [Elevator Challenge](https://github.com/lindsaywparker/elevator-challenge)
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
