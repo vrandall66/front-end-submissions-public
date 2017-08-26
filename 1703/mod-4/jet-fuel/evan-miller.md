@@ -41,7 +41,47 @@ The CSS and HTML are a cluster mess imo. This was partly due to rushing through 
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite](http://imgur.com/FC2x1lL)
+```
+ ▲ assignments/4-mod/jetfuel mocha                                                                                                          master :: 7s :: ⬢
+
+
+jetfuel is running on 3000.
+  Client Routes
+    ✓ should return the homepage with text
+    ✓ should return a 404 for a route that does not exist
+
+  API Routes
+Re-seed complete!
+    ✓ GET /api/v1/folders
+    GET /api/v1/links
+Re-seed complete!
+      ✓ should get all the links
+    POST /api/v1/folders
+Re-seed complete!
+      ✓ should create a new folder
+Re-seed complete!
+      ✓ should not create a folder with missing data
+Re-seed complete!
+      ✓ should not create a folder with the same name
+    POST /api/v1/links
+Re-seed complete!
+      ✓ should create a new link
+      - should not create a link with missing folder_id
+    GET /api/v1/folders/:id/
+Re-seed complete!
+      ✓ should get all the links in a specified folder
+Re-seed complete!
+      ✓ should not get a link if the folder number does not exist
+    GET /api/v1/folders/${id}/links
+Re-seed complete!
+      ✓ should get a link by id
+Re-seed complete!
+      ✓ should not get a link if the id number does not exist
+
+
+  12 passing (643ms)
+  1 pending
+```
 
 #### Please feel free to ask any other questions or make any other statements below!
 
