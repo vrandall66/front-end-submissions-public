@@ -187,6 +187,7 @@ BYOB is running on 3000
 
 #### Please feel free to ask any other questions or make any other statements below!
 
+To get an admin token the email needs to end in @byob.io
 
 -----
 
