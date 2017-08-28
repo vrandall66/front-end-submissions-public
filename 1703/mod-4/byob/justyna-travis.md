@@ -116,7 +116,7 @@ Client Routes
 
 #### Attach a screenshot of your CircleCI build passing
 
-[circleCI build](https://imgur.com/a/kiOB9)
+![circleCI build](http://imgur.com/g8Fd6aL)
 
 -----
 
