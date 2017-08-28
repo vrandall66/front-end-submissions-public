@@ -41,9 +41,10 @@ Yes
 # Code Quality
 
 #### Link to a specific block of your code on Github that you are proud of
-[happy code](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js)
+[happy code](https://github.com/JustynaField/BYOB/blob/aa749f174f5d05d565789cdbf01616a0505ee8ca/test/routes.spec.js#L124)
 
 * Why were you proud of this piece of code?
+It was difficult figuring out how to test authentication. We were happy when we figured out how to do it.
 
 #### Link to a specific block of your code on Github that you feel not great about
 [sad code](https://github.com/JustynaField/BYOB/blob/master/data.js)
@@ -116,7 +117,7 @@ Client Routes
 
 #### Attach a screenshot of your CircleCI build passing
 
-[circleCI build]()
+[circleCI build](http://i.imgur.com/g8Fd6aL.png)
 
 -----
 
