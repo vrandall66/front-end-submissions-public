@@ -152,4 +152,4 @@ This project was really difficult for me and though I got through most of it I d
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 150
+# Final Score: x / 160
