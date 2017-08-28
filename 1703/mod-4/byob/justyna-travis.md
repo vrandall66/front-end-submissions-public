@@ -102,7 +102,6 @@ Client Routes
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-[linter output]()
 ```
 /Users/justyna/turing/mod4/BYOB/db/migrations/20170822140650_initial.js
   19:36  error  Trailing spaces not allowed  no-trailing-spaces
@@ -117,7 +116,7 @@ Client Routes
 
 #### Attach a screenshot of your CircleCI build passing
 
-[circleCI build]()
+[circleCI build](https://imgur.com/a/kiOB9)
 
 -----
 
