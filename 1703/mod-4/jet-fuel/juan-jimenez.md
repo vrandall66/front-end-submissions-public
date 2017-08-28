@@ -154,6 +154,8 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 
 * I wouldn't make the user pass in the ID through the body in a [delete request](https://github.com/jdiejim/Jet-Fuel/blob/master/test/routes.spec.js#L93-L94) the endpoint for this should be `/api/v1/folders/:id`. This falls more in line with RESTful API architecture.
 
+* Are you using [cors](https://github.com/jdiejim/Jet-Fuel/blob/master/server.js#L11) for a particular reason? Shouldn't really need it for this project.
+
 ## Workflow
 
 **14 points**: The developer makes a series of small, atomic commits that document the evolution of their application. There are some formatting issues in the code base.

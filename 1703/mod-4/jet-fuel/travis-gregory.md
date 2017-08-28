@@ -111,9 +111,11 @@ This project was really difficult for me and though I got through most of it I d
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
 
 * Still good to have .catches [here](https://github.com/tlgreg86/jet-fuel/blob/master/test/routes.spec.js#L34-L39) in case there is something wrong with your test seed data
+
+* [This](https://github.com/tlgreg86/jet-fuel/blob/master/test/routes.spec.js#L80) would probably give you an intermittent test failure if you're not sorting your data before it comes back. There's no guarantee that new folder would be the second item in the array of folders every time. Same for all the other tests that are relying on an index of an item being in a particular spot.
 
 
 ## JavaScript Style
@@ -152,4 +154,4 @@ This project was really difficult for me and though I got through most of it I d
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 160
+# Final Score: 127 / 160
