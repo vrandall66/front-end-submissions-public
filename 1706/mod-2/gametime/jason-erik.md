@@ -11,15 +11,7 @@
 * 3.5 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
 
 ### Testing
-// add move test back to paddle
-// add populateArray test for BrickArray
-// add break brick to BrickArray
-// add bounceOffWall, bounceOffPaddle test to ball tests
-
-* 4 - Project has a running test suite that exercises the application at multiple levels. The test suite covers almost all aspects of the application and uses mocks and stubs when appropriate.
 * 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing.
-* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
-* 1 - There is little or no evidence of testing in this application.
 
 ### JavaScript Style
 
