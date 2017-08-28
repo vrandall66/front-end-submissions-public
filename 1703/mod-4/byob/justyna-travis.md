@@ -49,7 +49,7 @@ Yes
 [sad code](https://github.com/JustynaField/BYOB/blob/master/data.js)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-We are not feeling great about not being able to scrape the data we needed for this project.
+We are not feeling great about not being able to scrape the data we needed for this project. The data we found was contained in a table, withought any class or id assigned to <td>'s.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
@@ -103,6 +103,17 @@ Client Routes
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
 [linter output]()
+```
+/Users/justyna/turing/mod4/BYOB/db/migrations/20170822140650_initial.js
+  19:36  error  Trailing spaces not allowed  no-trailing-spaces
+
+✖ 1 problem (1 error, 0 warnings)
+  1 error, 0 warnings potentially fixable with the `--fix` option.
+```
+```
+> BYOB@1.0.0 lint /Users/justyna/turing/mod4/BYOB
+> eslint ./
+```
 
 #### Attach a screenshot of your CircleCI build passing
 
