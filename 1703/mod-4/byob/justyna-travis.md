@@ -42,18 +42,84 @@ Yes
 
 #### Link to a specific block of your code on Github that you are proud of
 [happy code](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js)
-We feel proud of the test file. We feel that we 
 
 * Why were you proud of this piece of code?
 
 #### Link to a specific block of your code on Github that you feel not great about
-[sad code]()
+[sad code](https://github.com/JustynaField/BYOB/blob/master/data.js)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+We are not feeling great about not being able to scrape the data we needed for this project.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite]()
+```
+Client Routes
+    ✓ should run homepage with text (44ms)
+    ✓ should return 404 for a route that does not exist
+
+  Authentication
+    ✓ should allow user access if user submits app name and email address ending with @turing.io
+    ✓ should not process the request if one parameter is missing
+
+  API Routes
+    GET /api/v1/brewery
+Re-seeding Complete
+      ✓ should return all of the breweries
+    GET /api/v1/brewery/:id
+Re-seeding Complete
+      ✓ should return a brewery by id
+Re-seeding Complete
+      ✓ should return an error if a requested brewery does not exist
+    POST /api/v1/brewery
+Re-seeding Complete
+      ✓ should create a new brewery
+Re-seeding Complete
+      ✓ should not create a record if "name" parameter is missing
+    PATCH /api/v1/brewery/:id
+Re-seeding Complete
+      ✓ should update a specific brewery
+Re-seeding Complete
+      ✓ should not update a brewery without the required parameter of name
+    GET /api/v1/beer
+Re-seeding Complete
+      ✓ should return all beers
+    GET /api/v1/beer/:id
+Re-seeding Complete
+      ✓ should return beer by id
+Re-seeding Complete
+      ✓ should not return beer that does not exist
+    GET /api/v1/brewery/:id/beer
+Re-seeding Complete
+      ✓ should get all beers for a specific brewery
+Re-seeding Complete
+      ✓ should return no beers if id is not found
+    POST /api/v1/brewery/:id/beer
+Re-seeding Complete
+      ✓ should post beer to a specific brewery
+Re-seeding Complete
+      ✓ should not post a beer missing required parameters
+Re-seeding Complete
+      ✓ should not add a beer if the id does not exist 
+    DELETE /api/v1/brewery/:id/beer
+Re-seeding Complete
+      ✓ should delete all beers for a specific brewery
+Re-seeding Complete
+      ✓ should not delete a beer if the brewery does not exist
+    PATCH /api/v1/beer/:id
+Re-seeding Complete
+      ✓ should update a specific beer
+Re-seeding Complete
+      ✓ should not add a beer if id does not exist
+    DELETE /api/v1/beer/:id
+Re-seeding Complete
+      ✓ should delete a specific beer
+Re-seeding Complete
+      ✓ should not delete beer if it does not exist
+
+
+  25 passing (645ms)
+```
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
