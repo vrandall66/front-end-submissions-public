@@ -95,7 +95,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/noetic97/node-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIbd/4)
-* [Elevator Challenge]()
+* [Elevator Challenge](https://github.com/noetic97/elevator-challenge)
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
