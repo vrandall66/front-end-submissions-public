@@ -90,7 +90,7 @@ Anything else you wanna say!
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**5 points**: The application shows little effort in the interface. The evaluator has some difficulty using the application when reviewing the features in the user stories.
 
 * Ahhhhh the blue is burning my retinas.
 * There is a lot of low-hanging fruit here that could significantly improve the front-end. Spend some time picking a font and adding some padding to the content so it's not so flush-left. I know time is always an issue with these projects, but remember that you're a front-end developer and these are the things you'll be showing in your portfolio to employers. This particular UI doesn't seem to demonstrate a solid effort.

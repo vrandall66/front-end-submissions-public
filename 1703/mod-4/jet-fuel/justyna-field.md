@@ -83,7 +83,7 @@ Anything else you wanna say!
 
 ## Specification Adherence
 
-**20 points**: There are two features missing from the base expectations that make the application feel incomplete or hard to use.
+**40 points**: There is one feature missing from the base expectations that make the application feel incomplete or hard to use.
 
 ## User Interface
 
