@@ -49,7 +49,7 @@ Yes
 [sad code](https://github.com/JustynaField/BYOB/blob/master/data.js)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-We are not feeling great about not being able to scrape the data we needed for this project. The data we found was contained in a table, withought any class or id assigned to <td>'s.
+We are not feeling great about not being able to scrape the data we needed for this project. The data we found was contained in a table, withought any class or id assigned to td's.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
