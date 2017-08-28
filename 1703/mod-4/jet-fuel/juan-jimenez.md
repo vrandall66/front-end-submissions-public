@@ -150,11 +150,26 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * I wouldn't make the user pass in the ID through the body in a [delete request](https://github.com/jdiejim/Jet-Fuel/blob/master/test/routes.spec.js#L93-L94) the endpoint for this should be `/api/v1/folders/:id`. This falls more in line with RESTful API architecture.
 
 * Are you using [cors](https://github.com/jdiejim/Jet-Fuel/blob/master/server.js#L11) for a particular reason? Shouldn't really need it for this project.
+
+* 'Paths' in general is a rough name for links/urls. It can be misconstrued with too many other things like a path in a filesystem...you won't usually hear of URLs being called paths.
+
+* Where's your [.catch](https://github.com/jdiejim/Jet-Fuel/blob/master/models/Folder.js#L15)?
+
+* You're including this chunk of [setup](https://github.com/jdiejim/Jet-Fuel/blob/master/models/Path.js#L1-L3) in a lot of different files now, would be nice to do all of this in one place and require a single database instance in the files where you need it.
+
+* Nice job breaking things out with a router, controllers and models. A little overkill for this project but good practice nonetheless.
+
+* DOM operations like [prepending](https://github.com/jdiejim/Jet-Fuel/blob/master/src/utils/helpers.js#L6-L8) are expensive and slow. You want to use [Document Fragments](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment) here and build up all the HTML you need to append to the dom in a fragment first, then do a single append when it's all ready.
+
+* [This](https://github.com/jdiejim/Jet-Fuel/blob/master/src/utils/helpers.js#L23) is a place I might add a comment about what the structure of that string initially looks like so I can tell what I'm splitting and why I'm grabbing the item at index 1.
+
+* You can combine [lines](https://github.com/jdiejim/Jet-Fuel/blob/master/src/views/Collections.js#L21-L24) like [this](https://github.com/jdiejim/Jet-Fuel/blob/master/src/views/Collections.js#L16-L17) by comma-separating your selectors like `$('#id1, #id2')
+
 
 ## Workflow
 
@@ -167,4 +182,6 @@ I tried for fun using an MVC architecture, and created 2 models that handle the 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 150
+* Overall great job - you took a lot of risks that were great learning experiences but weren't quite executed at 100%. I know with doing things exactly the way we taught you, you would've had an easy 4 so I'm glad you were able to push yourself to do more.
+
+# Final Score: 125 / 160
