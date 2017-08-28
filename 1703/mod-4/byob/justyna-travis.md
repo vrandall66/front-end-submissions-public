@@ -64,57 +64,36 @@ Client Routes
 
   API Routes
     GET /api/v1/brewery
-Re-seeding Complete
       ✓ should return all of the breweries
     GET /api/v1/brewery/:id
-Re-seeding Complete
       ✓ should return a brewery by id
-Re-seeding Complete
       ✓ should return an error if a requested brewery does not exist
     POST /api/v1/brewery
-Re-seeding Complete
       ✓ should create a new brewery
-Re-seeding Complete
       ✓ should not create a record if "name" parameter is missing
     PATCH /api/v1/brewery/:id
-Re-seeding Complete
       ✓ should update a specific brewery
-Re-seeding Complete
       ✓ should not update a brewery without the required parameter of name
     GET /api/v1/beer
-Re-seeding Complete
       ✓ should return all beers
     GET /api/v1/beer/:id
-Re-seeding Complete
       ✓ should return beer by id
-Re-seeding Complete
       ✓ should not return beer that does not exist
     GET /api/v1/brewery/:id/beer
-Re-seeding Complete
       ✓ should get all beers for a specific brewery
-Re-seeding Complete
       ✓ should return no beers if id is not found
     POST /api/v1/brewery/:id/beer
-Re-seeding Complete
       ✓ should post beer to a specific brewery
-Re-seeding Complete
       ✓ should not post a beer missing required parameters
-Re-seeding Complete
       ✓ should not add a beer if the id does not exist 
     DELETE /api/v1/brewery/:id/beer
-Re-seeding Complete
       ✓ should delete all beers for a specific brewery
-Re-seeding Complete
       ✓ should not delete a beer if the brewery does not exist
     PATCH /api/v1/beer/:id
-Re-seeding Complete
       ✓ should update a specific beer
-Re-seeding Complete
       ✓ should not add a beer if id does not exist
     DELETE /api/v1/beer/:id
-Re-seeding Complete
       ✓ should delete a specific beer
-Re-seeding Complete
       ✓ should not delete beer if it does not exist
 
 
