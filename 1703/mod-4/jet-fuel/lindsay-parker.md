@@ -81,7 +81,25 @@ None
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**:  Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* Hardcoding a "hostname" [here](https://github.com/lindsaywparker/jet-fuel/blob/master/server.js#L83) is a little bizarre - it's fine to prefix your shortURL with something but I wouldn't make it an entire hostname with a top-level domain. (Especially since it isn't the URL of your deployed application)
+
+* Otherwise, perfect server file :) 
+
+* [Always](https://github.com/lindsaywparker/jet-fuel/blob/master/public/scripts.js#L11). [use](https://github.com/lindsaywparker/jet-fuel/blob/master/public/scripts.js#L33). [catches](https://github.com/lindsaywparker/jet-fuel/blob/master/public/scripts.js#L168).
+
+* DOM operations like [prepending](https://github.com/lindsaywparker/jet-fuel/blob/master/public/scripts.js#L11-L25) are expensive and slow. You want to use [Document Fragments](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment) here and build up all the HTML you need to append to the dom in a fragment first, then do a single append when it's all ready.
+
+* Nitpick but I'd rename this to [isValid](https://github.com/lindsaywparker/jet-fuel/blob/master/public/scripts.js#L54). Functions should be named with verbs or action words rather than nouns because they **do** something.
+
+* I would try to find a way to combine [these](https://github.com/lindsaywparker/jet-fuel/blob/master/public/scripts.js#L66-L75) into a single, generic 'clear' function that takes in the selectors it needs to empty as an argument.
+
+* Little confusing why there would be a `folder.error` within a [.then](https://github.com/lindsaywparker/jet-fuel/blob/master/public/scripts.js#L118) which would imply things were successful. You can check for the `ok` flag that is passed with a response object by default to determine if the status code that came back was erroneous and you need to throw an error for it.
+
+* Your createFolder and createLink functions share a lot of functionality that could probably be combined into a single function. There's this general flow of 'get the values we need to POST', 'do the POST request', 'append it to the DOM if it's successful', 'otherwise display an error'
+
+* I wouldn't do a `window.open` [here](https://github.com/lindsaywparker/jet-fuel/blob/master/public/scripts.js#L169), you should be able to just use an `<a>` tag with an `href` to your shortURL that will automatically redirect to the longURL when you click it. (Remember the default behavior of clicking a link tag is a GET request to that URL)
 
 ## Workflow
 
@@ -93,4 +111,4 @@ None
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 150
+# Final Score: 148 / 160
