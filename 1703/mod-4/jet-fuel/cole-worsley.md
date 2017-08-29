@@ -47,36 +47,57 @@ Fun project! Everything was pretty straightforward and clearly explained. It was
 
 ## Specification Adherence
 
-**50 points**:
+**40 points**:
+
+* Do not see link sorting functionality
+* No URL validation
 
 ## User Interface
 
-**20 points**:
+**15 points**:
+
+* The UI is pretty pleasant to use - I would add a title/description to the links or else I don't know what they represent or where they will go
+* The form labels/place holders are difficult to read
 
 ## Data Persistence with SQL Database
 
 **20 points**:
 
+* Good database validation for unique [folder names](https://github.com/coleworsley/jet-fuel/blob/master/db/migrations/20170815172451_initial.js#L6)
+* Keep in mind that `Promise.all` will not guarantee the order or which promises [in the array](https://github.com/coleworsley/jet-fuel/blob/master/db/migrations/20170815172451_initial.js#L3) are resolved. The code in the array will be started int he order of the indices, 
+but the resolution of the promises will not necessarily be in the same order. This could be an issue if the code in one promise relies and the code in another promise that assumes a particular order.
+* Be sure to use a `catch()` for [all promises](https://github.com/coleworsley/jet-fuel/blob/master/db/seeds/dev/folders.js#L53)
+
 ## Testing
 
-**20 points**:
+**15 points**:
+
+* You should be relying on the primary key auto increment in [your actual test](https://github.com/coleworsley/jet-fuel/blob/master/test/routes.spec.js#L58) instead of supplying an ID, a user wouldn't (shouldn't) send an ID through in the API request
+* Would like to see a sad path test [here](https://github.com/coleworsley/jet-fuel/blob/master/test/routes.spec.js#L188) for the case where a shortened URL does not exist in the DB
 
 ## Commented Server File
 
-**10 points**:
+**8 points**: Good comments, looking for a bit more detail on dependencies and middleware
 
 ## JavaScript Style
 
-**20 points**:
+**15 points**:
+
+* When using `fetch`, the `catch()` will not be thrown if the [fetch call](https://github.com/coleworsley/jet-fuel/blob/master/public/index.js#L4) receives a 404 response - it only goes to the catch if there are network errors. 
+So you should check for `response.ok`
+* Instead of using the id attribute in an element to store information like the [folder id value](https://github.com/coleworsley/jet-fuel/blob/master/public/index.js#L13), consider using the data attribute which is actually used for holding data values
+* Break out your fetch calls into separate functions since you might reuse the same call
+* The form of [this params check](https://github.com/coleworsley/jet-fuel/blob/master/server.js#L35-L39) is the same with a couple routes - could be made into its own function of even custom middleware
 
 ## Workflow
 
-**20 points**:
+**15 points**:
 
 * What is this readme file? (https://github.com/coleworsley/jet-fuel/blob/master/README.md)
+* Be sure not to include node_modules right off the bat. If you commit them even once, they'll be in the git version history of your project.
 
 
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 128 / 160
