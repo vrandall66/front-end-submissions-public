@@ -79,9 +79,8 @@ Anything else you wanna say!
 
 ## Specification Adherence
 
-<!-- **50 points**: -->
+**45 points**:
 
-* I have no idea how to add a folder or add a link to a folder (is this broken?)
 * Don't see a way to sort links in ascending/descending order
 
 ## User Interface
@@ -90,6 +89,8 @@ Anything else you wanna say!
 
 * The way that the links span the entire page is rough, and the text is very small
 * Folder names are all the way over to the left of the page even though the names are very short
+* I don't think that requiring the user to paste in a URL is the right choice, at least it wasn't obvious the first time I used the app - but it's cool that it automatically shortens it
+* The URL validation seems to work, but it would be nice to have some feedback to the user to say why it's not valid
 
 ## Data Persistence with SQL Database
 
@@ -134,4 +135,4 @@ but the resolution of the promises will not necessarily be in the same order. Th
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 118 / 160
