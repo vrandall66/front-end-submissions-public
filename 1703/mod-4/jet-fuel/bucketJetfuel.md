@@ -59,37 +59,42 @@ Anything else you wanna say!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**50 points**: Lorem ipsum dolor set amet
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Lorem ipsum dolor set amet
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Lorem ipsum dolor set amet
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Lorem ipsum dolor set amet
+
+## Commented Server File
+
+**10 points**: Lorem ipsum dolor set amet
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Lorem ipsum dolor set amet
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Lorem ipsum dolor set amet
 
 
-### To get a 3 on this project, you need to score 110 points or higher
-### To get a 4 on this project, you need to score 135 points or higher
+### To get a 3 on this project, you need to score 120 points or higher
+### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 150
+# Final Score: x / 160
+
 
 **Need to fix before eval can be completed**
 
