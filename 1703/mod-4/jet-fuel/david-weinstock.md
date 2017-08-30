@@ -89,34 +89,57 @@ This was a fun project! It was definitely a lot of new concepts to learn in a we
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**40 points**:
+
+* Bug: When you open the page, the link folders are open, but they do not show any links within them even after you close and open the folders again - this seems to be a sporadic bug. Refresh a few times and you see different behaviors.
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**:
+
+* So bright! But I like the general layout. Very easy to use and the copied shortened link is a nice additional feature.
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**:
+
+* Keep in mind that `Promise.all` will not guarantee the order or which promises [in the array](https://github.com/dstock48/jet-fuel/blob/master/db/migrations/20170816133314_initial.js#L3) are resolved. The code in the array will be started int he order of the indices, 
+but the resolution of the promises will not necessarily be in the same order. This could be an issue if the code in one promise relies and the code in another promise that assumes a particular order.
+* Good idea for a [database validation](https://github.com/dstock48/jet-fuel/blob/master/db/migrations/20170816133314_initial.js#L8)
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**:
+
+* I would consider taking out the "Reseed complete" console.log - this kind of hurts readability of your test suite in the terminal, and once you know you're hooks are working, then you can be confident about your reseed.
+* Would like to see a sad path test for if a shortened URL does not exist [here](https://github.com/dstock48/jet-fuel/blob/master/test/routes.spec.js#L57)
+* The 404 tests for the "folders" and "links" are really the same test because they test Express's default 404 handler. Express just doesn't find a route with that spelling, so it throws a 404.
+* Good overall happy and sad path tests
+
+## Commented Server File
+
+**10 points**: Good comments
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**:
+
+* I'm guessing the reason why there are sometimes links in folders and sometimes not is the progression of this [fetch call](https://github.com/dstock48/jet-fuel/blob/master/public/main.js#L166-L178). 
+If the link container is not ready for appending, then maybe nothing is appended to it. In this sequence, you want to make sure the folders and link containers are available before you try to append things withing the fetch call. Async is fun.
+* I think ideally you wouldn't want to change the ascending/descending links by making a request, reloading the page, and putting everything on the DOM again - I think this would mainly be done client side without going to the database again.
+* Make sure you are using `.catch()` on [every promise](https://github.com/dstock48/jet-fuel/blob/master/server.js#L30)
+* [This](https://github.com/dstock48/jet-fuel/blob/master/server.js#L60-L61) is OK to use here, but when you have a lot of route tied to that endpoint, readability will suffer a lot as more HTTP methods are added
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Good job using a gitignore
 
 
-### To get a 3 on this project, you need to score 110 points or higher
-### To get a 4 on this project, you need to score 135 points or higher
+### To get a 3 on this project, you need to score 120 points or higher
+### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 150
+# Final Score: 140 / 160

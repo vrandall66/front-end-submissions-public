@@ -111,16 +111,36 @@ This project was really difficult for me and though I got through most of it I d
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
 
 * Still good to have .catches [here](https://github.com/tlgreg86/jet-fuel/blob/master/test/routes.spec.js#L34-L39) in case there is something wrong with your test seed data
+
+* [This](https://github.com/tlgreg86/jet-fuel/blob/master/test/routes.spec.js#L80) would probably give you an intermittent test failure if you're not sorting your data before it comes back. There's no guarantee that new folder would be the second item in the array of folders every time. Same for all the other tests that are relying on an index of an item being in a particular spot.
 
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * [This](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L68-L70) isn't the only thing that could go wrong with your database transaction. We should still have an additional generic 500-level error to return if this isn't what actually went wrong. 
+
+* I'd group all of your `app.use` statements together instead of separating them by this [app.set](https://github.com/tlgreg86/jet-fuel/blob/master/server.js#L11-L16)
+
+* It would be better not to [hardcode this host name](https://github.com/tlgreg86/jet-fuel/blob/master/server.js#L75) in your short URLs. That's not even the real name of your application.
+
+* Not really a part of javascript style but this [directory](https://github.com/tlgreg86/jet-fuel/tree/master/public) is pretty messy. I'd break out your assets into subdirectories.
+
+* Nice job setting up all your [dom variables](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L3-L8) right away. A common convention for naming variables that represent jQuery objects is prefixing the variable name with $. So `const $dropDown = $('.dropbtn')`
+
+* Why pull out the [date](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L23) property into a variable and none of the other properties of the urL?
+
+* These [functions](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L23) could probably be combined into a generic 'clear' function that takes in an array of elements to clear as a parameter.
+
+* [Always](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L75-L83). [use](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L65-L69). [catches](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L47-L51).
+
+* Why are you preventing [default](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L108-L124) on all of these? Are they all <a> tags or form elements? You only need `preventDefault` if you actually need to prevent the default behavior of an interaction.
+
+
 
 ## Workflow
 
@@ -134,4 +154,4 @@ This project was really difficult for me and though I got through most of it I d
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 150
+# Final Score: 127 / 160

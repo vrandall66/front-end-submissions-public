@@ -101,34 +101,67 @@ It was a fun project. I really enjoyed working in the back and and have some ide
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**40 points**:
+
+* No animation showing the opening or closing of folders - everything is done through selecting through the drop down instead...
+* Bug: I can try to ad a link while "Select a Folder" is selected in the drop down, and the link goes through as `undefined` (when you refresh, it disappears)
+* Good client-side URL validation
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**:
+
+* The form is a little rough to get through
+* I wish I could see what folder I'm on other than viewing it through the tiny drop down menu
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**:
+
+* Keep in mind that `Promise.all` will not guarantee the order or which promises [in the array](https://github.com/jsullivan5/jet-fuel/blob/master/db/migrations/20170816133440_initial.js#L3) are resolved. The code in the array will be started int he order of the indices, 
+but the resolution of the promises will not necessarily be in the same order. This could be an issue if the code in one promise relies and the code in another promise that assumes a particular order.
+* Good database validation for [unique folder names](https://github.com/jsullivan5/jet-fuel/blob/master/db/migrations/20170816133440_initial.js#L6)
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**:
+
+* Why separate lines [here](https://github.com/jsullivan5/jet-fuel/blob/master/test/routes.spec.js#L3-L4)?
+* [This](https://github.com/jsullivan5/jet-fuel/blob/master/test/routes.spec.js#L39-L50) is too much to be doing in this kind of hook. You only need to re-seed data before every test. 
+For the migration, you want to run it only once in a `before()` hook, not `beforeEach()`. This is because the database schema won't change from test to test, but the records in the database will.
+* Good sad path test [here](https://github.com/jsullivan5/jet-fuel/blob/master/test/routes.spec.js#L106-L125)
+* Would like to see a sad path test [here](https://github.com/jsullivan5/jet-fuel/blob/master/test/routes.spec.js#L248) for the case where a shortened URL does not exist in the DB
+
+## Commented Server File
+
+**10 points**: Good commented server file
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**:
+
+* Nice use of the Express Router to extract some code
+* The controller file is a little overkill for this project, and normally there are separate controllers for each model (folders and links would each have a separate controller)
+* Would extract [this fetch call](https://github.com/jsullivan5/jet-fuel/blob/master/public/scripts.js#L3-L5) to it's own function
+* Consider using document fragments [here](https://github.com/jsullivan5/jet-fuel/blob/master/public/scripts.js#L20-L24) for appending items to the DOM, which will be more efficient for larger numbers of links or folders
+* Be sure to use a `catch()` on [every promise](https://github.com/jsullivan5/jet-fuel/blob/master/public/scripts.js#L6) for error handling, including fetch calls
+* When using `fetch`, the `catch()` will not be thrown if the [fetch call](https://github.com/jsullivan5/jet-fuel/blob/master/public/scripts.js#L90) receives a 404 response - it only goes to the catch if there are network errors. 
+So you should check for `response.ok`
+* You tend to have a lot of [whitespace](https://github.com/jsullivan5/jet-fuel/blob/master/public/scripts.js#L131) in your JS. Is this for your own readability? You could probably cut down on it if the function is only two lines of code within it.
+* [This is brutal](https://github.com/jsullivan5/jet-fuel/blob/master/public/scripts.js#L166) to read - definitely break this out into more readable logic, no sense in being clever with a one liner that is really hard to read and debug.
+* Careful with the [`console.log`](https://github.com/jsullivan5/jet-fuel/blob/master/server/controller.js#L30)
+* [These](https://github.com/jsullivan5/jet-fuel/blob/master/server/controller.js#L59-L65) are fairly repetitive in other routes, I imagine you could extract them into their own function and pass in the required params (or even write your own middleware)
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Be sure not to include node_modules right off the bat. If you commit them even once, they'll be in the git version history of your project.
 
 
-### To get a 3 on this project, you need to score 110 points or higher
-### To get a 4 on this project, you need to score 135 points or higher
+### To get a 3 on this project, you need to score 120 points or higher
+### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 150
+# Final Score: 130 / 160

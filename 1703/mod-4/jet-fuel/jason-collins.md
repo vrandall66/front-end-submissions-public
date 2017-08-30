@@ -82,7 +82,24 @@ _~ This is the code to toggle showing and hiding the list of links for a given f
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* Nitpick but I usually group my app.sets separately from my [app.uses](https://github.com/the-oem/jetfuel/blob/master/server.js#L8-L10). When you have a bigger, more complex application the order and organization is more important. 
+
+* You shouldn't really need to set an additional success/error [status](https://github.com/the-oem/jetfuel/blob/master/server.js#L20-L26) because the response will automatically come back with an `ok` flag based on the status code you send it. Doesn't hurt anything, but is a little redundant.
+
+* Some further [validation](https://github.com/the-oem/jetfuel/blob/master/server.js#L33-L35) you could do here is detect if name is the proper data type. What if someone passed in an integer or something weird?
+
+* This [ternary](https://github.com/the-oem/jetfuel/blob/master/server.js#L65-L74) is really difficult to read. Good rule of thumb is to only use ternaries for left-hand assignments that have a binary value and can fit on one line. e.g `var foo = bar ? baz : zam`
+
+* First things first [always use .catch with your promises](https://github.com/the-oem/jetfuel/blob/master/public/assets/js/script.js#L19-L26). Second, you're deferring `apiGetFolders` until the document is ready --- fetch requests are not dependent on the DOM being ready. You should kick this off immediately and only include functions that depend on the DOM in document.ready.
+
+* Without methods, using a [class](https://github.com/the-oem/jetfuel/blob/master/public/assets/js/script.js#L29-L42) here is a bit over-engineered.
+
+* Ahhh, I can't read [this](https://github.com/the-oem/jetfuel/blob/master/public/assets/js/script.js#L54). Don't get too carried away with your terneries and there's no need to squish everything onto one line.
+
+* DOM operations like [appending](https://github.com/the-oem/jetfuel/blob/master/public/assets/js/script.js#L68-L70) are expensive and slow. You want to use [Document Fragments](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment) here and build up all the HTML you need to append to the dom in a fragment first, then do a single append when it's all ready.
+
 
 ## Workflow
 
@@ -98,4 +115,4 @@ _~ This is the code to toggle showing and hiding the list of links for a given f
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 150
+# Final Score: 145 / 160
