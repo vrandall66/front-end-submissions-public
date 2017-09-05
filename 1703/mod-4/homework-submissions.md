@@ -87,9 +87,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/the-oem/node-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIZL/7)
 * [Elevator Challenge](https://github.com/the-oem/elevator-challenge)
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Sockets Tutorial](https://github.com/the-oem/sockets-chat-client)
+* [Pattern Party GitHub Repo](https://github.com/the-oem/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://the-oem.github.io/pattrn-party/)
 
 ### Joe Heitkamp
 
