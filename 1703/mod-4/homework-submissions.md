@@ -43,8 +43,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promises Practice Exercises]()
 * [Elevator Challenge](https://github.com/danielbucket/elevator-challenge)
 * [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Pattern Party GitHub Repo](https://github.com/danielbucket/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://danielbucket.github.io/pattrn-party/)
 
 ### David Weinstock
 
