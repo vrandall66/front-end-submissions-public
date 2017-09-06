@@ -146,13 +146,9 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints, though some of the assertions are too vague or lacking to be informative. The project has a linting configuration that passes with no errors.
 
 * I'd recommend doing [this](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L4) in your package.json rather than your test file.
-
-### JavaScript Style
-
-**30 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints, though some of the assertions are too vague or lacking to be informative. The project has a linting configuration that passes with no errors.
 
 * Your URLs for breweries are a bit off for RESTful architecture. Any endpoints for a brewery should actually be `breweries` instead. If you have a collection of things, you want the noun to match in a plural fashion. Even when you're only selecting a single one by id. An endpoint like that should be `/api/v1/breweries/:id`. The id param indicates that out of all breweries, I'm selecting one of them, but it doesn't mean you use the singular form of that noun -- we still want to indicate that the brewery we're retrieving is one of many.
 
@@ -164,6 +160,10 @@ The following set of points are distributed at the discretion of the instructor.
 
 * Another instance of a test that could contain [more assertions](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L277-L284) about the response body. What properties did the response contain? What were their values?
 
+
+### JavaScript Style
+
+**x points**: Lorem ipsum dolor set amet
 
 ## Project is worth 150 points
 
