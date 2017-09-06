@@ -210,7 +210,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**38 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* [.catches!!](https://github.com/jdiejim/BYOB/blob/master/test/betas.spec.js#L16-L23)
+
+* I'd set [these](https://github.com/jdiejim/BYOB/blob/master/test/betas.spec.js#L8-L10) as environment variables in a `.env` file or something similar. Not that they need to be super secure, but it's still nice to pull them out of the codebase and hardcode a single value rather than regenerating one every time your tests run.
 
 ### JavaScript Style
 

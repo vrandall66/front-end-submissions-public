@@ -97,7 +97,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 * It's not vital to make secondary assertions like [this](https://github.com/lindsaywparker/byob/blob/master/test/routes.spec.js#L260-L266) after POST request. If you've asserted that the POST came back with a 201, you can generally assume that the length of the array has increased. Having multiple requests in a single test block muddies is error prone and muddies the true source of a bug. 
 
-* This is also really nesty and [difficult to read](https://github.com/lindsaywparker/byob/blob/master/test/routes.spec.js#L581-L600). You should just make a single DELETE request based on an ID you know exists, and assert that a successful status code was returned. There are too many potential areas for error in this test that take away from testing DELETE functionality as a single unit.
+* This is also really nesty and [difficult to read](https://github.com/lindsaywparker/byob/blob/master/test/routes.spec.js#L581-L600). You should have a test that just makes a single DELETE request based on an ID you know exists, and assert that a successful status code was returned. There are too many potential areas for error in this test that take away from testing DELETE functionality as a single unit. Tests like this **are** good for integration purposes, but could be broken out a bit to be more readable.
 
 ### JavaScript Style
 

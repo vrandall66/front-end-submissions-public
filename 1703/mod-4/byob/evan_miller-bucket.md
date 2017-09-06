@@ -191,7 +191,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 * Where is your [.catch](https://github.com/EvanSays/byob/blob/master/test/genesServerTest.spec.js#L38-L42)? Also, while this code works, it's probably still better to break the `migrate.latest` out into a `before` block. Even though it essentially won't do anything assuming the database is up-to-date, it's still adding uncessary time to your test runner.
 
-* You shouldn't have to do this [double request](https://github.com/EvanSays/byob/blob/master/test/genesServerTest.spec.js#L184-L189) to test endpoints that require authentication. Simply pass in a valid JWT that has been previously generated and won't expire (you'd set this as an environment variable). Doing multiple requests in a single test is error prone and muddies the cause of errors.
+* You shouldn't have to do this [double request](https://github.com/EvanSays/byob/blob/master/test/genesServerTest.spec.js#L184-L189) to test endpoints that require authentication. Simply pass in a valid JWT that has been previously generated and won't expire (you'd set this as an environment variable in a .env file or something of the sort). Doing multiple requests in a single test is error prone and muddies the cause of errors.
 
 * If you're going to break out your tests into multiple files, I'd also move all of these [authentication tests](https://github.com/EvanSays/byob/blob/master/test/journalsServerTest.spec.js#L23-L74) into their own file as they're not directly related to journals.
 

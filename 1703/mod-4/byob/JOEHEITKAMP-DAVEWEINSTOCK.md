@@ -198,7 +198,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 * I'm a little confused by the way the test files are split up. I assumed the JWT tests would literally just test the authentication endpoint, but it looks like you have tests for resorts and trails split up between all different files. It's a little tough to follow this way.
 
-* [This](https://github.com/dstock48/byo-backend/blob/master/test/states-routes.spec.js#L415-L456) is a really nesty test that's difficult to follow. No test should have to contain more than 1 request. I'm not sure why you are going through a POST, GET and DELETE all in this single it block. The more requests you add to a single test, the more error prone it is and less likely to reflect the true source of a bug.
+* [This](https://github.com/dstock48/byo-backend/blob/master/test/states-routes.spec.js#L415-L456) is a really nesty test that's difficult to follow. No unit test should have to contain more than 1 request. I'm not sure why you are going through a POST, GET and DELETE all in this single it block. The more requests you add to a single test, the more error prone it is and less likely to reflect the true source of a bug. Making all these assertions **is** good for integration test purposes, but unecessary here/you would still always want a unit test to cover a single responsibility.
 
 
 ### JavaScript Style
