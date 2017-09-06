@@ -72,6 +72,8 @@ This concept will govern the overall functionality of snorlab, in which there wi
 > Progression of unlocking features
 - Full task/description/checklist/reminder functionality
 
+> Drag and Drop
+
 > Target: Full loot bag system with at least avatars and moods
 
 > Dream: Themes/Fonts/Quotes/Gify generator/slack integration
