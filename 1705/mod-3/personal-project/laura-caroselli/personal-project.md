@@ -3,12 +3,12 @@
 #### Check In: 1
 
 #### Project Pitch:
-An app to generate cost of living data for different cities, and the ability to compare cost of living (including housing rates, rent scores, purchasing power, and salary comparison) across cities. The user can set their city, add individual cities to a list, and also add comparisons to a list to view later. 
+An app to generate cost of living data for different cities, and the ability to compare cost of living (including housing rates, rent scores, purchasing power, and salary comparison) across cities. The user can set their city, add individual cities to a list, and also add comparisons to a list to view later.
 
 ### Deliverables
 
 #### Stack:
-React, Router, Redux, might need node for backend. 
+React, Router, Redux, might need node for backend.
 
 #### APIs:
 Teleport, Open Exchange, Numbeo
@@ -37,8 +37,15 @@ See extensions
 
 #### Biggest Challenges
 User sign-up/sign-in/sign-out capability and implementing the backend for it
-Testing 
+Testing
 
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- have initial app set up
+  - react redux router set up
+  - have initial call to API made
+  - Store should be updated with api data
+  - Start building city page.
+  - Start testing
