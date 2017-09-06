@@ -55,3 +55,8 @@
   #### Instructor Notes
   
   #### Deliverables for next checkin:
+
+  - Hook up typescript to react, redux and router 
+  - Have backend created 
+      - initial table setup favorites && user 
+  - have api making intial request and populating store. 
