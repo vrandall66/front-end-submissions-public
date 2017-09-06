@@ -27,3 +27,13 @@
 ### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- have auth0 hooked up 
+  (alternatively you can use passport as well)
+- have initial call to api loading redux store 
+  - have tests coming in 
+- have backend started 
+  - migration / user table created 
+  - test score table created 
+- start testing 
+- have login view built
