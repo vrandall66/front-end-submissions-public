@@ -16,7 +16,7 @@ When you're travelling to a city, the first thing you do is try to think about w
 
 #### Waffle & Github: https://waffle.io/davidbecker6081/ConnectMe, https://github.com/davidbecker6081/ConnectME
 
-#### Order Of Attack: 
+#### Order Of Attack: Breaking this out into iterations is going to be important. I think iteration 0 will be getting the api’s set up with initial set up of file/folder structure. Iteration 1 will be to be able to login and logout of Facebook. Iteration 2 will be to search a user’s friend list. Iteration 3 will be to bring in the chat application and send messages to friends. Iteration 4 will be to display users’ locations on the google map. Iteration 5……extensions of some sort. 
 
 #### MVP: I hope to have a multi-page application that brings in functionality of messaging and searching through friends. This application might also have the ability to store lists of friends in a particular city and user sign-in/sign-out functionality. 
 Option: user can find one person and connect with and then choose a thing to do around that area or maybe have their info showing up on the map
