@@ -41,3 +41,11 @@
  Integrating an API with relatively unclear documentation.
 
 #### Instructor Notes
+
+- hook up react, router, redux 
+- have intial api call made 
+  - populate store 
+  - create containers 
+  - start populating cards.
+  - start testing 
+- build out landing page component 
