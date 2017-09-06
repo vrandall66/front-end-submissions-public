@@ -175,7 +175,9 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**8 points**: The README includes documentation for all available endpoints and how to use them. Instructor needs some clarification when following the documentation for using the API.
+
+* Not sure if the hyphens [here](https://github.com/EvanSays/byob/blob/master/docs/GET_genes_id.md#parameters) indicated you were planning on adding additional information or not, but that's how it appears. It would be good to add the data type of all the params so I know when to pass through an integer vs string, etc. I'd also like to know exactly which parameters are required. "One or more" isn't super helpful.
 
 ### Feature Completion
 

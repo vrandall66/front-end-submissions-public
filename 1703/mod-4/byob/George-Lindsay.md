@@ -77,7 +77,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**9 points**: The README includes documentation for all available endpoints and how to use them. Instructor can easily follow the documentation for using the API.
+
+* It would be good to add the data type of all the params so I know when to pass through an integer vs string, etc. You can do this directly alongside the name of the parameter in parens.
+
+* I'd separate out the formatting of your required params vs. optional params so that they're in unique lists.
 
 ### Feature Completion
 

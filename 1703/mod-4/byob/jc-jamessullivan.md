@@ -82,7 +82,9 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**8 points**: The README includes documentation for all available endpoints and how to use them. Instructor needs some clarification when following the documentation for using the API.
+
+* [This](https://github.com/the-oem/byob/blob/master/docs/POST_locations.md#parameters) is pretty vague. What are the params? What are their data types? I wouldn't know how to construct this object if it was the first page of documentation I landed on.
 
 ### Feature Completion
 

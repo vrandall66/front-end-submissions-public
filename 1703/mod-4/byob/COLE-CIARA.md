@@ -81,7 +81,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**10 points**: The README includes documentation for all available endpoints and how to use them. Instructor can easily follow the documentation for using the API.
 
 ### Feature Completion
 

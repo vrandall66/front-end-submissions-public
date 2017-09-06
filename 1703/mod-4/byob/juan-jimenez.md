@@ -198,7 +198,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**8 points**: The README includes documentation for all available endpoints and how to use them. Instructor needs some clarification when following the documentation for using the API.
+
+* [This](https://github.com/jdiejim/BYOB/blob/master/docs/endpoints/post_region.md#requires-authentication) is a little vague. I'd like to see an example of how to do this written out in code.
+
+* I like that you've denoted required parameters [here](https://github.com/jdiejim/BYOB/blob/master/docs/endpoints/post_betas.md#parameters) but I'd also like to know what data type each param is. e.g. should I be passing in a string or integer?
 
 ### Feature Completion
 

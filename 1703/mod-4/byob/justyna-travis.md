@@ -134,7 +134,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**5 points**:  The README documentation is sparse in the information it provides and formatted in such a way that the instructor can not easily use every endpoint based on following the documentation.
+
+* The 'requires authentication' notes you've added to your write request documentation is really vague. What do I actually do to my request in order to authenticate it?
+
+* The formatting of the documentation makes it pretty difficult to follow. I'd like to see broken out lists of required/optional parameters for write requests that tell me the name, required/optional, a description and the data type of each parameter. I wouldn't be able to do a POST request following [this](https://github.com/JustynaField/BYOB#post-apiv1breweryidbeer) documentation.
 
 ### Feature Completion
 
