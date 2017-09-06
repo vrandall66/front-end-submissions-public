@@ -75,34 +75,83 @@ This project was really difficult for me and though I got through most of it I d
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**40 points**: There is one feature missing from the base expectations that makes the application feel incomplete or hard to use.
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**12 points**: The application shows effort in the interface, but some aspects of the UI make the interactions confusing. The evaluator has some difficulty using the application when reviewing the features in the user stories.
+
+* Tough to tell that I've successfully created a new folder, I see it's added in the drop down but there's no other visial indication that the request succeeded.
+* It's bizarre that you can't see the folders or links until you select a folder from the drop-down menu. I wouldn't have that form element controlling a display element. It should simply be for selecting a folder to create a new URL. Especially when the message about clicking on the links below is persistent.  It's also hard to tell what folder is being displayed because it's simply a list of the URLs with no folder container or header.
+* It's tough to tell that the submit button is disabled due to an invalid URL. I'd like some indication of what I did wrong (an error message or something) when I enter an invalid URL so that I can fix it.
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: The application persists data in a SQL database but with correct relationships between folders and URLs.
+
+* [Long url](https://github.com/tlgreg86/jet-fuel/blob/master/db/migrations/20170816184259_initial.js#L13) doesn't necessarily need to be unique here. You might want to put the same long URL in multiple folders.
+
+## Annotated Server File
+
+**8 points**: Each line of the server file (on a separate branch) is commented and explains the code using mostly accurate terminology
+
+* [Imports the knex configuration file that specifies a database setup for each environment our application will be running in](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L12)
+* [This](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L14) doesn't **create** a new database, but rather gives us access to one that we've previously created.
+* I'd like a little more specificity in your understanding with [these](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L16-L19) lines.
+* [This](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L24) isn't the *local* server, it's the entire application - that title will also be set in production and staging and anywhere else your code runs, not just locally.
+* [You aren't sending anything back to the client yet here - you are only sending back to the client when you actually return a response](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L30)
+* [Here is where you are sending a successful response to the client.](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L33)
+* [Send a 500-level response back to the client to indicate that there was an internal server error when retrieving folders](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L37)
+* [This](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L45) isn't looping through the **requests** parameters, it's looping through an array that you've defined of properties you want to be required.
+
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**18 points**: Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
+
+* Still good to have .catches [here](https://github.com/tlgreg86/jet-fuel/blob/master/test/routes.spec.js#L34-L39) in case there is something wrong with your test seed data
+
+* [This](https://github.com/tlgreg86/jet-fuel/blob/master/test/routes.spec.js#L80) would probably give you an intermittent test failure if you're not sorting your data before it comes back. There's no guarantee that new folder would be the second item in the array of folders every time. Same for all the other tests that are relying on an index of an item being in a particular spot.
+
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* [This](https://github.com/tlgreg86/jet-fuel/blob/083bb0ee41d05e207981fa2a29a8ff4310316e0b/server.js#L68-L70) isn't the only thing that could go wrong with your database transaction. We should still have an additional generic 500-level error to return if this isn't what actually went wrong. 
+
+* I'd group all of your `app.use` statements together instead of separating them by this [app.set](https://github.com/tlgreg86/jet-fuel/blob/master/server.js#L11-L16)
+
+* It would be better not to [hardcode this host name](https://github.com/tlgreg86/jet-fuel/blob/master/server.js#L75) in your short URLs. That's not even the real name of your application.
+
+* Not really a part of javascript style but this [directory](https://github.com/tlgreg86/jet-fuel/tree/master/public) is pretty messy. I'd break out your assets into subdirectories.
+
+* Nice job setting up all your [dom variables](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L3-L8) right away. A common convention for naming variables that represent jQuery objects is prefixing the variable name with $. So `const $dropDown = $('.dropbtn')`
+
+* Why pull out the [date](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L23) property into a variable and none of the other properties of the urL?
+
+* These [functions](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L23) could probably be combined into a generic 'clear' function that takes in an array of elements to clear as a parameter.
+
+* [Always](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L75-L83). [use](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L65-L69). [catches](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L47-L51).
+
+* Why are you preventing [default](https://github.com/tlgreg86/jet-fuel/blob/master/public/scripts.js#L108-L124) on all of these? Are they all <a> tags or form elements? You only need `preventDefault` if you actually need to prevent the default behavior of an interaction.
+
+
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**14 points**: The developer makes a series of small, atomic commits that document the evolution of their application. There are some formatting issues in the code base.
 
+* Good use of branches all appropriately named
+* ~40 commits likely isn't enough for the scope of this project. I'd likely expect somewhere in the 100s. This low number is an indicator that your commits are all likely doing a little too much and should be broken out into further commits.
+* Some [instances](https://github.com/tlgreg86/jet-fuel/commit/f6d491a62b5d1e1cf5e53a8da6a784cad2bc179d) of commented out code being committed to the repo
+* Don't commit [WIPS](https://github.com/tlgreg86/jet-fuel/commit/c1973dc638326d1b4ab912cde1b30547bec3f256) to master. This commit also does a bit more than the commit message implies. The diff is still easy to read, but there are irrelevant additions in this changest (get request)
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 150
+# Final Score: 127 / 160
