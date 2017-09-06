@@ -14,7 +14,7 @@ React, Router, Redux, might need node for backend.
 Teleport, Open Exchange, Numbeo
 
 #### Wireframes
-Notebook scribbles
+https://github.com/lcaroselli/CitySnapshot/tree/master/wireframe
 
 #### Waffle & Github
 https://github.com/lcaroselli/CitySnapshot
