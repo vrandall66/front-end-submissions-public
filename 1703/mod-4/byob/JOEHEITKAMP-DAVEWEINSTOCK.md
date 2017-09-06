@@ -190,7 +190,16 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**35 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* [First things first](https://github.com/dstock48/byo-backend/blob/master/test/JWT.spec.js#L18-L28), always always always have a `.catch()` with your `.thens()`. Second, don't do rollbacks on your schema during your tests. This puts your database in an out-of-date version and you'll be testing against the wrong things. You're undoing this by migrating latest immediately after the rollback any way, so it's not really giving you anything useful. Third, it's probably still better to break the `migrate.latest` out into a `before` block. Even though it essentially won't do anything assuming the database is up-to-date, it's still adding uncessary time to your test runner.
+
+* [This](https://github.com/dstock48/byo-backend/blob/master/test/JWT.spec.js#L132-L155) kind of data I'd break out into it's own file and import it in. Usually you'll see a fixtures or mock directory that contains data like this for testing purposes.
+
+* I'm a little confused by the way the test files are split up. I assumed the JWT tests would literally just test the authentication endpoint, but it looks like you have tests for resorts and trails split up between all different files. It's a little tough to follow this way.
+
+* [This](https://github.com/dstock48/byo-backend/blob/master/test/states-routes.spec.js#L415-L456) is a really nesty test that's difficult to follow. No test should have to contain more than 1 request. I'm not sure why you are going through a POST, GET and DELETE all in this single it block. The more requests you add to a single test, the more error prone it is and less likely to reflect the true source of a bug.
+
 
 ### JavaScript Style
 

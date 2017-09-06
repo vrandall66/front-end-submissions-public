@@ -89,7 +89,20 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**35 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* If you're setting the test environment [here](https://github.com/buji405/byob/blob/master/package.json#L7), you shouldn't need to hardcode the word 'test' [here](https://github.com/buji405/byob/blob/master/test/routes.spec.js#L3). Keeping that configuration dynamic would allow you to break out those two lines into a helper file and import it directly into your server and test files.
+
+* You could rewrite [this line](https://github.com/buji405/byob/blob/master/src/server.js#L19) to be just `module.exports = app` and then you wouldn't have to use this weird syntax in your [test file](https://github.com/buji405/byob/blob/master/test/routes.spec.js#L7)
+
+* I'd be careful about expiring a test JWT in [2 minutes](https://github.com/buji405/byob/blob/master/test/routes.spec.js#L15). The more complex your API gets, the more likely it will take longer than 2 minutes for your test suite to run.
+
+* [First things first](https://github.com/buji405/byob/blob/master/test/routes.spec.js#L36-L45), always always always have a `.catch()` with your `.thens()`. Second, don't do rollbacks on your schema during your tests. This puts your database in an out-of-date version and you'll be testing against the wrong things. You're undoing this by migrating latest immediately after the rollback any way, so it's not really giving you anything useful.
+
+* I'd make your it blocks a little more [descriptive](https://github.com/buji405/byob/blob/master/test/routes.spec.js#L67). I can't tell what POST request this is testing until I look a couple lines down to the actual request. Happy/Sad Path terminology is something we use when we're discussing the types of tests we write, but they're not the most helpful in our test descriptions.
+
+
+
 
 ### JavaScript Style
 

@@ -148,9 +148,21 @@ The following set of points are distributed at the discretion of the instructor.
 
 **x points**: Lorem ipsum dolor set amet
 
+* I'd recommend doing [this](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L4) in your package.json rather than your test file.
+
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints, though some of the assertions are too vague or lacking to be informative. The project has a linting configuration that passes with no errors.
+
+* Your URLs for breweries are a bit off for RESTful architecture. Any endpoints for a brewery should actually be `breweries` instead. If you have a collection of things, you want the noun to match in a plural fashion. Even when you're only selecting a single one by id. An endpoint like that should be `/api/v1/breweries/:id`. The id param indicates that out of all breweries, I'm selecting one of them, but it doesn't mean you use the singular form of that noun -- we still want to indicate that the brewery we're retrieving is one of many.
+
+* I'd add some assertions [here](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L47) about what comes back in the response besides the status. Did we get a token back? When it's decoded does it give us the values we passed in for our email and app name?
+
+* I'd rewrite this [assertion](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L89-L91) with `.includes()` (there may also be a `.contains`)). By writing out all of this find functionality, you're guaranteeing the assertion will be true assuming something is sent back. And if nothing is returned, this assertion will err out before it even completes because it won't be able to find a `.name` value on nothing.
+
+* You shouldn't have to do this [double request](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L126-L140) to test endpoints that require authentication. Simply pass in a valid JWT that has been previously generated and won't expire (you'd set this as an environment variable). Doing multiple requests in a single test is error prone and muddies the cause of errors.
+
+* Another instance of a test that could contain [more assertions](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L277-L284) about the response body. What properties did the response contain? What were their values?
 
 
 ## Project is worth 150 points
