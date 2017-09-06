@@ -7,8 +7,21 @@
 
 - I am proposing to build an advanced reminder and task tracking app which **slowely unlocks features** as more tasks/reminders are completed, in which the user _levels up_. There are several 'fun', non-functional rewards also granted upon completing tasks/reminders. This creates incentive for the user to continually use the app, as rewards are forever granted for completing tasks, creating an infinite level system.
 
-> Mockups:
-- https://slack-files.com/T029P2S9M-F6Z2XAP98-c6e2a6a63c
+## **Mockups**
+
+> Account Management
+- https://www.dropbox.com/s/u1grpus4rq9xv0n/snorlab_account.png?dl=0
+> New Reminder
+- https://www.dropbox.com/s/we7pm53yq1hljan/snorlab_reminder.png?dl=0
+> New Task
+- https://www.dropbox.com/s/w5rh7s5jwjqa9ju/snorlab_task.png?dl=0
+> Level Up
+- https://www.dropbox.com/s/klduqza71ha9vbx/snorlab_levelup.png?dl=0
+> Loot Bag
+- https://www.dropbox.com/s/9gw903qxji1n9cl/snorlab_loot.png?dl=0
+> Tokens
+- https://www.dropbox.com/s/d2oku2q4eujq1ed/snorlab_tokens.png?dl=0
+
 
 ## **Overview**
 
@@ -34,13 +47,13 @@ This concept will govern the overall functionality of snorlab, in which there wi
 
 ## **Technology List**
 
-- Must Haves
+- **Must Haves**
 
 > React, Redux, Router
 
 > React Notification System
 
-> Database/local API (postgreSQL/express?)
+> Database/local API (leaning towards Firebase)
 
 > Remote APIs:
 1. Avatar -- https://robohash.org
@@ -54,13 +67,13 @@ This concept will govern the overall functionality of snorlab, in which there wi
 
 > Drag-n-Drop: This would be a mostly drag and drop application (especially if React Native is used). Possibly using: https://react-dnd.github.io/react-dnd/
 
-- Extensions?
+- **Extensions**
 
 > React Native _must be decided on 1st_
 
-- Unknowns
+- **Unknowns**
 
-> Firebase??
+> Leaning towards Firebase over postgreSQL
 
 > API Fetch Library - maybe Axios / Moxios
 
@@ -74,9 +87,9 @@ This concept will govern the overall functionality of snorlab, in which there wi
 
 > Drag and Drop
 
-> Target: Full loot bag system with at least avatars and moods
+> Full loot bag system with at least avatars and moods
 
-> Dream: Themes/Fonts/Quotes/Gify generator/slack integration
+> **Dream**: Themes/Fonts/Quotes/Gify generator/slack integration
 
 
 ## **Resources**
