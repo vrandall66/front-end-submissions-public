@@ -114,9 +114,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/JustynaField/express-tutorial)
 * [Promises Practice Exercises](https://repl.it/Jxb7/35)
 * [Elevator Challenge](https://github.com/JustynaField/elevator-challenge)
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Sockets Tutorial](https://github.com/JustynaField/chat-app)
+* [Pattern Party GitHub Repo](https://github.com/JustynaField/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://justynafield.github.io/pattrn-party/)
 
 ### Lindsay Parker
 
