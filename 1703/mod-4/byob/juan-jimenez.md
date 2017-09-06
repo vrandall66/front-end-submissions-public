@@ -192,7 +192,7 @@ To get an admin token the email needs to end in @byob.io
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 

@@ -75,7 +75,7 @@ Great project - definitely taught us a ton about the complexities that go into a
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
