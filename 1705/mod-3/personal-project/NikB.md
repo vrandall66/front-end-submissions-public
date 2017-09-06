@@ -29,7 +29,10 @@
 ![order of attack waffle](screenshots/waffleboard.png "order of attack")
 
 #### MVP
-##### App should be able to show a team of players, displaying their stats and have a total for the team overall.  App should also be able to compare to a second team.
+- App should be able to show a team of players, displaying their stats and have a total for the team overall.  
+- App should allow user to  build a team 
+- App should be styled nicely.
+- App is well tested.
 
 #### Nice To Haves
 ##### -predictions
@@ -42,3 +45,9 @@
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- Have react, redux, router setup 
+- Have initial call to API
+  - have store populated with players 
+  - have tests for container and components. 
+  - start mocking out tests. 
