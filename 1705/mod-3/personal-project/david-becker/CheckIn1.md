@@ -29,7 +29,15 @@ Option: user can find one person and connect with and then choose a thing to do 
 
 #### Deliverables for next checkin:
 
-
+  - Have firebase hooked up to app 
+  - setup react, router, and redux 
+  - have facebook graph call populate redux store 
+      - build container 
+      - connect component 
+      - store populate with friends 
+      - render some sort of friend card 
+  - start testing with fetchmock 
+  - action tests. 
 
 
 
