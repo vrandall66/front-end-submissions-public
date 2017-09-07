@@ -203,7 +203,25 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* I'd reoder and space out these [dependencies](https://github.com/dstock48/byo-backend/blob/master/server.js#L1-L7) a bit. General convention is to have your third-party deps listed first, extra line break, then deps that you wrote (all the database config).
+
+//////////////// BREAK /////////////////////
+//////////// [THIS](https://github.com/dstock48/byo-backend/blob/master/server.js#L13-L81) OUT INTO A NEW ///////////
+///////////////////// FILE /////////////////
+
+* [This](https://github.com/dstock48/byo-backend/blob/master/server.js#L92-L99) is an actual endpoint, unrelated and independent of binding middlewear.
+
+* [These lines are a little long](https://github.com/dstock48/byo-backend/blob/master/server.js#L167) with all the middlewear you're applying. One thing you could do is also break out your request handlers into controller files so that you can make these all single-line handlers like `app.post('/endpoint', middlewearOne, Two, Three, actualRequestHandler);`
+
+* This [return statement](https://github.com/dstock48/byo-backend/blob/master/server.js#L187) looks a little lonely...and not super useful. You should only return an actual response from a request handler.
+
+* [.catch!!](https://github.com/dstock48/byo-backend/blob/master/server.js#L216)
+
+* A more consice and flexible way to do [this](https://github.com/dstock48/byo-backend/blob/master/server.js#L214-L223) is to use knex's `.modify()` method.
+
+* Lots of very similar, duplicated code like [this](https://github.com/dstock48/byo-backend/blob/master/server.js#L296-L302) and [this](https://github.com/dstock48/byo-backend/blob/master/server.js#L277-L281) and [this](https://github.com/dstock48/byo-backend/blob/master/server.js#L247-L252). You can break all your error handling out into a separate helper file.
 
 
 ## Project is worth 150 points
@@ -211,4 +229,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 125 / 150
