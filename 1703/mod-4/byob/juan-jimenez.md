@@ -218,12 +218,25 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**25 points**:  Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+* I know you are practicing and pushing yourself a bit further, but you do still want to be careful about over-engineering things a bit. I'd never take any points off for this, but just want to put in a note for when you're working in the real world: start simple, and break things out only as they start to get unruly. In a project like this, having a router with controllers would be a sufficient level of modularity.
+
+* I'd break [this](https://github.com/jdiejim/BYOB/blob/master/controllers/regionController.js#L22) out into multiple lines, it's a little tough to read and see where you're going with it when you have these nested objects and ES6 shorthand.
+
+* Despite my previous warning about not over-engineering things, here are [two](https://github.com/jdiejim/BYOB/blob/master/controllers/regionController.js#L12-L14) examples of [identical](https://github.com/jdiejim/BYOB/blob/master/controllers/regionController.js#L24-L26) code that could be broken out into a helper file for error handling ;) I see you kind of did that [here](https://github.com/jdiejim/BYOB/blob/master/controllers/betasController.js#L3-L20)
+
+* Be explicit with your [variable and parameter names](https://github.com/jdiejim/BYOB/blob/master/controllers/betasController.js#L3-L8). `e` is never as informative as `error`, and `str` is never as informative as `string`, which is never as informative as what that string value actually represents. I honestly can't truly guess based on just looking at this function. Using reduce here is also a little disorienting as now you're left with 'Error missing: ' at the end of the function which looks out of place until you realize it's an accumulator.
+
+* [This](https://github.com/jdiejim/BYOB/blob/master/controllers/betasController.js#L53-L59) looks like it could be combined to be a bit more dynamic and save some lines
+
+* For a function that returns a single boolean value, like [validateParams](https://github.com/jdiejim/BYOB/blob/master/models/Betas.js#L150), I'd rename this to something like `paramsAreValid` so that it can read `if (paramsAreValid) {}`
+
+* In general, there are a lot of conditionals in your models files that are good examples of places where you can refactor. If you find yourself doing multiple if/else conditions, like [this](https://github.com/jdiejim/BYOB/blob/master/models/Betas.js#L154-L160), you might want to rethink how the functions you're calling work. Another example is where you simply have a long list of [if](https://github.com/jdiejim/BYOB/blob/master/models/Betas.js#L118-L132) conditions in a particular method. This makes it very easy to introduce bugs or make your methods more error-prone. Usually extensive conditionals are a sign that your functions are either *too* flexible (be more strict about what a user can actually input, and tell them so in the documentation) or they're not flexible enough (allow them to handle more diverse inputs behind the scenes, so that you don't have to call three different functions because a particular parameter is differet.) These scenarios are the number one spot where you can improve your JavaScript with refactoring.
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 131 / 150
