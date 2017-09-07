@@ -85,7 +85,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**40 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
+**40 points**: Developer appears to have implemented all endpoints and secured them with JWTs but the instructor cannot verify because there are bugs in the application.
 
 * I get a syntax error when attempting to generate a JWT for myself at the home page of the application.
 
@@ -112,8 +112,6 @@ The following set of points are distributed at the discretion of the instructor.
 * Weird that post breweries is plural and [delete brewery is singular](https://github.com/buji405/byob/blob/master/src/router.js#L18-L19)
 
 * If you're only going to support passing the token in as a [header](https://github.com/buji405/byob/blob/master/src/controllers/AuthController.js#L4) you should be a bit more explicit about that in your documentation. The only way I can tell that from [here](https://github.com/buji405/byob/blob/master/Docs/postnewbrew.md) is in the final example at the bottom of the page.
-
-* Curious how [this](https://github.com/buji405/byob/blob/master/src/controllers/BreweriesController.js#L9-L15) works without a query param. If I just do a GET to `/api/v1/breweries` nothing is returned. What if I wanted to have multiple query params? Filter by name and city? The URL would (and should) be valid, even if there would be no results, but this reads as if it will only handle a single query param and immediately return something. I can't test this because there is no data on your production database.
 
 * More common just to return a [204 here](https://github.com/buji405/byob/blob/master/src/controllers/BreweriesController.js#L54-L57) rather than all this data.
 
