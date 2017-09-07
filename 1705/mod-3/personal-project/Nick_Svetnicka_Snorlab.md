@@ -236,3 +236,9 @@ Quotes would display in header and loot bag tokens would be granted to generate 
 ## Instructor Notes
 
 ## Deliverables for next checkin:
+
+- set up firebase 
+- set up react, redux, router 
+- have redux actions set up with firebase 
+- consider using a middle ware (you don't have to but it might be helpful)
+- set up testing.
