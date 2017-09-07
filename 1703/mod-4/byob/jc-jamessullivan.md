@@ -105,7 +105,17 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**:  Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* [This](https://github.com/the-oem/byob/blob/master/src/server/authController.js#L8-L15) is maybe a little overengineered. It's not the best idea to have a ternary produce values that are of different data types. I'd rather `admin` just be a Boolean value that's toggled in that ternady, then do an `Object.assign` with `{ admin }`.
+
+* I would avoid passing the token through as [a dynamic portion of the URL](https://github.com/the-oem/byob/blob/master/src/server/router.js#L13) and would prefer to see it required in the header or as a query parameter. This setup makes your URLs a bit unRESTful, as when I think about deleting a resource, I would expect the endpoint to be `/api/v1/cameras/:id`.
+
+* Returning your responses with a [status](https://github.com/the-oem/byob/blob/master/src/server/cameraController.js#L7-L13) property is a bit redundant. Each response from a fetch request automatically comes back with an `ok` flag that's either true or false and would essentially do the same thing.
+
+* [Ahhhh](https://github.com/the-oem/byob/blob/master/src/server/cameraController.js#L19-L27) this ternary is really difficult to read. Best practices/only use case for using ternaries in a readable fashion: left-hand assignments that will be assigned one of two values of the same data type. e.g. `let foo = bar ? true : false`.  That's about it. (True/false could be replaced with any two values, but generally you want them to be the same data type)
+
+* Code like [this](https://github.com/the-oem/byob/blob/master/src/server/locationController.js#L54-L63) is all over the place and could be broken out into a helper file for error handling.
 
 
 ## Project is worth 150 points
@@ -113,4 +123,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 133 / 150
