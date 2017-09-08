@@ -20,6 +20,7 @@ web audio daw
 firebase
 
 #### Wireframes
+![ref](https://turingschool.slack.com/files/jlucas5280/F6ZKP8CE4/screen_shot_2017-09-08_at_9.58.44_am.png)
 
 #### Original Comp
 ![ref](https://i.ytimg.com/vi/DuAQvgIvFH0/maxresdefault.jpg)
