@@ -15,6 +15,11 @@
 ### GitHub Project Created:
 - https://github.com/EndlessHypnosis/snor-lab
 
+### Firebase
+- Account Created
+- Project linked to api key
+- **Basic User Actions Complete** (register/login/logout)
+
 ### Middleware's being considered:
 - https://github.com/pburtchaell/redux-promise-middleware
 - https://github.com/gaearon/redux-thunk
