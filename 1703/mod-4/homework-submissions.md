@@ -105,7 +105,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/jdiejim/express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIRe/1)
 * [Elevator Challenge](https://github.com/jdiejim/elevator-challenge)
-* [Sockets Tutorial]()
+* [Sockets Tutorial](https://github.com/jdiejim/sockets-tutorial)
 * [Pattern Party GitHub Repo](https://github.com/jdiejim/pattrn-party)
 * [Pattern Party GitHub Pages Site](https://jdiejim.github.io/pattrn-party/)
 
