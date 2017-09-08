@@ -1,4 +1,4 @@
-## Project Name: 
+## Project Name:
 
 FoodGrader/FoodFacebook
 
@@ -18,7 +18,6 @@ FoodGrader/FoodFacebook
 * -Add a favorites array that is saved in the database, sort that array based on rating, display on a profile page in order of best to worst.
 
 
-
 *Add ons
 * -Get grades from yelp and health department
 * -Can friend other users.
@@ -29,6 +28,7 @@ FoodGrader/FoodFacebook
 * Redux
 * React-router-redux
 * Express
+
 
 #### APIs:
 
@@ -67,3 +67,47 @@ FoodGrader/FoodFacebook
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+
+
+# Teacher Notes:
+
+Dan A:
+
+Name: Food Grabber
+
+Description:
+* An app that lets people search restaurants, save favorites, save to-dos, find friends and message friends about restaurants
+
+MVP:
+* Ability to search with a map
+* Find restaurants and save to favorites
+* To-Do - opens calendar event or adds ability to track date/notes
+* Login/Profile functionality
+* Data storage via firebase
+* Restaurant scorecard showing data from multiple sources
+    * E.g. FDA, yelp, user-submitted
+
+Backend:
+* Firebase
+
+Auth:
+* Yes
+
+API:
+* Open FDA
+    * Get scores of restaurants
+* Google map API
+* Zomato
+    * Search for restaurants
+    * Ratings, location, quisine type, hours
+
+Extensions:
+* Ability to search users and create direct message
+* Adding friends to friend list
+
+
+Meeting 2:
+* Has access to API
+    * Can’t make requests with API key, documentation is shitty
+* Can’t get ConnectedRouter working, says it is undefined
