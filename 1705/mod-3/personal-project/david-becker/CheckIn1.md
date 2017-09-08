@@ -38,6 +38,24 @@ Option: user can find one person and connect with and then choose a thing to do 
       - render some sort of friend card 
   - start testing with fetchmock 
   - action tests. 
+  
+  
+  ###Things I've done
+
+wireframing galore!
+lots and lots of research
+Set up React, Router, Redux
+set up testing suite
+attempt at making facebook graph API call
+container/component is set up and ready to go-ish
+a few actions are written for api calls
+thunk is set up
+store is set up to hold a friends Array
+wrastled with Firebase for toooo long (meeting with mentor this afternoon to help)
+......wrastled with it again
+Instructor Notes
+
+Deliverables for next checkin:
 
 
 
