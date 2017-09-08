@@ -1,4 +1,4 @@
-## Project Name:
+## Project Name: 
 
 FoodGrader/FoodFacebook
 
@@ -18,6 +18,7 @@ FoodGrader/FoodFacebook
 * -Add a favorites array that is saved in the database, sort that array based on rating, display on a profile page in order of best to worst.
 
 
+
 *Add ons
 * -Get grades from yelp and health department
 * -Can friend other users.
@@ -28,7 +29,6 @@ FoodGrader/FoodFacebook
 * Redux
 * React-router-redux
 * Express
-
 
 #### APIs:
 
