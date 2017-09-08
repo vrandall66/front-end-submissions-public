@@ -45,3 +45,11 @@
 - Partial build out of backend server (HELP!)
 - Initial fetch from API
 - Configure store
+
+### things to do 
+ 
+ - write user to the database 
+ - build out the scores results table 
+ - build out front-end so that user can take a test. 
+ - start testing the front-end
+ - look into testing backend
