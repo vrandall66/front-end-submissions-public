@@ -128,30 +128,57 @@ Anything else you wanna say
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**5 points**:  The README documentation is sparse in the information it provides and formatted in such a way that the instructor can not easily use every endpoint based on following the documentation.
+
+* The 'requires authentication' notes you've added to your write request documentation is really vague. What do I actually do to my request in order to authenticate it?
+
+* The formatting of the documentation makes it pretty difficult to follow. I'd like to see broken out lists of required/optional parameters for write requests that tell me the name, required/optional, a description and the data type of each parameter. I wouldn't be able to do a POST request following [this](https://github.com/JustynaField/BYOB#post-apiv1breweryidbeer) documentation.
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints, though some of the assertions are too vague or lacking to be informative. The project has a linting configuration that passes with no errors.
+
+* I'd recommend doing [this](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L4) in your package.json rather than your test file.
+
+* I'd add some assertions [here](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L47) about what comes back in the response besides the status. Did we get a token back? When it's decoded does it give us the values we passed in for our email and app name?
+
+* I'd rewrite this [assertion](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L89-L91) with `.includes()` (there may also be a `.contains`)). By writing out all of this find functionality, you're guaranteeing the assertion will be true assuming something is sent back. And if nothing is returned, this assertion will err out before it even completes because it won't be able to find a `.name` value on nothing.
+
+* You shouldn't have to do this [double request](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L126-L140) to test endpoints that require authentication. Simply pass in a valid JWT that has been previously generated and won't expire (you'd set this as an environment variable). Doing multiple requests in a single test is error prone and muddies the cause of errors.
+
+* Another instance of a test that could contain [more assertions](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L277-L284) about the response body. What properties did the response contain? What were their values?
+
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**25 points**:  Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
+* Your URLs for breweries are a bit off for RESTful architecture. Any endpoints for a brewery should actually be `breweries` instead. If you have a collection of things, you want the noun to match in a plural fashion. Even when you're only selecting a single one by id. An endpoint like that should be `/api/v1/breweries/:id`. The id param indicates that out of all breweries, I'm selecting one of them, but it doesn't mean you use the singular form of that noun -- we still want to indicate that the brewery we're retrieving is one of many.
+
+
+* I'd break [this out](https://github.com/JustynaField/BYOB/blob/master/server.js#L28-L45) into a middlewear helper file.
+
+* You don't have to do a conditional [here](https://github.com/JustynaField/BYOB/blob/master/server.js#L69-L73), you can simply access the request.query object and modify the query based on what's there. If nothing is there, the query won't be modified. This would allow you to be a bit more flexible and allow users to use whatever valid query params they wanted rather than just `name`.
+
+* Lots of duplicated code like [this](https://github.com/JustynaField/BYOB/blob/master/server.js#L124-L130) that can be broken out into a helper file for error handling.
+
+* You don't want to return the [database query](https://github.com/JustynaField/BYOB/blob/master/server.js#L132), but rather the responses within your .thens and .catches.
+
+* [Obj](https://github.com/JustynaField/BYOB/blob/master/server.js#L221) is never a good name for an object
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 110 / 150

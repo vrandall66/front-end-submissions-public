@@ -176,25 +176,52 @@ Anything else you wanna say
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**10 points**: The README includes documentation for all available endpoints and how to use them. Instructor can easily follow the documentation for using the API.
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**35 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* [First things first](https://github.com/dstock48/byo-backend/blob/master/test/JWT.spec.js#L18-L28), always always always have a `.catch()` with your `.thens()`. Second, don't do rollbacks on your schema during your tests. This puts your database in an out-of-date version and you'll be testing against the wrong things. You're undoing this by migrating latest immediately after the rollback any way, so it's not really giving you anything useful. Third, it's probably still better to break the `migrate.latest` out into a `before` block. Even though it essentially won't do anything assuming the database is up-to-date, it's still adding uncessary time to your test runner.
+
+* [This](https://github.com/dstock48/byo-backend/blob/master/test/JWT.spec.js#L132-L155) kind of data I'd break out into it's own file and import it in. Usually you'll see a fixtures or mock directory that contains data like this for testing purposes.
+
+* I'm a little confused by the way the test files are split up. I assumed the JWT tests would literally just test the authentication endpoint, but it looks like you have tests for resorts and trails split up between all different files. It's a little tough to follow this way.
+
+* [This](https://github.com/dstock48/byo-backend/blob/master/test/states-routes.spec.js#L415-L456) is a really nesty test that's difficult to follow. No unit test should have to contain more than 1 request. I'm not sure why you are going through a POST, GET and DELETE all in this single it block. The more requests you add to a single test, the more error prone it is and less likely to reflect the true source of a bug. Making all these assertions **is** good for integration test purposes, but unecessary here/you would still always want a unit test to cover a single responsibility.
+
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* I'd reoder and space out these [dependencies](https://github.com/dstock48/byo-backend/blob/master/server.js#L1-L7) a bit. General convention is to have your third-party deps listed first, extra line break, then deps that you wrote (all the database config).
+
+//////////////// BREAK /////////////////////
+//////////// [THIS](https://github.com/dstock48/byo-backend/blob/master/server.js#L13-L81) OUT INTO A NEW ///////////
+///////////////////// FILE /////////////////
+
+* [This](https://github.com/dstock48/byo-backend/blob/master/server.js#L92-L99) is an actual endpoint, unrelated and independent of binding middlewear.
+
+* [These lines are a little long](https://github.com/dstock48/byo-backend/blob/master/server.js#L167) with all the middlewear you're applying. One thing you could do is also break out your request handlers into controller files so that you can make these all single-line handlers like `app.post('/endpoint', middlewearOne, Two, Three, actualRequestHandler);`
+
+* This [return statement](https://github.com/dstock48/byo-backend/blob/master/server.js#L187) looks a little lonely...and not super useful. You should only return an actual response from a request handler.
+
+* [.catch!!](https://github.com/dstock48/byo-backend/blob/master/server.js#L216)
+
+* A more consice and flexible way to do [this](https://github.com/dstock48/byo-backend/blob/master/server.js#L214-L223) is to use knex's `.modify()` method.
+
+* Lots of very similar, duplicated code like [this](https://github.com/dstock48/byo-backend/blob/master/server.js#L296-L302) and [this](https://github.com/dstock48/byo-backend/blob/master/server.js#L277-L281) and [this](https://github.com/dstock48/byo-backend/blob/master/server.js#L247-L252). You can break all your error handling out into a separate helper file.
 
 
 ## Project is worth 150 points
@@ -202,4 +229,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 125 / 150

@@ -43,8 +43,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promises Practice Exercises]()
 * [Elevator Challenge](https://github.com/danielbucket/elevator-challenge)
 * [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Pattern Party GitHub Repo](https://github.com/danielbucket/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://danielbucket.github.io/pattrn-party/)
 
 ### David Weinstock
 
@@ -79,17 +79,17 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promises Practice Exercises](https://gist.github.com/jsullivan5/6e590142516cc069eb618daea3732ae8)
 * [Elevator Challenge](https://github.com/jsullivan5/elevator-challenge)
 * [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Pattern Party GitHub Repo](https://github.com/jsullivan5/Pattern-Party)
+* [Pattern Party GitHub Pages Site](https://jsullivan5.github.io/Pattern-Party)
 
 ### Jason Collins
 
 * [Express Tutorial](https://github.com/the-oem/node-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIZL/7)
 * [Elevator Challenge](https://github.com/the-oem/elevator-challenge)
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Sockets Tutorial](https://github.com/the-oem/sockets-chat-client)
+* [Pattern Party GitHub Repo](https://github.com/the-oem/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://the-oem.github.io/pattrn-party/)
 
 ### Joe Heitkamp
 
@@ -113,7 +113,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/JustynaField/express-tutorial)
 * [Promises Practice Exercises](https://repl.it/Jxb7/35)
-* [Elevator Challenge]()
+* [Elevator Challenge](https://github.com/JustynaField/elevator-challenge)
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
@@ -123,9 +123,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/lindsaywparker/m4-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KAa7/4)
 * [Elevator Challenge](https://github.com/lindsaywparker/elevator-challenge)
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Sockets Tutorial](https://github.com/lindsaywparker/sockets-tutorial)
+* [Pattern Party GitHub Repo](https://github.com/lindsaywparker/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://lindsaywparker.github.io/pattrn-party/)
 
 ### Travis Gregory
 
