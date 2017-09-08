@@ -1,6 +1,7 @@
 #### Check In: 2
 
 ### Deliverables
+
 have hooked up react and redux (router-redux was giving me a lot of issues, tabled for now)
 have intial api call made
 populate store
@@ -30,3 +31,13 @@ build out landing page component
  Setting up react timeline and deciding how much data to actually use
 
 #### Instructor Notes
+
+#### Next checkin
+
+- react-virtualized 
+  - look into this package and see if you want to use this to load your data 
+  - if you're not into that pagination. 
+  - how can I filter the data 
+- start the "dog ear process"
+- start testing 
+  - mocking request.
