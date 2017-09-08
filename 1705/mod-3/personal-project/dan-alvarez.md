@@ -3,6 +3,11 @@
 FoodGrader/FoodFacebook
 
 #### Check In: 1
+#### Status-
+* Set up create react app, set up redux, with containers, reducers, actions and store.
+* Was not able to understand the API fetch. It is using a curl. I tried to read up on it and I haven't understood what they need me to do just o make the fetch cal work.
+* Tried to hook up store, however it is hard to know if it is working since I am not making an API call yet.
+
 
 #### Project Pitch
 
@@ -42,6 +47,7 @@ FoodGrader/FoodFacebook
 
 * Get initial API call working.
 * Map over info and diplay cards for each information
+
 
 #### MVP
 
