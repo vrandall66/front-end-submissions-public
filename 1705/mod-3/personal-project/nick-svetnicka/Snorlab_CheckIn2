@@ -1,0 +1,40 @@
+
+## Personal Project Proposal - Check In 2
+> Nick Svetnicka - Mod 3 - FE1705
+
+> **Project Name:** snorlab (_codename_)
+
+## Deliverables for Check-In
+
+> [**complete**] set up firebase 
+> [**complete**] set up react, redux, router 
+> [**complete**] have redux actions set up with firebase 
+> [**comparing solutions**] consider using a middleware (you don't have to but it might be helpful)
+> [**incomplete**] set up testing.
+
+### GitHub Project Created:
+- https://github.com/EndlessHypnosis/snor-lab
+
+### Firebase
+- Account Created
+- Project linked to api key
+- **Basic User Actions Complete** (register/login/logout)
+
+### Middleware's being considered:
+- https://github.com/pburtchaell/redux-promise-middleware
+- https://github.com/gaearon/redux-thunk
+- https://github.com/acdlite/redux-promise
+
+
+### Deliverables for Net 
+
+- choose a middleware 
+- decide if you need redux 
+- look into how firebase wants the data to be set in the DB 
+- have ideas going into the data base 
+- have it render in the view 
+- store image assests 
+- have the data linked to specific user 
+- Set up some testing. 
+- try to have one of the cron jobs set up.
+- grabe a beer with jhun

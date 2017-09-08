@@ -85,7 +85,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
+**40 points**: Developer appears to have implemented all endpoints and secured them with JWTs but the instructor cannot verify because there are bugs in the application.
+
+* I get a syntax error when attempting to generate a JWT for myself at the home page of the application.
+
+* None of your GET requests actually return any data. It appears as if you haven't seeded your production database with anything.
 
 ### Testing & Linting & Error Handling
 
@@ -101,12 +105,25 @@ The following set of points are distributed at the discretion of the instructor.
 
 * I'd make your it blocks a little more [descriptive](https://github.com/buji405/byob/blob/master/test/routes.spec.js#L67). I can't tell what POST request this is testing until I look a couple lines down to the actual request. Happy/Sad Path terminology is something we use when we're discussing the types of tests we write, but they're not the most helpful in our test descriptions.
 
-
-
-
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**25 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* Weird that post breweries is plural and [delete brewery is singular](https://github.com/buji405/byob/blob/master/src/router.js#L18-L19)
+
+* If you're only going to support passing the token in as a [header](https://github.com/buji405/byob/blob/master/src/controllers/AuthController.js#L4) you should be a bit more explicit about that in your documentation. The only way I can tell that from [here](https://github.com/buji405/byob/blob/master/Docs/postnewbrew.md) is in the final example at the bottom of the page.
+
+* More common just to return a [204 here](https://github.com/buji405/byob/blob/master/src/controllers/BreweriesController.js#L54-L57) rather than all this data.
+
+* Use a [422 here](https://github.com/buji405/byob/blob/master/src/controllers/BreweriesController.js#L74-L76).
+
+* [This](https://github.com/buji405/byob/blob/master/src/controllers/BreweriesController.js#L70-L71) is a bit difficult to read. We're throwing an error if a user includes a param that isn't valid, but the combination of using the term `optionalParams` and doing a `!includes` makes it really hard to decipher what's happening. `errors` could be renamed to `invalidParameters` as one step to make this more readable.
+
+* Still want a [.catch here](https://github.com/buji405/byob/blob/master/src/controllers/BrewsController.js#L17-L21)
+
+* [Obj is always a bad name for something](https://github.com/buji405/byob/blob/master/src/controllers/BrewsController.js#L48)
+
+* This [repeat code](https://github.com/buji405/byob/blob/master/src/controllers/BrewsController.js#L66-L73) could be broken out into a helper file for handling errors.
 
 
 ## Project is worth 150 points
@@ -114,4 +131,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 110 / 150

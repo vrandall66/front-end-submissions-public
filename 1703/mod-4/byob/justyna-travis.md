@@ -150,8 +150,6 @@ The following set of points are distributed at the discretion of the instructor.
 
 * I'd recommend doing [this](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L4) in your package.json rather than your test file.
 
-* Your URLs for breweries are a bit off for RESTful architecture. Any endpoints for a brewery should actually be `breweries` instead. If you have a collection of things, you want the noun to match in a plural fashion. Even when you're only selecting a single one by id. An endpoint like that should be `/api/v1/breweries/:id`. The id param indicates that out of all breweries, I'm selecting one of them, but it doesn't mean you use the singular form of that noun -- we still want to indicate that the brewery we're retrieving is one of many.
-
 * I'd add some assertions [here](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L47) about what comes back in the response besides the status. Did we get a token back? When it's decoded does it give us the values we passed in for our email and app name?
 
 * I'd rewrite this [assertion](https://github.com/JustynaField/BYOB/blob/master/test/routes.spec.js#L89-L91) with `.includes()` (there may also be a `.contains`)). By writing out all of this find functionality, you're guaranteeing the assertion will be true assuming something is sent back. And if nothing is returned, this assertion will err out before it even completes because it won't be able to find a `.name` value on nothing.
@@ -163,11 +161,24 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**25 points**:  Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* Your URLs for breweries are a bit off for RESTful architecture. Any endpoints for a brewery should actually be `breweries` instead. If you have a collection of things, you want the noun to match in a plural fashion. Even when you're only selecting a single one by id. An endpoint like that should be `/api/v1/breweries/:id`. The id param indicates that out of all breweries, I'm selecting one of them, but it doesn't mean you use the singular form of that noun -- we still want to indicate that the brewery we're retrieving is one of many.
+
+
+* I'd break [this out](https://github.com/JustynaField/BYOB/blob/master/server.js#L28-L45) into a middlewear helper file.
+
+* You don't have to do a conditional [here](https://github.com/JustynaField/BYOB/blob/master/server.js#L69-L73), you can simply access the request.query object and modify the query based on what's there. If nothing is there, the query won't be modified. This would allow you to be a bit more flexible and allow users to use whatever valid query params they wanted rather than just `name`.
+
+* Lots of duplicated code like [this](https://github.com/JustynaField/BYOB/blob/master/server.js#L124-L130) that can be broken out into a helper file for error handling.
+
+* You don't want to return the [database query](https://github.com/JustynaField/BYOB/blob/master/server.js#L132), but rather the responses within your .thens and .catches.
+
+* [Obj](https://github.com/JustynaField/BYOB/blob/master/server.js#L221) is never a good name for an object
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 110 / 150
