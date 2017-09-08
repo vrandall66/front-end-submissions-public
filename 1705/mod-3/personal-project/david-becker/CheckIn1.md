@@ -55,7 +55,12 @@ wrastled with Firebase for toooo long (meeting with mentor this afternoon to hel
 ......wrastled with it again
 Instructor Notes
 
-Deliverables for next checkin:
 
+# Deliverables for next checkin:
+- Get the API moving 
+- Get accesstoken from user 
+- start building the chat part
+- start tests 
+- build ui
 
 
