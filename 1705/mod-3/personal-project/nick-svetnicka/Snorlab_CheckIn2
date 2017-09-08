@@ -1,0 +1,21 @@
+
+## Personal Project Proposal - Check In 2
+> Nick Svetnicka - Mod 3 - FE1705
+
+> **Project Name:** snorlab (_codename_)
+
+## Deliverables for Check-In
+
+> [**complete**] set up firebase 
+> [**complete**] set up react, redux, router 
+> [**complete**] have redux actions set up with firebase 
+> [**comparing solutions**] consider using a middleware (you don't have to but it might be helpful)
+> [**incomplete**] set up testing.
+
+### GitHub Project Created:
+- https://github.com/EndlessHypnosis/snor-lab
+
+### Middleware's being considered:
+- https://github.com/pburtchaell/redux-promise-middleware
+- https://github.com/gaearon/redux-thunk
+- https://github.com/acdlite/redux-promise
