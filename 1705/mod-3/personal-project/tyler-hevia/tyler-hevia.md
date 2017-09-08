@@ -60,3 +60,27 @@
   - Have backend created 
       - initial table setup favorites && user 
   - have api making intial request and populating store. 
+  
+  #### Updates for check-in 2
+
+  - Set up my file structure and hooked up my redux
+  - Had trouble setting it up with TypeScript at first, so right now I'm going back through it and rewriting it
+  - Started my backend repo and wrote a very basic file with express
+  - Don't have a table yet
+  - Can get the information from my api, but haven't set it to store yet
+  - Still getting comfortable with TypeScript
+  - Decided to use GoogleBooks API instead of Goodreads
+
+### needs 
+
+- decide what backend to use 
+- if you're using node 
+      - set up up the user table 
+      - set up the favorites 
+      - look into building the database for the groups. 
+- If you're choosing FB 
+    - have firebase hooked 
+    - have the auth() function allowing the user to sign in 
+- user should be able to login 
+- user should be able to favorite books 
+- have the frontend hooked so that user can see available books
