@@ -1,3 +1,15 @@
+##
+update from last checkin:
+
+build file structure
+
+add Login page 
+
+research Firebase auth and data storage
+
+
+
+
 ## Project Name:
 Snowedin
 
