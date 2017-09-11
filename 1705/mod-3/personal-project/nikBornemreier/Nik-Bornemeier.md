@@ -44,6 +44,11 @@
 
 #### Instructor Notes
 
+#### So Far
+##### able to click on team and return team ID
+##### able to display a team of offensive players
+##### React is setup
+
 #### Deliverables for next checkin:
 
 - Have react, redux, router setup 
