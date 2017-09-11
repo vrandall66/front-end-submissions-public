@@ -44,6 +44,7 @@
 
 #### Instructor Notes
 
+
 #### Deliverables for next checkin:
 
 - Have react, redux, router setup 
@@ -51,3 +52,20 @@
   - have store populated with players 
   - have tests for container and components. 
   - start mocking out tests. 
+
+## Checkin-2 
+
+### deliverables met :
+  - able to click on team and return team ID
+  - able to display a team of offensive players
+  - React is setup
+  
+### Next Checkin 
+
+- Have que set up 
+- have team builder working 
+- style cards 
+- start testing 
+    - redux 
+- have playerCleaner function / object to help you get all the information cleaned before you set it in store. 
+- Have router set up.
