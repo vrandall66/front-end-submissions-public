@@ -19,10 +19,10 @@
 - Database connection working with understanding of how to structure data
 
 > Have ideas going into the data base 
-- Done
+- Basic Inserts working as well as attached listeners
 
 > Have it render in the view 
-- Done
+- Using the firebase list database layout, tasks are being displayed
 
 > Store image assests 
 - Images sent as blobs to Firebase Storage
