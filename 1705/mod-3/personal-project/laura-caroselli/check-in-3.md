@@ -19,4 +19,8 @@
 * What should I load in from the Google Maps API specifically ?
 
 #### Next Checkin-in
-
+- get testing running 
+- polishing the data cleaner so that its working outside 
+- putting data into cards 
+- compare cities working(ish)
+- have the citi list working as well. 
