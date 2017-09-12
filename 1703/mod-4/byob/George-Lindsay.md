@@ -85,7 +85,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
@@ -97,16 +97,27 @@ The following set of points are distributed at the discretion of the instructor.
 
 * It's not vital to make secondary assertions like [this](https://github.com/lindsaywparker/byob/blob/master/test/routes.spec.js#L260-L266) after POST request. If you've asserted that the POST came back with a 201, you can generally assume that the length of the array has increased. Having multiple requests in a single test block muddies is error prone and muddies the true source of a bug. 
 
-* This is also really nesty and [difficult to read](https://github.com/lindsaywparker/byob/blob/master/test/routes.spec.js#L581-L600). You should just make a single DELETE request based on an ID you know exists, and assert that a successful status code was returned. There are too many potential areas for error in this test that take away from testing DELETE functionality as a single unit.
+* This is also really nesty and [difficult to read](https://github.com/lindsaywparker/byob/blob/master/test/routes.spec.js#L581-L600). You should have a test that just makes a single DELETE request based on an ID you know exists, and assert that a successful status code was returned. There are too many potential areas for error in this test that take away from testing DELETE functionality as a single unit. Tests like this **are** good for integration purposes, but could be broken out a bit to be more readable.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**16 points**: Application is thoughtfully put together with some duplication and no major bugs, though there are a lot of scenarios where the logic is difficult to follow.
 
+* Would be nice to [break this out](https://github.com/lindsaywparker/byob/blob/master/router.js#L7-L22) into a middleware file.
+
+* A GET for a `regionType` by ID would be an easy endpoint to implement, especially since you already have a PUT and DELETE for that endpoint. Even though you're doing a flexible .modify() [here](https://github.com/lindsaywparker/byob/blob/master/controller.js#L16), it's still standard to pass that ID through as a dynamic URL param and not in the query.
+
+* What happens [here](https://github.com/lindsaywparker/byob/blob/master/controller.js#L16-L20) if I pass through an invalid parameter? Something more helpful than being thrown into the generic .catch() errors would be nice, especially since it's something you can check and catch before doing the select.
+
+* This is pretty [hard to read](https://github.com/lindsaywparker/byob/blob/master/controller.js#L37-L48). I would do the `Object.assign()` *outside* of the insert method and rename your variables from `cityId` to `city_id` so you can use ES6 shorthand for assigning that to the object. It's not clear at first glance why we're checking for if the regionType is neighborhood or zipcode, as we don't appear to do anything with that information and the else statement just sends back a vague error message about the POST request being unacceptable.
+
+* This is also a bit [difficult to read](https://github.com/lindsaywparker/byob/blob/master/controller.js#L65-L81). I would spread out what's happening on line [68](https://github.com/lindsaywparker/byob/blob/master/controller.js#L68). The variables on this line are all pretty generic and uninformative - `newData`, `element`, and `result[i]`. What do these things actually represent? It also looks like we have some nesting of Promises, but it's hard to tell if that's just an indentation error or not. You're returning a promise on line [70](https://github.com/lindsaywparker/byob/blob/master/controller.js#L70) but the next call to `.then()/.catch()` is indented once further. In all scenarios, you want to avoid ever nesting Promises. If you ever feel the need to do that, break out the nested chunk into its own function.
+
+* It's more common to just return a [204 here](https://github.com/lindsaywparker/byob/blob/master/controller.js#L90) rather than a 200 with a message. If you want to return a 200, I'd return the actual updated record in its entirety rather than a message.
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 120 / 150

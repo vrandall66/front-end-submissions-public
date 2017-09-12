@@ -181,7 +181,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
@@ -191,18 +191,29 @@ The following set of points are distributed at the discretion of the instructor.
 
 * Where is your [.catch](https://github.com/EvanSays/byob/blob/master/test/genesServerTest.spec.js#L38-L42)? Also, while this code works, it's probably still better to break the `migrate.latest` out into a `before` block. Even though it essentially won't do anything assuming the database is up-to-date, it's still adding uncessary time to your test runner.
 
-* You shouldn't have to do this [double request](https://github.com/EvanSays/byob/blob/master/test/genesServerTest.spec.js#L184-L189) to test endpoints that require authentication. Simply pass in a valid JWT that has been previously generated and won't expire (you'd set this as an environment variable). Doing multiple requests in a single test is error prone and muddies the cause of errors.
+* You shouldn't have to do this [double request](https://github.com/EvanSays/byob/blob/master/test/genesServerTest.spec.js#L184-L189) to test endpoints that require authentication. Simply pass in a valid JWT that has been previously generated and won't expire (you'd set this as an environment variable in a .env file or something of the sort). Doing multiple requests in a single test is error prone and muddies the cause of errors.
 
 * If you're going to break out your tests into multiple files, I'd also move all of these [authentication tests](https://github.com/EvanSays/byob/blob/master/test/journalsServerTest.spec.js#L23-L74) into their own file as they're not directly related to journals.
 
 ### JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**30 points**: Lorem ipsum dolor set amet
 
+* This is weird ordering/spacing of your [dependencies](https://github.com/EvanSays/byob/blob/master/server/server.js#L5-L8). Common convention is to list all 3rd-party dependencies first with no line breaks, break once, include your own dependencies, break once, start the app setup.
+
+* [Payload](https://github.com/EvanSays/byob/blob/master/server/server.js#L26) is always too generic and always a bad name for a variable. I know you often see it in documentation, but if you know what kind of data you're getting, you should name it as such.
+
+* This [styling](https://github.com/EvanSays/byob/blob/master/server/server.js#L33-L35) makes it a little difficult to read. I would also refactor this to just toggle the value of an `admin` variable, and do a single `Object.assign` afterwards with that variable.
+
+* I would bump [this](https://github.com/EvanSays/byob/blob/master/server/server.js#L60) endpoint handler down so that it's not sitting in between all the /journals endpoints. Keep any journal-related endpoints together and any gene-related endpoints together.
+
+* When you start seeing [repeat code like this](https://github.com/EvanSays/byob/blob/master/server/server.js#L146-L152) you might want to break it out into a helper file for handling errors.
+
+* [Whomp whomp what's this](https://github.com/EvanSays/byob/blob/master/server/routes.js)
 
 ## Project is worth 150 points
 
 ## To get a 3 on this project, you need to score 110 points or higher
 ## To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 133 / 150
