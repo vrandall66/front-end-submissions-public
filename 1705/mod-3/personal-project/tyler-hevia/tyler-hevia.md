@@ -40,7 +40,7 @@
   #### MVP
   
  - A user should be able to add a favorite book, click on it, and then see a recommendation displayed.
- - User can join a book club and users can vote on book. 
+ - User can join a book club and users can vote on book. (nice to have)
  - typescript 
  
   #### Nice To Haves
@@ -90,3 +90,12 @@
 - User can search books
 - Can fetch data from backend 
 - Basic styling for Login, Register, and Search components
+
+#### deliverables for next
+- have the favorite fully hooked up 
+- user can login and ui reflects 
+    - we are not inserting a user we are finding the user 
+ - whne user signs up you should set up an end point for ('user/new/')
+ - user can actually favorite 
+ - if you can get to this having some sort of catagories filter.
+ - test stuff. 
