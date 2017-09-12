@@ -38,3 +38,8 @@
 
 
 ### Deliverables for Next Checkin:
+ 
+ - implement the event for the unlockable lists 
+ - continue with testings 
+ - polish ui 
+ - build out the reminders. 
