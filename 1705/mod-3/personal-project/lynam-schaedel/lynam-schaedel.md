@@ -65,7 +65,7 @@
  - currently storing user's assessment progress in traitify
  
  ### things to do
- 
+ - look into implementing a back end session via JWT
  - add functionality to store the user's assessment id in results table in postgres
  - add multiple assessments
  - add results display
