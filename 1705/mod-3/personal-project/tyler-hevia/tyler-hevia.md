@@ -84,3 +84,9 @@
 - user should be able to login 
 - user should be able to favorite books 
 - have the frontend hooked so that user can see available books
+
+#### Updates for check-in 3
+- Created users and favorites tables
+- User can search books
+- Can fetch data from backend 
+- Basic styling for Login, Register, and Search components
