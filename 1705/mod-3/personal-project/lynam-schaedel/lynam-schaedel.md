@@ -53,3 +53,23 @@
  - build out front-end so that user can take a test. 
  - start testing the front-end
  - look into testing backend
+ 
+ ### Checkin 3
+ 
+ - started testing front-end
+ - looked at backend testing examples
+ - results table is built in postgres
+ - login with users already created works (with database)
+ - display assessment
+ - display personalities
+ - currently storing user's assessment progress in traitify
+ 
+ ### things to do
+ 
+ - add functionality to store the user's assessment id in results table in postgres
+ - add multiple assessments
+ - add results display
+ - handle unfinished assessments when user returns to page
+ - handle user must be logged in to take an assessment (redirect)
+ - finish personalities display (animations)
+ - add backend testing
