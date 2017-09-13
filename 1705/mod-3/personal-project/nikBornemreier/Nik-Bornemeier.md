@@ -72,6 +72,13 @@
 
 
 ### Que is set up but not displaying yet
-### working on team builder now
-### I do have a playerCleaner
-### I do have router setup as well!
+  - working on team builder now
+  - I do have a playerCleaner
+  - I do have router setup as well!
+
+### deliverables for next checkin
+
+- polish images 
+- favorites ui working correctly 
+- tests 
+- build team functionality 
