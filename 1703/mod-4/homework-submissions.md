@@ -61,8 +61,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promises Practice Exercises](https://repl.it/KH2F/4)
 * [Elevator Challenge](https://github.com/EvanSays/elevator-challenge)
 * [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Pattern Party GitHub Repo](https://github.com/EvanSays/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://evansays.github.io/pattrn-party/)
 
 ### George Goering
 
