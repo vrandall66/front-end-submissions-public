@@ -69,3 +69,16 @@
     - redux 
 - have playerCleaner function / object to help you get all the information cleaned before you set it in store. 
 - Have router set up.
+
+
+### Que is set up but not displaying yet
+  - working on team builder now
+  - I do have a playerCleaner
+  - I do have router setup as well!
+
+### deliverables for next checkin
+
+- polish images 
+- favorites ui working correctly 
+- tests 
+- build team functionality 
