@@ -1,132 +1,91 @@
-## Student:
-## Evaluator:
+## Student: Brandon and Julie H
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Missing functionality w/some extras: 
+	App shows more than the last 10 completed todos (part of phase 3) but YAY for character count functionality extension in Task input!
+
+- Good work w/following: 
+	Majority of refactoring - getting rid of anon functions, no deep-nested if/else statements, no global variables, and concise functions. CSS file neatly organized with very few areas that could be refactored. Discovering (and implementing) ternary operators. Doing a DTR and respecting each other's learning goals - sounded like the pairing went well!
+
+- Room for improvement w/following:
+	Indentation/nesting/spacing in HTML. DRYing up code so that multiple functions/event listeners associated with showing cards based on importance work as a single, dynamic function (225-278). Same with edit title/edit body functions. Commenting between each event listener in JS file makes it harder to read.
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
+ 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
+* Advanced Beginner
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
+  
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+  
+* Proficient    
 
 #### Conditional Logic
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Arrays
-
-* Novice  
-* Advanced Beginner  
+  
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+ 
+* Proficient    
 
 #### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
+  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
-
-* Novice  
-* Advanced Beginner  
+  
 * Proficient  
-* Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional

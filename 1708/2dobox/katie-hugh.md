@@ -1,132 +1,95 @@
-## Student:
-## Evaluator:
+## Student: Katie and Hugh
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Functionality: All 3 Phases completed with extension for disabling button with 120+ characters - HOORAY!
+
+- Good work w/the following:
+    Refactoring with JS so that no global variables, no anon functions, and that functions are concise/single responsibility. YAY for ARIA roles and good contrast on color scheme - contrast ratio passes accessibility tests in browser! Good naming with commits. Appreciate the index at the top of the CSS file. JS, both what is refactored and added to this project, is very readable and easy to follow. And YAY for one function to filter importance!
+
+- Room for improvement w/following:
+    Add labels to inputs for ARIA. More specific naming on feature branches. Consider using a single class across several elements that share the same styles (media queries section) in CSS file. Leveraging/revisiting DTR when pairing is not going as planned - which includes clarifying roles and expliciting communicating concerns in a respectful manner. Communication (which includes listening) is key! 
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 ## HTML
 
 #### Accessibility
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
 * Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
 * Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional

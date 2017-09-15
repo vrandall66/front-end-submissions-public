@@ -1,132 +1,89 @@
-## Student:
-## Evaluator:
+## Student: Rob and Spencer
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-## Functional Expectations
+- Functionality - Made it through all 3 phases!
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+- Good work w/following:
+    Stylistic changes for 2doBox. Clear that you kept UX in mind with the buttons, color choices, and positioning of elements for mobile. Nice work with avoiding deep-nested if/else statements and global variables. Yay for ARIA!!! I love that you are using comments in your PRs and that your naming is specific on your commit/PR history. Sounds like pairing went well!
+
+- Room for improvement w/following:
+    DRYing/refactoring functions in JS. Refactoring upvote/downvote into one single, dynamic function. Same for edit card/edit task. You should not be instantiating new Cards when pulling from local storage or filtering for search like in lines 225 and 232 as any one unique card object should only be instantiated once. Redundant code on lines 177-179, 186-188, 195-197, and 205-207 that could be refactored. 
+
+## Functional Expectations
+ 
+* Proficient   
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient 
 
 #### Implementation
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+ 
+* Proficient   
 
 #### Arrays
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner
+* Proficient   
 
 #### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
+ 
 * Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional
