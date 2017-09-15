@@ -99,3 +99,15 @@
  - user can actually favorite 
  - if you can get to this having some sort of catagories filter.
  - test stuff. 
+
+
+#### Check-in 4
+- Infinite fetch call loop in library
+- Styling sucks
+- Not checking for duplicate emails/usernames when registering new users
+- Need to notify user when login is unsuccessful
+- Need to communicate to the the user how to add a book to library and add styling for favorites
+- Add remove favorite functionality
+- Prevent duplicate favorites
+- Save user to local storage
+- Testing
