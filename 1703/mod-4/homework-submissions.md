@@ -135,6 +135,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/tlgreg86/intermission-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIeG)
 * [Elevator Challenge]()
-* [Sockets Tutorial]()
+* [Sockets Tutorial](https://github.com/tlgreg86/chat-practice/tree/master)
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
