@@ -79,7 +79,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/jsullivan5/express-intro)
 * [Promises Practice Exercises](https://gist.github.com/jsullivan5/6e590142516cc069eb618daea3732ae8)
 * [Elevator Challenge](https://github.com/jsullivan5/elevator-challenge)
-* [Sockets Tutorial]()
+* [Sockets Tutorial](https://github.com/jsullivan5/web-sockets-tutorial)
 * [Pattern Party GitHub Repo](https://github.com/jsullivan5/Pattern-Party)
 * [Pattern Party GitHub Pages Site](https://jsullivan5.github.io/Pattern-Party)
 
