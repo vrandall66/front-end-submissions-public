@@ -70,9 +70,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/Ggoering/FE-Mod-4-Express-tutorial)
 * [Promises Practice Exercises](https://github.com/Ggoering/FE-Mod-4-Promises-Exercises)
 * [Elevator Challenge](https://github.com/Ggoering/elevator-challenge)
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Sockets Tutorial](https://github.com/Ggoering/Right-Now)
+* [Pattern Party GitHub Repo](https://github.com/Ggoering/PattrnParty)
+* [Pattern Party GitHub Pages Site]( https://ggoering.github.io/PattrnParty/)
+* [Blerg Post](https://medium.com/@ggoering/want-to-get-your-first-open-source-contribution-do-something-simple-like-really-simple-113830e7d323)
 
 ### James Sullivan
 
