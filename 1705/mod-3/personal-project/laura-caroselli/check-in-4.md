@@ -15,7 +15,6 @@
 
 #### Issues:
 * STILL having trouble figuring out how to give CityPage and CityList a path when it renders a city so it doesn't overlap with another route -- I've tried a few different methods (messaged you about it)
-* Have to double-click on comparison page to get compared city's data -- React Lifecycle hooks offer a solution, but also throw the user into an infinite loop...
 * Need to fix search navigation into the results DIV with the up/down arrow key (tricking the browser to jump into that DIV from the input field with a keypress)
 
 
