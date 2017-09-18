@@ -96,9 +96,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/noetic97/node-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIbd/4)
 * [Elevator Challenge](https://github.com/noetic97/elevator-challenge)
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Sockets Tutorial](https://github.com/noetic97/websocket-tutorial)
+* [Pattern Party GitHub Repo](https://github.com/noetic97/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://noetic97.github.io/pattrn-party/)
+* [House of Vars Blog Post](https://medium.com/@JoeHeitkamp/open-source-success-5ae2593f9dd2)
 
 ### Juan Diego Jimenez
 
