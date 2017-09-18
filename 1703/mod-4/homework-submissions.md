@@ -45,6 +45,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Sockets Tutorial]()
 * [Pattern Party GitHub Repo](https://github.com/danielbucket/pattrn-party)
 * [Pattern Party GitHub Pages Site](https://danielbucket.github.io/pattrn-party/)
+* [Blog Post](https://medium.com/@danielludwick/contributing-to-open-source-d654c560e585)
 
 ### David Weinstock
 
