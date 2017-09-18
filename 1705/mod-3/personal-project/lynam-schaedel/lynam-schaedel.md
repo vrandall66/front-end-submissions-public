@@ -73,3 +73,23 @@
  - handle user must be logged in to take an assessment (redirect)
  - finish personalities display (animations)
  - add backend testing
+
+### Eval
+- Implemented backend testing
+- Added six total personality assessments categories
+- Added all results displays according to different types of assessments
+- Implemented localStorage
+- Entire redesign of the landing page (homepage)
+- Added styling to all pages
+- Finished personality types display page and assessments list display page
+- User must be logged in to take an assessment
+- All backend functionality to store users and assessment ids in place
+
+### Things to do for Re-Up
+- Add navigation text to landing page lightbulbs, and glow (?)
+- Add OAuth
+- Fix profile page bugs
+- Handle partial assessment functionality for user to complete an unfinished assessment
+- Clean up styling on all pages, make them consistent
+- Mobile/responsive (?)
+- Add more front-end testing, back-end testing (?)
