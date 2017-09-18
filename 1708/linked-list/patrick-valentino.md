@@ -1,61 +1,47 @@
-## Student:
-## Evaluator:
+## Student: Pat and Valentino
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- good work! Team embraced the struggle, overcame speed-bumps and frustrations, and came out the other side with a good project.
+- still a bit soft on fundamentals, keep practicing to really lock in syntax and build a really solid foundation.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
-* Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
+* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional
+* Proficient
 
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner
+* Proficient
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 

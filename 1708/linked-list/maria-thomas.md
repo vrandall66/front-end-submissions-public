@@ -1,61 +1,43 @@
-## Student:
-## Evaluator:
+## Student: Maria and Thomas
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- well done!
+- JS was _very_ verbose in areas (specifically around appending the cards to the DOM). Refactoring would drastically reduce the number of lines of code and increase clarity/legibility
+- well crafted CSS and HTML
+- overall, code is well crafted and carefully considered. It is clean, and well thought through.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional
-
+* Proficient
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 

@@ -39,21 +39,22 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Daniel Ludwick
 
-* [Express Tutorial]()
-* [Promises Practice Exercises]()
+* [Express Tutorial](https://github.com/danielbucket/ExpressTutorial)
+* [Promises Practice Exercises](https://repl.it/KIhN/0)
 * [Elevator Challenge](https://github.com/danielbucket/elevator-challenge)
-* [Sockets Tutorial]()
+* [Sockets Tutorial](https://github.com/danielbucket/socketHomework)
 * [Pattern Party GitHub Repo](https://github.com/danielbucket/pattrn-party)
 * [Pattern Party GitHub Pages Site](https://danielbucket.github.io/pattrn-party/)
+* [Blog Post](https://medium.com/@danielludwick/contributing-to-open-source-d654c560e585)
 
 ### David Weinstock
 
 * [Express Tutorial](https://github.com/dstock48/express-intro-tutorial)
 * [Promises Practice Exercises](https://repl.it/KFgV/)
 * [Elevator Challenge](https://github.com/dstock48/elevator-challenge)
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Sockets Tutorial](https://github.com/dstock48/chat-example)
+* [Pattern Party GitHub Repo](https://github.com/dstock48/pattern-party)
+* [Pattern Party GitHub Pages Site](https://dstock48.github.io/pattern-party/)
 
 ### Evan Miller
 
@@ -61,8 +62,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promises Practice Exercises](https://repl.it/KH2F/4)
 * [Elevator Challenge](https://github.com/EvanSays/elevator-challenge)
 * [Sockets Tutorial](https://github.com/EvanSays/web-socket-hw)
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Pattern Party GitHub Repo](https://github.com/EvanSays/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://evansays.github.io/pattrn-party/)
 
 ### George Goering
 
@@ -88,6 +89,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promises Practice Exercises](https://repl.it/KIZL/7)
 * [Elevator Challenge](https://github.com/the-oem/elevator-challenge)
 * [Sockets Tutorial](https://github.com/the-oem/sockets-chat-client)
+* [OSS Blog Post](https://medium.com/@TheOEM/oss-success-starts-with-the-readme-7ac5ed624056)
 * [Pattern Party GitHub Repo](https://github.com/the-oem/pattrn-party)
 * [Pattern Party GitHub Pages Site](https://the-oem.github.io/pattrn-party/)
 
@@ -96,9 +98,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/noetic97/node-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIbd/4)
 * [Elevator Challenge](https://github.com/noetic97/elevator-challenge)
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Sockets Tutorial](https://github.com/noetic97/websocket-tutorial)
+* [Pattern Party GitHub Repo](https://github.com/noetic97/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://noetic97.github.io/pattrn-party/)
+* [House of Vars Blog Post](https://medium.com/@JoeHeitkamp/open-source-success-5ae2593f9dd2)
 
 ### Juan Diego Jimenez
 
@@ -132,6 +135,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/tlgreg86/intermission-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIeG)
 * [Elevator Challenge]()
-* [Sockets Tutorial]()
+* [Sockets Tutorial](https://github.com/tlgreg86/chat-practice/tree/master)
 * [Pattern Party GitHub Repo]()
 * [Pattern Party GitHub Pages Site]()
