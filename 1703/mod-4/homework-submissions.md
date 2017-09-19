@@ -23,10 +23,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/buji405/node-tutorial)
 * [Promises Practice Exercises](https://repl.it/KFMP/1)
-* [Elevator Challenge]()
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Elevator Challenge](https://github.com/buji405/elevator-challenge)
+* [Sockets Tutorial](https://github.com/buji405/web-sockets)
+* [Pattern Party GitHub Repo](https://github.com/buji405/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://buji405.github.io/pattrn-party/)
 
 ### Cole Worsley
 
