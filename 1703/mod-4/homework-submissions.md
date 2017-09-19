@@ -34,8 +34,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promises Practice Exercises](https://repl.it/KDyv/1)
 * [Elevator Challenge](https://github.com/coleworsley/elevator-challenge)
 * [Sockets Tutorial](https://github.com/coleworsley/socket-chat-example)
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Pattern Party GitHub Repo](https://github.com/coleworsley/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://coleworsley.github.io/pattrn-party/)
+* [Blog Post](hhttps://medium.com/@coleworsley/my-first-experience-with-open-source-e10402ddbbe4)
 
 ### Daniel Ludwick
 
