@@ -8,7 +8,7 @@
 
 ## Organization
 
-1: Developer failed to use a project management tool to track its progress.
+3: Developer failed to use a project management tool to track its progress.
 
 # Technical Quality
 
