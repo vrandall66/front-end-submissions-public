@@ -93,3 +93,15 @@
 - Clean up styling on all pages, make them consistent
 - Mobile/responsive (?)
 - Add more front-end testing, back-end testing (?)
+
+### Re-Up Check-in
+- Added nav text to landing page lightbulbs and glow/pulse animation
+- Fixed profile page bugs
+- User can now finish an unfinished assessment and view results
+- Cleaned up styling, to make it more consistent
+- Added front-end and back-end testing
+
+### Things we still need to do
+- Mobile/responsive
+- Clean up results component
+- Implement OAuth
