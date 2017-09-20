@@ -23,10 +23,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/buji405/node-tutorial)
 * [Promises Practice Exercises](https://repl.it/KFMP/1)
-* [Elevator Challenge]()
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Elevator Challenge](https://github.com/buji405/elevator-challenge)
+* [Sockets Tutorial](https://github.com/buji405/web-sockets)
+* [Pattern Party GitHub Repo](https://github.com/buji405/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://buji405.github.io/pattrn-party/)
 
 ### Cole Worsley
 
@@ -34,8 +34,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promises Practice Exercises](https://repl.it/KDyv/1)
 * [Elevator Challenge](https://github.com/coleworsley/elevator-challenge)
 * [Sockets Tutorial](https://github.com/coleworsley/socket-chat-example)
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Pattern Party GitHub Repo](https://github.com/coleworsley/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://coleworsley.github.io/pattrn-party/)
+* [Blog Post](hhttps://medium.com/@coleworsley/my-first-experience-with-open-source-e10402ddbbe4)
 
 ### Daniel Ludwick
 
@@ -43,8 +44,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promises Practice Exercises](https://repl.it/KIhN/0)
 * [Elevator Challenge](https://github.com/danielbucket/elevator-challenge)
 * [Sockets Tutorial](https://github.com/danielbucket/socketHomework)
-* [Pattern Party GitHub Repo](https://github.com/danielbucket/pattrn-party)
-* [Pattern Party GitHub Pages Site](https://danielbucket.github.io/pattrn-party/)
+* [Pattern Party GitHub Repo](https://github.com/danielbucket/pattrnparty)
+* [Pattern Party GitHub Pages Site](https://danielbucket.github.io/pattrnparty/)
 * [Blog Post](https://medium.com/@danielludwick/contributing-to-open-source-d654c560e585)
 
 ### David Weinstock
@@ -70,9 +71,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/Ggoering/FE-Mod-4-Express-tutorial)
 * [Promises Practice Exercises](https://github.com/Ggoering/FE-Mod-4-Promises-Exercises)
 * [Elevator Challenge](https://github.com/Ggoering/elevator-challenge)
-* [Sockets Tutorial]()
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Sockets Tutorial](https://github.com/Ggoering/Right-Now)
+* [Pattern Party GitHub Repo](https://github.com/Ggoering/PattrnParty)
+* [Pattern Party GitHub Pages Site]( https://ggoering.github.io/PattrnParty/)
+* [Blerg Post](https://medium.com/@ggoering/want-to-get-your-first-open-source-contribution-do-something-simple-like-really-simple-113830e7d323)
 
 ### James Sullivan
 
@@ -134,7 +136,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/tlgreg86/intermission-express-tutorial)
 * [Promises Practice Exercises](https://repl.it/KIeG)
-* [Elevator Challenge]()
+* [Elevator Challenge](https://github.com/tlgreg86/elevator-challenge)
 * [Sockets Tutorial](https://github.com/tlgreg86/chat-practice/tree/master)
-* [Pattern Party GitHub Repo]()
-* [Pattern Party GitHub Pages Site]()
+* [Pattern Party GitHub Repo](https://github.com/tlgreg86/pattrn-party)
+* [Pattern Party GitHub Pages Site](https://tlgreg86.github.io/pattrn-party/)
