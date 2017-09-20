@@ -12,7 +12,6 @@ A good project idea should:
 
 * 3: Developer completed all the user stories and requirements set during check-ins.
 
-
 **2. Organization**
 
 * 4: Developer used a project management tool and updated their progress in real-time.
@@ -35,4 +34,4 @@ A good project idea should:
 
 **2. Performance**
 
-* 1: Project pages load on average over 500 milliseconds.
+* 3: Project pages load on average under 400 milliseconds.
