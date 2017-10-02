@@ -4,7 +4,7 @@
 
 # Basics
 
-#### Link to the Github Repository for the Project
+#### Link to the GitHub Repository for the Project
 [palette-picker]()
 
 #### Link to the Deployed Application
@@ -23,12 +23,12 @@ If not, explain what is missing and why.
 
 # Code Quality
 
-#### Link to a specific block of your code on Github that you are proud of
+#### Link to a specific block of your code on GitHub that you are proud of
 [happy code]()
 
 * Why were you proud of this piece of code?
 
-#### Link to a specific block of your code on Github that you feel not great about
+#### Link to a specific block of your code on GitHub that you feel not great about
 [sad code]()
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
