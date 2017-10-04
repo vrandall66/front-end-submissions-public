@@ -27,8 +27,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Christie Lynam
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/christielynam/express-tutorial) - Further Challenges: 1-3
+* [Promise Practice Exercise 1](https://repl.it/LtmK/0)
+* [Promise Practice Exercise 2](https://repl.it/LtmW/5)
 
 ### Dan Alvarez
 
