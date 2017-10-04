@@ -18,6 +18,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * Pattern Party Style Guide -->
 
+---
+
 ### Ana Jauregui
 
 * [Express Tutorial]()
