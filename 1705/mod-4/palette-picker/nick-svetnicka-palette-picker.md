@@ -6,7 +6,7 @@
 
 - the 2 databases should be called palettepicker and palettepicker_test
 
-- I setup the testing on a different port, so to run the test suite, run: **npm run test**
+- I setup the testing on port 3001, so to run the test suite, run: **npm run test**
 
 [Project Spec](http://frontend.turing.io/projects/palette-picker.html)
 
@@ -16,7 +16,7 @@
 [palette-picker](https://github.com/EndlessHypnosis/palette-picker)
 
 #### Link to the Deployed Application
-_NOT DEPLOYED YET_ [heroku]()
+[heroku](https://ns-palette-picker.herokuapp.com)
 
 #### Link to your annotated server file
 [annotated server file](https://github.com/EndlessHypnosis/palette-picker/blob/server-js-comments/server.js)
