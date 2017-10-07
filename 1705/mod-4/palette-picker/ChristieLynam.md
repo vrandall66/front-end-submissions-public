@@ -24,7 +24,7 @@ Yes, with the exception of 1 minor bug. When i click the delete icon, I original
 
 #### Which extensions, if any, did you complete?
 
-N/A
+Ability to modify color in the generator
 
 # Code Quality
 
