@@ -33,8 +33,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Dan Alvarez
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/danalvarez5280/PreWorkMod4) -Further Challenges 1-3
+* [Promise Practice Exercises](https://repl.it/LvA0/0)
 
 ### David Becker
 
