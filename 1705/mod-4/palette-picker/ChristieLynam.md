@@ -11,8 +11,8 @@
 [heroku](https://palette-picker-cl.herokuapp.com/)
 
 #### Link to your annotated server file
-[annotated server file]()
-* Not complete
+[annotated server file](https://github.com/christielynam/palette-picker/blob/server-comments/server.js)
+
 
 ## Completion
 
