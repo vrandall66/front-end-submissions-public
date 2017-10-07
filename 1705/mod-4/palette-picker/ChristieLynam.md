@@ -20,36 +20,34 @@
 
 If not, explain what is missing and why.
 
-No, I am still working on being able to click on the palette name and the palette and have those colors show in the generator.
+Yes, with the exception of 1 minor bug. When i click the delete icon, I originally get a 500 error (/api/v1/palettes/undefined). When I refresh the page and click it again, it removes the palette from the database correctly.
 
 #### Which extensions, if any, did you complete?
 
-none.... but hope to complete being able to change a color in the generator
+N/A
 
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L63-L75)
+[happy code](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L20-L32)
 
 * Why were you proud of this piece of code?
 
-This may totally be bad practice (not sure), but I was proud of making a nested fetch call for each project to append that projects palettes on page load. 
+I was proud of making a nested fetch call for each project to append that projects palettes on page load. 
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L30-L61)
+[sad code](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L44-L59)
+[more sad code](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L102-L116)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
-I feel like I should probably be able to do this with one function, but have just not had the time to do a major refactor since I am still trying to complete base functionality and testing.
+I feel like I should probably be able to write both append palette functions with one function, but have just not had the time to do a major refactor.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-<img width="662" alt="screen shot 2017-10-06 at 11 26 30 am" src="https://user-images.githubusercontent.com/20754511/31290357-6f288930-aa89-11e7-924c-c69f1c57545e.png">
-
+<img width="763" alt="screen shot 2017-10-06 at 10 54 46 pm" src="https://user-images.githubusercontent.com/20754511/31304860-7f119a20-aae9-11e7-841a-32b3c3b3ae24.png">
 
 #### Please feel free to ask any other questions or make any other statements below!
-
-I would greatly appreciate the opportunity to to finish this project over the weekend. I have enjoyed working on this project... I have just been unable to complete all of the requirements in the alloted time frame.
 
 -----
 
