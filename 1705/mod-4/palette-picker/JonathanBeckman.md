@@ -11,8 +11,7 @@
 [heroku](https://jb-palette-picker.herokuapp.com/)
 
 #### Link to your annotated server file
---coming soon!
-[annotated server file]()
+[annotated server file](https://github.com/jbexx/Palette-Picker/blob/comments/server.js)
 
 ## Completion
 
@@ -46,7 +45,8 @@ Because it took me a while to figure out how to handle an array in a string in h
 I'd like to have these event listeners inline but having to call e.preventDefault because these button are in a form kept me from doing that.  I suppose a point of refactoring would be to move the e.preventDefault into the function Im calling to have the event listeners as one line.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-- no test written yet
+<img width="452" alt="screen shot 2017-10-08 at 22 52 58" src="https://user-images.githubusercontent.com/23174736/31325546-89de403c-ac7b-11e7-879c-5289754aaf03.png">
+
 
 [test suite]()
 
@@ -54,8 +54,7 @@ I'd like to have these event listeners inline but having to call e.preventDefaul
 
 Anything else you wanna say!
 
-This project isn't complete.  I lost a lot time preparing my app for demo night and therefore did not finish this project.  It intend to edit this PR when I finish over the weekend.
-
+Thank you for the extra time.
 -----
 
 
