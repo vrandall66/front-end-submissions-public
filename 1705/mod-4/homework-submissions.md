@@ -73,8 +73,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Nick Svetnicka
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/EndlessHypnosis/prework-express) _Further Challenges 1, 3, 4_
+* [Promise Practice Exercises](https://repl.it/MSUn/9)
 
 ### Samuel Johnson
 
