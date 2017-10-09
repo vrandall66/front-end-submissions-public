@@ -88,5 +88,5 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Tyler Hevia
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/tylerjhevia/express-practice)
+* [Promise Practice Exercises](https://github.com/tylerjhevia/promise-practice)
