@@ -43,8 +43,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jack Mallahan
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/jackmallahan/express-tutorial) exercises: 1, 2, 3
+* [Promise Practice Exercises](https://codepen.io/jackmallahan/pen/xXWPBE?editors=0010)
 
 ### Jason Lucas
 
