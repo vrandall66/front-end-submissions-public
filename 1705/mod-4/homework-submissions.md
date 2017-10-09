@@ -83,8 +83,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Travis Rollins
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/Kalikoze/Node-Express-Practice) = Complete Challenges: 1-3
+* [Promise Practice Exercises](https://github.com/Kalikoze/Promise-Exercises)
 
 ### Tyler Hevia
 
