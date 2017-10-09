@@ -14,7 +14,7 @@
 
 ## Test-Driven Development
 
-1: Project lacks sufficient testing (under 85% coverage).
+3: Project has testing of actions and reducers
 
 ## Code Quality
 

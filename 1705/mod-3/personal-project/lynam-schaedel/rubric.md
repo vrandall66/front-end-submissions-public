@@ -10,8 +10,7 @@ A good project idea should:
 
 **1. Completion**
 
-* 3: Developer completed all the user stories and requirements set during check-ins.
-
+* 4: Developer completed all the user stories and requirements set in check-ins in timely manner.
 
 **2. Organization**
 
@@ -21,11 +20,12 @@ A good project idea should:
 
 **1. Test-Driven Development**
 
-* 3: Project shows adequate testing (90% - 95% coverage).
+<!-- * 3: Project shows adequate testing (90% - 95% coverage). -->
+* 2: Project shows gaps in test usage/coverage/design (85 - 90% coverage).
 
 **2. Code Quality**
 
-* 3: Project demonstrates solid code quality, proper abstractions, and reduced duplication.
+* 4: Project demonstrates exceptionally well factored code.
 
 ### Product Experience
 
@@ -35,4 +35,4 @@ A good project idea should:
 
 **2. Performance**
 
-* 1: Project pages load on average over 500 milliseconds.
+* 3: Project pages load on average under 400 milliseconds.
