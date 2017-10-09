@@ -2,7 +2,7 @@
 
 ### Evaluator:
 ### Student:
-### Comments:
+### Comments
 
 ## Specification Adherence
 
