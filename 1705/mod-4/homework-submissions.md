@@ -33,8 +33,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Dan Alvarez
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/danalvarez5280/PreWorkMod4) -Further Challenges 1-3
+* [Promise Practice Exercises](https://repl.it/LvA0/0)
 
 ### David Becker
 
@@ -43,8 +43,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jack Mallahan
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/jackmallahan/express-tutorial) exercises: 1, 2, 3
+* [Promise Practice Exercises](https://codepen.io/jackmallahan/pen/xXWPBE?editors=0010)
 
 ### Jason Lucas
 
@@ -63,8 +63,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Margo Schaedel
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/mschae16/express-tutorial) Further exercises: 1,2,4
+* [Promise Practice Exercises](https://repl.it/LuJq/1)
 
 ### Molly Foster
 
@@ -73,8 +73,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Nick Svetnicka
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/EndlessHypnosis/prework-express) _Further Challenges 1, 3, 4_
+* [Promise Practice Exercises](https://repl.it/MSUn/9)
 
 ### Samuel Johnson
 
@@ -83,10 +83,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Travis Rollins
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/Kalikoze/Node-Express-Practice) = Complete Challenges: 1-3
+* [Promise Practice Exercises](https://github.com/Kalikoze/Promise-Exercises)
 
 ### Tyler Hevia
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/tylerjhevia/express-practice) Exercises 1-3
+* [Promise Practice Exercises](https://github.com/tylerjhevia/promise-practice)
