@@ -49,7 +49,7 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 

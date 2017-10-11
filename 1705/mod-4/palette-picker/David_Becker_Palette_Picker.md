@@ -58,7 +58,7 @@ It's been hard for me to understand all of the connection between database and t
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 

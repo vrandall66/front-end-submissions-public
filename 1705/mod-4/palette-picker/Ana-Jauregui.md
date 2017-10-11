@@ -54,7 +54,7 @@ Anything else you wanna say!
 - This project was a very great challenge for me. I often feel like it takes me more time than I have to wrap my head around how to approach tasks to have a well functioning project. I honestly did not think that I would make it though this project. I find I do work better in paired projects when I have someone to collaborate ideas with. Overall I am proud of the growth and learning that has taken place for me throughout the project and I need to remind myself to be more confident with the skills I have gained in a short period of time. 
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
@@ -78,7 +78,13 @@ Anything else you wanna say!
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Pull requests are more important when you're collaborating in a group rather than working solo. You should still be using branches for your work (as you did), but using pull requests to merge them into master make the history difficult to read. All we see are these 'Merge Commits' that we have to dig into to actually see what functionality was added. If there's nobody reviewing your pull request, there's no point in creating one.
+
+* Some instances of [commented out code](https://github.com/anajauregui/Palette-Pickr/commit/6114be75a324b0b2bfb2a7e2d0a50e254c9c6d2e#diff-22cbc1db13fa2c410616712446566a7cL40) that made it into master
+
+* Some commits are doing a bit too much and the diffs are challenging to read. [This](https://github.com/anajauregui/Palette-Pickr/commit/6114be75a324b0b2bfb2a7e2d0a50e254c9c6d2e#diff-22cbc1db13fa2c410616712446566a7cL40) commit, for instance, is changing a lot of whitespace and semi-colon/code styling issues. These are things that should be broken out into separate commits so they don't clutter up the functionality that's being added.
 
 
 ### To get a 3 on this project, you need to score 120 points or higher

@@ -47,7 +47,7 @@ I feel bad that I did not finish what should be a roughly simple aspect of the p
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
