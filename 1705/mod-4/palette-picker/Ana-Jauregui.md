@@ -82,6 +82,8 @@ Anything else you wanna say!
 
 **x points**: Lorem ipsum dolor set amet
 
+* Not sure why you have this [cors](https://github.com/anajauregui/Palette-Pickr/blob/serverJS-comments/server.js#L22-L30) functionality in place, you should not have run into any cors errors on this project.
+
 ## Workflow
 
 **15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
