@@ -62,7 +62,11 @@ Anything else you wanna say!
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**10 points**: The application shows effort in the interface, and is clean and minimal. The evaluator has some difficulty using the application when reviewing the features in the user stories.
+
+* Click target is hard to see when locking a color in place because there is no hover effect/cursor change that indicates it's something I can click on. (This is a consistent problem, nothing looks clickable for any of the interactions on the page due to lack of hover effects and cursor changes.)
+
+* The form flow for saving a new palette is slightly confusing. Having two different buttons for 'Save Palette' and 'Save Project' makes me think these forms should be broken out a bit more...maybe with some titles and horizontal separation between the form fields. I initially tried to create a new palette and save it to a new project right away, but it seems this is a two-step process. After I create a new project, I'd immediately want to click 'save palette' and save it to that newly generated project, but instead it defaults to whatever is selected in the drop down on the left. I'd add more titles and descriptions of what you expect the user flow to be here to avoid confusion.
 
 ## Data Persistence with SQL Database
 
