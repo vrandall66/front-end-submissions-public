@@ -82,7 +82,14 @@ It's been hard for me to understand all of the connection between database and t
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Some of your commit messages are really useful and [informative](https://github.com/davidbecker6081/PalettePicker/commit/afe3dfbef854a3af3cb005555e582487028ecc85) and others are...kinda [useless](https://github.com/davidbecker6081/PalettePicker/commit/0a4f2d8692a160976cd7fdc1bc77b1fb8b844f67). Even when you get frustrated or you're throwing shit at the wall, try to be consistent with your commit messages.
+
+* Even though the commit message [here](https://github.com/davidbecker6081/PalettePicker/commit/afe3dfbef854a3af3cb005555e582487028ecc85) is nice, the commit itself is doing way too much work and includes lots of instances of commented out code. You can use `git stash` to hide changes that you don't want to commit yet and pop them back on when you want them back with `git stash pop`.
+
+* Nice use of issues and branches; pull requests here are kind of useless because you're working individually and nobody is reviewing your code. When you're working solo, I'd suggest using the standard merge/rebase workflow to keep your history clean and free of tons of merge commits.
+
 
 
 ### To get a 3 on this project, you need to score 120 points or higher
