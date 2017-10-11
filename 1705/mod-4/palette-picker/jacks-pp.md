@@ -67,7 +67,7 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: The application persists data in a SQL database with correct relationships between folders and URLs.
 
 ## Testing
 
@@ -76,6 +76,8 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet
+
+* [This](https://github.com/jackmallahan/palette-picker/blob/master/db/seeds/test.js) is some really intense indentation...you'll probably want to switch to 2 or 4-space indentation rather than these massive tabs. Not common to see code that looks like this in the real world. Generally you want to keep each line length to max 80 characters (that's a common linter rule to put in place), and you're tabbing enthusiam pushes your code super far to that limit.
 
 ## Workflow
 

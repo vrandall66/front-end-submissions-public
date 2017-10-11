@@ -59,7 +59,7 @@ I feel bad that I did not finish what should be a roughly simple aspect of the p
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: The application persists data in a SQL database with correct relationships between folders and URLs.
 
 ## Testing
 

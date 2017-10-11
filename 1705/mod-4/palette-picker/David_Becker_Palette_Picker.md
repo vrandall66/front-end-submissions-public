@@ -80,7 +80,7 @@ It's been hard for me to understand all of the connection between database and t
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: The application persists data in a SQL database with correct relationships between folders and URLs.
 
 ## Testing
 
@@ -89,6 +89,10 @@ It's been hard for me to understand all of the connection between database and t
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet
+
+* [This](https://github.com/davidbecker6081/PalettePicker/blob/master/db/migrations/20171003162939_initial.js#L5) is a weird column name. You either want to use snake_case or camelCase, not a combination of the two. I'd rename this to `projectName` or `project_name`
+
+* Don't forget to always have a `.catch` for every [.then](https://github.com/davidbecker6081/PalettePicker/blob/master/db/seeds/test/test.js#L55)
 
 ## Workflow
 

@@ -70,7 +70,7 @@ I feel like I should probably be able to write both append palette functions wit
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: The application persists data in a SQL database with correct relationships between folders and URLs.
 
 ## Testing
 
