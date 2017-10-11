@@ -52,7 +52,14 @@ Anything else you wanna say!
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**16 points**: The application has many strong pages/interactions, but could use some cleanup to make it a bit more minimal.
+
+* Nice CSS animation with the colors! I would leave the Palette Picker title in place instead of sliding it in from the right, it's a little distracting and I think takes away from the awesomeness of the color animations since it covers them up at the end. It could also be cool to do the transition flipped...having the colors fill in from the top to bottom...might make it look like "dripping paint" or something.
+
+* Little weird to have commas after your drop down menu items for your project names.
+
+* Using the bound boxes for each project is a nice way to keep the layout in tact, but it also makes it look a little busy. One thing you could do is remove the horizontal scroll bars for each project box by using the CSS property `overflow-x: hidden`. It's safe to assume that the width of each palette would be the same and nothing would overflow in that direction.
+
 
 ## Data Persistence with SQL Database
 
