@@ -60,7 +60,13 @@ I feel like I should probably be able to write both append palette functions wit
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**13 points**: The application shows effort in the interface, and is clean and minimal. The evaluator has some difficulty using the application when reviewing the features in the user stories.
+
+* The form flow for saving a new palette is slightly confusing. I know your solution closely mimics the wireframes, but wireframes are simply a guide, not something to be implemented and followed exactly to spec. Think about this flow from a user perspective, does it make sense to you? I initially tried to create a new palette and save it to a new project right away, but it seems this is a two-step process. After I create a new project, I'd immediately want to click 'save palette' and save it to that newly generated project, but instead it defaults to whatever is selected in the drop down on the left. I'd add more titles and descriptions of what you expect the user flow to be here to avoid confusion.
+
+* I'd add a note under the project headers that says something like 'There are no palettes saved for this project' if there are no palettes present. The alignment makes it a little difficult to visually see the heirarchy, especially if there are no palettes present. I'd consider either left-aligning the content or at least bumping the palette names onto their own line. (Since palette names can vary in length, it makes that entire line really wonky if you have a long name)
+
+* I don't take points off for style that I simply don't like, but one thing I would suggest is making your background, buttons and fonts a little more subtle and minimal, so that the palette colors actually stand out and become the prominent visual attraction on the page. It's difficult to see if a color palette is actually appealing when there are other competing colors and words on the page.
 
 ## Data Persistence with SQL Database
 
