@@ -78,6 +78,12 @@ Anything else you wanna say!
 
 **x points**: Lorem ipsum dolor set amet
 
+## Commented Server File
+
+**9 points**: Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
+
+* Would like this comment to be more [specific](https://github.com/anajauregui/Palette-Pickr/blob/serverJS-comments/server.js#L21). What are you actually configuring about the server access? (This code doesn't actually need to be in your project at all, not sure why it's here, but if it's here, make sure you can speak to it better than this.)
+
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet

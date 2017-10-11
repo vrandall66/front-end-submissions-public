@@ -73,6 +73,17 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 
 **x points**: Lorem ipsum dolor set amet
 
+## Commented Server File
+
+**8 points**: Each line of the server file (on a separate branch) is commented and explains the code using mostly precise, correct terminology and specificity
+
+* Little confusing [here](https://github.com/jackmallahan/palette-picker/blob/comments/server.js#L5) I'd rewrite this to explain what you mean by "available to use" and clarify what you mean by "server requests" --- the requests that are being parsed here are from the client, not the server.
+
+* [Meh](https://github.com/jackmallahan/palette-picker/blob/comments/server.js#L9), it's doing a lot more than this. This section determines our current environment and falls back to development by default. It then grabs the appropriate database configuration from our knexfile based on which environment our application is running in, and gives us access to an instance of the corresponding database.
+
+* What "above environment variable"[?](https://github.com/jackmallahan/palette-picker/blob/comments/server.js#L22)
+
+
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet

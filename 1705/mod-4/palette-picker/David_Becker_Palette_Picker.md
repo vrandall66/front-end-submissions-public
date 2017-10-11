@@ -86,6 +86,18 @@ It's been hard for me to understand all of the connection between database and t
 
 **x points**: Lorem ipsum dolor set amet
 
+## Commented Server File
+
+**6 points**: Each line of the server file (on a separate branch) is commented and explains the code but often uses incorrect terminology and is inaccurate in some cases
+
+* Knex is not [middleware](https://github.com/davidbecker6081/PalettePicker/blob/add-comments-server/server.js#L9-L10). This section determines our current environment and falls back to development by default. It then grabs the appropriate database configuration from our knexfile based on which environment our application is running in, and gives us access to an instance of the corresponding database.
+
+* **[This](https://github.com/davidbecker6081/PalettePicker/blob/add-comments-server/server.js#L15-L17)** is middleware. Not methods.
+
+* I'd like a mention of environment variables [here](https://github.com/davidbecker6081/PalettePicker/blob/add-comments-server/server.js#L22) not just 'if the port is undefined'
+
+* What is the [array given?](https://github.com/davidbecker6081/PalettePicker/blob/add-comments-server/server.js#L33) - explain to me that you are looping through the request body to check for all required parameters, not just that keys are missing.
+
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet
@@ -93,6 +105,8 @@ It's been hard for me to understand all of the connection between database and t
 * [This](https://github.com/davidbecker6081/PalettePicker/blob/master/db/migrations/20171003162939_initial.js#L5) is a weird column name. You either want to use snake_case or camelCase, not a combination of the two. I'd rename this to `projectName` or `project_name`
 
 * Don't forget to always have a `.catch` for every [.then](https://github.com/davidbecker6081/PalettePicker/blob/master/db/seeds/test/test.js#L55)
+
+* What is this sad, empty [else](https://github.com/davidbecker6081/PalettePicker/blob/add-comments-server/server.js#L41-L43) statement?
 
 ## Workflow
 

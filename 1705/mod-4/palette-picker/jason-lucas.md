@@ -69,6 +69,11 @@ Anything else you wanna say!
 
 **x points**: Lorem ipsum dolor set amet
 
+## Commented Server File
+
+**8 points**: Each line of the server file (on a separate branch) is commented and explains the code using mostly precise, correct terminology and specificity
+
+
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet

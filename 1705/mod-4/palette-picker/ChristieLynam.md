@@ -80,6 +80,16 @@ I feel like I should probably be able to write both append palette functions wit
 
 **x points**: Lorem ipsum dolor set amet
 
+## Commented Server File
+
+**8 points**: Each line of the server file (on a separate branch) is commented and explains the code using mostly precise, correct terminology and specificity
+
+* Getting ahead of yourself a little [here](https://github.com/christielynam/palette-picker/blob/server-comments/server.js#L3), all path does as a library is give you access to helper methods for navigating your directories.
+
+* [This](https://github.com/christielynam/palette-picker/blob/server-comments/server.js#L9) is more about accessing the correct database in the correct environment, rather than the application itself. It gives you an instance of the database you want to connect to.
+
+* Proper terminology [here](https://github.com/christielynam/palette-picker/blob/server-comments/server.js#L26) is **assigning** the body of the request to a variable. Not setting.
+
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet
