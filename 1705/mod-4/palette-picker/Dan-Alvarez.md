@@ -71,7 +71,13 @@ I feel bad that I did not finish what should be a roughly simple aspect of the p
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**10 points**: Developer(s) make large, inconsistent commits that contain irrelevant changesets and make it difficult to follow the evolution of the application. Developer(s) rarely use git branches and frequently incorporate changes directly into master with little or no review process. There are instances of committed source code that should be .gitignored and instances of dead code and/or debugger statements.
+
+* Without even looking into any of your commits, I can tell you don't have enough and that each of them will be doing too much work and have difficult diffs to read. There's no hard and fast rule for how many commits you should have, but for a project of this size and scope, I'd expect no less than 100.
+
+* Commit messages like [this](https://github.com/danalvarez5280/Palette-Picker/commit/256e358a8dc6112f0225c2a4b1c715181f06f42c) are too long and verbose. They should be written in the imperative tense and less than 80 characters. [This](https://chris.beams.io/posts/git-commit/) is a good post to follow for writing commit messages. Many of yours are too vague to be helpful. Like [this one](https://github.com/danalvarez5280/Palette-Picker/commit/7b207942f9d6ada4704b9a41cb7c08b508e9f6f7)
+
+* Node modules made it into the repo, as well as some instances of [commented out code](https://github.com/danalvarez5280/Palette-Picker/commit/990d677f6e766f2bca5a365f432ba40e4bd4d845). You can use `git stash` to hide changes that you don't want to commit yet and pop them back on when you want them back with `git stash pop`. 
 
 
 ### To get a 3 on this project, you need to score 120 points or higher
