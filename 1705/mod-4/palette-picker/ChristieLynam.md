@@ -60,7 +60,7 @@ I feel like I should probably be able to write both append palette functions wit
 
 ## User Interface
 
-**13 points**: The application shows effort in the interface, and is clean and minimal. The evaluator has some difficulty using the application when reviewing the features in the user stories.
+**13 points**: The application shows effort in the interface. The evaluator has some difficulty using the application when reviewing the features in the user stories.
 
 * The form flow for saving a new palette is slightly confusing. I know your solution closely mimics the wireframes, but wireframes are simply a guide, not something to be implemented and followed exactly to spec. Think about this flow from a user perspective, does it make sense to you? I initially tried to create a new palette and save it to a new project right away, but it seems this is a two-step process. After I create a new project, I'd immediately want to click 'save palette' and save it to that newly generated project, but instead it defaults to whatever is selected in the drop down on the left. I'd add more titles and descriptions of what you expect the user flow to be here to avoid confusion.
 

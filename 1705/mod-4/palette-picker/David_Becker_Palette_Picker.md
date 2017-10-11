@@ -66,7 +66,17 @@ It's been hard for me to understand all of the connection between database and t
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**10 points**: The application shows effort in the interface, but the evaluator has some difficulty using the application when reviewing the features in the user stories. Particularly lacking in user feedback after interactions.
+
+* Love the subtle fade transition you implemented when generating a new palette, hate the giant dark drop-shadow border around the palette and form fields. The same subtlety you applied to the fade transition, apply to those drop shadows. They are a bit harsh.
+
+* If I try to save a new palette but don't have any projects available to save it to, I don't get any error handling or message about what went wrong :( 
+
+* Really difficult to tell that I've created a new project when I hit 'Save' because it appears in a drop-down and nowhere else on the UI.
+
+* Don't let Jack make PP jokes on your app. 
+
+* When I select a project that has no palettes, it would be nice to see a message that says 'This project has no palettes'. Otherwise it looks like a bug or something is missing when I select a project and nothing appears. 
 
 ## Data Persistence with SQL Database
 
