@@ -63,7 +63,7 @@ Anything else you wanna say!
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: The application persists data in a SQL database with correct relationships between folders and URLs.
 
 ## Testing
 
@@ -72,6 +72,29 @@ Anything else you wanna say!
 ## JavaScript Style
 
 **x points**: Lorem ipsum dolor set amet
+
+* A common convention for organizing your [imports](https://github.com/jasonlucas907/palette-picker/blob/master/server.js#L1-L9) is to include any built-in libraries first, line break, third-party libraries second, line break, code that **you** wrote third, line break. So these imports could be reorganized like so:
+
+```js
+const path = require("path");
+
+const express = require("express");
+const app = express();
+const bodyParser = require('body-parser');
+const cors = require("express-cors");
+
+const environment = process.env.NODE_ENV || "development";
+const configuration = require("./knexfile")[environment];
+const database = require("knex")(configuration);
+```
+
+* [This](https://github.com/jasonlucas907/palette-picker/blob/master/server.js#L13-L22) is a fine and dandy way to setup cors, butttttt you shouldn't need it on this project. Not sure what kind of problem you might've been running into that prompted you to add this code but it should be able to be taken out.
+
+* Weird spacing [here](https://github.com/jasonlucas907/palette-picker/blob/master/server.js#L93-L98) make that a little hard to read. I'd tighten that up to a single line.
+
+* If you're just returning a 204, you don't need to do a [.json()](https://github.com/jasonlucas907/palette-picker/blob/master/server.js#L134) too
+
+* Copy-paste jobs are very clear when you don't change the names of the tables in the [comments](https://github.com/jasonlucas907/palette-picker/blob/master/db/seeds/test/testSeed.js#L4-L5) ;)
 
 ## Workflow
 
