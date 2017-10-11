@@ -53,7 +53,7 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**50 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
 
 ## User Interface
 

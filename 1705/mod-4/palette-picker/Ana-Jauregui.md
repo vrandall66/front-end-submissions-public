@@ -58,7 +58,7 @@ Anything else you wanna say!
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**50 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
 
 ## User Interface
 
@@ -67,6 +67,8 @@ Anything else you wanna say!
 * Click target is hard to see when locking a color in place because there is no hover effect/cursor change that indicates it's something I can click on. (This is a consistent problem, nothing looks clickable for any of the interactions on the page due to lack of hover effects and cursor changes.)
 
 * The form flow for saving a new palette is slightly confusing. I know your solution closely mimics the wireframes, but wireframes are simply a guide, not something to be implemented and followed exactly to spec. Think about this flow from a user perspective, does it make sense to you? I initially tried to create a new palette and save it to a new project right away, but it seems this is a two-step process. After I create a new project, I'd immediately want to click 'save palette' and save it to that newly generated project, but instead it defaults to whatever is selected in the drop down on the left. I'd add more titles and descriptions of what you expect the user flow to be here to avoid confusion.
+
+* Would be nice to get some user feedback when I try to add a project name with a duplicate title. As a user, it's hard to understand why this fails unless I'm explicitly told there already exists a project with that name.
 
 ## Data Persistence with SQL Database
 

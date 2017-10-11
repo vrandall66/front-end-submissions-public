@@ -56,7 +56,11 @@ I feel like I should probably be able to write both append palette functions wit
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**60 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
+
+* Looks like the delete bug has been fixed and is working appropriately now, no points off for that.
+
+* Great job getting an extension in there! I know the spec wasn't explicit about this, but it would be nice if you could edit the color and have the option to re-save the palette.
 
 ## User Interface
 

@@ -62,7 +62,7 @@ It's been hard for me to understand all of the connection between database and t
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**50 points**: No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
 
 ## User Interface
 
