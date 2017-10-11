@@ -73,7 +73,13 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**16 points**:  Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* First things first, I know naming is hard, but try to do better than `jacks-pp`. +1 point for making me laugh.
+
+* .DS_Store [files](https://github.com/jackmallahan/palette-picker/blob/master/.DS_Store) should be .gitignored. People will make fun of you if you commit them ;) You can edit your [global git config](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore) to always ignore .DS_Store files 
+
+* Commit messages like [this](https://github.com/jackmallahan/palette-picker/commit/049cb43702981055921e74ace12fe8758eebb1f2) aren't super helpful. We know you wrote some code, no need to tell us in the commit message. I'd rewrite it like "Prepend projects on page load". It's also doing a little too much in the changesets - you did a lot more than just write a function here, you wrote HTML and CSS along with it. This could be broken out into 3 separate commits so the diffs are easier to read.
 
 
 ### To get a 3 on this project, you need to score 120 points or higher
