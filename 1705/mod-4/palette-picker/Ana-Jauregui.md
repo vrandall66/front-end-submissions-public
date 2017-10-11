@@ -62,7 +62,7 @@ Anything else you wanna say!
 
 ## User Interface
 
-**15 points**: The application shows effort in the interface, and is clean and minimal. The evaluator has some difficulty using the application when reviewing the features in the user stories.
+**13 points**: The application shows effort in the interface, and is clean and minimal. The evaluator has some difficulty using the application when reviewing the features in the user stories.
 
 * Click target is hard to see when locking a color in place because there is no hover effect/cursor change that indicates it's something I can click on. (This is a consistent problem, nothing looks clickable for any of the interactions on the page due to lack of hover effects and cursor changes.)
 

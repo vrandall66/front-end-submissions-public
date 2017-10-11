@@ -57,7 +57,13 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: The application has many strong pages/interactions, but a few holes in lesser-used functionality.
+
+* Cool spacebar keyboard shortcut, but it's common practice to also include a button. What if my spacebar doesn't work? :(
+
+* I like that the lock and hex codes only show up on hover, but the coloring can be really difficult to see depending on the color that shows up for the palette. One common way to get around this is by adding a small background color to wrap that lock and hex color, that's somewhat opaque. (e.g. a white background at 70% opacity, with a black lock and black text, or vice versa.)
+
+* Would be nice to have a 'No palettes in this project' message when you add a new project before it has any palettes. Otherwise it takes up a lot of weird and awkward whitespace.
 
 ## Data Persistence with SQL Database
 
