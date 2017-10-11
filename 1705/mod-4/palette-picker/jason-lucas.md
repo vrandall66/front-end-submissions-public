@@ -68,7 +68,13 @@ Anything else you wanna say!
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* [CSS Palette Trash](https://github.com/jasonlucas907/palette-picker/commit/88fb9a99309a17da5d74457502ff6d5cee582c2b) is a really sad commit message, and doesn't give me any insight into what's going on in this commit. Try sticking to these [conventions](https://chris.beams.io/posts/git-commit/) for writing consistent and helpful messages.
+
+* Nice use of issues and branches; pull requests here are kind of useless because you're working individually and nobody is reviewing your code. When you're working solo, I'd suggest using the standard merge/rebase workflow to keep your history clean and free of tons of merge commits.
+
+* Instances of [commented out code](https://github.com/jasonlucas907/palette-picker/commit/5f23210d81549c4442fd52bb2edbf9ad6a2500e9) in this commit, which is also doing more than simply adding a form. This could be broken out into at least 2 separate commits to make the diff easier to read and keep the changesets relevant.
 
 
 ### To get a 3 on this project, you need to score 120 points or higher
