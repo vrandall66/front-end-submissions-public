@@ -17,21 +17,50 @@
 
 #### Were you able to complete the base functionality?
 
-If not, explain what is missing and why.
+Yes, I finished it over the weekend.
 
 #### Which extensions, if any, did you complete?
 
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code]()
+[happy code](https://github.com/tylerjhevia/palette-picker/blob/master/server.js) lines 112-122
 
-* Why were you proud of this piece of code?
+```app.delete("/api/v1/palettes/delete/:id", (request, response) => {
+  database("palettes")
+    .where("id", request.params.id)
+    .delete()
+    .then(palette => {
+      palette
+        ? response.sendStatus(204)
+        : response.status(422).send({ error: "Could not find palette" });
+    })
+    .catch(error => response.status(500).json({ error }));
+});
+```
+
+There's not anything special about this delete endpoint but it took me a long time to figure out that I needed to check if my response had a length before I sent a 204 or 422 status, so I was happy when it finally worked.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code]()
+[sad code](https://github.com/tylerjhevia/palette-picker/blob/master/public/js/script.js) lines 5-19
+```const swatchOne = $(".one");
+const swatchTwo = $(".two");
+const swatchThree = $(".three");
+const swatchFour = $(".four");
+const swatchFive = $(".five");
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+const labelOne = $(".label-one");
+const labelTwo = $(".label-two");
+const labelThree = $(".label-three");
+const labelFour = $(".label-four");
+const labelFive = $(".label-five");
+
+const swatches = [swatchOne, swatchTwo, swatchThree, swatchFour, swatchFive];
+const labels = [labelOne, labelTwo, labelThree, labelFour, labelFive];
+```
+
+I created variables for each swatch and label and inserted them into arrays. I did this because I wanted to map through each swatch and label and I couldn't get it to work using something like $('.swatch') to select all swatches.
+
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
