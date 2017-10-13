@@ -90,9 +90,30 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. I'd like to see more consistency in stylistic things to improve readability.
 
 * [This](https://github.com/jackmallahan/palette-picker/blob/master/db/seeds/test.js) is some really intense indentation...you'll probably want to switch to 2 or 4-space indentation rather than these massive tabs. Not common to see code that looks like this in the real world. Generally you want to keep each line length to max 80 characters (that's a common linter rule to put in place), and you're tabbing enthusiam pushes your code super far to that limit.
+
+* Bump [this](https://github.com/jackmallahan/palette-picker/blob/master/server.js#L13) up to line 9 before you actually configure it with `urlencoded`.
+
+* Checking for [name.name](https://github.com/jackmallahan/palette-picker/blob/master/server.js#L27) is kinda weird and hard to read. I'd rename that request body variable to something more generic like 'newProject'.
+
+* The ordering of your API routes is kind of bizarre, generally you want to order your requests by ALL the methods you can call on a particular table. e.g. GET all projects, POST new project, GET single project by id, PUT/PATCH single project by id, DELETE single project by id (then the same for palettes)
+
+* [Ternaries](https://github.com/jackmallahan/palette-picker/blob/master/server.js#L68) are really difficult to read and should be used very sparingly. As a general rule, only use a ternary when doing a left-hand assignment of a variable that can only have two possible values. e.g.:
+
+```js
+let foo = bar ? true : false;
+```
+
+* Appending in a [loop](https://github.com/jackmallahan/palette-picker/blob/master/public/js/scripts.js#L33-L40) is really slow and doing too many unecessary DOM Manipulations. You'd want to use a DocumentFragment in a scenario like this to build up a large chunk of HTML within your JavaScript first, then append it to the DOM all at once at the end of the loop.
+
+* [Booooo](https://github.com/jackmallahan/palette-picker/blob/master/public/js/scripts.js#L66)
+
+* [Nooooo](https://github.com/jackmallahan/palette-picker/blob/master/public/js/scripts.js#L68) But a nice shorthand for this to give a console log a label is use the ES6 shorthand like so: `console.log({ name })`. That logs something like `name: value` to the console.
+
+* Traversing [this far up the dom tree](https://github.com/jackmallahan/palette-picker/blob/master/public/js/scripts.js#L179-L181) is really painful and difficult to keep track of. Moving around your classes and IDs to elements that make more sense to avoid this would be nice.
+
 
 ## Workflow
 
@@ -108,4 +129,4 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 141 / 160
