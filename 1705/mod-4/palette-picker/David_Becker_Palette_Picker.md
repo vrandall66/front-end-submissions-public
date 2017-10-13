@@ -84,7 +84,19 @@ It's been hard for me to understand all of the connection between database and t
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**14 points**: Project has a running test suite that tests every server-side endpoint, but some bizarre things going on with before/each hooks and the types of assertions being made.
+
+* These [before](https://github.com/davidbecker6081/PalettePicker/blob/master/test/routes.spec.js#L11-L15) and [beforeEach](https://github.com/davidbecker6081/PalettePicker/blob/master/test/routes.spec.js#L44-L50) hooks are in really weird places. You only need these hooks for the API, server-side tests. Not the client-side routes. They should be together within the describe block for the server-side routes.
+
+* The description of this [test](https://github.com/davidbecker6081/PalettePicker/blob/master/test/routes.spec.js#L255-L262) doesn't match the assertion you're making
+
+* Not sure what your thought process was with [these assertions](https://github.com/davidbecker6081/PalettePicker/blob/master/test/routes.spec.js#L62-L70) -- you should be doing a filter to find an exact object that represents a full project and checking that it exists in the array. Right now you're doing a combination of filtering and asserting that the first element in the array has an ID property, which doesn't actually verify much about the success of the request.
+
+* [This 404 test](https://github.com/davidbecker6081/PalettePicker/blob/master/test/routes.spec.js#L75-L81) is redundant. You only need to do one 404 test for an endpoint that doesn't exist, doesn't matter if it is prefixed with `api/v1` or not. 
+
+* 404 tests like [this](https://github.com/davidbecker6081/PalettePicker/blob/master/test/routes.spec.js#L103-L110) can be a little more helpful by providing an error message that gives the user back the ID number that wasn't found. Hitting this endpoint will clearly be caught by one of your request handlers, because it matches the express route, but it becomes a 404 because a project with an ID of 3 does not exist -- tell the user that.
+
+
 
 ## Commented Server File
 
@@ -107,6 +119,8 @@ It's been hard for me to understand all of the connection between database and t
 * Don't forget to always have a `.catch` for every [.then](https://github.com/davidbecker6081/PalettePicker/blob/master/db/seeds/test/test.js#L55)
 
 * What is this sad, empty [else](https://github.com/davidbecker6081/PalettePicker/blob/add-comments-server/server.js#L41-L43) statement?
+
+* The indentation in your code is really all over the place and makes it very difficult to read. I would strongly recommend using 2-space indents and making that a rule in your linting configuration to clean this up.
 
 ## Workflow
 
