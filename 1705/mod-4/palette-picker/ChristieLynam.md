@@ -78,7 +78,13 @@ I feel like I should probably be able to write both append palette functions wit
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Project has a running test suite that tests every server-side endpoint, but some assertions are commented out or failing
+
+* [This 404 test](https://github.com/christielynam/palette-picker/blob/master/test/routes.spec.js#L68-L75) is redundant. You only need to do one 404 test for an endpoint that doesn't exist, doesn't matter if it is prefixed with `api/v1` or not. [This](https://github.com/christielynam/palette-picker/blob/master/test/routes.spec.js#L165-L174) is also the same exact 404 test. Remove these duplicates.
+
+* Assuming [this](https://github.com/christielynam/palette-picker/blob/master/test/routes.spec.js#L112) is commented out because it's failing, curious why
+
+* [This](https://github.com/christielynam/palette-picker/blob/master/test/routes.spec.js#L129-L160) is nice and thorough, but really difficult to read and doesn't offer you a ton of additional integrity or insight about the success of the request. I'd pick one of the objects, make an actual javascript object to represent it, and check if the array contains it or not.
 
 ## Commented Server File
 
