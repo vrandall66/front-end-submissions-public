@@ -57,7 +57,7 @@ We were unsure if there was more we could do to authenticate the user and or che
 
 test suite
 
-![screen shot 2017-10-13 at 12 37 39 pm](https://user-images.githubusercontent.com/26985984/31561108-11077aa6-b014-11e7-8237-bda3fc36322d.png)
+![image](https://user-images.githubusercontent.com/26985984/31564015-9a823fbe-b01e-11e7-8c96-2c9a1f6d92da.png)
 
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
