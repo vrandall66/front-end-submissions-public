@@ -71,7 +71,11 @@ I made some good progress and wrote some code that I am definitely proud of. I r
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**17 points**: Project has a running test suite that tests every server-side endpoint but there are some reasoning things to think through about how and why you're making certain assertions
+
+* [This](https://github.com/jackmallahan/palette-picker/blob/master/test/routes.spec.js#L87-L117) is nice and thorough, but really difficult to read and doesn't offer you a ton of additional integrity or insight about the success of the request. I'd pick one of the objects, make an actual javascript object to represent it, and check if the array contains it or not.
+
+* [This 404 test](https://github.com/jackmallahan/palette-picker/blob/master/test/routes.spec.js#L122-L130) is redundant. You only need to do one 404 test for an endpoint that doesn't exist, doesn't matter if it is prefixed with `api/v1` or not. 
 
 ## Commented Server File
 

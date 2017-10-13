@@ -67,11 +67,18 @@ Anything else you wanna say!
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**7 points**: Project has sporadic testing of some server-side endpoints. Missing some happy and sad path test cases.
+
+* [This assertion](https://github.com/jasonlucas907/palette-picker/blob/master/test/roots.spec.js#L60) isn't super helpful if all you're checking is the property name. I'd rather you make a javascript object that represents a project in the database and check that it exists in the array.
+
+* [This 404 test](https://github.com/jasonlucas907/palette-picker/blob/master/test/roots.spec.js#L66-L72) is redundant. You only need to do one 404 test for an endpoint that doesn't exist, doesn't matter if it is prefixed with `api/v1` or not.
+
+* The description of this [test](https://github.com/jasonlucas907/palette-picker/blob/master/test/roots.spec.js#L99-L105) doesn't match the assertion you're making
+
 
 ## Commented Server File
 
-**8 points**: Each line of the server file (on a separate branch) is commented and explains the code using mostly precise, correct terminology and specificity
+**x points**
 
 
 ## JavaScript Style
