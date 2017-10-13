@@ -94,9 +94,44 @@ Anything else you wanna say!
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**12 points**: Your application has a significant amount of duplication, some unecessary code and inconsistencies in style. No major bugs though major room for refactoring and improvements
 
 * Not sure why you have this [cors](https://github.com/anajauregui/Palette-Pickr/blob/serverJS-comments/server.js#L22-L30) functionality in place, you should not have run into any cors errors on this project.
+
+* Line spacing [here](https://github.com/anajauregui/Palette-Pickr/blob/master/server.js#L1-L15) is kind of bizarre. I would group all the `app.use` statements and spread out the imports a little bit. A common convention for organizing your imports is to include any built-in libraries first, line break, third-party libraries second, line break, code that **you** wrote third, line break. So these imports could be reorganized like so:
+
+```js
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const path = require('path');
+
+const environment = process.env.NODE_ENV || "development";
+const configuration = require("./knexfile")[environment];
+const database = require("knex")(configuration);
+
+app.use(express.static(path.join(__dirname, "public")));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+```
+
+* Nice [error handling here](https://github.com/anajauregui/Palette-Pickr/blob/master/server.js#L65)
+
+* Spacing of [this](https://github.com/anajauregui/Palette-Pickr/blob/master/server.js#L92-L93) is a little hard to read. Don't create a line break in the middle of a method's parameters unless your using a new line for every object property.
+
+* Little inconsistent [here](https://github.com/anajauregui/Palette-Pickr/blob/master/server.js#L125) using `sendStatus` instead of `status`
+
+* [Fetch requests](https://github.com/anajauregui/Palette-Pickr/blob/master/public/js/scripts.js#L2) do not rely on the DOM and therefore do not need to wait for document.ready. Kick this request off right away.
+
+* Lots of repeat code [here](https://github.com/anajauregui/Palette-Pickr/blob/master/public/js/scripts.js#L178-L198), could you refactor this to make it more dynamic? Same [here](https://github.com/anajauregui/Palette-Pickr/blob/master/public/js/scripts.js#L93-L97). Maybe classes would work better than IDs here so that you can have a single selector that gets all the palette colors.
+
+* Appending in a [loop](https://github.com/anajauregui/Palette-Pickr/blob/master/public/js/scripts.js#L81-L83) is really slow and doing too many unecessary DOM Manipulations. You'd want to use a DocumentFragment in a scenario like this to build up a large chunk of HTML within your JavaScript first, then append it to the DOM all at once at the end of the loop.
+
+* You should pretty much always be using a strict equality check rather than a [soft one](https://github.com/anajauregui/Palette-Pickr/blob/master/public/js/scripts.js#L26)
+
+* Always have `.catches` for your [.thens](https://github.com/anajauregui/Palette-Pickr/blob/master/public/js/scripts.js#L150-L160)
+
+* You shouldn't have to do this second [fetch request here](https://github.com/anajauregui/Palette-Pickr/blob/master/public/js/scripts.js#L119). You already have all the information for the newly created POST request -- you passed it in to the first fetch you made. Just use that data to append the new palette to the DOM. 
 
 ## Workflow
 
@@ -112,4 +147,4 @@ Anything else you wanna say!
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 134 / 160
