@@ -112,7 +112,7 @@ It's been hard for me to understand all of the connection between database and t
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**10 points**:  Your application has a significant amount of duplication and one or more major bugs. The inconsistencies in styling make the code incredibly difficult to read and evaluate. Major cleanup needs to be done to improve readability.
 
 * [This](https://github.com/davidbecker6081/PalettePicker/blob/master/db/migrations/20171003162939_initial.js#L5) is a weird column name. You either want to use snake_case or camelCase, not a combination of the two. I'd rename this to `projectName` or `project_name`
 
@@ -120,7 +120,25 @@ It's been hard for me to understand all of the connection between database and t
 
 * What is this sad, empty [else](https://github.com/davidbecker6081/PalettePicker/blob/add-comments-server/server.js#L41-L43) statement?
 
-* The indentation in your code is really all over the place and makes it very difficult to read. I would strongly recommend using 2-space indents and making that a rule in your linting configuration to clean this up.
+* The indentation and line breaks in your code is really all over the place and makes it very difficult to read. I would strongly recommend using 2-space indents and making that a rule in your linting configuration to clean this up.
+
+* The ordering of your API routes is kind of bizarre, generally you want to order your requests by ALL the methods you can call on a particular table. e.g. GET all projects, POST new project, GET single project by id, PUT/PATCH single project by id, DELETE single project by id (then the same for palettes)
+
+* You probably don't want a 404 [here](https://github.com/davidbecker6081/PalettePicker/blob/master/server.js#L75) - that would indicate to the user that the endpoint they entered didn't actually map to any resource. In this scenario, their endpoint is correct - their results just happen to be an empty array.
+
+* Would be good to have some error handling if the ID the user enters [here](https://github.com/davidbecker6081/PalettePicker/blob/master/server.js#L84) doesn't return a project result, not just if there are no palettes for the project.
+
+* What is this [global](https://github.com/davidbecker6081/PalettePicker/blob/master/public/js/scripts.js#L1) for?
+
+* Naming conventions for functions like [this](https://github.com/davidbecker6081/PalettePicker/blob/master/public/js/scripts.js#L33) should read more like english than javascript. I'd rename these functions to something like `saveNewPalette`
+
+* Appending in a [loop](https://github.com/davidbecker6081/PalettePicker/blob/master/public/js/scripts.js#L91-L94) like this is really slow and doing too many unecessary DOM Manipulations. You'd want to use a DocumentFragment in a scenario like this to build up a large chunk of HTML within your JavaScript first, then append it to the DOM all at once at the end of the loop.
+
+* Fetch requests are not depending on the DOM and therefore do not need to wait for document.ready. Kick off [this](https://github.com/davidbecker6081/PalettePicker/blob/master/public/js/scripts.js#L174) request right away so that you can get your data ASAP.
+
+* What is [this](https://github.com/davidbecker6081/PalettePicker/blob/master/public/js/Palette.js)
+
+* If this is for [testing purposes](https://github.com/davidbecker6081/PalettePicker/blob/master/public/js/mockProjects.js) it should go in the test directory. If it's not being used, it should be removed
 
 ## Workflow
 
@@ -137,4 +155,4 @@ It's been hard for me to understand all of the connection between database and t
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 125 / 160
