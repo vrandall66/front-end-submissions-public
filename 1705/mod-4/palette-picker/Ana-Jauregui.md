@@ -76,7 +76,15 @@ Anything else you wanna say!
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Project has a running test suite that tests every server-side endpoint, but some assertions are commented out or failing
+
+* [This 404 test](https://github.com/anajauregui/Palette-Pickr/blob/master/Test/routes.spec.js#L66-L73) is redundant. You only need to do one 404 test for an endpoint that doesn't exist.
+
+* Ahhh, [commented out code](https://github.com/anajauregui/Palette-Pickr/blob/master/Test/routes.spec.js#L191-L193). Assuming it was commented out because it was giving you some sort of failure but curious what that was. It looks like you're only returning the ID from your database insert [here](https://github.com/anajauregui/Palette-Pickr/blob/master/server.js#L93) which would mean you're not going to get all the property names and their values because you're not returning them.  Same situation [here](https://github.com/anajauregui/Palette-Pickr/blob/master/server.js#L112) that would cause all of [these assertions to fail](https://github.com/anajauregui/Palette-Pickr/blob/master/Test/routes.spec.js#L224-L240)
+
+* No assertion is being made on these [delete](https://github.com/anajauregui/Palette-Pickr/blob/master/Test/routes.spec.js#L280) [requests](https://github.com/anajauregui/Palette-Pickr/blob/master/Test/routes.spec.js#L260)
+
+* In general, if assertions are passing, don't comment them out -- skip the entire test with `it.skip`
 
 ## Commented Server File
 
