@@ -10,7 +10,7 @@
 [BYOB](https://github.com/lcaroselli/Poke150-api)
 
 #### Link to the Deployed Application
-[Heroku](https://poke150-api.herokuapp.com/)
+[Heroku](https://poke150-api.herokuapp.com/) - error on deployment
 
 
 ## Completion
@@ -58,11 +58,11 @@ I kept getting a 500 error whenever I tried to test the response I got back in m
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-[linter output]()
+[linter output](https://github.com/lcaroselli/Poke150-api/blob/master/assets/lint.png)
 
 #### Attach a screenshot of your CircleCI build passing
 
-[circleCI build]()
+[circleCI build]() - At the moment, it is not passing. 
 
 -----
 
