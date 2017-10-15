@@ -1,50 +1,39 @@
-## Student:
-## Evaluator:
+## Student: Nora
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- break out single responsibility functions
+- JS is in a good place for a refactor pass
+- overall, make sure you're mindful of small details like spacing, indentation, and DRY code.
+- it is great that you're comfortable trying things out and experimenting. Make sure you give yourself a little time to tidy things up and really understand how all the parts work together, too.
+- yay unicorns!
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
 
 * Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
