@@ -75,7 +75,7 @@ I notified Robbie about my circlCI build failing on deployment to Heroku, but ne
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
