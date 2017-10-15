@@ -86,15 +86,34 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**60 points**: (60 possible points) Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**36 points**: (40 possible points) Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* Nice that you broke out all your test files, but all of this required and repeated [configuration]() that you're doing should be broken out into a setup/helper file to be imported and used across test files.
+
+* Great job testing all the possible ways someone could pass in a JWT
+
+* Your error handling is nice and thorough, but it's also quite repetitive. I'd break out error handling like [this](237-254) into a helper function so it can be re-used among endpoints.
+
+* Why not also give them back the [id](268) they passed in so they don't have to check elsewhere to find out.
+
+* A PATCH should technically be able to accept any number of fields that may not [all be required](300-303). You shouldn't need this check here unless you were creating a PUT endpoint that required the entire resource object.
+
+* Significant test coverage, though some are skipped (presumably erring out and failing CircleCI)
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**30 points**: (40 possible points) Application has exceptionally well-factored code with just slight duplication, and some areas where a different approach would simplify the logic.
+
+* Nice, concise check for the JWT, but I'd clean up these [conditionals](37-40) a little bit by using an if/else (if there's no error, you can assume you will have a decoded token to work with)
+
+* Not sure you need [this check here](62), both fields should be required when generating a token which you're checking for [here](76)
+
+* You could probably simplify [this](120-128) by doing a "fuzzy" search in the database so that you don't have to do a hard transform on the value of the ship name. There's a "like" condition that Knex supports to get values that are similar to what's entered. This would allow you to just pass in the entire query object without having to do conditional checks about what's in it.
+
 
 ### Workflow
 
