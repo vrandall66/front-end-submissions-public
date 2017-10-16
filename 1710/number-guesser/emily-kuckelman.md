@@ -1,50 +1,32 @@
-## Student:
-## Evaluator:
+## Student: Emily Kuckelman
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Nice use of error messaging! Very easy to follow what was going, from a user standpoint
+- Good nesting in HTML. Be sure to incorporate ARIA labels into markup
+- Good start for organization in CSS stylesheet with alphabetizing declarations
+- Know your code. Practice speaking about the technical parts of your code to yourself and others. It is important that you can speak to what pieces of code are doing and why (e.g. parseInt, == vs ===)
 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner     
 
 ## HTML
 
-* Novice  
+* Novice 
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
+* Novice
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

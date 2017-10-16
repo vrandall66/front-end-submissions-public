@@ -67,16 +67,22 @@ Anything else you wanna say!
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**7 points**: Project has sporadic testing of some server-side endpoints. Missing some happy and sad path test cases.
+
+* [This assertion](https://github.com/jasonlucas907/palette-picker/blob/master/test/roots.spec.js#L60) isn't super helpful if all you're checking is the property name. I'd rather you make a javascript object that represents a project in the database and check that it exists in the array.
+
+* [This 404 test](https://github.com/jasonlucas907/palette-picker/blob/master/test/roots.spec.js#L66-L72) is redundant. You only need to do one 404 test for an endpoint that doesn't exist, doesn't matter if it is prefixed with `api/v1` or not.
+
+* The description of this [test](https://github.com/jasonlucas907/palette-picker/blob/master/test/roots.spec.js#L99-L105) doesn't match the assertion you're making
+
 
 ## Commented Server File
 
-**8 points**: Each line of the server file (on a separate branch) is commented and explains the code using mostly precise, correct terminology and specificity
-
+**5 points**: Most lines of the server file (on a separate branch) are commented, but the explanation is sometimes lacking in demonstrating true understanding
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**12 points**: Your application has a significant amount of duplication and major room for refactoring and improvements.
 
 * A common convention for organizing your [imports](https://github.com/jasonlucas907/palette-picker/blob/master/server.js#L1-L9) is to include any built-in libraries first, line break, third-party libraries second, line break, code that **you** wrote third, line break. So these imports could be reorganized like so:
 
@@ -101,6 +107,28 @@ const database = require("knex")(configuration);
 
 * Copy-paste jobs are very clear when you don't change the names of the tables in the [comments](https://github.com/jasonlucas907/palette-picker/blob/master/db/seeds/test/testSeed.js#L4-L5) ;)
 
+* The ordering of your API routes is kind of bizarre, generally you want to order your requests by ALL the methods you can call on a particular table. e.g. GET all projects, POST new project, GET single project by id, PUT/PATCH single project by id, DELETE single project by id (then the same for palettes)
+
+* Lots of weird line breaks [here](https://github.com/jasonlucas907/palette-picker/blob/master/server.js#L93-L98)
+
+* You're returning the entire object for your post request [here](https://github.com/jasonlucas907/palette-picker/blob/master/server.js#L98) but only the id [here](https://github.com/jasonlucas907/palette-picker/blob/master/server.js#L121). I don't care what you choose to do, but be consistent.
+
+* I'd lose these [line breaks](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/fetch.js#L7) before your .catches. Keep the catches close to the code they're actually catching.
+
+* Eehhh, lots of [global variables here](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L1-L8), I'd wrap all your code in an IIFE if this is the way you want to handle these values. You want to avoid polluting the window object with your variables.
+
+* Lots of [duplicate code here](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L12-L68) and [here](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L81-L115) and [here](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L118-L169) and [here](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L364-L411). Major room for improvement and refactoring to make your code more dynamic.
+
+* These [conditionals](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L98-L100) are really trippy and difficult to read.
+
+* Appending in a [loop](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L179-L194) is really slow and doing too many unecessary DOM Manipulations. You'd want to use a DocumentFragment in a scenario like this to build up a large chunk of HTML within your JavaScript first, then append it to the DOM all at once at the end of the loop.
+
+* Not sure why you need these [setTimeouts](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L221-L222) but they are almost always a sure sign of a code smell.
+
+* You shouldn't have 2 [document.ready handlers](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L406-L417)
+
+* Fetch requests are not dependent on the DOM and therefore do not need to wait for document.ready. Kick off [this](https://github.com/jasonlucas907/palette-picker/blob/master/public/js/scripts.js#L416) request right away so that you can get your data ASAP.
+
 ## Workflow
 
 **15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
@@ -115,4 +143,4 @@ const database = require("knex")(configuration);
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 125 / 160

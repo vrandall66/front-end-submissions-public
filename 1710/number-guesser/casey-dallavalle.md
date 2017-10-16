@@ -1,50 +1,36 @@
-## Student:
-## Evaluator:
+## Student: Casey Dallavalle
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-## Functional Expectations
+- Love your animal counter!
+- Be sure to fix spacing/nesting in HTML for readability. Continue incorporating ARIA - hooray!
+- Use shorthand in CSS when possible. Find a way to organize your CSS idiomatically and stay consistent
+- Work on more robust naming in JS
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
+## Functional Expectations
+  
 * Proficient: Application meets all of the expectations of phase three.  
 * Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
-
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner   
 
 ## HTML
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner
 
 ## JS/jQuery
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+* Unicorn Rainbows

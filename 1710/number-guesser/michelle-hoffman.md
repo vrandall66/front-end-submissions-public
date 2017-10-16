@@ -1,50 +1,31 @@
-## Student:
-## Evaluator:
+## Student: Michelle Hoffman
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
+- Nice job staying true to spirit of comp - minor things to polish
+- Watch spacing in HTML file for readability
+- Continue incorporating ARIA into markup - hooray!
+- Start work towards eliminating redundancy/organizing CSS
+- Work on naming in JS. Be ready to speak to what your code is doing/why (e.g. global vs local scope) 
+
 ## Functional Expectations
-
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
+  
+* Proficient: Application meets all of the expectations of phase three. 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+ 
+* Advanced Beginner   
 
 ## CSS
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner    
 
 ## JS/jQuery
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+* Advanced Beginner   

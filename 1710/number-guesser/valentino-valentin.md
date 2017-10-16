@@ -1,6 +1,9 @@
-## Student:
-## Evaluator:
+## Student: Valentino
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- if you want to add fun features, build them yourself. Having fun and playing with code is a fantastic way to learn, but pulling in something you found online and don't fully understand isn't teaching you anything.
+- really consider how the structural choices you make impact your layout and how it behaves on different screen sizes.
 
 ## Functional Expectations
 

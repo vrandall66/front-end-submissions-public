@@ -78,7 +78,13 @@ I feel like I should probably be able to write both append palette functions wit
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: Project has a running test suite that tests every server-side endpoint, but some assertions are commented out or failing
+
+* [This 404 test](https://github.com/christielynam/palette-picker/blob/master/test/routes.spec.js#L68-L75) is redundant. You only need to do one 404 test for an endpoint that doesn't exist, doesn't matter if it is prefixed with `api/v1` or not. [This](https://github.com/christielynam/palette-picker/blob/master/test/routes.spec.js#L165-L174) is also the same exact 404 test. Remove these duplicates.
+
+* Assuming [this](https://github.com/christielynam/palette-picker/blob/master/test/routes.spec.js#L112) is commented out because it's failing, curious why
+
+* [This](https://github.com/christielynam/palette-picker/blob/master/test/routes.spec.js#L129-L160) is nice and thorough, but really difficult to read and doesn't offer you a ton of additional integrity or insight about the success of the request. I'd pick one of the objects, make an actual javascript object to represent it, and check if the array contains it or not.
 
 ## Commented Server File
 
@@ -92,7 +98,21 @@ I feel like I should probably be able to write both append palette functions wit
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**17 points**: Application is thoughtfully put together with minor duplication, no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* The ordering of your API routes is kind of bizarre, generally you want to order your requests by ALL the methods you can call on a particular table. e.g. GET all projects, POST new project, GET single project by id, PUT/PATCH single project by id, DELETE single project by id (then the same for palettes)
+
+* Better error handling [here](https://github.com/christielynam/palette-picker/blob/master/server.js#L103) would be to give back an error message that tells the user what ID they actually tried to grab. Maybe they fat-fingered the number and it wasn't obvious to them.
+
+* Very nice, clean, organized and consistently-styled code. It looks pretty and is easy to read.
+
+* Love the way you made [this](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L10-L18) dynamic by looping through numbers and using corresponding class names, but could you do a similar thing [here](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L105-L110) to reduce some of this repeat code?
+
+* Fetch requests are not depending on the DOM and therefore do not need to wait for document.ready. Kick off [this](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L147) request right away so that you can get your data ASAP.
+
+* Appending in a [loop](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L25) like [this](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L45) is really slow and doing too many unecessary DOM Manipulations. You'd want to use a DocumentFragment in a scenario like this to build up a large chunk of HTML within your JavaScript first, then append it to the DOM all at once at the end of the loop.
+
+* Using es6 shorthand [here](https://github.com/christielynam/palette-picker/blob/master/public/js/scripts.js#L96) would really shorten up this line and make it easier to read
 
 ## Workflow
 
@@ -110,4 +130,4 @@ I feel like I should probably be able to write both append palette functions wit
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 146 / 160

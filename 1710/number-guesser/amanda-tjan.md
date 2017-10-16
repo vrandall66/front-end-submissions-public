@@ -1,50 +1,33 @@
-## Student:
-## Evaluator:
+## Student: Amanda Tjan
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
+- Comp recreation/design pretty spot on - very minor details with spacing to make it pixel perfect
+- Good use of error messaging
+- Good organization/indentation in HTML file
+- Nice job alphabetizing declarations. Work towards more organization in CSS stylesheet
+- Start working towards single responsibility in JS functions
+- Speaks confidently about decisions made in code. Understands local vs global scope and what code is doing
+
 ## Functional Expectations
-
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
+ 
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner
+* Proficient   
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner   
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

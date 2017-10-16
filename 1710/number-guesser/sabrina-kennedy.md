@@ -1,6 +1,10 @@
-## Student:
-## Evaluator:
+## Student: Sabrina
+## Evaluator: Louisa and David
 ## Notes/What To Work On:
+
+- HTML needs more consistency with spacing and indentation
+- CSS could use a refactor pass
+- JS has some long functions
 
 ## Functional Expectations
 

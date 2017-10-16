@@ -1,50 +1,29 @@
-## Student:
-## Evaluator:
+## Student: Edgar
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- make sure you understand your entire codebase. it is better to get less of the functionality built and really understand all of it that to get a lot of built but not be able to confidently speak to what you've done.
+- force yourself to use vanilla JS -- don't rely on jQuery for everything. jQuery is a tool that is helpful, but you can't use it in every situation and having a solid handle on plain ol' javascript is very important.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+* Advanced Beginner

@@ -1,50 +1,33 @@
-## Student:
-## Evaluator:
+## Student: James Logue
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Yay for two player!
+- Minor polishing with design but stays true to spirit of comp
+- Be sure to use error messaging so that user receives clear message as to why certain data (letters or being outside of the range) isn't being accepted  - this was part of the reqs of Phase 2
+- Good start for organizing CSS
+- Nice naming in JS. Some longer functions that you use refactoring
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
 * Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
-
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner   
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner
+* Proficient   
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
-
-* Novice  
+  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
