@@ -58,34 +58,70 @@ Thank you for the extra time.
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**40 points**: (50 possible points)
+
+- I don't see a new project that I created appear on the DOM until I refresh the page
+- Minor bug created with extension of editing hex values - if you edit a hex value, then click on a saved palette, the hex colors do not update
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- The semitransparent rectangle on the front interferes with seeing the colors in the middle - I know you can see below the rectangle, but it would be nice to see all of the full colors, maybe there could be an ability to hide/minimize it
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Schema looks good with one-to-many relationship using primary/foreign key
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- Roots? `/master/test/roots.spec.js`
+- Good job with your before and beforeEach [blocks](https://github.com/jbexx/Palette-Picker/blob/master/test/roots.spec.js#L36-L46)
+- For [this test](https://github.com/jbexx/Palette-Picker/blob/master/test/roots.spec.js#L176-L182), you should be testing for an ID that doesn't exist in the database - your current test goes to the standard Express 404 middleware because it expects dynamic IDs to be integers
+- Looking for sad paths for POSTs to [projects](https://github.com/jbexx/Palette-Picker/blob/master/test/roots.spec.js#L186) and [palettes](https://github.com/jbexx/Palette-Picker/blob/master/test/roots.spec.js#L216) - for instance for missing data in the body of the request
+- [This](https://github.com/jbexx/Palette-Picker/blob/master/test/roots.spec.js#L274) is a good case for a sad path, but would expect a 404 response because the resource does not exist to try to delete in the first place
+- Be sure to take [these](https://github.com/jbexx/Palette-Picker/blob/master/test/roots.spec.js#L284) out before you push up code
+
+## Commented Server File
+
+**8 points**: (10 possible points)
+
+- Need to be more specific about variables and what you mean about "multiple servers" [here](https://github.com/jbexx/Palette-Picker/blob/comments/server.js#L9) - a different server doesn't necessarily mean a different environment
+- Why ado we need [it](https://github.com/jbexx/Palette-Picker/blob/comments/server.js#L14), though?
+- You insert records into [a table](https://github.com/jbexx/Palette-Picker/blob/comments/server.js#L29), not a specific database
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- Need to be checking that the correct information is giving in the body of the POST request [here](https://github.com/jbexx/Palette-Picker/blob/master/server.js#L29-L31) - check for properties of the request body (never trust the user)
+- I would use the plural version of `project` as the return value [here](https://github.com/jbexx/Palette-Picker/blob/master/server.js#L42) because you are most likely returning a collection of projects
+- For any route where you are selecting a resource by a dynamic `:id`, you should be able to handle the case where the database does not have that resource in the database and return a 404 status code, for instance this [route](https://github.com/jbexx/Palette-Picker/blob/master/server.js#L60)
+- Cool color generation function - I would not [hard code](https://github.com/jbexx/Palette-Picker/blob/master/public/js/scripts.js#L6) `16`, though, and use the length of the string instead in case the string changes for some reason
+- For every `fetch()` [call](https://github.com/jbexx/Palette-Picker/blob/master/public/js/scripts.js#L78), you should have a `.catch()` for error handling
+- Also, for `fetch()` [calls](https://github.com/jbexx/Palette-Picker/blob/master/public/js/scripts.js#L139), make sure you test for `response.ok` before you parse because fetch does not send 404 responses to the `catch()` method - you have to test the response: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Checking_that_the_fetch_was_successful
+- Do you have 4 spaces for your code indentation?
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Nice job adding a `.gitignore` in for initial commit
+
+## Extensions
+
+**10 points**: Completed the extension for modifying a color using a hex code
 
 
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 143 / 160

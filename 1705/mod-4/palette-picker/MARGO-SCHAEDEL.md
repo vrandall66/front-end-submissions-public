@@ -52,34 +52,67 @@ Backend testing is awesome (compared to frontend testing)!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**45 points**: (50 possible points)
+
+- Minor missing feature for when you click on a saved palette, and it should show the palette again (with the large colors)
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- Look to add some kind of prevent default on the left container, because if you press spacebar while focused in there, then it scrolls to the bottom
+- Form is similar to the wireframe, which is hard to parse and know exactly what to do first. Do I need to create a project in order to save a palette?
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Schema looks good with one-to-many relationship using primary/foreign key
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- Skipped test, not sure exactly why
+- Be consistent on using double vs. single quotations [for strings](https://github.com/mschae16/palette-picker/blob/master/test/routes.spec.js#L6)
+- Good job with your before and beforeEach blocks
+- [This 404 test](https://github.com/mschae16/palette-picker/blob/master/test/routes.spec.js#L109) and [this test](https://github.com/mschae16/palette-picker/blob/master/test/routes.spec.js#L68) are actually testing the same mechanism in Express to handle unknown routes, so you only need to test this once
+- Good sad path [test](https://github.com/mschae16/palette-picker/blob/master/test/routes.spec.js#L144) and [here](https://github.com/mschae16/palette-picker/blob/master/test/routes.spec.js#L238)
+- Are you actually testing for "incorrect" data [here](https://github.com/mschae16/palette-picker/blob/master/test/routes.spec.js#L204), or just missing data?
+
+## Commented Server File
+
+**8 points**: (10 possible points)
+
+- Missing the details around explanation of the knex config section
+- Some good, details comments 
+- Not sure about the wording for `consume` a promise, you're really just calling `.then()`
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- Group all of the `projects` routes together, and then group all of the `palettes` routes together because it's easier to see what resources have what functionality
+- [This section](https://github.com/mschae16/palette-picker/blob/master/server.js#L37-L39) and [this section](https://github.com/mschae16/palette-picker/blob/master/server.js#L57-L62) have very similar functionality. See how you can pull out the functionality and maybe create one piece of middleware to DRY up the server code.
+- Once you're using a [multi-line ternary](https://github.com/mschae16/palette-picker/blob/master/server.js#L77-L80), why not just use an if/else - ternaries are usually harder to parse for other developers - and [here](https://github.com/mschae16/palette-picker/blob/master/public/js/scripts.js#L24-L27)
+- Cool color picking [logic](https://github.com/mschae16/palette-picker/blob/master/public/js/scripts.js#L2)
+- Instead of using the `id` [attribute](https://github.com/mschae16/palette-picker/blob/master/public/js/scripts.js#L36), use `data` attributes to store data about a DOM node, same with palettes
+- Good check [here](https://github.com/mschae16/palette-picker/blob/master/public/js/scripts.js#L62)
+- A good error check [here](https://github.com/mschae16/palette-picker/blob/master/public/js/scripts.js#L173), but not a very helpful response for the user
+- Why the [newline](https://github.com/mschae16/palette-picker/blob/master/public/js/scripts.js#L211)?
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Great small commits using imperative subject lines with a lot of branches - keep it up
 
 
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 133 / 160

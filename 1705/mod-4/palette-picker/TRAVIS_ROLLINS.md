@@ -52,34 +52,60 @@ This was a pretty fun project.  I was nervous about doing the backend in the beg
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**50 points**: (50 possible points)
+
+- Looks like all the features are there (no extensions)
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**13 points**: (20 possible points)
+
+- I like the transition to change colors, but it takes too long - I want to flip through palettes quickly and see the results
+- A form on the very top of the page is not an obvious place for user interaction...especially if it's above the name of the site
+- I like the organization of the projects on the left, but they are tough to differentiate between project containers because the style and colors are so similar, little to divide each project
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Schema looks good with one-to-many relationship using primary/foreign key
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- Good job with the before and beforeEach blocks
+- For [this test](https://github.com/Kalikoze/Palette-Picker/blob/master/test/routes.spec.js#L63), you should be looking for an ID integer value that doesn't exist, not a string, for a record that doesn't exists in the DB
+- Same as above [here](https://github.com/Kalikoze/Palette-Picker/blob/master/test/routes.spec.js#L100) - also the title doesn't match the test
+- Good sad path test [here](https://github.com/Kalikoze/Palette-Picker/blob/master/test/routes.spec.js#L129)
+- Good test, but [this](https://github.com/Kalikoze/Palette-Picker/blob/master/test/routes.spec.js#L211) should respond with a 404
+
+## Commented Server File
+
+**7 points**: (10 possible points)
+
+- Good overall, looking for more technically accurate explanations in some places, though. For instance, [this part](https://github.com/Kalikoze/Palette-Picker/blob/tr-comments/server.js#L9) about environments - very vague just to say you are setting it up
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- If you're sending a JSON object in the response, [like this one](https://github.com/Kalikoze/Palette-Picker/blob/master/server.js#L32), use the `.json` method instead of the `.send` method
+- Need to test for the case where the ID of the [item to delete](https://github.com/Kalikoze/Palette-Picker/blob/master/server.js#L56) might not exist in the DB
+- Great job using DATA attributes in your HTML, but the `${paletteId}` also belongs in a data attribute
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**17 points**: (20 possible points)
+
+- Need some smaller, more atomic commits, but good job adding .gitignore right off the bat
 
 
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 137 / 160

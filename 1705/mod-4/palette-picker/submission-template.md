@@ -48,27 +48,31 @@ Anything else you wanna say!
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**x points**: (50 possible points)
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**x points**: (20 possible points)
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**x points**: (20 possible points)
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**x points**: (20 possible points)
+
+## Commented Server File
+
+**x points**: (10 possible points)
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**x points**: (20 possible points)
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**x points**: (20 possible points)
 
 
 ### To get a 3 on this project, you need to score 120 points or higher

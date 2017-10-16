@@ -65,34 +65,63 @@
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**50 points**: (50 possible points)
+
+- Looks like all the features are there (no extensions)
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- The form is roughly styled and hard to follow
+- The colors could use up more real estate; they are pretty small, which is a little frustrating for the user since the colors are the central purpose of the site
+- Good job have a `There are no saved palettes.` as a placeholder
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Schema looks good with one-to-many relationship using primary/foreign key
+- I haven't used the json column type before, I wonder how that worked out, any issues?
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**17 points**: (20 possible points)
+
+- Good job with the before and beforeEach blocks
+- [This test](https://github.com/EndlessHypnosis/palette-picker/blob/master/test/endpoints.spec.js#L130-L163) is very thorough, I'm wondering if it's too thorough; is the first request really necessary if you trust your seed file is running (and you don't modify your seed data - either way the test is fragile)
+- Watch out for [typos](https://github.com/EndlessHypnosis/palette-picker/blob/master/test/endpoints.spec.js#L167)
+- Would want to see a sad path test for [this route](https://github.com/EndlessHypnosis/palette-picker/blob/master/test/endpoints.spec.js#L252) for when you try to delete an item that does not exist in the DB
+
+## Commented Server File
+
+**8 points**: (10 possible points)
+
+- Want to see some more specificity in terminology, for instance the reasoning behind the specific body parser settings [here](https://github.com/EndlessHypnosis/palette-picker/blob/server-js-comments/server.js#L13)
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- Helpful error handling [here](https://github.com/EndlessHypnosis/palette-picker/blob/master/server.js#L47)
+- Status 201 [here](https://github.com/EndlessHypnosis/palette-picker/blob/master/server.js#L71) for an error?
+- [This](https://github.com/EndlessHypnosis/palette-picker/blob/master/public/js/scripts.js#L52-L89) is brutal in terms of readability - needs refactoring
+- Instead of using the name of a project as an ID attribute in your HTML, you can use the data HTML attribute to store data information about an element, an ID is traditionally used for styling and targeting specific elements for JS hooks
+- Are you really accepting all content types? Your implementation seems to depend on getting JSON back as a response
+- Seems like you could tie [these classes](https://github.com/EndlessHypnosis/palette-picker/blob/master/public/js/scripts.js#L212-L213) together into one "locked" class, and then just toggle it
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**17 points**: (20 possible points)
 
+- Try for some smaller commits along the way, overall pretty good
+_ nice job adding .gitignore right off the bat
 
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 142 / 160

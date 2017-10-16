@@ -54,34 +54,62 @@ This was a good project to get back into the swing of things.  I essentially had
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**50 points**: (50 possible points)
+
+- Asked for five colors, not six, but not a big deal...
+- Looks like all the features are there (no extensions)
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**13 points**: (20 possible points)
+
+- The form is pretty rough to get through - the dropdown has no visual affordance to show it's a dropdown menu
+- The form input for saving a palette does not clear once it's saved
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Schema looks good with one-to-many relationship using primary/foreign key
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**17 points**: (20 possible points)
+
+- Good job with the before and beforeEach blocks
+- Nice sad path test [here](https://github.com/sljohnson32/palette-picker/blob/master/test/routes.spec.js#L104)
+- Would like to see a sad path test for a [deletion](https://github.com/sljohnson32/palette-picker/blob/master/test/routes.spec.js#L199) with an incorrect ID
+
+## Commented Server File
+
+**5 points**: (10 possible points)
+
+- Good high-level overview of the chunks of code, but looking for specificity on each line
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**13 points**: (20 possible points)
+
+- [Ordering results](https://github.com/sljohnson32/palette-picker/blob/master/server.js#L20) can be OK for smaller datasets, but imagine you have thousands of records; it will take a long time to sort them and slow down your API
+- [This](https://github.com/sljohnson32/palette-picker/blob/master/server.js#L24) is ok, but usually you will just see an empty array as a response
+- [This section](https://github.com/sljohnson32/palette-picker/blob/master/server.js#L113-L119) and [this section](https://github.com/sljohnson32/palette-picker/blob/master/server.js#L89-L95) are very similar in structure, see if you can refactor this to DRY it up
+- I like the extraction of fetch calls into [another file](https://github.com/sljohnson32/palette-picker/blob/master/public/js/fetch.js) - I suppose I would call the filename something different because it sounds like a polyfill for fetch or source code
+- Make sure every `fetch()` call has a `.catch()`
+- Do not use ID attributes to store data about resources, rather use the [DATA attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*)
+- [This block](https://github.com/sljohnson32/palette-picker/blob/master/public/js/scripts.js#L165-L201) is getting quite long and tough to parse
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Nice small commits - good job adding .gitignore right off the bat
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: x / 150
+# Final Score: 138 / 160

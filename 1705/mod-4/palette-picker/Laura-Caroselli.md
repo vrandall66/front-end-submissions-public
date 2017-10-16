@@ -48,34 +48,65 @@ Anything else you wanna say!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: Lorem ipsum dolor set amet
+**40 points**: (50 possible points)
+
+- Cannot save a palette to a project in production (saw gif of everything working locally), but production is a part of this project - deducting a bit because of that
+- Missing minor feature where clicking on a saved palette will update the top colors to the colors of the saved palette
 
 ## User Interface
 
-**x points**: Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+- The form looks good, but there needs to be some room on the left of the placeholder text within the input fields
+- Need some space between project groups
+- I would keep the width of the project containers the same even when they do not have any palettes in them - when they shrink, they look a little awkward all with different sizes
 
 ## Data Persistence with SQL Database
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Schema looks good with one-to-many relationship using primary/foreign key
 
 ## Testing
 
-**x points**: Lorem ipsum dolor set amet
+**10 points**: (20 possible points)
+
+- Good job with the before and beforeEach blocks
+- [This 404 test](https://github.com/lcaroselli/palette-picker/blob/master/test/routes.spec.js#L64) and [this test](https://github.com/lcaroselli/palette-picker/blob/master/test/routes.spec.js#L99) are actually testing the same mechanism in Express to handle unknown routes, so you only need to test this once
+- Good [sad path test here](https://github.com/lcaroselli/palette-picker/blob/master/test/routes.spec.js#L124), but should respond with a 404 because the resource cannot be found
+- I don't see any happy or sad path tests for POST routes
+
+## Commented Server File
+
+**5 points**: (10 possible points)
+
+- Some lines and groups of code missing comments
+- Instead of groups of comments, we're looking for comments on each line so we know what sentence goes with a certain line of code
+- [This line](https://github.com/lcaroselli/palette-picker/blob/lc-code-comments-2/server.js#L26) is pretty vague, there are a few pronouns that I don't know what you're referring to
 
 ## JavaScript Style
 
-**x points**: Lorem ipsum dolor set amet
+**12 points**: (20 possible points)
+
+- [This](https://github.com/lcaroselli/palette-picker/blob/master/server.js#L20) is a strange thing to have since you are sending static assets and don't want to send information in the body
+- Good job using a `.catch()` for all of your server-side promises
+- For this case of [no resources in the table](https://github.com/lcaroselli/palette-picker/blob/master/server.js#L28), it is not actually a 404 because the endpoint is valid, there are just no things in the table - so send a 200 response with an empty array, that's ok - same with palettes
+- Good response [here](https://github.com/lcaroselli/palette-picker/blob/master/server.js#L75) - just change the status code to 404
+- Using the same variable [here](https://github.com/lcaroselli/palette-picker/blob/master/public/js/scripts.js#L24-L26) and other spots is pretty confusing since they represent the response in different ways
+- Instead of using the `id` [attribute](- Instead of using the `id` [attribute](https://github.com/mschae16/palette-picker/blob/master/public/js/scripts.js#L36), use `data` attributes to store data about a DOM node, same with palettes), use `data` attributes to store data about a DOM node, same with palettes
+- Why return the [response twice](https://github.com/lcaroselli/palette-picker/blob/master/public/js/scripts.js#L198-L199)? You can just use one line to convert the response to JSON
 
 ## Workflow
 
-**x points**: Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
 
+- Good small commits using imperative subject lines with a lot of branches - keep it up
 
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 122 / 160
