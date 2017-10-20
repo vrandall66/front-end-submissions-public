@@ -65,10 +65,9 @@ This was a good project to get back into the swing of things.  I essentially had
 
 ## User Interface
 
-**13 points**: (20 possible points)
+**15 points**: (20 possible points)
 
 - The form is pretty rough to get through - the dropdown has no visual affordance to show it's a dropdown menu
-- The form input for saving a palette does not clear once it's saved
 
 ## Data Persistence with SQL Database
 
@@ -112,4 +111,4 @@ This was a good project to get back into the swing of things.  I essentially had
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 135 points or higher
 
-# Final Score: 138 / 160
+# Final Score: 140 / 160
