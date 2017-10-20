@@ -1,50 +1,35 @@
-## Student:
-## Evaluator:
-## Notes/What To Work On:
+## Student: Melena Suliteanu
+## Evaluator: David Whitaker
+## Notes/What To Work On: 
+
+* Work on syntax and spacing consistency
+* Liked the fun picture injection
+* Maybe add comments to CSS for better organization
+* Be more verbose and explicit when naming functions and variables
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
 * Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
-
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
+* Advanced Beginner
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
+* Advanced Beginner 
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
 * Hot Fire  
-* Sparkles  
-* Magic
