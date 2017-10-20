@@ -43,7 +43,7 @@ Yes
 #### Link to a specific block of your code on GitHub that you are proud of
 [happy code](https://github.com/christielynam/byob/blob/master/server.js#L28-L76)
 
-* Although this piece of code is a bit verbose, JWT's were a difficult concept and we are proud to have conqured this step and now have a better understanding of how to implement JWT's.
+* Although this piece of code is a bit verbose, JWT's were a difficult concept and we are proud to have conquered this step and now have a better understanding of how to implement JWT's.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
 [sad code](https://github.com/christielynam/byob/blob/master/server.js#L155-L177)
@@ -77,17 +77,22 @@ Anything else you wanna say
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**8 points**: (10 possible points)
+
+- Should group similar endpoints together (types: GET, DELETE, etc. and then list holidays: GET, POST, DELETE, etc.)
+- Great job with example output and sample requests
+- Careful with bulleted lists that only contain one bullet - defeats the purpose of a list
+- For POST requests or anything else that needs information passed in the body of the request, it is good to let them know what needs to be in the body (or at least show a sample)
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**60 points**: (60 possible points)
 
 ### Testing & Linting & Error Handling
 
@@ -99,7 +104,10 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**17 points**: (20 possible points)
+
+- Good job with smaller commits
+- The commit count looks a little lopsided in terms of equal contributes; make sure both team members are driving equally
 
 ## Project is worth 170 points
 

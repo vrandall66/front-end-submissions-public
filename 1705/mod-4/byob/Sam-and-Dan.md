@@ -84,17 +84,24 @@ Our user side site is responsive!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**7 points**: (10 possible points)
+
+- Should make the documentation that says how to send the token in a request clearer as an Authorization header
+- Leave off the trailing `/` for endpoint names, for instance `'/api/v1/districts/'` should just be listed as `'/api/v1/districts'`
+- While not typical in API docs to show screenshots of tables, I like it here when there are only a few tables
+- Should group similar endpoints together (districts: GET, DELETE, etc. and then list counties: GET, POST, DELETE, etc.)
+- Good job noting what requests need in the body
+- The placement of some images is a little off - I know this is tough with markdown, but it is looking a little messy toward the to bottom of the docs
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**60 points**: (60 possible points)
 
 ### Testing & Linting & Error Handling
 
@@ -106,7 +113,9 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**20 points**: (20 possible points)
+
+- Good job with small commits, looks like fairly equal contributions from both team members
 
 ## Project is worth 170 points
 

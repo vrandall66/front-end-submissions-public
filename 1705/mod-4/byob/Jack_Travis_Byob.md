@@ -76,17 +76,24 @@ We ended up enjoying the project a lot more than expected.  We feel much more co
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**6 points**: (10 possible points)
+
+- Some weird indentation in [this sample response](https://github.com/Kalikoze/Tsunamis_API/blob/master/documentation/source_GET.md)
+- [Same here](https://github.com/Kalikoze/Tsunamis_API/blob/master/documentation/source_PATCH.md), be consistent with indentation size
+- Great job showing what is required for endpoints and sample responses
+- I like the links to multiple doc pages, helps to break up large APIs
+- Not sure how useful the error section is for each endpoint, but it would be nice to have specific errors they might encounter if you're going to document errors
+- I don't see any documentation on JWT auth or which endpoints require them
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**60 points**: (60 possible points)
 
 ### Testing & Linting & Error Handling
 
@@ -96,9 +103,13 @@ The following set of points are distributed at the discretion of the instructor.
 
 **x points**: (40 possible points) Lorem ipsum dolor set amet
 
+- Something is up with one (or both) of your editor because it's [inserting tabs instead of spaces](https://github.com/Kalikoze/Tsunamis_API/blob/master/server.js#L22-L36) - the might look like spaces in your editor, but you can see they are tabs once you look on GitHub
+
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: (20 possible points) Lorem ipsum dolor set amet
+
+- Want to see some smaller, atomic commits
 
 ## Project is worth 170 points
 
