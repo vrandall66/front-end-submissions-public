@@ -1,65 +1,42 @@
-## Student: 
-## Evaluator:
+## Student: Jordan & Michelle
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Good error messaging.
+- Small fixes for responsiveness across all screen sizes.
+- Following conventions for commiting but would like to see more than 3 branches for features.
+- Good spacing/indentation in HTML. Small areas to push forward with ARIA - lang, alt attributes. Don't need to wrap labels around label if you are linking with for/id. Run through Chromevox or other screen reader next time.
+- Good organization of CSS file!
+- Nice work - no anonymous functions. You both have a clear understanding of event delegation. Both knew what code (including Regex) is doing.
+- Longer functions in JS could be refactored.
+- Remove all of your console logs for production ready code - JS line 15.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
-* Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+  
+* Proficient    
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
+  
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
