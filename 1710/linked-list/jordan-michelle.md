@@ -5,7 +5,7 @@
 - Good error messaging.
 - Small fixes for responsiveness across all screen sizes.
 - Following conventions for commiting but would like to see more than 3 branches for features.
-- Good spacing/indentation in HTML. Small areas to push forward with ARIA - lang, alt attributes. Don't need to wrap labels around label if you are linking with for/id. Run through Chromevox or other screen reader next time.
+- Good spacing/indentation in HTML. Small areas to push forward with ARIA - lang, alt attributes. Don't need to wrap labels around inputs if you are linking with for/id. Run through Chromevox or other screen reader next time.
 - Good organization of CSS file!
 - Nice work - no anonymous functions. You both have a clear understanding of event delegation. Both knew what code (including Regex) is doing.
 - Longer functions in JS could be refactored.
