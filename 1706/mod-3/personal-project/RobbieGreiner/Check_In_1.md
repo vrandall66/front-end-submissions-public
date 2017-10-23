@@ -4,13 +4,17 @@
 
 #### Project Pitch
 
-A place to view info on all breweries in Denver, see beer 
+A place to view info on all breweries in Denver.  Location, beers, beer types, logo, description.
 
 ### Deliverables
 
 #### Stack:
 
+React with Redux & Router
+
 #### APIs:
+
+http://www.brewerydb.com/
 
 #### Wireframes
 
