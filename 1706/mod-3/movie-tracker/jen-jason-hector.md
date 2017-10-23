@@ -2,7 +2,7 @@
 
 ### Specification Adherence
 
-- 3 - The application completes all 2 iterations. // PENDING style to indiciate favorites
+- 3 - The application completes all 2 iterations.
 
 ### Code Quality
 
