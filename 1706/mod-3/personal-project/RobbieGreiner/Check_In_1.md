@@ -1,8 +1,10 @@
-## Project Name:
+## Project Name: Mile High Brewery Tracker
 
 #### Check In: 1
 
 #### Project Pitch
+
+A place to view info on all breweries in Denver, see beer 
 
 ### Deliverables
 
