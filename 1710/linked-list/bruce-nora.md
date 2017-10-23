@@ -10,8 +10,6 @@ radius
 * USE FORMS!!!!!!! Inputs should have labels!!!
 * Html style is pretty solid, but still room for improvement in indentation(ie.
   line 20 should be indented)
-* Lines 24 and 25 in index.html are doing the same thing. Line 24 is bringing in
-  jquery via google and 25 is doing so locally. Pick one. 
 
 ### css
 * Could use some organizational comments in css, no need for empty line at beginning of file
