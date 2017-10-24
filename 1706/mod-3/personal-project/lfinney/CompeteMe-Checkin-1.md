@@ -14,7 +14,9 @@ React, Router, Redux
 Google Places API
 
 #### Wireframes:
-- I have some things sketched up on paper, but nothing digital yet. I found success in mod 1 doing paper mockups for the static comps, which is why I started my wireframing process there.
+![CompeteMe wireframe](https://user-images.githubusercontent.com/22566946/31972918-6bc39310-b8e0-11e7-9d95-c0764ee211a3.png)
+
+
 
 #### Waffle & Github:
 [Github Repo](https://github.com/lfinney/competeMe)
