@@ -4,7 +4,6 @@
 
 ### html
 * Indentation in html is almost there but could use another combthrough
-* Labels should wrap or be above input fields
 * Comments in html seem redundant for production code
 * Would recommend using a minified version of jquery in future projects for faster load times
 
