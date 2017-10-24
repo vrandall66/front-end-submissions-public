@@ -48,4 +48,11 @@ https://waffle.io/francylang/personal-project
 
 #### Instructor Notes
 
+Cool idea! Mock data for your initial state, worry about logging in and building backend later.
+
 #### Deliverables for next checkin:
+
+- React, Router, and Redux boilerplate set up
+- Classroom container
+- Student container or component
+- API function that can send a text to a phone #
