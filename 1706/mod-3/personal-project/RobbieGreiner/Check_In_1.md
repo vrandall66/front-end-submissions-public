@@ -27,7 +27,9 @@ https://waffle.io/robbiegreiner/brewery-tracker
 
 #### Order Of Attack
 Oct 24th - Create all endpoint URLs that I will need, almost done. Wireframe.  Starting playing with data in application.
-Oct 25th - Play with data inside of application
+Oct 25th - Play with data inside of application, figure out how I want the data sets to be structured in my app.
+         - Getting the data for all the breweries and then getting the data for their beers is to separate API calls, but
+           I would like that data to live in the same object.
 Oct 26th - Setup landing page, setup components
 Oct 27th - See some data in components
 Oct 28-29 - Go to breweries for more inspiration, setup testing environment
