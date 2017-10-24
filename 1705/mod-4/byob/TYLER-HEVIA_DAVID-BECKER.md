@@ -91,35 +91,37 @@ The following set of points are distributed at the discretion of the instructor.
 
 **25 points**: Project has a running test suite that covers happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user though can be broken out a bit to reduce repetition. The project has a linting configuration but is not being run in CircleCI.
 
-* Nit pick, but a friendlier error message [here](52) would be 'You must have admin privileges to perform this operation'
+* Nit pick, but a friendlier error message [here](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L52) would be 'You must have admin privileges to perform this operation'
 
-* I'd still use a [422 here](61) rather than a 400
+* I'd still use a [422 here](https://github.com/tylerjhevia/BYOB/blob/master/test/test.spec.js#L331) rather than a 400
 
 * Doesn't look like your CircleCI build is running your linter. 
 
-* Error handling is  thorough, but repetitive. I'd break out error handling like [this](169-172) into a helper function so it can be re-used among endpoints.
+* Error handling is  thorough, but repetitive. I'd break out error handling like [this](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L169-L172) into a helper function so it can be re-used among endpoints.
+
+* You have [two beforeEach blocks](https://github.com/tylerjhevia/BYOB/blob/master/test/test.spec.js#L52-L71). You should only have one and you should not be rolling back your database schema during this phase.
 
 ### JavaScript Style
 
 **20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
-* A simpler way to do this [check](26-44) is by assigning the token variable right away and falling back through each possible option. If none of the values stick, it will just be undefined. e.g.:
+* A simpler way to do this [check](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L26-L44) is by assigning the token variable right away and falling back through each possible option. If none of the values stick, it will just be undefined. e.g.:
 
 ```js
 let token = request.headers.authorization || request.body.token || request.query.token;
 ```
 
-* Not sure you need [this check here](49), both fields should be required when generating a token which you're checking for [here](60)
+* Not sure you need [this check here](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L49), both fields should be required when generating a token which you're checking for [here](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L60)
 
-* Little confused what [this](51) check is doing. The `admin` value you should be saved and stored in the decoded token, not passed into the request body. (A user should only have to pass in the token to perform admin operations, not an admin value). Rather than doing an object.assign [here](67-72) for the JSON object you're returning, you should add that `admin` value into the payload of the JWT before it even gets signed.
+* Little confused what [this](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L51) check is doing. The `admin` value you should be saved and stored in the decoded token, not passed into the request body. (A user should only have to pass in the token to perform admin operations, not an admin value). Rather than doing an object.assign [here](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L67-L72) for the JSON object you're returning, you should add that `admin` value into the payload of the JWT before it even gets signed.
 
-* [This](76-127) code can be cleaned up and refactored a bit by blah blah blah
+* [This](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L76-L127) code can be cleaned up and refactored a bit by blah blah blah
 
-* [This ternary](135-139) is really difficult to read. Best practices/only use case for using ternaries in a readable fashion: left-hand assignments that will be assigned one of two values. e.g. `let foo = bar ? true : false`.
+* [This ternary](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L135-L139) is really difficult to read. Best practices/only use case for using ternaries in a readable fashion: left-hand assignments that will be assigned one of two values. e.g. `let foo = bar ? true : false`.
 
-* [This](146) endpoint structure is a little unRESTful -- if you want to return all beers that belond to a particular brewery, you would probably want to use a structure like `/api/v1/breweries/:id/beers`. Alternatively, since this is more of a many-to-many relationship, you could use the brewery ID as a query param and do a GET on all beers with that brewery id, like so: `/api/v1/beers?breweryID=125`
+* [This](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L146) endpoint structure is a little unRESTful -- if you want to return all beers that belond to a particular brewery, you would probably want to use a structure like `/api/v1/breweries/:id/beers`. Alternatively, since this is more of a many-to-many relationship, you could use the brewery ID as a query param and do a GET on all beers with that brewery id, like so: `/api/v1/beers?breweryID=125`
 
-* [These properties](165-167) should not be passed in by the user for these requests. Only the token.
+* [These properties](https://github.com/tylerjhevia/BYOB/blob/master/server.js#L165-L167) should not be passed in by the user for these requests. Only the token.
 
 ### Workflow
 
