@@ -16,6 +16,10 @@ Spotify, Facebook, OAuth
 
 #### Wireframes
 
+![fullsizerender](https://user-images.githubusercontent.com/26471447/31951271-de32fdfa-b89a-11e7-98cb-e01466b0c5f3.jpg)
+![fullsizerender-2](https://user-images.githubusercontent.com/26471447/31951290-e5147432-b89a-11e7-86cf-505e1054457e.jpg)
+![fullsizerender-1](https://user-images.githubusercontent.com/26471447/31951301-eaa25a36-b89a-11e7-8e66-056d2aae6992.jpg)
+
 #### Waffle & Github
 
 
