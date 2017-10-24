@@ -105,11 +105,15 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**x points**: (40 possible points)
+
+
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**x points**: (40 possible points)
+
+
 
 ### Workflow
 

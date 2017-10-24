@@ -97,17 +97,20 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**x points**: (40 possible points)
+
+
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**x points**: (40 possible points)
 
 - Something is up with one (or both) of your editor because it's [inserting tabs instead of spaces](https://github.com/Kalikoze/Tsunamis_API/blob/master/server.js#L22-L36) - the might look like spaces in your editor, but you can see they are tabs once you look on GitHub
 
+
 ### Workflow
 
-**15 points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
 
 - Want to see some smaller, atomic commits
 
