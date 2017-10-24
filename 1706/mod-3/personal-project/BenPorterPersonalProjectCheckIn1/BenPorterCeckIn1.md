@@ -19,14 +19,26 @@ APIs will include the stubbed backend, as well as the google cal api or other ca
 
 #### Waffle & Github
 [Github](https://github.com/bbp5280/homeTendingApp) 
+[Waffle] (https://waffle.io/bbp5280/homeTendingApp)
 
 #### Order Of Attack
+0. Stub backend
+1. Home page with info about the business linking to a login page allowing both homeowner login as well as business owner login
+2. Home owner login has the ability to fill out a form requesting services on their house. Request should send an email to home owner to as a record of request. The subbmitted request should also email business owner as well as well as be visible in a "messages" section of the business owner login. Business owner should be able to set a time and date and schedule the request to a gmail calendar. Once scheduled an email should be sent to homeowner with details. 
+3. Business owner should be have the ability to create an invoice. Upon submission the invoice should be saved to the home and generate an email to the homeowner. 
+4. next set of features - see nice to haves
 
 #### MVP
+The MVP for this app will include a homepage, homeowner and business owner login. The homeowner should have the ability to request services. The business owner should be alerted of these request on login and be able to schedule request pushing automatically to a google cal. Business owner should be able to create an invoice. 
 
 #### Nice To Haves
+Each home should have it's own calendar so business owner can keep track of owner and guest stay dates.
+A batch invoice proccess to generate monthly invoices to homeowners
+Shopping list checklist available to the homeowner to request shopping services be done before an arrival. 
+Tha ability to upload images of the home which can be attached to invoicing. 
 
 #### Biggest Challenges
+The biggest challenges will be stubbing the backend and implimenting the automation. 
 
 #### Instructor Notes
 
