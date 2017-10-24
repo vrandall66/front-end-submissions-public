@@ -23,6 +23,7 @@
 #### APIs: Google Maps (Maps, Places), Custom user API, Google Maps (Directions), Google Contacts
 
 #### Wireframes 
+  I have some rough sketches of the layout, I'm currently learning Sketch to create digital mockups.
 
 #### Waffle & Github
 https://waffle.io/rufusasterisk/betweenfriends
