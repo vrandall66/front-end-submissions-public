@@ -1,4 +1,4 @@
-## Project Name: Currently Unnamed, working title "Wanderer"
+## Project Name: Currently Unnamed, working title "Wanderer" or "Wonder & Wander"
 
 ## Check In: 1
 
