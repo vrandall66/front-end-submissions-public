@@ -3,17 +3,18 @@
 ## Check In: 1
 
 #### Project Pitch
-A travel app designed for a less rigid/specific traveller. Search tickets from a destination with or without specific critieria and it will show all destinations/times that meet your requirements
+A "bucket list" travel app. Allows a user to save destinations they want to visit and search for flights for all destinations at once.
 
 ### Deliverables
 
 #### Stack:
-React
-Redux
-Firebase
+- React
+- Redux
+- Firebase
 
 #### APIs:
 Still in research
+  Likely SkyScanner
 
 #### Wireframes
 ![web 1920 1](https://user-images.githubusercontent.com/17756439/31957852-3e6b1952-b8ad-11e7-8d97-4159292443e5.png)
@@ -28,18 +29,19 @@ https://github.com/alexbanister/wanderer
 https://waffle.io/alexbanister/wanderer
 
 #### Order Of Attack
-Complete API/Stack/Auth research
-build out wireframes/design
-build out user stories
-assign iteration
+- Complete API/Stack/Auth research
+- build out wireframes/design
+- build out user stories
+- assign iteration
 
 #### MVP
-Allow a user to search for flights to an unspecified destination from a set point with a limited number of search critieria. 
+Allow a user to search for flights to all they're saved destination from a set point. 
 
 #### Nice To Haves
-More specific search criteria
-save searches
-more information about each location
+- Add search prefences
+- weighted results based on preference
+- saves to backend
+- more information about each location
 
 #### Biggest Challenges
 many API calls and data to sort to find possible destinations
