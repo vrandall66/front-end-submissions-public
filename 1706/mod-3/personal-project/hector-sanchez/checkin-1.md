@@ -8,7 +8,7 @@
 Deliverables
 
 ##Stack:
- React, Router, Redux, Backend not sure yet.
+ React, Router, Redux, Firebase, Victory.
 
 ##APIs:
  Still researching.
@@ -42,7 +42,7 @@ Deliverables
   financial planning, intellectual stimulation, etc.
 
  The app should recommend a list of motivational speakers and user should be able to able to view videos of them speaking
- ,from youtube, throught the app itself.
+ ,from youtube, througt the app itself.
 
  App should have a section where users of the app can interact with one another, blog posting, idea sharing, story sharing,
  provide ways of interacting/networking.
