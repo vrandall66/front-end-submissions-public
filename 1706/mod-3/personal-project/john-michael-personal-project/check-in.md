@@ -38,3 +38,7 @@ Git Hub - https://github.com/johnmboudreaux/get-yours
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- React, Router, and Redux boilerplate set up
+- At least one container showing a list of products (could be mocked)
+- Fetch a list of products from amazon
