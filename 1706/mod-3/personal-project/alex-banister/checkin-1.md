@@ -16,14 +16,15 @@ Firebase
 Still in research
 
 #### Wireframes
-![web 1920 1](https://user-images.githubusercontent.com/17756439/31957632-a2f02224-b8ac-11e7-84b4-d4f9cce63121.png)
-![web 1920 2](https://user-images.githubusercontent.com/17756439/31957638-abeaeeea-b8ac-11e7-811f-e590e987e1bf.png)
-![web 1920 3](https://user-images.githubusercontent.com/17756439/31957642-ae2f56f0-b8ac-11e7-8438-0f318f2d1532.png)
-![web 1920 4](https://user-images.githubusercontent.com/17756439/31957647-af64b6fa-b8ac-11e7-8016-30480b5cb337.png)
-![web 1920 5](https://user-images.githubusercontent.com/17756439/31957648-b0967162-b8ac-11e7-96e7-b3ddc6c5825e.png)
+![web 1920 1](https://user-images.githubusercontent.com/17756439/31957852-3e6b1952-b8ad-11e7-8d97-4159292443e5.png)
+![web 1920 2](https://user-images.githubusercontent.com/17756439/31957855-3f7ae98a-b8ad-11e7-8cd8-05a5933c7b37.png)
+![web 1920 3](https://user-images.githubusercontent.com/17756439/31957857-4099d0c4-b8ad-11e7-840d-5acebe8ba500.png)
+![web 1920 4](https://user-images.githubusercontent.com/17756439/31957860-41acfd24-b8ad-11e7-8d9c-b64f3a8b894b.png)
+![web 1920 5](https://user-images.githubusercontent.com/17756439/31957861-429357ba-b8ad-11e7-873a-3e8f0ba17f33.png)
 
 #### Waffle & Github
 https://github.com/alexbanister/wanderer
+
 https://waffle.io/alexbanister/wanderer
 
 #### Order Of Attack
@@ -46,3 +47,6 @@ many API calls and data to sort to find possible destinations
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+React/Redux/Router boiler plate
+Final API decision
+Form submitting to Redux
