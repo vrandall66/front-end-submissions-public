@@ -72,4 +72,18 @@ Digging into the menu on foursquare to identify the happy hour specials.
 
 #### Instructor Notes
 
+- Nice to have would be the ability for users to vote on what happy hour they want to go to 
+    (firebase can give this to you for free basically) 
+- Look into react-foursquare and see if thats working 
+
 #### Deliverables for next checkin:
+
+- Determain if API data is good 
+    - ideally you can make a request 
+- have the map loading with the current location 
+- have redux and react set up 
+  -store should be loaded with some of the available happy hours
+  - look into favoriting. 
+- get the google cloud vision api hooked up 
+
+
