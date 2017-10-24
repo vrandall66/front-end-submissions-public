@@ -97,16 +97,26 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points)
+**32 points**: (40 possible points)
 
-
+- I like [this](https://github.com/Kalikoze/Tsunamis_API/blob/master/test/routes.spec.js#L50) in the before block - neat. You can also have a generated token set as an environment variable so you don't have to generate it every time you run your tests.
+- These [404 tests](https://github.com/Kalikoze/Tsunamis_API/blob/master/test/routes.spec.js#L129-L135) are redundant; they're really testing the same thing, which is Express's built-in 404 handler
+- Good [sad path test](https://github.com/Kalikoze/Tsunamis_API/blob/master/test/routes.spec.js#L166)
+- [This set of tests](https://github.com/Kalikoze/Tsunamis_API/blob/master/test/routes.spec.js#L311-L335) is not necessary because you're testing the functionality of checkAuth, and you've already tested it with [this set of tests](https://github.com/Kalikoze/Tsunamis_API/blob/master/test/routes.spec.js#L195-L233), so you have already tested that checkAuth can handle the token in various ways. All you need to do is test that an endpoint can take a token one way and the others you know should work.
+- Why write out the token [here](https://github.com/Kalikoze/Tsunamis_API/blob/master/test/routes.spec.js#L326)? Interpolate the token variable.
+- [This test](https://github.com/Kalikoze/Tsunamis_API/blob/master/test/routes.spec.js#L671) is fine, but I'd rather see the test use an integer as an ID that doesn't exist, as opposed to a random string
 
 ### JavaScript Style
 
-**x points**: (40 possible points)
+**30 points**: (40 possible points)
 
 - Something is up with one (or both) of your editor because it's [inserting tabs instead of spaces](https://github.com/Kalikoze/Tsunamis_API/blob/master/server.js#L22-L36) - the might look like spaces in your editor, but you can see they are tabs once you look on GitHub
-
+- [Multi-line ternaries](https://github.com/Kalikoze/Tsunamis_API/blob/master/server.js#L45-L47) can be fine, but they are tough to parse and read long into the future; oh my there are ternaries everywhere in the server file...If your ternary doesn't look like this: `let foo = bar ? true : false`, then it's probably too long to use a ternary.
+- The convention for [this endpoint](https://github.com/Kalikoze/Tsunamis_API/blob/master/server.js#L38) is usually just `/authenticate`, not even using `/api/v1`
+- Good error [here](https://github.com/Kalikoze/Tsunamis_API/blob/master/server.js#L42)
+- Would use the plural "sources" throughout [here](https://github.com/Kalikoze/Tsunamis_API/blob/master/server.js#L57) because you are returning a collection of sources
+- Don't use the trailing `/` in your [endpoints](https://github.com/Kalikoze/Tsunamis_API/blob/master/server.js#L74)
+- This [section of code](https://github.com/Kalikoze/Tsunamis_API/blob/master/server.js#L95-L101) is basically the same in multiple routes with some variance (in what params are expected) - see if you can extract this functionality into a separate function for reuse
 
 ### Workflow
 
@@ -119,4 +129,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 143 / 170
