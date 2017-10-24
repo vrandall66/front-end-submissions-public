@@ -38,13 +38,13 @@ In progress
 #### Order Of Attack
 
 1. Create search bar that allows user to show stock information of individual stock
-2. Add ability to buy and sell stocks at current price
-3. Track user portfolio's gains and losses over time
-4. User dashboard with major financial news, data viz of current state of portfolio
+2. Create stock profile page with ability for current user to buy and sell stocks at current bit/ask spread
+3. User dashboard with major financial news, data viz of current state of portfolio
+4. Track user portfolio's gains and losses over time
 5. Add ability to have login / logout to allow multiple users
+6. Admin panel with ability to see and manipulate user data
 6. Have a leaderboard page in which all user's current portfolio worth is displayed
 7. User can create a group in which only the scores of members are displayed on the leaderboard. Invites sent via email.
-
 
 #### MVP
 
@@ -52,17 +52,20 @@ User can create an account, login, track stock portfolio value over time and com
 
 #### Nice To Haves
 
-* Fancy stock ticker
+* Fancy stock ticker on home page:
+  * logged out: all stocks
+  * logged in: choice of portfolio stocks or all stocks
+* Gamification of stock picker game (
 * Inclusion of data from sources other than IEX
 * What if game where user can pick date to invest in company in the past and see how much they would have gained / lost
 * Ability to pull financial statements from SEC's EDGAR and display in PDF form 
 * Microtransactions via Stripe API for if bankrupt player wants to try again
+* Implement more complex securities like commodities and digital currencies
 
 ##### Unrealistically abmitious: 
 * use OCR to create financial statement components
-* Implement more complex securities like commodities and allow options trading
+allow options trading
 * Suggest stocks based on current makeup of user's portfolio
-
 
 #### Biggest Challenges
 
