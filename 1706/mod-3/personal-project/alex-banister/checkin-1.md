@@ -47,6 +47,6 @@ many API calls and data to sort to find possible destinations
 #### Instructor Notes
 
 #### Deliverables for next checkin:
-React/Redux/Router boiler plate
-Final API decision
-Form submitting to Redux
+- React/Redux/Router boiler plate
+- Final API decision
+- Form submitting to Redux
