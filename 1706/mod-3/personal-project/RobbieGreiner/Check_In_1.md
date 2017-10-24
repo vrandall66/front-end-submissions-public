@@ -44,7 +44,9 @@ Clean and appealing design.
 Integrete google maps api to show brewery location.
 
 #### Biggest Challenges
-Getting this all done in Redux.
+Getting the data to behave exactly how I want to will be time consuming.
+Requires multiple fetch calls for the data sets that I want.
+Being efficient in Redux. 
 Not getting stuck on one thing for too long.
 
 #### Instructor Notes
