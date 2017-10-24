@@ -77,7 +77,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**: Lorem ipsum dolor set amet
+**7 points**: The README documentation is out-of-date or inaccurate in some places. Instructor can not successfully use every endpoint based on following the documentation.
+
+* Missing docs on authentication endpoints
+
+* What are the parameters needed for creating a new beer besides the JWT? [This](https://github.com/tylerjhevia/BYOB/blob/master/documentation/beers_endpoints/POST%20beers.md) documentation is missing some information that will help me understand how to use that endpoint. 
 
 ### Feature Completion
 
@@ -85,7 +89,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: Lorem ipsum dolor set amet
+**25 points**: Project has a running test suite that covers happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user though can be broken out a bit to reduce repetition. The project has a linting configuration but is not being run in CircleCI.
 
 * Nit pick, but a friendlier error message [here](52) would be 'You must have admin privileges to perform this operation'
 
@@ -117,10 +121,17 @@ let token = request.headers.authorization || request.body.token || request.query
 
 * [These properties](165-167) should not be passed in by the user for these requests. Only the token.
 
+### Workflow
 
-## Project is worth 150 points
+**17 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
 
-## To get a 3 on this project, you need to score 110 points or higher
-## To get a 4 on this project, you need to score 130 points or higher
+* Mostly consistent git commit messages - I'd just start each message with a capital letter so they all match the auto-generated Merge commits.
 
-# Final Score: x / 150
+* Nice to see that you had some conversation on the PRs, even if it's sparse.
+
+## Project is worth 170 points
+
+## To get a 3 on this project, you need to score 125 points or higher
+## To get a 4 on this project, you need to score 145 points or higher
+
+# Final Score: 129 / 170

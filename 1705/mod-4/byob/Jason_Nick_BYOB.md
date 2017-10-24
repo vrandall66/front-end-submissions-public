@@ -94,7 +94,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**10 points**:  The README includes documentation for all available endpoints and how to use them. Instructor can easily follow the documentation for using the API.
 
 ### Feature Completion
 
@@ -149,11 +149,15 @@ let token = request.headers.authorization || request.body.token || request.query
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Nice use of issues and pull requests, but would like to see some actual code review and conversation around the PRs -- do you both understand all the logic that's being added? Are you both equally responsible for it now?
+
+* Similar inconsistencies in commit message formats and lots of areas where commits can be squashed, though you didn't learn about that until after this project was due.
 
 ## Project is worth 170 points
 
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 134 / 170

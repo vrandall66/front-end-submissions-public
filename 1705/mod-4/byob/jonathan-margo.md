@@ -82,7 +82,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**8 points**: The README documentation is thorough but inaccurate or missing information in some areas.
+
+* Does the authentication [POST](https://github.com/mschae16/byob/blob/master/documentation/POST-authenticate.md) request not take in an `email` and `appName`? Documentation seems to suggest the user doesn't have to send any data along to generate a token, which is inaccurate.
+
+* Along similar lines, I want to see an example of what I actually need to send through with my [POST](https://github.com/mschae16/byob/blob/master/documentation/POST-ships.md) request for ships. Not just what's returned to me. 
 
 ### Feature Completion
 
@@ -117,11 +121,15 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Nice use of issues and pull requests, but would like to see some actual code review and conversation around the PRs -- do you both understand all the logic that's being added? Are you both equally responsible for it now?
+
+* Similar inconsistencies in commit message formats and lots of areas where commits can be squashed, though you didn't learn about that until after this project was due.
 
 ## Project is worth 170 points
 
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 141 / 170
