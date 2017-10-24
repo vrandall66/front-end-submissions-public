@@ -81,7 +81,15 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**5 points**: The README documentation is out-of-date or inaccurate in some places. Instructor can not successfully use every endpoint based on following the documentation.
+
+* Missing documentation for the authentication endpoint
+
+* I'd like to know the data types of [these parameters](https://github.com/lcaroselli/Poke150-api/blob/master/documentation/endpoints/pokemon/POST_pokemon.md#parameters). Am I passing in a string? An integer?
+
+* Format [this](https://github.com/lcaroselli/Poke150-api/blob/master/documentation/endpoints/pokemon/POST_pokemon.md#errors) as a code block.
+
+* Looks like the endpoint [here](https://github.com/lcaroselli/Poke150-api/blob/master/documentation/endpoints/pokemon/DELETE_pokemon_Id.md) is wrong - has a double 'id' in the URL.
 
 ### Feature Completion
 
@@ -133,7 +141,13 @@ let token = request.headers.authorization || request.body.token || request.query
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Don't commit this [.DS_Store](https://github.com/lcaroselli/Poke150-api/blob/master/.DS_Store) file
+
+* Some inconsistencies in commit messages
+
+* Nice use of issues though 'to do' isn't really a useful label. Stick with labels that represent categories (e.g. 'testing') or timeline and importance (e.g. 'priority-1')
 
 ## Project is worth 170 points
 

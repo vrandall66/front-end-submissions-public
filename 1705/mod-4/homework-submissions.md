@@ -82,7 +82,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Samuel Johnson
 
-* [Express Tutorial]()
+* [Express Tutorial](https://github.com/sljohnson32/expressworks)
 * [Promise Practice Exercises]()
 * Websockets Tutorial
 
@@ -90,7 +90,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/Kalikoze/Node-Express-Practice) = Complete Challenges: 1-3
 * [Promise Practice Exercises](https://github.com/Kalikoze/Promise-Exercises)
-* Websockets Tutorial
+* [WebSockets Tutorial](https://github.com/Kalikoze/WebSockets-Practice) = Complete Exercises: 1, 2, 4
 
 ### Tyler Hevia
 

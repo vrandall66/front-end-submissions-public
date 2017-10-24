@@ -1,65 +1,54 @@
-## Student:
-## Evaluator:
+## Student: Natalie and Sabrina
+## Evaluator: David
 ## Notes/What To Work On:
+
+### comp
+* Consider mobile first in the future and definitely use the phone simulator to
+  check mobile
+* Make sure that the placeholder text is lighter than the value text
+
+### html
+* Good use of labels in html
+* Html needs better use of indentation and a form instead of a section
+
+### css
+* Using vw for height, margin and padding properties felt strange to me - probably better to use rem, em, px or %
+
+### js
+* Avoid unused global variables(ie. cardCountValue is never used) 
+* Work on spacing consistency in js - there should be spaces in between if and (
+
+### git/github
+* liked that there were a lot of commit messages, however in the future try to
+  have them tell more of a story
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner 
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
