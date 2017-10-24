@@ -50,3 +50,11 @@ Google Places API
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- get firebase hooked up 
+  - set up user 
+  - user can't move forwared without being logged in 
+- set up router, redux, react 
+- get google maps hooked 
+  - it would be sweet if you could get the current location displayed on the map 
+- start the controlled form and submit an event to firebase
