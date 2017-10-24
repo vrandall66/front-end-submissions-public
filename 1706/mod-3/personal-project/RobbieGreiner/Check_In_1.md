@@ -1,4 +1,4 @@
-## Project Name: Mile High Brewery Tracker
+## Project Name: Brewery Tracker
 
 #### Check In: 1
 
