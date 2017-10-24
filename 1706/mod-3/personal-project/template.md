@@ -15,7 +15,7 @@ App that gives a user access to a game that tracks an imaginary stock portfolio 
 React
 Redux
 Router
-Simple as possible backend?
+Firebase --> (Simple as possible backend?)
 
 Some sort of data visualization / charting use of D3 ( one of or similar to VictoryJS / ChartJS / GraphQL )
 
