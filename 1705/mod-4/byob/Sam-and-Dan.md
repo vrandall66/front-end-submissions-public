@@ -105,15 +105,25 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points)
+**32 points**: (40 possible points)
 
-
+- Wouldn't leave [this comment](https://github.com/sljohnson32/byob/blob/master/test/routes.spec.js#L17) in your repo
+- You can generate [these tokens](https://github.com/sljohnson32/byob/blob/master/test/routes.spec.js#L18-L28) one time somewhere, save them as environment variables, and then just bring them in to the test file as environment variables - then you don't have to generate them each time the tests are run
+- Should be testing the [content of the response bodies](https://github.com/sljohnson32/byob/blob/master/test/routes.spec.js#L80), not just the length of the array but also at least looking at the properties of individual objects int he array - this goes for other tests in this file as well
+- This [404 test](https://github.com/sljohnson32/byob/blob/master/test/routes.spec.js#L199) is redundant; it's really testing the same thing that you've testes [here](https://github.com/sljohnson32/byob/blob/master/test/routes.spec.js#L42), which is Express's built-in 404 handler
+- [This](https://github.com/sljohnson32/byob/blob/master/test/routes.spec.js#L208) 404 test is a good test
+- Not sure exactly what [this](https://github.com/sljohnson32/byob/blob/master/test/routes.spec.js#L236-L248) is really testing...The fact that you get a string back doesn't really tell you if that endpoint is doing what it should
 
 ### JavaScript Style
 
-**x points**: (40 possible points)
+**30 points**: (40 possible points)
 
-
+- You should not have any secret key in a [regular file](https://github.com/sljohnson32/byob/blob/master/server.js#L8) - only through an environment variable
+- In this case, [this code](https://github.com/sljohnson32/byob/blob/master/server.js#L17-L20) is short enough to put all on one line
+- Careful with using [all of the contents of the request body](https://github.com/sljohnson32/byob/blob/master/server.js#L45) by default because the body could contain some information that you do not want, especially if you are trying to put this data into your DB
+- This [section of code](https://github.com/sljohnson32/byob/blob/master/server.js#L48-L54) is used in other routes, with slight variance - in the future, try to extract this out to a separate function that can be reused in route handlers
+- Why are these separate [if statements](https://github.com/sljohnson32/byob/blob/master/server.js#L67-L78) - are there cases where you would want to run more than one condition?
+- I don't think a [202 status code](https://github.com/sljohnson32/byob/blob/master/server.js#L249) is really appropriate here because the deletion has taken place. 202 codes are "The request has been accepted for processing, but the processing has not been completed.", but the deletion has taken place in the DB - it's not like you are using a cron job to schedule deletions at another time.
 
 ### Workflow
 
@@ -126,4 +136,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 149 / 170
