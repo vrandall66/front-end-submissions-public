@@ -59,4 +59,11 @@ https://github.com/rufusasterisk/betweenfriends
 
 #### Instructor Notes
 
+- you could totally use firebase for this! 
+
 #### Deliverables for next checkin:
+
+- get firebase hooked up 
+- get react, redux, and router hooked up as well 
+- pull in google maps api 
+- grab location data. 
