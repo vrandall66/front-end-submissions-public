@@ -16,6 +16,12 @@ The app will be buitl usins React and Redux.
 APIs will include the stubbed backend, as well as the google cal api or other calendar api. 
 
 #### Wireframes
+Home
+![home](https://user-images.githubusercontent.com/26842728/32000772-08ec3790-b955-11e7-83f9-191a1d8b81f0.jpg)
+Business owner messages & properties pages
+![owner-message-and-property-pages](https://user-images.githubusercontent.com/26842728/32000815-2b77dbde-b955-11e7-8ab8-92e0787c2f23.jpg)
+Business owner invoice form
+![owner-invoice-form](https://user-images.githubusercontent.com/26842728/32000910-6b424db2-b955-11e7-9933-b1b841446e8f.jpg)
 
 #### Waffle & Github
 [Github](https://github.com/bbp5280/homeTendingApp) 
