@@ -1,16 +1,16 @@
-##Project Name: ProjectMe
+## Project Name: ProjectMe
 
-##Check In: 1
+## Check In: 1
 
-##Project Pitch
+## Project Pitch
  ProjectMe will be your daily source of inspiration and will be an app that you can use as a organizational tool
  to help you keep track of your life goals, short term and long term
 Deliverables
 
-##Stack:
+## Stack:
  React, Router, Redux, Firebase, Victory.
 
-##APIs:
+## APIs:
  Still researching.
 
 ##Wireframes
@@ -20,11 +20,11 @@ Deliverables
  ![wireframe](./assets/wireframe4.png)
  ![wireframe](./assets/wireframe5.png)
 
-##Waffle & Github
+## Waffle & Github
  Pending
 
 
-##Order Of Attack
+## Order Of Attack
  Iteration 1: Start fetching data.
  Iteration 2: User should be able to create a goal and should be able to add necessary steps to achieve the goal.
  Iteration 3: Create the My Reasons section of the app, where users can save images of things or people and text that reminds
@@ -32,12 +32,12 @@ Deliverables
  Iteration 4: Style the crap out of the app.
 
 
-##MVP
+## MVP
  The app should be able to fetch and send random notifications to remind you to stay on track in accomplishing your goals.
  The app should allow the user to save goals, images, text.
  The app should look really good!
 
-##Nice To Haves
+## Nice To Haves
  The app would be able to recommend articles to read from other websites on a variety of topics such as wellness,
   financial planning, intellectual stimulation, etc.
 
@@ -47,13 +47,22 @@ Deliverables
  App should have a section where users of the app can interact with one another, blog posting, idea sharing, story sharing,
  provide ways of interacting/networking.
 
-##Biggest Challenges
+## Biggest Challenges
  Want to implement a beautiful UI, css will be a challenge.
  Getting off the ground without a comp to follow.
  Implmenting Redux and Router.
 
 
 
-##Instructor Notes
+## Instructor Notes
 
-##Deliverables for next checkin:
+- This project has a great spirit but I think that you need to kind of hone in what you really want to accomplish. 
+- From a technical standpoint this isn't the most difficult thing, which means we can focus on a lot of the fundamentals 
+
+
+## Deliverables for next checkin:
+
+- hook up react, redux and router 
+- store should be populating with some data 
+ - it can be stuff from an api / web scrapped data 
+- hook up victoryjs for the landing page. 
