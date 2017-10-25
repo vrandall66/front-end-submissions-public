@@ -54,4 +54,11 @@ The biggest challenges will be stubbing the backend and implimenting the automat
 
 #### Instructor Notes
 
+Focus first on the business side, mock data on the front end using the initial state of the redux store, then look
+towards back end db solutions (firebase).
+
 #### Deliverables for next checkin:
+
+- Working boilerplate with React, Router, and Redux set up. Should have idea of how additional containers/components
+  will be added to the project.
+- A working fetch method that can add an event to a google calendar.
