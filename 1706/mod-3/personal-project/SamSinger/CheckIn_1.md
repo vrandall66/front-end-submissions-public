@@ -44,3 +44,10 @@
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+- set up react, redux, router 
+  - have store populated with first api call
+- get to know firebase 
+  - do the firebase tutorial 
+  - have it hooked up to your project 
+- get initial styles for app 
+- improve wireframes
