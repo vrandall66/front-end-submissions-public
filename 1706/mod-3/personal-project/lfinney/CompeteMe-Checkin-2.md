@@ -53,7 +53,7 @@ Google Places API
 
 #### Instructor Notes
 
-#### Deliverables for next checkin:
+#### Deliverables for last checkin:
 
 ~~- get firebase hooked up ~~
   - set up user 
@@ -64,3 +64,16 @@ Google Places API
   - it would be sweet if you could get the current location displayed on the map 
   *- currently in the midst of reading through api documentation from google*
 ~~- start the controlled form and submit an event to firebase~~
+
+######## Deliverables for next checkin:
+
+- Firebase werk 
+  - Set up the user interactions  
+    * user can log in. 
+    * user can submit an event. 
+    * user can join an event. 
+- Google Maps 
+  - user can search for location on the map 
+- Redux 
+  - Redux store is populating with events from Firebase. 
+- Testing 
