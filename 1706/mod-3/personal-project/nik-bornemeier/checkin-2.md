@@ -70,20 +70,38 @@ Implementing Node.js and google maps for the first time.
 
 Digging into the menu on foursquare to identify the happy hour specials.
 
+
+#### Deliverables since checkin:
+
+- Determain if API data is good:
+
+  It is good for overall information, happy hour data will be WAY to difficult.  Some links have data on first page, others second, still others would need a third page.
+
+    - ideally you can make a request 
+    (currently making a request for local bars)
+- have the map loading with the current location 
+
+  (having trouble with this, I feel like I'll be able to figure it out, I just need some more time.)
+- have redux and react set up 
+
+  (redux and react are setup)
+
+  -store should be loaded with some of the available happy hours
+
+  (currently loading with mock data)
+  - look into favoriting. 
+
+  (done!)
+- get the google cloud vision api hooked up 
+
+  (I think this will be unneccisary based on levels of scraping)
+
 #### Instructor Notes
 
 - Nice to have would be the ability for users to vote on what happy hour they want to go to 
     (firebase can give this to you for free basically) 
-- Look into react-foursquare and see if thats working 
+- Look into react-foursquare and see if thats working (NOT working!)
 
 #### Deliverables for next checkin:
-
-- Determain if API data is good 
-    - ideally you can make a request 
-- have the map loading with the current location 
-- have redux and react set up 
-  -store should be loaded with some of the available happy hours
-  - look into favoriting. 
-- get the google cloud vision api hooked up 
 
 
