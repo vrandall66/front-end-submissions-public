@@ -12,14 +12,14 @@
 
 ## HTML
 
-## Accessibility
+### Accessibility
 
 * Novice  Knows what a semantic tag is and leverages the HTML5 structural tags to organize the content of their markup.
 * Advanced Beginner Leverages more precise semantic tags when applicable, and employs basic ARIA roles attributes for added clarity in structure, descriptive image alt attributes, title attributes for applicable anchor tags.
 * Proficient  Employs detailed accessibility practices throughout markup, especially in forms and can speak to decisions made in accessibility choices as it relates to specific accessibility concerns.
 * Exceptional Can run markup through a variety of online accessibility tools and score well for content, color, screen readers, etc.
 
-## Style
+### Style
 
 * Novice  Crafts markup with proper indentation and opening/closing tags.
 * Advanced Beginner Crafts markup with proper and logical nesting.
@@ -29,14 +29,14 @@
 
 ## CSS
 
-## Structure of Code
+### Structure of Code
 
 * Novice  Can effectively target DOM elements via tag, class, and/or id and write CSS rules around each element to create the desired style.
 * Advanced Beginner Can cleanly and logically organize CSS rules according to similar categories (i.e. typography, layout, components), and then logically organize the remaining CSS rules based on flow of the markup. Organizes properties within rules alphabetically.
 * Proficient  Leverages cascading styles and CSS specificity rules to create more complex targeting of elements in order to reduce, reuse, share styles across elements. Organizes properties within rules based upon industry standard principles of writing consistent, idiomatic CSS.
 * Exceptional Understands the performance implications surrounding cascading/specificity and crafts CSS that is mindful of reducing complexity and increasing performance.
 
-## Implementation
+### Implementation
 
 * Novice  Can articulate how the CSS box model works and apply it appropriately in a static layout.
 * Advanced Beginner Can articulate the differences between the approaches of absolute/relative positioning, flex-box, floats, and can appropriately apply the approaches to solve a variety of layout problems.
@@ -46,35 +46,35 @@
 
 ## JAVASCRIPT
 
-## Data Types
+### Data Types
 
 * Novice  Can articulate the definitions of primitive data types: strings, booleans, numbers, null, and undefined. Can articulate and describe object types: objects, arrays.
 * Advanced Beginner Can diagnose when issues of data-type mismatch are present and appropriately redirect their coding and/or research efforts accordingly to solve the problem.
 * Proficient  Can identify and track data types through any variety of functions, understanding their affect and result on each line of code. Knows which scenarios are better suited for objects vs. arrays and employs them accordingly.
 * Exceptional Can assess and implement data type decisions for implementation based on increasing performance, shoring up code to be concise/clean, and composing for future maintainability.
 
-## Conditional Logic
+### Conditional Logic
 
 * Novice  Can understand when an expression evaluates to true or false.
 * Advanced Beginner Uses if/else statements, but there are multiple levels of nesting, which makes the paths through the code difficult to follow. Understands what is “truthy” and “falsey” in JavaScript.
 * Proficient  Can use an if/esle statement to effectively handle multiple paths through the code. Writes if/else statements that only have one level of logic (no nesting). Can use logical operators instead of if/else statements where applicable.
 * Exceptional Can write conditional logic that is succinct and easy to read. Logic can handle all situations where user gives incorrect/unexpected input.
 
-## Functions & Scope
+### Functions & Scope
 
 * Novice  Can write a simple function that takes at least one input argument.
 * Advanced Beginner Developer is comfortable using multiple arguments to pass data into functions. Understands how variables are scoped at the function level and global level. Functions are named descriptively. Knows when and why to use return in a function.
 * Proficient  Functions have single responsibility. The entirety of the function is easy to read what functionality it contains. Function is generally shorter than 8 lines. Uses functions to eliminate repeated code. Comfortable refactoring any piece of code and extracting it to a function.
 * Exceptional Comfortable with using callback functions where applicable. Comfortable returning collections from functions (objects, arrays).
 
-## Arrays
+### Arrays
 
 * Novice  Can create array and use array indexing to extract data from array or modify array. Comfortable using arrays to store simple data types: numbers, booleans, or strings.
 * Advanced Beginner Can modify arrays by adding or removing specific elements - uses array methods such as push or shift. Can use a for loop to iterate through array.
 * Proficient  Does not use for loops for arrays - uses array prototypes, such as forEach, to iterate through or manipulate arrays. Can use array to store more complicated data structures such as objects or nested arrays. Is comfortable/efficient with reading array prototype documentation and can efficiently test/apply array prototype methods they have not worked with before.
 * Exceptional Uses variety array prototypes to iterate through arrays and manipulate/create new arrays without using documentation as a resource.
 
-## Objects & Prototypes
+### Objects & Prototypes
 
 * Novice  Can declare an object literal and define/articulate properties vs. methods for an object. Can extract values of an object’s property, and assign new properties and/or reassign values of existing properties on an object.
 * Advanced Beginner Can use object constructor functions and is comfortable with extracting values of properties on different object instances.
@@ -96,7 +96,7 @@ Style
 
 ## GIT & GITHUB
 
-## Git
+### Git
 
 * Novice  Can use commits and can articulate what a commit is and why we use them. Makes large, infrequent commits directly to master branch.
 * Advanced Beginner Can create branches and willingly attempts to incorporate branches into their workflow. Commits, while infrequent, are increased in volume and show improvements in description.
@@ -112,7 +112,7 @@ Github
 
 ## DESIGN
 
-## Comp Recreation
+### Comp Recreation
 
 * Novice  Can establish a complementary color palette, integrate font(s), and execute a handful of the large comp details.
 * Advanced Beginner Can accomplish about 50-75% of the large and small design details and can logically rework them on at least 1 breakpoint.
@@ -122,7 +122,7 @@ Github
 
 ## PAIRING
 
-## Collaboration
+### Collaboration
 
 * Novice  Can communicate needs, expectations, scheduling constraints through a DTR, effectively creating a working plan with partner.
 * Advanced Beginner Can identify deltas in skill level and collaborate on methods whereby both pairs can share equitably in the workload. Can revisit the DTR to address changes that arise, and/or simply to keep one another reminded of the working plan.
