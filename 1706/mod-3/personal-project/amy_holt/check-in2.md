@@ -47,6 +47,22 @@ Data Visualization of stats
 - Getting redux and router to do the thing.
 - 
 
-#### Instructor Notes
+#### Deliverable From Last 
+[x] router & router & redux 
+[x] firebase hooked up 
+[x] intial styles 
+[] looked into twillio stuffs 
 
 #### Deliverables for next checkin:
+
+- Have firebase and redux playing together 
+  - have store populated with state 
+  - so any update to firebase will be funneled to redux first (redux isn't needed); 
+- Work on contacts only being saved to a current User 
+   - I shouldn't log in and see your contacts 
+   - User should be able to log in and log out. 
+   - it would be nice to have the option to log in and log out via google oauth
+- You might want to move some of the logic in your componentDidMount into an action   
+- start on the twillio backend 
+- start testing. 
+  - also maybe move the api calls into a firebase functions file. 
