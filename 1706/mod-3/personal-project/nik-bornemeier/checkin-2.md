@@ -104,4 +104,12 @@ Digging into the menu on foursquare to identify the happy hour specials.
 
 #### Deliverables for next checkin:
 
+- Have firebase hooked up 
+  - a user should be able to sign in 
+  - have the ability to add a happy hour to the desired resturant / bar 
+  - load 10 first 
+  - save favorites to the backend based off the user 
+- have the app styled 
+- Load google maps into the applicatoin 
+  - allow the user the ability to see the bars around them. 
 
