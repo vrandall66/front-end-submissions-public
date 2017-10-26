@@ -31,10 +31,15 @@
   - Create a functioning app by Monday, user will be able to click and generate a list of random restaurants
 
 #### MVP
-  - User will be able to click and generate a list of randomly generated restaurants
+  -app will generate 3 random resturants 
+  - users can vote on resturant 
+  - app chooses winner 
 
 #### Nice To Haves
-  - Creating multiple user sign ins that will interact with each other.
+
+- Creating multiple user sign ins that will interact with each other.
+  - users can filter based off of what food they want to eat. 
+- app closes voting 
 
 #### Biggest Challenges
   - Ineractive multiple sign-ins
@@ -42,3 +47,10 @@
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- Generate 3 random resturants 
+- User can sign up with google 
+- Start the voting process 
+- create actions that populate the store 
+- testing 
+
