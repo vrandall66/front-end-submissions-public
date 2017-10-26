@@ -63,7 +63,9 @@ https://github.com/rufusasterisk/betweenfriends
 
 #### Deliverables for next checkin:
 
-- get firebase hooked up 
-- get react, redux, and router hooked up as well 
-- pull in google maps api 
-- grab location data. 
+- initial styles 
+- input second user's location 
+    - grab center location
+    - start grabbing places within center location radius 
+- start testing actions && reducers 
+- start hitting api with thunk and populating store 
