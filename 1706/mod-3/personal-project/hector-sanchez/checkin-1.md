@@ -11,7 +11,7 @@ Deliverables
  React, Router, Redux, Firebase, Victory.
 
 ## APIs:
- Still researching.
+ TheySaidSo famous quotes API, newsapi.org.
 
 ##Wireframes
  ![wireframe](./assets/wireframe1.png)
@@ -21,7 +21,8 @@ Deliverables
  ![wireframe](./assets/wireframe5.png)
 
 ## Waffle & Github
- Pending
+url(https://waffle.io/hsanchez7934/ProjectMe) for waffle
+url(https://github.com/hsanchez7934/ProjectMe) for github
 
 
 ## Order Of Attack
@@ -36,6 +37,7 @@ Deliverables
  The app should be able to fetch and send random notifications to remind you to stay on track in accomplishing your goals.
  The app should allow the user to save goals, images, text.
  The app should look really good!
+ The app will allow the user to enter financial data, (ex: how much money to save, how much money you make) and reflect, using data visualization, an overview of your saving information through a short term and long term period, A savings calculator.          
 
 ## Nice To Haves
  The app would be able to recommend articles to read from other websites on a variety of topics such as wellness,
