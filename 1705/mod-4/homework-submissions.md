@@ -36,7 +36,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/danalvarez5280/PreWorkMod4) -Further Challenges 1-3
 * [Promise Practice Exercises](https://repl.it/LvA0/0)
-* Websockets Tutorial
+* [Websockets Tutorial](https://github.com/danalvarez5280/Web-Socket-Exercise) Challenges 'User is typing', 'User name input', 'User logged in/logged out'
 
 ### David Becker
 
