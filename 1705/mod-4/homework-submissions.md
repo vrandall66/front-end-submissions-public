@@ -23,7 +23,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* Websockets Tutorial
+* Websockets Tutorial (https://github.com/anajauregui/Web-sockets)
 
 ### Christie Lynam
 
