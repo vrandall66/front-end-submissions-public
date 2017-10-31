@@ -87,4 +87,9 @@ Digging into the menu on foursquare to identify the happy hour specials.
 
 
 #### Deliverables for next checkin:
-
+- Start testing components / actions 
+- Get maps displaying
+  - ideally it would be really great to have bars loading on the map 
+- change the smiley face into an actual loading gif 
+- hook up favorites to the store / firebase
+- hook up add happy hour to store / firebase 
