@@ -69,3 +69,23 @@ https://github.com/rufusasterisk/betweenfriends
     - start grabbing places within center location radius 
 - start testing actions && reducers 
 - start hitting api with thunk and populating store 
+
+
+#### Work since last checkin
+
+- start styles on alternate branch
+- accepts both first and second map location input
+  -gets GPS locations of searches and places in store
+- grab center location
+- display center map
+- rework actions & reducers to better use store
+- wrote thunk API for GPS API query
+
+
+#### Deliverable for next checkin 
+
+- have components styled 
+- look for ways to consolidte some of the reducers into a single reducer. 
+- start testing actions / reducers 
+- have ability to search for locations within the radius 
+  - maybe show locations on map as well. 
