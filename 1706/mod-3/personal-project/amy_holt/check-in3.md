@@ -55,5 +55,9 @@ Data Visualization of stats
  
 
 #### Deliverables for next checkin:
-
+- have node backend api built for the front end to dispatch the twilio call 
+- start testing the components 
+- (we'll do this together but lets look at what needs to be in FB / Redux) 
+- maybe data viz thing could be another page / another app? 
+- mobile first 
 
