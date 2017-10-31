@@ -51,18 +51,8 @@ Google Places API
 
 #### Instructor Notes
 
-#### Deliverables for last checkin:
 
-~~get firebase hooked up~~
- - ~~set up user~~
- - ~~user can't move forwared without being logged in~~
-- ~~set up router, redux, react~~
-- get google maps hooked up
-  - it would be sweet if you could get the current location displayed on the map 
-  *- currently in the midst of reading through api documentation from google*
-- ~~start the controlled form and submit an event to firebase~~
-
-######## Deliverables for next checkin:
+######## Deliverables for last checkin:
 
 - Firebase werk 
   - Set up the user interactions  
@@ -74,3 +64,14 @@ Google Places API
 - ~~Redux~~
   -~~Redux store is populating with events from Firebase.~~
 - Testing 
+
+######## Deliverables for next checkin:
+
+- Test actions / reducers 
+- hook up data coming in from firebase into what is happening with redux 
+    - on the firebase on value function you might need to do some data cleaning / injecting so that you can get everything hooked up to redux 
+- it would be great if you had a current user to talk to. 
+- have upcoming vs your comps working
+  - have like, 6 events in upcoming 
+  - have the user join 2 
+- now that we have our google api working lets get it so that we can see our locations and search by location 
