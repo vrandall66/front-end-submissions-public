@@ -80,3 +80,12 @@ https://github.com/rufusasterisk/betweenfriends
 - display center map
 - rework actions & reducers to better use store
 - wrote thunk API for GPS API query
+
+
+#### Deliverable for next checkin 
+
+- have components styled 
+- look for ways to consolidte some of the reducers into a single reducer. 
+- start testing actions / reducers 
+- have ability to search for locations within the radius 
+  - maybe show locations on map as well. 
