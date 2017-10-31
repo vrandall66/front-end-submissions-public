@@ -50,3 +50,10 @@ url(https://github.com/hsanchez7934/ProjectMe) for github
 
 ## Deliverables for next checkin:
 
+- start testing components and actions 
+- start savings calculator 
+ - at minimum it should have just budget functionality 
+ - have some victory js charts to visulize what is going on 
+- Implement router 
+- Look into making hot topic links ( technology news, finance news. etc)
+
