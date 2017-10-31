@@ -1,6 +1,6 @@
 ## Project Name: Happy Now?
 
-#### Check In: 2
+#### Check In: 3
 
 #### Project Pitch:  
 I want to create an app to list any happy hours that are happening at bars and restaurants around a user.  However, I will only be able to display happy hours that are listed on foursquare.  I would also like to include the food menu for any restaurants that have it listed as well.
@@ -73,42 +73,23 @@ Digging into the menu on foursquare to identify the happy hour specials.
 
 #### Deliverables since checkin:
 
-- Determain if API data is good:
-
-  It is good for overall information, happy hour data will be WAY to difficult.  Some links have data on first page, others second, still others would need a third page.
-
-    - ideally you can make a request 
-    (currently making a request for local bars)
-- have the map loading with the current location 
-
-  (having trouble with this, I feel like I'll be able to figure it out, I just need some more time.)
-- have redux and react set up 
-
-  (redux and react are setup)
-
-  -store should be loaded with some of the available happy hours
-
-  (currently loading with mock data)
-  - look into favoriting. 
-
-  (done!)
-- get the google cloud vision api hooked up 
-
-  (I think this will be unneccisary based on levels of scraping)
+- Have firebase hooked up (DONE!)
+  - a user should be able to sign in (DONE!)
+  - have the ability to add a happy hour to the desired resturant / bar 
+  - load 10 first (DONE!)
+  - save favorites to the backend based off the user (WIP)
+- have the app styled (major upgrades, still need some fine-tuning)
+- Load google maps into the applicatoin (on-hold)
+  - allow the user the ability to see the bars around them. 
 
 #### Instructor Notes
 
-- Nice to have would be the ability for users to vote on what happy hour they want to go to 
-    (firebase can give this to you for free basically) 
-- Look into react-foursquare and see if thats working (NOT working!)
+
 
 #### Deliverables for next checkin:
-
-- Have firebase hooked up 
-  - a user should be able to sign in 
-  - have the ability to add a happy hour to the desired resturant / bar 
-  - load 10 first 
-  - save favorites to the backend based off the user 
-- have the app styled 
-- Load google maps into the applicatoin 
-  - allow the user the ability to see the bars around them. 
+- Start testing components / actions 
+- Get maps displaying
+  - ideally it would be really great to have bars loading on the map 
+- change the smiley face into an actual loading gif 
+- hook up favorites to the store / firebase
+- hook up add happy hour to store / firebase 
