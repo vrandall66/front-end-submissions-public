@@ -1,0 +1,52 @@
+## Project Name: ProjectMe
+
+## Check In: 1
+
+## Project Pitch
+ ProjectMe will be your daily source of inspiration and will be an app that you can use as a organizational tool
+ to help you keep track of your life goals, short term and long term
+Deliverables
+
+## Stack:
+ React, Router, Redux, Firebase, Victory.
+
+## APIs:
+ TheySaidSo famous quotes API, newsapi.org.
+
+## Waffle & Github
+url(https://waffle.io/hsanchez7934/ProjectMe) for waffle
+url(https://github.com/hsanchez7934/ProjectMe) for github
+
+
+## Order Of Attack
+  Focus on creating the saving calculator component.  Bring in data visualization.  
+  Have not implmented router yet so need to work on that next.
+  Rework the feed your mind component so that news articles are organized by category such as finacnce, tech, general news,
+  or entertainment.
+  Implment Firebase clouding messaging where notifications are sent from the app to the user.
+
+## MVP
+ The app should be able to fetch and send random notifications to remind you to stay on track in accomplishing your goals.
+ The app should allow the user to save goals, images, text.
+ The app should look really good!
+ The app should contain a saving calculator. User should be able to enter financial data and see the growth of their investment
+ reflected using data visualization.
+
+## Nice To Haves
+ The app should recommend a list of motivational speakers and user should be able to able to view videos of them speaking
+ ,from youtube, througt the app itself.
+
+ App should have a section where users of the app can interact with one another, blog posting, idea sharing, story sharing,
+ provide ways of interacting/networking.
+
+## Biggest Challenges
+ Implmenting Router.
+ Design the saving calculator component.
+
+
+## Instructor Notes
+
+
+
+## Deliverables for next checkin:
+
