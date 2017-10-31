@@ -94,7 +94,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**10 points**:  The README includes documentation for all available endpoints and how to use them. Instructor can easily follow the documentation for using the API.
 
 ### Feature Completion
 
@@ -104,56 +104,60 @@ The following set of points are distributed at the discretion of the instructor.
 
 **34 points**: (40 possible points) Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
 
-* Your error handling is nice and thorough, but it's also quite repetitive. I'd break out error handling like [this](308-319) into a helper function so it can be re-used among endpoints.
+* Your error handling is nice and thorough, but it's also quite repetitive. I'd break out error handling like [this](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/server.js#L308-L318) into a helper function so it can be re-used among endpoints.
 
 * You should be able to add variables like [this]() into a 'globals' object in your eslint config instead of doing these line-by-line comments to turn those warnings/errors off.
 
-* I'd rather you set the environment as an environment variable in your test script of your package.json rather than [hardcoding](11) it directly in the file. It just maintains the consistency and familiarity of seeing `process.env.NODE_ENV || 'fallback'`. There's also a possibility that a CI environment name might diverge from 'test' and you'd want to still be able to capture that with an environment variable.
+* I'd rather you set the environment as an environment variable in your test script of your package.json rather than [hardcoding](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/test/endpoints.spec.js#L11) it directly in the file. It just maintains the consistency and familiarity of seeing `process.env.NODE_ENV || 'fallback'`. There's also a possibility that a CI environment name might diverge from 'test' and you'd want to still be able to capture that with an environment variable.
 
-* Missing a lot of .catches for [these](65) [.thens](57)
+* Missing a lot of .catches for [these](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/test/endpoints.spec.js#L65) [.thens](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/test/endpoints.spec.js#L57)
 
-* Curious about the strategy [here](68-76) and why you're making these GET requests in a `beforeEach ` block. Probably not a huge deal in this scenario, but doing this much before every single test would significantly slow down the runner.
+* Curious about the strategy [here](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/test/endpoints.spec.js#L68-L76) and why you're making these GET requests in a `beforeEach ` block. Probably not a huge deal in this scenario, but doing this much before every single test would significantly slow down the runner.
 
-* [These](90-97) assertions could be simplified by simply grabbing a complete mock beer object and checking if the array contains it or not.
+* [These](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/test/endpoints.spec.js#L90-L97) assertions could be simplified by simply grabbing a complete mock beer object and checking if the array contains it or not.
 
-* Would be good to test the [error message](165-175) that comes back here as well.
+* Would be good to test the [error message](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/test/endpoints.spec.js#L165-L173) that comes back here as well.
 
 ### JavaScript Style
 
 **25 points**: (40 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Some improvements can be made with naming conventions to improve readability.
 
-* A simpler way to do this [check]() is by assigning the token variable right away and falling back through each possible option. If none of the values stick, it will just be undefined. e.g.:
+* A simpler way to do this [check](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/server.js#L35-L50) is by assigning the token variable right away and falling back through each possible option. If none of the values stick, it will just be undefined. e.g.:
 
 ```js
 let token = request.headers.authorization || request.body.token || request.query.token;
 ```
 
-* If you're going to leave comments in your code, you should make sure they accurately reflect what's happening. [This](76) is checking for `appName` and `email`, not just appName. Your code should generally be written in an English-enough way that you don't need comments like this.
+* If you're going to leave comments in your code, you should make sure they accurately reflect what's happening. [This](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/server.js#L76) is checking for `appName` and `email`, not just appName. Your code should generally be written in an English-enough way that you don't need comments like this.
 
-* Using 'it' in a [variable name](82) is a poor naming convention. On it's own, without any context, I can't decipher what 'it' represents. I'd rename this to `emailBelongsToTuring`. That reads a little more like English when you're doing conditionals and provides some extra context about what the value represents.
+* Using 'it' in a [variable name](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/server.js#L82) is a poor naming convention. On it's own, without any context, I can't decipher what 'it' represents. I'd rename this to `emailBelongsToTuring`. That reads a little more like English when you're doing conditionals and provides some extra context about what the value represents.
 
-* [This](85) conditional is a little difficult to read. Could you use a `.contains()` on the string instead?
+* [This](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/server.js#L85) conditional is a little difficult to read. Could you use a `.contains()` on the string instead?
 
-* Is the Abv specific to an actual [user](102)? Or just a trait of each beer that you can filter on? Prefixing a variable name with 'user' when it's not a value that's actually tied to a user is a little bizarre. 'MyDatabase' is also a poopy variable name.
+* Is the Abv specific to an actual [user](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/server.js#L102)? Or just a trait of each beer that you can filter on? Prefixing a variable name with 'user' when it's not a value that's actually tied to a user is a little bizarre. 'MyDatabase' is also a poopy variable name.
 
-* This [conditional](105) could be combined with an `&&` to avoid some nestiness.
+* This [conditional](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/server.js#L105) could be combined with an `&&` to avoid some nestiness.
 
-* I know filtering by more than one query param wasn't a part of the spec, no points off for this, but just FYI you could make this [more](102-112) flexible and dynamic by doing blah blah blah. I bet there are a lot of beer characteristics people would be interested in filtering on, rather than just ABV.
+* I know filtering by more than one query param wasn't a part of the spec, no points off for this, but just FYI you could make this [more](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/server.js#L102-L112) flexible and dynamic by doing blah blah blah. I bet there are a lot of beer characteristics people would be interested in filtering on, rather than just ABV.
 
-* I don't necessarily agree with returning a 404 [here](116). A 404 means nothing exists at that particular endpoint, and usually signifies that someone entered an incorrect URL. In this case, the endpoint is correct, and a resource *does* happen to exist there, it's just an empty array.
+* I don't necessarily agree with returning a 404 [here](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/server.js#L116). A 404 means nothing exists at that particular endpoint, and usually signifies that someone entered an incorrect URL. In this case, the endpoint is correct, and a resource *does* happen to exist there, it's just an empty array.
 
-* Again, make sure your comments accurately reflect the [functionality](). You don't want to be coopy and pasting examples and leaving evidents/artifacts behind.
+* Again, make sure your comments accurately reflect the [functionality](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/db/seeds/development/breweries.js#L6-L7). You don't want to be coopy and pasting examples and leaving evidents/artifacts behind.
 
-* Missing a .catch for this [.then](34-43)
+* Missing a .catch for this [.then](https://github.com/EndlessHypnosis/build-your-own-backend/blob/master/db/seeds/development/breweries.js#L34-L43)
 
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Nice use of issues and pull requests, but would like to see some actual code review and conversation around the PRs -- do you both understand all the logic that's being added? Are you both equally responsible for it now?
+
+* Similar inconsistencies in commit message formats and lots of areas where commits can be squashed, though you didn't learn about that until after this project was due.
 
 ## Project is worth 170 points
 
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 134 / 170

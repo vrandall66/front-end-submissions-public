@@ -81,11 +81,19 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**5 points**: The README documentation is out-of-date or inaccurate in some places. Instructor can not successfully use every endpoint based on following the documentation.
+
+* Missing documentation for the authentication endpoint
+
+* I'd like to know the data types of [these parameters](https://github.com/lcaroselli/Poke150-api/blob/master/documentation/endpoints/pokemon/POST_pokemon.md#parameters). Am I passing in a string? An integer?
+
+* Format [this](https://github.com/lcaroselli/Poke150-api/blob/master/documentation/endpoints/pokemon/POST_pokemon.md#errors) as a code block.
+
+* Looks like the endpoint [here](https://github.com/lcaroselli/Poke150-api/blob/master/documentation/endpoints/pokemon/DELETE_pokemon_Id.md) is wrong, or the link to it on the main page is wrong - once has a double 'id' in the URL.
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**55 points**: (60 possible points) Lorem ipsum dolor set amet
 
 * Nice to see multiple migration files in your database directory, it proves you are doing things the right way rather than just rolling back to resolve any errors in your schema.
 
@@ -97,26 +105,28 @@ The following set of points are distributed at the discretion of the instructor.
 
 **30 points**: (40 possible points)  Project has a running test suite that covers most happy and sad paths for each endpoint. Error handling has been implemented but messages are sometimes more vague than they should be. Assertions could also be a bit more robust within your test suite.
 
-* Better, more common error message to see [here](42) would be something like 'You do not have admin privileges to perform this operation'. Users don't think in terms of 'endpoints', they think in terms of what they're trying to do.
+* Better, more common error message to see [here](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L42) would be something like 'You do not have admin privileges to perform this operation'. Users don't think in terms of 'endpoints', they think in terms of what they're trying to do.
 
-* Your error handling is nice and thorough, but it's also quite repetitive. I'd break out error handling like [this](195-201) into a helper function so it can be re-used among endpoints.
+* Your error handling is nice and thorough, but it's also quite repetitive. I'd break out error handling like [this](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L195-L201) into a helper function so it can be re-used among endpoints.
 
-* [This](234) is a weak error message and could be made a bit more specific.
+* [This](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L234) is a weak error message and could be made a bit more specific.
 
-* [This 404 test](L68-L75) is redundant. You only need to do one 404 test for an endpoint that doesn't exist, doesn't matter if it is prefixed with `api/v1` or not.
+* [This 404 test](https://github.com/lcaroselli/Poke150-api/blob/master/test/routes.spec.js#L68-L75) is redundant. You only need to do one 404 test for an endpoint that doesn't exist, doesn't matter if it is prefixed with `api/v1` or not.
 
-* Why not give the user back the [id](272) they passed in so they don't have to go check elsewhere to see what they requested?
+* Why not give the user back the [id](https://github.com/lcaroselli/Poke150-api/blob/master/test/routes.spec.js#L272) they passed in so they don't have to go check elsewhere to see what they requested?
 
-* I'd also assert that the error message [here](177) comes back as something that makes sense.
+* I'd also assert that the error message [here](https://github.com/lcaroselli/Poke150-api/blob/master/test/routes.spec.js#L177) comes back as something that makes sense.
 
-* I'd make an additional assertion [here](193) for what's actually in the object. Gives other developers some insight into how the code works without having to actually look through it.
+* I'd make an additional assertion [here](1https://github.com/lcaroselli/Poke150-api/blob/master/test/routes.spec.js#L193) for what's actually in the object. Gives other developers some insight into how the code works without having to actually look through it.
+
+* Would be helpful for you to tell me which one is actually [missing](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L158)
 
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
-* Nice organization of all your [setup, configuration and imports](1-25)
+* Nice organization of all your [setup, configuration and imports](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L1-L25)
 
 * Would be better (and still simple) to allow users to submit their token with requests in all three places (headers, queries, bodies). You could do that check and assign the token value with a single line:
 
@@ -124,20 +134,30 @@ The following set of points are distributed at the discretion of the instructor.
 let token = request.headers.authorization || request.body.token || request.query.token;
 ```
 
-* I'd move this [checkQuery](70-76) function out into a helper file. It's a little weird to be defining it and then calling in right away on the next line. You're also using it in multiple places, so it would be good to cut down on that duplication.
+* I'd move this [checkQuery](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L70-L76) function out into a helper file. It's a little weird to be defining it and then calling in right away on the next line. You're also using it in multiple places, so it would be good to cut down on that duplication.
 
-* I don't necessarily agree with returning a 404 [here](82). A 404 means nothing exists at that particular endpoint, and usually signifies that someone entered an incorrect URL. In this case, the endpoint is correct, and a resource *does* happen to exist there, it's just an empty array.
+* I don't necessarily agree with returning a 404 [here](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L82). A 404 means nothing exists at that particular endpoint, and usually signifies that someone entered an incorrect URL. In this case, the endpoint is correct, and a resource *does* happen to exist there, it's just an empty array.
 
-* I wouldn't put linebreaks between your [.thens](137) and [.catches](144). It breaks up the flow of the promise and makes it more difficult to read because now they look like separate, isolated operations rather than a single promise.
+* I wouldn't put linebreaks between your [.thens](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L144) and [.catches](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L137). It breaks up the flow of the promise and makes it more difficult to read because now they look like separate, isolated operations rather than a single promise.
+
+* You should get rid of this double 'id' in the [endpoint](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L265) to maintain RESTful URLs. This should be `/api/v1/pokemon/:id`
+
+* Partial updates shouldn't [require](https://github.com/lcaroselli/Poke150-api/blob/master/server.js#L212-L219) the user to pass in all the parameters. A `PATCH` should allow me to just update a single property value, like the attack_power, rather than having to pass in the entire object.
 
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Don't commit this [.DS_Store](https://github.com/lcaroselli/Poke150-api/blob/master/.DS_Store) file
+
+* Some inconsistencies in commit messages
+
+* Nice use of issues though 'to do' isn't really a useful label. Stick with labels that represent categories (e.g. 'testing') or timeline and importance (e.g. 'priority-1')
 
 ## Project is worth 170 points
 
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 125 / 170
