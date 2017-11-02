@@ -1,6 +1,10 @@
-## Student:
-## Evaluator:
+## Student: Casey and Sabrina
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- CSS uses percentages for height, use a different unit of measure. This can cause very unpredictable behavior/movement/scaling as a user resize the browser window and when you are building more complex UI it will be a major headache.
+- JS is in a good place for a refactor.
+- good work!
 
 ## Functional Expectations
 

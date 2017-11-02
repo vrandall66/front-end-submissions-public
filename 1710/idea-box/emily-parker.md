@@ -1,6 +1,11 @@
-## Student:
-## Evaluator:
+## Student: Emily and Parker
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- CSS has a lot of cruft, needs to be cleaned up
+- many unused and/or unneeded properties in CSS
+- JS has some nested functions -- make sure to refactor those out
+- JS has long functions and could us a refactor/DRY-ing up pass. It's in a good place for this!
 
 ## Functional Expectations
 
