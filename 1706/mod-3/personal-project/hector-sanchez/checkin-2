@@ -26,11 +26,10 @@ url(https://github.com/hsanchez7934/ProjectMe) for github
   Implment Firebase clouding messaging where notifications are sent from the app to the user.
 
 ## MVP
- The app should be able to fetch and send random notifications to remind you to stay on track in accomplishing your goals.
- The app should allow the user to save goals, images, text.
+ The app should allow the user to s ave goals.
  The app should look really good!
- The app should contain a saving calculator. User should be able to enter financial data and see the growth of their investment
- reflected using data visualization.
+ Data vizualized 
+ News feed catagorized by different categories
 
 ## Nice To Haves
  The app should recommend a list of motivational speakers and user should be able to able to view videos of them speaking
