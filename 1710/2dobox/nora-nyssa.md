@@ -1,132 +1,102 @@
-## Student:
-## Evaluator:
+## Student: Nora and Nyssa
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- good use of Github
+- worked well together! Clearly both own the codebase and can speak to it.
+- CSS has opportunities for further refactoring, especially with media queries
+- loved that they had a "most proud of" refactored function to talk about
+- Solid choices and clear strategy for approaching the refactor.
+- Good work! Nicely done.
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 #### Implementation
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient
 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient
 
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional
