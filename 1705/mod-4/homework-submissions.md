@@ -30,7 +30,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/christielynam/express-tutorial) - Further Challenges: 1-3
 * [Promise Practice Exercise 1](https://repl.it/LtmK/0)
 * [Promise Practice Exercise 2](https://repl.it/LtmW/5)
-* Websockets Tutorial
+* [Websockets Tutorial](https://github.com/christielynam/web-sockets-chat)
 
 ### Dan Alvarez
 
