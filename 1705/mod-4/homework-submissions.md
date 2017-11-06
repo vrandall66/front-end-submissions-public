@@ -58,9 +58,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Laura Caroselli
 
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
-* Websockets Tutorial
+* [Express Tutorial](https://github.com/lcaroselli/express-tutorial) - 1,2,4
+* [Promise Practice Exercises](https://repl.it/NqCa/0)
+* [Websockets Tutorial] (https://github.com/lcaroselli/websockets/tree/master/public)
+* [Pattrn Party GitHub](https://github.com/lcaroselli/Pattrn-Party)
+* [Pattrn Party Pages](https://lcaroselli.github.io/Pattrn-Party/)
 
 ### Margo Schaedel
 
