@@ -1,6 +1,10 @@
 # Instructor Evaluation Points: weathrly
-# Instructor:
+# Instructor: Leta
 # Comments:
+* Missing small pieces of usability like keyboard navigation
+* Testing is a little shaky; test that state is changing and pull in actual expected values rather than just checking that the html element exists
+* _Great_ UI!
+
 
 ## Specification Adherence
 
@@ -8,7 +12,7 @@
 
 
 ## User Interface
-// Beautiful UI, missing small pieces of usability like keyboard navigation
+
 4ish - The application is pleasant, logical, and easy to use. The application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
 
 
