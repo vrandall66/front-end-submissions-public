@@ -82,7 +82,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/sljohnson32/expressworks)
 * [Promise Practice Exercises]()
-* Websockets Tutorial
+* [Websockets Tutorial](https://github.com/sljohnson32/websockets-hmwk) - extensions: 1) Broadcast a message to connected users when someone connects or disconnects, 2) Add support for nicknames, 3) Add “{user} is typing” functionality
+* Pattern Party - [GitHub Repo](https://github.com/sljohnson32/pattern-party) - [GitHub Pages](https://sljohnson32.github.io/pattern-party/)
+
 
 ### Travis Rollins
 
