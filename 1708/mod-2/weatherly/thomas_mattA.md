@@ -1,6 +1,8 @@
 # Instructor Evaluation Points: weathrly
 # Instructor: Leta
 # Comments:
+* Numbers of commits are pretty drastically different between contributors
+* UI is clean but could be more comfortable for users (use whitespace, make search bar not stretch across whole app)
 
 ## Specification Adherence
 
