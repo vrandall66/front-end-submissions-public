@@ -10,7 +10,7 @@ A good project idea should:
 
 **1. Completion**
 
-* 4: Developer completed all the user stories and requirements set in check-ins in timely manner.
+* 3: Developer completed all the user stories and requirements set during check-ins.
 
 **2. Organization**
 
@@ -20,7 +20,7 @@ A good project idea should:
 
 **1. Test-Driven Development**
 
-* 3: Project shows adequate testing (90% - 95% coverage).
+* 4: Project shows exceptional use of testing at different layers (above 95% coverage).
 
 **2. Code Quality**
 
