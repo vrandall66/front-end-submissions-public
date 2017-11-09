@@ -10,11 +10,11 @@ A good project idea should:
 
 **1. Completion**
 
-* 4: Developer completed all the user stories and requirements set in check-ins in timely manner.
+* 3: Developer completed all the user stories and requirements set during check-ins.
 
 **2. Organization**
 
-* 4: Developer used a project management tool and updated their progress in real-time.
+* 2: Developer used a project management tool but didn't update the progress frequently.
 
 ### Technical Quality
 
@@ -30,7 +30,7 @@ A good project idea should:
 
 **1. User Experience**
 
-* 4: Project exhibits a production-ready and polished UX.
+* 2: Project exhibits some gaps in the UX.
 
 **2. Performance**
 

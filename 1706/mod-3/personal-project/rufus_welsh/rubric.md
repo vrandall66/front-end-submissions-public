@@ -20,18 +20,21 @@ A good project idea should:
 
 **1. Test-Driven Development**
 
-* 3: Project shows adequate testing (90% - 95% coverage).
+<!-- * 4: Project shows exceptional use of testing at different layers (above 95% coverage). -->
+<!-- * 3: Project shows adequate testing (90% - 95% coverage). -->
+* 2: Project shows gaps in test usage/coverage/design (85 - 90% coverage).
+
 
 **2. Code Quality**
 
-* 3: Project demonstrates solid code quality, proper abstractions, and reduced duplication.
+* 3.5: Project demonstrates solid code quality, proper abstractions, and reduced duplication.
 
 ### Product Experience
 
 **1. User Experience**
 
-* 4: Project exhibits a production-ready and polished UX.
+* 3: Project exhibits a production-ready user experience.
 
 **2. Performance**
 
-* 4: Project pages load on average under 300 milliseconds.
+* 3: Project pages load on average under 400 milliseconds.

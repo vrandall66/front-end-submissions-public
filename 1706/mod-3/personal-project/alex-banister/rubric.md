@@ -14,7 +14,7 @@ A good project idea should:
 
 **2. Organization**
 
-* 4: Developer used a project management tool and updated their progress in real-time.
+* 3: Developer used a project management tool to keep their project organized.
 
 ### Technical Quality
 
@@ -24,7 +24,7 @@ A good project idea should:
 
 **2. Code Quality**
 
-* 3: Project demonstrates solid code quality, proper abstractions, and reduced duplication.
+* 4: Project demonstrates exceptionally well factored code.
 
 ### Product Experience
 
