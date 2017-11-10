@@ -10,6 +10,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://medium.com/@jaeger.rob/introduction-to-nodes-express-js-db5617047150) - Link to completed Express tutorial with a note about which of the 3 problems in the "Further Challenges" section that you worked on
 * [Promise Practice Exercises](https://gist.github.com/robbiejaeger/dc8f55c1f9462741090862f736b82cab) - Link to completed exercises
 
+**Week 2**
+
+* [Palette Picker PWA]()
+
 **Week 4**
 
 * [Websockets Tutorial](https://socket.io/get-started/chat/) - Link to completed Websockets tutorial repo with a note about which of the 3 problems in the "Homework" section that you worked on
@@ -26,6 +30,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -35,6 +40,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -44,6 +50,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -53,6 +60,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -62,6 +70,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -71,6 +80,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -80,6 +90,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -89,6 +100,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -98,6 +110,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -107,6 +120,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -116,6 +130,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
@@ -125,6 +140,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
+* [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
