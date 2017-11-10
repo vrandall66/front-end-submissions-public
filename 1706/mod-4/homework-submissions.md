@@ -26,6 +26,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Ben Porter
 
@@ -33,6 +34,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Francy Lang
 
@@ -40,6 +42,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Hector Sanchez
 
@@ -47,6 +50,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Jennifer Woodson
 
@@ -54,6 +58,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### John Michael Boudreau
 
@@ -61,6 +66,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Lola Brenner
 
@@ -68,6 +74,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Luke Finney
 
@@ -75,6 +82,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Nick Teets
 
@@ -82,6 +90,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Nik Bornemeier
 
@@ -89,6 +98,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Robbie Greiner
 
@@ -96,6 +106,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
 
 ### Rufus Welsh
 
@@ -103,3 +114,4 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
+* [Pattern Party]()
