@@ -43,7 +43,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/jackmallahan/express-tutorial) exercises: 1, 2, 3
 * [Promise Practice Exercises](https://codepen.io/jackmallahan/pen/xXWPBE?editors=0010)
-* Websockets Tutorial
+* [Websockets Tutorial](https://github.com/jackmallahan/websockets) exercises: 1, 2, 3
 
 ### Jason Lucas
 
