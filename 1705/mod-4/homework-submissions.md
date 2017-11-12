@@ -76,7 +76,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/EndlessHypnosis/prework-express) _Further Challenges 1, 3, 4_
 * [Promise Practice Exercises](https://repl.it/MSUn/9)
-* Websockets Tutorial
+* [Websockets Tutorial](https://github.com/EndlessHypnosis/socket-io) _Further Challenges 1, 2, 3_
+* [Pattrn Party GitHub](https://github.com/EndlessHypnosis/pattern-party)
+* [Pattrn Party Live](https://endlesshypnosis.github.io/pattern-party/app/)
 
 ### Samuel Johnson
 
