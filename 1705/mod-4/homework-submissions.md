@@ -31,6 +31,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercise 1](https://repl.it/LtmK/0)
 * [Promise Practice Exercise 2](https://repl.it/LtmW/5)
 * [Websockets Tutorial](https://github.com/christielynam/web-sockets-chat)
+* [Pattern Party](https://github.com/christielynam/pattrn-party)
 
 ### Dan Alvarez
 
@@ -38,12 +39,14 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://repl.it/LvA0/0)
 * [Websockets Tutorial](https://github.com/danalvarez5280/Web-Socket-Exercise) Challenges 'User is typing', 'User name input', 'User logged in/logged out'
 * [Blog Post](https://medium.com/@danalvarez5280/my-hackathon-experience-4b3bd8331751)
+* [Pattrn Party GITHUB](https://github.com/danalvarez5280/pattrn-party)
+* [PattrnParty GH Pages](https://danalvarez5280.github.io/pattrn-party/)
 
 ### Jack Mallahan
 
 * [Express Tutorial](https://github.com/jackmallahan/express-tutorial) exercises: 1, 2, 3
 * [Promise Practice Exercises](https://codepen.io/jackmallahan/pen/xXWPBE?editors=0010)
-* Websockets Tutorial
+* [Websockets Tutorial](https://github.com/jackmallahan/websockets) exercises: 1, 2, 3
 
 ### Jason Lucas
 
@@ -77,7 +80,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Express Tutorial](https://github.com/EndlessHypnosis/prework-express) _Further Challenges 1, 3, 4_
 * [Promise Practice Exercises](https://repl.it/MSUn/9)
-* Websockets Tutorial
+* [Websockets Tutorial](https://github.com/EndlessHypnosis/socket-io) _Further Challenges 1, 2, 3_
+* [Pattrn Party GitHub](https://github.com/EndlessHypnosis/pattern-party)
+* [Pattrn Party Live](https://endlesshypnosis.github.io/pattern-party/app/)
 
 ### Samuel Johnson
 
@@ -92,6 +97,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/Kalikoze/Node-Express-Practice) = Complete Challenges: 1-3
 * [Promise Practice Exercises](https://github.com/Kalikoze/Promise-Exercises)
 * [WebSockets Tutorial](https://github.com/Kalikoze/WebSockets-Practice) = Complete Exercises: 1, 2, 4
+* [Pattern-Party Repo](https://github.com/Kalikoze/Pattrn-Party)
+* [Pattern-Party GH Pages](https://kalikoze.github.io/Pattrn-Party/)
 
 ### Tyler Hevia
 
