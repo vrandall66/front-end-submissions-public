@@ -31,6 +31,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercise 1](https://repl.it/LtmK/0)
 * [Promise Practice Exercise 2](https://repl.it/LtmW/5)
 * [Websockets Tutorial](https://github.com/christielynam/web-sockets-chat)
+* [Pattern Party](https://github.com/christielynam/pattrn-party)
 
 ### Dan Alvarez
 
