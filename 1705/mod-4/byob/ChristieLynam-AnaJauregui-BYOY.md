@@ -96,11 +96,24 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**32 points**: (40 possible points)
+
+- When going through a [number of items in an array](https://github.com/christielynam/byob/blob/master/test/routes.spec.js#L71-L82), you can use an iterator/array prototype to simplify this code and possibly extract the functionality for other tests
+- [This 404 test](https://github.com/christielynam/byob/blob/master/test/routes.spec.js#L87-L94) and [this test](https://github.com/christielynam/byob/blob/master/test/routes.spec.js#L27-L34) are the same test - they're testing Express's built-in middleware to find defined endpoints, so you only need this test once, otherwise it's redundant
+- For [these tests](https://github.com/christielynam/byob/blob/master/test/routes.spec.js#L277-L308), you have already tested this functionality of passing the token in various ways above, so you've tested that the checkAuth middleware is working as it should - testing all of the ways to pass in the token once is good enough, after that it is redundant and you can test the route passing the token in one way
+- Do you want to be testing for any type of [error message here](https://github.com/christielynam/byob/blob/master/test/routes.spec.js#L249)?
+- For [this test](https://github.com/christielynam/byob/blob/master/test/routes.spec.js#L271) and the two following this test, you should be testing the content of the object, not just that the response body is an object
+- You have an [error message](https://github.com/christielynam/byob/blob/master/server.js#L64) for the test like the one above, just need to test for the message (for multiple tests)
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**32 points**: (40 possible points)
+
+- [This](https://github.com/christielynam/byob/blob/master/server.js#L31-L41) can be a little more succinct and easier to parse through using the OR operator
+- [This section](https://github.com/christielynam/byob/blob/master/server.js#L103-L109) of code is repeated throughout the server file with some variation - see if you can extract the functionality into its own function so it can be reused and DRY up the route handlers
+- Be a little more specific with [this error message](https://github.com/christielynam/byob/blob/master/server.js#L147)
+- Why are [these](https://github.com/christielynam/byob/blob/master/server.js#L159-L166) two separate if statements? Supplying both `fullDate` and `month` in a request will still send only one response
+- Careful with throwing the [whole request body](https://github.com/christielynam/byob/blob/master/server.js#L191) (minus the token) into the database methods because you don't really know why is in the body - could be more information than you want supplied in the body and the DB might error out
 
 ### Workflow
 
@@ -114,4 +127,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 149 / 170

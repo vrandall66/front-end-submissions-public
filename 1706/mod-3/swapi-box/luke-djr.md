@@ -20,9 +20,8 @@
 
 ### Testing
 
-<!-- 4 - Every component is tested from both a unit and acceptance standpoint, all crucial functionality is tested
-3 - Almost all components are tested to a level that indicates developer has an understanding of testing -->
-1 - There was little to no attempt to test this application.
+3 - Almost all components are tested to a level that indicates developer has an understanding of testing
+
 
 ### PropType Implementation
 
@@ -32,9 +31,7 @@ Pass - Proptype validation is implemented for any component receiving props.
 
 The output from ESLint shows…
 
-<!-- 4 - Zero complaints -->
-<!-- 3 - Five or fewer complaints -->
-2 - Six to ten complaints
+4 - Zero complaints
 
 ### Workflow
 
