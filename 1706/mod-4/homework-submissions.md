@@ -75,9 +75,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [House of Vars Blog Post]()
 * [Pattern Party]()
 
-### John Michael Boudreau
+### John Michael Boudreaux
 
-* [Node Server Tutorial]()
+* [Node Server Tutorial](https://github.com/johnmboudreaux/mod4-homework)
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
