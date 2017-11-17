@@ -78,7 +78,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### John Michael Boudreaux
 
 * [Node Server Tutorial](https://github.com/johnmboudreaux/mod4-homework)
-* [Express Tutorial]()
+* [Express Tutorial](https://github.com/johnmboudreaux/mod4-express-server)
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
