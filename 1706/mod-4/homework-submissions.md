@@ -98,7 +98,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Luke Finney
 
 * [Node Server Tutorial]()
-* [Express Tutorial]()
+* [Express Tutorial](https://github.com/lfinney/express-tutorial)
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
