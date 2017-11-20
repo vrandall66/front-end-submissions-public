@@ -128,7 +128,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Robbie Greiner
 
 * [Node Server Tutorial](https://github.com/robbiegreiner/NodeJS-Prework)
-* [Express Tutorial]()
+* [Express Tutorial](https://github.com/robbiegreiner/express-tutorial)
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
