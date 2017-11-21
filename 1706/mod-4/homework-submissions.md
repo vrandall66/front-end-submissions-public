@@ -99,7 +99,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Node Server Tutorial]()
 * [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises](https://repl.it/@lwfinney/Promise-Practice)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
