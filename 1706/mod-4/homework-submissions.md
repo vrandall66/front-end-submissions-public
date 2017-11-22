@@ -38,7 +38,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Alex Banister
 
 * [Node Server Tutorial](https://github.com/alexbanister/node-server-prework)
-* [Express Tutorial]()
+* [Express Tutorial](https://github.com/alexbanister/express-server-prework)
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
