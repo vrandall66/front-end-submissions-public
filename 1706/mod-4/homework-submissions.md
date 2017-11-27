@@ -47,9 +47,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Ben Porter
 
-* [Node Server Tutorial]()
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/bbp5280/node_tutorial/blob/master/server.js)
+* [Express Tutorial](https://github.com/bbp5280/express_tutorial/tree/master/public)
+* [Promise Practice Exercises](https://repl.it/@bbp5280/Promise-Practice)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
