@@ -77,9 +77,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jennifer Woodson
 
-* [Node Server Tutorial]()
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/jenPlusPlus/m4-prework-node)
+* [Express Tutorial](https://github.com/jenPlusPlus/m4-prework-express)
+  * I completed the first 3 exercises-- create interactive front-end, import external JS file of data, and serve sunset images at /sunsets
+* [Promise Practice Exercises](https://github.com/jenPlusPlus/m4-prework-promises)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
