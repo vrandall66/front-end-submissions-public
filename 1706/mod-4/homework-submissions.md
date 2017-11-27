@@ -25,6 +25,16 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ---
 
+### Adam Mescher
+
+* [Node Server Tutorial](https://github.com/AdamMescher/introduction-to-node.js)
+* [Express Tutorial](https://github.com/AdamMescher/intro-to-express-js)
+* [Promise Practice Exercises](https://github.com/AdamMescher/promises-practice)
+* [Palette Picker PWA]()
+* [Websockets Tutorial]()
+* [House of Vars Blog Post]()
+* [Pattern Party]()
+
 ### Amy Holt
 
 * [Node Server Tutorial](https://gist.github.com/ameseee/76ee39985995218f68917604bef92999)
