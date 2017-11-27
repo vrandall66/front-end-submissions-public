@@ -97,9 +97,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Lola Brenner
 
-* [Node Server Tutorial]()
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/lolakoala/mod4-prework-node-server)
+* [Express Tutorial](https://github.com/lolakoala/mod4-prework-express-server)
+* [Promise Practice Exercises](https://repl.it/@lolakoala/PromisesPractice)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
