@@ -27,9 +27,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Amy Holt
 
-* [Node Server Tutorial]()
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/ameseee/76ee39985995218f68917604bef92999)
+* [Express Tutorial](https://github.com/ameseee/m4-express-prework) Further Challenges: 1, 2, 3
+* [Promise Practice Exercises](https://repl.it/@ameseee/m4-promises-prework)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
