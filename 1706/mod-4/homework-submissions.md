@@ -48,7 +48,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Alex Banister
 
 * [Node Server Tutorial](https://github.com/alexbanister/node-server-prework)
-* [Express Tutorial](https://github.com/alexbanister/express-server-prework)
+* [Express Tutorial](https://github.com/alexbanister/express-server-prework) 
 * [Promise Practice Exercises](https://gist.github.com/alexbanister/7139ea6895097b62e95ecd4e26b8a7ff)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
@@ -67,9 +67,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Francy Lang
 
-* [Node Server Tutorial]()
-* [Express Tutorial]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/francylang/0a26460375ad3f50937aa6c1aee3c59e)
+* [Express Tutorial](https://github.com/francylang/express-tutorial) Further Challenges: 1, 2
+* [Promise Practice Exercises](https://repl.it/@francylang/promises)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
