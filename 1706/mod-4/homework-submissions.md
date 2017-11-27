@@ -150,7 +150,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Node Server Tutorial](https://github.com/robbiegreiner/NodeJS-Prework)
 * [Express Tutorial](https://github.com/robbiegreiner/express-tutorial)
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises](https://repl.it/@rg25/promise-practice)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
