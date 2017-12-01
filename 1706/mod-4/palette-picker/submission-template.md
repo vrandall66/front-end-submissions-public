@@ -8,7 +8,7 @@
 [palette-picker](https://github.com/johnmboudreaux/palette-picker)
 
 #### Link to the Deployed Application
-[heroku]()
+[heroku](https://jm-palette-picker.herokuapp.com/)
 
 #### Link to your annotated server file
 [annotated server file](https://github.com/johnmboudreaux/palette-picker/blob/server-comments/server.js)
@@ -17,23 +17,26 @@
 
 #### Were you able to complete the base functionality?
 
-If not, explain what is missing and why.
-
 I was able to get all base functionality complete
 
 #### Which extensions, if any, did you complete?
 
+...sad face
+
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code]()
+[happy code](https://github.com/johnmboudreaux/palette-picker/blob/c84bcd40d2bd24bd5e7d4bb282643a45fbc10bb7/public/js/scripts.js#L107-L160)
 
 * Why were you proud of this piece of code?
 
-#### Link to a specific block of your code on GitHub that you feel not great about
-[sad code]()
+i realy like when it all comes together and displays on the dom. its always satisfying to see it happen
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+#### Link to a specific block of your code on GitHub that you feel not great about
+[sad code](https://github.com/johnmboudreaux/palette-picker/blob/c84bcd40d2bd24bd5e7d4bb282643a45fbc10bb7/public/js/scripts.js#L134-L160)
+
+I know i put some of this as the code that im proud of, but i do really like the functionality of it. i 
+just think it could be written cleaner and not look so bulky.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
@@ -41,11 +44,14 @@ I was able to get all base functionality complete
 
 #### Link to Design Inspiration
 
-* Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
+i dont actually have a spot where i got inspiration from, however, i did reflect back to Louisa's mod1 lesson 
+on less is more and drew from that how i wanted to design it.
 
 #### Please feel free to ask any other questions or make any other statements below!
 
 Anything else you wanna say!
+
+nope
 
 -----
 
