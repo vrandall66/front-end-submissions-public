@@ -8,7 +8,7 @@
 [palette-picker](https://github.com/robbiegreiner/palette-picker)
 
 #### Link to the Deployed Application
-[heroku]()
+[heroku](https://robbie-greiner-palette-picker.herokuapp.com/)
 
 #### Link to your annotated server file
 [annotated server file](https://github.com/robbiegreiner/palette-picker/blob/server-comments/server.js)
@@ -24,17 +24,17 @@ Yes, I completed all base functionality.
 I completed the extension to be able to edit the hex of a color.
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code]()
+[happy code](https://gist.github.com/robbiegreiner/d59c563fc517df2921935e9c6610f830)
 
 * Q: Why were you proud of this piece of code?
 * A: I like this because I think that using a dynamic ID is way easier than I thought it would be. I feel like this is as
 clean as it could possibly be.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code]()
+[sad code](https://gist.github.com/robbiegreiner/d59c563fc517df2921935e9c6610f830)
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-* I feel instead of making all 5 of these divs individually, I could iterate through and create each DIV. But I struggled to run a for loop inside of the html.
+* Q: Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+* A: I feel instead of making all 5 of these divs individually, I could iterate through and create each DIV. But I struggled to run a for loop inside of the html.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
@@ -42,12 +42,12 @@ clean as it could possibly be.
 
 #### Link to Design Inspiration
 
-* Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
-* I used http://www.yeticycles.com/ I really like their primary colors, their buttons and their header.  I find the color and cleanliness of their appealing.
+* Q: Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
+* A: I used http://www.yeticycles.com/ I really like their primary colors, their buttons and their header.  I find the color and cleanliness of their site appealing.
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-The lessons in class so far have been written extremely well and they are easy to follow.  They made getting through this project a lot less stressful along with helping me learn.
+The lessons in class so far have been extremely well written and they are easy to follow.  They made getting through this project a lot less stressful along with helping me learn.
 
 -----
 
