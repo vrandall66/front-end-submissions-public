@@ -28,9 +28,8 @@ I was able to get all base functionality complete
 #### Link to a specific block of your code on GitHub that you are proud of
 [happy code](https://github.com/johnmboudreaux/palette-picker/blob/c84bcd40d2bd24bd5e7d4bb282643a45fbc10bb7/public/js/scripts.js#L107-L160)
 
-* Why were you proud of this piece of code?
 
-i realy like when it all comes together and displays on the dom. its always satisfying to see it happen
+i really like when it all comes together and displays on the dom. its always satisfying feeling.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
 [sad code](https://github.com/johnmboudreaux/palette-picker/blob/c84bcd40d2bd24bd5e7d4bb282643a45fbc10bb7/public/js/scripts.js#L134-L160)
