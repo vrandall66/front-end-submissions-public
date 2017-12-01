@@ -5,19 +5,21 @@
 # Basics
 
 #### Link to the GitHub Repository for the Project
-[palette-picker]()
+[palette-picker](https://github.com/johnmboudreaux/palette-picker)
 
 #### Link to the Deployed Application
 [heroku]()
 
 #### Link to your annotated server file
-[annotated server file]()
+[annotated server file](https://github.com/johnmboudreaux/palette-picker/blob/server-comments/server.js)
 
 ## Completion
 
 #### Were you able to complete the base functionality?
 
 If not, explain what is missing and why.
+
+I was able to get all base functionality complete
 
 #### Which extensions, if any, did you complete?
 
@@ -35,7 +37,7 @@ If not, explain what is missing and why.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite]()
+[test suite](<img width="1113" alt="screen shot 2017-12-01 at 11 48 38 am" src="https://user-images.githubusercontent.com/20631355/33498185-ad23f924-d68d-11e7-8089-0bb34cdb48fa.png">)
 
 #### Link to Design Inspiration
 
