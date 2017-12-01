@@ -24,8 +24,8 @@ Pass - Proptype validation is implemented for any component receiving props.
 
 ## Testing
 
-<!-- 3 - Almost all components are tested to a level that indicates developer has an understanding of testing. -->
-2 - There are obvious gaps where functionality is not tested.
+3 - Almost all components are tested to a level that indicates developer has an understanding of testing.
+
 
 ## Surprise and Delight
 

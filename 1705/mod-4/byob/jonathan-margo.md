@@ -82,7 +82,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**8 points**: The README documentation is thorough but inaccurate or missing information in some areas.
+
+* Does the authentication [POST](https://github.com/mschae16/byob/blob/master/documentation/POST-authenticate.md) request not take in an `email` and `appName`? Documentation seems to suggest the user doesn't have to send any data along to generate a token, which is inaccurate.
+
+* Along similar lines, I want to see an example of what I actually need to send through with my [POST](https://github.com/mschae16/byob/blob/master/documentation/POST-ships.md) request for ships. Not just what's returned to me. 
 
 ### Feature Completion
 
@@ -92,15 +96,15 @@ The following set of points are distributed at the discretion of the instructor.
 
 **36 points**: (40 possible points) Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
 
-* Nice that you broke out all your test files, but all of this required and repeated [configuration]() that you're doing should be broken out into a setup/helper file to be imported and used across test files.
+* Nice that you broke out all your test files, but all of this required and repeated [configuration](https://github.com/mschae16/byob/blob/master/test/jwt.spec.js#L1-L15) that you're doing should be broken out into a setup/helper file to be imported and used across test files.
 
 * Great job testing all the possible ways someone could pass in a JWT
 
-* Your error handling is nice and thorough, but it's also quite repetitive. I'd break out error handling like [this](237-254) into a helper function so it can be re-used among endpoints.
+* Your error handling is nice and thorough, but it's also quite repetitive. I'd break out error handling like [this](https://github.com/mschae16/byob/blob/master/server.js#L237-L254) into a helper function so it can be re-used among endpoints.
 
-* Why not also give them back the [id](268) they passed in so they don't have to check elsewhere to find out.
+* Why not also give them back the [id](https://github.com/mschae16/byob/blob/master/server.js#L268) they passed in so they don't have to check elsewhere to find out.
 
-* A PATCH should technically be able to accept any number of fields that may not [all be required](300-303). You shouldn't need this check here unless you were creating a PUT endpoint that required the entire resource object.
+* A PATCH should technically be able to accept any number of fields that may not [all be required](https://github.com/mschae16/byob/blob/master/server.js#L300-L303). You shouldn't need this check here unless you were creating a PUT endpoint that required the entire resource object.
 
 * Significant test coverage, though some are skipped (presumably erring out and failing CircleCI)
 
@@ -110,18 +114,22 @@ The following set of points are distributed at the discretion of the instructor.
 
 * Nice, concise check for the JWT, but I'd clean up these [conditionals](37-40) a little bit by using an if/else (if there's no error, you can assume you will have a decoded token to work with)
 
-* Not sure you need [this check here](62), both fields should be required when generating a token which you're checking for [here](76)
+* Not sure you need [this check here](https://github.com/mschae16/byob/blob/master/server.js#L62), both fields should be required when generating a token which you're checking for [here](https://github.com/mschae16/byob/blob/master/server.js#L76)
 
-* You could probably simplify [this](120-128) by doing a "fuzzy" search in the database so that you don't have to do a hard transform on the value of the ship name. There's a "like" condition that Knex supports to get values that are similar to what's entered. This would allow you to just pass in the entire query object without having to do conditional checks about what's in it.
+* You could probably simplify [this](https://github.com/mschae16/byob/blob/master/server.js#L120-L128) by doing a "fuzzy" search in the database so that you don't have to do a hard transform on the value of the ship name. There's a "like" condition that Knex supports to get values that are similar to what's entered. This would allow you to just pass in the entire query object without having to do conditional checks about what's in it.
 
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Nice use of issues and pull requests, but would like to see some actual code review and conversation around the PRs -- do you both understand all the logic that's being added? Are you both equally responsible for it now?
+
+* Similar inconsistencies in commit message formats and lots of areas where commits can be squashed, though you didn't learn about that until after this project was due.
 
 ## Project is worth 170 points
 
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 141 / 170
