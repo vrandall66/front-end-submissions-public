@@ -11,7 +11,7 @@
 [heroku]()
 
 #### Link to your annotated server file
-[annotated server file]()
+[annotated server file](https://github.com/robbiegreiner/palette-picker/blob/server-comments/server.js)
 
 ## Completion
 
