@@ -26,16 +26,19 @@ I completed the extension to be able to edit the hex of a color.
 #### Link to a specific block of your code on GitHub that you are proud of
 [happy code]()
 
-* Why were you proud of this piece of code?
+* Q: Why were you proud of this piece of code?
+* A: I like this because I think that using a dynamic ID is way easier than I thought it would be. I feel like this is as
+clean as it could possibly be.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
 [sad code]()
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+* I feel instead of making all 5 of these divs individually, I could iterate through and create each DIV. But I struggled to run a for loop inside of the html.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite]()
+[test suite]![screen shot 2017-12-01 at 11 04 56 am](https://user-images.githubusercontent.com/28495779/33496463-8cff5464-d687-11e7-8d45-be67ee4c9ca2.png)
 
 #### Link to Design Inspiration
 
