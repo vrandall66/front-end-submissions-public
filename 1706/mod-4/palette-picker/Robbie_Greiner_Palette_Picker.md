@@ -43,10 +43,11 @@ clean as it could possibly be.
 #### Link to Design Inspiration
 
 * Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
+* I used http://www.yeticycles.com/ I really like their primary colors, their buttons and their header.  I find the color and cleanliness of their appealing.
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Anything else you wanna say!
+The lessons in class so far have been written extremely well and they are easy to follow.  They made getting through this project a lot less stressful along with helping me learn.
 
 -----
 
