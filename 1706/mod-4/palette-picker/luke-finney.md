@@ -46,7 +46,7 @@ Now that I have a bit more experience with jQuery and better understand the serv
 
 * Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
 
-As a general rule, I like matte colors and simple designs. [Color Hunt by Gal Shir] (https://cdn.dribbble.com/users/729829/screenshots/3845170/galshir-colorhunt.gif) displays colors in succession using no borders. I tried to style my app without using any borders, but instead relying on the contrasting colors to "draw" the sharp lines for one's eye. I also experimented with adding some drop shadow, which Gal also does, but couldn't quite get it to look as I wanted. I tried attempting to use whites and grays to contrast the black palette of my overall app, but all the colors I attempted didn't look to pleasing to the eye.
+As a general rule, I like matte colors and simple designs. [Color Hunt by Gal Shir] (https://cdn.dribbble.com/users/729829/screenshots/3845170/galshir-colorhunt.gif) displays colors in succession using no borders. I tried to style my app without using any borders, but instead relying on the contrasting colors to "draw" the sharp lines for one's eye. ~I also experimented with adding some drop shadow, which Gal also does, but couldn't quite get it to look as I wanted. I tried attempting to use whites and grays to contrast the black palette of my overall app, but all the colors I attempted didn't look to pleasing to the eye.~ Added the drop shadow and just went with a darker black. It makes the page containers less flat.
 
 #### Please feel free to ask any other questions or make any other statements below!
 
