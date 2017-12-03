@@ -16,32 +16,65 @@ have not filled this out yet!
 ## Completion
 
 #### Were you able to complete the base functionality?
-Not yet, still missing testing, deleting project from DB and DOM, locking colors, testing, some small css adjustments.
+Yes!
 
 
 #### Which extensions, if any, did you complete?
-
+none
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code]()
-TO BE FILLED OUT!
-* Why were you proud of this piece of code?
+[happy code](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L113-L120)
+
+Only because I struggled with it for so long for some reason and felt great after getting it to work correctly!
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code]()
-TO BE FILLED OUT!
+[sad code](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L171-L182)
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+There is obviously some repittion here, I need to refactor this!
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-TO BE FILLED OUT!
 
-[test suite]()
+```
+  Client Routes
+    ✓ should return the homepage with text (53ms)
+    ✓ should return a 404 for a route that does not exist
+
+  API Routes
+    GET /api/v1/projects
+Test Seeding Complete!
+      ✓ should return all of the projects
+Test Seeding Complete!
+      ✓ should return a 404 if the path is incorrect
+    GET /api/v1/projects/:id/palettes
+Test Seeding Complete!
+      ✓ should return all palettes for a specific project
+Test Seeding Complete!
+      ✓ should return a 404 if the path is incorrect
+    POST /api/v1/projects
+Test Seeding Complete!
+      ✓ should be able to add a project to the db
+Test Seeding Complete!
+      ✓ should not add the project to database if info is missing
+    POST /api/v1/projects/:id/palettes
+Test Seeding Complete!
+      ✓ should be able to add a palette to the database
+Test Seeding Complete!
+      ✓ should not add a palette to database if it is missing information
+    DELETE /api/v1/palettes/:id
+Test Seeding Complete!
+      ✓ should be able to delete a certain palette
+Test Seeding Complete!
+      ✓ should return 422 if palette does not exist
+
+
+  12 passing (440ms)
+```
 
 #### Link to Design Inspiration
+[inspiration](http://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF)
+* I liked the way everything was very dark EXCEPT for the colors, I felt like with an app like this your eye should only be drawn to the colors.
 
-* Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
 
 #### Please feel free to ask any other questions or make any other statements below!
 
