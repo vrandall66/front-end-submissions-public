@@ -39,8 +39,9 @@ just think it could be written cleaner and not look so bulky.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite](https://user-images.githubusercontent.com/20631355/33522338-800c79aa-d7a7-11e7-82be-dfb055fb4b7d.png>)
 
+
+![screen shot 2017-12-02 at 9 26 25 pm](https://user-images.githubusercontent.com/20631355/33522355-ce610f30-d7a7-11e7-9a4e-df69494a9cb0.png)
 
 
 #### Link to Design Inspiration
