@@ -17,11 +17,11 @@
 
 #### Were you able to complete the base functionality?
 
-I was able to get all base functionality complete
+I was able to get all base functionality complete.
 
 #### Which extensions, if any, did you complete?
 
-...sad face
+I didnt get to any of the suggested extensions, but I did put in functionality to delete projects.
 
 # Code Quality
 
@@ -39,7 +39,9 @@ just think it could be written cleaner and not look so bulky.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite](<img width="1113" alt="screen shot 2017-12-01 at 11 48 38 am" src="https://user-images.githubusercontent.com/20631355/33498185-ad23f924-d68d-11e7-8089-0bb34cdb48fa.png">)
+[test suite](https://user-images.githubusercontent.com/20631355/33522338-800c79aa-d7a7-11e7-82be-dfb055fb4b7d.png>)
+
+
 
 #### Link to Design Inspiration
 
