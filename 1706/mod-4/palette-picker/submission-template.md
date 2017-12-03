@@ -37,8 +37,7 @@ i really like when it all comes together and displays on the dom. its always sat
 I know i put some of this as the code that im proud of, but i do really like the functionality of it. i 
 just think it could be written cleaner and not look so bulky.
 
-#### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-
+#### Testing Suite
 
 
 ![screen shot 2017-12-02 at 9 26 25 pm](https://user-images.githubusercontent.com/20631355/33522355-ce610f30-d7a7-11e7-9a4e-df69494a9cb0.png)
