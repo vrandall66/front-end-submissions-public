@@ -87,11 +87,21 @@ I really learned quite a bit with this project, but I dont' think it will be rea
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**50 points**: (50 possible points) No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use. Data persists on refresh using a knex/postgreSQL database.
 
 ## User Interface
 
 **x points**: (20 possible points)
+
+* Bug where some HEX values are only saving 5 digits instead of 6, causing the color to not show up
+
+* When I create a new project, I should be able to see it in the drop-down menu immediately. Instead I have to refresh the page.
+
+* Any save/generate/delete buttons should turn the cursor into a hand icon when you hover over them to further indicate that they are clickable.
+
+* Definitely need some more padding/margins in the projects section around the palettes and their names
+
+* I like the creativity of having all the boxes of different colors for displaying a palette, but it's almost a little too jarring to effectively see how the colors would work together. I think it works in the main content area with the big version for generating a new palette, but in the projects sidebar I'd probably simplify it to a single horizontal bar of the colors side-by-side.
 
 ## Testing
 
