@@ -71,7 +71,18 @@ http://palettab.com/
 
 ## Testing
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points) Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
+
+* Don't particularly need [all](https://github.com/francylang/palette-picker/blob/master/test/routes.spec.js#L119-L127) of [these](https://github.com/francylang/palette-picker/blob/master/test/routes.spec.js#L76-L84) assertions, they are all doing the same thing -- asking if there a resource at a bad URL
+
+* Curious how [this](https://github.com/francylang/palette-picker/blob/master/test/routes.spec.js#L130-L155) test is working. If it should be returning a single palette, the response shouldn't be an array, it should be an object. Additionally, if the length of the array is 1, there wouldn't be an element at `response.body[2]`. There would only be an element at index 0.
+
+* Would be good to assert against an error message [here](https://github.com/francylang/palette-picker/blob/master/test/routes.spec.js#L191) as well, not just a status code
+
+* You wouldn't send through an [id](https://github.com/francylang/palette-picker/blob/master/test/routes.spec.js#L188) during a POST request naturally, so don't do it in your tests either. Just send through an empty object.
+
+
+
 
 ## Commented Server File
 

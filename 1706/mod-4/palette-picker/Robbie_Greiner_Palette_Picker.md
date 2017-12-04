@@ -68,7 +68,18 @@ The lessons in class so far have been extremely well written and they are easy t
 
 ## Testing
 
-**x points**: (20 possible points)
+**15 points**: (20 possible points) Project has a running test suite that tests every server-side endpoint, but only has a couple sad path cases.
+
+* No [.catch](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L31) here or [here](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L75) :(
+
+* There's actually no guarantee that your data will come back in a specific order unless you are explicitly sorting it. So assertions like [these](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L99-L117), where you're dependent on certain values existing at a particular index of an array often have intermittent failures. It doesn't look like you're sorting your data any where in your server file so I'd be surprised if this was consistently working for you.
+
+* Your assertions in [this](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L82) test are pretty much identical to the next [test](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L126). What you really want to do is have some additional seed data so that you can have palettes that exist under a *different* project, and you can verify that only the palettes that belong to a particular project are returned from `/api/v1/projects/:id/palettes`. Otherwise these tests don't really tell me that endpoint is working accurately -- it could accidentally be returning all palettes for all projects, as that's what your first test and endpoint are doing.
+
+* Your describe blocks [here](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L182) and [here](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L215) are identical, though they contain different types of tests. That's a sure sign of copy-pasta ;)
+
+* Missing sad paths for POST requests that fail due to user error
+
 
 ## Commented Server File
 
@@ -77,6 +88,8 @@ The lessons in class so far have been extremely well written and they are easy t
 ## JavaScript Style
 
 **x points**: (30 possible points)
+
+* Some weird spacing on this [line](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L38) around those parens
 
 ## Workflow
 

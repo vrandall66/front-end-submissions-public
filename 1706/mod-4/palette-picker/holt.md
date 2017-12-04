@@ -74,7 +74,13 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 
 ## Testing
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points) Project has a running test suite that tests most server-side endpoints but is missing/skipping a test or two.
+
+* Would be good to assert against an [error message here too](https://github.com/ameseee/palette-picker/blob/master/test/routes.spec.js#L158), not just the status code
+
+* It block text [here](https://github.com/ameseee/palette-picker/blob/master/test/routes.spec.js#L167) doesn't match up with what you're actually trying to assert in this test. Not sure at a quick glance why this would fail in CI and not locally, but happy to debug in-person with you if you'd like.
+
+* These look [like](https://github.com/ameseee/palette-picker/blob/master/test/routes.spec.js#L193-L203) identical [tests](https://github.com/ameseee/palette-picker/blob/master/test/routes.spec.js#L151-L162) asserting against adding a project to the database. One of these should be trying to add a palette to the database.
 
 ## Commented Server File
 

@@ -74,7 +74,14 @@
 
 ## Testing
 
-**x points**: (20 possible points)
+**10 points**: (20 possible points) Project has a running test suite that tests some of the server-side endpoints but is missing many happy/sad paths
+
+* [This](https://github.com/alexbanister/palette-picker/blob/master/test/routes.spec.js#L121-L130) block doesn't really tell me that the code did nothing if the ID didn't exist. I'd rather you send back a 404 and an error here that says a project with that ID does not exist and assert against that instead.
+
+* At first glance, your code looks accurate for your test seed data. I can't imagine why the palette tests wouldn't be working out. You shouldn't have to do anything fancy in order to get those IDs to be hard-coded, consistent values other than setting them in your seed data, which you're doing. Ping me if you'd like to debug this together.
+
+* You shouldn't need to comment out all [this](https://github.com/alexbanister/palette-picker/blob/master/test/routes.spec.js#L148-L165) code. `it.skip` should take care of that for you.
+
 
 ## Commented Server File
 
@@ -82,7 +89,12 @@
 
 ## JavaScript Style
 
-**x points**: (20 possible points)
+**x points**: (20 possible points) 
+
+* Some weird spacing on this [line](https://github.com/alexbanister/palette-picker/blob/master/test/routes.spec.js#L39) around those parens
+
+* If you're sending back a 204 status code, you shouldn't be sending back a [response body](https://github.com/alexbanister/palette-picker/blob/master/test/routes.spec.js#L135-L139). 204 means success, but there is no information I need to send back to the client.
+
 
 ## Workflow
 

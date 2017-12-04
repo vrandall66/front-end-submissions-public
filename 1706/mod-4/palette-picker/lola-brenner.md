@@ -95,7 +95,11 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 
 ## Testing
 
-**x points**: (20 possible points)
+**19 points**: (20 possible points) Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
+
+* [This](https://github.com/lolakoala/palette-picker/blob/master/test/routes.spec.js#L157-L178) is a scenario in your testing environment where you wouldn't hardcode in an ID. The user doesn't pass in an ID from the front-end, so don't pass one in in your test. You can still POST a new palette, and assert that the response body has an `id` property, just leave out the assertion of what that ID value is. Same thing [here](https://github.com/lolakoala/palette-picker/blob/master/test/routes.spec.js#L109-L122)
+
+* Nice job asserting against [error messages](https://github.com/lolakoala/palette-picker/blob/master/test/routes.spec.js#L135) and not just status codes.
 
 ## Commented Server File
 

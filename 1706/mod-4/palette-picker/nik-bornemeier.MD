@@ -105,7 +105,13 @@ I really learned quite a bit with this project, but I dont' think it will be rea
 
 ## Testing
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points) Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
+
+* Testing [all of these assertions](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/test/routes.spec.js#L83-L144) is a little excessive. There's also no guarantee that your data will come back in any particular order, so relying on the index of an array element to assert it's values might intermittently fail. I'd rather you test one element from the array and assert that the array contains a particular object with certain values.
+
+* You wouldn't send through an [id](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/test/routes.spec.js#L166) during a POST request naturally, so don't do it in your tests either. Just assert that the returned response is a 201 with an id property, don't worry about the value.
+
+* Same [here](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/test/routes.spec.js#L182) - just pass through an empty object. You want your tests to mimic real-world environments as closely as possible.
 
 ## Commented Server File
 

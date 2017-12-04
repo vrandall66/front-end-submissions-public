@@ -77,7 +77,13 @@ I thought this project was really fun! I appreciate the simplicity of the backen
 
 ## Testing
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points) Project has a running test suite that tests every server-side endpoint with many happy and sad path cases.
+
+* Your assertions in [these tests](https://github.com/jenPlusPlus/palette-picker/blob/master/test/routes.spec.js#L87-L174) test are pretty much identical. What you really want to do is have some additional seed data so that you can have palettes that exist under a *different* project, and you can verify that only the palettes that belong to a particular project are returned from `/api/v1/projects/:id/palettes`. Otherwise these tests don't really tell me that endpoint is working accurately -- it could accidentally be returning all palettes for all projects, as that's what your first test and endpoint are doing.
+
+* There's actually no guarantee that your data will come back in a specific order unless you are explicitly sorting it. So assertions like [these](https://github.com/jenPlusPlus/palette-picker/blob/master/test/routes.spec.js#L97-L98), where you're dependent on certain values existing at a particular index of an array often have intermittent failures. It doesn't look like you're sorting your data any where in your server file so I'd be surprised if this was consistently working for you.
+
+* You wouldn't send through an [id](https://github.com/jenPlusPlus/palette-picker/blob/master/test/routes.spec.js#L227) during a POST request naturally, so don't do it in your tests either. Just send through an empty object.
 
 ## Commented Server File
 
