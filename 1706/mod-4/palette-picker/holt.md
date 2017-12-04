@@ -64,7 +64,7 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 
 ## User Interface
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points) User interface is intuitive and the instructor can easily use it on their own without guidance. Styling is consistent and call-to-action elements are obvious. The application provides the user with relevant feedback based on interactions.
 
 * Love the design and how you took this in a different direction than the wireframes, nice and simple and clean.
 

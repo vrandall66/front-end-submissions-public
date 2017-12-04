@@ -61,7 +61,7 @@ I thought this project was really fun! I appreciate the simplicity of the backen
 
 ## User Interface
 
-**x points**: (20 possible points)
+**15 points**: (20 possible points) User interface is mostly intuitive, though the instructor might need some guidance on interactions. Styling is mostly consistent, but could use some clean up. Application may be missing some relevant feedback that would help guide the user.
 
 * I like the drop-shadows and rounded corners on each color for the palettes, looks like paint chips!
 

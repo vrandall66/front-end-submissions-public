@@ -91,7 +91,7 @@ I really learned quite a bit with this project, but I dont' think it will be rea
 
 ## User Interface
 
-**x points**: (20 possible points)
+**13 points**: (20 possible points) User interface is mostly intuitive, though the instructor might need some guidance on interactions. Styling is mostly consistent, but could use some clean up. Application may be missing some relevant feedback that would help guide the user.
 
 * Bug where some HEX values are only saving 5 digits instead of 6, causing the color to not show up
 

@@ -62,9 +62,9 @@ The lessons in class so far have been extremely well written and they are easy t
 
 ## User Interface
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points) User interface is intuitive and the instructor can easily use it on their own without guidance. Styling is consistent and call-to-action elements are obvious. The application provides the user with relevant feedback based on interactions.
 
-
+* Nice, simple UI, easy to use. Would be nice to display a 'No projects/No Palettes' message for any projects that don't contain palettes.
 
 ## Testing
 

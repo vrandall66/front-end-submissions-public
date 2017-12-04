@@ -83,7 +83,7 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 
 ## User Interface
 
-**x points**: (20 possible points)
+**16 points**: (20 possible points) User interface is mostly intuitive, though the instructor might need some guidance on interactions. Styling is mostly consistent, but could use some clean up. Application may be missing some relevant feedback that would help guide the user.
 
 * Creative UI! Love the paint palette. The lock icons are maybe a little difficult to decipher...I think if I didn't have any context on the project I'm not sure I would know they were locks that I could/should click on.
 
