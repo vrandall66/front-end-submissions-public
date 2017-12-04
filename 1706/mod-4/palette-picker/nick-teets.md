@@ -1,3 +1,8 @@
+UPDATE 17-12-04
+Removed comments from server.js
+Completed tests for all API endpoints
+Removed all linting errors and warnings. 
+
 # Palette Picker Submission Form
 
 [Project Spec](http://frontend.turing.io/projects/palette-picker.html)
