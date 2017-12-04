@@ -54,11 +54,20 @@ http://palettab.com/
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**58 points**: (50 possible points) No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use. Data persists on refresh using a knex/postgreSQL database.
+
+* Nice implementation of the extension - but the UI for it is a little funky. Would like some visual indicator that you can edit that hex code value. (Maybe a little 'edit'/'pencil' icon?). Additionally, if I make the HEX value white, I lose the ability to see the HEX value text. Would be good to change that text to a dark color when white is the chosen color.
+
 
 ## User Interface
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points) User interface is mostly intuitive, though the instructor might need some guidance on interactions. Styling is mostly consistent, but could use some clean up.
+
+* I like the vertical layout of the colors for each palette but on my screen it cuts off after the 4th one and I have to scroll down to see the 5th color. Would be nice to set a `height: 100%` on the containing element here to ensure it's always the height of a user's screen no matter what size their browser is.
+
+* I'm seeing a weird bug where the 5th color stays in place (even when it's not locked). When I click on a pre-existing palette, the 5th color doesn't change.
+
+* I like the handwriting font, but I wouldn't use it *everywhere*. With smaller elements, stick to something a little more rigid and basic. Fancier fonts are great for bigger headings rather than tiny button text.
 
 ## Testing
 

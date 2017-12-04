@@ -57,11 +57,23 @@ I thought this project was really fun! I appreciate the simplicity of the backen
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**50 points**: (50 possible points) No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use. Data persists on refresh using a knex/postgreSQL database.
 
 ## User Interface
 
-**x points**: (20 possible points)
+**15 points**: (20 possible points) User interface is mostly intuitive, though the instructor might need some guidance on interactions. Styling is mostly consistent, but could use some clean up. Application may be missing some relevant feedback that would help guide the user.
+
+* I like the drop-shadows and rounded corners on each color for the palettes, looks like paint chips!
+
+* When there are no palettes or projects to show, it'd be nice to have a message that says 'You haven't created any projects yet!' and maybe some instructions for the user on how to do so.
+
+* Cursor should change to a hand when hovering over save/generate/delete buttons.
+
+* The added border when you hover over a palette within a project is a little bizarre because it jumps the rest of the content around by a pixel or two. You could probably set a completely transparent border around palettes to begin with (`rgba(0,0,0,0)`) and then make it fully opaque on hover if you want to keep that effect.
+
+* Generally for a project revolving around colors like this, I'd keep the body background and text white or black, or something very subtle, as opposed to the pink and teal we currently have. You want the color palettes themselves to really *pop* compared to the rest of the application.
+
+* Nice touch with the slightly opaque backgrounds around the lock icons and HEX values, makes it much easier to view that text no matter what color shows up behind it.
 
 ## Testing
 

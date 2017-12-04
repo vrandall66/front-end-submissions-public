@@ -56,11 +56,15 @@ The lessons in class so far have been extremely well written and they are easy t
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**55 points**: (50 possible points) No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use. Data persists on refresh using a knex/postgreSQL database.
+
+* Nice job getting an extension in - but the UI for it is a little funky. Would like some visual indicator that you can edit that hex code value. (Maybe a little 'edit'/'pencil' icon?) and would be nice to have the HEX value update, and pop you out of the text input when you hit the ENTER key. You can add key-code specific events with jQuery to blur yourself out of an input like that. Additionally, if I make the HEX value white, I lose the ability to see the HEX value text. Would be good to change that text to a dark color when white is the chosen color.
 
 ## User Interface
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points) User interface is intuitive and the instructor can easily use it on their own without guidance. Styling is consistent and call-to-action elements are obvious. The application provides the user with relevant feedback based on interactions.
+
+* Nice, simple UI, easy to use. Would be nice to display a 'No projects/No Palettes' message for any projects that don't contain palettes.
 
 ## Testing
 

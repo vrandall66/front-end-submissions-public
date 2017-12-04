@@ -75,11 +75,23 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**40 points**: (50 possible points) There is one feature missing from the base expectations that makes the application feel incomplete or hard to use.
+
+* I'm noticing when I click on a lock icon, it doesn't actually lock the color in place. Every time I generate a new palette, it continues to change all 5 colors.
+
+* When I click on a pre-existing palette that has been saved, it should update the main palette UI to display those colors. Doesn't seem to be doing that at the moment.
 
 ## User Interface
 
-**x points**: (20 possible points)
+**16 points**: (20 possible points) User interface is mostly intuitive, though the instructor might need some guidance on interactions. Styling is mostly consistent, but could use some clean up. Application may be missing some relevant feedback that would help guide the user.
+
+* Creative UI! Love the paint palette. The lock icons are maybe a little difficult to decipher...I think if I didn't have any context on the project I'm not sure I would know they were locks that I could/should click on.
+
+* When there are no projects in place, the drop down menu for selecting a project is completely empty. Would be nice to have a placeholder here at least that says something like 'Select a Project...' even if there were no projects to choose from. Otherwise it's a little tricky to tell what that drop-down is for.
+
+* When I first start filling out the projects panel with new projects, the project name shows up all the way at the bottom of that div which looks a little bizarre. It fills out nicely once there are about 5 projects in place, but it'd be nice to have everything looking solid no matter what amount of data you have in place. 
+
+* You generally want to avoid having little containers (like the projects element) that have vertical and horizontal scroll bars. I know you don't have a ton of control over the vertical height of the projects section, but the horizontal you could probably remove that extra scrollbar with `overflow: hidden`, and put a limit on the length of a project/palette name. Set a fixed width (or all percentage-based widths) on that element and all of it's children to ensure the width isn't bouncing around based on what kind of content exists.
 
 ## Testing
 

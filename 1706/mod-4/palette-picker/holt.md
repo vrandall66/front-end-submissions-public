@@ -60,11 +60,17 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**50 points**: (50 possible points) No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use. Data persists on refresh using a knex/postgreSQL database.
 
 ## User Interface
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points) User interface is intuitive and the instructor can easily use it on their own without guidance. Styling is consistent and call-to-action elements are obvious. The application provides the user with relevant feedback based on interactions.
+
+* Love the design and how you took this in a different direction than the wireframes, nice and simple and clean.
+
+* The boxes with simple explainers on how to use things are great - simple and to-the-point but helpful for the user. What would be SUPER cool is to have these boxes show up as little 'tooltips' on different parts of the application that show you where the save/delete/refresh buttons are. Then you could click out of the tooltips after reading them and clear up some space on the UI for users that already know their way around the app. This would require storing something in localstorage that says "has the user x'ed out of all these helpful tooltips already? if so, don't show them again"
+
+* Would like the cursor to change to the little 'hand' icon when you hover over the lock icons to indicate that I can actually click on them. (Same thing for the palette thumbnails that show up under their respective projects after being saved)
 
 ## Testing
 
@@ -87,4 +93,8 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 ### To get a 4 on this project, you need to score 130 points or higher
 
 # Final Score: x / 150
+
+
+
+### Answers to Your Questions
 

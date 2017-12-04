@@ -56,11 +56,17 @@
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**55 points**: (50 possible points) No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use. Data persists on refresh using a knex/postgreSQL database.
 
 ## User Interface
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points) User interface is mostly intuitive, though the instructor might need some guidance on interactions. Styling is mostly consistent, but could use some clean up.
+
+* It feels a little difficult to tell that I'm saving a palette to a particular project -- I would maybe add that project drop down or 'current project' text somewhere closer to the 'Save Palette' button.
+
+* I appreciate the logic that goes into showing the little teardrop-shaped colors on top of each background color for the palette, but it's a little more distracting than helpful. I also feel like 'Tt' might mean something significant but I wouldn't be able to guess exactly what. (I'm understand you're just demontrating text colors on background colors, but it's not super clear that's the intent.) I think you could incorporate the teardrop design in the thumbnails under the project sections rather than overlaying them on the larger background colors.
+
+* Nice use of CSS transitions but I'd make them a little snappier. Subtlety is key with transitions and you want them to be just barely above the line of perception rather than something that's super obvious. (Kinda subliminal messaging. It will still have the intended effect of making DOM updates smoother, but it won't stand out as something users have to wait for to finish)
 
 ## Data Persistence with SQL Database
 
