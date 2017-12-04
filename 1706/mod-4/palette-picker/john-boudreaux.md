@@ -29,13 +29,12 @@ I didnt get to any of the suggested extensions, but I did put in functionality t
 [happy code](https://github.com/johnmboudreaux/palette-picker/blob/c84bcd40d2bd24bd5e7d4bb282643a45fbc10bb7/public/js/scripts.js#L107-L160)
 
 
-i really like when it all comes together and displays on the dom. its always satisfying feeling.
+I really like when it all comes together and displays on the dom.Its always satisfying feeling.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
 [sad code](https://github.com/johnmboudreaux/palette-picker/blob/c84bcd40d2bd24bd5e7d4bb282643a45fbc10bb7/public/js/scripts.js#L134-L160)
 
-I know i put some of this as the code that im proud of, but i do really like the functionality of it. i 
-just think it could be written cleaner and not look so bulky.
+I know some of this code I wrote that I'm proud of, but I do really like the functionality of it. It could be written cleaner and not look so bulky.
 
 #### Testing Suite
 
@@ -45,8 +44,8 @@ just think it could be written cleaner and not look so bulky.
 
 #### Link to Design Inspiration
 
-I did come across some palette transition stuff that I liked and did include in this project I also reflected on Louisa's mod1 lesson 
-on less is more and drew from that how i wanted to design it.
+I did come across some palette transition stuff that I liked and did include in this project I also reflected on Louisa's
+mod1 lesson on less is more and drew from that how i wanted to design it.
 
 #### Please feel free to ask any other questions or make any other statements below!
 
