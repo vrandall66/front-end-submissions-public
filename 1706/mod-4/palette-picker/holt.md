@@ -56,7 +56,7 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 
 -----
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 

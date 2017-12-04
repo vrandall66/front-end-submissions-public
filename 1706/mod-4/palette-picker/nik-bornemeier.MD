@@ -83,7 +83,7 @@ I really learned quite a bit with this project, but I dont' think it will be rea
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 

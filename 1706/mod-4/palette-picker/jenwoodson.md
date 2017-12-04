@@ -53,7 +53,7 @@ I thought this project was really fun! I appreciate the simplicity of the backen
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 

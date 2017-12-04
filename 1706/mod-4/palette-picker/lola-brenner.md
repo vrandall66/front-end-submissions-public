@@ -71,7 +71,7 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 

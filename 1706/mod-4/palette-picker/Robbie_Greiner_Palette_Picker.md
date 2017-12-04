@@ -52,7 +52,7 @@ The lessons in class so far have been extremely well written and they are easy t
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 ## Specification Adherence
 
