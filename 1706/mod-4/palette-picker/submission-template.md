@@ -58,6 +58,10 @@ Anything else you wanna say!
 
 **x points**: (20 possible points)
 
+## Data Persistence with SQL Database
+
+**x points**: (20 possible points)
+
 ## Testing
 
 **x points**: (20 possible points)
@@ -68,15 +72,15 @@ Anything else you wanna say!
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**x points**: (20 possible points)
 
 ## Workflow
 
 **x points**: (20 possible points)
 
 
-### To get a 3 on this project, you need to score 110 points or higher
-### To get a 4 on this project, you need to score 130 points or higher
+### To get a 3 on this project, you need to score 120 points or higher
+### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 150
+# Final Score: x / 160
 
