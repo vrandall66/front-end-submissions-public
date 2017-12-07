@@ -95,6 +95,38 @@
 
 * If you're sending back a 204 status code, you shouldn't be sending back a [response body](https://github.com/alexbanister/palette-picker/blob/master/test/routes.spec.js#L135-L139). 204 means success, but there is no information I need to send back to the client.
 
+* You can switch [this](https://github.com/alexbanister/palette-picker/blob/master/server.js#L10-L11) to triple equals rather than disabling the eslint rule. `!==` My bad.
+
+* Adding the random name generator was a cool touch but I feel really confused about what you're doing [here](https://github.com/alexbanister/palette-picker/blob/master/server.js#L28-L35).
+
+* Wasn't a requirement to be able to delete projects, but there's an easier way to do [this](https://github.com/alexbanister/palette-picker/blob/master/server.js#L59-L71). You can set a `cascade()` option in your migration when you set up your schema so that the delete automatically removes any dependent records from other tables.
+
+* Be careful about misspellings [here](https://github.com/alexbanister/palette-picker/blob/master/server.js#L97). 'palette' not 'pallet'
+
+* Use template strings [here](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L28-L29) and [here](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L31) rather than concatenating with the plus sign.
+
+* You're creating this selector twice [here](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L28-L29) which is expensive for jQuery because it has to traverse the DOM and find it more than once. You can chain these css properties by doing:
+
+```js
+  $('.color'+position).css({ 
+    'background': color,
+    'color': color
+  });
+```
+
+* Can you put a class or ID on these [elements](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L49) so you don't have to find the closest `data-id`? This line is a little hard to read as-is.
+
+* Ahhhh [this](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L99-L116) is a little unruly. You're also doing these DOM manipulations in a loop which is a significant performance suck. You want to use Document Fragments instead to build up all the HTML you need and append to the DOM once rather than on each iteration of the loop.
+
+* You could pass both of [these](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L133-L134) classes as a string like `'.save-palette-area, .crate-project-area'` and your clearLoading function will take care of both of those at once.
+
+* Lots of duplicate code on [these lines](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L138-L143), you'd be better off dynamically inserting the slideDown/Up methods and disabled values so you don't have to keep creating this jQuery selector on 4 separate lines.
+
+* Make sure to be consistent with your naming conventions e.g. [savePalette](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L147) and [createProject](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L167) should either both be save or both be create.
+
+* Are you posting multiple projects [here](https://github.com/alexbanister/palette-picker/blob/master/src/index.js#L171)? Or just one? If it's just one at a time, rename this to `postProject`. It's better not to use words like post at all though, as they're not as meaningful as save and create.
+
+* What's with all the [single-line fetch requests](https://github.com/alexbanister/palette-picker/blob/master/src/api.js)? These are really long and hard to read. Line-lengths should be max 80 characters. Give your code some room to breathe between the .thens and catches.
 
 ## Workflow
 
