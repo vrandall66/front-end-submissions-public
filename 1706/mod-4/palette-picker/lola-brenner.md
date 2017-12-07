@@ -109,6 +109,12 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 
 **x points**: (30 possible points)
 
+* Loveeeeeeeee that you broke this [checkParams](https://github.com/lolakoala/palette-picker/blob/master/server.js#L8) out into a helper file.
+
+* I believe you could just use a `unique()` method in your migration file on the name column for your schema rather than having to do this entire [check](https://github.com/lolakoala/palette-picker/blob/master/server.js#L59-L67) for duplicate names.
+
+* I'm torn on [this](https://github.com/lolakoala/palette-picker/blob/master/server.js#L105-L107) being a 422 over a 404. If the error is that a resource doesn't exist at that endpoint, it should be a 404. 422's are more commonly seen when you're passing through an actual request body.
+
 ## Workflow
 
 **x points**: (20 possible points)
