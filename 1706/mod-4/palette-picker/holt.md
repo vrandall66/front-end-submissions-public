@@ -90,9 +90,31 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 
 **x points**: (30 possible points)
 
+* Is this [conditional](https://github.com/ameseee/palette-picker/blob/master/server.js#L44-L48) necessary? If there is no length to the array, wouldn't it return an empty array anyway?
+
+* Server-side code is beautiful, I'm rarely in the scenario where I can't find things to bitch about. Good job.
+
+* [Fetch requests](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L3) aren't dependent on the DOM, and therefore don't need to be in `document.ready()` kick off that request ASAP!
+
+* You don't want to be [appending to the DOM](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L31) on each iteration of a for loop. DOM manipulations are expensive. Instead, you'd want to use Document Fragments to build up all the HTML you want to append, and then add it to the DOM all at once at the end of the loop.
+
+* [This](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L76-L106) is a little unruly. It's still clean and readable, but maybe you do write a loop to dynamically generate those palette-color divs? Instead of having all that repeat code.
+
+* [postPayload](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L110) is a really generic, uninformative name for a function. Instead of using the verb POST, you want to use something that's a little more semantic, like save or create. This is also a little misleading because you're not actually POSTing anything in this function, you're just creating the configuration for doing the post. I do like that you're reusing the function for palettes and projects though. 
+
+* You want to make sure you're not removing something from the DOM before it's actually deleted from the [database](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L186-L195). If anything went wrong with that delete request you would have removed an element that actually still existed in your dataset. Do the DOM removal in the `.then()` of the delete request.
+
+* Could you not just add `unique` to the project name column in your database schema to avoid having to do this whole [check](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L212-L226)?
+
 ## Workflow
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points)
+
+* You don't have to file PRs on a project when you're working by yourself. You should still be using branches, but PRs are for code review.
+
+* Nice, consistent and informative git commit messages 
+
+* Glad you did cleanup and linting fixes in their own commits, but there's a lot of them. Try using a git hook to prevent this in the future ;)
 
 
 ### To get a 3 on this project, you need to score 110 points or higher

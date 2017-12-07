@@ -93,9 +93,37 @@ I thought this project was really fun! I appreciate the simplicity of the backen
 
 **x points**: (30 possible points)
 
+* [Wahh](https://github.com/jenPlusPlus/palette-picker/blob/master/server.js#L28), [wahhh](https://github.com/jenPlusPlus/palette-picker/blob/master/public/js/scripts.js#L101)
+
+* [Yep](https://github.com/jenPlusPlus/palette-picker/blob/master/server.js#L40), but it doesn't hurt to have. Also [yes](https://github.com/jenPlusPlus/palette-picker/blob/master/server.js#L74)
+
+* I'd just return the entire palette object [here](https://github.com/jenPlusPlus/palette-picker/blob/master/server.js#L142-L148) by not specifying that second argument with an array of column names. If you need that many things back from the newly created object, you might as well just get everything.
+
+* Instead of swapping out an img [src](https://github.com/jenPlusPlus/palette-picker/blob/master/public/js/scripts.js#L27-L34) here, you could rework your css so that those images are actually a background image. That would allow you to just toggle the class for whether or not you want the locked or unlocked background.
+
+* [This](https://github.com/jenPlusPlus/palette-picker/blob/master/public/js/scripts.js#L51-L79) is a little unruly. It's still clean and readable, but maybe you do write a loop to dynamically generate those palette-color divs? Instead of having all that repeat code.
+
+* I know you're doing some event delegation [here](https://github.com/jenPlusPlus/palette-picker/blob/master/public/js/scripts.js#L86-L92) but this is a little tricky to read with this array of variables.
+
+* Could you not just add `unique` to the project name column in your database schema to avoid having to do this whole [check](https://github.com/jenPlusPlus/palette-picker/blob/master/public/js/scripts.js#L144-L178)?
+
+* ES6 shorthand would be really nice [here](https://github.com/jenPlusPlus/palette-picker/blob/master/public/js/scripts.js#L222-L226)
+
+* You should do the deleting from page [within a .then](https://github.com/jenPlusPlus/palette-picker/blob/master/public/js/scripts.js#L239-L264) of your fetch request that deletes from the server. If anything goes wrong with that delete request, you'd be deleting an element from the page that still exists in your dataset.
+
+* Fetch requests arent dependent on the [DOM](https://github.com/jenPlusPlus/palette-picker/blob/master/public/js/scripts.js#L285) so this function shouldn't be waiting for the whole window to load before you kick it off. Get that data ASAP.
+
 ## Workflow
 
-**x points**: (20 possible points)
+**15 points**: (20 possible points)
+
+* [This](https://github.com/jenPlusPlus/palette-picker/blob/master/.DS_Store) should be in your .gitignore file.
+
+* Caught committing [node_modules](https://github.com/jenPlusPlus/palette-picker/commit/db503c248b059ea0542aa5795405ae361521d83f) =P
+
+* Do cleanup like [removing console logs](https://github.com/jenPlusPlus/palette-picker/commit/b4814199fd2b1eca17a25cc56c12dea6233c48f4) in a completely separate commit to avoid cluttering up the diffs of your changesets.
+
+* You don't have to file PRs on a project when you're working by yourself. You should still be using branches, but PRs are for code review.
 
 
 ### To get a 3 on this project, you need to score 110 points or higher

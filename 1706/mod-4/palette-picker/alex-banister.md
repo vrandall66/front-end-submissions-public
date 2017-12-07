@@ -130,7 +130,13 @@
 
 ## Workflow
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points)
+
+* What is [this](https://github.com/alexbanister/palette-picker/commit/e690ce4ca054195fbb4fbbf6dcbba36560bb2bd7#diff-b085d5d01dd304cf7db21c04c08e7b43)? A bundle file? `javascript.js`? Bundle files shouldn't be committed to github. They change on the fly along with any other changesets and will cause a nightmare of merge conflicts when you're working with multiple people. You'd want to put this in your .gitignore file and tell Heroku to run a build to generate that file on the fly. Also clutters up your git commit history making changesets difficult to read.
+
+* You don't have to file PRs on a project when you're working by yourself. You should still be using branches, but PRs are for code review.
+
+* Commits seem like they contain mostly relevant changesets, but diffs like [this](https://github.com/alexbanister/palette-picker/commit/27de43178bbc675a35a652bfb3b1968c22bc10c1) are a little large. You should probably have no less than 100 commits on a project this size, so I'd get in the habit of trying to commit more frequently with less changes.
 
 
 ### To get a 3 on this project, you need to score 120 points or higher
