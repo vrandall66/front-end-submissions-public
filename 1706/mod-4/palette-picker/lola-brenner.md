@@ -125,8 +125,11 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 
 ## Workflow
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points)
 
+* In general, you probably want to be committing a bit more frequently. For a project of this size and scope you definitely want to have over 100 commits, at least. Having less than that is usually indicative of having really large diffs that are difficult to read. Like [this](https://github.com/lolakoala/palette-picker/commit/660c6fc08c5cdcdd0a1ce0759b131b0f9e6f86dc) one ;)
+
+* Try working with github issues to keep track of your to-do list for functionality/bug fixes/design issues/etc. Pull requests aren't necessary when you're working individually, they're more for code review when you have other teammates that need to approve your changes.
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
