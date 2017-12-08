@@ -91,7 +91,7 @@ I thought this project was really fun! I appreciate the simplicity of the backen
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**20 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * [Wahh](https://github.com/jenPlusPlus/palette-picker/blob/master/server.js#L28), [wahhh](https://github.com/jenPlusPlus/palette-picker/blob/master/public/js/scripts.js#L101)
 

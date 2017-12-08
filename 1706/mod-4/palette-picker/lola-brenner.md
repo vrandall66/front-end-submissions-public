@@ -107,7 +107,7 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**22 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * Loveeeeeeeee that you broke this [checkParams](https://github.com/lolakoala/palette-picker/blob/master/server.js#L8) out into a helper file.
 

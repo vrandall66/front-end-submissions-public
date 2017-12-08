@@ -90,7 +90,7 @@ http://palettab.com/
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**22 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * [This](https://github.com/francylang/palette-picker/blob/master/server.js#L30-L32) isn't really doing anything meaningful for you, and can sometimes be confusing when you're really returning the index file on your root get request through express.static. I'd get rid of this.
 

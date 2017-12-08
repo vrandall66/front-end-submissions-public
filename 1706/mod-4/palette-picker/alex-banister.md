@@ -89,7 +89,7 @@
 
 ## JavaScript Style
 
-**x points**: (20 possible points) 
+**20 points**: (20 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. 
 
 * Some weird spacing on this [line](https://github.com/alexbanister/palette-picker/blob/master/test/routes.spec.js#L39) around those parens
 

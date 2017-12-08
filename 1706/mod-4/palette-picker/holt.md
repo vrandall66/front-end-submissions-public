@@ -88,7 +88,7 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**23 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * Is this [conditional](https://github.com/ameseee/palette-picker/blob/master/server.js#L44-L48) necessary? If there is no length to the array, wouldn't it return an empty array anyway?
 

@@ -87,7 +87,7 @@ The lessons in class so far have been extremely well written and they are easy t
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**20 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * Some weird spacing on this [line](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L38) around those parens
 

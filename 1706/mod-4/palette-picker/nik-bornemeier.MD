@@ -119,7 +119,7 @@ I really learned quite a bit with this project, but I dont' think it will be rea
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**19 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * I'd move [this](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L26-L28) configuration up closer to the top of the file, where you're doing your other imports.
 
