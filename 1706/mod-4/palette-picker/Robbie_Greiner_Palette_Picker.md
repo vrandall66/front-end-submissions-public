@@ -91,6 +91,24 @@ The lessons in class so far have been extremely well written and they are easy t
 
 * Some weird spacing on this [line](https://github.com/robbiegreiner/palette-picker/blob/master/test/routes.spec.js#L38) around those parens
 
+* Would be good to send back the id in this error message [here](https://github.com/robbiegreiner/palette-picker/blob/master/server.js#L100) that the user tried to delete so they can double check that they're trying to delete the right thing.
+
+* A little confused by [this](https://github.com/robbiegreiner/palette-picker/blob/master/server.js#L65-L81) post request, as there's no indication that you're assigning it to a particular project. I'm assuming you're passing through the project ID from the client side into this `palette` body, but I'd rather you update your endpoint to be more indicative of this one-to-many relationship. While posting to `/api/v1/palettes` isn't *wrong*, per-se, it's a lot clearer if you post to `/api/v1/projects/:projectID/palettes`. It denotes the relationship better and is (in my opinion) more RESTful. You will see people have different opinions on something like this, but those are the arguments for doing it my way ;) 
+
+* Instead of swapping out an img [src](https://github.com/robbiegreiner/palette-picker/blob/master/public/js/scripts.js#L20-L29) here, you could rework your css so that those images are actually a background image. That would allow you to just toggle the class for whether or not you want the locked or unlocked background.
+
+* You don't want to be [appending to the DOM](https://github.com/robbiegreiner/palette-picker/blob/master/public/js/scripts.js#L43) on each iteration of a for loop. DOM manipulations are expensive. Instead, you'd want to use Document Fragments to build up all the HTML you want to append, and then add it to the DOM all at once at the end of the loop.
+
+* [This](https://github.com/robbiegreiner/palette-picker/blob/master/public/js/scripts.js#L50-L70) is a little hideous. I'd try to break this up into separate chunks of HTML and maybe use a loop to build up those small-color divs.
+
+* [Rhoar](https://github.com/robbiegreiner/palette-picker/blob/master/public/js/scripts.js#L76)
+
+* No [.catch](https://github.com/robbiegreiner/palette-picker/blob/master/public/js/scripts.js#L87) :( [Here](https://github.com/robbiegreiner/palette-picker/blob/master/public/js/scripts.js#L141-L143) too
+
+* These [two functions](https://github.com/robbiegreiner/palette-picker/blob/master/public/js/scripts.js#L138-L173) are really confusing. It looks like they were both intended to POST a new project to the database, but the first one is actually getting all projects and checking for a duplicate. You could have just added a `unique()` flag in your database schema that would do this check for you automatically.
+
+* Fetch requests [aren't dependent on the DOM](https://github.com/robbiegreiner/palette-picker/blob/master/public/js/scripts.js#L189). So they don't need to wait for document ready. Kick off this request and get that data ASAP.
+
 ## Workflow
 
 **x points**: (20 possible points)
