@@ -115,6 +115,14 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 
 * I'm torn on [this](https://github.com/lolakoala/palette-picker/blob/master/server.js#L105-L107) being a 422 over a 404. If the error is that a resource doesn't exist at that endpoint, it should be a 404. 422's are more commonly seen when you're passing through an actual request body.
 
+* You don't want to be [appending to the DOM](https://github.com/lolakoala/palette-picker/blob/master/public/scripts/scripts.js#L38-L40) on each iteration of a for loop. DOM manipulations are expensive. Instead, you'd want to use Document Fragments to build up all the HTML you want to append, and then add it to the DOM all at once at the end of the loop.
+
+* Rather than swapping out an image [here](https://github.com/lolakoala/palette-picker/blob/master/public/scripts/scripts.js#L66-L78) you could maybe use that icon as a transparent background image so that you only have to toggle a class instead.
+
+* I'd save [this jQuery selector](https://github.com/lolakoala/palette-picker/blob/master/public/scripts/scripts.js#L84-L92) as a variable so that jQuery only has to traverse the DOM once in order to find it. Traversing the DOM is expensive and if you save it in a variable you only have to perform that search once.
+
+* Fetch requests arent dependent on the [DOM](https://github.com/lolakoala/palette-picker/blob/master/public/scripts/scripts.js#L167) so this function shouldn't be waiting for the whole window to load before you kick it off. Get that data ASAP.
+
 ## Workflow
 
 **x points**: (20 possible points)
