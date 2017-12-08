@@ -121,6 +121,29 @@ I really learned quite a bit with this project, but I dont' think it will be rea
 
 **x points**: (30 possible points)
 
+* I'd move [this](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L26-L28) configuration up closer to the top of the file, where you're doing your other imports.
+
+* [Meh](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L30-L31) this isn't doing anything, isn't helping you. Take it out.
+
+* [No .catch](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L75) :( [Here](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L109) and [here](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L120) too.
+
+* You shouldn't have to do this double nesty [database query](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L131-L142) to perform your error handling and deletion. You can just try to do the delete right off the bat, and if that deletion doesn't come back successfully, tell the user it failed.
+
+* If you're not using it, [delete it](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L148-L154)
+
+* [Whats this](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/js/scripts.js)
+
+* Having an object named [color](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L25-L26) contain a property name that's also called color is really confusing
+
+* [KeWl SpElLiNg, BrO](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L52)
+
+* Rather than getting nest with these [fetches](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L47-L60) I'd break the palettes fetch out into it's own function.
+
+* You don't want to be [appending to the DOM](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L105-L126) on each iteration of a for loop. DOM manipulations are expensive. Instead, you'd want to use Document Fragments to build up all the HTML you want to append, and then add it to the DOM all at once at the end of the loop.
+
+* You can simplify [this](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L171-L175) by just setting the value equal to the opposite of itself. e.g. `foo = !foo`
+
+
 ## Workflow
 
 **x points**: (20 possible points)
