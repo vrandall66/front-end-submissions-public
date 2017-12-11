@@ -103,18 +103,35 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**10 points**: (10 possible points) Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**22 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* Loveeeeeeeee that you broke this [checkParams](https://github.com/lolakoala/palette-picker/blob/master/server.js#L8) out into a helper file.
+
+* I believe you could just use a `unique()` method in your migration file on the name column for your schema rather than having to do this entire [check](https://github.com/lolakoala/palette-picker/blob/master/server.js#L59-L67) for duplicate names.
+
+* I'm torn on [this](https://github.com/lolakoala/palette-picker/blob/master/server.js#L105-L107) being a 422 over a 404. If the error is that a resource doesn't exist at that endpoint, it should be a 404. 422's are more commonly seen when you're passing through an actual request body.
+
+* You don't want to be [appending to the DOM](https://github.com/lolakoala/palette-picker/blob/master/public/scripts/scripts.js#L38-L40) on each iteration of a for loop. DOM manipulations are expensive. Instead, you'd want to use Document Fragments to build up all the HTML you want to append, and then add it to the DOM all at once at the end of the loop.
+
+* Rather than swapping out an image [here](https://github.com/lolakoala/palette-picker/blob/master/public/scripts/scripts.js#L66-L78) you could maybe use that icon as a transparent background image so that you only have to toggle a class instead.
+
+* I'd save [this jQuery selector](https://github.com/lolakoala/palette-picker/blob/master/public/scripts/scripts.js#L84-L92) as a variable so that jQuery only has to traverse the DOM once in order to find it. Traversing the DOM is expensive and if you save it in a variable you only have to perform that search once.
+
+* Fetch requests arent dependent on the [DOM](https://github.com/lolakoala/palette-picker/blob/master/public/scripts/scripts.js#L167) so this function shouldn't be waiting for the whole window to load before you kick it off. Get that data ASAP.
 
 ## Workflow
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points)
 
+* In general, you probably want to be committing a bit more frequently. For a project of this size and scope you definitely want to have over 100 commits, at least. Having less than that is usually indicative of having really large diffs that are difficult to read. Like [this](https://github.com/lolakoala/palette-picker/commit/660c6fc08c5cdcdd0a1ce0759b131b0f9e6f86dc) one ;)
+
+* Try working with github issues to keep track of your to-do list for functionality/bug fixes/design issues/etc. Pull requests aren't necessary when you're working individually, they're more for code review when you have other teammates that need to approve your changes.
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 124 / 150

@@ -115,18 +115,47 @@ I really learned quite a bit with this project, but I dont' think it will be rea
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**0 points**: (10 possible points) Do this!
+
+* Even though you don't need to do this in order to pass, the requirement will significantly help you think about articulation which will be important on your interviews!
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**19 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* I'd move [this](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L26-L28) configuration up closer to the top of the file, where you're doing your other imports.
+
+* [Meh](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L30-L31) this isn't doing anything, isn't helping you. Take it out.
+
+* [No .catch](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L75) :( [Here](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L109) and [here](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L120) too.
+
+* You shouldn't have to do this double nesty [database query](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L131-L142) to perform your error handling and deletion. You can just try to do the delete right off the bat, and if that deletion doesn't come back successfully, tell the user it failed.
+
+* If you're not using it, [delete it](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/server.js#L148-L154)
+
+* [Whats this](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/js/scripts.js)
+
+* Having an object named [color](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L25-L26) contain a property name that's also called color is really confusing
+
+* [KeWl SpElLiNg, BrO](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L52)
+
+* Rather than getting nest with these [fetches](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L47-L60) I'd break the palettes fetch out into it's own function.
+
+* You don't want to be [appending to the DOM](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L105-L126) on each iteration of a for loop. DOM manipulations are expensive. Instead, you'd want to use Document Fragments to build up all the HTML you want to append, and then add it to the DOM all at once at the end of the loop.
+
+* You can simplify [this](https://github.com/NikBorn/mod4-Palette-Picker/blob/master/public/js/scripts.js#L171-L175) by just setting the value equal to the opposite of itself. e.g. `foo = !foo`
+
 
 ## Workflow
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points)
+
+* Try working with github issues to keep track of your to-do list for functionality/bug fixes/design issues/etc. Pull requests aren't necessary when you're working individually, they're more for code review when you have other teammates that need to approve your changes.
+
+* Commit messages start off nice and consistent but get a little sloppy towards the end, (likely when we're doing codealongs). Try to keep these formatted a bit better
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 118 / 150

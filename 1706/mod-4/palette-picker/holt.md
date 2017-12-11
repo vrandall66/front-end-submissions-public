@@ -84,23 +84,50 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**10 points**: (10 possible points) Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**23 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* Is this [conditional](https://github.com/ameseee/palette-picker/blob/master/server.js#L44-L48) necessary? If there is no length to the array, wouldn't it return an empty array anyway?
+
+* Server-side code is beautiful, I'm rarely in the scenario where I can't find things to bitch about. Good job.
+
+* [Fetch requests](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L3) aren't dependent on the DOM, and therefore don't need to be in `document.ready()` kick off that request ASAP!
+
+* You don't want to be [appending to the DOM](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L31) on each iteration of a for loop. DOM manipulations are expensive. Instead, you'd want to use Document Fragments to build up all the HTML you want to append, and then add it to the DOM all at once at the end of the loop.
+
+* [This](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L76-L106) is a little unruly. It's still clean and readable, but maybe you do write a loop to dynamically generate those palette-color divs? Instead of having all that repeat code.
+
+* [postPayload](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L110) is a really generic, uninformative name for a function. Instead of using the verb POST, you want to use something that's a little more semantic, like save or create. This is also a little misleading because you're not actually POSTing anything in this function, you're just creating the configuration for doing the post. I do like that you're reusing the function for palettes and projects though. 
+
+* You want to make sure you're not removing something from the DOM before it's actually deleted from the [database](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L186-L195). If anything went wrong with that delete request you would have removed an element that actually still existed in your dataset. Do the DOM removal in the `.then()` of the delete request.
+
+* Could you not just add `unique` to the project name column in your database schema to avoid having to do this whole [check](https://github.com/ameseee/palette-picker/blob/master/public/js/scripts.js#L212-L226)?
 
 ## Workflow
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points)
+
+* You don't have to file PRs on a project when you're working by yourself. You should still be using branches, but PRs are for code review.
+
+* Nice, consistent and informative git commit messages 
+
+* Glad you did cleanup and linting fixes in their own commits, but there's a lot of them. Try using a git hook to prevent this in the future ;)
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 136 / 150
 
 
 
 ### Answers to Your Questions
 
+What is convention for organizing the server.js file - all the gets together, then posts together, etc. or organized by endpoint? Or is this just a preference/team consistency thing? -- **Will go over in class**
+
+I'm sure you're planning to include in the feedback, but I'm wondering if I made the right choices for my endpoints? I originally had several more that I starting realizing I didn't need. Looking back I think I maybe should have done a 'POST' directly to /palettes rather than /projects/:id/palettes, but honestly am not 100% sure.  -- **You'll see both of these URL structures in the real world, but I prefer `/projects/:id/palettes` because it more clearly demonstrates that there is a one-to-many reltionship between the two tables. It also means the user doesn't have to pass through a project ID along with the palette data.**
+
+I have an error on line 43 (TypeError: Cannot read property 'project_name' of undefined). When I append a new project, my theory is that is takes a second because of async, so project is undefined. Somehow it still 'works' though. I feel like I need to understand how I can get the error and console.log to see that project is undefined, but it still 'works'. -- **Can't quite tell, it looks fine at first glance but I'm happy to debug this in person together**

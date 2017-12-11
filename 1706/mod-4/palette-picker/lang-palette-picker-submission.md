@@ -82,22 +82,49 @@ http://palettab.com/
 * You wouldn't send through an [id](https://github.com/francylang/palette-picker/blob/master/test/routes.spec.js#L188) during a POST request naturally, so don't do it in your tests either. Just send through an empty object.
 
 
-
-
 ## Commented Server File
 
-**x points**: (10 possible points)
+**10 points**: (10 possible points) Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**22 points**: (30 possible points) Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+* [This](https://github.com/francylang/palette-picker/blob/master/server.js#L30-L32) isn't really doing anything meaningful for you, and can sometimes be confusing when you're really returning the index file on your root get request through express.static. I'd get rid of this.
+
+* Is [this check](https://github.com/francylang/palette-picker/blob/master/server.js#L64-L68) necessary? Would it not return an empty array by default if there were no records?
+
+* Would be nice to break this type of [error handling](https://github.com/francylang/palette-picker/blob/master/server.js#L95-L101) out into a helper file. You're repeating it through a lot of your server file, DRY this up a bit.
+
+* Send back the [id in this error message](https://github.com/francylang/palette-picker/blob/master/server.js#L147) as well just to give the user an indicator of what they actually tried to delete. I'm also torn about this being a 422 rather than a 404. A 404 literally means a resource doesn't exist at that endpoint, a 422 is generally used more for user error when you're passing through a formatted body object.
+
+* Fetch requests [aren't dependent on the DOM](https://github.com/francylang/palette-picker/blob/master/public/js/scripts.js#L3). So they don't need to wait for document ready. Kick off this request and get that data ASAP.
+
+* Why is there this lonely [.catch](https://github.com/francylang/palette-picker/blob/master/public/js/scripts.js#L53-L54) here?
+
+* Was it supposed to go [here](https://github.com/francylang/palette-picker/blob/master/public/js/scripts.js#L58-L60) instead? ;)
+
+* You don't want to be [appending to the DOM](https://github.com/francylang/palette-picker/blob/master/public/js/scripts.js#L63-L68) on each iteration of a for loop. DOM manipulations are expensive. Instead, you'd want to use Document Fragments to build up all the HTML you want to append, and then add it to the DOM all at once at the end of the loop.
+
+* [This](https://github.com/francylang/palette-picker/blob/master/public/js/scripts.js#L65) is a poor naming convention for a method. Function names should be actions/verbs, like `appendProject`. Variables of any other data type should be nouns.
+
+* This is a [lot of arguments](https://github.com/francylang/palette-picker/blob/master/public/js/scripts.js#L96) to be passing into a function. When you argument lists get long like this, it can be really easy to mess up their order and pass things in at the wrong spots. I'd refactor this to just take in a single object.
+
+* You could have just added a `unique()` flag in your database schema that would do this [check](https://github.com/francylang/palette-picker/blob/master/public/js/scripts.js#L126-L142) for you automatically.
 
 ## Workflow
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points) Developer(s) make many small, atomic commits that clearly document the evolution of the application, sometimes contain irrelevant changesets. Commit messages are concise and consistent in syntax and tense. There are no instances where the developer(s) have committed source code that should be .gitignored.
 
+* Nice, consistently formatted commit messages, even when we're working fast during code alongs.
+
+* Try working with github issues to keep track of your to-do list for functionality/bug fixes/design issues/etc. Pull requests aren't necessary when you're working individually, they're more for code review when you have other teammates that need to approve your changes.
+
+* Seems like a lot of extra/irrelevant changes are making it into your commits, like [here](https://github.com/francylang/palette-picker/commit/c42743a167df9440ebdd2494659b46bc06f4c920). Try to keep the diffs a bit tinier. I'd say for a project of this size and scope, you probably want at least 100 commits.
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 141 / 150
+
+Damnnnnnnnn, girl, good job.
