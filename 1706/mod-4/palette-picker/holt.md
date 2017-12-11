@@ -84,7 +84,7 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**10 points**: (10 possible points) Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
 
 ## JavaScript Style
 
@@ -120,9 +120,14 @@ I have an error on line 43 (TypeError: Cannot read property 'project_name' of un
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 136 / 150
 
 
 
 ### Answers to Your Questions
 
+What is convention for organizing the server.js file - all the gets together, then posts together, etc. or organized by endpoint? Or is this just a preference/team consistency thing? -- **Will go over in class**
+
+I'm sure you're planning to include in the feedback, but I'm wondering if I made the right choices for my endpoints? I originally had several more that I starting realizing I didn't need. Looking back I think I maybe should have done a 'POST' directly to /palettes rather than /projects/:id/palettes, but honestly am not 100% sure.  -- **You'll see both of these URL structures in the real world, but I prefer `/projects/:id/palettes` because it more clearly demonstrates that there is a one-to-many reltionship between the two tables. It also means the user doesn't have to pass through a project ID along with the palette data.**
+
+I have an error on line 43 (TypeError: Cannot read property 'project_name' of undefined). When I append a new project, my theory is that is takes a second because of async, so project is undefined. Somehow it still 'works' though. I feel like I need to understand how I can get the error and console.log to see that project is undefined, but it still 'works'. -- **Can't quite tell, it looks fine at first glance but I'm happy to debug this in person together**
