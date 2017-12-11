@@ -82,11 +82,9 @@ http://palettab.com/
 * You wouldn't send through an [id](https://github.com/francylang/palette-picker/blob/master/test/routes.spec.js#L188) during a POST request naturally, so don't do it in your tests either. Just send through an empty object.
 
 
-
-
 ## Commented Server File
 
-**x points**: (10 possible points)
+**10 points**: (10 possible points) Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
 
 ## JavaScript Style
 
@@ -116,10 +114,15 @@ http://palettab.com/
 
 ## Workflow
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points) Developer(s) make many small, atomic commits that clearly document the evolution of the application, sometimes contain irrelevant changesets. Commit messages are concise and consistent in syntax and tense. There are no instances where the developer(s) have committed source code that should be .gitignored.
 
+* Nice, consistently formatted commit messages, even when we're working fast during code alongs.
+
+* Try working with github issues to keep track of your to-do list for functionality/bug fixes/design issues/etc. Pull requests aren't necessary when you're working individually, they're more for code review when you have other teammates that need to approve your changes.
+
+* Seems like a lot of extra/irrelevant changes are making it into your commits, like [here](https://github.com/francylang/palette-picker/commit/c42743a167df9440ebdd2494659b46bc06f4c920). Try to keep the diffs a bit tinier. I'd say for a project of this size and scope, you probably want at least 100 commits.
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 141 / 150
