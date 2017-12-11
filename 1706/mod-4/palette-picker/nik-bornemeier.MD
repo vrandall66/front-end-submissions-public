@@ -115,7 +115,9 @@ I really learned quite a bit with this project, but I dont' think it will be rea
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**0 points**: (10 possible points) Do this!
+
+* Even though you don't need to do this in order to pass, the requirement will significantly help you think about articulation which will be important on your interviews!
 
 ## JavaScript Style
 
@@ -146,10 +148,14 @@ I really learned quite a bit with this project, but I dont' think it will be rea
 
 ## Workflow
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points)
+
+* Try working with github issues to keep track of your to-do list for functionality/bug fixes/design issues/etc. Pull requests aren't necessary when you're working individually, they're more for code review when you have other teammates that need to approve your changes.
+
+* Commit messages start off nice and consistent but get a little sloppy towards the end, (likely when we're doing codealongs). Try to keep these formatted a bit better
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 118 / 150

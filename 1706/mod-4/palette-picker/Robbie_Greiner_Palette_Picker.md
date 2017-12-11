@@ -83,7 +83,7 @@ The lessons in class so far have been extremely well written and they are easy t
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**10 points**: (10 possible points) Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
 
 ## JavaScript Style
 
