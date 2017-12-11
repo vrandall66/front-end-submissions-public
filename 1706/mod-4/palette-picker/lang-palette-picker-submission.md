@@ -126,3 +126,5 @@ http://palettab.com/
 ### To get a 4 on this project, you need to score 130 points or higher
 
 # Final Score: 141 / 150
+
+Damnnnnnnnn, girl, good job.
