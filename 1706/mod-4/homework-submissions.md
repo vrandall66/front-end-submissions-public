@@ -40,7 +40,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://gist.github.com/ameseee/76ee39985995218f68917604bef92999)
 * [Express Tutorial](https://github.com/ameseee/m4-express-prework) Further Challenges: 1, 2, 3
 * [Promise Practice Exercises](https://repl.it/@ameseee/m4-promises-prework)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://holt-palette-picker.herokuapp.com/)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
