@@ -103,7 +103,7 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**10 points**: (10 possible points) Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
 
 ## JavaScript Style
 
@@ -134,4 +134,4 @@ The design of this project was a lot of fun! I am enjoying learning about the ba
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 124 / 150
