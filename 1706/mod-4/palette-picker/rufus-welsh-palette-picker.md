@@ -60,34 +60,61 @@ I'm frustrated at the state of this app. I've worked 12hrs+ every day this week 
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**40 points**: (50 possible points)
+
+* Lock is missing
+* Don't see any link to design inspiration you used for this site
 
 ## User Interface
 
-**x points**: (20 possible points)
+**13 points**: (20 possible points)
+
+* There is some default project's palettes being shown, but it's unclear while. There is no title, and the drop-down menu says No Project Selected. Looks like all palettes, but would be nice to have a cue.
+* A lot of unused space in the bottom of the page. Even filling that with the palette colors would be nice.
 
 ## Testing
 
-**x points**: (20 possible points)
+**0 points**: (20 possible points)
+
+* [This file](https://github.com/rufusasterisk/palette-picker/blob/master/test/routes.spec.js) is commented out and does not have any API testing functionality.
+* Sent a screenshot of the client-side tests passing - only client-side testing running.
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**0 points**: (10 possible points)
+
+* Not done
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**22 points**: (30 possible points)
+
+* You should not need `return` every time you want to send a response in a route handler - you should only need an explicit return if you are in an if/else where it is explicitly needed.
+* Good job extracting [this functionality](https://github.com/rufusasterisk/palette-picker/blob/master/server.js#L70-L79) into its own function
+* If you make the `checkPostBody` a middleware function, then you can get rid of [this if/else section](https://github.com/rufusasterisk/palette-picker/blob/master/server.js#L82-L85) because you would return an error response if there was something missing within the middleware - if nothing is missing, then you move on to the route handler as normal, which removes the conditional. You'll just have to find a way to pass the array of necessary parameters into the middleware.
+* Server file looks good - routes are RESTful, and database queries are simple
+* As you said, cleint-side code definitely needs some refactoring
+* One thing to note with using `fetch` is that it will not error on 404 - in order to hit the `.catch` on a 404, you can check for `response.ok` [demonstrated in the MDN docs here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Checking_that_the_fetch_was_successful)
 
 ## Workflow
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points)
+
+* Your `.gitignore` is empty...do you have one globally?
+* Would like to see some smaller commits
+
+## Extensions
+
+**15 points:** Palette generation that isn’t random and actually makes sense
+
+* [This](https://github.com/rufusasterisk/palette-picker/blob/master/public/js/colorHelpers.js) is cool
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 107 / 150

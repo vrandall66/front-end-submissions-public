@@ -19,7 +19,7 @@
 
 The missing items are
   - Testing
-  - Design research implimentation 
+  - Design research implementation 
   
  In the end I ran out of time. I struggled with some functionality which caused a time crunch I did not overcome.
  I will be finishing these over the weekend. 
@@ -31,7 +31,7 @@ The missing items are
 #### Link to a specific block of your code on GitHub that you are proud of
 [happy code](https://github.com/bbp5280/palette-picker/blob/8afb0d04e9251a92b13430bc329846ad5c64e6a6/public/js/scripts.js#L27-L45)
 
-I like this fetch function to retirve and build projects and palettes as it is mostly broken down into easy single functionality functions. 
+I like this fetch function to retrieve and build projects and palettes as it is mostly broken down into easy single functionality functions. 
 
 #### Link to a specific block of your code on GitHub that you feel not great about
 [sad code](https://github.com/bbp5280/palette-picker/blob/8afb0d04e9251a92b13430bc329846ad5c64e6a6/public/js/scripts.js#L127-L146)
@@ -53,31 +53,55 @@ I intended to impliment this style for my inputs and design buttons to match I d
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**50 points**: (50 possible points)
+
+* Looks like everything is in place, nice job
 
 ## User Interface
 
-**x points**: (20 possible points)
+**12 points**: (20 possible points)
+
+* Took me a while to find the New Palette button in the top left corner
+* Ideally, forms are styled and text larger, but I'm sure it was a time issue
+* I can't create an identical project name, which is great, but nothing happens if I try to do so - give the user some indication of what happened
 
 ## Testing
 
-**x points**: (20 possible points)
+**0 points**: (20 possible points)
+
+* No API testing...
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**7 points**: (10 possible points)
+
+* Want a little more information [here](https://github.com/bbp5280/palette-picker/blob/server-comments/server.js#L14) about the purpose of body parser - you always need a good reason to bring in external packages
+* "connect" [database](https://github.com/bbp5280/palette-picker/blob/server-comments/server.js#L27)?
+* [Here](https://github.com/bbp5280/palette-picker/blob/server-comments/server.js#L58), the request body is being assigned to the project variable, sounds like you just have it reversed
+* Overall, good comments
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**22 points**: (30 possible points)
+
+* You do not need an explicit `return` [here](https://github.com/bbp5280/palette-picker/blob/master/server.js#L18), but you would need to use it explicitly if you are sending a response within an if/else statement
+* [This](https://github.com/bbp5280/palette-picker/blob/master/server.js#L39-L41) is a good portion of code where you could refactor into its own function or middleware since you're doing the same thing in another POST request route handler - the only difference is the params that are expected
+* One thing to note with using `fetch` is that it will not error on 404 - in order to hit the `.catch` on a 404, you can check for `response.ok` [demonstrated in the MDN docs here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Checking_that_the_fetch_was_successful)
+* [This](https://github.com/bbp5280/palette-picker/blob/master/server.js#L79) should be a 404 response because the resource is not found - the request structure is OK
+* Good job having `catch()` on all of your client-side fetch calls
+* Consider moving [this](https://github.com/bbp5280/palette-picker/blob/master/public/js/scripts.js#L65-L81) to an HTML template
+* Careful with your [indentation](https://github.com/bbp5280/palette-picker/blob/master/public/js/scripts.js#L57-L58)
 
 ## Workflow
 
-**x points**: (20 possible points)
+**15 points**: (20 possible points)
+
+* Need to add you `.gitignore` right away so you don't end up with `.DS_STORE` files in [your projects](https://github.com/bbp5280/palette-picker)
+* Need some smaller, more atomic commits
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
