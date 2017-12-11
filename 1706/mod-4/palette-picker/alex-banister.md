@@ -68,10 +68,6 @@
 
 * Nice use of CSS transitions but I'd make them a little snappier. Subtlety is key with transitions and you want them to be just barely above the line of perception rather than something that's super obvious. (Kinda subliminal messaging. It will still have the intended effect of making DOM updates smoother, but it won't stand out as something users have to wait for to finish)
 
-## Data Persistence with SQL Database
-
-**x points**: (20 possible points)
-
 ## Testing
 
 **10 points**: (20 possible points) Project has a running test suite that tests some of the server-side endpoints but is missing many happy/sad paths
@@ -85,7 +81,7 @@
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**10 points**: (10 possible points) Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
 
 ## JavaScript Style
 
@@ -142,4 +138,4 @@
 ### To get a 3 on this project, you need to score 120 points or higher
 ### To get a 4 on this project, you need to score 140 points or higher
 
-# Final Score: x / 160
+# Final Score: 129 / 160
