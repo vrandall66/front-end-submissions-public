@@ -2,7 +2,7 @@
 
 ### Evaluator: Christie
 ### Students:
-### Comments: WOW!! Incredible job!!
+### Comments: WOW!! Great job on testing and implementing MULTIPLE extentions! UI looks great!
 
 ## Rubric
 
