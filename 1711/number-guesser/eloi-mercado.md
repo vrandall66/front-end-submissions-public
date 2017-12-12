@@ -1,50 +1,43 @@
-## Student:
-## Evaluator:
+## Student: Eloi Mercado
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+### html
+* Love the kabob case and indentation
+* Inputs should always have a label
+
+### css
+* Dry it up
+* Add comments for better organization
+* Pick convention for organizing inside blocks
+
+### js
+* Dry it up by breaking similar blocks of code into functions
+* Remove lines in between variable declarations
+* Try using more action like words for functions ie. generateNewNumber instead of newRandom number, setRange and winGame are good names
+* Try using more local vars and pass them around functions as arguments
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

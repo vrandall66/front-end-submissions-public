@@ -1,50 +1,50 @@
-## Student:
-## Evaluator:
+## Student: Charles Yach
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+* Excellent work getting it to work with 4 players
+* In the future, build half a thing, not a half assed thing though - this code would be a nightmare to maintain as is
+
+### comp
+* make header as wide as the input
+
+### html
+* forms, use them
+* use labels for inputs
+* separate multiple word classes and ids using kabob case
+
+### css 
+* avoid redundancies dry it up!!!!
+
+### js
+* dry it up!!!!
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
 * Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
 * Magic
