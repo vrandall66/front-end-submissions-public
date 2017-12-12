@@ -2,7 +2,7 @@
 
 ### Evaluator:Christie
 ### Students:
-### Comments: Separate fetch calls into separate functions. Call them on btn click instead of all in CDM. Make sure that you are not actually making the fetch call in your test, and instead using a jest.fn(). Move all your mock data to a separate file.
+### Comments: Separate fetch calls into separate functions - will make them much easier to test. Make sure that you are not actually making the fetch call in your test, and instead using a jest.fn(). Move all your mock data to a separate file. Overall, nice job on this project!
 
 ## Rubric
 
