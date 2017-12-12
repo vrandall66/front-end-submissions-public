@@ -2,7 +2,7 @@
 
 ### Evaluator: Christie
 ### Students:
-### Comments: Great job in splittng out all of the fetch requests! Overall, ode looks super clean! Great use of variables in scss. Think about refactoring fetchs into a higher order function.
+### Comments: Great job in splittng out all of the fetch requests! Overall, code looks super clean! Great use of variables in scss. Think about refactoring fetchs into a higher order function. 
 
 ## Rubric
 
