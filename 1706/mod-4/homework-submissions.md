@@ -91,7 +91,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/jenPlusPlus/m4-prework-express)
   * I completed the first 3 exercises-- create interactive front-end, import external JS file of data, and serve sunset images at /sunsets
 * [Promise Practice Exercises](https://github.com/jenPlusPlus/m4-prework-promises)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://jen-woodson-palette-picker.herokuapp.com/)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
