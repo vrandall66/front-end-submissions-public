@@ -2,7 +2,7 @@
 
 ### Evaluator: Christie
 ### Students:
-### Comments: Be sure to separate fetch calls into separate function so that they are easier to test
+### Comments: Be sure to separate fetch calls into separate functions so that they are easier to test. Great card component - very reusable! Overall, nice job! 
 
 ## Rubric
 
