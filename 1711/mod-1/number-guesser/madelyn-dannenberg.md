@@ -1,13 +1,11 @@
-## Student:
-## Evaluator:
+## Student: Megan
+## Evaluator: Louisa
 ## Notes/What To Work On:
 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
+* Advanced Beginner: Application meets all of the expectations of phase two. 
 
 
 ## COMP RECREATION / DESIGN
