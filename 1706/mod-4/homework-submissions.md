@@ -52,7 +52,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://repl.it/@bbp5280/Promise-Practice)
 * [Palette Picker PWA](https://palette-picker-bp.herokuapp.com/)
 * [Websockets Tutorial]()
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@bbp5280/diving-into-open-source-a-first-experience-40f945a52b7b)
 * [Pattern Party]()
 
 ### Francy Lang
