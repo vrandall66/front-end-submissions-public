@@ -42,7 +42,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://repl.it/@ameseee/m4-promises-prework)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@ameseholt/how-i-stumbled-upon-microservice-architecture-2051d136dc2d)
 * [Pattern Party]()
 
 ### Alex Banister
