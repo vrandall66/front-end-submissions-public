@@ -153,7 +153,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://repl.it/@rg25/promise-practice)
 * [Palette Picker PWA](https://robbie-greiner-palette-picker.herokuapp.com/)
 * [Websockets Tutorial]()
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://robbiethedeveloper.wordpress.com/)
 * [Pattern Party]()
 
 ### Rufus Welsh
