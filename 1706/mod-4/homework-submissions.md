@@ -32,7 +32,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://github.com/AdamMescher/promises-practice)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@admescher/the-journey-of-a-thousand-commas-begins-with-a-single-commit-8b170b7a48c0)
 * [Pattern Party]()
 
 ### Amy Holt
