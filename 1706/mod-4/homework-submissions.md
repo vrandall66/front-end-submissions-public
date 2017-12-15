@@ -133,7 +133,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]()
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@nickteets/an-open-source-adventure-34a1b747fe6e)
 * [Pattern Party]()
 
 ### Nik Bornemeier
