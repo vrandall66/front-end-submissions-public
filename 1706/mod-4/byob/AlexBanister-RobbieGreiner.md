@@ -53,15 +53,15 @@
   this doesn't seem like the right way to deal with the `bearer` in the token.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-[test suite](<img width="659" alt="screen shot 2017-12-15 at 12 36 50 pm" src="https://user-images.githubusercontent.com/17756439/34057575-c88b455c-e194-11e7-8a92-973098345258.png">)
+<img width="659" alt="screen shot 2017-12-15 at 12 36 50 pm" src="https://user-images.githubusercontent.com/17756439/34057575-c88b455c-e194-11e7-8a92-973098345258.png">
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-[linter output](<img width="580" alt="screen shot 2017-12-15 at 12 38 48 pm" src="https://user-images.githubusercontent.com/17756439/34057613-f1a2c596-e194-11e7-9be4-f9e1cb91efc1.png">)
+<img width="580" alt="screen shot 2017-12-15 at 12 38 48 pm" src="https://user-images.githubusercontent.com/17756439/34057613-f1a2c596-e194-11e7-9be4-f9e1cb91efc1.png">
 
 #### Attach a screenshot of your CircleCI build passing
 
-[circleCI build](<img width="1417" alt="screen shot 2017-12-15 at 12 40 20 pm" src="https://user-images.githubusercontent.com/17756439/34057663-2af13eea-e195-11e7-9f44-0e92c182d848.png">)
+<img width="1417" alt="screen shot 2017-12-15 at 12 40 20 pm" src="https://user-images.githubusercontent.com/17756439/34057663-2af13eea-e195-11e7-9f44-0e92c182d848.png">
 
 -----
 
