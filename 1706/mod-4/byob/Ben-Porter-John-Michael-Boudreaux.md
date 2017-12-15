@@ -56,7 +56,7 @@
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-[linter output]()
+<img width="701" alt="screen shot 2017-12-15 at 12 28 35 pm" src="https://user-images.githubusercontent.com/26842728/34057296-9ce32952-e193-11e7-9df5-4dd7c4ff7eb8.png">
 
 #### Attach a screenshot of your CircleCI build passing
 
