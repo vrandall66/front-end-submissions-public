@@ -72,7 +72,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://repl.it/@francylang/promises)
 * [Palette Picker PWA](https://lang-palette-picker.herokuapp.com/)
 * [Websockets Tutorial]()
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@francy.lang/first-timer-1f77d51b9420)
 * [Pattern Party]()
 
 ### Hector Sanchez
