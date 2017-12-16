@@ -111,7 +111,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/lolakoala/mod4-prework-node-server)
 * [Express Tutorial](https://github.com/lolakoala/mod4-prework-express-server)
 * [Promise Practice Exercises](https://repl.it/@lolakoala/PromisesPractice)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://lolas-palette-picker.herokuapp.com/)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post](https://medium.com/@lolabrennerdev/contributing-to-open-source-as-a-coding-bootcamp-student-18fb9d96d254)
 * [Pattern Party]()
