@@ -1,50 +1,38 @@
-## Student:
-## Evaluator:
+## Student: Mike Duke
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+### DESIGN
+- Update to let user know range
+- Catch edge cases beyond setting the input `type` to number - add input validation
+
+### HTML
+- Watch indentation/spacing
+- Good use of semantic HTML - keep moving forward with ARIA
+
+### CSS
+- Use [Idiomatic CSS](https://github.com/necolas/idiomatic-css) for organization
+
+### JS
+- Functionality split up well
+- Good job speaking to your code
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
-
-* Novice  
+ 
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

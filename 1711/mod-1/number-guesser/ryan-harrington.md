@@ -1,50 +1,42 @@
-## Student:
-## Evaluator:
+## Student: Ryan Harrington
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+### DESIGN
+- Make sure that input fields clear after submission
+- Disable hover when buttons are disabled
+
+### HTML
+- Get rid of spacing between lines
+- Good indentation
+
+### CSS
+- Watch spacing
+- Orangize CSS idiomatically
+- Use shorthand where applicable
+
+### JS
+- Make sure naming is accurate
+- Remove comments/console logs from JS file
+- Move towards breaking out functions/single responsibility.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
+* Proficient: Application meets all of the expectations of phase three.   
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

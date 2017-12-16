@@ -1,50 +1,40 @@
-## Student:
-## Evaluator:
+## Student: Theresa Marquis
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+### DESIGN
+- Comp recreation is lacking. UX/UI is an essential part of having a working, deliverable application.
+
+### HTML
+- Continue to use semantic HTML elements
+- Remove unneccessary spacing in HTML file. Add labels for buttons and inputs. Run app through a screenreader next time
+
+### CSS
+- Watch syntax in CSS file. Use [Idiomatic CSS](https://github.com/necolas/idiomatic-css) for organization
+
+### JS
+- Good use of parameters/arguments
+- Consistently use semi-colons
+- Work on naming conventions in JS 
 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Novice   
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

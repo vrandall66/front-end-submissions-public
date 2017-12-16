@@ -1,50 +1,44 @@
-## Student:
-## Evaluator:
+## Student: Patrick McLaughlin
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
+### DESIGN
+- Update design for user guess - hard to read some text
+- Appreciate the surprise background changes!!!
+
+### HTML
+- Hooray for tabindex, semantic HTML, labels, AND running through a screenreader!
+
+### CSS
+- Use [Idiomatic CSS](https://github.com/necolas/idiomatic-css) for organization
+
+### JS
+- Work on naming for variables and functions
+- Opportunities for refactoring w/longer functions. Try to keep functions around 8 lines or less, give or take
+
 ## Functional Expectations
-
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
+ 
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
 * Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
 * Sparkles  
-* Magic
