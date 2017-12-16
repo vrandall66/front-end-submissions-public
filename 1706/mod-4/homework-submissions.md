@@ -60,9 +60,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/bbp5280/node_tutorial/blob/master/server.js)
 * [Express Tutorial](https://github.com/bbp5280/express_tutorial/tree/master/public)
 * [Promise Practice Exercises](https://repl.it/@bbp5280/Promise-Practice)
-* [Palette Picker PWA](https://gist.github.com/bbp5280/a42bc2534a2924b07d4bb013dd7ae4fe)
+* [Palette Picker PWA](https://palette-picker-bp.herokuapp.com/)
 * [Websockets Tutorial]()
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@bbp5280/diving-into-open-source-a-first-experience-40f945a52b7b)
 * [Pattern Party]()
 
 ### Francy Lang
