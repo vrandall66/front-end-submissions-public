@@ -121,7 +121,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://gist.github.com/lfinney/ff01516858c69504c7f6d325f1186f0d)
 * [Express Tutorial](https://github.com/lfinney/express-tutorial)
 * [Promise Practice Exercises](https://repl.it/@lwfinney/Promise-Practice)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://palette-picker-lfinney.herokuapp.com/)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
