@@ -70,7 +70,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://gist.github.com/francylang/0a26460375ad3f50937aa6c1aee3c59e)
 * [Express Tutorial](https://github.com/francylang/express-tutorial) Further Challenges: 1, 2
 * [Promise Practice Exercises](https://repl.it/@francylang/promises)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://lang-palette-picker.herokuapp.com/)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
