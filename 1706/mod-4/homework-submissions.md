@@ -50,7 +50,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/alexbanister/node-server-prework)
 * [Express Tutorial](https://github.com/alexbanister/express-server-prework) 
 * [Promise Practice Exercises](https://gist.github.com/alexbanister/7139ea6895097b62e95ecd4e26b8a7ff)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://ahb-palette-picker.herokuapp.com/)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
