@@ -10,7 +10,7 @@
 [BYOB](https://github.com/francylang/byob)
 
 #### Link to the Deployed Application
-[Heroku](https://speed-running-database.herokuapp.com/)
+[Heroku](https://speedrunning-database.herokuapp.com/)
 
 
 ## Completion
@@ -36,7 +36,8 @@ Yes
 Yes. Missing testing on some delete sad paths and authorization testing. 
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
-Circle CI build failed due to test suite.
+Yes
+
 
 # Code Quality
 
@@ -72,8 +73,8 @@ This inconsistency would make our Circle CI build fail - tests would be passing 
 
 #### Attach a screenshot of your CircleCI build passing
 
-[circleCI build]()
-
+circleCI build
+<img width="1187" alt="screen shot 2017-12-16 at 11 49 59 am" src="https://user-images.githubusercontent.com/26471447/34073484-092e9b54-e258-11e7-90de-d1e88ed8f30e.png">
 
 -----
 
@@ -87,6 +88,8 @@ GET /api/v1/records/:id
 ```
 
 While we were able to setup our Heroku and Circle CI for this project, the inconsistent test suite stopped us from creating a passing build. Our application on Heroku is working fine. 
+
+**UPDATE 12/16/17 Circle CI build is passing.
 
 -----
 
