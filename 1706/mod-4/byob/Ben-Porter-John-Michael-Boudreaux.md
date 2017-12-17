@@ -52,7 +52,7 @@
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-<img width="1243" alt="screen shot 2017-12-15 at 12 22 09 pm" src="https://user-images.githubusercontent.com/26842728/34057032-a996e28e-e192-11e7-95b6-4b8742c9d47e.png">
+<img width="937" alt="screen shot 2017-12-17 at 4 03 55 pm" src="https://user-images.githubusercontent.com/26842728/34084815-f39a99fe-e343-11e7-85c4-fd4569703551.png">
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
