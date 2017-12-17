@@ -10,7 +10,7 @@
 [BYOB](https://github.com/johnmboudreaux/BYOB)
 
 #### Link to the Deployed Application
-[Heroku]()
+[Heroku](https://jm-byob.herokuapp.com/)
 
 
 ## Completion
@@ -18,7 +18,7 @@
 #### Were you able to complete the base functionality?
 
 * Documented all available endpoints and their usage in the README?
-(No)
+(Yes)
 
 * Seeded a database with at least 2 tables and 1 relationship?
 (Yes)
@@ -33,7 +33,7 @@
 (Yes)
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(No)
+(Yes)
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
 (Yes)
