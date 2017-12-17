@@ -29,7 +29,7 @@
 - Avoid mixing named colors and hex codes in your CSS file - pick one and stay consistent
 
 ### JS
-- From someone who doesn't know the backstory, it woul be unclear as to why you are using jQuery selectors in some places but not overall. Stay consistent unless there is a reason. LOVE that you took a stab at doing this in vanilla JS
+- For someone who doesn't know the backstory, it would be unclear as to why you are using jQuery selectors in some places but not overall. Stay consistent unless there is a reason. LOVE that you took a stab at doing this in vanilla JS
 - Naming is pretty good on functions - could be improved on variables for created elements. The naming on these makes some of the lines hard to follow 
 - Functionality is split up well!
 
