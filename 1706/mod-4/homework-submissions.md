@@ -93,8 +93,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://github.com/jenPlusPlus/m4-prework-promises)
 * [Palette Picker PWA](https://jen-woodson-palette-picker.herokuapp.com/)
 * [Websockets Tutorial]()
-* [House of Vars Blog Post]()
-* [Pattern Party]()
+* [House of Vars Blog Post](https://medium.com/@jenwoodson/git-shit-my-first-open-source-contribution-a5b6c0b10bb1)
+* [Pattern Party](https://jenplusplus.github.io/pattrn-party/)
 
 ### John Michael Boudreaux
 
