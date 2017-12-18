@@ -43,12 +43,12 @@
 #### Link to a specific block of your code on GitHub that you are proud of
 [happy code]()
 
-* Why were you proud of this piece of code?
+We feel very good about our entire server.js file. With everything being a turnary as well as being dirct readable code we feel that it is all well done. 
 
 #### Link to a specific block of your code on GitHub that you feel not great about
 [sad code]()
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+The code we feel could use a bit more love is the fron end side of things. While it fits all the requirements it is not the most clean user friendly front end code we have done. 
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
