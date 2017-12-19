@@ -28,6 +28,12 @@ Waffle & Github:
 
 Order Of Attack:
 
+Get exchange data pulled in
+Clean if needed
+Get buy/sell/spread variables saved to state
+Hook up visualization
+Work with visualization to render various states of feedback
+
 Nice To Haves:
 
 Instructor Notes
