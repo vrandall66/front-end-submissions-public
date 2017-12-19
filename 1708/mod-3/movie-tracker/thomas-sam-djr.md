@@ -10,11 +10,12 @@
 
 ### CSS/Design
 
-- 4 - Developer has made a targeted effort to make the app appealing and user friendly. Evaluator has minimal recommendations for design changes. Follows [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
+- 3.5 - Developer has made a targeted effort to make the app appealing and user friendly. Evaluator has multiple recommendations for design changes. Follows majority of the [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
+
 
 ### Testing
 
-- 4 - Every component is tested from both a unit and acceptance standpoint, all crucial functionality is tested.
+- 4 - Every component is tested from both a unit and acceptance standpoint, all crucial functionality is tested
 
 ### PropType Implementation
 

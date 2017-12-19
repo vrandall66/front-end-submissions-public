@@ -1,65 +1,59 @@
-## Student:
-## Evaluator:
+## Student: Jared and Mike
+## Evaluator: David
 ## Notes/What To Work On:
+
+### comp
+* Nice work! 
+* Read and delete buttons could be a bit bigger
+
+### html
+* Use form element for accessibility reasons
+* Use labels for all inputs
+
+### css
+* Consider adding comments for different sections of your css
+* Use convention for organization within blocks - ie. idiomatic or alphabetized
+* Get rid of all of the empty lines at the bottom of the file!
+
+### js
+* Use action like words for function names - ie. countRead instead of readCount
+* Consider using template literals for appending html to page
+
+### git/github
+* Would like to see more verbose commit messages in the future and similar numbers of commits from each collaborator
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
 * Sparkles  
-* Magic  

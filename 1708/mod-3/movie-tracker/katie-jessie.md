@@ -8,13 +8,14 @@
 
 - 3.5 - Developer appears comfortable in React. There are minor opportunities to refactor.
 
+
 ### CSS/Design
 
-- 4 - Developer has made a targeted effort to make the app appealing and user friendly. Evaluator has minimal recommendations for design changes. Follows [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
+- 3 - Developer has made a targeted effort to make the app appealing and user friendly. Evaluator has multiple recommendations for design changes. Follows majority of the [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
 
 ### Testing
 
-- 4 - Every component is tested from both a unit and acceptance standpoint, all crucial functionality is tested.
+- 4 - Every component is tested from both a unit and acceptance standpoint, all crucial functionality is tested
 
 ### PropType Implementation
 
@@ -33,6 +34,7 @@ The output from ESLint shows…
 ### Routing
 
 * 4: Application is a single page and uses the React Router to display appropriate components based on URL.
+
 
 ### Workflow
 

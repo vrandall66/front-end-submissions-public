@@ -10,7 +10,7 @@
 [BYOB](https://github.com/johnmboudreaux/BYOB)
 
 #### Link to the Deployed Application
-[Heroku]()
+[Heroku](https://jm-byob.herokuapp.com/)
 
 
 ## Completion
@@ -18,7 +18,7 @@
 #### Were you able to complete the base functionality?
 
 * Documented all available endpoints and their usage in the README?
-(No)
+(Yes)
 
 * Seeded a database with at least 2 tables and 1 relationship?
 (Yes)
@@ -33,7 +33,7 @@
 (Yes)
 
 * Wrote tests for both happy and sad paths for each endpoint?
-(No)
+(Yes)
 
 * Setup automatic deployments with CircleCI to a production app on Heroku?
 (Yes)
@@ -43,16 +43,16 @@
 #### Link to a specific block of your code on GitHub that you are proud of
 [happy code]()
 
-* Why were you proud of this piece of code?
+We feel very good about our entire server.js file. With everything being a turnary as well as being dirct readable code we feel that it is all well done. 
 
 #### Link to a specific block of your code on GitHub that you feel not great about
 [sad code]()
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+The code we feel could use a bit more love is the fron end side of things. While it fits all the requirements it is not the most clean user friendly front end code we have done. 
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-<img width="1243" alt="screen shot 2017-12-15 at 12 22 09 pm" src="https://user-images.githubusercontent.com/26842728/34057032-a996e28e-e192-11e7-95b6-4b8742c9d47e.png">
+<img width="937" alt="screen shot 2017-12-17 at 4 03 55 pm" src="https://user-images.githubusercontent.com/26842728/34084815-f39a99fe-e343-11e7-85c4-fd4569703551.png">
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
