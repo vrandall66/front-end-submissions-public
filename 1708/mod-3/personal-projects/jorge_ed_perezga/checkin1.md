@@ -59,4 +59,10 @@ Yet to be defined
 
 #### Instructor Notes
 
+* Love this idea of being able to keep a journal that you can go back to
+
 #### Deliverables for next checkin:
+
+* Design file structure and landing page
+* Implement Firebase so user can sign in and save the user to the redux store
+* Set up testing environment
