@@ -31,7 +31,10 @@
 
 #### MVP
   Depending on the users location, click a button to generate a random list of 3 restaurants within the area.
-
+  - App is well tested 
+    - mocking fetch 
+    - redux is tested 
+   - well styled. 
 #### Nice To Haves
   Creating a user vote system with an interactive live upvote system.
 
@@ -42,3 +45,8 @@
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+- get react set up 
+- get redux setup 
+- setup API utility 
+- grab user's current location 
+- start initial styles 
