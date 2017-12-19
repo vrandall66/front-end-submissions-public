@@ -1,12 +1,12 @@
 ## Project Name:
 
-Stella Via - a mobile app for stargazers
+Stella Via
 
 #### Check In: 1
 
 #### Project Pitch
 
-
+A mobile app for stargazers that will take a user's geolocation or allow them to search for a location and show them what they can see in the night sky with their naked eye and with a telescope, taking light pollution into account.
 
 ### Deliverables
 
@@ -22,7 +22,7 @@ Possibly data visualization map with light pollution data
 
 #### APIs:
 
-[NASA API]
+[NASA API] (https://api.nasa.gov/)
 [Google Maps API](https://developers.google.com/maps/)
 
 
@@ -38,18 +38,23 @@ Possibly data visualization map with light pollution data
 
 #### Order Of Attack
 
-1. 
+1. Create homepage for our app in React Native that displays NASA's Astronomy Picture of the Day, takes in a user's geolocation and allows them to search for a location.
+2. Create stargazing landing page with route links to Constellations, Planets, Satellites, Moon Phase, and Events.
+3. Create pages for Constellations, Planets, Satellites, Moon Phase, and Events that display information based on the location of the user and the API data.
+4. Integrate light pollution data and maps to help users decide where they should go for best stargazing experience.
 
 #### MVP
 
-User can create an account, login, track stock portfolio value over time and compare their score to all others in the game. 
+User can go to the App and see multiple options for what they can view in the sky that night.
 
 #### Nice To Haves
 
-* 
+* User can login and have a record of what they have viewed (will need a backend).
 
 ##### Unrealistically abmitious: 
-* 
+* Additional feature where user can search for stars, constellations, or other astronomical bodies and get information about them (like Wikipedia but FOR STARS).
+* User can favorite stars, constellations, etc. and see them quickly later.
+* User can communicate with other star gazers on a message board.
 
 #### Biggest Challenges
 * learning React Native
