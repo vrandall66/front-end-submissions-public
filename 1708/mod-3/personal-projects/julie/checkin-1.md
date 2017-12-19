@@ -78,5 +78,14 @@ learning firebase
 Working with API to display data how i want it to
 
 #### Instructor Notes
+* This looks awesome!!
 
 #### Deliverables for next checkin:
+
+* Get API access and get familiar with data
+* Get aplication set up with React, Redux, and Router
+* Get Firebase set up
+* Build out home page (login)
+* Add user to the store
+* Add routes
+
