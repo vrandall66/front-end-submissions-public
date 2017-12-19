@@ -39,6 +39,9 @@ A simple postgres backend with a fully functional frontend.
 #### Biggest Challenges
 Building the backend - taking the big unknowns and condensing them into small, manageable unknowns.
 
-#### Instructor Notes
+#### Instructor Notes 
+* Frontend is already set up with React, redux, and router
 
 #### Deliverables for next checkin:
+* Build a backend!
+* Set up testing environments for frontend and backend
