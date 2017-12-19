@@ -72,5 +72,9 @@ Getting all of the routes set up for individual lawmakers
 Connecting the data between lawmakers/committees and votes on bills
 
 #### Instructor Notes
+* Love the idea.... cant wait to see how this turns out! Great job on having such a detailed plan.
 
 #### Deliverables for next checkin:
+* Have basic structure of front-end built out with route to individual lawmaker
+* Set up redux, and have data in the store 
+* Set up testing environment
