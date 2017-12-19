@@ -34,16 +34,21 @@ In Progress
 #### Order Of Attack
 
 1. Set up files and install dependencies
-2. Set up firebase backend
-3. Display pages
+2. Set up firebase
+3. Route pages
+5. Build gratitude journal
+4. Display Visuals
+5. Collect hotlines information
+6. Set up and render video with YouTube API
 
 #### MVP
 
-User can create an account, login, track stock portfolio value over time and compare their score to all others in the game.
+User can create an account, login, and use the app.
 
 #### Nice To Haves
 
 * Animations
+* English and Spanish languages
 
 ##### Unrealistically abmitious:
 * User Forum
