@@ -60,6 +60,11 @@ User can create an account, login, track multiple coins. View graphs of at least
 Keeping track of multiple users information
 Consistent design for data vis
 
-#### Instructor Notes
+#### Instructor Notes: Cool idea! I like the data viz!
 
 #### Deliverables for next checkin:
+
+* Incorporate Firebase for user sign in 
+* Be able to save a user in the store
+* Be ablle to make a request to the API and save response in the redux store
+* Set up testing environment
