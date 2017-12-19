@@ -15,7 +15,7 @@ A mobile app for stargazers that will take a user's geolocation or allow them to
 React Native
 Redux
 Router
-Firebase (if we get to the backend features)
+Firebase (if we get to the backend features) (probz node)
 
 Possibly data visualization map with light pollution data
 
@@ -63,3 +63,9 @@ User can go to the App and see multiple options for what they can view in the sk
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- have a landing in react native built 
+- hook up redux. 
+- look into testing 
+- look into light pollution data and see if you can find an api 
+    - if not you'll have to scrape. 
