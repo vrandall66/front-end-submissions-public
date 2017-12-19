@@ -61,4 +61,10 @@
 
 #### Instructor Notes
 
+* Really great idea and great plan of attack!! 
+
 #### Deliverables for next checkin:
+
+* Build a backend
+* Look into Nightmare if you want to scrape data
+* Begin building out homepage and add some routes
