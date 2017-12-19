@@ -30,10 +30,10 @@ maybe [Yelp API](https://www.yelp.com/developers/documentation/v3/business)
 
 #### Wireframes
 
-![Wireframe](./assets/Wireframe.png)
-![Wireframe2](./assets/Wireframe2.png)
-![Wireframe3](./assets/Wireframe3.png)
-![Wireframe4](./assets/Wireframe4.png)
+![Wireframe](./Wireframe.png)
+![Wireframe2](./Wireframe2.png)
+![Wireframe3](./Wireframe3.png)
+![Wireframe4](./Wireframe4.png)
 
 
 #### Waffle & Github
