@@ -45,20 +45,30 @@ In progress
 
 #### MVP
 
-User can create an account, login, and favorite dogs.
+Non registered-user can find and favorite dogs based off of current location. 
+App is well tested. 
 
 #### Nice To Haves
 
 1. Use geolocation to live update some amount of dogs based on your current location.
 2. Use google maps to display a map of all possible dogs available to adopt.
 3. Have a random 'TOP-DOG' that displays on page load.
+4. Having everythign linked to a user. 
+5. User can tweet about a dog they're looking at .
 
 ##### Unrealistically abmitious:
+
 1. Get a dog while being a Turing student.
 
 #### Biggest Challenges
+
 1. Using google maps API for the first time while displaying a map that will live update.
 
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- Have react, router, and redux setup 
+- Find current location and set it in store 
+- Have google maps hooked up 
+- It would be super nice if you could populate store with dogs. 
