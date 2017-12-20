@@ -38,4 +38,10 @@ Nice To Haves:
 
 Instructor Notes
 
+- having this feel like real time might be a little difficult without a backend. That's totally fine we can get around it. 
+
 Deliverables for next checkin:
+- hook up react, redux, and router 
+- make initial fetch call 
+  - have store populated with exchange rate data 
+- hook up victoryjs (have a single chart)
