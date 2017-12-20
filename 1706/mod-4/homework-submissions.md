@@ -71,7 +71,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/francylang/express-tutorial) Further Challenges: 1, 2
 * [Promise Practice Exercises](https://repl.it/@francylang/promises)
 * [Palette Picker PWA](https://lang-palette-picker.herokuapp.com/)
-* [Websockets Tutorial]()
+* [Websockets Tutorial](https://github.com/francylang/websockets)
 * [House of Vars Blog Post](https://medium.com/@francy.lang/first-timer-1f77d51b9420)
 * [Pattern Party]()
 
