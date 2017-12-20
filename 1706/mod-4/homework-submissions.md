@@ -122,7 +122,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/lfinney/express-tutorial)
 * [Promise Practice Exercises](https://repl.it/@lwfinney/Promise-Practice)
 * [Palette Picker PWA](https://palette-picker-lfinney.herokuapp.com/)
-* [Websockets Tutorial](https://github.com/lfinney/websockets-tutorial)
+* [Websockets Tutorial](https://github.com/lfinney/websockets-tutorial) - added usernames, typing notification, and connect/disconnect notification
 * [House of Vars Blog Post](https://medium.com/@lucas.w.finney/adventures-in-open-source-dbca350527c2)
 * [Pattern Party]()
 
