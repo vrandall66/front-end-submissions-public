@@ -41,7 +41,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/ameseee/m4-express-prework) Further Challenges: 1, 2, 3
 * [Promise Practice Exercises](https://repl.it/@ameseee/m4-promises-prework)
 * [Palette Picker PWA](https://holt-palette-picker.herokuapp.com/)
-* [Websockets Tutorial](https://github.com/ameseee/socket-chat)
+* [Websockets Tutorial](https://github.com/ameseee/socket-chat) - Broadcast a message to connected users when someone connects or disconnects, Add support for nicknames, Add “{user} is typing” functionality
 * [House of Vars Blog Post](https://medium.com/@ameseholt/how-i-stumbled-upon-microservice-architecture-2051d136dc2d)
 * [Pattern Party]()
 
