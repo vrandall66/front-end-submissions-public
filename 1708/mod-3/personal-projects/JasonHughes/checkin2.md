@@ -25,3 +25,13 @@ Plan of attach from here:
 Populate cards with information about dogs.
 Build out search component.
 Build a map to display locations of dogs.
+
+
+Deliverables For Next Checkin: 
+- start looking into scoping your dogs 
+- have google maps showing on the dom 
+- showing your dogs 
+- start moving api calls into a utility 
+    - then start testing that 
+- starting moving things over to async await. 
+- start redux testing. 
