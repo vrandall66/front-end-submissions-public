@@ -1,38 +1,32 @@
-## Student:
-## Evaluator:
+## Student: Austin and Eloi
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- did work past the 9:00am deadline
+- not responsive
+- need help with git/github comfort -- did 100% of the work on Austin's machine
+- code needs refactor and cleanup
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
 * Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
-* Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## HTML
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## CSS
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
@@ -47,19 +41,8 @@
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
+* Advanced Beginner
