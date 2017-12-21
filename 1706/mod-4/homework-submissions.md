@@ -128,11 +128,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Nick Teets
 
-* [Node Server Tutorial]()
-* [Express Tutorial]()
+* [Node Server Tutorial](https://github.com/nicktu12/node-express-tutorials/blob/master/messages/server.js)
+* [Express Tutorial](https://github.com/nicktu12/node-express-tutorials/blob/master/express-tutorial/server.js)
 * [Promise Practice Exercises](https://repl.it/@nicktu12/Promises-Practice-Exercises)
 * [Palette Picker PWA](https://nt-palettepicker-171201.herokuapp.com/)
-* [Websockets Tutorial]()
+* [Websockets Tutorial](https://github.com/nicktu12/web-sockets-practice)
 * [House of Vars Blog Post](https://medium.com/@nickteets/an-open-source-adventure-34a1b747fe6e)
 * [Pattern Party]()
 
