@@ -67,3 +67,9 @@ Consistent design for data vis
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Build out the UI
+* Add user to the database
+* Add users favorites to the db
+* Start testing
+* Add search functionality
+* Render data to page
