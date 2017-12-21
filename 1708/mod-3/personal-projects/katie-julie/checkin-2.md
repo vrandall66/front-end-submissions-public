@@ -42,4 +42,7 @@ Possibly data visualization map with light pollution data
 #### Instructor Notes
 
 #### Deliverables for next checkin:
-
+* find a way to grab light pollution data. 
+  - we can look into scraping 
+* create page for viewing the night sky and bring in data for night sky
+* get cloud cover data
