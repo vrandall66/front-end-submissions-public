@@ -80,7 +80,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]()
 * [Promise Practice Exercises]()
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://hs-palette-picker-12-1-17.herokuapp.com/)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party]()
