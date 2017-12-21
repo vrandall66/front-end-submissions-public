@@ -4,42 +4,21 @@
 
 #### Project Pitch
 
-### Deliverables
-
-#### Stack:
-React 
-Redux
-papaparse 
-Lodash
-
-#### APIs:
-google maps
-
-#### Wireframes
-Wire Frame is done using the balsalmic,and on github.
-
-#### Waffle & Github
-Waffle
-
-#### Order Of Attack
-Start with a very small data set and try and get it in a workable way that I want.
-
-#### MVP
-- A map of Summit County (Section of Summit County) that allows a user to type in thier address and find what precincts their property falls under.
-- Data is cleaned 
-  - Data cleaner is well tested and javascript is clean 
+### Deliverables Completed
+Have the front end set up.
+I have the testing suite set up.
+I had some tdd going.
 
 
-#### Nice To Haves
-- Would also show the current-ballot for upcoming elections.
-- current talley 
-- if user could tweet that they used your app. 
-
-##### Unrealistically abmitious:
-Be able to show on the map all 20 precients represented on the map.
 
 #### Biggest Challenges
-The data. Papaparse is confusing to work. I can get the range using lodash. I've got some very small sample data that I'm working on in repil trying to get it the way I want, but it continues to be a challenge.
+NPM installed papaparse. Have tried to use it to no avail
+Also tried to use a small data set on their website, with no success.
+The data. Im'working on manuiplating it. I've installed lodash, which is helping with the range, but to put everything together is hanging me up. Manuiplating the data is still very confusing.
+
+#### Plan of Attack
+keep plugging on with the data. If I can get it in a way that I want and that is managable, maybe put it in by hand?
+Maybe move on to the map portion with the geoLocation stuff. Then if I get stuck on that move on the base styling, and some testing.
 
 #### Instructor Notes
 
