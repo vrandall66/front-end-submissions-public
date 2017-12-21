@@ -25,6 +25,8 @@ Testing environment set up and three tests passing
 - After that the MVP is met and I will add in mapping and additional data
 
 #### Deliverables for next checkin:
-* Details page with lawmaker info on it
-*Geolocation form set up
-*Router set up 
+* Details page with lawmaker info on it - make frontend look good
+* Geolocation form set up
+* Router set up
+* Continue testing
+* UI for single lawmaker page
