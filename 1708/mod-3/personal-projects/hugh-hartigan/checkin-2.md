@@ -97,3 +97,8 @@
 * Really great idea and great plan of attack!! 
 
 #### Deliverables for next checkin:
+* Finish seeding the data and creating any endpoints you need
+* Have a functioning UI that has multiple routes and is connected to the redux store
+* Test all the things
+* Have eslint file set up
+* Add search functionality for animals
