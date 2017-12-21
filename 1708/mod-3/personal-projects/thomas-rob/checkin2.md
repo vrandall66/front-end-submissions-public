@@ -39,6 +39,10 @@
 #### Biggest Challenges
 Building the backend - taking the big unknowns and condensing them into small, manageable unknowns.
 
-#### Instructor Notes:
+#### Instructor Notes: Nice work guys!!!
 
 #### Deliverables for next checkin:
+* Finish validation
+* Test the backend
+* Finish building out the frontend and connect to the store
+* Start testing the frontend
