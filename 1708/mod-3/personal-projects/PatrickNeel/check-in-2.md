@@ -22,5 +22,16 @@ Maybe move on to the map portion with the geoLocation stuff. Then if I get stuck
 
 #### Instructor Notes
 
+- when in doubt think really, really, really small 
+  - in your test suite start with a test that makes sure your function in your class takes csv and returns an object 
+  - expect that you get particular keys 
+  - expect those keys have particular values 
+  - adding addresses to the address object
+
 
 #### Deliverables for next checkin:
+
+- TDD the data cleaner 
+- Load in a small file and get it runing on the Dom 
+- start test driving your React App / REdux app 
+- Load in Google Maps 
