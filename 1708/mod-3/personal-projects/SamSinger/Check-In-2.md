@@ -61,3 +61,8 @@ RESTAURANT RANDOMIZER
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+- have resturants scoped to user's location 
+- have API utlity tested. 
+  - utility looks great I think if you dedicated time to testing this it will look really good from an employer standpoint
+- start rendering restsurants on the dom 
+- start the process of voting.
