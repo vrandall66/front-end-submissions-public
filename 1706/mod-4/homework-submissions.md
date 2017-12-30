@@ -112,7 +112,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/lolakoala/mod4-prework-express-server)
 * [Promise Practice Exercises](https://repl.it/@lolakoala/PromisesPractice)
 * [Palette Picker PWA](https://lolas-palette-picker.herokuapp.com/)
-* [Websockets Tutorial]()
+* [Websockets Tutorial](https://github.com/lolakoala/websockets) Handles username, user typing notification, user logged in/out
 * [House of Vars Blog Post](https://medium.com/@lolabrennerdev/contributing-to-open-source-as-a-coding-bootcamp-student-18fb9d96d254)
 * [Pattern Party]()
 
