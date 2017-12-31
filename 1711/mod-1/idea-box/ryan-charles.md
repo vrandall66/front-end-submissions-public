@@ -5,7 +5,7 @@
 ### DESIGN/COMP
 
 - Nice job getting as far as you did!
-- Some adustments needed with spacing and font size
+- Some adjustments needed with spacing and font size
 
 ### HTML
 - Good job with indentation/spacing
