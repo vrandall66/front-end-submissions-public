@@ -77,7 +77,7 @@ We enjoyed writing the server and API. We paired for much of the code, and are p
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Brittany)
 
 The following set of points are distributed at the discretion of the instructor.
 
