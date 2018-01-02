@@ -1,8 +1,8 @@
 ## Project Name:
 
-Crypto Vis
+Coin Watch
 
-#### Check In: 2
+#### Check In: 3
 
 #### Project Pitch
 
