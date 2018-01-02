@@ -23,3 +23,9 @@ Friday:
 SCSS
 Next Checkin
 
+Deliverables:
+* Get new API key and get cards showing
+* Rendering the favorites
+* Geolocation
+* TESTING!
+* Reccomendations/Change Location
