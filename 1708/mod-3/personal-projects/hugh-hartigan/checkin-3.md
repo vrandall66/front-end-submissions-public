@@ -118,3 +118,10 @@
 #### Instructor Notes:
 
 #### Deliverables for next checkin:
+* Have yet to test BE application
+* Build out `ContinentPage` and `Map` component
+* Testing Phase 3 (`AnimalPage`, `ContinentPage`, `Map`)
+* Build `AboutPage` component
+* Looked into Heroku for BE, but need help with hosting complications
+* Need a faster way to load images to FE application (initial load of homepage or re-rendering is slow)
+* Be able to click home button and re-render all the animals
