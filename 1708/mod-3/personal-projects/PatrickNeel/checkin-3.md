@@ -20,5 +20,16 @@ Keep researching the google API, and figure out the redux cycle and how the data
 
 #### Instructor Notes
 
+- super stoked that you got the data loaded. The only thing I'd like to see is you loading in the CSV locally because 
+  a) It's more scalable 
+  b) This is an interview question.
+  
 
 #### Deliverables for next checkin:
+
+- Have tests for redux actions 
+- Have google maps loaded 
+- have location show presinct
+  - verify address // validate address 
+  - filter through data set 
+- took a stab at papaparse. 
