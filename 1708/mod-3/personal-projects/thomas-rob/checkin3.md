@@ -40,3 +40,8 @@ Building the backend - taking the big unknowns and condensing them into small, m
 #### Instructor Notes:
 
 #### Deliverables for next checkin:
+* TESTING!
+* Fix new user login issue
+* Possible leaderboard / Slack integration
+* Homepage UI/UX
+
