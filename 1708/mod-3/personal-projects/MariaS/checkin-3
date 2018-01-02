@@ -1,0 +1,33 @@
+### Deliverables
+
+Router connects to specific lawmaker pages
+Geolocation by address is selecting lawmakers - and displaying basic information 
+Additional data looping through committees and sponsored bills
+
+
+#### APIs:
+[Open States API](http://docs.openstates.org/en/latest/api/index.html)
+
+#### Wireframes
+
+[Basalmiq Wireframe](https://balsamiq.cloud/sugro/pn0c9)
+
+#### Waffle & Github
+
+[GitHub Repo](https://github.com/mariastlouis/accountable)
+
+[Waffle board](https://waffle.io/mariastlouis/accountable)
+
+#### Plan of attach from here: 
+
+1. Clean up UI/UX
+2. Es Lint
+3. TESTING
+4. Make maps 
+
+#### Deliverables for next checkin:
+* Details page with lawmaker info on it - make frontend look good
+* Geolocation form set up
+* Router set up
+* Continue testing
+* UI for single lawmaker page
