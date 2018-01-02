@@ -25,7 +25,10 @@ Keep researching the google API, and figure out how to display dog location on m
 #### Instructor Notes
 
 
-  
 
 #### Deliverables for next checkin:
 
+- start mocking tests 
+- work on searching animals based off of location.
+- continue testing the actions 
+- have the dogs on the map. 
