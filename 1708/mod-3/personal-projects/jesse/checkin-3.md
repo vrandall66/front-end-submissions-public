@@ -72,3 +72,12 @@ Consistent design for data vis
 * Start testing
 * Add search functionality
 * Render data to page
+
+Deliverables:
+* Get google signin working (will implement login page on re-up)
+* Get watch functionality working
+* TESTING!!
+* UI for Portfolio
+* UI for Watch List
+
+* 
