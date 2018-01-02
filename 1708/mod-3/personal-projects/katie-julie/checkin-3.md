@@ -49,3 +49,9 @@ Possibly data visualization map with light pollution data
 
 #### Deliverables for next checkin:
 
+- tests your application 
+  - redux and testing your react app 
+- move api / async stuff into the helper file 
+- look into some sort of routing 
+- start node.
+
