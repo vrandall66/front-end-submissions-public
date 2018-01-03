@@ -144,7 +144,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://github.com/NikBorn/mod4-Palette-Picker/pull/28)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post](https://medium.com/@nikbornemeier/code-jumping-contributing-to-an-open-source-project-without-a-parachute-bd7461626d6d)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/NikBorn/Pattrn-Party)
 
 ### Robbie Greiner
 
