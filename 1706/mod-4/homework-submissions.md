@@ -114,7 +114,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://lolas-palette-picker.herokuapp.com/)
 * [Websockets Tutorial](https://github.com/lolakoala/websockets) Handles username, user typing notification, user logged in/out
 * [House of Vars Blog Post](https://medium.com/@lolabrennerdev/contributing-to-open-source-as-a-coding-bootcamp-student-18fb9d96d254)
-* [Pattern Party]()
+* [Pattern Party Live Site](https://lolakoala.github.io/pattern-party/)
+* [Pattern Party Repo](https://github.com/lolakoala/pattern-party)
 
 ### Luke Finney
 
