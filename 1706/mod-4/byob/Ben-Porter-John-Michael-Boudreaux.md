@@ -99,7 +99,13 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**17 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Would be good to see some use of github issues for tracking what needs to be done
+
+* Formatting of commit messages is a littleeeee inconsistent in terms of capitalization/tense
+
+* Generally you don't want to commit [generated source code](https://github.com/johnmboudreaux/BYOB/commit/ff7d10bbf407e4f29fa405e48a9b32aca8f89b9a#diff-fae01302d764057eca5e4bfaa4bfbaa4) like bundle files. This causes a lot of headaches and unecessary merge conflicts when collaborating with other developers. You leave code generation like this to the server (e.g. on heroku, you might use a build pack or add a command in your Procfile that tells the server to run a webpack build of your codebase and generate the bundle file on the fly.)
 
 ## Project is worth 170 points
 

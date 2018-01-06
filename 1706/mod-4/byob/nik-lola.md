@@ -120,7 +120,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**7 points**:(10 possible points) The README includes documentation for all available endpoints and how to use them. Instructor can mostly follow the documentation for using the API.
+**7 points**: The README includes documentation for all available endpoints and how to use them. Instructor can mostly follow the documentation for using the API.
 
 //INTRO THE PROJECT!//
 
@@ -149,7 +149,14 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Would like to see some use of github issues, and some conversations in the pull requests.
+
+* [This](https://github.com/lolakoala/byob/blob/master/.DS_Store) should be in your .gitignore file
+
+* Some commits with uninformative messages like [test](https://github.com/lolakoala/byob/commit/27a985dc023245d60ab34a5af6e76815cfaa658b) and [not sure](https://github.com/lolakoala/byob/commit/7c96655ba2a66e7989563558ea5f8154b62a0442)
+
 
 ## Project is worth 170 points
 

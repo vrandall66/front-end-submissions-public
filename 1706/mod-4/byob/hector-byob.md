@@ -153,9 +153,18 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
 
 * [This](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/.DS_Store) should be in your .gitignore file
+
+* 23 commits is definitely not enough for a project of this scope and size. You should have at least over 100. You should be committing smaller changesets more frequently.
+
+* Would be good to see some use of github issues for tracking what needs to be done
+
+* You should squash any repetitive commits like 'Update README'
+
+* [This](https://github.com/hsanchez7934/hs-build-your-own-backend/commit/0bdd22440852de809b7465b1ad087119cf4c4e71) isn't a very helpful commit message. Line 66 means nothing to me, and it won't be line 66 forever as you start editing your application.
+
 
 ## Project is worth 170 points
 

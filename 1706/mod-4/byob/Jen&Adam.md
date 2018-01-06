@@ -103,7 +103,15 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**17 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
+
+* Nice use of waffle for issue tracking
+
+* It'd be nice to squash the 23 most recent commits that all say 'Update README'...and all the other ones that are littering your history
+
+* Nice consistent formatting of commit messages
+
+* Initially I thought you had enough commits to be making small, atomic changesets, but given how most of your commits are Update READMEs, I have a strong feeling there are some commits in your history that include way too many changes all at once. Like [this one](https://github.com/jenPlusPlus/build-your-own-backend/commit/44dfb88fd0aa3b29f4f280722e9b4b2e1b3f85b2) that also seems to add a GET request, and fixes a commit that accidentally added merge conflict syntax...
 
 ## Project is worth 170 points
 
