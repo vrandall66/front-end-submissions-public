@@ -137,7 +137,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs but is missing a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
+
+* One little feature I'm not noticing right away is the custom URL endpoints/filtering by query params. e.g. grabbing houses with an endpoint that has a query param like houses?zipCode=80205.
+
+* ...Just kidding. I think that's what you're trying to do [here](https://github.com/NikBorn/byob/blob/master/server.js#L107-L118), but this is a bit off. You shouldn't be getting ALL bills from the database, and THEN filtering the result by a request param, you should be using a `where` condition in your database selection to only get back what already matches.
 
 ### Testing & Linting & Error Handling
 
@@ -146,6 +150,9 @@ The following set of points are distributed at the discretion of the instructor.
 ### JavaScript Style
 
 **x points**: (40 possible points) Lorem ipsum dolor set amet
+
+* Nice to see you [implementing other things we've gone over in class previously](https://github.com/NikBorn/byob/blob/master/server.js#L11-L16)
+
 
 ### Workflow
 

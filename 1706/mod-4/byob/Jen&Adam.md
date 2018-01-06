@@ -91,7 +91,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
@@ -100,6 +100,10 @@ The following set of points are distributed at the discretion of the instructor.
 ### JavaScript Style
 
 **x points**: (40 possible points) Lorem ipsum dolor set amet
+
+* Let's move all of [this](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L25-L116) out into some sort of utils or helper file, shall we?
+
+
 
 ### Workflow
 

@@ -87,7 +87,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
@@ -96,6 +96,9 @@ The following set of points are distributed at the discretion of the instructor.
 ### JavaScript Style
 
 **x points**: (40 possible points) Lorem ipsum dolor set amet
+
+* [This](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L47-L50)ternary is really difficult to read. As is [this](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L67-L71) one. And pretty much all the other ones that you're using. You should only use ternaries in the simplest of use cases. e.g. nothing more complex than `let foo = bar ? true : false` Otherwise use an if/else.
+
 
 ### Workflow
 

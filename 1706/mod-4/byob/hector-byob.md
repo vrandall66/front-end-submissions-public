@@ -141,7 +141,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**60 points**: Developer has implemented all 10 endpoints, 4 are secured via JWTs and one is a custom endpoint that filters data based on query params. The database is seeded with at least two tables and one relationship.
 
 ### Testing & Linting & Error Handling
 
@@ -150,6 +150,10 @@ The following set of points are distributed at the discretion of the instructor.
 ### JavaScript Style
 
 **x points**: (40 possible points) Lorem ipsum dolor set amet
+
+* What if there was a [min but not a max?](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/server.js#L86-L91) or a max but not a min? This conditional isn't handling all possible scenarios.
+
+* I wouldn't use ternaries in places like [this](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/server.js#L117-L121). They are harder to read. You should only use ternaries in the simplest of use cases. e.g. nothing more complex than `let foo = bar ? true : false`
 
 ### Workflow
 
