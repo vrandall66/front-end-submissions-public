@@ -120,7 +120,20 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**7 points**:(10 possible points) The README includes documentation for all available endpoints and how to use them. Instructor can mostly follow the documentation for using the API.
+
+//INTRO THE PROJECT!//
+
+//INTRO THE PROJECT!//
+
+//INTRO THE PROJECT!//
+
+* ^ That could be a little more informative than it is...
+
+* For your [post and patch requests](https://github.com/NikBorn/byob/blob/master/README.md#post-houses), I need to see an example of what kind of data I need to pass in with the request, not just the endpoint to be hit.
+
+* Couple of typos here and there, but none that actually distract from the usage of the API
+
 
 ### Feature Completion
 

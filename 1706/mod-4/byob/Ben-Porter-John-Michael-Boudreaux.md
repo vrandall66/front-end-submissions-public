@@ -77,7 +77,13 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**9 points**: The README includes documentation for all available endpoints and how to use them. Instructor can easily follow the documentation for using the API.
+
+* Nice [intro paragraph](https://github.com/johnmboudreaux/BYOB#by-ben-porter-and-john-boudreaux)
+
+* Good formatting, easy to read and follow along with
+
+* Would like you to be just a littleeee more explicit about data types for your [POST and PATCH requests](https://github.com/johnmboudreaux/BYOB/blob/master/docs/POST_owners.md#request-body). I can infer based on the request body example, but it would be nice for you to explicitly tell me the data types as well.
 
 ### Feature Completion
 

@@ -83,7 +83,11 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**9 points**: The README includes documentation for all available endpoints and how to use them. Instructor can easily follow the documentation for using the API.
+
+* I like the waffle badge and the links to the project spec and heroku URL in the README.
+
+* Nice organized tables with data types and required information. Very detailed. Would just like a littleeee more information on how to actually be authorized for a protected endpoint. 
 
 ### Feature Completion
 

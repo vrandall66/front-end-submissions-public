@@ -131,7 +131,13 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**7 points**: The README includes documentation for all available endpoints and how to use them. Instructor can mostly follow the documentation for using the API.
+
+* There is very little formatting in the README which makes it a bit difficult to read, in some areas the heading formats aren't being parsed correctly. (The BYOB title for example)
+
+* Generally you don't want to include images as part of your documentation for code...it's nice for people to be able to do a cmd+F to search for some text they're looking for. When you use images, it's impossible to do that.
+
+* Glad you put in request body examples for your POST and PATCH requests, but I'd like you to be a little more explicit about what data type each property must be. I can infer based on the strings in the example, but it'd be nice to explicitly tell the user that.
 
 ### Feature Completion
 
@@ -148,6 +154,8 @@ The following set of points are distributed at the discretion of the instructor.
 ### Workflow
 
 **x points**: (20 possible points) Lorem ipsum dolor set amet
+
+* [This](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/.DS_Store) should be in your .gitignore file
 
 ## Project is worth 170 points
 
