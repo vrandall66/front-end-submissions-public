@@ -83,7 +83,7 @@ The lessons in class so far have been extremely well written and they are easy t
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**10 points**: (10 possible points) Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
 
 ## JavaScript Style
 
@@ -111,10 +111,13 @@ The lessons in class so far have been extremely well written and they are easy t
 
 ## Workflow
 
-**x points**: (20 possible points)
+**16 points**: (20 possible points)
 
+* Try working with github issues a little bit more to keep track of your to-do list for functionality/bug fixes/design issues/etc. Pull requests aren't necessary when you're working individually, they're more for code review when you have other teammates that need to approve your changes.
+
+* Commit messages could use a little work - [this](https://chris.beams.io/posts/git-commit/) set of conventions is the most popular you'll see among dev teams
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 134 / 150

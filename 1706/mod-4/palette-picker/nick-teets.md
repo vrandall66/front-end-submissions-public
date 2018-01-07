@@ -63,34 +63,61 @@ Really enjoyed learning back-end projects as I was building the project. I felt 
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**45 points**: (50 possible points)
+
+* Missing functionality to prevent multiple projects with the same name
+* Everything else looks good
 
 ## User Interface
 
-**x points**: (20 possible points)
+**13 points**: (20 possible points)
+
+* The main color palette section looks good, fills the screen, and is easy to use with the lock functionality
+* The bottom section with the unstyled form and very small palettes squeezed against the side of the screen is tough to use and read
 
 ## Testing
 
-**x points**: (20 possible points)
+**15 points**: (20 possible points)
+
+* In [this test](https://github.com/nicktu12/palette-picker/blob/master/test/routes.spec.js#L110) and all of the following test, need to return the promise from the chai request (`return chai.request(...)`) in order to not need to use the `done()` callback function in the test
+* [This part of your test](https://github.com/nicktu12/palette-picker/blob/master/test/routes.spec.js#L119-L124) can be overkill depending on the dev team you're working on. Some will want the check by making a request, and some will want to assume that unless you get any errors, the DB has done it's thing correctly. Just keep in mind not to nest too many requests or else the test can be difficult to read.
+* [This](https://github.com/nicktu12/palette-picker/blob/master/test/routes.spec.js#L196) should be a 404 response
+* Overall, good happy and sad path testing
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**8 points**: (10 possible points)
+
+* [Not just](https://github.com/nicktu12/palette-picker/blob/server-commenting/server.js#L2) at POST, but any request that contains a body
+* It isn't just [knex](https://github.com/nicktu12/palette-picker/blob/server-commenting/server.js#L40) that serves everything in an array - it depends on the query you use (if the query asks for a collection of records, then it will return an array)
+* Overall, good comments in server file
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**22 points**: (30 possible points)
+
+* Don't leave [this](https://github.com/nicktu12/palette-picker/blob/master/server.js#L29) in if you're serving public, static assets
+* [This](https://github.com/nicktu12/palette-picker/blob/master/server.js#L39-L46) is a good portion of code where you could refactor into its own function or middleware since you're doing the same thing in another POST request route handler - the only difference is the params that are expected
+* Good error handing, but [this](https://github.com/nicktu12/palette-picker/blob/master/server.js#L106) should be a 404 response
+(Using [this version](https://github.com/nicktu12/palette-picker/blob/ecd3a0d521c8ec3ea699904c9a2d569a0a5cc5c5/public/js/scripts.js) of your public JS)
+* Good job having a `catch()` with each fetch call
+* One thing to note with using `fetch` is that it will not error on 404 - in order to hit the `.catch` on a 404, you can check for `response.ok` [demonstrated in the MDN docs here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Checking_that_the_fetch_was_successful)
+* Would [break this out](https://github.com/nicktu12/palette-picker/blob/ecd3a0d521c8ec3ea699904c9a2d569a0a5cc5c5/public/js/scripts.js#L89-L92) into its own function
+* [Break this out](https://github.com/nicktu12/palette-picker/blob/ecd3a0d521c8ec3ea699904c9a2d569a0a5cc5c5/public/js/scripts.js#L114-L124) into it's own function or even an HTML template
 
 ## Workflow
 
-**x points**: (20 possible points)
+**15 points**: (20 possible points)
+
+* Need much smaller, more atomic commits (should probably be around 100 commits for this project)
+* Good job adding a `.gitignore` early on in the project
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 118 / 150

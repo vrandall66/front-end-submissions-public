@@ -18,9 +18,8 @@
 * 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing.
 
 ### JavaScript Style
-// Score is pending refactor to remove instances of the dom (document, canvas, etc) from Game and into index.js
+
 * 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
-* 2 - Your application has a significant amount of duplication and one or more major bugs.
 
 ### Workflow
 

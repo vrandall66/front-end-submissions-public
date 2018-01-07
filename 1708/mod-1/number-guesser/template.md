@@ -1,13 +1,16 @@
-## Student:
-## Evaluator:
+## Student: Emily
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- a little bit of UI spacing adjustment to really match the comp
+- missing user feedback for when you win after changing min and max
+- CSS is SO MUCH BETTER!!! Really well done!!!
+- So much progress!
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
 
 ## COMP RECREATION / DESIGN
