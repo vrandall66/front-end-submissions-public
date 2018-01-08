@@ -80,7 +80,7 @@
 
 ## Code Sanitation
 
-The output from a code sanitizer (either JSHint or ESLint) shows…
+The output from a code sanitizer ESLint shows…
 
 4 - Zero complaints
 
