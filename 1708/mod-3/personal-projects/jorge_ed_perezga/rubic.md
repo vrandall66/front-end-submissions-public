@@ -10,7 +10,7 @@ A good project idea should:
 
 **1. Completion**
 
-* 2: Developer completed most of the user stories and requirements set during check-ins.
+* 3: Developer completed all the user stories and requirements set during check-ins.
 
 ### CSS/Design
 
