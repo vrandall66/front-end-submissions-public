@@ -83,7 +83,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://jm-palette-picker.herokuapp.com/)
 * [Websockets Tutorial](https://github.com/johnmboudreaux/Web-Sockets)
 * [House of Vars Blog Post](https://medium.com/@jhnbdrx/my-first-open-source-contribution-88239a59653e)
-* [Pattern Party]()
+* [Pattern Party](https://github.com/johnmboudreaux/Pattrn-Party)
+* [Pattern Party GH Pages](https://johnmboudreaux.github.io/Pattrn-Party/)
 
 ### Lola Brenner
 
