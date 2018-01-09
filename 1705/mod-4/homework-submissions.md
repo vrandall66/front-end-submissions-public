@@ -21,9 +21,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Ana Jauregui
 
-* [Express Tutorial]()
+* [Express Tutorial](https://github.com/anajauregui/nodeExample)
 * [Promise Practice Exercises]()
-* Websockets Tutorial (https://github.com/anajauregui/Web-sockets)
+* [Websockets Tutorial](https://github.com/anajauregui/Web-sockets) - Completed Challanges 'User Typing notification', 'Username input', 'User LogIn/LogOut notifications'
+* [Pattern-Party GH-Pages](https://anajauregui.github.io/Pattrn-Party/)
+* [Pattern-Party Github Repo](https://github.com/anajauregui/Pattrn-Party)
 
 ### Christie Lynam
 
