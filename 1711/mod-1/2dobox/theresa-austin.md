@@ -1,132 +1,111 @@
-## Students:
+## Students: Theresa and Austin
 ## Evaluator:
 ## Notes/What To Work On:
 
+### Main things to work on - 
+* Build things well as you go, focus on syntax
+* Focusing on one thing will make the project, as well as what is focused on worse - there is something to be said for switching gears
+
+### comp 
+* form is smaller than the todo section
+* white text in white box
+* very half assed
+* halfway through phase 3
+
+### html
+* clean 
+* good use of aria labels
+
+### css
+* half assed
+
+### js
+* you're building a house, your syntax is your structure - make sure that it looks nice
+
 ## Functional Expectations
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Implementation
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional

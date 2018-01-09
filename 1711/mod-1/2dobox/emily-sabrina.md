@@ -1,132 +1,100 @@
-## Students:
-## Evaluator:
+## Students: Emily and Sabrina
+## Evaluator: David
 ## Notes/What To Work On:
+
+### comp
+* looks nice, make a container and have children adhere to its width
+
+### html
+* aria-label instead of aria-labelledby
+
+### css
+* make your content adhere to your media queries instead of the other way around. Try to make it work with 3! Wireframe in advance
+* Stick to only using rems for margin and padding, and use percentages and pixels for width
+* look at bem
+
+### js
+* syntax!!!
+* naming conventions - say more - think of everything as an abstraction
+* use your thisarg to provide the context of this in array prototypes
+* check out the style guides
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
