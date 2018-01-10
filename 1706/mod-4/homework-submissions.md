@@ -100,7 +100,8 @@ Connect/disconnect, UserName, User Typing
   * I completed the first 3 exercises-- create interactive front-end, import external JS file of data, and serve sunset images at /sunsets
 * [Promise Practice Exercises](https://github.com/jenPlusPlus/m4-prework-promises)
 * [Palette Picker PWA](https://jen-woodson-palette-picker.herokuapp.com/)
-* [Websockets Tutorial]()
+* [Websockets Tutorial](https://github.com/jenPlusPlus/web-sockets-hw)
+  * I added a connection/disconnection notice, a user typing notification, and the ability to add a nickname. 
 * [House of Vars Blog Post](https://medium.com/@jenwoodson/git-shit-my-first-open-source-contribution-a5b6c0b10bb1)
 * [Pattern Party](https://jenplusplus.github.io/pattrn-party/)
 
