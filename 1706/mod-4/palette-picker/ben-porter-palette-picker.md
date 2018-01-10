@@ -40,7 +40,7 @@ This is mostly a duplicate function. I am serving back the wrong data in the res
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite]()
+<img width="953" alt="screen shot 2018-01-09 at 5 26 21 pm" src="https://user-images.githubusercontent.com/26842728/34750098-5bcf8c52-f562-11e7-8c4a-335fceaac889.png">
 
 #### Link to Design Inspiration
 
