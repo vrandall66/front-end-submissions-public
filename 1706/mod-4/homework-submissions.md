@@ -159,9 +159,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/robbiegreiner/express-tutorial)
 * [Promise Practice Exercises](https://repl.it/@rg25/promise-practice)
 * [Palette Picker PWA](https://robbie-greiner-palette-picker.herokuapp.com/)
-* [Websockets Tutorial]()
+* [Websockets Tutorial](https://github.com/robbiegreiner/web-sockets-tutorial) Typing notifications, username, and connect hoemwork questions
 * [House of Vars Blog Post](https://robbiethedeveloper.wordpress.com/)
-* [Pattern Party]()
+* [Pattern Party](https://robbiegreiner.github.io/pattern-party/) (https://github.com/robbiegreiner/pattern-party)
 
 ### Rufus Welsh
 
