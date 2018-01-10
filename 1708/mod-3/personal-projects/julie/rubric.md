@@ -14,7 +14,7 @@ A good project idea should:
 
 ### CSS/Design
 
-- 2 - Developer has made intentional design decisions to create a user friendly application but Louisa would be mad. Attempts to follow [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
+- 3 - Developer has made a targeted effort to make the app appealing and user friendly. Evaluator has multiple recommendations for design changes. Follows majority of the [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
 
 ### Code Quality
 
@@ -32,7 +32,7 @@ The output from ESLint shows…
 
 ### Testing
 
-- 1 - There was little to no attempt to test this application.
+- 3 - Almost all components are tested to a level that indicates developer has an understanding of testing
 
 
 ### Workflow
