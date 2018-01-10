@@ -49,11 +49,14 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Node Server Tutorial](https://github.com/bbp5280/node_tutorial/blob/master/server.js)
 * [Express Tutorial](https://github.com/bbp5280/express_tutorial/tree/master/public)
+Sunsets endpoint, JSON route, 404 page
 * [Promise Practice Exercises](https://repl.it/@bbp5280/Promise-Practice)
 * [Palette Picker PWA](https://palette-picker-bp.herokuapp.com/)
-* [Websockets Tutorial]()
+* [Websockets Tutorial](https://github.com/bbp5280/webSockets)
+Connect/disconnect, UserName, User Typing
 * [House of Vars Blog Post](https://medium.com/@bbp5280/diving-into-open-source-a-first-experience-40f945a52b7b)
-* [Pattern Party]()
+* [Pattern Party](https://bbp5280.github.io/pattern-party/)
+* [Pattern Party Repo] (https://github.com/bbp5280/pattern-party)
 
 ### Francy Lang
 
