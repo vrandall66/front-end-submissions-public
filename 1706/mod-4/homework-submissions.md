@@ -108,9 +108,9 @@ Connect/disconnect, UserName, User Typing
 
 * [Node Server Tutorial](https://github.com/johnmboudreaux/mod4-homework)
 * [Express Tutorial](https://github.com/johnmboudreaux/mod4-express-server)
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises](https://repl.it/@jhnbdrx/Promise-Practice)
 * [Palette Picker PWA](https://jm-palette-picker.herokuapp.com/)
-* [Websockets Tutorial](https://github.com/johnmboudreaux/Web-Sockets)
+* [Websockets Tutorial](https://github.com/johnmboudreaux/Web-Sockets) - Connect and disconnect, UserName and User Typing
 * [House of Vars Blog Post](https://medium.com/@jhnbdrx/my-first-open-source-contribution-88239a59653e)
 * [Pattern Party](https://github.com/johnmboudreaux/Pattrn-Party)
 * [Pattern Party GH Pages](https://johnmboudreaux.github.io/Pattrn-Party/)
