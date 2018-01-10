@@ -48,12 +48,16 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Alex Banister
 
 * [Node Server Tutorial](https://github.com/alexbanister/node-server-prework)
-* [Express Tutorial](https://github.com/alexbanister/express-server-prework) 
+* [Express Tutorial](https://github.com/alexbanister/express-server-prework)
+  - added all 4 further challenges
 * [Promise Practice Exercises](https://gist.github.com/alexbanister/7139ea6895097b62e95ecd4e26b8a7ff)
 * [Palette Picker PWA](https://ahb-palette-picker.herokuapp.com/)
-* [Websockets Tutorial]()
-* [House of Vars Blog Post]()
-* [Pattern Party]()
+* [Websockets Tutorial](https://github.com/alexbanister/websockets-tutorial)
+  - added challenge 1
+  - worked on 3 and 4
+* [House of Vars Blog Post](https://medium.com/@lexbanister/how-to-spend-a-week-fixing-one-broken-link-6420cecbc4e8)
+* [Pattern Party](https://github.com/alexbanister/pattern-party)
+  - [GH-pages](https://alexbanister.github.io/pattern-party/)
 
 ### Ben Porter
 
