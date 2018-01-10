@@ -6,7 +6,7 @@
 
 ### Code Quality
 
-- 2 - Developer selected appropriate libraries and frameworks to build the app but did not use them as intended. Significant refactoring necessary.
+- 3 - Developer appears comfortable in React. There are minor opportunities to refactor.
 
 
 ### CSS/Design
@@ -15,7 +15,7 @@
 
 ### Testing
 
-- 2 - A valid attempt was made to test functionality with obvious gaps where functionality is not tested
+- 3 - Almost all components are tested to a level that indicates developer has an understanding of testing
 
 ### PropType Implementation
 
@@ -29,7 +29,7 @@ The output from ESLint shows…
 
 ### Redux Architecture
 
-* 2: Application state is mostly outside the control of Redux. Application did not make use of Redux actions and reducers to mutate state. Components do not demonstrate a clear understanding of stateful vs. statelessness.
+* 3: At least one component is not connected with Redux appropriately. Application state is mutated by more than just Redux. The Redux store is missing application data that it should be handling.
 
 ### Routing
 
