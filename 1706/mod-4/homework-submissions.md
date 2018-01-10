@@ -85,6 +85,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [House of Vars Blog Post](https://medium.com/@jhnbdrx/my-first-open-source-contribution-88239a59653e)
 * [Pattern Party](https://github.com/johnmboudreaux/Pattrn-Party)
 * [Pattern Party GH Pages](https://johnmboudreaux.github.io/Pattrn-Party/)
+* [Google Calendar] (https://gist.github.com/johnmboudreaux/74e9b45a29656edf05e49e4c0207054a)
 
 ### Lola Brenner
 
