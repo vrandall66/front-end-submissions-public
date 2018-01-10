@@ -153,7 +153,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/NikBorn/mod4-prework-express-server)
 * [Promise Practice Exercises](https://gist.github.com/NikBorn/5d7e5e6409a8852de4b38ae8baa75c17)
 * [Palette Picker PWA](https://github.com/NikBorn/mod4-Palette-Picker/pull/28)
-* [Websockets Tutorial]()
+* [Websockets Tutorial](https://github.com/NikBorn/websockets)
 * [House of Vars Blog Post](https://medium.com/@nikbornemeier/code-jumping-contributing-to-an-open-source-project-without-a-parachute-bd7461626d6d)
 * [Pattern Party](https://github.com/NikBorn/Pattrn-Party)
 
