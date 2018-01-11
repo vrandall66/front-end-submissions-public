@@ -114,7 +114,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**25 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * [This](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L47-L50)ternary is really difficult to read. As is [this](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L67-L71) one. And pretty much all the other ones that you're using. You should only use ternaries in the simplest of use cases. e.g. nothing more complex than `let foo = bar ? true : false` Otherwise use an if/else.
 
@@ -136,4 +136,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 146 / 170

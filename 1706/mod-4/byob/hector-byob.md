@@ -160,11 +160,19 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**20 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * What if there was a [min but not a max?](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/server.js#L86-L91) or a max but not a min? This conditional isn't handling all possible scenarios.
 
 * I wouldn't use ternaries in places like [this](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/server.js#L117-L121). They are harder to read. You should only use ternaries in the simplest of use cases. e.g. nothing more complex than `let foo = bar ? true : false`
+
+* I'd like this message [here](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/server.js#L49) to be a little more specific. It's not that they haven't provided authorization at all or that there's something wrong with the token, it's that they simply don't have the correct level of permissions for performing this action.
+
+* Tell me exactly what brand name I passed through [here](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/server.js#L109) rather than just saying it doesn't exist.
+
+* Be consistent with your styling. You have everything on [one line here](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/server.js#L138) but multiple lines [here](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/server.js#L151-L153). It goes a long way for readability if you can just be consistent with your stylistic choices.
+
+* [This](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/server.js#L199-L204) kind of strays from the way you're checking for required parameters elsewhere and I'm not totally sure what you're doing here. A patch can pass through as many or as few parameters as it wants, nothing is technically "required" here. The error message is too vague for me to make sense of.
 
 ### Workflow
 
@@ -186,4 +194,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 127 / 170
