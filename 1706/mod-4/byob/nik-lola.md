@@ -163,7 +163,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**25 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * Nice to see you [implementing other things we've gone over in class previously](https://github.com/NikBorn/byob/blob/master/server.js#L11-L16)
 
@@ -183,6 +183,8 @@ checkParams = (requiredParams, bannedParams, requestBody, response, next) => {
 
 * Curious why we skip over the [auth](https://github.com/NikBorn/byob/blob/master/server.js#L30-L32) alltogether in test mode. You should still be writing assertions against validated tokens and authentication in your test runner, otherwise you're lacking integrity for a really big security piece of your API.
 
+* [This](https://github.com/NikBorn/byob/blob/master/server.js#L106-L128) endpoint is really difficult to read. The filtering should be done within your select statement rather than returning all of the data and calling `filter` on the returned array manually.
+
 ### Workflow
 
 **15 points**: Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of “dead” or commented-out code and debugger statements like console.log that need to be cleaned up.
@@ -199,4 +201,4 @@ checkParams = (requiredParams, bannedParams, requestBody, response, next) => {
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 137 / 170
