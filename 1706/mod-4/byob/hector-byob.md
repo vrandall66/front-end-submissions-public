@@ -145,7 +145,18 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**25 points**: Project has a running test suite that covers most happy and sad paths for each endpoint. Error handling has been implemented but does not cover all possible scenarios or is unhelpful for the end-user.
+
+* Unless you're specifically calling `.order()` on your data when it's returned from the database, there's no guarantee that your data will come back in a particular order. That makes [these](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/test/routes.spec.js#L93-L97) assertions a little fragile, because it's relying on that data existing at a particular index in the array.
+
+* Instead of doing [these loops](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/test/routes.spec.js#L120-L126) you could just check that a particular object exists in the array. Looping through is a little redundant, if you can verify that one of these objects exists in this format, it's a safe bet the rest of them exist as well.
+
+* A 404 [here](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/test/routes.spec.js#L157-L166) is a little inaccurate. It's not that the endpoint doesn't exist, it's just that there happens to be nothing that matches the filter criteria. You could still return a 200 here but just return an empty array rather than an error.
+
+* Assuming [these](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/test/routes.spec.js#L220-L251) are skipped because they're failing. Can't tell off the bat what the issue would be here.
+
+* Missing lots of [catches](https://github.com/hsanchez7934/hs-build-your-own-backend/blob/master/test/routes.spec.js#L280-L322) here.
+
 
 ### JavaScript Style
 

@@ -145,7 +145,19 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**35 points**: (40 possible points) Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* Looks like we're missing those 2 client-side route tests
+
+* Remember that there's no guarantee your data will come back in a particular order unless you're specifically calling `.orderBy()` on the data that's returned. That makes assertions like [this](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L52-L55) a little fragile. I'd rather you check the array with `.includes()` for a single object that looks like one of the values you're expecting.
+
+* I'd also write an assertion [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L62) that verifies that the ID of the object returned matches the one passed into the endpoint
+
+* Nice specific error message [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L86)
+
+* Little confused by this [it block](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L144-L151). It looks like it's checking for bills, but based on the structure of that endpoint, I would expect it to return a single house object rather than the bills associated with it.
+
+* Can we assert against a specific error message [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L276-L277) and [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L287-L288)?
 
 ### JavaScript Style
 

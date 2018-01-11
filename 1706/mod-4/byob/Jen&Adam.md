@@ -95,7 +95,18 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**15 points**: Project has a running test suite that covers most happy and sad paths for each endpoint. Error handling has been implemented but does not cover all possible scenarios or is unhelpful for the end-user. Linter has some errors that need fixing.
+
+* The assertions [here](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/test/routes.spec.js#L67-L79) don't really verify that the data has been filtered based on the query param. We should be checking that the objects contain a city property that actually equals dallas.
+
+* Nice specific [error message here](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/test/routes.spec.js#L89)
+
+* [Whomp whomp](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/test/routes.spec.js#L94-L96) for [these](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/test/routes.spec.js#L112-L118)
+
+* We should also be asserting that the array length is 1 and that the id matches the id that was passed in through the endpoint [here](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/test/routes.spec.js#L103-L108)
+
+* Lots of skipped tests that I have to assume are failing
+
 
 ### JavaScript Style
 
