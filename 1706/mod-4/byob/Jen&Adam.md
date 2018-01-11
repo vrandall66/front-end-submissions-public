@@ -110,11 +110,19 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**25 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * Let's move all of [this](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L25-L116) out into some sort of utils or helper file, shall we?
 
+* These [error](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L106) messages should [be](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L113) a llittle more specific, as they're slightly different scenarios. One of them means the user hasn't provided authorization as all, whereas the other one means they simply don't have the correct level of permissions.
 
+* Curious what the thought process was [here](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L135-L136). This looks like you're limiting yourself to allowing only a single query parameter, and you're depending on it being at position 0 of an array of keys in the query parameter? `request.query` in express gives you an entire object of all the key value pairs for any query parameters, and you could just use that entire object within a `where` condition of your database selection. That would allow you to automatically apply any query parameters a user has put on the end of their url.
+
+* Duplicating [this](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L169-L173) a lot again, break it out into a dynamic helper along with all those other functions you have at the top of the file.
+
+* 202 is a little [weird here](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L192), it's more common to just see a 204 returned with no json data.
+
+* [This](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L202) isn't all that could go wrong here. There might be a generic 500 internal server error that would now be swallowed up by this 404, which might not be an accurate reflection of what went wrong.
 
 ### Workflow
 
@@ -133,4 +141,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 126 / 170
