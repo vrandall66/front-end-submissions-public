@@ -145,7 +145,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**35 points**: (40 possible points) Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+**30 points**: (40 possible points) Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
 
 * Looks like we're missing those 2 client-side route tests
 
@@ -159,12 +159,29 @@ The following set of points are distributed at the discretion of the instructor.
 
 * Can we assert against a specific error message [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L276-L277) and [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L287-L288)?
 
+* We're missing tests for authentication and authorization through JWTs here. You don't want to just skip over this, you want to still verify that unauthenticated users can't access protected endpoints.
+
 ### JavaScript Style
 
 **x points**: (40 possible points) Lorem ipsum dolor set amet
 
 * Nice to see you [implementing other things we've gone over in class previously](https://github.com/NikBorn/byob/blob/master/server.js#L11-L16)
 
+* Nice error handling [here](https://github.com/NikBorn/byob/blob/master/server.js#L414-L418), that's an uncommon thing for someone to catch.
+
+* In [these](https://github.com/NikBorn/byob/blob/master/server.js#L388) types of authenticated endpoints, I'd also consider doing a check for the token in the request body before trying to send the data through to the database. You might have to delete that object property so that it doesn't mess up the database insert/update. (Unless your documentation explictly tells users to only pass the token through as an authorization header, in which case you don't have to worry about this)
+
+* You could probably make this `checkParams` helper even more advanced by not only checking for the existence of required parameters, but also checking for the non-existence of banned parameters. Then you could take out these duplicative checks like [this](https://github.com/NikBorn/byob/blob/master/server.js#L326-L330) and handle it with the `checkParams` function. This might look something like:
+
+```
+checkParams = (requiredParams, bannedParams, requestBody, response, next) => {
+  // check for required and banned params
+}
+```
+
+* The promises [here](https://github.com/NikBorn/byob/blob/master/server.js#L300-L320) are getting a little nesty. Remember one of the big benefits of promises is that they help keep your code flat and readable, and avoid the nestiness that you get with callbacks (aka callback hell). I would break these out into separate functions that could be called rather than nesting them as promises within each other. (Check back at the knex lesson in the section on 'seeding large datasets', it will give you a bit of an example of what I'm talking about)
+
+* Curious why we skip over the [auth](https://github.com/NikBorn/byob/blob/master/server.js#L30-L32) alltogether in test mode. You should still be writing assertions against validated tokens and authentication in your test runner, otherwise you're lacking integrity for a really big security piece of your API.
 
 ### Workflow
 
