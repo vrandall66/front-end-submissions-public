@@ -137,9 +137,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Thomas Laird
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/t-laird/tl-node-server-prework) **done√**
+* [Express Tutorial](https://github.com/t-laird/tl-express-intro) - What additional items did you work on? **All four √**
+* [Promise Practice Exercises](https://gist.github.com/t-laird/1cc27e593d9edd46f10e07d947bbb0ff)**done √**
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
