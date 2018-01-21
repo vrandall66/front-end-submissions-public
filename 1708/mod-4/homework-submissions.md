@@ -93,9 +93,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Katie Sruggs
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/katiescruggs/node-server-tutorial)
+* [Express Tutorial](https://github.com/katiescruggs/express-tutorial) - additional items 1, 2, 4
+* [Promise Practice Exercises](https://repl.it/@katiescruggs/promises-prework)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
