@@ -91,7 +91,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
-### Katie Sruggs
+### Katie Scruggs
 
 * [Node Server Tutorial](https://github.com/katiescruggs/node-server-tutorial)
 * [Express Tutorial](https://github.com/katiescruggs/express-tutorial) - additional items 1, 2, 4
