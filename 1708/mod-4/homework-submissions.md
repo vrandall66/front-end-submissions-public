@@ -85,7 +85,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Julie Hawkins
 
 * [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
+* [Express Tutorial](https://github.com/julieahawkins/express-lesson) - What additional items did you work on? all 4!
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
