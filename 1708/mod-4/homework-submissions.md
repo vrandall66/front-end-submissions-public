@@ -40,7 +40,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Hugh Hartigan
 
-* [Node Server Tutorial]()
+* [Node Server Tutorial](https://github.com/HartiganHM/nodejs-practice-assignment)
 * [Express Tutorial]() - What additional items did you work on?
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
