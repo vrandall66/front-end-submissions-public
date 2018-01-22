@@ -6,9 +6,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 1 (Prework)**
 
-* [Node Server Tutorial](http://frontend.turing.io/lessons/module-4/node-prework.html) - Link to completed Node tutorial with completed additional functionality
-* [Express Tutorial](https://medium.com/@jaeger.rob/introduction-to-nodes-express-js-db5617047150) - Link to completed Express tutorial with a note about which of the 3 problems in the "Further Challenges" section that you worked on
-* [Promise Practice Exercises](https://gist.github.com/robbiejaeger/dc8f55c1f9462741090862f736b82cab) - Link to completed exercises
+* [Node Server Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/messages) 
+
+* [Express Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/expressServer) Worked on the first three challenges - added js file, json file and sunsets.html 
+
+* [Promise Practice Exercises](https://repl.it/@msantray/MariaSanchezPromisePractice)
 
 **Week 2**
 
@@ -83,7 +85,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Julie Hawkins
 
 * [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
+* [Express Tutorial](https://github.com/julieahawkins/express-lesson) - What additional items did you work on? all 4!
 * [Promise Practice Exercises](https://repl.it/@julabi/ImpoliteUnsightlyAvians)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
@@ -91,11 +93,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
-### Katie Sruggs
+### Katie Scruggs
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/katiescruggs/node-server-tutorial)
+* [Express Tutorial](https://github.com/katiescruggs/express-tutorial) - additional items 1, 2, 4
+* [Promise Practice Exercises](https://repl.it/@katiescruggs/promises-prework)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
@@ -115,9 +117,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Patrick Neel
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/patrickjneel/node.js-tutorial)
+* [Express Tutorial](https://github.com/patrickjneel/expressTutorial) - Added the sunsets, JS functionality, 404 error
+* [Promise Practice Exercises](https://repl.it/@patneel87/MeatySquigglyDromaeosaur)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
