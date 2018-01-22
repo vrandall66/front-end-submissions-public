@@ -41,8 +41,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Hugh Hartigan
 
 * [Node Server Tutorial](https://github.com/HartiganHM/nodejs-practice-assignment)
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/HartiganHM/express-practice-assignment) - What additional items did you work on?
+  * Host `script.js` with public assets and build button with even listener
+  * Import data object and send with json `GET` request
+  * Custom 404 handling
+* [Promise Practice Exercises](https://repl.it/@HartiganHM/Mod-4-Promises-Prework)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
