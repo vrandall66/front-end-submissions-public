@@ -6,9 +6,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 1 (Prework)**
 
-* [Node Server Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/messages) 
+* [Node Server Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/messages)
 
-* [Express Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/expressServer) Worked on the first three challenges - added js file, json file and sunsets.html 
+* [Express Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/expressServer) Worked on the first three challenges - added js file, json file and sunsets.html
 
 * [Promise Practice Exercises](https://repl.it/@msantray/MariaSanchezPromisePractice)
 
@@ -127,6 +127,17 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Pattern Party GitHub Pages]()
 
 ### Rob Morgan
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [House of Vars Blog Post]()
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Samuel Singer
 
 * [Node Server Tutorial]()
 * [Express Tutorial]() - What additional items did you work on?
