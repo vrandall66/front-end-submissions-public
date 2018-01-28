@@ -11,7 +11,7 @@
 [heroku](https://palette-picker-rmorgan323.herokuapp.com/)
 
 #### Link to your annotated server file
-[annotated server file]()
+[annotated server file](https://github.com/rmorgan323/palette-picker/blob/master/server.js)
 
 ## Completion
 
@@ -40,15 +40,13 @@ This is a helper function used by updatePalette to create the correct body for t
 I ended up writing two different appends for palettes since one version needs an input box and the other an h5.  I didn't have the time to go back and figure out a cleaner way to write this.  It'd be better with just one append.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-[test suite]()
-I only have 3 working tests right now but will have more by tomorrow.
+[test suite](https://github.com/rmorgan323/palette-picker/blob/master/testing-ss.png)
 
 #### Link to Design Inspiration
 I liked the large color blocks on Coolors and ended up thinking through the design with that.  I initally made everything in greyscale and allowed the color blocks to be the only colors on the page.  Then I showed the design to Louisa who liked the grey and thought I should just leave it!  So I did.  I think the fact that the site is grey and the color palettes are the only colors on the page makes the UI very clean and easy-to-understand.
 
 #### Please feel free to ask any other questions or make any other statements below!
-
-Some of the details are not as done as I want them to be.  I'll work on this some more tonight and tomorrow.  Thank you for your understanding.
+Things are tidied up as of Saturday at 5pm.  My previous commit contains everything that was finished as of Friday at 1pm.
 
 -----
 
