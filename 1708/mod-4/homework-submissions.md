@@ -139,7 +139,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Samuel Singer
 
-* [Node Server Tutorial](https://github.com/HartiganHM/nodejs-practice-assignment/blob/master/server.js)
+* [Node Server Tutorial](https://github.com/Cache123/nodejs-practice)
 * [Express Tutorial]() - What additional items did you work on?
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
