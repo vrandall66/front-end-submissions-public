@@ -139,9 +139,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Samuel Singer
 
-* [Node Server Tutorial](https://github.com/Cache123/nodejs-practice)
-* [Express Tutorial](https://github.com/Cache123/express-intro) - What additional items did you work on? - (1,2,3)
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/Cache123/nodejs-practice) √
+* [Express Tutorial](https://github.com/Cache123/express-intro) - What additional items did you work on? - (All) √
+* [Promise Practice Exercises](https://repl.it/@cache123/ShadowyMildSwallow) √
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
