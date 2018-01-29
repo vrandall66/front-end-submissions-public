@@ -22,7 +22,7 @@
 
 The output from ESLint shows…
 
-* 1 - More than ten complaints
+* 3 - Five or fewer complaints
 
 ### Workflow
 
