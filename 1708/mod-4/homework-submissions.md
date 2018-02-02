@@ -65,7 +65,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial]()
 * [Express Tutorial]() - What additional items did you work on?
 * [Promise Practice Exercises]()
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://palette-picker-pwa-jesse.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
