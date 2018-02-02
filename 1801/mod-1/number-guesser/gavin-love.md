@@ -1,6 +1,17 @@
-## Student:
-## Evaluator:
+## Student:Gavin
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Made it through Phase 2... 
+
+- talked about organizing css by layout
+- alphabetize the declarations
+
+no spaces in html
+good indentation
+
+
+- speaks to JS
 
 ## Functional Expectations
 

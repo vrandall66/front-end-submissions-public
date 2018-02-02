@@ -1,6 +1,8 @@
-## Student:
-## Evaluator:
+## Student: Helen Dechat
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+All the way through phase 3  - starting phase 4
 
 ## Functional Expectations
 

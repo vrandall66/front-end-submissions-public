@@ -1,6 +1,24 @@
-## Student:
-## Evaluator:
+## Student: Keeliana Marler
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- End of Phase 1 - started phase 2
+
+- watching nesting
+- good spacing
+- labels on inputs - 
+- good semantic html
+
+- watch syntax - spacing between selectors
+- alphabetize declarations
+
+- js
+- unsure of selectors
+remove console logs
+work on talking about code
+cleaning up code
+good job starting to break functionality apart
+take comments out of JS code
 
 ## Functional Expectations
 

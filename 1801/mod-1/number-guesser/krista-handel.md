@@ -1,6 +1,18 @@
-## Student:
-## Evaluator:
+## Student: Krista Handel
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- very organized checklist
+- all the way through phase 2 - parts of phase 3
+
+- Design is pretty spot on
+
+- organize css
+- talked about organizing declarations alphabetically
+
+some long functions in JS 
+makes sure to remove commented out code
+
 
 ## Functional Expectations
 

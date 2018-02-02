@@ -1,6 +1,11 @@
-## Student:
-## Evaluator:
+## Student: Jack Laird
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Completed all phase 2 and 1/2 of phase 3
+
+- Using BEM or SMACSS
+
 
 ## Functional Expectations
 

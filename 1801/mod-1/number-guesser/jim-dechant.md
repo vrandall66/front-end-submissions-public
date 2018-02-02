@@ -1,6 +1,12 @@
-## Student:
-## Evaluator:
+## Student: Jim Dechant
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Organized!!! Checklist
+- Through Phase 4
+
+organized css via layout and grouping like elements together
+alphabetized CSS declarations
 
 ## Functional Expectations
 

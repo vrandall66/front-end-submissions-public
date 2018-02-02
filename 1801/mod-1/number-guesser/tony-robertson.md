@@ -1,6 +1,26 @@
-## Student:
-## Evaluator:
+## Student: Tony Robertson
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Made it through Phase 3!!!
+- Good design recreation - lines up well
+- Good error messaging
+- UI leads user through the process
+
+- get rid of divs
+- push forward with aria
+- no spacing in html
+- nested well
+
+- organized idiomatically
+default elements first 
+ids and then classes
+- using BEM 
+
+- Single responsibility
+- function naming is good
+- opportunities for refactoring with using param/args
+
 
 ## Functional Expectations
 
