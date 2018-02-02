@@ -12,7 +12,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 2**
 
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://scruggs-palette-picker-pwa.herokuapp.com/)
 
 **Week 4**
 
