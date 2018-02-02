@@ -131,7 +131,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/rmorgan323/node-server-tutorial)
 * [Express Tutorial](https://github.com/rmorgan323/express-tutorial-prework) - What additional items did you work on?  all four
 * [Promise Practice Exercises](https://repl.it/@rmorgan323/Promises-Exercises)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://palette-picker-pwa-rmorgan323.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
