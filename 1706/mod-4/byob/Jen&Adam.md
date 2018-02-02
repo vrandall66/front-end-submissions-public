@@ -114,7 +114,7 @@ The following set of points are distributed at the discretion of the instructor.
 
 * Let's move all of [this](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L25-L116) out into some sort of utils or helper file, shall we?
 
-* These [error](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L106) messages should [be](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L113) a llittle more specific, as they're slightly different scenarios. One of them means the user hasn't provided authorization as all, whereas the other one means they simply don't have the correct level of permissions.
+* These [error](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L106) messages should [be](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L113) a little more specific, as they're slightly different scenarios. One of them means the user hasn't provided authorization as all, whereas the other one means they simply don't have the correct level of permissions.
 
 * Curious what the thought process was [here](https://github.com/jenPlusPlus/build-your-own-backend/blob/master/server.js#L135-L136). This looks like you're limiting yourself to allowing only a single query parameter, and you're depending on it being at position 0 of an array of keys in the query parameter? `request.query` in express gives you an entire object of all the key value pairs for any query parameters, and you could just use that entire object within a `where` condition of your database selection. That would allow you to automatically apply any query parameters a user has put on the end of their url.
 
