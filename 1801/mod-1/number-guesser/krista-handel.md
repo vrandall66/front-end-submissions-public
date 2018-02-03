@@ -2,61 +2,36 @@
 ## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-- very organized checklist
-- all the way through phase 2 - parts of phase 3
+- All the way through phase 2 - parts of phase 3
+- Nice job using a checklist for organization
 
-- Design is pretty spot on
+- Design is pretty spot on - some polishing needed
 
-- organize css
-- talked about organizing declarations alphabetically
+- Be sure to organize your [CSS rules](https://smacss.com/book/categorizing)
+- Organize your declarations alphabetically or [idiomatically](https://github.com/necolas/idiomatic-css)
 
-some long functions in JS 
-makes sure to remove commented out code
-
+- Remove commented out code that isn't working
+- Good start for JS - some opportunities for refactoring longer functions
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Novice
+* Advanced Beginner    
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+* Advanced Beginner    

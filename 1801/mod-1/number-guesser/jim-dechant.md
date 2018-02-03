@@ -2,55 +2,44 @@
 ## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-- Organized!!! Checklist
-- Through Phase 4
+- Great job organizing your plan of attack with a checklist!
+- Made it through Phase 4
+- NYAN CAT!!! AMAZING
 
-organized css via layout and grouping like elements together
-alphabetized CSS declarations
+- Continue to push forward with accessibility - semantic HTML, 
+- Use the `aria-label` attribute instead of the tag for label if you are not looking to dispay a label for your input
+
+- Nice organization of CSS rules.
+- Look into organizing your declarations[idiomatically](https://github.com/necolas/idiomatic-css) for your next project
+
+- Remove commented out code, broken code, console logs
+- Nice job with naming
+- Could use named functions for event listeners/drying up code
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
 * Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
+ 
 * Magic

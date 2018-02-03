@@ -2,67 +2,38 @@
 ## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-- End of Phase 1 - started phase 2
+- All the way through Phase 1 - started phase 2
 
-- watching nesting
-- good spacing
-- labels on inputs - 
-- good semantic html
+- Good spacing in HTML. Watch indentation for nested elements
+- Good use of semantic HTML - continue to push forward with accessibility (labels on inputs)
 
-- watch syntax - spacing between selectors
-- alphabetize declarations
+- Reference [CSS style guide](https://github.com/turingschool-examples/css) for proper spacing
+- Be sure to organize your [CSS rules](https://smacss.com/book/categorizing)
+- Organize your declarations alphabetically or [idiomatically](https://github.com/necolas/idiomatic-css)
 
-- js
-- unsure of selectors
-remove console logs
-work on talking about code
-cleaning up code
-good job starting to break functionality apart
-take comments out of JS code
+- Reference [JS style guide](https://github.com/turingschool-examples/javascript/tree/master/es5) for clean up/organization of file
+- Great job with starting to break functionality apart!
+- Continue to work on talking through your code... with a partner, yourself, or a rubber duck
 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

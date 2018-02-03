@@ -2,60 +2,33 @@
 ## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-- Made it through Phase 2... 
+- Made it through Phase 2
 
-- talked about organizing css by layout
-- alphabetize the declarations
+- Get rid of spaces in HTML. Nice job with indentation on nested elements
 
-no spaces in html
-good indentation
+- Be sure to organize your [CSS rules](https://smacss.com/book/categorizing)
+- Organize your declarations alphabetically or [idiomatically](https://github.com/necolas/idiomatic-css)
 
-
-- speaks to JS
+- Nice job talking about your JS. Continue to practice with partners, yourself, or a rubber duck
+- Opportunities for refactoring - redundant lines of code/breaking out functionality
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
+ 
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner   
 
 ## JS/jQuery
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+  
+* Advanced Beginner 

@@ -2,8 +2,7 @@
 ## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-No JS
-Very little HTML/CSS
+- Incomplete
 
 ## Functional Expectations
 
