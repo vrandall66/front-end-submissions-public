@@ -134,8 +134,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://palette-picker-pwa-rmorgan323.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/rmorgan323/pattrn-party)
+* [Pattern Party GitHub Pages](https://rmorgan323.github.io/pattrn-party/)
 
 ### Thomas Laird
 
