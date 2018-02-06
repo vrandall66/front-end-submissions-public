@@ -1,6 +1,8 @@
-## Student:
-## Evaluator:
+## Student: Lee Graham
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+- Incomplete
 
 ## Functional Expectations
 
