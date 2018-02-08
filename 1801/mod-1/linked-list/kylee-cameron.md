@@ -1,65 +1,67 @@
-## Student:
-## Evaluator:
+## Student: Kylee and Cameron
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+### comp
+
+- Really solid recreation
+
+### html
+
+- Wonderful organization
+- Great strides toward accessibility
+- default to using classes over ids
+
+### css
+
+- set base font weight on everything and override where necessary
+- consider using bem
+- consider organizational comments
+- break duplicate lines of code into a more broad selector and override where necessary (ie. card-buttons class)
+
+### js
+
+- naming conventions could use work (think in terms of actions)
+- really clean
+
+### git and github
+
+- Would like to see more commits and commits more often
+- 50 commits would be good for a project of this magnitude
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
 * Advanced Be: Application meets all of the functional expectations in Phase Two.
   // validations and responsiveness
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
 * Hot Fire  
-* Sparkles  
-* Magic  

@@ -1,65 +1,68 @@
-## Student:
-## Evaluator:
+## Student: Gavin and Krista
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+- Sounds like it was a great learning experience on both sides
+- Learned a lot about pairing
+- Git workflow and learning suffered due to pairing
+
+### comp
+
+- Some issues with responsiveness
+- Leverage containers more
+
+### html
+
+- Some issues with nesting
+- Keep accessibility in mind
+
+### css
+
+- Consider organizing based on components on the page
+- set base font weight for the page and override where necessary
+- Consider adding organizational comments
+- break out duplicate lines into more broad selectors (ie. card-button class)
+
+### js
+
+- Break template literals onto multiple lines and format like you would in html file
+- no need for $.on load when script is at bottom of body
+- never nest event listeners
+- naming conventions could use work (think in terms of actions)
+
+### git and github
+
+- Would like to see more commits and commits more often
+- 50 commits would be good for a project of this magnitude
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
