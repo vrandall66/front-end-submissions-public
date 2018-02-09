@@ -1,50 +1,37 @@
-## Student:
-## Evaluator:
+## Student: Tony Robertson
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Made it through Phase 3
+- Good design recreation/error messaging
+
+- Avoid divs in HTML, push forward with ARIA
+- Good indentation - remove spacing
+
+- organized CSS idiomatically!
+
+- Good naming and breaking things into single responsibility
+- Opportunities for refactoring with using params/args
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient    
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
