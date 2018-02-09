@@ -6,9 +6,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 1 (Prework)**
 
-* [Node Server Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/messages)
+* [Node Server Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/messages) 
 
-* [Express Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/expressServer) Worked on the first three challenges - added js file, json file and sunsets.html
+* [Express Tutorial](https://github.com/mariastlouis/mod-4-prework/tree/master/expressServer) Worked on the first three challenges - added js file, json file and sunsets.html 
 
 * [Promise Practice Exercises](https://repl.it/@msantray/MariaSanchezPromisePractice)
 
