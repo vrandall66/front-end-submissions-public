@@ -123,7 +123,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/patrickjneel/node.js-tutorial)
 * [Express Tutorial](https://github.com/patrickjneel/expressTutorial) - Added the sunsets, JS functionality, 404 error
 * [Promise Practice Exercises](https://repl.it/@patneel87/MeatySquigglyDromaeosaur)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://palette-picker-pwa.herokuapp.com/)
+* [Palette Picker-PWA Repo](https://github.com/patrickjneel/forked-palette-picker)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
