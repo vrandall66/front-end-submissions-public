@@ -46,7 +46,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
   * Import data object and send with json `GET` request
   * Custom 404 handling
 * [Promise Practice Exercises](https://repl.it/@HartiganHM/Mod-4-Promises-Prework)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://palettepickerpwa.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post](https://medium.com/@hartigan.hm/finding-solid-ground-in-the-open-source-jungle-dc7a220c6a25)
 * [Pattern Party Repo]()
