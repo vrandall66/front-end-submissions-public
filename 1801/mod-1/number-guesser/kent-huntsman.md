@@ -1,6 +1,8 @@
-## Student:
-## Evaluator:
+## Student: Kent Huntsman
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Incomplete
 
 ## Functional Expectations
 
