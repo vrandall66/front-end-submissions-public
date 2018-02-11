@@ -1,65 +1,28 @@
-## Student:
-## Evaluator:
+## Student: Helen & Quin
+## Evaluator: Nathaniel Foster
 ## Notes/What To Work On:
 
 ## Functional Expectations
-
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
+Through phase 3
 
 ## COMP RECREATION / DESIGN
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+Have less space between Bookmark Count and Links Read
 
 ## HTML
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+Make sure to have alt tags for your images
 
 ## CSS
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional
-
+// refactor keydown input event listener: give anonymous function a name so that it can be used for both events
 
 ## GIT & GITHUB
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  

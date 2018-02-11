@@ -3,63 +3,31 @@
 ## Notes/What To Work On:
 
 ## Functional Expectations
-
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
+through phase four - links dont work
+commits after 9
 
 ## COMP RECREATION / DESIGN
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner
+confusing error message about proper formatting of url
 
 ## HTML
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+don't use br tag
 
 ## CSS
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional
+store elements in variables
+move regex into function
+work on formatting
 
 
 ## GIT & GITHUB
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+Make all commits before due
 
 ## Pairing/Collaboration
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
