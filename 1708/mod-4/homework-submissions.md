@@ -114,7 +114,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises]()
 * [Palette Picker PWA](https://palette-picker-pwa-sanchez.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post](https://medium.com/@patrickneel/into-the-abyss-contributing-to-an-open-source-project-11f0f03e517c)
+* [House of Vars Blog Post](https://medium.com/@msantray/open-source-projects-get-comfortable-being-uncomfortable-then-do-the-robot-5f3908d6443e)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -126,7 +126,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://palette-picker-pwa.herokuapp.com/)
 * [Palette Picker-PWA Repo](https://github.com/patrickjneel/forked-palette-picker)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@patrickneel/into-the-abyss-contributing-to-an-open-source-project-11f0f03e517c)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
