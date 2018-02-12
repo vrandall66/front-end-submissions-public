@@ -22,7 +22,14 @@ Spotify API
 
 #### Wireframes
 
-![Wireframe](wireframes/0212181538.jpg)
+![Wireframe1](wireframes/0212181538.jpg)
+![Wireframe2](wireframes/0212181539.jpg)
+![Wireframe3](wireframes/0212181539a.jpg)
+![Wireframe4](wireframes/0212181539b.jpg)
+![Wireframe5](wireframes/0212181539d.jpg)
+![Wireframe6](wireframes/0212181539e.jpg)
+![Wireframe7](wireframes/0212181540.jpg)
+![Wireframe8](wireframes/0212181547.jpg)
 
 #### Waffle & Github
 
