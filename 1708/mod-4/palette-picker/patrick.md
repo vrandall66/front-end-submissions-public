@@ -51,34 +51,62 @@ Anything else you wanna say!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**30 points**: (50 possible points)
+
+* Palettes aren't persisting in the Projects section of the page on refresh
+* Bug: Hex values string keeps getting longer every time you save a new palette
+* Missing delete functionality (like you noted in your submission)
 
 ## User Interface
 
-**x points**: (20 possible points)
+**13 points**: (20 possible points)
+
+* The initial state of the app around palette generation is effective and easy to use
+* The flow for creating a project is a little hard to follow when you first use the page
+* Display of the hex values for a saved palette is hard to read (the text is scrunched together), and there is no color representation
 
 ## Testing
 
-**x points**: (20 possible points)
+**10 points**: (20 possible points)
+
+* Just testing for an object [here](https://github.com/patrickjneel/palette-picker/blob/master/test/routes.spec.js#L45-L46) is not very robust - should test for structure within the object (like properties); this applies to other tests in your tests suite as well
+* [The error should be thrown](https://github.com/patrickjneel/palette-picker/blob/master/test/routes.spec.js#L45-L46) instead of returned so you get the proper error response when you run the test suite - otherwise, it will appear as if the test is passing when you run the test suite when it is actually failing
+* Good job responding with 201 status code for [POST request](https://github.com/patrickjneel/palette-picker/blob/master/test/routes.spec.js#L73)
+* Testing for property [here](https://github.com/patrickjneel/palette-picker/blob/master/test/routes.spec.js#L75) is good - would want to test for actual value of the project name in the response
+* [This test](https://github.com/patrickjneel/palette-picker/blob/master/test/routes.spec.js#L83-L97) is not testing the projects endpoint, and the expected response in the test does not have the correct status code (201 means successful POST...)
+* Missing sad paths for DELETE and POST requests
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**7 points**: (10 possible points)
+
+* Good job being thorough commenting on most lines - in general, your comments are a bit vague when you're talking about the technical details
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**17 points**: (30 possible points)
+
+* I would expect [this endpoint](https://github.com/patrickjneel/palette-picker/blob/master/test/routes.spec.js#L45-L46) to return an array - for [this line](https://github.com/patrickjneel/palette-picker/blob/after-friday/server.js#L31), would just expect to send back array of projects instead of wrapping it in an object, [same issue here with palettes](https://github.com/patrickjneel/palette-picker/blob/after-friday/server.js#L42)
+* [This line](https://github.com/patrickjneel/palette-picker/blob/after-friday/server.js#L19) for body-parser is not needed because you are not getting URL-encoded data, only JSON data in the body of a request (you only need [this line](https://github.com/patrickjneel/palette-picker/blob/after-friday/server.js#L18) for JSON coming in the body of a request)
+* Generally, [table names are plural](https://github.com/patrickjneel/palette-picker/blob/after-friday/db/migrations/20180124144324_third_update.js#L10)
+* If there [aren't any palettes in the database](https://github.com/patrickjneel/palette-picker/blob/after-friday/server.js#L44-L47), then just return the empty array (it's not an error, there is just nothing in the database table - send a 200 response with the empty array)
+* Good error response [here](https://github.com/patrickjneel/palette-picker/blob/after-friday/server.js#L56-L62)
+* For [this request](https://github.com/patrickjneel/palette-picker/blob/after-friday/server.js#L76), the data you need about the project is the ID, which is in the URL - I see you also have the `projectName` in the request body, which is redundant
+* [This endpoint](https://github.com/patrickjneel/palette-picker/blob/after-friday/server.js#L92) should just be `api/v1/palettes/:id` because you only need the `:id` of the palette to know which palette to delete
 
 ## Workflow
 
-**x points**: (20 possible points)
+**18 points**: (20 possible points)
 
+* Good number of commits
+* Good job adding gitignore, especially for node_modules
+* Commits should use present tense (you were mixing present and past tense in some of your commit titles)
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 95 / 150
