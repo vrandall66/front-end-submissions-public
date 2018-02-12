@@ -145,14 +145,45 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**30 points**: (40 possible points) Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* Looks like we're missing those 2 client-side route tests
+
+* Remember that there's no guarantee your data will come back in a particular order unless you're specifically calling `.orderBy()` on the data that's returned. That makes assertions like [this](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L52-L55) a little fragile. I'd rather you check the array with `.includes()` for a single object that looks like one of the values you're expecting.
+
+* I'd also write an assertion [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L62) that verifies that the ID of the object returned matches the one passed into the endpoint
+
+* Nice specific error message [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L86)
+
+* Little confused by this [it block](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L144-L151). It looks like it's checking for bills, but based on the structure of that endpoint, I would expect it to return a single house object rather than the bills associated with it.
+
+* Can we assert against a specific error message [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L276-L277) and [here](https://github.com/NikBorn/byob/blob/master/test/routes.spec.js#L287-L288)?
+
+* We're missing tests for authentication and authorization through JWTs here. You don't want to just skip over this, you want to still verify that unauthenticated users can't access protected endpoints.
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**25 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * Nice to see you [implementing other things we've gone over in class previously](https://github.com/NikBorn/byob/blob/master/server.js#L11-L16)
 
+* Nice error handling [here](https://github.com/NikBorn/byob/blob/master/server.js#L414-L418), that's an uncommon thing for someone to catch.
+
+* In [these](https://github.com/NikBorn/byob/blob/master/server.js#L388) types of authenticated endpoints, I'd also consider doing a check for the token in the request body before trying to send the data through to the database. You might have to delete that object property so that it doesn't mess up the database insert/update. (Unless your documentation explictly tells users to only pass the token through as an authorization header, in which case you don't have to worry about this)
+
+* You could probably make this `checkParams` helper even more advanced by not only checking for the existence of required parameters, but also checking for the non-existence of banned parameters. Then you could take out these duplicative checks like [this](https://github.com/NikBorn/byob/blob/master/server.js#L326-L330) and handle it with the `checkParams` function. This might look something like:
+
+```
+checkParams = (requiredParams, bannedParams, requestBody, response, next) => {
+  // check for required and banned params
+}
+```
+
+* The promises [here](https://github.com/NikBorn/byob/blob/master/server.js#L300-L320) are getting a little nesty. Remember one of the big benefits of promises is that they help keep your code flat and readable, and avoid the nestiness that you get with callbacks (aka callback hell). I would break these out into separate functions that could be called rather than nesting them as promises within each other. (Check back at the knex lesson in the section on 'seeding large datasets', it will give you a bit of an example of what I'm talking about)
+
+* Curious why we skip over the [auth](https://github.com/NikBorn/byob/blob/master/server.js#L30-L32) alltogether in test mode. You should still be writing assertions against validated tokens and authentication in your test runner, otherwise you're lacking integrity for a really big security piece of your API.
+
+* [This](https://github.com/NikBorn/byob/blob/master/server.js#L106-L128) endpoint is really difficult to read. The filtering should be done within your select statement rather than returning all of the data and calling `filter` on the returned array manually.
 
 ### Workflow
 
@@ -170,4 +201,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 137 / 170

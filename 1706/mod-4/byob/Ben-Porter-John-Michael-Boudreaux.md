@@ -91,14 +91,40 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**35 points**: Project has a running test suite that covers all happy and sad paths for the appropriate endpoints. Error handling is informative and helpful for the end-user. The project has a linting configuration that passes with no errors.
+
+* Test file should just be named `routes.spec.js` not `routes.spec.test.js`
+
+* Missing a [.catch()](https://github.com/johnmboudreaux/BYOB/blob/master/test/routes.spec.test.js#L31)
+
+* Unless the linter was yelling at you for some reason, I'd use an implicit return in the [.catches](https://github.com/johnmboudreaux/BYOB/blob/master/test/routes.spec.test.js#L48-L51) here. Just to be consistent with the implicit return you're using in the `.then()`
+
+* Nitpick but your it blocks should read like English. [This](https://github.com/johnmboudreaux/BYOB/blob/master/test/routes.spec.test.js#L55) one reads a little funny
+
+* Nice specific [error message](https://github.com/johnmboudreaux/BYOB/blob/master/test/routes.spec.test.js#L130)
+
+* Remember that there is no guarantee that your data will come back in a particular order. So writing [assertions like this](https://github.com/johnmboudreaux/BYOB/blob/master/test/routes.spec.test.js#L148-L156) can be a little fragile. I'd rather you just check that the array includes an object that matches those key/values with `.includes()`
+
+* I'd add another assertion [here](https://github.com/johnmboudreaux/BYOB/blob/master/test/routes.spec.test.js#L173) that checks that the items in the array have a zip code that matches 87501
+
+* Give me the zip code back [here](https://github.com/johnmboudreaux/BYOB/blob/master/test/routes.spec.test.js#L190) in the error message so that I can double-check that I didn't fat finger the zip code.
+
+* [This](https://github.com/johnmboudreaux/BYOB/blob/master/test/routes.spec.test.js#L335) error message is a little vague for a user. I'd rewrite it to tell them that they don't have admin privileges to perform that action.
+
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**30 points**: Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
 
 * [This](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L47-L50)ternary is really difficult to read. As is [this](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L67-L71) one. And pretty much all the other ones that you're using. You should only use ternaries in the simplest of use cases. e.g. nothing more complex than `let foo = bar ? true : false` Otherwise use an if/else.
 
+* In general, it'd be better to send the token through as an authorization header rather than in the [body](https://github.com/johnmboudreaux/BYOB/blob/master/test/routes.spec.test.js#L251). This prevents you from having to delete that property from the object before inserting it into the database.
+
+* These [error](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L24) messages should [be](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L34) a little more specific, as they're slightly different scenarios. One of them means the user hasn't provided authorization as all, whereas the other one means they simply don't have the correct level of permissions.
+
+* Curious what the thought process was [here](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L78-L79). This looks like you're limiting yourself to allowing only a single query parameter, and you're depending on it being at position 0 of an array of keys in the query parameter? `request.query` in express gives you an entire object of all the key value pairs for any query parameters, and you could just use that entire object within a `where` condition of your database selection. That would allow you to automatically apply any query parameters a user has put on the end of their url.
+
+* For the love of God please break this duplicative [error handling](https://github.com/johnmboudreaux/BYOB/blob/master/server.js#L112-L118) into a helper function.
 
 ### Workflow
 
@@ -115,4 +141,4 @@ The following set of points are distributed at the discretion of the instructor.
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 151 / 170

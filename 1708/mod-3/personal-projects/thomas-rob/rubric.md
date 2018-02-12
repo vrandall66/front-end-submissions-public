@@ -22,7 +22,7 @@ A good project idea should:
 
 ### Redux Architecture
 
-* 3: All state changes are handled by Redux with exeception to Controlled Forms. Actions and Reducers are simple. Containers don't hold unnecessary data.
+- 4 - Developer demonstrates complete understanding of React with appropriately separated components and exceptionally well refactored code.
 
 ### Code Sanitation
 

@@ -1,132 +1,104 @@
 ## Students:
-## Evaluator:
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- UI needs polishing, doesn’t break down to smaller screens smoothly.
+- CSS needs a refactor pass.
+- JS still has quiet a few opportunities to refactor and reduce duplication
+- make sure you are pushing hard and really tightening up the last 10% of the project. There are lose ends that you had time to address, and you’re selling yourselves short by not pushing hard to make things as tight as possible.
 
 ## Functional Expectations
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
