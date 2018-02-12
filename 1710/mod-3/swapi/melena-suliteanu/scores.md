@@ -1,8 +1,8 @@
 # SWapi-Box Eval
 
-### Evaluator:
-### Students:
-### Comments:
+### Evaluator: Will
+### Students: Melena
+### Comments: Great project, good testing
 
 ## Rubric
 
