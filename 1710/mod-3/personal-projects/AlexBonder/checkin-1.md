@@ -22,6 +22,8 @@ Spotify API
 
 #### Wireframes
 
+!(wireframes/0212181538.jpg)
+
 #### Waffle & Github
 
 [Waffle](https://waffle.io/lexbonder/step-to-the-beat)
