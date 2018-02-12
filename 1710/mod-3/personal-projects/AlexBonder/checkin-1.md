@@ -36,6 +36,15 @@ Spotify API
   - Manual test (walk and count)
   - Height and speed
   (- Using Pedometer/Accelerometer)
+3) User sign in
+4) Save User info
+  - Save SPM's by user
+  - Save favorite songs
+  - Save favorite Playlists
+5) Favorite Songs/Lists
+6) Persist data
+  - Local Storage / (Firebase)
+7) Send Lists to Spotify
   
 
 #### MVP
