@@ -104,8 +104,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://scruggs-palette-picker-pwa.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post](https://medium.com/@katie.e.scruggs/contributing-to-open-source-d15c704b7b4e)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/katiescruggs/pattrn-party)
+* [Pattern Party GitHub Pages](http://katiescruggs.com/pattrn-party/)
 
 ### Maria St. Louis-Sanchez
 
