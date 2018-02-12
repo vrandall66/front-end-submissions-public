@@ -22,6 +22,7 @@
 
 #### Wireframes
 
+
 #### Waffle & Github
 
   - github: [Farmers Market Finder](https://github.com/goodalls/farmers-market-finder)
@@ -29,11 +30,21 @@
   - Waffle: [Waffle Farmers Market Finder](https://waffle.io/goodalls/farmers-market-finder)
 
 #### Order Of Attack
-
+  - Wireframe and get color palette set up in project
+  - setup redux project
+  - build front page with with the components
+  - buildin Router and create a goto page when zip-code is submited
+  - redux store should hold the search results and individualy clicked locations object
+  - 
+  
 #### MVP
 
+  - Have a front page that accepts zip code search and shows second page with maps and detailed info about the market
+  
 #### Nice To Haves
-
+  - 
+  - latitude and longitude search
+  - google maps integration
 #### Biggest Challenges
 
 #### Instructor Notes
