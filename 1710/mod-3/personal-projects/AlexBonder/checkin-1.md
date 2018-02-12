@@ -22,7 +22,7 @@ Spotify API
 
 #### Wireframes
 
-!(wireframes/0212181538.jpg)
+![Wireframe](wireframes/0212181538.jpg)
 
 #### Waffle & Github
 
