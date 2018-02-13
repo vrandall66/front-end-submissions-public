@@ -31,4 +31,14 @@ Google Calendar, User Stuff
 
 #### Instructor Notes
 
+* Love the idea! Cant wait to see the finished product!
+
 #### Deliverables for next checkin:
+
+* Setup React, Redux, and Router
+* Add linter
+* Set up test suite
+* Be able to hit news and weather api and store in redux
+* Build out homepage
+* Keep waffle up to date
+
