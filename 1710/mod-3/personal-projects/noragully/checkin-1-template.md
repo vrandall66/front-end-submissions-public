@@ -55,5 +55,13 @@ An app that pulls tweets from a user's feed and displays 1 page of trending news
 - Writing algorithm to curate tweets
 
 #### Instructor Notes
+- How redux and firebase interact. 
+  - Whenever an event fires (changes to the FB backend) you will be notified because it is event driven. You'll want to save that info in redux to get redux practice 
+- Once you get the auth setup making your first API call to twitter might get a little hairy. 
 
 #### Deliverables for next checkin:
+- Get react and firebase setup 
+- Get auth setup so that you can create a user with firebase 
+  - Go slow to go fast. Spend some time looking at the firebase documentation. 
+- You'll have to create a twitter APP and you'll probably need to get keys from the app itself. 
+- Once you have the credentials look into grabbing the users tweets and saving them in local react state.
