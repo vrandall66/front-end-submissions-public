@@ -37,4 +37,14 @@ Determining best strategy for dynamically and rendering useful data, successfull
 
 #### Instructor Notes
 
+Great idea! Love it!!
+
 #### Deliverables for next check
+
+* Set up waffle and add issues
+* Build out landing page
+* Make API calls with text and store in Redux
+* Add linter
+* Setup test suite
+* Update wireframes
+
