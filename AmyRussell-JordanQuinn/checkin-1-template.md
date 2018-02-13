@@ -20,7 +20,8 @@ React JS, Redux, Router, Firebase? Node?
 SendGrid, OAuth? 
 
 #### Wireframes
-
+![user flow](https://github.com/amy-r/front-end-submissions-public/blob/master/AmyRussell-JordanQuinn/Image%20uploaded%20from%20iOS%20(1).jpg)
+![new form](https://github.com/amy-r/front-end-submissions-public/blob/master/AmyRussell-JordanQuinn/Image%20uploaded%20from%20iOS.jpg)
 #### Waffle & Github
 
 #### Order Of Attack
