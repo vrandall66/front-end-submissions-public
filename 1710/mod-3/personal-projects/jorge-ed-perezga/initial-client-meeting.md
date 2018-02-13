@@ -63,3 +63,14 @@ It would be nice to have a section were the user can create an edit a business c
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+* WIREFRAMES!
+* Add github issues
+* Firebase Auth with Facebook or Google
+* Setup React, Redux, and Router
+* Add user to the store
+* Make fetch request to art api and store in redux
+* Add linter
+* Setup test suite
+* Build landing page
+
