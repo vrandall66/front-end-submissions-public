@@ -44,4 +44,14 @@
 
 #### Instructor Notes
 
+* Great jproject idea.... super excited to see the final project
+
 #### Deliverables for next checkin:
+
+* Making API calls/cleaning data
+* Base landing page
+* Reseach badge libraries
+* Setup test suite
+* Add linter
+* Setup Redux and Router
+* Have data going into the store
