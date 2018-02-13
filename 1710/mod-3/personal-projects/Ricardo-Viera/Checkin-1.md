@@ -42,3 +42,7 @@ Making the interface intuitive for golfers who have never played wolf.
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+- Have react boilerplate (react, redux, and router setup) 
+- Have store populated with course data 
+- TDD the API utility. 
+- Grab current location and set it in the store. 
