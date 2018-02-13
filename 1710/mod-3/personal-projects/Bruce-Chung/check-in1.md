@@ -33,3 +33,12 @@ Waffle: https://waffle.io/brucekchung/air-tracker
 #### Instructor Notes
 
 #### Deliverables for next checkin: steps 1-4
+
+* Be super familiar with API and determine what data you need
+* Iron out what info exactly you are going to display
+* Set up React, Redux, and Router
+* Make an inital fetch reaquest and store info in redux
+* Add linter
+* Setup test suite
+* Add waffle issues
+* Build out base landing page
