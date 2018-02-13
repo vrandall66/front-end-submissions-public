@@ -40,7 +40,16 @@ A discover section where users can explore games by ratings, genre, player numbe
 
 #### Biggest Challenges
 Creating my own backend sounds a little daunting but I am excited to tackle it!
+- thankfully firebase will be your backend so you won't have to manage things like oAuth and stuff. 
 
 #### Instructor Notes
+- go through the firebase tutorial 
 
 #### Deliverables for next checkin:
+
+- Have react, router, and  redux setup.
+- Do a firebase spike where you are looking at the documentation. 
+   - look into auth options have what it looks like to have that implemented into your app.
+- Make initial api call and have store populated with the data. 
+- If a user could create an account in your application.
+- Start testing.
