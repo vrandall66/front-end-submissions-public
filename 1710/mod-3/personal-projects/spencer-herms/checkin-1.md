@@ -63,4 +63,13 @@ Making multiple fetches when user inputs multiple ingredients and then comparing
 
 #### Instructor Notes
 
+- I'm going to challenge you to try and populate the redux store without having to run your app. 
+
 #### Deliverables for next checkin:
+
+- Setup React, Router, and Redux 
+- Testing Spike (review testing lessons before you do this so that you feel super confident! 💪🏽)
+- Create API utility.
+- TEST API utlility (TDD your life away).
+- Make initial fetch and store data from API in redux 
+ 
