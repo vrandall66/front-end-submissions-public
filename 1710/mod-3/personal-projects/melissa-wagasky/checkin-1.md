@@ -17,11 +17,24 @@ If there is time, I’d like to implement ‘sight words’. These are words tha
 
 ### Deliverables:
 
+##### By Thursday:
+
+- React Boilerplate with all routes
+- Redux wiredup
+- populate the store with a set of flashcards
+- UI underway for BookShelf
+- Initial Component UI for a single card (text, picture, button for record, button for submit)
+- File for API calls
+- Within apiCalls - working post call and fetch call to Watson with mock audio file and text file
+- An understanding of the payload that is supposed to come back
+
 ### Stack:
 Javascript
 React
 Redux
-unsure about data management and storage
+Router
+Gutenberg Google Project for initial books in EPUB file formats: https://www.gutenberg.org/ebooks/32572
+Library for creating the e-reader(eventually) futurepress: https://github.com/futurepress/epub.js/blob/master/documentation/README.md
 
 ### APIs:
 Watson natural language API - speech to text: https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/
@@ -30,10 +43,27 @@ Watson natural language API - text to speech: https://www.ibm.com/watson/service
 Digital Public Library Association database: https://dp.la/info/developers/codex/ (for potential books) - still waiting to hear back
 
 ### Wireframes
+
+![image](https://user-images.githubusercontent.com/24358415/36167837-8324efd2-10b4-11e8-88c2-70a9c186b50a.png)
+
+
 ### Waffle & Github
+https://github.com/wagasky/readToMe
+https://waffle.io/wagasky/readToMe
+
 ### Order Of Attack
+First building flashcards and getting Watson working with audio. Then will build e-reader using library
+
 ### MVP
+Flashcards and flashcard shelf. Student can click a button, record a sentence, and get a score back from Watson.
+
 ### Nice To Haves
+E-reader and high-light text in an e-reading app.
+
 ### Biggest Challenges
+
+WATSON api and handling audio files
+Getting something comprehensible back
+
 ### Instructor Notes
 # Deliverables for next checkin:
