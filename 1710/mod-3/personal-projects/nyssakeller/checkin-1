@@ -7,6 +7,10 @@ Project Pitch:
 Deliverables:
 
 Stack: 
+  -react
+  -redux
+  -routher
+  -native??
   
 APIs: either songkick or bands in town
 
@@ -31,6 +35,7 @@ MVP:
   
 Nice To Haves: 
   -have a link to buy tickets for a concert?
+  -first concerts that show up are favorite artists concerts if any
   
 Biggest Challenges:
   -getting the api key right now
