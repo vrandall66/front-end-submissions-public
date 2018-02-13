@@ -24,7 +24,7 @@ Redux
 
 #### Order Of Attack
 1. Get api data and create a mock data file
-2. User can set a hometown 
+2. User can set a hometown // Will load current location as default. 
 3. Show a map of the US
 4. Create a button for user to add travel location
 5. Inputs for user to submit location and type of travel (air v. road) 
@@ -41,10 +41,11 @@ Redux
 15. User can access a settings page to reset their hometown
 
 #### MVP
-- User can input their hometown and travel destinations
-- User can apply different themes to their map
+- User can input their hometown and travel destinations / app will default to current location unless specified by user.
 - User can click on certain areas of the map to see data about their trip(ie. reason for trip/trip journal)
+- Trip Log is functional and works with user location.
 - Clean UI/UX 
+- User can apply different themes to their map
 
 #### Nice To Haves
 - User can share their map on social media.
@@ -60,5 +61,11 @@ Redux
 - Figuring out how to click into regions and have a clean animation to the next screen
 
 #### Instructor Notes
+- Location information needs to be in redux 
+- Travel Log info will live in redux store 
 
 #### Deliverables for next checkin:
+- Have test file started. 
+- Have map loaded on page 
+- Have location pullin and saved in store (lat and long is fine for now you'll need to convert to a city/state) 
+- Build out search field 
