@@ -32,10 +32,11 @@ Iteration 3
 * User can search for any type of event they want
 
 #### MVP
-* User can search for events happening in their city
+* User can search for events happening in their city (Ideally the location will load automatically based off of where the user is currently)
 * User can choose a category to filter their search
 * User can search for events by keyword
 * User can filter results by when they are happening
+* User can favorite an event. 
 
 #### Nice To Haves
 * User can create an account 
@@ -50,3 +51,9 @@ Iteration 3
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- Have the rest of your wireframes submitted 
+- Have react, router, and redux setup 
+- Have store populated with initial data. 
+- Start test driving your API utility. 
+- Have initial landing page built out. 
