@@ -40,9 +40,11 @@
 #### MVP
 
   - Have a front page that accepts zip code search and shows second page with maps and detailed info about the market
+  - unregistered user can favorite farmers markets and favorites persist on refresh 
+  - When the market is clicked that each farmers market has a "show page" meaning each market page shows information pertaining to it. 
+  - Well tested. 
   
 #### Nice To Haves
-  - 
   - latitude and longitude search
   - google maps integration
 #### Biggest Challenges
@@ -50,3 +52,10 @@
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+- Have rest of the wireframes built out 
+- Have react, redux, router set up 
+- make initial fetch call 
+- have store populated
+- write tests for API utility 
+- Have google maps set up so that when you get to landing page you have a map. 
+
