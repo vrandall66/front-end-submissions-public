@@ -71,3 +71,9 @@
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+* Start adding issues to github
+* Set up React, Redux, and Router
+* Add linter
+* Become super familiar with the API (how to create a new cal, edit a cal, add contributors)
+* Make API call and store info in the store.
