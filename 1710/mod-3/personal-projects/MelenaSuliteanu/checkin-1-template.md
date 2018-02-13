@@ -1,4 +1,4 @@
-## Project Name:
+## Project Name: Puzzle Swap
 
 #### Check In
 One!
@@ -20,8 +20,11 @@ geolocation? https://www.programmableweb.com/api/google-maps-geolocation
 get contacts to share with friends? https://www.programmableweb.com/api/google-contacts
 
 #### Wireframes
+![Wireframe](https://i.imgur.com/6B8CClV.png)
 
 #### Waffle & Github
+[Github](https://github.com/farmermel/puzzle-swap)
+[waffle](https://waffle.io/farmermel/puzzle-swap)
 
 #### Order Of Attack
 Puzzle display page
