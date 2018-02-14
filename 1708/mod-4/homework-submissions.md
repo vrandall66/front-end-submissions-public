@@ -147,11 +147,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Samuel Singer
 
-* [Node Server Tutorial](https://github.com/Cache123/nodejs-practice) √
-* [Express Tutorial](https://github.com/Cache123/express-intro) - What additional items did you work on? - (All) √
-* [Promise Practice Exercises](https://repl.it/@cache123/ShadowyMildSwallow) √
-* [Palette Picker PWA](https://github.com/Cache123/palette-picker-pwa) √
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Node Server Tutorial](https://github.com/Cache123/nodejs-practice)
+* [Express Tutorial](https://github.com/Cache123/express-intro) - What additional items did you work on? - (All)
+* [Promise Practice Exercises](https://repl.it/@cache123/ShadowyMildSwallow)
+* [Palette Picker PWA](https://github.com/Cache123/palette-picker-pwa)
+* [Websockets Tutorial](https://github.com/Cache123/web-socket-messaging) - What additional items did you work on? - (1,4,5)
 * [House of Vars Blog Post](https://medium.com/@samuelsinger/open-food-network-attempting-an-open-source-contribution-b7f25757cf8b)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
