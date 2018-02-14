@@ -47,7 +47,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
   * Custom 404 handling
 * [Promise Practice Exercises](https://repl.it/@HartiganHM/Mod-4-Promises-Prework)
 * [Palette Picker PWA](https://palettepickerpwa.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/HartiganHM/web-sockets-tutorial) - What additional items did you work on?
+  * Broadcast a message to connected users when someone connects or disconnects
+  * Add support for nicknames
+  * Add “{user} is typing” functionality
 * [House of Vars Blog Post](https://medium.com/@hartigan.hm/finding-solid-ground-in-the-open-source-jungle-dc7a220c6a25)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
