@@ -162,7 +162,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/t-laird/tl-express-intro) - What additional items did you work on? **All four √**
 * [Promise Practice Exercises](https://gist.github.com/t-laird/1cc27e593d9edd46f10e07d947bbb0ff)**done √**
 * [Palette Picker PWA](https://tl-palette-picker-pwa.herokuapp.com/)**done√**
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/t-laird/websockets-tutorial) - What additional items did you work on?
+  * Global message for connect and disconnect
+  * Allow user to change their name in chat
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
