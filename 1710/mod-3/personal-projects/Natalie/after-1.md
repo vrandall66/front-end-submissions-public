@@ -21,3 +21,6 @@ Demonstrate that I can create a new calendar, post to calendar, edit calendar, a
 #### What are your concerns (if any)
 
 #### Deliverables for next checkin:
+* Complete calendar functionality
+* TEST, TEST, TEST
+* Build out the UI
