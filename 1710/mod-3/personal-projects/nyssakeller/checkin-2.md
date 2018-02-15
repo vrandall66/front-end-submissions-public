@@ -41,3 +41,11 @@ What are your concerns (if any)
 
 
 Deliverables for next checkin:
+
+* Good progress made!!
+* Wireframes look great!
+* Get redux fully connected
+* Continue testing
+* Build out UI
+* Complete routing functionality
+
