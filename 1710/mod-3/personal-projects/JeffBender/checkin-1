@@ -1,0 +1,42 @@
+## Project Name: Quote Database
+
+#### Check In #1
+
+#### Project Pitch 
+     The Quote Database will be a searchable application of 10 categories and over 100,000 authors. The quotes can be searched
+     by author and category and be supplied with attribution and associated images.
+
+### Deliverables
+
+#### Stack: React, Redux, Router
+
+#### APIs: They Said So https://theysaidso.com/#
+
+#### Wireframes
+     https://go.gliffy.com/go/share/s0h76yul9dixu465lrga
+
+#### Waffle & Github 
+     https://github.com/j25bender/quote-db
+     https://waffle.io/j25bender/quote-db
+
+#### Order Of Attack
+     Determine number of components / containers needed
+     What actions / reducers needed
+     Stub tests for functionality
+     Get fetch call / data render
+     Basic CSS style
+     Buttons to fetch categories
+     Search by author
+
+#### MVP
+     Quote cards rendering / styled and updating by category.
+
+#### Nice To Haves
+     Associated images
+
+#### Biggest Challenges
+     Redux
+
+#### Instructor Notes
+
+#### Deliverables for next checkin:
