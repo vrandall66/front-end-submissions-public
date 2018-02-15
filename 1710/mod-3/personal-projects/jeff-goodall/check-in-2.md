@@ -25,3 +25,10 @@
   - 
 
 #### Deliverables for next checkin:
+- get that form field on the page 
+- start styling 
+- work on the google map pins 
+- Tests start looking into jest [mocks files ](https://facebook.github.io/jest/docs/en/manual-mocks.html)
+- have show page route hooked up 
+- Start testing App 
+- Have the quotes on the App page and when user types just render a different view || the google map
