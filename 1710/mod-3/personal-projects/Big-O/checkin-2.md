@@ -15,9 +15,11 @@ Sort of?
 
 #### Next Steps?
 - User sign up/sign in
+- Set up Express JS server
 - FitBit OAuth
 - Get data from FitBit API
-- Setting up Firebase
+- Authenticate user with Firebase
+- Post workout using Firebase
 
 #### What are your concerns (if any):
 - Scope
@@ -26,5 +28,7 @@ Sort of?
 #### Deliverables for next checkin:
 - User sign up
 - Get data from FitBit API
-- Setting up Firebase
+- Authenticate user with Firebase
+- Post workout using Firebase
 - Styling
+- Add tests for all functional code
