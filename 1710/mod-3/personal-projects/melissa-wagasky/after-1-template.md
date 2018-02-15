@@ -23,3 +23,7 @@
 
 #### Deliverables for next checkin:
 
+- UI and styling for bookshelf and card
+- capture and record audio using the browser
+- convert audio to correct file format
+- make the api call with the complete payload
