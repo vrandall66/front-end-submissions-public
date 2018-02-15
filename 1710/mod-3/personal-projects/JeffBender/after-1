@@ -20,3 +20,6 @@
      Figuring out a dynamic way to handle numerous categories
 
 #### Deliverables for next checkin:
+     Working actions, reducers, working redux flow for random quote and 1 category updating redux store
+     Display mapstatetoprops connection to store
+     Tests for all
