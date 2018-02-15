@@ -23,3 +23,8 @@ I want to display the results after a user search being sent to the store visual
 I would like to go over error handling and how you would like to see it implemented. 
 
 #### Deliverables for next checkin:
+- expand on testing suit 
+- clean data once component mounts 
+- tests data cleaner 
+- if search was using your complete-me pacakge 
+- have it filtering based on what being typed in the searh field. 
