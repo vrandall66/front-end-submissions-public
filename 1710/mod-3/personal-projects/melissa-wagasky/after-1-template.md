@@ -4,17 +4,18 @@
 
 #### Progress made?
 
-- API to use
-- Basic Wireframes
+- React boilerplate set up with all routes
+- Redux wired up and prepopulated with one set of flashcards
+- UI underway for "bookself"
+- Initial component UI for a single card
 
 #### What deliverables still need to be completed from your last checkin?
 
-- Still need PR fleshed out
+- API call - seems like I need to setup node.js?
+- Playing with Watson API, determine data payloads
 
 #### Next Steps?
 
-- Playing with Watson API, determine data payloads
-- How to record audio and have access in browser
 
 #### What are your concerns (if any)
 
@@ -22,8 +23,7 @@
 
 #### Deliverables for next checkin:
 
-- React boilerplate set up with all routes
-- Redux wired up and prepopulated with one set of flashcards
-- UI underway for "bookself"
-- Initial component UI for a single card
-- File for API calls, with a working post call and fetch call to Watson
+- UI and styling for bookshelf and card
+- capture and record audio using the browser
+- convert audio to correct file format
+- make the api call with the complete payload
