@@ -21,7 +21,10 @@
 -After looking more into the board game API, I think it is going to be a bit more challenging to set up the calls than I originally expected. Totally doable and I have a plan, but it's a bit more complicated and it will change my original design layout.
 
 #### Deliverables for next checkin:
-
+- Have firebase working so that you have a user saved in the DB / store 
+- Have XML converted to JSON and stored in the store 
+- Have the ability for users to add a game to their account.
+- Start working on adding multiple users and seeing if they can interact. 
 
 
 #### Pictures
