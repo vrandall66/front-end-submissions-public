@@ -17,3 +17,8 @@ Build out CSS
 How to get emails not to land in spam (pairing with Ian on Monday to resolve)
 Personal life for J
 #### Deliverables for next checkin:
+See Styles coming together
+Pairing on email with Ian... get it working
+Initial Call to firebase (post new roaster)
+Ideally, googleAuth done as well 
+Work on test suite
