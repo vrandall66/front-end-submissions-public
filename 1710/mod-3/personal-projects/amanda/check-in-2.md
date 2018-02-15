@@ -24,3 +24,8 @@
 * Having trouble redirecting my initial route
 
 #### Deliverables for next checkin:
+- grab current location from the browser so that user has option to set current location as current city 
+- we need to figure out the `this.history.push`
+- Have routes rendering data base off of click and corresponding data in store 
+- continue testing. Test containers. 
+- Start working on favorites. 
