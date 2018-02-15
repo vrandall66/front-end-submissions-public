@@ -5,7 +5,8 @@
 ### Deliverables from Check In 1
 
 #### Rest of the wireframes
-on paper
+![two](https://i.imgur.com/dAE5bYp.jpg)
+![one](https://i.imgur.com/e4MsypA.jpg)
 
 #### React boilerplate app setup with router, and all of your initial routes
 done!
