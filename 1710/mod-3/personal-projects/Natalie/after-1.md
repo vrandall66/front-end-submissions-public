@@ -2,7 +2,13 @@
 
 #### Check In: 1
 
-#### Progress made? Set up project file structure. 
+#### Progress made? 
+
+Set up project file structure.
+
+Created components and containers.
+
+Set up routes.
 
 Set up firebase google authentication. Logged in once but need to modify code. 
 
