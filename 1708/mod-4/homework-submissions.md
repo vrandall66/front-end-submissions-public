@@ -102,7 +102,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/katiescruggs/express-tutorial) - additional items 1, 2, 4
 * [Promise Practice Exercises](https://repl.it/@katiescruggs/promises-prework)
 * [Palette Picker PWA](https://scruggs-palette-picker-pwa.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/katiescruggs/websocket-tutorial) - added notifications for user connecting/disconnecting, "someone is typing" feature, and ability to set a username
 * [House of Vars Blog Post](https://medium.com/@katie.e.scruggs/contributing-to-open-source-d15c704b7b4e)
 * [Pattern Party Repo](https://github.com/katiescruggs/pattrn-party)
 * [Pattern Party GitHub Pages](http://katiescruggs.com/pattrn-party/)
