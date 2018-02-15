@@ -27,3 +27,10 @@
   - Creating badges
 
 #### Deliverables for next checkin:
+
+* Great Progress!!!
+* Continue Testing
+* Have all routes rendering their necessary components
+* Finish building out the UI
+* Find a badge library/create badges
+* Decide on a name
