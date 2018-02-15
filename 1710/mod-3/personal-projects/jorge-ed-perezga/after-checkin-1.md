@@ -24,3 +24,10 @@ What are your concerns (if any)
 I would like to add the postcard section if I finish most of my next deliverables by Sunday.
 
 Deliverables for next checkin:
+
+* Move user from state in React to Redux store
+* Move art from state in React to Redux store
+* Display art on the page
+* TEST!!!
+* Build out the UI
+* Build out task functionality and put tasks in the store
