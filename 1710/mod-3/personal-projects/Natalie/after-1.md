@@ -22,5 +22,7 @@ Demonstrate that I can create a new calendar, post to calendar, edit calendar, a
 
 #### Deliverables for next checkin:
 * Complete calendar functionality
+* Add user to the redux store
+* Add calendar events to the store
 * TEST, TEST, TEST
 * Build out the UI
