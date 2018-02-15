@@ -1,13 +1,22 @@
 ## Project Name:
 
-#### Check In: 1
+#### Check In: #1
 
 #### Progress made?
+     File structure setup
+     Route set up
+     Two successful fetch calls
 
 #### What deliverables still need to be completed from your last checkin?
+     Need a solution for all routes / categories
 
 #### Next Steps?
+     Clean data
+     Connect fetch calls to button click event
+     Display data
+     Styles
 
 #### What are your concerns (if any)
+     Figuring out a dynamic way to handle numerous categories
 
 #### Deliverables for next checkin:
