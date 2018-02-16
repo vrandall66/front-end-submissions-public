@@ -68,13 +68,14 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jesse Packwood
 
+
 * [Node Server Tutorial](https://github.com/jessepackwood/NodeJSTutorial)
 * [Express Tutorial](https://github.com/jessepackwood/ExpressTutorial) - What additional items did you work on?
 * [Promise Practice Exercises](https://repl.it/@jessepackwood/promisePractice)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://palette-picker-pwa-jesse.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
+* [House of Vars Blog Post](https://medium.com/@jessewoodco/navigating-the-open-source-road-map-2f0359f12adc)
+* [Pattern Party Repo](https://github.com/jessepackwood/pattrn-party)
 * [Pattern Party GitHub Pages]()
 
 ### Julie Dursema
