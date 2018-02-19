@@ -38,12 +38,3 @@ Evaluator name
 * 3: Application meets all requirements as laid out per the specification.
 * 2: Application runs, but does not work properly, or does not meet specifications.
 * 1: Application does not run, crashes on start.
-
-### 5. Code Sanitation
-
-The output from ESLint shows…
-
-* 4 - Zero complaints
-* 3 - Five or fewer complaints
-* 2 - Six to ten complaints
-* 1 - More than ten complaints
