@@ -24,3 +24,9 @@
 If I want a state to be clickable, should the svg files be a map overlay or an image element? 
 
 #### Deliverables for next checkin:
+- Building out the travel log 
+- overlaying your map 
+- making parts of it clickable. 
+- get the line from hometown to destination 
+- start calculating miles. 
+- start intentionally testing your application. 
