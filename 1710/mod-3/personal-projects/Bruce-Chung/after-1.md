@@ -30,7 +30,11 @@ Diffbot can't crawl certain pages and urls
 
 ###Deliverables for next checkin:
 
-Bring in author data
-Create rubric for weighing scores
-Combine scores
-Find a way to clean/allow more urls
+* TEST!!! (frontend and backend)
+* Separate containers and components
+* Prop Types
+* Bring in author data
+* Create rubric for weighing scores
+* Combine scores
+* Find a way to clean/allow more urls
+
