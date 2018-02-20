@@ -28,3 +28,9 @@ Build out a UI/UX template.
 Getting the API to consistently work. Testing terrifies me. I toil over design decitions. I need to just run with an idea. 
 
 #### Deliverables for next checkin:
+- you need to grab info from the API 
+- you need leverage router more 
+  - look into es6 generators to help you do this. 
+- work on scoring 
+- work on testing. 
+- style this. 
