@@ -21,3 +21,4 @@ How should I test the BE endpoint which calls Watson? The post to watson respond
 * Add Prop Types
 * Work on styling
 * Break things out into smaller redux pieces
+* Add some data viz
