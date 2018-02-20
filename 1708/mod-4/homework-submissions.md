@@ -61,7 +61,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/jasonhughes1/M4-Express-Tutorial) - What additional items did you work on? 1, 2, 3, and 4
 * [Promise Practice Exercises](https://repl.it/@JasonHughes/Promise-Practice)
 * [Palette Picker PWA](https://pwa-palette-picker-jason.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/jasonhughes1/Web-Sockets/blob/master/index.js) - What additional items did you work on? Broadcast a message to connected users when someone connects or disconnects, Add “{user} is typing” functionality, Show who’s online
 * [House of Vars Blog Post](https://medium.com/@jasonhughes088/contributing-to-my-first-open-source-project-2e0cae411077)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
