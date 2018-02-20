@@ -27,3 +27,10 @@
 * How do I account for HTML in some of the text blocks I'm getting back?
 
 #### Deliverables for next checkin:
+
+- Move current location to `componentDidMount`
+- Move error handling to react  `componentDidCatch` error component 
+- Refactor `SearchWelcome` 
+  - move logic out of component 
+  - have reusable try catch function? 
+- Up your test count 
