@@ -4,7 +4,7 @@
 
 #### Progress made?
 Auth:
-Can sign up/log in and sign out. User is stored in redux store with id and name.
+Can sign up/log in and sign out. User is stored in redux store with id and name. Post puzzle button only shows up when logged in.
 
 Puzzles:
 Post puzzle form posts text to firebase realtime database and images to firebase cloud storage. Puzzles update automatically on the front end and load whether someone is loggedin or not. Authorization in cloud storage does not allow images to load unless an authorized user is logged in. Puzzles also have a user associated with them.
