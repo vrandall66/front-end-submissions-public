@@ -30,3 +30,7 @@ What are your concerns (if any)
   N/A
 
 Deliverables for next checkin:
+* Great job.... looks great!
+* Continue TESTING!
+* Add task functionality
+* Prop Types
