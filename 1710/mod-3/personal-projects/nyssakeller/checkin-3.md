@@ -10,11 +10,11 @@ Progress made?
 
 -Did more testing
 
--Render cards for location...having trouble rendering cards for the artists
-
--When you search for an artist, it puts the concert that matches the location in local storage in the redux store
+-Render cards for location...having trouble rendering cards for the artists...not sure why because I know its recieving the correct information
 
 -locally storing location
+
+-When you search for an artist, it puts the concert that matches the location in local storage in the redux store
 
 -styled more...having touble adding a background color to the page, so weird stuff happens when I try on App.js or Home.js...I think its something with router messing with it
 
@@ -40,6 +40,8 @@ Next Steps?
 
 -fix user input so it doesnt have to be exact
 
+-refactor LocationSearch and ArtistSearch into one component because the are exactly the same
+
 
 
 
@@ -48,6 +50,9 @@ What are your concerns (if any)
 -My api to pull in all events for a certain location is kind of funky because the api takes in a number for the location rather than the location name so i had to build out a locationObject.js to convert the location to the number. I feel like this can cause problems
 
 -getting concerts to show up in chronological order
+
+-Feeling a little stuck/overwhelmed
+
 
 
 
