@@ -33,3 +33,10 @@
  - Usefulness of app. Kind of want to look into oAuth and signing in.
 
 #### Deliverables for next checkin:
+* Great Job!!
+* continue TESTING
+* add Prop types
+* badge creator helper
+* fix badge positioning
+* functionality to edit goal time
+* loading gif
