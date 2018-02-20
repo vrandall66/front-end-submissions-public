@@ -41,3 +41,11 @@
 - adding user login without a backend?
 
 #### Deliverables for next checkin:
+- User should be able to favorite 
+  - faved market shoudl be added to the store 
+  - you'll have to create and action for this 
+  - I would probably write tests for these 
+- Move quotes to store 
+  - test the container 
+  - this will give you a lot of prep for the final. 
+- Up your test count 
