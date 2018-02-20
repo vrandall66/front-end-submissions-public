@@ -28,3 +28,10 @@
 * issue getting url for news thumbnail
 
 #### Deliverables for next checkin:
+* Continue TESTING
+* Display content on the page
+* Add prop types
+* Separate containers and components
+* Setup routing
+* Build out the UI
+
