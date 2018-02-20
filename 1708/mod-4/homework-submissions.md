@@ -61,20 +61,21 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/jasonhughes1/M4-Express-Tutorial) - What additional items did you work on? 1, 2, 3, and 4
 * [Promise Practice Exercises](https://repl.it/@JasonHughes/Promise-Practice)
 * [Palette Picker PWA](https://pwa-palette-picker-jason.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/jasonhughes1/Web-Sockets/blob/master/index.js) - What additional items did you work on? Broadcast a message to connected users when someone connects or disconnects, Add “{user} is typing” functionality, Show who’s online
 * [House of Vars Blog Post](https://medium.com/@jasonhughes088/contributing-to-my-first-open-source-project-2e0cae411077)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
 ### Jesse Packwood
 
+
 * [Node Server Tutorial](https://github.com/jessepackwood/NodeJSTutorial)
 * [Express Tutorial](https://github.com/jessepackwood/ExpressTutorial) - What additional items did you work on?
 * [Promise Practice Exercises](https://repl.it/@jessepackwood/promisePractice)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://palette-picker-pwa-jesse.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
+* [House of Vars Blog Post](https://medium.com/@jessewoodco/navigating-the-open-source-road-map-2f0359f12adc)
+* [Pattern Party Repo](https://github.com/jessepackwood/pattrn-party)
 * [Pattern Party GitHub Pages]()
 
 ### Julie Dursema
@@ -94,7 +95,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/julieahawkins/express-lesson) - What additional items did you work on? all 4!
 * [Promise Practice Exercises](https://repl.it/@julabi/ImpoliteUnsightlyAvians)
 * [Palette Picker PWA](palette-picker-hawk.herokuapp.com)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/julieahawkins/web-sockets) - What additional items did you work on? user connect/disconnect and usernames
 * [House of Vars Blog Post](https://medium.com/@julabi/diving-into-open-source-waters-3aed319c0d8c)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
@@ -105,7 +106,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/katiescruggs/express-tutorial) - additional items 1, 2, 4
 * [Promise Practice Exercises](https://repl.it/@katiescruggs/promises-prework)
 * [Palette Picker PWA](https://scruggs-palette-picker-pwa.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/katiescruggs/websocket-tutorial) - added notifications for user connecting/disconnecting, "someone is typing" feature, and ability to set a username
 * [House of Vars Blog Post](https://medium.com/@katie.e.scruggs/contributing-to-open-source-d15c704b7b4e)
 * [Pattern Party Repo](https://github.com/katiescruggs/pattrn-party)
 * [Pattern Party GitHub Pages](http://katiescruggs.com/pattrn-party/)
@@ -128,7 +129,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://repl.it/@patneel87/MeatySquigglyDromaeosaur)
 * [Palette Picker PWA](https://palette-picker-pwa.herokuapp.com/)
 * [Palette Picker-PWA Repo](https://github.com/patrickjneel/forked-palette-picker)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/patrickjneel/socket-practice/blob/master/public/index.html) - 
+  disconnect and connect messages, username, and makeing new user name.
 * [House of Vars Blog Post](https://medium.com/@patrickneel/into-the-abyss-contributing-to-an-open-source-project-11f0f03e517c)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
@@ -139,7 +141,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/rmorgan323/express-tutorial-prework) - What additional items did you work on?  all four
 * [Promise Practice Exercises](https://repl.it/@rmorgan323/Promises-Exercises)
 * [Palette Picker PWA](https://palette-picker-pwa-rmorgan323.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/rmorgan323/chat-socket) - What additional items did you work on? 1,2,4
 * [House of Vars Blog Post](https://gist.github.com/rmorgan323/b852071ae9b62f297f0652717e0e8d5f)
 * [Pattern Party Repo](https://github.com/rmorgan323/pattrn-party)
 * [Pattern Party GitHub Pages](https://rmorgan323.github.io/pattrn-party/)
