@@ -35,3 +35,9 @@ Is it ok to be requesting so many images at one time from the server?
 Sometimes my descriptions come back as null but this does not happen in Postman only in my app.  
 
 #### Deliverables for next checkin:
+- Move the ingredients out of the form field so that the form only has to worry about what to show in the drop down and what's in the input field 
+- Start working on a seperate route for all flavor pairings 
+ - a user selects a card, it has some sort of indicator that it's been selected 
+ - selected cards are probably going to go to store 
+ - on that flavor pairing route you'll do your flavor comps. 
+ - write tests for this! 
