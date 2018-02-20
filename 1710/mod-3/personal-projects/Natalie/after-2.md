@@ -37,3 +37,8 @@ Test
 The calendar ID is assigned when a calendar is created and in order to allow intereection with the village calendar from app I need a back end to store the calendar ID and users associated with that id. I could also use a backend to store event card boiler info to make the app more interactive. I'm concerned that the scope of the project is too big and may need to be re-evaluated.
 
 #### Deliverables for next checkin:
+* TESTING
+* Prop Types
+* Just focus on having a single user 
+* Add functionality to edit and delete events
+* Clean up the UI
