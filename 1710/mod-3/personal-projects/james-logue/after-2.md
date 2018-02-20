@@ -16,3 +16,8 @@ Polish stying and display of information, develop text content and context. Buil
 How should I test the BE endpoint which calls Watson? The post to watson responds into a callback of the function used to pass params, and I can't return out of it, so I am currently delivering the response to the front end from within that callback. 
 
 #### Deliverables for next checkin:
+* Great job!
+* Continue testing
+* Add Prop Types
+* Work on styling
+* Break things out into smaller redux pieces
