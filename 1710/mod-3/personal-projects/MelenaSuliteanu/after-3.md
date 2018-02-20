@@ -27,6 +27,9 @@ More tests
 
 #### Deliverables for next checkin:
 Test everything
+
 Get images from firebase cloud to load even if user isn't signed in. Or have dummy puzzles.
+
 Fix fonts on puzzle submission form
+
 After everything else, move on to chat funcitonality
