@@ -35,3 +35,13 @@ Not sure if I'll need firebase, or posgres, and i really didn't understand it wh
 I think my design is hideous. I am not confident in my ability to make my site look good.
 
 #### Deliverables for next checkin:
+
+Working delete button
+
+Ability to add favorites
+
+More work on styling
+
+Ability to save a playlist / favorites (to firebase)
+
+Ability to push a playlist to spotify
