@@ -16,3 +16,5 @@ Brittany
 ### 3. Encapsulation / Breaking Logic into Components
 
 ### 4. Functional Expectations
+
+* 3: Application meets all requirements as laid out per the specification.
