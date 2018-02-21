@@ -23,7 +23,7 @@ if(currentNode[currentLetter].completeWord === false && !lettersArray.length) {
 }
 ```
 
-* To check if an object has a property, try using `Object.hasOwnProperty('propName');` instead of `Object.keys(currentNode).find(letter => letter === currentLetter`
+* To check if an object has a property, try using `Object.hasOwnProperty('propName');` instead of `Object.keys(currentNode).find(letter => letter === currentLetter)`
 * In your delete, you should check to make sure that a node is a complete word before decrementing the word count.
 
 ### 1. Fundamental JavaScript & Style
