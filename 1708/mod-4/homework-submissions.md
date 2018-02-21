@@ -52,7 +52,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
   * Add support for nicknames
   * Add “{user} is typing” functionality
 * [House of Vars Blog Post](https://medium.com/@hartigan.hm/finding-solid-ground-in-the-open-source-jungle-dc7a220c6a25)
-* [Pattern Party Repo]()
+* [Pattern Party Repo](https://github.com/HartiganHM/pattrn-party)
 * [Pattern Party GitHub Pages]()
 
 ### Jason Hughes
@@ -76,7 +76,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post](https://medium.com/@jessewoodco/navigating-the-open-source-road-map-2f0359f12adc)
 * [Pattern Party Repo](https://github.com/jessepackwood/pattrn-party)
-* [Pattern Party GitHub Pages]()
+* [Pattern Party GitHub Pages](https://hartiganhm.com/pattern-party/)
 
 ### Julie Dursema
 
