@@ -76,7 +76,7 @@ We would love more guidance on how to set an environment variable in Heroku/Circ
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 The following set of points are distributed at the discretion of the instructor.
 
