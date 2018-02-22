@@ -82,27 +82,44 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**10 points**: (10 possible points)
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**60 points**: (60 possible points)
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**40 points**: (40 possible points)
+
+* Good job testing for all of the properties in the responses (along with the status codes and data structures)
+* Good sad path test [here](https://github.com/HartiganHM/spirit-backend/blob/master/test/routes.spec.js#L134) with correct response
+* Overall, great testing suite - very thorough
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**25 points**: (40 possible points)
+
+* Unless there is something unique about [this endpoint](https://github.com/HartiganHM/spirit-backend/blob/master/test/routes.spec.js#L48), to get all of the terms, the route would be `/api/v1/terms` - the same thing goes for categories (this is not really a testing comment, more of a server endpoint structure comment, but I saw this in the test file first)
+* [In this case](https://github.com/HartiganHM/spirit-backend/blob/master/test/routes.spec.js#L180), I think the conventional response should be a 200 with an empty array, the filter just didn't find anything matching that criteria
+* [This](https://github.com/HartiganHM/spirit-backend/blob/master/test/routes.spec.js#L518) should be a 404 response since resource is not found
+* [This](https://github.com/HartiganHM/spirit-backend/blob/master/test/routes.spec.js#L603) should also be a 404 because the resource is not found
+* [Some good uses of middleware](https://github.com/HartiganHM/spirit-backend/blob/master/server.js#L43-L51)
+* If you can, be [more specific](https://github.com/HartiganHM/spirit-backend/blob/master/server.js#L55) about what origins you are allowing to access your site than just the wildcard `*`
+* Seems strange that you would have [CORS](https://github.com/HartiganHM/spirit-backend/blob/master/server.js#L73) issues in testing - would like to see more about this
+* Would be great to see [this section of code](https://github.com/HartiganHM/spirit-backend/blob/master/server.js#L85-L91) pulled out into it's own function or middleware so that it can be reused (the difference being what parameters are needed for each endpoint)
+* Curious why you needed to use async/await within [this request handler](https://github.com/HartiganHM/spirit-backend/blob/master/server.js#L253-L264)? And others.
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**15 points**: (20 possible points)
+
+* Looks like DS_STORE was committed to git, be sure to add a .gitignore right away when you create the project repository
+* Would liked to have seen more, smaller commits - I would expect around 100 commits or more for a project like this
 
 ## Project is worth 170 points
 
 ## To get a 3 on this project, you need to score 125 points or higher
 ## To get a 4 on this project, you need to score 145 points or higher
 
-# Final Score: x / 170
+# Final Score: 150 / 170
