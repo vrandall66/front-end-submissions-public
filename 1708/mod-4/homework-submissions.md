@@ -29,14 +29,14 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### David Ryan
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
-* [Palette Picker PWA]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Node Server Tutorial](https://github.com/davidjryan/messages)
+* [Express Tutorial](https://github.com/davidjryan/PreworkExpress) - What additional items did you work on?
+* [Promise Practice Exercises](https://repl.it/@davidjryan/VirtualPristinePasswords)
+* [Palette Picker PWA](https://djr-palette.herokuapp.com/)
+* [Websockets Tutorial](https://github.com/davidjryan/chat-app) - user is typing : What additional items did you work on?
+* [House of Vars Blog Post](https://medium.com/@djrzo4/open-sourcing-1-issue-hijacking-or-build-dive-and-contribute-301d1c6b046f)
+* [Pattern Party Repo](https://github.com/davidjryan/pattrn-party)
+* [Pattern Party GitHub Pages](https://davidjryan.github.io/pattrn-party/)
 
 ### Hugh Hartigan
 
@@ -167,6 +167,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Websockets Tutorial](https://github.com/t-laird/websockets-tutorial) - What additional items did you work on?
   * Global message for connect and disconnect
   * Allow user to change their name in chat
-* [House of Vars Blog Post](https://medium.com/@thomaslaird/diving-in-to-open-source-d2f5ecd20210)
-* [Pattern Party Repo](https://github.com/t-laird/pattrn-party)
-* [Pattern Party GitHub Pages](https://t-laird.com/pattrn-party/)
+* [House of Vars Blog Post]()
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
