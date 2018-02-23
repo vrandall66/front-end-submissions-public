@@ -26,7 +26,7 @@
 - In line 116 (and elsewhere) use boolean instead of 0 vs 1 for `completed` vs `non-completed`
 - Importance array can be saved/accessed directly in constructor function instead of created and returned from function
 - Opportunities for refactoring with append/prepend as well as other functionality around voting, importance, title/task
-- Great work getting things refactored from inherited repo, overall
+- Great work getting things refactored from inherited repo, overall                                                                     
 
 
 ### GIT/GITHUB
