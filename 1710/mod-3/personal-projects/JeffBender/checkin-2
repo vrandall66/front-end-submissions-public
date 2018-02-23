@@ -1,0 +1,27 @@
+## Project Name: Quick Quote
+
+#### Check In 2
+
+#### Waffle & Github
+      https://github.com/j25bender/quick-quote
+      https://waffle.io/j25bender/quick-quote
+
+#### Order Of Attack
+     Finish Category tests
+     Favorites?
+
+#### Nice To Haves
+     Sign in / up
+     Favorites
+     
+#### Biggest Challenges
+     Redux
+
+#### Instructor Notes
+
+#### Deliverables for next checkin:
+      Clean up UI. Make button more intuitive and near final state
+      All details of quote button, categories etc. well organized 
+      Tests for category container
+      Favorites in store with all associated actions and reducers and tests
+      New route to display favorites

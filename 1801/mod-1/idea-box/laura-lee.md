@@ -1,6 +1,25 @@
-## Student:
-## Evaluator:
+## Student: Laura and Lee
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+- Incomplete
+- Would like to see better strides toward organization throughout the app (ie. could have folders for images, stylesheets etc)
+
+### comp
+- Implementation suffered due to misplacement of reset
+
+### html
+
+- Always make sure that reset is the first stylesheet loaded in.
+- Work on indentation
+- Inputs want to see aria-label
+- Would like to see forms
+
+### css
+- Break out duplicate declaration rules into more broad selectors
+
+### js
+### git/github
 
 ## Functional Expectations
 

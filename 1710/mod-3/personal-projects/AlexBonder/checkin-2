@@ -1,0 +1,47 @@
+## Project Name: Step to the Beat
+
+#### Check In: 2
+
+#### Progress made?
+
+Add css to all files (very much want to fix it)
+
+Access spotify API, Able to pull down playlist based on SPM and Genre
+
+Added cards to waffle for tweaks and edge cases
+
+Added Redux flow
+
+#### What deliverables still need to be completed from your last checkin?
+
+None
+
+#### Next Steps?
+
+Probably add back-end to save user favorites.
+
+Tweak action creators to hold more information for other pages.
+
+Save favorites.
+
+Add funcitonality for favorites, saving, deleting.
+
+#### What are your concerns (if any)
+
+I'm not going to have enough time to make it perfect. I know this isn't true. But, you know. it's that voice in the head.
+
+Not sure if I'll need firebase, or posgres, and i really didn't understand it when we did it last time. I'm a little nervous that i'll lose time trying to make that work.
+
+I think my design is hideous. I am not confident in my ability to make my site look good.
+
+#### Deliverables for next checkin:
+
+Working delete button
+
+Ability to add favorites
+
+More work on styling
+
+Ability to save a playlist / favorites (to firebase)
+
+Ability to push a playlist to spotify
