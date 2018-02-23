@@ -20,3 +20,7 @@ More tests (always)
 #### What are your concerns (if any)
 
 #### Deliverables for next checkin:
+Tests
+Email notifications
+Put on Heroku
+Get image editing maybe
