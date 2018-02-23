@@ -132,8 +132,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Websockets Tutorial](https://github.com/patrickjneel/socket-practice/blob/master/public/index.html) - 
   disconnect and connect messages, username, and makeing new user name.
 * [House of Vars Blog Post](https://medium.com/@patrickneel/into-the-abyss-contributing-to-an-open-source-project-11f0f03e517c)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/patrickjneel/pattern-party)
+* [Pattern Party GitHub Pages](https://patrickjneel.github.io/pattern-party/)
 
 ### Rob Morgan
 
