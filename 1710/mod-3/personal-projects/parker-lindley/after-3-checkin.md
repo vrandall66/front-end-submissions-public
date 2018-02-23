@@ -1,6 +1,6 @@
-## Project Name: Cog Locker (tentative)
+## Project Name: Kog Locker (tentative)
 
-#### Check In: 2
+#### Check In: 3
 
 #### Progress made?
 - Added loading gif while gmaps loads
