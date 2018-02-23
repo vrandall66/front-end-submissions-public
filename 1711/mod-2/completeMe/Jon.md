@@ -4,7 +4,7 @@
 ### Evaluator:
 Brittany
 
-### Evaluator comments: Code style is a little cumbersome and difficult to follow at times, you're doing a lot more work in places where simpler solutions would suffice.
+### Evaluator comments: Code style is a little cumbersome and difficult to follow at times, you're doing a lot more work in places where simpler solutions would suffice. Good job catching edge-cases and testing potential failures.
 
 
 ### 1. Fundamental JavaScript & Style
