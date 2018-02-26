@@ -146,7 +146,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Pattern Party Repo](https://github.com/rmorgan323/pattrn-party)
 * [Pattern Party GitHub Pages](https://rmorgan323.github.io/pattrn-party/)
 
-
 ### Samuel Singer
 
 * [Node Server Tutorial](https://github.com/Cache123/nodejs-practice)
