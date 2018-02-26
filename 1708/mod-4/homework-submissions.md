@@ -146,7 +146,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Pattern Party Repo](https://github.com/rmorgan323/pattrn-party)
 * [Pattern Party GitHub Pages](https://rmorgan323.github.io/pattrn-party/)
 
-
 ### Samuel Singer
 
 * [Node Server Tutorial](https://github.com/Cache123/nodejs-practice)
@@ -167,6 +166,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Websockets Tutorial](https://github.com/t-laird/websockets-tutorial) - What additional items did you work on?
   * Global message for connect and disconnect
   * Allow user to change their name in chat
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@thomaslaird/diving-in-to-open-source-d2f5ecd20210)
+* [Pattern Party Repo](https://github.com/t-laird/pattrn-party)
+* [Pattern Party GitHub Pages](https://t-laird.com/pattrn-party/)
