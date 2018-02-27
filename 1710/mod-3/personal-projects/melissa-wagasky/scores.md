@@ -10,7 +10,7 @@ A good project idea should:
 
 **1. Completion**
 
-* 3: Developer completed all the user stories and requirements set during check-ins.
+* 3-: Developer completed all the user stories and requirements set during check-ins.
 
 ### CSS/Design
 
@@ -18,26 +18,21 @@ A good project idea should:
 
 ### Code Quality
 
-- 4- - Developer demonstrates complete understanding of React with appropriately separated components and exceptionally well refactored code.
+- 4 - Developer demonstrates complete understanding of React with appropriately separated components and exceptionally well refactored code.
 
 ### Redux Architecture
 
-* 3: All state changes are handled by Redux with exeception to Controlled Forms. Actions and Reducers are simple. Containers don't hold unnecessary data.
+* 4: Appropriate components are wrapped in connected Redux container components. The Redux store contains all necessary application data and nothing more. All state changes are handled through Redux actions and reducers. Developer uses middleware. Actions and reducers are clean. At least one container is reused.
 
 ### Code Sanitation
 
 The output from ESLint shows…
 
-(UNKNOWN, couldn't run)
-
 * 4 - Zero complaints
-* 3 - Five or fewer complaints
-* 2 - Six to ten complaints
-* 1 - More than ten complaints
 
 ### Testing
 
-- 3 - Almost all components are tested to a level that indicates developer has an understanding of testing
+- 4 - Every component is tested from both a unit and acceptance standpoint, all crucial functionality is tested
 
 
 ### Workflow
