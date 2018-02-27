@@ -154,8 +154,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://github.com/Cache123/palette-picker-pwa)
 * [Websockets Tutorial](https://github.com/Cache123/web-socket-messaging) - What additional items did you work on? - (1,4,5)
 * [House of Vars Blog Post](https://medium.com/@samuelsinger/open-food-network-attempting-an-open-source-contribution-b7f25757cf8b)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/Cache123/pattern-party)
+* [Pattern Party GitHub Pages](https://cache123.github.io/pattern-party/)
 
 ### Thomas Laird
 
