@@ -1,132 +1,88 @@
-## Students:
-## Evaluator:
+## Students: Helen and Ryan
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-## Functional Expectations
+## General
+- Inherited Austin's code - easy to understand and repurpose
+- Something weird going on with cloned copy - bits of functionality if broken or buggy
+- Can't filter on mobile 
+- GREAT accessibility
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+## Functional Expectations
+  
+* Proficient   
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## CSS
 
 #### Structure of Code
-
-* Novice  
+  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Implementation
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+ 
+* Proficient    
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+  
+* Proficient   
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+  
+* Proficient    
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## GIT & GITHUB
 
 #### Git
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+ 
+* Proficient   
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient 
 
 ## DESIGN
 
 #### Design Concepts
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+ 
+* Proficient    
 
 ## PAIRING
 
 #### Collaboration
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional

@@ -1,132 +1,87 @@
-## Students:
-## Evaluator:
+## Students: Tony & Angela
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-## Functional Expectations
+- Made it through phase 3!
+- Only six commits
+- Used Waffle!!!
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+## Functional Expectations
+ 
+* Proficient    
 
 ## HTML
 
 #### Accessibility
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+  
+* Proficient    
 
 #### Conditional Logic
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Objects & Prototypes
-
-* Novice  
+  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+ 
+* Proficient    
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## PAIRING
 
 #### Collaboration
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional
