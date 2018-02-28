@@ -30,10 +30,7 @@ The output from ESLint shows…
 
 (UNKNOWN, couldn't run)
 
-* 4 - Zero complaints
 * 3 - Five or fewer complaints
-* 2 - Six to ten complaints
-* 1 - More than ten complaints
 
 ### Testing
 
