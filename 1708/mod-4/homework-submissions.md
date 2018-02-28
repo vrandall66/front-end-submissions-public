@@ -63,8 +63,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://pwa-palette-picker-jason.herokuapp.com/)
 * [Websockets Tutorial](https://github.com/jasonhughes1/Web-Sockets/blob/master/index.js) - What additional items did you work on? Broadcast a message to connected users when someone connects or disconnects, Add “{user} is typing” functionality, Show who’s online
 * [House of Vars Blog Post](https://medium.com/@jasonhughes088/contributing-to-my-first-open-source-project-2e0cae411077)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/jasonhughes1/Pattrn-Party)
+* [Pattern Party GitHub Pages](https://jasonhughes1.github.io/Pattrn-Party/)
 
 ### Jesse Packwood
 
