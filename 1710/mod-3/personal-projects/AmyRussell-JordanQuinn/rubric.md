@@ -10,7 +10,7 @@ A good project idea should:
 
 **1. Completion**
 
-* 3-: Developer completed all the user stories and requirements set during check-ins.
+* 3+: Developer completed all the user stories and requirements set during check-ins.
 
 ### CSS/Design
 
@@ -32,7 +32,7 @@ The output from ESLint shows…
 
 ### Testing
 
-- 2 - A valid attempt was made to test functionality with obvious gaps where functionality is not tested
+- 3+ - A valid attempt was made to test functionality with obvious gaps where functionality is not tested
 
 
 ### Workflow
