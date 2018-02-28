@@ -10,15 +10,15 @@ A good project idea should:
 
 **1. Completion**
 
-* 2: Developer completed most of the user stories and requirements set during check-ins.
+* 3: Developer completed most of the user stories and requirements set during check-ins.
 
 ### CSS/Design
 
-- 2 - Developer has made intentional design decisions to create a user friendly application but Louisa would be mad. Attempts to follow [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
+- 3+ - Developer has made intentional design decisions to create a user friendly application but Louisa would be mad. Attempts to follow [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
 
 ### Code Quality
 
-- 2.5 - Developer selected appropriate libraries and frameworks to build the app but did not use them as intended. Significant refactoring necessary.
+- 3+ - Developer selected appropriate libraries and frameworks to build the app but did not use them as intended. Significant refactoring necessary.
 
 ### Redux Architecture
 
@@ -32,11 +32,11 @@ The output from ESLint shows…
 
 ### Testing
 
-- 2 - A valid attempt was made to test functionality with obvious gaps where functionality is not tested
+- 3 - A valid attempt was made to test functionality with obvious gaps where functionality is not tested
 
 
 ### Workflow
 
 
-- 2 - Developer make large, inconsistent commits that contain irrelevant changesets and make it difficult to follow the evolution of the application. Developer rarely use git branches and frequently incorporate changes directly into master with little or no review process. There are instances of committed source code that should be .gitignored and instances of dead code and/or debugger statements.
+- 3 - Developer make large, inconsistent commits that contain irrelevant changesets and make it difficult to follow the evolution of the application. Developer rarely use git branches and frequently incorporate changes directly into master with little or no review process. There are instances of committed source code that should be .gitignored and instances of dead code and/or debugger statements.
 
