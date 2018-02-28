@@ -1,132 +1,89 @@
-## Students:
-## Evaluator:
+## Students: Gavin Seamus
+## Evaluator: Nathaniel
 ## Notes/What To Work On:
 
 ## Functional Expectations
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+partial phase 3 - nothing past importance
 
 ## HTML
 
 #### Accessibility
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+aria-label, maybe use describedby for long text
+aria-live would probably make more sense on the list where you are adding the todos
 
 #### Style
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+watch out for elements w single child
 
 ## CSS
 
 #### Structure of Code
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+Have a strategy for organizing your css properties. Alphabetical is an easy way to get started.
 
 #### Implementation
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+Do not invoke a function when passing it in as a parameter, i.e. `$(document).ready(persistUserData());`
 
 #### Arrays
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+Try using a forEach in the future when looping over an array
 
 #### Objects & Prototypes
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+Try to create a prototype function to generate the html
+
+Great constructor function, however you never actually pass in an id, title, body, quality or completed, so you might as well just default all of those values
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+upVote and downVote share a lot of functionality, the only thing different is how the next quality is decided, you could move that out into two seperate functions and combine the rest.
 
+editTitleContent and editBodyContent are almost the same, you could use a conditional statement to determine if the title or body should be assigned a value.
+
+good job refactoring the search into one function that could take any selector. 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional

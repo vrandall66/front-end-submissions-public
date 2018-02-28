@@ -1,132 +1,74 @@
-## Students:
-## Evaluator:
+## Students: Austin Laura
+## Evaluator: Nathaniel
 ## Notes/What To Work On:
 
 ## Functional Expectations
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+Completed Phase 2
+started phase 3
 
 ## HTML
 
 #### Accessibility
-
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+- try to use aria-label on all inputs
 
 #### Style
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+Watch out for single html elements with only one child
 
 ## CSS
 
 #### Structure of Code
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Implementation
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+Make quality filter button text larger
+The completed background color should be lighter, it is to dark to see the text
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Conditional Logic
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+don't use window.onload after page loaded and assign a function to it
 
 #### Arrays
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+use forEach when looping over an array
 
 #### Objects & Prototypes
-
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+Try to use a constructor function for 2dos
 
 #### DOM Manipulation
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Style
-
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+store repeatedly selected elements in variables
 
 ## GIT & GITHUB
 
 #### Git
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional
