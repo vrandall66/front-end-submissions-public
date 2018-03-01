@@ -82,12 +82,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Node Server Tutorial](https://github.com/jdursema/NodeJSTutorial)
 * [Express Tutorial](https://github.com/jdursema/ExpressTutorial) - What additional items did you work on? 1, 2, 4
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises](https://repl.it/@JulieD/PromisesPractice)
 * [Palette Picker PWA](https://pwapalettepicker.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/jdursema/WebSocketPractice) - What additional items did you work on? user Tying, connect and disconnet
 * [House of Vars Blog Post](https://medium.com/@juliedursema/a-student-developers-journey-into-an-open-source-project-3ad617ff609)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/jdursema/PattrnParty)
+* [Pattern Party GitHub Pages](https://jdursema.github.io/PattrnParty/)
 
 ### Julie Hawkins
 
@@ -145,6 +145,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [House of Vars Blog Post](https://gist.github.com/rmorgan323/b852071ae9b62f297f0652717e0e8d5f)
 * [Pattern Party Repo](https://github.com/rmorgan323/pattrn-party)
 * [Pattern Party GitHub Pages](https://rmorgan323.github.io/pattrn-party/)
+
 
 ### Samuel Singer
 
