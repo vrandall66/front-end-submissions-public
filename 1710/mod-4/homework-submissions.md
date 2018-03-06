@@ -106,8 +106,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jorge Ed PerezGa
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
+* [Node Server Tutorial](https://github.com/JorgeEdPerezGa/node-HTTP-server-tutorial)
+* [Express Tutorial](https://github.com/JorgeEdPerezGa/node-express) - What additional items did you work on? All four additional items.
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
