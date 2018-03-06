@@ -6,13 +6,10 @@
 
 ### Specification Adherence
 
-4 - The application completes all 4 iterations above and implements one or more of the extensions.
-
-3 - The application completes all 4 iterations.
-
-2 - The application is in a usable state, but is missing some of the features outlined in the specification above.
-
-1 - The application is missing multiple features essential to having a complete application.
+* 4 - The application completes all 4 iterations above and implements one or more of the extensions.
+* 3 - The application completes all 4 iterations.
+* 2 - The application is in a usable state, but is missing some of the features outlined in the specification above.
+* 1 - The application is missing multiple features essential to having a complete application.
 
 ### Code Quality
 
