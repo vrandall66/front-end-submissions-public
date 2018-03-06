@@ -7,15 +7,21 @@
 ### Specification Adherence
 
 4 - The application completes all 4 iterations above and implements one or more of the extensions.
+
 3 - The application completes all 4 iterations.
+
 2 - The application is in a usable state, but is missing some of the features outlined in the specification above.
+
 1 - The application is missing multiple features essential to having a complete application.
 
 ### Code Quality
 
 4 - Developer demonstrates complete understanding of React with appropriately separated components and exceptionally well refactored code.
+
 3 - Developer appears comfortable in React. There are minor opportunities to refactor.
+
 2 - Developer selected appropriate libraries and frameworks to build the app but did not use them as intended. Significant refactoring necessary.
+
 1 - Developer did not make any effort to use React effectively or refactor code.
 
 ### CSS/Design
