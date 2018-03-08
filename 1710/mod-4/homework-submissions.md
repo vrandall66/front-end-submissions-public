@@ -30,7 +30,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Alex Bonder
 
 * [Node Server Tutorial]() - [GitHub Repo](https://github.com/lexbonder/messages)
-* [Express Tutorial]() - What additional items did you work on?
+* [Express Tutorial]() - [GitHub Repo](https://github.com/lexbonder/express-server) - What additional items did you work on? - Completed all 4 excercises
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
