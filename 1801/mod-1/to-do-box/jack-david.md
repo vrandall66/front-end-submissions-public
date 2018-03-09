@@ -1,132 +1,87 @@
-## Students:
+## Students: Jack and David
 ## Evaluator:
 ## Notes/What To Work On:
 
+- Aout 80% of the time spent refactoring the project
+- Tried to run through a screenreader 
+- changed the class names from camelCase in HTML. Added ARIA attributes
+
 ## Functional Expectations
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient    
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Functions & Scope
-
-* Novice  
+  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+ 
+* Proficient   
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+  
+* Proficient    
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
+  
 * Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional

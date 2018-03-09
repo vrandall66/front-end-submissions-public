@@ -1,56 +1,47 @@
-## Students:
-## Evaluator:
+## Students: Eric Quin
+## Evaluator: Nathaniel 
 ## Notes/What To Work On:
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
+Through phase 3
+
+bug with save button not always being disabled 
+- clear storage 
+- add title 
+- add body 
+- hit enter while focused inside of form
+completing item did not work on my computer, worked on eric's computer. Changing event from input to click got it working on my computer.
 
 ## HTML
 
 #### Accessibility
+Move filter label into a label tag and connect it to the filter drop down
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Style
+Get rid of extra label tags
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
+// store your ideas in an array vs storing them each as
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
@@ -60,73 +51,45 @@
 * Exceptional  
 
 #### Functions & Scope
+Refactor addNewestCard and normalAddCards so there is not any duplication
+Refactor showAll and showCompleted into one function
+In if/else blocks pull expressions that will happen in both out of the if/else block
+Don't declare var's in for loops
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Arrays
-
-* Novice  
+Use array prototypes to loop over arrays
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
-
-* Novice  
-* Advanced Beginner  
+Rename CardFactory to Card or Idea
 * Proficient  
-* Exceptional  
 
 #### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
-
-* Novice  
+// fix indentation
+// avoid repetitive code in functions
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## DESIGN
 
 #### Design Concepts
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## PAIRING
 
 #### Collaboration
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional

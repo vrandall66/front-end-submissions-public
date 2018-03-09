@@ -1,132 +1,87 @@
-## Students:
-## Evaluator:
+## Students: Camilo & Steph
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
-## Functional Expectations
+- Lots of struggles but had fun 
+- Good design w/nice flags!
+- Make sure that you are working together as a team
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+## Functional Expectations
+ 
+* Proficient   
 
 ## HTML
 
 #### Accessibility
-
-* Novice  
-* Advanced Beginner  
+  
 * Proficient  
-* Exceptional  
 
 #### Style
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient    
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
+  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient    
 
 ## DESIGN
 
 #### Design Concepts
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+ 
+* Proficient    
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional

@@ -1,132 +1,80 @@
-## Students:
-## Evaluator:
+## Students: Jim
+## Evaluator: Nathaniel
 ## Notes/What To Work On:
 
 ## Functional Expectations
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
+Functional w Extension and bugs
+- Character Count - line limit
+
+Phase 3 missing
+- hiding complete items
+- recent todos, only show 10
+- ran into difficulty with storing html in localstorage
 
 ## HTML
 
 #### Accessibility
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner
+Add aria label for vote-filter  
 
 #### Style
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+do you need a class of header on the header tag?
+use span instead of p tag for letter count
+only need one jquery script
 
 ## CSS
 
 #### Structure of Code
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+rename tq-med... task-quality?
 
 #### Implementation
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
-
-* Novice  
+pulling out repeated code
+store repeated elements in variables
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Arrays
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+- your for loop can be refactored to use forEach which is more readable
 
 #### Objects & Prototypes
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+Look into using constructor functions in the future, you could have one that stores the title, body with a prototype function that generates the html
 
 #### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional

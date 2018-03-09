@@ -66,7 +66,7 @@
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Anything else you wanna say
+Anything else you want to say?
 
 -----
 
@@ -77,23 +77,23 @@ The following set of points are distributed at the discretion of the instructor.
 
 ### Documentation
 
-**x points**:(10 possible points) Lorem ipsum dolor set amet
+**x points**: (10 possible points)
 
 ### Feature Completion
 
-**x points**: (60 possible points) Lorem ipsum dolor set amet
+**x points**: (60 possible points)
 
 ### Testing & Linting & Error Handling
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**x points**: (40 possible points)
 
 ### JavaScript Style
 
-**x points**: (40 possible points) Lorem ipsum dolor set amet
+**x points**: (40 possible points)
 
 ### Workflow
 
-**x points**: (20 possible points) Lorem ipsum dolor set amet
+**x points**: (20 possible points)
 
 ## Project is worth 170 points
 
