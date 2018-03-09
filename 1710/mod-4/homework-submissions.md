@@ -95,8 +95,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jeff Goodall
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
+* [Node Server Tutorial](https://github.com/goodalls/messages)
+* [Express Tutorial](https://github.com/goodalls/express-server) - Added 404, a clinet-side Javascript file, and json file.
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
