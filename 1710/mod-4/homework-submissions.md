@@ -205,9 +205,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Parker Lindley
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/etcetera8/node-tutorial)
+* [Express Tutorial](https://github.com/etcetera8/express-tutorial) - What additional items did you work on? An event, error rerouting, and importing/displaying JSON data
+* [Promise Practice Exercises](https://repl.it/@etcetera08/Promise-Pre-work)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
