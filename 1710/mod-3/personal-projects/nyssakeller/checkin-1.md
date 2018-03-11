@@ -9,7 +9,7 @@
 ##Stack: 
   -react
   -redux
-  -routher
+  -router
   -native??
   
 ##APIs: 
@@ -41,5 +41,15 @@
 ##Biggest Challenges:
   -getting the api key right now
   
-Instructor Notes
+Instructor Notes: Love the idea!
+
 Deliverables for next checkin:
+
+* Add issues to waffle
+* Finalize API and make requests
+* Setup React, Redux and Router
+* Storing into in the store
+* Set up linter
+* Setup test suite
+* Finalize wireframes and add to checkin
+* Build out landing page

@@ -57,4 +57,10 @@ What are your concerns (if any)
 
 
 Deliverables for next checkin:
+* Good Job with Testing and Prop Types! Keep it up!!
+* Continue Testing
+* Styling
+* Consider a drop down of available locations
+* Possibly getting users current location on page load and loading events
+* Functionality for rendering the artists
 
