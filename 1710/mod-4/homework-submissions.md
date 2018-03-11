@@ -29,9 +29,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Alex Bonder
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/lexbonder/messages)
+* [Express Tutorial](https://github.com/lexbonder/express-server) - What additional items did you work on? - Completed all 4 excercises
+* [Promise Practice Exercises](https://repl.it/@lxbndr/Promise-pledges)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
