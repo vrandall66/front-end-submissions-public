@@ -183,7 +183,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Nyssa Keller
 
-* [Node Server Tutorial]()
+* [Node Server Tutorial](https://github.com/nyssakeller/node-tutorial/tree/master/mod4/messages)
 * [Express Tutorial]() - What additional items did you work on?
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
