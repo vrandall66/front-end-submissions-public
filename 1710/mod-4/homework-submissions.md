@@ -29,9 +29,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Alex Bonder
 
-* [Node Server Tutorial](https://github.com/lexbonder/messages)
-* [Express Tutorial](https://github.com/lexbonder/express-server) - What additional items did you work on? - Completed all 4 excercises
-* [Promise Practice Exercises](https://repl.it/@lxbndr/Promise-pledges)
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on? - Completed all 4 excercises
+* [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
@@ -40,9 +40,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Amanda Tjan
 
-* [Node Server Tutorial](https://github.com/soytjan/node-server-tutorial)
-* [Express Tutorial](https://github.com/soytjan/express-tutorial) - Add JS, new endpoint, JSON file
-* [Promise Practice Exercises](https://github.com/soytjan/promise-practice/tree/master)
+* [Node Server Tutorial]()
+* [Express Tutorial]() - Add JS, new endpoint, JSON file
+* [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
@@ -95,9 +95,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jeff Goodall
 
-* [Node Server Tutorial](https://github.com/goodalls/messages)
-* [Express Tutorial](https://github.com/goodalls/express-server) - Added 404, a clinet-side Javascript file, and json file.
-* [Promise Practice Exercises](https://repl.it/@jgoodall/promise-practice)
+* [Node Server Tutorial]()
+* [Express Tutorial]() - Added 404, a clinet-side Javascript file, and json file.
+* [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
@@ -106,8 +106,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jorge Ed PerezGa
 
-* [Node Server Tutorial](https://github.com/JorgeEdPerezGa/node-HTTP-server-tutorial)
-* [Express Tutorial](https://github.com/JorgeEdPerezGa/node-express) - What additional items did you work on? All four additional items.
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on? All four additional items.
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
@@ -128,9 +128,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Melena Suliteanu
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/farmermel/practice-nodeserver)
+* [Express Tutorial](https://github.com/farmermel/practice-express-server) - What additional items did you work on?
+* [Promise Practice Exercises](https://github.com/farmermel/practice-promises)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
@@ -205,9 +205,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Parker Lindley
 
-* [Node Server Tutorial](https://github.com/etcetera8/node-tutorial)
-* [Express Tutorial](https://github.com/etcetera8/express-tutorial) - What additional items did you work on? An event, error rerouting, and importing/displaying JSON data
-* [Promise Practice Exercises](https://repl.it/@etcetera08/Promise-Pre-work)
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on? An event, error rerouting, and importing/displaying JSON data
+* [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
