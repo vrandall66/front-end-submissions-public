@@ -172,9 +172,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Nora Gully
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/nogully/node-server-tutorial)
+* [Express Tutorial](https://github.com/nogully/express-tutorial) - Did all 4 exercises
+* [Promise Practice Exercises](https://gist.github.com/nogully/c165b682cd480aae4201b4fdd36b3cd3)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
