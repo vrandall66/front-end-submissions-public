@@ -195,7 +195,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Ophus Wong
 
 * [Node Server Tutorial](https://github.com/OphDub/node-tutorial)
-* [Express Tutorial](https://github.com/OphDub/express-tutorial)
+* [Express Tutorial](https://github.com/OphDub/express-tutorial) - Additional items: Event listener, new endpoint, importing JSON data
 * [Promise Practice Exercises](https://gist.github.com/OphDub/815ca33a04b6edefc1000e985ebfa034)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
