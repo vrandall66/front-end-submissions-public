@@ -84,9 +84,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jeff Bender
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/j25bender/node-server)
+* [Express Tutorial](https://github.com/j25bender/expresso) - Added eventListener, image endpoint, json endpoint.
+* [Promise Practice Exercises](https://github.com/j25bender/promise)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
