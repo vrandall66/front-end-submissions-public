@@ -183,9 +183,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Nyssa Keller
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/nyssakeller/node-tutorial/tree/master/mod4/messages)
+* [Express Tutorial](https://github.com/nyssakeller/express-server-tutorial/tree/master/mod4/express-server-tutorial) - What additional items did you work on?
+* [Promise Practice Exercises](https://repl.it/@nyssakeller/Promise-Practice)
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
