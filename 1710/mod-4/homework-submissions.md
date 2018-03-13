@@ -62,11 +62,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Casey Dellavalle
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/cbdallavalle/node-tutorial)
+* [Express Tutorial](https://github.com/cbdallavalle/express-tutorial) - Completed all 4
+* [Promise Practice Exercises](https://gist.github.com/cbdallavalle/f7bbb4a2fea1f4f9555717fe670d8fa2)
 * [Palette Picker PWA]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
