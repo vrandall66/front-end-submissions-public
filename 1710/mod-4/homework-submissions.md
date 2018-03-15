@@ -159,17 +159,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
-### Natalie Montoya
-
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
-* [Palette Picker PWA]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
-
 ### Nora Gully
 
 * [Node Server Tutorial](https://github.com/nogully/node-server-tutorial)
