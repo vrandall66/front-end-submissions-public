@@ -34,7 +34,7 @@ Why do you feel not awesome about the code? What challenges did you face trying 
 It's a very long function and I wish I had the time to refactor further.
 
 Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-test suite
+![test suite](https://github.com/michellehoffman/palette-picker/blob/master/Screen%20Shot%202018-03-16%20at%2012.35.54%20PM.png)
 
 [Link to Design Inspiration](https://dribbble.com/shots/1609734-RushTax-Float-Form)
 Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
