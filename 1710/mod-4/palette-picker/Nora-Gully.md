@@ -11,7 +11,7 @@
 [heroku](https://swatch-saver.herokuapp.com/)
 
 #### Link to your annotated server file
-[annotated server file]()
+[annotated server file](https://github.com/nogully/palette-picker/blob/commented-server-file/server.js)
 
 ## Completion
 
