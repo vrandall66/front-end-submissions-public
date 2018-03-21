@@ -11,14 +11,13 @@
 [heroku](https://pallete-picker.herokuapp.com/)
 
 #### Link to your annotated server file
-[annotated server file]()
+[annotated server file](https://github.com/JorgeEdPerezGa/palette-picker/blob/master/server.js)
 
 ## Completion
 
 #### Were you able to complete the base functionality?
-Everything works, but I need to refresh the page for new projects to show.
-If not, explain what is missing and why.
-I ran out of time.
+Everything works, but I need to hard refresh the page for new projects to show.
+
 #### Which extensions, if any, did you complete?
 
 # Code Quality
@@ -30,19 +29,25 @@ I ran out of time.
 I have loved being able to post to my own back end.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code]()
+[sad code](https://github.com/JorgeEdPerezGa/palette-picker/blob/master/public/scripts.js)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
 
+line 179, I confused myself with the relationship between projects and palettes.
+
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite]()
+[test suite](http://g.recordit.co/7me5ZgdiEe.gif)
 
 #### Link to Design Inspiration
 
 * Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
 
+[inspiration](https://color.adobe.com/)
+
 #### Please feel free to ask any other questions or make any other statements below!
+
+I would like to do more with y UI
 
 Anything else you wanna say!
 
