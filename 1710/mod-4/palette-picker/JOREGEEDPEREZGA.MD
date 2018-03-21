@@ -47,9 +47,7 @@ line 179, I confused myself with the relationship between projects and palettes.
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-I would like to do more with y UI
-
-Anything else you wanna say!
+I would like to do more with the UI.
 
 -----
 
