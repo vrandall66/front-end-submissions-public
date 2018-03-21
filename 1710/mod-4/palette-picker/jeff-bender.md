@@ -12,25 +12,23 @@
 
 #### Link to your annotated server file
 Still working on this...
-[annotated server file]()
+[annotated server file](https://github.com/j25bender/palette-picker/blob/feature/server-comments/server.js)
 
 ## Completion
 
 #### Were you able to complete the base functionality?
-
-If not, explain what is missing and why.
-The display of saved projects/palettes and delete. I'm having difficulty balancing work, family, sleep and job search.
+Yes
 
 #### Which extensions, if any, did you complete?
 
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code](https://github.com/j25bender/palette-picker/blob/master/public/js/scripts.js)
+[happy code](https://github.com/j25bender/palette-picker/blob/master/public/index.html)
 
 * Why were you proud of this piece of code?
-Lines 15 - 28
-I thought this was an interesting way to grab the palette from the DOM. Using an incremental for loop value within JSX and block notation. 
+Lines 12 - 26
+I utilized <polygon> elements to produce the pentagram color palette.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
 [sad code](https://github.com/j25bender/palette-picker/blob/master/public/js/scripts.js)
@@ -40,16 +38,43 @@ Lines 30 - 35
 There's some code here that looks like it could be refactored to be more DRY.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-N/A Going to work on this this weekend.
-[test suite]()
+Client Routes
+    ✓ GET Should return homepage with text
+    ✓ GET Requesting a non-existent path should return 404
+
+  API Routes
+    GET /api/v1/projects
+Seeding TEST data complete!
+      ✓ Should return all of the projects
+    GET /api/v1/projects/:id
+Seeding TEST data complete!
+      ✓ Should return a project by id
+    GET /api/v1/projects/:id/palettes
+Seeding TEST data complete!
+      ✓ Should return all of the palettes of a project
+    POST /api/v1/projects
+Seeding TEST data complete!
+      ✓ Should create a new project
+Seeding TEST data complete!
+      ✓ POST Should NOT create a new project if there is no title
+    POST /api/v1/palettes
+Seeding TEST data complete!
+      ✓ Should create a new palette
+Seeding TEST data complete!
+      ✓ POST Should NOT create a new palette if there is no name
+    DELETE /api/v1/palettes/:id
+Seeding TEST data complete!
+      ✓ Should delete a palette by id
+Seeding TEST data complete!
+      ✓ Should NOT delete a palette if id doesn't exist
+
+  11 passing (620ms)
 
 #### Link to Design Inspiration
 https://en.wikipedia.org/wiki/Theory_of_Colours#/media/File:Goethe,_Farbenkreis_zur_Symbolisierung_des_menschlichen_Geistes-_und_Seelenlebens,_1809.jpg* Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
 
 #### Please feel free to ask any other questions or make any other statements below!
-
-Anything else you wanna say!
-I'm going to work on this over the weekend to add missing functionality and testing.
+Thanks for the additional help finishing up this project!
 -----
 
 
