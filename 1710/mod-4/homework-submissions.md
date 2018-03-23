@@ -65,7 +65,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/cbdallavalle/node-tutorial)
 * [Express Tutorial](https://github.com/cbdallavalle/express-tutorial) - Completed all 4
 * [Promise Practice Exercises](https://gist.github.com/cbdallavalle/f7bbb4a2fea1f4f9555717fe670d8fa2)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/cbdallavalle/palette-picker-pwa)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
