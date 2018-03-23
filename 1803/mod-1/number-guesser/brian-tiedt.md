@@ -1,6 +1,8 @@
-## Student:
-## Evaluator:
+## Student: Brian Tiedt
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+* Incomplete - worked mostly on dog party
 
 ## Functional Expectations
 
@@ -16,7 +18,7 @@
 * Advanced Beginner  
 * Proficient  
 * Exceptional  
-
+ 
 
 ## HTML
 
