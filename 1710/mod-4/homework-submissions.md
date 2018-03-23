@@ -32,7 +32,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/lexbonder/messages)
 * [Express Tutorial](https://github.com/lexbonder/express-server) - What additional items did you work on? - Completed all 4 excercises
 * [Promise Practice Exercises](https://repl.it/@lxbndr/Promise-pledges)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/lexbonder/palette-picker-pwa)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
