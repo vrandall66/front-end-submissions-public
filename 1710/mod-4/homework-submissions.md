@@ -43,7 +43,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/soytjan/node-server-tutorial)
 * [Express Tutorial](https://github.com/soytjan/express-tutorial) - Add JS, new endpoint, JSON file
 * [Promise Practice Exercises](https://github.com/soytjan/promise-practice/tree/master)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://palette-picker-pwa-tjan.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
