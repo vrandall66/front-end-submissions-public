@@ -98,7 +98,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/goodalls/messages)
 * [Express Tutorial](https://github.com/goodalls/express-server) - Added 404, a clinet-side Javascript file, and json file.
 * [Promise Practice Exercises](https://repl.it/@jgoodall/promise-practice)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/goodalls/pwa-palette-picker)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
