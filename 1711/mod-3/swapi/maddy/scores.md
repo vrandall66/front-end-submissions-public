@@ -1,4 +1,4 @@
-#### Evaluator:
+#### Evaluator: Christie
 ### Students:
 ### Comments:
 
