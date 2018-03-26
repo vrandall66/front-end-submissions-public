@@ -1,50 +1,32 @@
-## Student:
-## Evaluator:
+## Student: Kent Huntsman
+## Evaluator: Nathaniel Foster
 ## Notes/What To Work On:
 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
+Partial phase two
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+Use more section elements vs div elements
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+use text-align vs text-indent
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+fix indentation
+talked well about creating variable and assigning value
+refactor validateInput and determineResponseMessage
 
 ## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+Guess Counter!!
