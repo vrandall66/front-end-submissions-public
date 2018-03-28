@@ -78,7 +78,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://github.com/jjlljj/promise-pledges)
 * [Palette Picker PWA](https://github.com/jjlljj/palette-picker-pwa)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@jjlljj/my-first-contribution-to-open-source-5560903dffa0)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
