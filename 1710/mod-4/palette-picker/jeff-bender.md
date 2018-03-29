@@ -8,7 +8,7 @@
 [palette-picker](https://github.com/j25bender/palette-picker)
 
 #### Link to the Deployed Application
-[heroku](https://penta-chroma.herokuapp.com/)
+[heroku](https://pwa-penta-chroma.herokuapp.com/)
 
 #### Link to your annotated server file
 Still working on this...
@@ -78,31 +78,50 @@ Thanks for the additional help finishing up this project!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
 **x points**: (50 possible points)
 
+- Bug: Cannot save palettes to a project
+- Bug: Need to refresh to see newly saved project
+- Missing lock/unlock functionality
+- **Need to check more features after palettes can be seen (clicking on palette, deleting a palette)**
+
 ## User Interface
 
 **x points**: (20 possible points)
 
+- The triangles are cool - I can't decide if it makes it easier or harder to view the palette colors together, but they're cool nonetheless
+- Bug: The palette name and project title input boxes are overlapping on my screen
+- **Need to check how palettes are displayed**
+
 ## Testing
 
-**x points**: (20 possible points)
+**15 points**: (20 possible points)
+
+- Missing sad path for [getting a specific project](https://github.com/j25bender/palette-picker/blob/master/test/routes.spec.js#L82) - What if an ID for a project that doesn't exist in the database is given in the URL?
+- Same as above for [this route](https://github.com/j25bender/palette-picker/blob/master/test/routes.spec.js#L97)
+- Most tests are great in that they are testing properties and values of expected responses
 
 ## Commented Server File
 
 **x points**: (10 possible points)
 
+
+
 ## JavaScript Style
 
 **x points**: (30 possible points)
 
+- Can add a [uniqueness check to columns](https://github.com/j25bender/palette-picker/blob/master/db/migrations/20180315224720_initial.js#L5) since this is required in the spec, http://knexjs.org/#Schema-unique
+
 ## Workflow
 
 **x points**: (20 possible points)
+
+- Should have a Readme for every project so if someone goes into your repo they have some context to what they're looking at
 
 
 ### To get a 3 on this project, you need to score 110 points or higher

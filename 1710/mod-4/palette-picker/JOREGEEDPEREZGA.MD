@@ -52,34 +52,57 @@ I would like to do more with the UI.
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**40 points**: (50 possible points)
+
+- Bug: When you add a new project, all of the palettes on the UI double and appear twice unless you refresh
+- Bug: You are able to add non-unique project names ("Test" and "Test" is possible)
+- When you select the colors in the saved palettes, the hex values change to rgb
+- Project was handed in a late state (-5)
 
 ## User Interface
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points)
+
+- Overall, very pleasant interface - I like the dark background behind the palette, makes the colors easier to view
+- For the lock icon, it is always in a "locked" position, but then it is the background that changes. I would expect the lock to look "unlocked" when you are not locking a color
 
 ## Testing
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points)
+
+- Great test suite overall - you're testing for prperties and values of pretty much everything
+- Missing a sad path for deleting a palette (think about trying to delete a palette that does not exist in the database, an `:id` that does not exist) - you have the functionality for it [here](https://github.com/JorgeEdPerezGa/palette-picker/blob/master/server.js#L124)
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**7 points**: (10 possible points)
+
+- This should be on a separate branch
+- Watch out for [typos](https://github.com/JorgeEdPerezGa/palette-picker/blob/master/server.js#L1)
+- The [environment](https://github.com/JorgeEdPerezGa/palette-picker/blob/master/server.js#L26) is not just for development
+- Careful with the verbs on the [route handlers](https://github.com/JorgeEdPerezGa/palette-picker/blob/master/server.js#L40) - you're saying the route handler "makes" a request, but actually the route handler "takes" a request and performs some logic accordingly
+- Great job, especially since English is not your first language
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**23 points**: (30 possible points)
+
+- It would be great to be able to [pull this out](https://github.com/JorgeEdPerezGa/palette-picker/blob/master/server.js#L95-L103) into its own piece of middleware. That way, you could reuse this functionality for other endpoints that need to check parameters.
+- Can add a [uniqueness check to columns](https://github.com/JorgeEdPerezGa/palette-picker/blob/master/db/migrations/20180314205051_initial.js#L5) since this is required in the spec, http://knexjs.org/#Schema-unique
+- [This line](https://github.com/JorgeEdPerezGa/palette-picker/blob/master/server.js#L21) is not necessary - you are not using url-encoded data from forms in this application
 
 ## Workflow
 
-**x points**: (20 possible points)
+**17 points**: (20 possible points)
+
+- Good job not having `node_modules` in your repository, but I do see a `.DS_Store` file committed to master. You should add this file to your `.gitignore`
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 116 / 150
