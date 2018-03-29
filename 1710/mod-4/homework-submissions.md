@@ -32,7 +32,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/lexbonder/messages)
 * [Express Tutorial](https://github.com/lexbonder/express-server) - What additional items did you work on? - Completed all 4 excercises
 * [Promise Practice Exercises](https://repl.it/@lxbndr/Promise-pledges)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/lexbonder/palette-picker-pwa)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
@@ -43,7 +43,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/soytjan/node-server-tutorial)
 * [Express Tutorial](https://github.com/soytjan/express-tutorial) - Add JS, new endpoint, JSON file
 * [Promise Practice Exercises](https://github.com/soytjan/promise-practice/tree/master)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://palette-picker-pwa-tjan.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
@@ -65,7 +65,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/cbdallavalle/node-tutorial)
 * [Express Tutorial](https://github.com/cbdallavalle/express-tutorial) - Completed all 4
 * [Promise Practice Exercises](https://gist.github.com/cbdallavalle/f7bbb4a2fea1f4f9555717fe670d8fa2)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/cbdallavalle/palette-picker-pwa)
 * [Websockets Tutorial]()
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
@@ -76,9 +76,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/jjlljj/node-http)
 * [Express Tutorial](https://github.com/jjlljj/node-express) - custom 404, JSON 
 * [Promise Practice Exercises](https://github.com/jjlljj/promise-pledges)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/jjlljj/palette-picker-pwa)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@jjlljj/my-first-contribution-to-open-source-5560903dffa0)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -87,7 +87,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/j25bender/node-server)
 * [Express Tutorial](https://github.com/j25bender/expresso) - Added eventListener, image endpoint, json endpoint.
 * [Promise Practice Exercises](https://github.com/j25bender/promise)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://pwa-penta-chroma.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
@@ -98,7 +98,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/goodalls/messages)
 * [Express Tutorial](https://github.com/goodalls/express-server) - Added 404, a clinet-side Javascript file, and json file.
 * [Promise Practice Exercises](https://repl.it/@jgoodall/promise-practice)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/goodalls/pwa-palette-picker)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
@@ -131,7 +131,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/farmermel/practice-nodeserver)
 * [Express Tutorial](https://github.com/farmermel/practice-express-server) - What additional items did you work on?
 * [Promise Practice Exercises](https://github.com/farmermel/practice-promises)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/farmermel/pwa-palette-lab)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
@@ -153,7 +153,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/michellehoffman/node-tutorial)
 * [Express Tutorial](https://github.com/michellehoffman/express-tutorial) - All items
 * [Promise Practice Exercises](https://github.com/michellehoffman/promise-practice)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](http://palette-generator-mh-pwa.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
@@ -186,7 +186,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/OphDub/node-tutorial)
 * [Express Tutorial](https://github.com/OphDub/express-tutorial) - Additional items: Event listener, new endpoint, importing JSON data
 * [Promise Practice Exercises](https://gist.github.com/OphDub/815ca33a04b6edefc1000e985ebfa034)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/OphDub/palette-picker-pwa)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
@@ -208,7 +208,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/PreciseSlice/node-practice)
 * [Express Tutorial](https://github.com/PreciseSlice/express-intro) - What additional items did you work on? All four items under the Further Challenges section.
 * [Promise Practice Exercises](https://gist.github.com/PreciseSlice/b60364d2da6b6db3c2d7d6f13132a2b5)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://sh-pwa-palette-picker.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()

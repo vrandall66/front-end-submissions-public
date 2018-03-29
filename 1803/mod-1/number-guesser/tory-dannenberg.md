@@ -1,50 +1,30 @@
-## Student:
-## Evaluator:
+## Student: Tory Dannenberg
+## Evaluator: Nathaniel Foster
 ## Notes/What To Work On:
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
+Partial phase 3
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+Be consistent with indentation, attribute disabled, 
+add aria label vs empty label tag
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+ALPHABATIZED PROPERTIES!
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+get rid of duplicate code, enable/disable buttons
+relying on global event
+move genRandomNumber into separate function

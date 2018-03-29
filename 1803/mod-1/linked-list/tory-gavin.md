@@ -1,65 +1,42 @@
-## Student:
-## Evaluator:
+## Student: Gavin and Tory
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+* File systems! Make sure that you only link to files that exist in your repo!
+* SRP and DRY for JS, ie. decrementCardCount, incrementCardCount, and displayCardCount
+* Great job using git and excellent commit messages
+* Excellent JS style
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
 * Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
