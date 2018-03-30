@@ -107,6 +107,10 @@ API Routes
         ✓ should delete a building
         ✓ should return a 404 if the building doesnt exist
         ✓ should return a 422 if there is no id included
+  34 passing (3s)
+  1 pending
+
+
  ```
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
@@ -125,7 +129,7 @@ The command "npm run eslint" exited with 0.
 #### Please feel free to ask any other questions or make any other statements below!
 
 Anything else you want to say?
-    - Nora might use this API for her final project
+- Nora might use this API for her final project
 
 -----
 
