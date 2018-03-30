@@ -41,14 +41,16 @@ Yes
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code]()
+[happy code](https://github.com/nogully/denver-history/blob/44920fbf48bee77d31f31ad688a6895ddf813f89/test/routes.spec.js#L708-L723)
 
 * Why were you proud of this piece of code?
+We were excited to learn about JSON Web tokens and implement them. Also we had some nice 'sad path' handling on this middleware function.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code]()
+[sad code](https://github.com/nogully/denver-history/blob/44920fbf48bee77d31f31ad688a6895ddf813f89/test/routes.spec.js#L708-L723)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+We couldn't figure out how to pass this one error handling test.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
