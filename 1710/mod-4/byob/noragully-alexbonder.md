@@ -1,16 +1,16 @@
 # BYOB Submission Form
 
-[Project Spec](http://frontend.turing.io/projects/build-your-own-backend.html)
+[Project Spec - Build Your Own Back End](http://frontend.turing.io/projects/build-your-own-backend.html)
 
 ------
 
 # Basics
 
 #### Link to the GitHub Repository for the Project
-[BYOB](https://github.com/nogully/denver-history)
+[Denver History GitHub](https://github.com/nogully/denver-history)
 
 #### Link to the Deployed Application
-[Heroku](http://denver-history.herokuapp.com/)
+[Denver History API on Heroku](http://denver-history.herokuapp.com/)
 
 
 ## Completion
@@ -18,43 +18,41 @@
 #### Were you able to complete the base functionality?
 
 * Documented all available endpoints and their usage in the README?
-Yes
+- Yes
 
 * Seeded a database with at least 2 tables and 1 relationship?
-Yes
+- Yes
 
 * Had at least 10 endpoints that returned responses with appropriate status codes?
-Yes
+- Yes
 
 * Secured at least 4 endpoints with JWTs?
-Yes
+- Yes
 
 * Enforced a linter and wrote code that conformed to it?
-Yes
+- Yes
 
 * Wrote tests for both happy and sad paths for each endpoint?
-Yes
+- Yes
 
 * Setup automatic deployments with TravisCI to a production app on Heroku?
-Yes
+- Yes
 
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code](https://github.com/nogully/denver-history/blob/44920fbf48bee77d31f31ad688a6895ddf813f89/test/routes.spec.js#L708-L723)
+[happy code example - GitHub link](https://github.com/nogully/denver-history/blob/44920fbf48bee77d31f31ad688a6895ddf813f89/test/routes.spec.js#L708-L723)
 
 * Why were you proud of this piece of code?
-We were excited to learn about JSON Web tokens and implement them. Also we had some nice 'sad path' handling on this middleware function.
+- We were excited to learn about JSON Web tokens and implement them. Also we had some nice 'sad path' handling on this middleware function.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code](https://github.com/nogully/denver-history/blob/44920fbf48bee77d31f31ad688a6895ddf813f89/test/routes.spec.js#L708-L723)
+[sad code example - GitHub link](https://github.com/nogully/denver-history/blob/44920fbf48bee77d31f31ad688a6895ddf813f89/test/routes.spec.js#L708-L723)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-We couldn't figure out how to pass this one error handling test.
+- We couldn't figure out how to pass this one error handling test.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-
-[test suite]()
 ```
 API Routes
     POST /authenticate
@@ -112,7 +110,6 @@ API Routes
  ```
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
-[linter output]()
 ```
 $ npm run eslint
 > denver-history@1.0.0 eslint /home/travis/build/nogully/denver-history
@@ -120,16 +117,15 @@ $ npm run eslint
 The command "npm run eslint" exited with 0.
 ```
 
-#### Attach a screenshot of your TravisCI build passing
-
-[TravisCI build](https://travis-ci.org/nogully/denver-history)
+#### Link to your TravisCI build passing
+[TravisCI build status page](https://travis-ci.org/nogully/denver-history)
 
 -----
 
 #### Please feel free to ask any other questions or make any other statements below!
 
 Anything else you want to say?
-Nora might use this API for her final project
+- Nora might use this API for her final project
 
 -----
 
