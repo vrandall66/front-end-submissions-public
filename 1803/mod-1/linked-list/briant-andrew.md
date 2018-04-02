@@ -4,62 +4,28 @@
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
-* Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
-
+- no unread count
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
+I would remove the overflow scroll on the list
 
 ## HTML
-
-* Novice  
-* Advanced Beginner  
+consider using a ul element for your list of link cards
+Love all the aria
 * Proficient  
-* Exceptional  
-
 
 ## CSS
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
-
 
 ## JS/jQuery
-
-* Novice  
-* Advanced Beginner  
+Some areas for refactoring, love how you found the parent element
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  

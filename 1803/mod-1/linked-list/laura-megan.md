@@ -1,65 +1,35 @@
-## Student:
-## Evaluator:
+## Student: Laura - Megan
+## Evaluator: Nathaniel
 ## Notes/What To Work On:
 
 ## Functional Expectations
-
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
-* Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
+Partial phase 3
+* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 
 ## COMP RECREATION / DESIGN
-
-* Novice  
+What you have looks great, would have liked to see you get farther
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
+Use less br's, try to accomplish the same affect using css margin
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
-
-* Novice  
+Find a strategy for organizing your selectors and your property names. Alphabetical is a good place to start. Idiomatic can be a little more involved.
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
-
-* Novice  
+use the variables you create
+var bookMarkList = document.querySelector('#listed-bookmarks');
+$('#listed-bookmarks').on('click', '.read-button', readButtonClicked);
+could be 
+$(bookMarkList).on('click', '.read-button', readButtonClicked);
+Try not to mix JS & jQuery DOM interaction
 * Advanced Beginner  
-* Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  

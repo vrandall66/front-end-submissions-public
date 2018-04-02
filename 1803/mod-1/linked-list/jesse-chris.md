@@ -1,65 +1,37 @@
-## Student:
-## Evaluator:
+## Student: Jesse - Chris
+## Evaluator: Nathaniel
 ## Notes/What To Work On:
 
 ## Functional Expectations
+card count 2 at the beginning
+enter button only disabled at the beginning
+most phase 3 
+url validation!
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
-* Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
+* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 
 ## COMP RECREATION / DESIGN
-
-* Novice  
+enter button only disabled at the beginning
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
+good use of aria-label!
+extra span around img tags
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
-
-* Novice  
+Find a strategy for organizing your selectors and your property names. Alphabetical is a good place to start. Idiomatic can be a little more involved.
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
-
-* Novice  
+Save more selected elements in variables
 * Advanced Beginner  
-* Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
-
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
-
-* Novice  
-* Advanced Beginner  
+met every day and on weekends
+mostly driver/navigator
 * Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
