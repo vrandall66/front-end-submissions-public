@@ -1,65 +1,37 @@
-## Student:
-## Evaluator:
+## Student: Kent & Dave
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Nice job getting through parts of Phase III! Some bugs and incomplete from earlier phases. 
+- Continue to push forward with accessibility (forms, labels), CSS organization (SMACSS for rules and idiomatic or alphabetic for declaration), more commits (be descriptive but concise), and SRP/naming in JS.
+- Work on formatting across all files - reference style sheets for [HTML](https://github.com/turingschool-examples/html), [CSS](https://github.com/turingschool-examples/css), [JS](https://github.com/turingschool-examples/javascript/tree/master/es5) 
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
 * Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
-* Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
+* Novice
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  

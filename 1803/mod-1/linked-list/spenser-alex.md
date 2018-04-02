@@ -1,65 +1,38 @@
-## Student:
-## Evaluator:
+## Student: Spenser & Alex
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+Nice work getting through most of Phase III! Continue to push forward with accessibility (labels and run through a screenreader), CSS declaration organization, more commits (be descriptive but concise), and breaking apart functionality in JS
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Be: Application meets all of the functional expectations in Phase Two.
-  // validations and responsiveness
+* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
+  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
