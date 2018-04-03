@@ -33,7 +33,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/lexbonder/express-server) - What additional items did you work on? - Completed all 4 excercises
 * [Promise Practice Exercises](https://repl.it/@lxbndr/Promise-pledges)
 * [Palette Picker PWA](https://github.com/lexbonder/palette-picker-pwa)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/lexbonder/socket-chat) - What additional items did you work on?
+  - Broadcast a message to connected users when someone connects or disconnects
+  - Add support for nicknames
+  - Add “{user} is typing” functionality
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
