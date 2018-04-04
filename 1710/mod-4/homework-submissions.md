@@ -213,7 +213,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/PreciseSlice/express-intro) - What additional items did you work on? All four items under the Further Challenges section.
 * [Promise Practice Exercises](https://gist.github.com/PreciseSlice/b60364d2da6b6db3c2d7d6f13132a2b5)
 * [Palette Picker PWA](https://sh-pwa-palette-picker.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/PreciseSlice/websocket-tutorial) - What additional items did you work on? Connect and disconnect messages, nicknames, added "user is typing" functionality.
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
