@@ -132,7 +132,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/farmermel/practice-express-server) - What additional items did you work on?
 * [Promise Practice Exercises](https://github.com/farmermel/practice-promises)
 * [Palette Picker PWA](https://github.com/farmermel/pwa-palette-lab)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/farmermel/websocket-chat)
+  Additional items: Add support for nicknames, <user> is typing message, broadcast when someone connects or disconnects.
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
