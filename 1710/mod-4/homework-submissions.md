@@ -197,10 +197,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/etcetera8/node-tutorial)
 * [Express Tutorial](https://github.com/etcetera8/express-tutorial) - What additional items did you work on? An event, error rerouting, and importing/displaying JSON data
 * [Promise Practice Exercises](https://repl.it/@etcetera08/Promise-Pre-work)
-* [Palette Picker PWA]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
+* [Palette Picker PWA](https://parkers-pwa-palette-picker.herokuapp.com/)
+* [Websockets Tutorial](https://github.com/etcetera8/web-sockets-tutorial) - What additional items did you work on? Broadcast user sign on, add user is typing, broadcast message sent by user so only other person recieves it from the server.
+* [House of Vars Blog Post](https://medium.com/@parkerthomas_2392/my-first-open-source-contribution-40caed7196bd)
+* [Pattern Party Repo](https://github.com/etcetera8/Pattrn-Party)
 * [Pattern Party GitHub Pages]()
 
 ### Spencer Herms
@@ -209,7 +209,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/PreciseSlice/express-intro) - What additional items did you work on? All four items under the Further Challenges section.
 * [Promise Practice Exercises](https://gist.github.com/PreciseSlice/b60364d2da6b6db3c2d7d6f13132a2b5)
 * [Palette Picker PWA]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial]() - What additional items did you work on? 
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
