@@ -8,9 +8,9 @@ Build an application of cocktail recipes with the ability to filter by drink cat
 ### Deliverables
 
 #### Stack:
-+React
-+Redux
-+Router
+* React
+* Redux
+* Router
 
 #### APIs:
 https://www.thecocktaildb.com/api.php
