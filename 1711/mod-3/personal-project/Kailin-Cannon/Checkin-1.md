@@ -8,7 +8,7 @@ Utilizing the Studio Ghibli api to make an application that allows users to view
 ### Deliverables  
 - This markdown
 - A wireframe of the project
-  #### By Monday: 
+  ##### By Monday: 
   - Boilerplate setup
   - Switch/Route setup in App.js
   - Redux wired in
