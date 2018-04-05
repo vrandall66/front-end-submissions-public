@@ -55,3 +55,10 @@ Dynamic CSS, integrating sagas, testing
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Have file structure set up and Redux connected
+* Have firebase set up
+* Be able to make a fetch request and put data in the redux store
+* Store structure - flat and try not to duplicate data
+* Add linter
+* Start testing
+* Start building out UI - be able to display data
