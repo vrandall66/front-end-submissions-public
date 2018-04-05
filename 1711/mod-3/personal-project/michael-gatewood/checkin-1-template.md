@@ -6,6 +6,12 @@
 Build an application of cocktail recipes with the ability to filter by drink category, ingredient, alcoholic content or search query.
 
 ### Deliverables
+* Boilerplate app in-place (React, Router, Redux all connected)
+* Initial API call working and populating recipes
+* Filters for category, ingredient, and alcoholic content functional
+* Random recipe displayed on page load
+* Inventory form created and functional
+* "What drinks can I make?" filters recipes for a single ingredient
 
 #### Stack:
 * React
