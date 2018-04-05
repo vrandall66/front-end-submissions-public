@@ -38,3 +38,13 @@ Building a map with dynamic highlighted regions
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Build backend for users and races
+* Keep github issues updated
+* Connect Redux and Router
+* Design store - try to keep flat and dont duplicate data
+* Make fetch and put the data in the store
+* Start testing
+* Add linter
+* Decide what map you're going to use
+* Start the building out UI
+
