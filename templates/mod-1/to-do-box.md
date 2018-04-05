@@ -130,3 +130,13 @@
 * Advanced Beginner  
 * Proficient  
 * Exceptional
+
+## TERMINOLOGY
+
+#### Technical Vocabulary
+
+* Novice
+* Advanced Beginner
+* Proficient
+* Exceptional
+
