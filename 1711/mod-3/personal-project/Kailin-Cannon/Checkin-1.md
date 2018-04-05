@@ -6,8 +6,9 @@
 Utilizing the Studio Ghibli api to make an application that allows users to view films, people, and locations. 
 
 ### Deliverables  
-- This markdown
-- A wireframe of the project
+  ##### For Initial Check-In  
+    - This markdown
+    - A wireframe of the project
   ##### By Monday: 
   - Boilerplate setup
   - Switch/Route setup in App.js
