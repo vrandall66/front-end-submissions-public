@@ -13,7 +13,7 @@ This application will give the user the ability to search through recipes and fa
 - Middleware
 
 ### APIs:
-The API used for this app is Tummly.
+The API used for this app is Yummly.
 
 ### Wireframes: 
 ![homepage](https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/29684058_10216503515443874_6908089419668914176_o.jpg?_nc_cat=0&oh=125047d412ca904eec2bc2c4043c559b&oe=5B66D7CB)
@@ -51,3 +51,9 @@ Testing will be one of my biggest challenges. Getting more comfortable with redu
 ### Instructor Notes:
 
 ### Deliverables for next checkin:
+* Setup Redux and Router - file structure and routes
+* be able to make fetch, clean data, and store data in the store
+* add linter
+* start testing
+* store structure - think about keeping things flat and try not to duplicate
+* start builing out UI
