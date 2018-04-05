@@ -17,7 +17,8 @@ React, Redux, Router, Thunk
 https://magicthegathering.io/
 
 #### Wireframes
-![wire]('./wizard-wire.jpg')
+![wire](./wizard-wire.jpg?raw=true "wizard-wire")
+
 
 #### Waffle & Github
 [GitHub](https://github.com/stevenleelawson/WizardArmada)
