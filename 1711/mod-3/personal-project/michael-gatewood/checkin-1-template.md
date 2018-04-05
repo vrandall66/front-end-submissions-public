@@ -16,9 +16,9 @@ Build an application of cocktail recipes with the ability to filter by drink cat
 https://www.thecocktaildb.com/api.php
 
 #### Wireframes
-![Screen Shot 1]()
-![Screen Shot 2]()
-![Screen Shot 3]()
+![Screen Shot 1](https://raw.githubusercontent.com/mngatewood/front-end-submissions-public/check-in-1/1711/mod-3/personal-project/michael-gatewood/ScreenShot-3.png)
+![Screen Shot 2](https://raw.githubusercontent.com/mngatewood/front-end-submissions-public/check-in-1/1711/mod-3/personal-project/michael-gatewood/ScreenShot-1.png)
+![Screen Shot 3](https://raw.githubusercontent.com/mngatewood/front-end-submissions-public/check-in-1/1711/mod-3/personal-project/michael-gatewood/ScreenShot-2.png)
 
 #### Waffle & Github
 https://waffle.io/mngatewood/bar-builder
