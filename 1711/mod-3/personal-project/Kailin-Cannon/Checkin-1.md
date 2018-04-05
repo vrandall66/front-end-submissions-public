@@ -30,14 +30,30 @@ Utilizing the Studio Ghibli api to make an application that allows users to view
 
 #### Order Of Attack  
 - API calls being made in general
-- API calls cleaned into desired objects to return in order of: Films, People, then Locations  
-- 
+- API calls cleaned into desired format to return. In this order: Films, People, then Locations
+- Write API-calls tests
+- Put API cleaned objects in Redux Store
+- Start making React components. Get Films displayed on page
+- Bring in React-Router, work on User Sign-in/Signup
+- User favorites with Router
+- Put user favorites in Store
+- Put user and their favorites in LocalStorage
+- Bring in People data to display & favorite
+- Bring in Locations data to display & favorite
+- Write a lot of tests for React/Redux stuff
+- Do CSS
 
-#### MVP
 
-#### Nice To Haves
+#### MVP  
+- A user can sign in, view films, favorite films on the main /films page and go to /favorites and view their favorite films. User data persists through a reload. 
 
-#### Biggest Challenges
+#### Nice To Haves  
+Some sort of search or filter that covers all 3 categories (films/people/locations)
+
+#### Biggest Challenges  
+- Nested fetch calls
+- React-Router makes no sense
+- Tests are scary
 
 #### Instructor Notes
 
