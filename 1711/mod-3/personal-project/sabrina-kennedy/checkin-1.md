@@ -62,3 +62,8 @@ working with saga or middleware.
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+boilerplate setup with redux, react, router
+initial routes working for the homepage and other locations
+create more wireframes for what the project looks like overall
+have design ideas solid
+API request and set in store
