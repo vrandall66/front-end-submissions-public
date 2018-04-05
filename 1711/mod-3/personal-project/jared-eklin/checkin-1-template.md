@@ -38,4 +38,17 @@ filter by venue and date. Individual cards for artists, venues that give more de
 
 #### Instructor Notes
 
+Love this idea!
+
 #### Deliverables for next checkin:
+
+* Keep waffle uupdated
+* Think about Router setup/paths
+* Get Rudux connected - think about keeping the store flat and try not to duplicate data
+* Be able to make fetch requests, clean, and put in the store
+* Start testing
+* Add linter
+* Find API with images
+* Start building out UI
+
+
