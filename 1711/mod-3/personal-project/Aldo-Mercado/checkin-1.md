@@ -30,13 +30,19 @@ Application that allows user to search for bar or club venues around the United 
 6. Style
 
 #### MVP
-User can search individual venues by name and city or a geographical area by zip code.
-
+* User can search individual venues by name and city or a geographical area by zip code.
+* Ability to save favorites.
 #### Nice To Haves
-Ability to save favorites.
+* Intelligent search 
+* User login
 
 #### Biggest Challenges
 Incorporating a middleware
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Boiler Plate App
+* Router Installed (Main, Single Bar)
+* Redux wired up
+* At least one API request
+* Add to wireframe
