@@ -25,3 +25,12 @@
 #### Biggest Challenges: Turing CSV into useable data. Learning Solidity. 
 #### Instructor Notes: 
 #### Deliverables for next checkin: Phase 2?
+
+* convert data into JSON 
+* set up Redux and Router
+* make fetch and store data in the store
+* start testing
+* add linter
+* keep issues/waffle updated
+* store structure - flat and try not to duplicate
+* start building out UI
