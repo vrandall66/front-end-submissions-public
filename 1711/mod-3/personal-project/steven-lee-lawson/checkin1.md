@@ -42,3 +42,13 @@ Nested fetch for images and testing, always testing.
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+For Monday:
+-boiler plate of app set up app
+-initial routes set up, ready to go
+-Spend some more time on wireframes(2-3 different pages for routes)
+-initial fetch call pulling data from api
+-getting that data into redux store
+
+extra: 
+-think about firebase for user authentication and saving decks
+-save a bunch of card id's to firebase
