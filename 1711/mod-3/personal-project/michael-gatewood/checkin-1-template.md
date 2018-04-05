@@ -24,22 +24,34 @@ https://www.thecocktaildb.com/api.php
 https://waffle.io/mngatewood/bar-builder
 
 #### Order Of Attack
+
+##### Iteration 0
 * Develop App component that fetches name and thumbnail for all recipes.
 * Develop RecipeContainer and RecipeThumbnail components.
+
+##### Iteration 1
 * Develop RandomRecipe component.
 * Develop RecipeDetail component that displays recipe details for a selected recipe.
+
+##### Iteration 2
 * Develop Search component with search field and filter buttons.
 * Develop alcoholic/non-alcoholic drinks filter.
 * Develop search by text functionality.
 * Develop filter by category functionality.
 * Develop filter by ingredient functionality.
-* Develop IngredientInventory component.
-* Develop search by on-hand ingredients functionality.
-* Develop ShoppingList component.
+
+##### Iteration 3
 * Develop Login, Logout and Signup components.
 * Develop add/remove favorites functionality.
 * Develop Favorites component.
+
+##### Iteration 4
 * Setup backend to store/edit wishlist, personal inventory, and shopping list.
+* Develop IngredientInventory component.
+* Develop search by on-hand ingredients functionality.
+* Develop ShoppingList component.
+
+##### Iteration 5
 * Link shopping lists to online merchant.
 
 #### MVP
