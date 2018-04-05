@@ -24,7 +24,7 @@ https://newsapi.org/
 
 #### Wireframes
 
-[!wireframe-homepage](https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/29749367_902481468988_5020603432154058323_o.jpg?_nc_cat=0&oh=07aeeda2d3b7502306a08eb444a383fd&oe=5B386F97)
+![wireframe-homepage](https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/29749367_902481468988_5020603432154058323_o.jpg?_nc_cat=0&oh=07aeeda2d3b7502306a08eb444a383fd&oe=5B386F97)
 
 #### Waffle & Github
 
