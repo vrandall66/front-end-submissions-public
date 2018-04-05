@@ -67,3 +67,11 @@ The app will pull in a user's strava information and trail information from Moun
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Have server built for oauth
+* Have BE tables for users and rides
+* Initial file structure for FE - react, redux, router
+* State structure - keeping it flat and try not to duplicate
+* Be able to make a request and store data in the store
+* Add linter
+* Keep waffle updated
+* Start testing
