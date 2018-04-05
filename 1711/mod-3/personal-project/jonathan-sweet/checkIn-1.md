@@ -27,3 +27,7 @@ Express/knex backend to store user data
 lostAndFound api, google maps integration
 #### Instructor Notes
 #### Deliverables for next checkin:
+* outline DB schema
+* Initial landing page
+* explore Google Maps API
+* further vet lostAndFound API
