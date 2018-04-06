@@ -91,7 +91,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/j25bender/expresso) - Added eventListener, image endpoint, json endpoint.
 * [Promise Practice Exercises](https://github.com/j25bender/promise)
 * [Palette Picker PWA](https://pwa-penta-chroma.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/j25bender/chat-example) - Nicknames, disconnect, user typing
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
