@@ -80,7 +80,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/jjlljj/node-express) - custom 404, JSON 
 * [Promise Practice Exercises](https://github.com/jjlljj/promise-pledges)
 * [Palette Picker PWA](https://github.com/jjlljj/palette-picker-pwa)
-* [Websockets Tutorial](https://github.com/jjlljj/websocket-chatbox) - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/jjlljj/websocket-chatbox) - Add usernames, broadcast connect/disconnect messages, render user's own message directly to DOM
 * [House of Vars Blog Post](https://medium.com/@jjlljj/my-first-contribution-to-open-source-5560903dffa0)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
