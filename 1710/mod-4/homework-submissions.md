@@ -191,10 +191,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/OphDub/express-tutorial) - Additional items: Event listener, new endpoint, importing JSON data
 * [Promise Practice Exercises](https://gist.github.com/OphDub/815ca33a04b6edefc1000e985ebfa034)
 * [Palette Picker PWA](https://github.com/OphDub/palette-picker-pwa)
-* [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Websockets Tutorial](https://github.com/OphDub/socket-homework) - Nicknames, user join/leave chat, active user list
+* [House of Vars Blog Post](https://medium.com/@ophdub/my-first-foray-into-open-source-efdec96b0edd)
+* [Pattern Party Repo](https://github.com/OphDub/pattrn-party)
+* [Pattern Party GitHub Pages](https://ophdub.github.io/pattrn-party/)
 
 ### Parker Lindley
 
