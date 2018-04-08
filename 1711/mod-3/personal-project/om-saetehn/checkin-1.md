@@ -13,10 +13,13 @@ Choose wisdom to guide your fortune. No need for a Chinese carry-out, unlimited 
 React Redux, Router, External API
 
 #### APIs:
-http://forismatic.com/en/api/
+http://forismatic.com/en/api/ (ran into issues with CORS, changed to the one below)
+http://fortunecookieapi.herokuapp.com/v1/fortunes?limit=10&skip=&page=
 
 #### Wireframes
-![home](https://github.com/chunktooth/wisdom-cookies/blob/master/src/images/wisdom-wireframe-home.png)
+![home](https://github.com/chunktooth/wisdom-cookies/blob/master/src/images/cookie-home-wireframe.png)
+![opencookie](https://github.com/chunktooth/wisdom-cookies/blob/master/src/images/wisdom-cookie-wireframe.png)
+![jar](https://github.com/chunktooth/wisdom-cookies/blob/master/src/images/jar-wireframe.png)
 
 #### Waffle & Github
 https://github.com/chunktooth
