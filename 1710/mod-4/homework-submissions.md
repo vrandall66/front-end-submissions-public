@@ -63,13 +63,16 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
-### Casey Dellavalle
+### Casey Dallavalle
 
 * [Node Server Tutorial](https://github.com/cbdallavalle/node-tutorial)
 * [Express Tutorial](https://github.com/cbdallavalle/express-tutorial) - Completed all 4
 * [Promise Practice Exercises](https://gist.github.com/cbdallavalle/f7bbb4a2fea1f4f9555717fe670d8fa2)
 * [Palette Picker PWA](https://github.com/cbdallavalle/palette-picker-pwa)
-* [Websockets Tutorial]()
+* [Websockets Tutorial](https://github.com/cbdallavalle/websocket-tutorial)
+
+Completed: broadcast a message to connected users when someone connects or disconnects, add support for nicknames, add “user is typing” functionality
+
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
