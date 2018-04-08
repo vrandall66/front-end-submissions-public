@@ -17,6 +17,8 @@ React, Redux, Router, Thunk
 https://magicthegathering.io/
 
 #### Wireframes
+![wire](./wizardmock1.png?raw=true "wizard-wire")
+![wire](./wizardmock2.png?raw=true "wizard-wire")
 ![wire](./wizard-wire.jpg?raw=true "wizard-wire")
 
 
@@ -49,6 +51,6 @@ For Monday:
 -initial fetch call pulling data from api
 -getting that data into redux store
 
-extra: 
+extra:
 -think about firebase for user authentication and saving decks
 -save a bunch of card id's to firebase
