@@ -16,6 +16,7 @@
 - A toggle click function that should be able to display or hide a quote
 - A redirect router that takes user back to home page
 - Implementing Firebase
+- Adding some graphics
 
 #### What are your concerns (if any)
 - Being stuck on a problem for too long
