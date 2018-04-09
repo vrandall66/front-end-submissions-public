@@ -22,3 +22,13 @@ n/a
 * Allowing users to upload image (drag and drop?)
 
 #### Deliverables for next checkin:
+* Encrypt password prior to sending to DB
+* Add items & locations tables to DB
+* Report Found Item form
+  * title
+  * description
+  * lat/lng
+  * date
+  * reward?
+  * Saves to DB upon submission (new item row; new location row or add item_id to existing location)
+* Google Maps - drop marker to populate lat/lng on form
