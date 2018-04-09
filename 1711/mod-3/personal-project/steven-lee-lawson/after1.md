@@ -15,7 +15,15 @@ Wizard Armory
 
 #### Next Steps?
 -selecting cards to go into 'my deck' (favorites)
-
+-setting up store so only 5 api calls are made total
+-do work on UI tonight
+-set up firebase backend and authenticatio
+-user should be able to authenticate
+-deck should be able to be saved to firebase
+-deck = {
+  userId,
+  array of card ids 
+}
 
 #### What are your concerns (if any)
 -Setting up firebase, have a good tutorial though
