@@ -4,7 +4,8 @@
 
 #### Progress made?
 - Fetched API
-- Set up react router
+- Set up React router
+- Set up Redux store
 - Added more wireframes for when no quotes are shown and for the jar
 
 #### What deliverables still need to be completed from your last checkin?
