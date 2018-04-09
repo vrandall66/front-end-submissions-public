@@ -23,5 +23,5 @@ N/A
 - Being stuck on a problem for too long
 
 #### Deliverables for next checkin:
-- Display one quote at a time after a click wtih UI
+- Display or hide one quote at a time after a click wtih UI
 - Can store wisdom in a jar, in Redux store, with UI
