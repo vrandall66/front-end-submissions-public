@@ -15,3 +15,10 @@ Getting user data into database, doing the calculations.
 Math might be hard. Figuring out how to structure the data
 
 #### Deliverables for next checkin:
+* Add user to the store
+* Add user's portfolio to the store (array of objects)
+* When user sign is, resirect to home page
+* Work on the design - UI/UX
+* Continue testing
+* Calulating and displaying the users value of each currency and percentage of portfolio
+
