@@ -21,3 +21,8 @@
 None at this time
 
 #### Deliverables for next checkin:
+* Show local restaurants on page or placeholder if location is disabled
+* Updated wireframes
+* Clicking on restaurant should show menu
+* Start user authentication
+* Start favorites in redux
