@@ -138,8 +138,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Websockets Tutorial](https://github.com/farmermel/websocket-chat)
   Additional items: Add support for nicknames, <user> is typing message, broadcast when someone connects or disconnects.
 * [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/farmermel/pattrn-party)
+* [Pattern Party GitHub Pages](https://farmermel.github.io/pattrn-party/)
 
 ### Melissa Wagasky
 
