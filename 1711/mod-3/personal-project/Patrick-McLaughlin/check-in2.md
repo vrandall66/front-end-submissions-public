@@ -14,6 +14,7 @@
 ### What deliverables still need to be completed from your last checkin?
 
  linter is hooked up but have not linted yet
+ 
  Finish test suite up through current functionalityr
  
 ### Next Steps?
@@ -26,3 +27,9 @@ Add rider bikes page
 n/a
 
 ### Deliverables for next checkin:
+* Continue testing 
+* Start adding user stats and bikes
+* Lint
+* Start refactoring with sagas
+
+
