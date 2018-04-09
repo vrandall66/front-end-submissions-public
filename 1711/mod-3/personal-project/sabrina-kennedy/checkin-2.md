@@ -18,3 +18,6 @@ get and post to the backend
 not understanding how to work with backend
 
 #### Deliverables for next checkin:
+pick either sql or firebase for backend server and have user posting and getting information
+come up with a cool idea for the project, demo ready
+work on ui/ux
