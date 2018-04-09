@@ -14,3 +14,9 @@
 -Troubleshooting a few tests that aren't currently working
 
 #### Deliverables for next checkin:
+
+* Continue testing
+* Start working on UI
+* Bring in map
+* Work on adding a users race to the db and the store
+* Allow user to mark races that they would like to complete or have completed... add completed column to races table
