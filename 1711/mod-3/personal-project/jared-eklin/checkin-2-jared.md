@@ -19,3 +19,10 @@ Continue testing, continue UI building, middleware.
 Api has fewer events then originally thought. middleware.
 
 #### Deliverables for next checkin:
+
+* Continue testing
+* See if you can find an api that has more events
+* Work on UI
+* Implement thunks
+* Separate todays shows from upcoming
+* Be able to click on an event and see additional details
