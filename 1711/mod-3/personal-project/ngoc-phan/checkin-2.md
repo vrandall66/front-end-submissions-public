@@ -20,3 +20,9 @@
 - middleware and firebase will take up too much time and require too much refractoring
 
 ### Deliverables for next checkin:
+
+* Firebase
+* TEST!!!
+* Be able to get more than 10 recipes
+* Start working on filter
+* Just put recipe ids in favorite array
