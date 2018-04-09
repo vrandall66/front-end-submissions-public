@@ -24,3 +24,8 @@ The Bar Builder
 * Writing and passing tests
 
 #### Deliverables for next checkin:
+* Separate search result recipes and inventory recipes into separate routes
+* Create headers for each route to identify page on screen
+* Create functionality to use multiple filters at once
+* Create relevance filters to display only relevant recipes based on ingredients required vs on-hand
+* Style all components
