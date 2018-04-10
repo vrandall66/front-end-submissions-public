@@ -30,3 +30,8 @@ Hockey-Line-Up
 * Grabbing dropdown information.
 
 #### Deliverables for next checkin:
+
+* Continue testing
+* Get calendar data showing on page
+* Try to get current seasons data
+
