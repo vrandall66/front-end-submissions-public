@@ -159,7 +159,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/michellehoffman/express-tutorial) - All items
 * [Promise Practice Exercises](https://github.com/michellehoffman/promise-practice)
 * [Palette Picker PWA](http://palette-generator-mh-pwa.herokuapp.com/)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/michellehoffman/websockets-homework) - Broadcast connect and disconnect messages, add support for nicknames, add "{user} is typing" functionality
 * [House of Vars Blog Post](https://medium.com/@hoffman.michelle.e/a-first-timers-contribution-to-open-source-d0c9b0af059a)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
