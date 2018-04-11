@@ -56,6 +56,13 @@
 * Proficient  
 * Exceptional  
 
+## Technical Vocabulary
+
+* Novice
+* Advanced Beginner
+* Proficient
+* Exceptional
+
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
 * Unicorn Rainbows  
