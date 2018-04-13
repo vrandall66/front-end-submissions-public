@@ -217,4 +217,4 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Websockets Tutorial](https://github.com/PreciseSlice/websocket-tutorial) - What additional items did you work on? Connect and disconnect messages, nicknames, added "user is typing" functionality.
 * [House of Vars Blog Post](https://medium.com/@slherms/my-first-open-source-contribution-ec735a0de1fd)
 * [Pattern Party Repo](https://github.com/PreciseSlice/pattrn-party)
-* [Pattern Party GitHub Pages]()
+* [Pattern Party surge.sh](http://pattern-party.surge.sh)
