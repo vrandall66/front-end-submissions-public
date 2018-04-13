@@ -17,6 +17,7 @@ The Bar Builder
 #### Next Steps?
 * Fix bugs in combined filters or rewrite the function(s) entirely.
 * Update My Bar Menu filter to exclude ingredients not checked in inventory.
+* Move recipe filters out of Header component.
 * Add/update/finish tests.
 
 #### What are your concerns (if any)
