@@ -20,9 +20,14 @@ The Bar Builder
 * Hide filters bar and add button to dashboard to view filters
 * Update buttons and page titles with bar theme
 * Correct file structure with appropriate container/component folders
+* Props validation
 
 #### What are your concerns (if any)
 * Tests
 * Time
 
 #### Deliverables for next checkin:
+* Finish tests: full coverage & all passing
+* Update UI: Welcome screen, nav hover states
+* Fix bugs: Menu not updating; link to home not resetting recipes
+* Complete as much of issues outlined in "Next Steps" as possible
