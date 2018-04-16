@@ -6,7 +6,9 @@
 All deliverables done, but fighting to get Sagas to work.
 
 #### What deliverables still need to be completed from your last checkin?  
-None.
+- Movies appearing on page
+- Rename people to characters
+- Killer feature
 
 #### Next Steps?  
 Get Sagas working so I can set up the rest of my API calls, and then test them.
