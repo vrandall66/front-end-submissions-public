@@ -22,13 +22,10 @@ None
 #### Next Steps?
 
 Trigger Alert functionality  
-Build out Note taking functionality  
 media queries for mobile layout   
 Style login / logout menu  
 form Validation   
-Youtube / spotify API calls?   
 Test fetch calls  
-Finish setting up my own database?  
 
 #### What are your concerns (if any)
 
