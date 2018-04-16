@@ -20,4 +20,4 @@
 None at this time
 
 #### Deliverables for next checkin:
-
+* Finish style and tests
