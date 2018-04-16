@@ -15,3 +15,9 @@ ui, TESTING/refactoring to make testing easier, only allowing top 5 currencies i
 time
 
 #### Deliverables for next checkin:
+
+* Clean up UI/UX
+* TESTING!
+* Be able to update profile automatically
+* Make drop town for currencys
+* Add section for currency the user owns but is not in the top 10
