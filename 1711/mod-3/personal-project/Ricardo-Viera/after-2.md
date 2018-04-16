@@ -37,4 +37,10 @@ Changing the scale of the graph
 
 #### Deliverables for next checkin:
 
-* 
+* Mobile / Responsive Layout
+* Functional Login
+* Test Coverage above 95%
+* Inhale / Exhale Text on breathing exercises
+* No empty pages
+* Embed Youtube videos
+
