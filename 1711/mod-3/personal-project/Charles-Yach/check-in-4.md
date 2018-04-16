@@ -26,3 +26,7 @@
 * Design
 
 #### Deliverables for next checkin:
+
+* Have a desktop UI
+* Finish testing containers
+* Polish UI
