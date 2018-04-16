@@ -37,9 +37,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
   - Broadcast a message to connected users when someone connects or disconnects
   - Add support for nicknames
   - Add “{user} is typing” functionality
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://docs.google.com/document/d/1G0Rnop87YNT6SwkiIvnCH300us-Gx3Lj0P3B9lK5pw0/edit?usp=sharing)
+* [Pattern Party Repo](https://github.com/lexbonder/pattrn-party)
+* [Pattern Party GitHub Pages](https://lexbonder.github.io/pattrn-party/)
 
 ### Amanda Tjan
 
