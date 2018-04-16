@@ -19,3 +19,9 @@
 -none?
 
 ### Deliverables for next checkin:
+
+* Add favorites to DB
+* Finish testing
+* Show which user is signed in
+* Look into generators for a show more button
+
