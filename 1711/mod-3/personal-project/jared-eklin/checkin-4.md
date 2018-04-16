@@ -18,3 +18,9 @@ Continue testing, finsh UI building, more testing.
 
 
 #### Deliverables for next checkin:
+
+* Finish testing
+* Add prop types
+* Clean up the UI
+* Don't show upcoming if there are too many shows for this week
+* Fixing errors in thunks
