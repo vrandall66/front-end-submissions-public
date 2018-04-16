@@ -13,3 +13,9 @@
 #### What are your concerns (if any)
 
 #### Deliverables for next checkin:
+
+* Work on UI
+* Finish testing
+* Be able to delete from DB
+* Change completed from true/false to completed/interested
+
