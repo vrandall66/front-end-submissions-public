@@ -14,3 +14,6 @@
   - My tests don't work
 
 #### Deliverables for next checkin:
+  - Complete testing suite
+  - Responsive CSS
+  - No scrolling boxes within scrolling boxes (scrollception)
