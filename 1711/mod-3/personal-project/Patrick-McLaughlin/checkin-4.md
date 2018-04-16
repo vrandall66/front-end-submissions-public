@@ -20,3 +20,8 @@
 * Process for deploying to heroku
 
 ### Deliverables for next checkin:
+
+* Responsive design
+* Playing with sagas on a branch
+* Look in env variables on heroku
+
