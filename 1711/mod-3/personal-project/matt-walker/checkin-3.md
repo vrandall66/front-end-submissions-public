@@ -33,4 +33,14 @@
 * Backend
 
 ### What are your concerns (if any)
-* Where to go, when to stop. 
+* Where to go, when to stop.
+
+### Deliverbales for eval
+
+* Have user move to top of the page when they click to the next page
+* Loading gif when changing pages
+* Add some text to tell the user to click SLVSH STATS to show the key
+* See if you can do away with unnecessary fetches when info is already in the store
+* Increase page number/loading font just a bit
+* Possibly be able to search for a rider
+* Background color for filter
