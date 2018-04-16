@@ -1,7 +1,7 @@
 ## Project Name:
 The Bar Builder
 
-#### Check In: 1
+#### Check In: 2
 
 #### Progress made?
 * UI built
