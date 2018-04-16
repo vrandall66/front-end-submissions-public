@@ -18,3 +18,8 @@
 * Geolocation via the navigator object is slow... 
 
 #### Deliverables for next checkin:
+* continue Style
+* grab found location with click
+* add location via form
+* landing page ==> give app description/motivation
+* autocomplete for search
