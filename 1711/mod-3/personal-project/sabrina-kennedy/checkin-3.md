@@ -10,4 +10,6 @@ What are your concerns (if any)
 not any right now.
 
 Deliverables for next check-in:
-complete project.
+Mobile layout with css.
+fix issue with card in launchContainer
+tighten up desgin, meet with Louisa.
