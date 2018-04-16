@@ -83,8 +83,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://github.com/jjlljj/palette-picker-pwa)
 * [Websockets Tutorial](https://github.com/jjlljj/websocket-chatbox) - Add usernames, broadcast connect/disconnect messages, render user's own message directly to DOM
 * [House of Vars Blog Post](https://medium.com/@jjlljj/my-first-contribution-to-open-source-5560903dffa0)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/jjlljj/pattrn-party)
+* [Pattern Party GitHub Pages](http://pattrn-party.surge.sh/)
 
 ### Jeff Bender
 
