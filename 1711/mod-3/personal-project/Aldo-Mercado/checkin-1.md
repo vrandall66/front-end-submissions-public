@@ -16,7 +16,7 @@ Application that allows user to search for bar or club venues around the United 
 #### Wireframes
 ![home](https://github.com/amercado1014/lets-go-out/blob/master/src/images/home-wireframe.png)
 
-![main](https://github.com/amercado1014/lets-go-out/blob/master/src/images/main-wireframe.png)
+![menu](https://github.com/amercado1014/lets-go-out/blob/master/src/images/menu-wireframe.png)
 
 #### Waffle & Github
 [GitHub](https://github.com/amercado1014/lets-go-out)
