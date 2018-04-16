@@ -138,7 +138,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://github.com/farmermel/pwa-palette-lab)
 * [Websockets Tutorial](https://github.com/farmermel/websocket-chat)
   Additional items: Add support for nicknames, <user> is typing message, broadcast when someone connects or disconnects.
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://gist.github.com/farmermel/eb4e8008e51e5c8ab71bb288a246244d)
 * [Pattern Party Repo](https://github.com/farmermel/pattrn-party)
 * [Pattern Party GitHub Pages](https://farmermel.github.io/pattrn-party/)
 
