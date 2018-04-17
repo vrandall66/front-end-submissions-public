@@ -169,11 +169,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/nogully/node-server-tutorial)
 * [Express Tutorial](https://github.com/nogully/express-tutorial) - Did all 4 exercises
 * [Promise Practice Exercises](https://gist.github.com/nogully/c165b682cd480aae4201b4fdd36b3cd3)
-* [Palette Picker PWA](https://github.com/nogully/palette-picker-pwa)
-* [Websockets Tutorial](https://github.com/nogully/chat-example) - What additional items did you work on?
-* [House of Vars Blog Post](https://medium.com/@nora.gully/getting-started-with-open-source-e0df803320f9)
-* [Pattern Party Repo](https://github.com/nogully/pattrn-party)
-* [Pattern Party GitHub Pages](http://delirious-weather.surge.sh)
+* [Palette Picker PWA]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [House of Vars Blog Post]()
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
 
 ### Nyssa Keller
 
