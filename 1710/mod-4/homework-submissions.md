@@ -113,9 +113,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/JorgeEdPerezGa/node-HTTP-server-tutorial)
 * [Express Tutorial](https://github.com/JorgeEdPerezGa/node-express) - What additional items did you work on? All four additional items.
 * [Promise Practice Exercises]()
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/JorgeEdPerezGa/palette-picker-pwa)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@perezga/open-food-network-my-first-open-source-contribution-b95a4caa6bb7)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -183,8 +183,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/nyssakeller/pattrn-party)
+* [Pattern Party GitHub Pages](https://nyssakeller.github.io/pattrn-party/)
 
 ### Ophus Wong
 
