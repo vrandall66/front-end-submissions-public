@@ -180,7 +180,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/nyssakeller/node-tutorial/tree/master/mod4/messages)
 * [Express Tutorial](https://github.com/nyssakeller/express-server-tutorial/tree/master/mod4/express-server-tutorial) - What additional items did you work on?
 * [Promise Practice Exercises](https://repl.it/@nyssakeller/Promise-Practice)
-* [Palette Picker PWA]()
+* [Palette Picker PWA](https://github.com/nyssakeller/palette-picker-pwa)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post](https://medium.com/@nyssakeller/my-first-open-source-contribution-7e0098798bf)
 * [Pattern Party Repo](https://github.com/nyssakeller/pattrn-party)
