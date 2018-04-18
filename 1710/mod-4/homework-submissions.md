@@ -48,7 +48,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://github.com/soytjan/promise-practice/tree/master)
 * [Palette Picker PWA](https://palette-picker-pwa-tjan.herokuapp.com/)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@soytjan/exploring-open-source-contribution-for-the-first-time-1f98f143e452)
 * [Pattern Party Repo](https://github.com/soytjan/pattrn-party)
 * [Pattern Party GitHub Pages](https://soytjan.github.io/pattrn-party/)
 
