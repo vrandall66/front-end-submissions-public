@@ -60,8 +60,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://github.com/brucekchung/palette-picker-pwa)- complete
 * [Websockets Tutorial](https://github.com/brucekchung/chat-socket-example) - complete 3 exercises
 * [House of Vars Blog Post](https://medium.com/@brucekchung/my-first-addition-to-an-open-source-repo-98dff02fafd3) - complete
-* [Pattern Party Repo](https://github.com/brucekchung/pattrn-party)- WIP
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/brucekchung/pattrn-party)
+* [Pattern Party GitHub Pages](https://brucekchung.github.io/pattrn-party/)
 
 ### Casey Dallavalle
 
