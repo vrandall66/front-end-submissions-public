@@ -201,7 +201,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Websockets Tutorial](https://github.com/etcetera8/web-sockets-tutorial) - What additional items did you work on? Broadcast user sign on, add user is typing, broadcast message sent by user so only other person recieves it from the server.
 * [House of Vars Blog Post](https://medium.com/@parkerthomas_2392/my-first-open-source-contribution-40caed7196bd)
 * [Pattern Party Repo](https://github.com/etcetera8/Pattrn-Party)
-* [Pattern Party GitHub Pages]()
+* [Pattern Party GitHub Pages](https://etcetera8.github.io/Pattrn-Party/)
 
 ### Spencer Herms
 
