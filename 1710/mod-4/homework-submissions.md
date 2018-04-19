@@ -114,7 +114,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/JorgeEdPerezGa/node-express) - What additional items did you work on? All four additional items.
 * [Promise Practice Exercises]()
 * [Palette Picker PWA](https://github.com/JorgeEdPerezGa/palette-picker-pwa)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/JorgeEdPerezGa/socket-chat) - What additional items did you work on?
 * [House of Vars Blog Post](https://medium.com/@perezga/open-food-network-my-first-open-source-contribution-b95a4caa6bb7)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
