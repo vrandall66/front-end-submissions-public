@@ -116,8 +116,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA](https://github.com/JorgeEdPerezGa/palette-picker-pwa)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [House of Vars Blog Post](https://medium.com/@perezga/open-food-network-my-first-open-source-contribution-b95a4caa6bb7)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/JorgeEdPerezGa/pattrn-party)
+* [Pattern Party GitHub Pages](https://jorgeedperezga.github.io/pattrn-party/)
 
 ### Matt Renn
 
