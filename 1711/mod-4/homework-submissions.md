@@ -27,7 +27,161 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ---
 
-### [Name]
+### Aldo Mercado
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Charles Yach
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Jared Eklin
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Jonathan Sweet
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Kailin Cannon
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Madelyn Dannenberg
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Matt Renn
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Matt Walker
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Michael Gatewood
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Ngoc Phan
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Om Saetehn
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Patrick McLaughlin
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Ricardo Viera
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Sabrina Kennedy
+
+* [Node Server Tutorial]()
+* [Express Tutorial]() - What additional items did you work on?
+* [Promise Practice Exercises]()
+* [Palette Picker PWA]()
+* [House of Vars Blog Post]()
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo]()
+* [Pattern Party GitHub Pages]()
+
+### Steven Lawson
 
 * [Node Server Tutorial]()
 * [Express Tutorial]() - What additional items did you work on?
