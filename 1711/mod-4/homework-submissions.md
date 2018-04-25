@@ -106,8 +106,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Matt Walker
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
+* [Node Server Tutorial](https://github.com/mttwlkr/node-backend)
+* [Express Tutorial](https://github.com/mttwlkr/express-backend/tree/master/public) - All 4
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
