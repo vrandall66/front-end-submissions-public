@@ -128,9 +128,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Ngoc Phan
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/nphan24/messages)
+* [Express Tutorial](https://github.com/nphan24/express-tutorial) - All 4
+* [Promise Practice Exercises](https://github.com/nphan24/promises-prework)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
