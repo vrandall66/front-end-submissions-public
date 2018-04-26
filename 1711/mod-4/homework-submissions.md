@@ -151,7 +151,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Patrick McLaughlin
 
 * [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
+* [Express Tutorial](https://github.com/patrickmc21/express-prework) - All 4
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
