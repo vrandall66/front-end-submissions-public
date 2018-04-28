@@ -118,7 +118,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Michael Gatewood
 
 * [Node Server Tutorial](https://github.com/mngatewood/messages)
-* [Express Tutorial](https://github.com/mngatewood/express-tutorial) - What additional items did you work on?
+* [Express Tutorial](https://github.com/mngatewood/express-tutorial) - 1, 2, 3
 * [Promise Practice Exercises](https://github.com/mngatewood/promise-practice)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
