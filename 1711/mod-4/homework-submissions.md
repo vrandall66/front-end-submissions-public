@@ -106,9 +106,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Matt Walker
 
-* [Node Server Tutorial](https://github.com/mttwlkr/node-backend)
+* [Node Server Tutorial](https://github.com/mttwlkr/node-backend/tree/master/messages)
 * [Express Tutorial](https://github.com/mttwlkr/express-backend/tree/master/public) - All 4
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises](https://github.com/mttwlkr/promises-homework/blob/master/promises-homework.js)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
@@ -128,9 +128,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Ngoc Phan
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/nphan24/messages)
+* [Express Tutorial](https://github.com/nphan24/express-tutorial) - All 4
+* [Promise Practice Exercises](https://github.com/nphan24/promises-prework)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
@@ -140,8 +140,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Om Saetehn
 
 * [Node Server Tutorial](https://github.com/chunktooth/node-http)
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/chunktooth/express-intro) - All 4
+* [Promise Practice Exercises](https://github.com/chunktooth/promises-practice)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
@@ -150,9 +150,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Patrick McLaughlin
 
-* [Node Server Tutorial]()
+* [Node Server Tutorial](https://github.com/patrickmc21/node-prework)
 * [Express Tutorial](https://github.com/patrickmc21/express-prework) - All 4
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises](https://github.com/patrickmc21/promises-prework)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
