@@ -140,8 +140,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Om Saetehn
 
 * [Node Server Tutorial](https://github.com/chunktooth/node-http)
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Express Tutorial](https://github.com/chunktooth/express-intro) - All 4
+* [Promise Practice Exercises](https://github.com/chunktooth/promises-practice)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
