@@ -29,9 +29,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Aldo Mercado
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/amercado1014/node-server-tutorial)
+* [Express Tutorial](https://github.com/amercado1014/express-tutorial) - All 4
+* [Promise Practice Exercises](https://github.com/amercado1014/promise-practice-exercises)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
