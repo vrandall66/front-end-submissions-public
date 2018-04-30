@@ -161,8 +161,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Ricardo Viera
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
+* [Node Server Tutorial](https://github.com/rvwatch/node-server-tutorial)
+* [Express Tutorial](https://github.com/rvwatch/express-tutorial) - 2-4
 * [Promise Practice Exercises]()
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
