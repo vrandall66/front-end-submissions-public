@@ -163,7 +163,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Node Server Tutorial](https://github.com/rvwatch/node-server-tutorial)
 * [Express Tutorial](https://github.com/rvwatch/express-tutorial) - 2-4
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises](https://gist.github.com/rvwatch/f2e6f7c6f8a4b14efa066655247f72a3)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
