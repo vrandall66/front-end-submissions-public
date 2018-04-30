@@ -51,9 +51,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jared Eklin
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/jaredeklin/node-prework)
+* [Express Tutorial](https://github.com/jaredeklin/express-tutorial) - 1,2,4
+* [Promise Practice Exercises](https://gist.github.com/jaredeklin/c0b3f4027fe8f73bcbb94ffac8b54e27)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
