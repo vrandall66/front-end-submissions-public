@@ -184,7 +184,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Steven Lawson
 
 * [Node Server Tutorial](https://gist.github.com/stevenleelawson/f7c33e6bd3b15d4a4f867dcfa0af687b)
-* [Express Tutorial](https://gist.github.com/stevenleelawson/96f642361387fa857f820d03a1228c08) - All 4!
+* [Express Tutorial](https://github.com/stevenleelawson/express-tutorial-prework) - All 4!
 * [Promise Practice Exercises](https://repl.it/@wolfshark/Promises-Practice)
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
