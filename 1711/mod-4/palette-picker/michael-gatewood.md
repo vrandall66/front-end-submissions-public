@@ -11,8 +11,8 @@
 [heroku](https://palette-picker-heroku.herokuapp.com/)
 
 #### Link to your annotated server file
-[annotated server file]()
-*pending completion
+[annotated server file](https://github.com/mngatewood/palette-picker/blob/master/server-annotated.js)
+*post-1300
 
 ## Completion
 
@@ -42,7 +42,7 @@ Alerts.  I would have preferred a more elegant solution, but I fell behind and h
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite](https://github.com/mngatewood/palette-picker/blob/master/test/test-result.js)
+[test suite](https://raw.githubusercontent.com/mngatewood/palette-picker/master/test/test-output.png)
 
 #### Link to Design Inspiration
 
@@ -54,9 +54,9 @@ I thought that it would be cool to have spinning reels that revealed one at a ti
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Incomplete:
+Late (post-1300):
 
-1. Fix conditional inside get single project, get single palette, and delete palette so that tests pass.
+1. Corrected tests to pass.
 
 2. Commented server file.
 
