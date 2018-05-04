@@ -2,7 +2,7 @@
 
 [Project Spec](http://frontend.turing.io/projects/palette-picker.html)
 
-# Basics
+# Basics  
 
 #### Link to the GitHub Repository for the Project
 [palette-picker](https://github.com/mngatewood/palette-picker)
