@@ -5,19 +5,19 @@
 # Basics
 
 #### Link to the GitHub Repository for the Project
-[palette-picker]()
+[palette-picker](https://github.com/Kc2693/palette-picker)
 
 #### Link to the Deployed Application
-[heroku]()
+[heroku](https://kc-palette-picker.herokuapp.com/)
 
 #### Link to your annotated server file
-[annotated server file]()
+Did not get a chance to annote server file.
 
 ## Completion
 
 #### Were you able to complete the base functionality?
 
-If not, explain what is missing and why.
+No. Repo has a list of github issues for missing functionality. I didn't get a chance to implement the lock on colors, unique folder names, clicking on a project palette to generate it. Additionally I still have things requiring a page reload.
 
 #### Which extensions, if any, did you complete?
 
