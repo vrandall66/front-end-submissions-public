@@ -10,6 +10,7 @@
 - Added more wireframes for when no quotes are shown and for the jar
 
 #### What deliverables still need to be completed from your last checkin?
+N/A
 
 #### Next Steps?
 - A randomizer that selects a string of an object inside an array of quotes
@@ -22,3 +23,5 @@
 - Being stuck on a problem for too long
 
 #### Deliverables for next checkin:
+- Display or hide one quote at a time after a click wtih UI
+- Can store wisdom in a jar, in Redux store, with UI
