@@ -1,50 +1,41 @@
-## Student:
-## Evaluator:
+## Student: Paul
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+HTML
+* Use forms! Use aria-labels!
+* Switch to kabob-case
+
+CSS
+* use classes as standalone in declaration
+* pull duplicate declaration blocks into a more broad class to dry things up
+* May be easier to use percentages as widths
+
+JS
+* Leverage else ifs - always have an else for the catch all
+* be more verbose and descriptive in naming conventions
+* leverage console logs more and know what returns are doing (they will return a value from a function, and are only really necessary if we want to store the return value
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

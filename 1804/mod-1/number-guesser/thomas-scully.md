@@ -1,5 +1,5 @@
-## Student:
-## Evaluator:
+## Student: Tom S.
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
 
 ## Functional Expectations
