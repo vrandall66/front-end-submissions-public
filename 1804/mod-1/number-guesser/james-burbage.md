@@ -1,50 +1,38 @@
-## Student:
-## Evaluator:
+## Student: James
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+HTML
+* naming conventions - guess-input instead of input-box
+* add aria-label to inputs
+
+CSS
+* Dry it up!
+* Pull duplicate declaration blocks into a more broad class, and override where necessary
+
+JS
+* Say more in naming conventions - more descriptive and make sure that functions read like an action
+* Check out style guides
+* Keep console logging!!!!!
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

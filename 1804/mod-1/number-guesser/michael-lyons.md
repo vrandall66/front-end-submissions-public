@@ -1,50 +1,39 @@
-## Student:
-## Evaluator:
+## Student: Michael
+## Evaluator: Leta Keane
 ## Notes/What To Work On:
+
+HTML 
+- Good use of ARIA tags
+- Communicates structure well
+- Thoughtful, legal usage of div :slightly_smiling_face:
+
+CSS 
+- Nice layout, very little redundancy
+
+JS 
+- Leverage parameters (enable and disable buttons - pass in the boolean instead and turn it into a single function!)
+- Reduce repetition in if/else statement? Just an opportunity to refactor if you wanted to
 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

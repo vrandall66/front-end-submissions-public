@@ -29,5 +29,5 @@
 
 ## JS/jQuery
 
-* Advanced Beginner  
 * Proficient   
+

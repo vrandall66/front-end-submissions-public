@@ -1,50 +1,44 @@
-## Student:
-## Evaluator:
+## Student: Laura
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+HTML
+* Use multiple forms whenever there is an input and a button associated that should be a form
+* Great use of labels
+
+CSS
+* look into bem and multiple class patterns
+
+JS
+* One more look at style guides
+* Cool that you used modulo
+* dry it up - pull out duplicate lines into a function and pass dynamic info via arguments if necessary
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
 * Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
 
 * Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
 * Magic
