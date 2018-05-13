@@ -1,50 +1,40 @@
-## Student:
-## Evaluator:
+## Student: Brian Tiedt
+## Evaluator: Nathaniel Foster
 ## Notes/What To Work On:
+
+Functional
+
+Through phase 2 with setting own ranges
+clear button disabled, guess button not disabled
+
+HTML
+use form
+do not use onclick attribute 
+
+CSS
+great job using h1 span
+avoid multiple selector declarations
+
+JS
+min, max in reset, always be ''
+areas for refactoring, create local variables
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
