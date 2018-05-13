@@ -1,50 +1,34 @@
-## Student:
-## Evaluator:
+## Student: Cody Taft
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
+- Through Phase III
+- Great job with feedback for user
+- Some jarring of elements w/dynamic feedback that should be addressed 
+- Run through a screenreader
+- Avoid ids as in CSS due to specificity
+- Look into a methodology like [SMACSS](https://smacss.com/book/categorizing) for organizing CSS
+- Look into organizing your CSS declarations [idiomatically](https://github.com/necolas/idiomatic-css)
+- Nice job talking through your JS
+
 ## Functional Expectations
-
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
+  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient   
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner   
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+* Advanced Beginner
+* Proficient
