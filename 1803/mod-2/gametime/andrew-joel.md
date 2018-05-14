@@ -5,7 +5,6 @@
 Comments:
 * Wonderful TDD, strongest effort I've seen there in a while
 * Good file structure and organization, nice clean github commit history -- although be sure to be consistent with capitalization and the tense of your commit messages. Couple discrepencies there.
-*
 
 ### Functional Expectations
 
@@ -15,11 +14,14 @@ Comments:
 
 * 3.5 - The application has many strong pages/interactions, solid effort put into UI.
 
+
+* The IDs [here](https://github.com/andrew-t-james/game-time/blob/master/index.html#L12-L17) should be on the p tags, rather than the spans -- IDs help to group related content. You could change your selectors in JS/CSS to access `#score span` 
+
 ### Testing
 
 * 4 - Project has a running test suite that exercises the application at multiple levels. The test suite covers almost all aspects of the application and uses mocks and stubs when appropriate.
 
-(Only thing I would mention is that refactoring to use the before/beforeEach hooks for repetitive code)
+* (Only thing I would mention is doing that refactoring to use the before/beforeEach hooks for repetitive setup code
 
 
 ### JavaScript Style
