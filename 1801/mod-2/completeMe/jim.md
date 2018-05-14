@@ -3,9 +3,9 @@
 ### Evaluator: Brittany
 
 Comments:
-* 
-* 
-* 
+* [This test](https://github.com/Ecksi/complete-me/blob/master/tests/Trie-test.js#L46-L55) is kind of redundant/unecessary. There's really nothing special about adding four words as opposed to one or two or three.
+* You probably don't need to store your [suggesstions](https://github.com/Ecksi/complete-me/blob/master/scripts/Trie.js#L7-L8) as an instance property on the Trie -- just have the suggest method create this array and return it each time the method is called, you won't need to hold onto that value for any longer than the duration of the method execution
+* An edge case to test [here](https://github.com/Ecksi/complete-me/blob/master/tests/Trie-test.js#L107) with suggest is to also insert a word that wouldn't match the prefix, and assert that it *doesn't* get included in the suggestions array
 
 ## 1. Process
 
