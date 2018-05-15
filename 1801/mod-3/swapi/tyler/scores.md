@@ -1,6 +1,6 @@
-#### Evaluator:
+#### Evaluator: Christie
 ### Students:
-### Comments:
+### Comments: Nice job!
 
 ## Rubric
 
