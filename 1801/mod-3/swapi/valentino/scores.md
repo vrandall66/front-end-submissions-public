@@ -1,6 +1,6 @@
-#### Evaluator:
+#### Evaluator: Christie
 ### Students:
-### Comments:
+### Comments: Make smaller, more frequent commits. Short on tesitng coverage 
 
 ## Rubric
 
