@@ -10,7 +10,7 @@
 
 ### Code Quality
 
-* 2.5 - Developer selected appropriate libraries and frameworks to build the app but did not use them as intended. Significant refactoring necessary.
+* 3 - Developer appears comfortable in React. There are minor opportunities to refactor.
 
 ### CSS/Design
 
