@@ -165,7 +165,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/rvwatch/express-tutorial) - 2-4
 * [Promise Practice Exercises](https://gist.github.com/rvwatch/f2e6f7c6f8a4b14efa066655247f72a3)
 * [Palette Picker PWA]()
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@patrickmc21/open-source-contributions-b36b0e84107)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
