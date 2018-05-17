@@ -1,71 +1,52 @@
-## Student:
-## Evaluator:
+## Student: Brandon and Brandon
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+HTML
+* Great work using those aria-labels
+
+CSS
+* Pull duplicate declarations into their own class
+* Consider using more organizational comments
+* Some inconsistencies - look at the style guides!
+
+JS
+* Lots of inconsistencies with indentation and empty lines- look at the style guides!
+* Could be a bit more descriptive with naming conventions
 
 ## Functional Expectations
 
 * Novice: Application meets all of the functional expectations in Phase One.
 * Advanced Beginner: Application meets all of the functional expectations in Phase Two.
-* Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
 
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
