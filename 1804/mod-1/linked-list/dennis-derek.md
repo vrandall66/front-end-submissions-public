@@ -1,71 +1,62 @@
-## Student:
-## Evaluator:
+## Student: Dennis & Derek
+## Evaluator: Nathaniel
 ## Notes/What To Work On:
+
+Functional
+Parts of phase 1, 2, 3
+Read first bookmark only, cant unread
+Delete first bookmark only
+check to see if https is in url string
+
+UI
+remove white spacing
+body {
+  margin: 0
+}
+
+HTML
+fix indentation
+use ul for list
+remove uneccessary label elements
+
+CSS
+fix formatting
+
+JS
+Avoid mixing JS & jQuery for DOM interaction
+
+GIT
+Work on branching cycle
+
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
 * Advanced Beginner: Application meets all of the functional expectations in Phase Two.
-* Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
-* Proficient
-* Exceptional
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  

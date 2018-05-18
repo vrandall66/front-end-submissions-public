@@ -1,53 +1,48 @@
-## Student:
-## Evaluator:
+## Student: Paul & Thomas S
+## Evaluator: Nathaniel
 ## Notes/What To Work On:
+
+HTML
+use a ul and li for list items
+no extra labels
+
+CSS
+don't use px for fonts
+don't nest selectors if not needed
+no unneccessary css, e.g. padding 0
+
+JS
+make sure to use a var when creating variables
+
+GIT
+Work on more descriptive commit messages
+
+Love the animation!
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
-* Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
@@ -58,14 +53,8 @@
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
-* Proficient
-* Exceptional
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
 * Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
