@@ -1,71 +1,72 @@
-## Student:
-## Evaluator:
+## Student: Tim and Alex
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Make sure to do a DTR every project
+
+## Functionality
+
+- Through most of Phase III
+- Counter not working correctly
+
+## Comp Recreation/Design
+
+- Overall good recreation of the comp
+- Minor things to polish
+
+## Git/GitHub
+- More commits
+- Verbose commits
+- Committing after functionality is complete
+
+## HTML
+- No spacing between lines
+- Good nesting
+- Aria labels for your inputs
+- Run through a screenreader
+- Don't add classes you don't need
+
+## CSS
+- Good job alphabetizing
+- Look into [idomatic CSS](https://github.com/necolas/idiomatic-css) for organizing your next project
+
+## JS
+- Easy to read
+- Don't break apart functionality before you need to do so
+- Work on naming
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
 * Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner   
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-
+ 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner    
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic  
