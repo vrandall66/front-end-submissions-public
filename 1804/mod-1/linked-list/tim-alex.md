@@ -28,7 +28,7 @@
 
 ## CSS
 - Good job alphabetizing
-- Look into [idomatic CSS](https://github.com/necolas/idiomatic-css) for organizing your next project
+- Look into [idiomatic CSS](https://github.com/necolas/idiomatic-css) for organizing your next project
 
 ## JS
 - Easy to read
