@@ -28,7 +28,7 @@
 
 ## JS
 - Delete code that is not dealing with current spec
-- Take advantage that you are using funtion declarations and not expressions by placing functions called on page load at the top of your file
+- Take advantage that you are using function declarations and not expressions by placing functions called on page load at the top of your file
 - Simplify, simplify, simplify - take the Dieter Rams approach to writing your JS. Less is often more, as we discussed  
 
 ## Functional Expectations
