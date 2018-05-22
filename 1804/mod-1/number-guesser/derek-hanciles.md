@@ -1,50 +1,34 @@
-## Student:
-## Evaluator:
+## Student: Derek Hanciles
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Through Phase II
+- Great job with recreating the comp!
+- Work on identation in HTML
+- Run through a screenreader
+- Look into a methodology like [SMACSS](https://smacss.com/book/categorizing) for organizing CSS
+- Look into organizing your CSS declarations [idiomatically](https://github.com/necolas/idiomatic-css)
+- Nice job breaking apart functionality in JS
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Novice
+* Advanced Beginner   
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner    
 
 ## JS/jQuery
-
-* Novice  
+ 
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

@@ -1,50 +1,33 @@
-## Student:
-## Evaluator:
+## Student: Thomas Scully
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Through Phase II
+- Excellent recreation of the comp 
+- Run through screenreader 
+- Look into a methodology like [SMACSS](https://smacss.com/book/categorizing) for organizing CSS
+- Nice job alphabetizing declarations, look into [idiomatic CSS](https://github.com/necolas/idiomatic-css)
+- Do no remove the blue focus ring - it is ugly, but this is [bad for accessibility](https://hackernoon.com/removing-that-ugly-focus-ring-and-keeping-it-too-6c8727fefcd2)
+- Great job of speaking about your code/using tech vocab
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner    
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

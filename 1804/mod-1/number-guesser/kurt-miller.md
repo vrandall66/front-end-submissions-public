@@ -1,50 +1,41 @@
-## Student:
-## Evaluator:
+## Student: Kurt Miller
+## Evaluator: Nathaniel Foster
 ## Notes/What To Work On:
+
+Partial phase 3
+Added min/max inputs
+
+styling off for min/max inputs and reset button
+
+update alert to reflect min/max
+
+CSS
+Watch out for setting left/top to high values
+Checkout min-height, margin: auto
+
+JS
+make generate random number function
+
+refactor disableMin & disableMax into one function
+refactor checkGuess to put guess in variable
+
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

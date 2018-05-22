@@ -1,50 +1,40 @@
-## Student:
-## Evaluator:
+## Student: Kevin
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+* Pay more attention to spacing and sizing - pixel perfect
+
+html
+* Look at the style guide
+* Add aria-labels to inputs
+
+css
+* Try to avoid negative margins - a positive margin can be applied elsewhere
+* font weight can be applied to body
+* margin 0 on body
+
+js
+* Check out style guides
+* work on naming conventions
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
