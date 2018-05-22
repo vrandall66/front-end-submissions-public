@@ -29,7 +29,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/amercado1014/express-tutorial) - All 4
 * [Promise Practice Exercises](https://github.com/amercado1014/promise-practice-exercises)
 * [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/amercado1014/chat-example) - Add username, Dont send message to user, Connect message. 
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
