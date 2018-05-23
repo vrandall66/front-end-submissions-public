@@ -129,7 +129,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/chunktooth/express-intro) - All 4
 * [Promise Practice Exercises](https://github.com/chunktooth/promises-practice)
 * [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/chunktooth/chat-socket.io) - connected/disconnected, nickname and broadcasting only to recipients
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
