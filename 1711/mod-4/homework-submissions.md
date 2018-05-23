@@ -128,7 +128,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/chunktooth/node-http)
 * [Express Tutorial](https://github.com/chunktooth/express-intro) - All 4
 * [Promise Practice Exercises](https://github.com/chunktooth/promises-practice)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@om.saetehn/open-source-contribution-refined-github-d399750323cb)
 * [Websockets Tutorial](https://github.com/chunktooth/chat-socket.io) - connected/disconnected, nickname and broadcasting only to recipients
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
