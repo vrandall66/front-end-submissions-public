@@ -70,3 +70,8 @@ Building a poll from scratch
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+React, Redux, Router boilerplate
+Add vote results to Firebase
+Intial page with poll
+API calls to get all contributors
