@@ -53,3 +53,8 @@ Tone of Voice is an app that allows you to compare different headlines in the US
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+- Initial boilerplater for React/Router/Redux
+- Api Calls
+  - First Api call to be able to pull back articles
+  - Api call to Watson capable of sending back tone analysis
+- Listing of articles on main page
