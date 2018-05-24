@@ -6,6 +6,10 @@
 This application is intended to spread information about clinical trails and give broader access of information to those dealing with ailments and their loved ones.
 
 ### Deliverables
+1.Add additional wireframes for authentication pages and for logged in user.
+2.Build out react/ redux boilerpalte.
+3.Have provider and reducer setup by tuesday.
+4.Setup fetch and search functionality. Hvae the cards rendering on main page.
 
 #### Stack:
 react.js, enzyne, jest, redux, router, firebase,
