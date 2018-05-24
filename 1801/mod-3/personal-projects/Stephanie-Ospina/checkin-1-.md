@@ -72,3 +72,9 @@ Iteration 3:
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+- Add events to the redux store
+- Display events and style them
+- Display a single event onClick
+- Set up Firebase
+- Start the sign in and sign up implementation
