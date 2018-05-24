@@ -41,3 +41,7 @@ creating backend to store users with data
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+- More wireframes for interior of App
+- Set up React / Redux / Router BoilerPlate
+- Perform at least on Api call and setting data into redux store
+- Zipcode / city entry page completed
