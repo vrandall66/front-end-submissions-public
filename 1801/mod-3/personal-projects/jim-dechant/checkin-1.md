@@ -50,5 +50,14 @@ Show dispensaries in Colorado that carry these strains
 Time, burnout, testing.
 
 #### Instructor Notes
+- I'm excited about this idea!
 
 #### Deliverables for next checkin:
+- Get Firebase set up
+- Setup Redux and Router
+- Make fetch requests and put data into the store
+- Start testing - test as you go
+- Add linter
+- Keep GitHub Issues current
+- Start building out the UI
+- Store structure - keep data flat and try not to duplicate
