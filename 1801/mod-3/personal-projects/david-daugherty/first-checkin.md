@@ -1,5 +1,5 @@
 
-## Project Name: SPORTSBALL - That long and boring game edition
+## Project Name: SPORTSBALL
 
 #### Check In (what checkin number is this?)
 Numero uno
