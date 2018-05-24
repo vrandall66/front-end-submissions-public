@@ -12,7 +12,7 @@ This application is intended to spread information about clinical trails and giv
 4.Setup fetch and search functionality. Hvae the cards rendering on main page.
 
 #### Stack:
-react.js, enzyne, jest, redux, router, firebase,
+react.js, enzyme, jest, redux, router, firebase,
 
 #### APIs:
 OpenTrails api
