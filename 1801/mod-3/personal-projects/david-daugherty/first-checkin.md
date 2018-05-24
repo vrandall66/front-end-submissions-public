@@ -29,5 +29,14 @@ Adding more data and apis that link to teaching about terminology of the game. O
 I think the biggest challenge will be figuring out the logic to display a correct applicable response for events that happened during the game.
 
 #### Instructor Notes
+* Great wireframes! And love this idea!
 
 #### Deliverables for next checkin:
+* Have Redux and Router set up
+* Initail fetch call and putting data in the store
+* Set up firebase
+* Start testing
+* Add a linter
+* Store structure - keeping data flat and try not to duplicate data
+* Start building out UI
+
