@@ -36,6 +36,7 @@ I think the biggest challenge will be figuring out the logic to display a correc
 * Initail fetch call and putting data in the store
 * Set up firebase
 * Start testing
+* Keep waffle issues updated
 * Add a linter
 * Store structure - keeping data flat and try not to duplicate data
 * Start building out UI
