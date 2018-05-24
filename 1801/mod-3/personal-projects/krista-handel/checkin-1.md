@@ -28,13 +28,13 @@ OR 
 Github Issues
 
 #### Order Of Attack
-Iteration 0 -
-Setup Firebase
-Render search query to search results page
-Iteration 1 -
-Allow existing users to sign in/sign out
-Allow users to create accounts
-Iteration 2 -
+Iteration 0 -  
+Setup Firebase  
+Render search query to search results page  
+Iteration 1 -  
+Allow existing users to sign in/sign out  
+Allow users to create accounts  
+Iteration 2 -  
 User functionality: users able to (possibly) download pdfs and archive search results to personal dashboard
 
 #### MVP
@@ -49,3 +49,11 @@ So far just using the API and checking whether or not the results are still avai
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+
+1. Wireframe for user dashboard  
+2. Have boilerplate app set up:  
+- CRA  
+- Router  
+- Redux  
+3. One API call with return data in Redux store  
+4. Search functionality should utilize API call  
