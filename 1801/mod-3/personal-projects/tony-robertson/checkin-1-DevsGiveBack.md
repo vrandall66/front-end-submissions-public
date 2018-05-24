@@ -66,4 +66,12 @@
  -
 
 #### Deliverables for next checkin:
- - 
+
+ - Setup Firebase
+ - OAuth
+ - Setup Redux and Router
+ - Determine exactly how you are going to use the GitHub api, make fetch requests and putting data into the store
+ - Add linter
+ - Start testing - test along the way
+ - Start building out the UI
+ - Keep GitHub Issues up to date
