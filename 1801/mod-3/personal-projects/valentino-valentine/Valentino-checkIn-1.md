@@ -45,3 +45,11 @@
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Setup Redux and Router
+* Nail down an api
+* Make initial fetch request and put data into the store
+* Add a linter
+* Keep Asana up to date
+* Start testing - test along the way
+* Start building out the UI
+* Store structure - flat and try not to duplicate data
