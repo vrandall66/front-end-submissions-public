@@ -15,7 +15,7 @@
 
 #### APIs: [Nutritionx](https://developer.nutritionix.com/admin/access_details)
 
-#### Wireframes: Balsamiq(https://imgur.com/a/fMvQr5C)
+#### Wireframes: [Balsamiq](https://imgur.com/a/fMvQr5C)
 
 #### Waffle & Github
 [Asana](https://app.asana.com/0/685677221978308/board)
