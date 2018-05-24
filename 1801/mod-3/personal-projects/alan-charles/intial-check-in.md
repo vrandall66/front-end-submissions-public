@@ -46,3 +46,11 @@ Building a backend and getting web sockets to work as I hope.
 **Instructor Notes**
 
 **Deliverables for next checkin:**
+- React/Redux/Router boilerplate setup
+- 1st API call for pulling back available NBA teams
+- 2nd API call for pulling back W/L for each team
+- Firebase setup to save drafts
+- UI:
+   - Page for creating a new league/draft
+   - Page for actively drafting
+   - Page for tracking results of live league
