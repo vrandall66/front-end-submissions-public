@@ -54,5 +54,15 @@ The world is filled with biased news.  Check your own biases, and the biases of 
 * Saving information that is consistently changing
 
 #### Instructor Notes
+* Love this idea! Great work so far!
 
 #### Deliverables for next checkin:
+* Get Redux set up
+* Think about you can incorporate router
+* Putting data into Redux store
+* Set up Firebase
+* Start testing
+* Add linter
+* Store structure - flat and try not to duplicate data
+* Keep Asana up to date with issues
+* Start building out the UI
