@@ -21,10 +21,10 @@ Google maps & Google Distance Matrix
 Possibly Google Calendar?
 
 #### Wireframes
-![Login](https://github.com/EricMellow/front-end-submissions-public/blob/master/1801/mod-3/personal-projects/login-wireframe.jpg)
-![Create](https://github.com/EricMellow/front-end-submissions-public/blob/master/1801/mod-3/personal-projects/meetup-wireframe.jpg)
-![Tags](https://github.com/EricMellow/front-end-submissions-public/blob/master/1801/mod-3/personal-projects/tags-wireframe.jpg)
-![Distance](https://github.com/EricMellow/front-end-submissions-public/blob/master/1801/mod-3/personal-projects/distance-wireframe.jpg)
+![Login](https://github.com/EricMellow/front-end-submissions-public/blob/master/1801/mod-3/personal-projects/Eric-Jungbluth/login-wireframe.jpg)
+![Create](https://github.com/EricMellow/front-end-submissions-public/blob/master/1801/mod-3/personal-projects/Eric-Jungbluth/meetup-wireframe.jpg)
+![Tags](https://github.com/EricMellow/front-end-submissions-public/blob/master/1801/mod-3/personal-projects/Eric-Jungbluth/tags-wireframe.jpg)
+![Distance](https://github.com/EricMellow/front-end-submissions-public/blob/master/1801/mod-3/personal-projects/Eric-Jungbluth/distance-wireframe.jpg)
 
 #### Waffle & Github
 [Asana](https://app.asana.com/0/685034069162996/board)
