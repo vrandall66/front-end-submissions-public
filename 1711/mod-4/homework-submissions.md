@@ -29,7 +29,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/amercado1014/express-tutorial) - All 4
 * [Promise Practice Exercises](https://github.com/amercado1014/promise-practice-exercises)
 * [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/amercado1014/chat-example) - Add username, Dont send message to user, Connect message. 
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -138,8 +138,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/patrickmc21/node-prework)
 * [Express Tutorial](https://github.com/patrickmc21/express-prework) - All 4
 * [Promise Practice Exercises](https://github.com/patrickmc21/promises-prework)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [House of Vars Blog Post](https://medium.com/@patrickmc21/open-source-contributions-b36b0e84107)
+* [Websockets Tutorial](https://github.com/patrickmc21/websockets-tutorial) - First three bullet points
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -160,7 +160,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/skenne21/intro-to-express) - all four
 * [Promise Practice Exercises](https://github.com/skenne21/Promise-pledges)
 * [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/skenne21/chat-box) - (Broadcast connected users, add user message notsent to user).
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
