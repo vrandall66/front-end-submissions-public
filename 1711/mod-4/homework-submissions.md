@@ -12,14 +12,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Promise Practice Exercises](https://gist.github.com/robbiejaeger/dc8f55c1f9462741090862f736b82cab)
 
-**Week 2**
-
-* [Palette Picker PWA]()
-
 **Week 4**
 
-* [Websockets Tutorial](https://socket.io/get-started/chat/) - Link to completed Websockets tutorial repo with a note about which of the 3 problems in the "Homework" section that you worked on
 * [House of Vars Blog Post]()
+* [Websockets Tutorial](https://socket.io/get-started/chat/) - Link to completed Websockets tutorial repo with a note about which of the 3 problems in the "Homework" section that you worked on
 
 **Week 5**
 
@@ -32,7 +28,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/amercado1014/node-server-tutorial)
 * [Express Tutorial](https://github.com/amercado1014/express-tutorial) - All 4
 * [Promise Practice Exercises](https://github.com/amercado1014/promise-practice-exercises)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -43,7 +38,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/CharlesY712/node-prework)
 * [Express Tutorial](https://github.com/CharlesY712/express-prework) - All 4
 * [Promise Practice Exercises](https://github.com/CharlesY712/promises-prework)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -54,7 +48,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/jaredeklin/node-prework)
 * [Express Tutorial](https://github.com/jaredeklin/express-tutorial) - 1,2,4
 * [Promise Practice Exercises](https://gist.github.com/jaredeklin/c0b3f4027fe8f73bcbb94ffac8b54e27)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -65,7 +58,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/JSweet314/node-server-tutorial)
 * [Express Tutorial](https://github.com/JSweet314/express-tutorial) - Addtl. challenges 1-3
 * [Promise Practice Exercises](https://github.com/JSweet314/promise-practice-exercises)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -76,7 +68,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/Kc2693/prework-node)
 * [Express Tutorial](https://github.com/Kc2693/prework-express) - #1, #2, and #4
 * [Promise Practice Exercises](https://repl.it/@Kailin/Promises-Practice)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -87,7 +78,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/mmdberg/messages-practice)
 * [Express Tutorial](https://github.com/mmdberg/express-practice) - 1, 2 & 4
 * [Promise Practice Exercises](https://gist.github.com/mmdberg/5f818f5fa954a4b788752e12ffbe09ee)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -95,10 +85,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Matt Renn
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
-* [Palette Picker PWA]()
+* [Node Server Tutorial](https://github.com/rennmatthewp/node-server-tutorial)
+* [Express Tutorial](https://github.com/rennmatthewp/express-tutorial) - All 4
+* [Promise Practice Exercises](https://repl.it/@rennmatthewp/promises-pledges)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -109,7 +98,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/mttwlkr/node-backend/tree/master/messages)
 * [Express Tutorial](https://github.com/mttwlkr/express-backend/tree/master/public) - All 4
 * [Promise Practice Exercises](https://github.com/mttwlkr/promises-homework/blob/master/promises-homework.js)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -120,7 +108,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/mngatewood/messages)
 * [Express Tutorial](https://github.com/mngatewood/express-tutorial) 1-4
 * [Promise Practice Exercises](https://github.com/mngatewood/promise-practice)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -131,7 +118,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/nphan24/messages)
 * [Express Tutorial](https://github.com/nphan24/express-tutorial) - All 4
 * [Promise Practice Exercises](https://github.com/nphan24/promises-prework)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -142,7 +128,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/chunktooth/node-http)
 * [Express Tutorial](https://github.com/chunktooth/express-intro) - All 4
 * [Promise Practice Exercises](https://github.com/chunktooth/promises-practice)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -153,7 +138,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/patrickmc21/node-prework)
 * [Express Tutorial](https://github.com/patrickmc21/express-prework) - All 4
 * [Promise Practice Exercises](https://github.com/patrickmc21/promises-prework)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -164,7 +148,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/rvwatch/node-server-tutorial)
 * [Express Tutorial](https://github.com/rvwatch/express-tutorial) - 2-4
 * [Promise Practice Exercises](https://gist.github.com/rvwatch/f2e6f7c6f8a4b14efa066655247f72a3)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post](https://medium.com/@patrickmc21/open-source-contributions-b36b0e84107)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -175,7 +158,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/skenne21/Node.js-tutorial)
 * [Express Tutorial](https://github.com/skenne21/intro-to-express) - all four
 * [Promise Practice Exercises](https://github.com/skenne21/Promise-pledges)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
@@ -186,7 +168,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://gist.github.com/stevenleelawson/f7c33e6bd3b15d4a4f867dcfa0af687b)
 * [Express Tutorial](https://github.com/stevenleelawson/express-tutorial-prework) - All 4!
 * [Promise Practice Exercises](https://repl.it/@wolfshark/Promises-Practice)
-* [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
