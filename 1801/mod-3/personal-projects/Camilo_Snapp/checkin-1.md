@@ -13,7 +13,6 @@ Once filters are set show local area results.
 Wireframe, TechStack and API's
 
 #### Stack:
-
 React, Redux, Router,
 Post MVP - firebase so that choices can be saved.
 
@@ -21,6 +20,8 @@ Post MVP - firebase so that choices can be saved.
 https://developers.zomato.com/documentation#/
 
 #### Wireframes
+
+![img_3081](https://user-images.githubusercontent.com/8752377/40497210-e507aa0a-5f38-11e8-9192-ba9c98646935.JPG)
 
 #### Waffle & Github
 https://github.com/CamArturo/PickyEater
