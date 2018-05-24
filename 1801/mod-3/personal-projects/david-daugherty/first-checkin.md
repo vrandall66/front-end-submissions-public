@@ -15,7 +15,7 @@ React, Redux, Router, maybe firebase, maybe some sort of animation library.
 #### Wireframes
 [Initial wireframes](https://projects.invisionapp.com/prototype/cjgwlehgr000bb601i7tled18/play)
 #### Waffle & Github
-
+[Github](https://github.com/daughedm/Sportsball) [waffle](https://waffle.io/daughedm/Sportsball)
 #### Order Of Attack
 I really want to really develop a strong road map by wireframing and annotating how everything is going to work together, look and feel so that I an able to eliminate an much potential hurdles as possible. My next step will be figuring out how I will need to clean the data and creating a large data set of phrases while testing along the way. 
 #### MVP
