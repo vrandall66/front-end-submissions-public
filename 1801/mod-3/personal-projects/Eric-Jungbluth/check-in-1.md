@@ -49,3 +49,14 @@ Creating the backend and working with the api
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Get Firebase set up
+* User should be able to sign in
+* Pull user info and location and put in the store
+* Be able to create a new meetup and add to Firebase
+* Set up Redux and Router
+* Initial fetch & put data into the store
+* Start testing - test as you go
+* Add a linter
+* Keep Asana up to date
+* Start building out the UI
+
