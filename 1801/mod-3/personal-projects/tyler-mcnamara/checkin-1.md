@@ -58,3 +58,12 @@ Ability to search by event or by category with the additional of a filter for pr
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Set up Firebase
+* User logs in and must give a location
+* Set up Redux and Router
+* Make initial fetch and add data to the store
+* Add a linter
+* Start testing - test along the way
+* Keep Wafffle up to date
+* Start building out the UI
+* store stucture - flat and try not to duplicate data
