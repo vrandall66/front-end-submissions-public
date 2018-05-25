@@ -80,6 +80,10 @@ https://app.asana.com/0/681318719662859/board
 * Timeline of features & extensions
 * Update Asana with ^^
 * Sketch user flow
+* npm start to work
+* npm test to work
+* redux, react-router set up
+* fetching some data (if your first thing to do is oauth, I want some scaffolding set up for that)
 
  
  
