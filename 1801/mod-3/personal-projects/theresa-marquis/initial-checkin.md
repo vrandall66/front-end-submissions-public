@@ -42,4 +42,14 @@ Recognizing and adapting development as user empathy concerns/needs are more ful
 
 #### Instructor Notes
 
+
 #### Deliverables for next checkin:
+1. Better prioritization for todos
+2. Reorder the iterations after consideriation
+3. Think about more pages and using Router for them
+4. Mapping of Redux architecture
+5. Simpl UI
+6. Know what actions, reducers, store look like
+7. repo on GitHub, file structure
+8. Testing, linting, npm start work 
+9. Do a fetch call
