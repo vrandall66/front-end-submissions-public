@@ -77,6 +77,10 @@ https://app.asana.com/0/681318719662859/board
 
 #### Deliverables for next checkin:
 
+* Timeline of features & extensions
+* Update Asana with ^^
+* Sketch user flow
+
  
  
 
