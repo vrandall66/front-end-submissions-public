@@ -118,7 +118,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/nphan24/messages)
 * [Express Tutorial](https://github.com/nphan24/express-tutorial) - All 4
 * [Promise Practice Exercises](https://github.com/nphan24/promises-prework)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@ngoc.gilmore24/my-first-dive-into-an-open-source-project-31219599baa4)
 * [Websockets Tutorial](https://github.com/nphan24/web-sockets) - First 3
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
