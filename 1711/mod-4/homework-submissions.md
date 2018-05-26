@@ -78,8 +78,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/mmdberg/messages-practice)
 * [Express Tutorial](https://github.com/mmdberg/express-practice) - 1, 2 & 4
 * [Promise Practice Exercises](https://gist.github.com/mmdberg/5f818f5fa954a4b788752e12ffbe09ee)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [House of Vars Blog Post](https://gist.github.com/mmdberg/c0013e2c428cfeeadf7171313355af0a)
+* [Websockets Tutorial](https://github.com/mmdberg/Websocket-HW) - What additional items did you work on? Broadcast when someone connects/disconnects, nicknames, broadcast to everyone but the user who sent the msg
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
