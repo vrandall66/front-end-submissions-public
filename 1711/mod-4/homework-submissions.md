@@ -131,8 +131,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker](https://github.com/chunktooth/palette-picker)
 * [House of Vars Blog Post](https://medium.com/@om.saetehn/open-source-contribution-refined-github-d399750323cb)
 * [Websockets Tutorial](https://github.com/chunktooth/chat-socket.io) - connected/disconnected, nickname and broadcasting only to recipients
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/chunktooth/pattern-party)
+* [Pattern Party GitHub Pages](https://chunktooth.github.io/pattern-party/)
 
 ### Patrick McLaughlin
 
