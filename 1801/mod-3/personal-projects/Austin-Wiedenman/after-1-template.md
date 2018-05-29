@@ -19,3 +19,7 @@ Understand Firebase and determine what a logged in user will see.
 I am not sure what is valuable information in regard tmedical studies. I have never used firebase before
 
 #### Deliverables for next checkin:
+- Loading indicator on search
+- Clicking on a given trial should show me more information
+- Authenticate with firebase
+- Saving of trial ids in firebase
