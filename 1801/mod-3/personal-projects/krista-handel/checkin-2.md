@@ -16,3 +16,7 @@ User authentication, user dashboard
 The API does not actually provide research journals  
 
 ## Deliverables for next checkin:
+- Indicate to the user that something is happening on search
+- Add page for showing full text of article
+- Add login/logout with firebase
+- Save favorite article to firebase
