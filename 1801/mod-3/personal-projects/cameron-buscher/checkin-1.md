@@ -53,4 +53,4 @@ Have some sort of fetch call set up and working.
 
 Able to start my app and see something, doesn't have to be much, just a non-crashing app. 
 
-For myself I would like to have my back-end at least partially running. At this point undecided between firebase and using node.js and Express.
+For myself I would like to have my back-end at least partially running. At this point undecided between firebase and using node.js and Express.****
