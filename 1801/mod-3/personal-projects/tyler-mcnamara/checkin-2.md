@@ -29,3 +29,12 @@
 - Spending too much time on a task without planning accordingly and needing to make changes that waste time
 
 #### Deliverables for next checkin:
+
+- Have all fetches working and all data going into the store
+- Store data in firebase
+- Continue testing
+- Polish the UI
+- Have MVP by Monday
+- Fix login - tell the user they are logged in and give the option to log out
+- Prop-types
+
