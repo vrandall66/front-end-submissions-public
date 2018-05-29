@@ -30,3 +30,10 @@ Better styling???
 Figuring out that secondary api
 
 #### Deliverables for next checkin:
+* Create a new meetup, store in the backend, and in redux
+* Be able to fetch those events
+* Look into geocoding api
+* Continue testing
+* Store users zip code and be able to search events in that location
+* Continue working on UI
+* I want to see MVP on Monday
