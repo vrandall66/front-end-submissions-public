@@ -34,3 +34,11 @@ creating the grocery list. pulling out the items from the ingredient strings plu
 plus same as before
 
 #### Deliverables for next checkin:
+completed MVP:  
+Recipe cards render with category button click.  
+Click to Add to Menu feature on recipe cards.  
+Menu component displays each days meals with links to recipes.  
+Fave toggle on recipe card with favorite button filter.
+Favorites and menu save to local storage.
+Today's Menu component
+Familiarization with firebase to inform local storage plan.
