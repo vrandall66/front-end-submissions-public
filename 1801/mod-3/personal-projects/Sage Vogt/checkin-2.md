@@ -15,3 +15,10 @@ Signing up for rides is not possible yet... Work heavily on UI/UX. Build out the
 Haven't thought about how people will sign up yet... Theres a lot of interconnection going on. I will probably have to adjust the backend to accomodates a list of rides. 
 
 #### Deliverables for next checkin:
+- Be able to sign up for a ride
+- Finalize user table structure
+- Utilize PUT/PATCH when updating data in the backend
+- Add linter
+- Work on UI/UX
+- Continue testing
+- Think about an additional api for some kind of data
