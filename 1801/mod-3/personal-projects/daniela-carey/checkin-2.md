@@ -35,4 +35,6 @@
 
 #### Deliverables for next checkin:
 
-* 
+* MVP done
+* By Friday morning: Search results displayed to user
+* By next check-in: click on artist and it will add top 5 songs to Spotifive playlist
