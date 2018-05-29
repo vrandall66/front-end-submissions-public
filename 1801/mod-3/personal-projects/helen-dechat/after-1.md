@@ -30,6 +30,7 @@ Add favorites toggle and filter feature
 Add groceryList component with items consolidation logic  
 
 #### What are your concerns (if any)
-same as before
+creating the grocery list. pulling out the items from the ingredient strings plus aggregating the quantity. imagining it to be complex regex code with a large margin of error. (alternative would be to find an api that sets it up, and retrofit code)
+plus same as before
 
 #### Deliverables for next checkin:
