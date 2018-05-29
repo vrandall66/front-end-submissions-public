@@ -37,3 +37,12 @@ Once a user signs in, they see available events (i.e. concert at red rocks) whic
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Determine database structure
+* Build Node/Express backend
+* Setup up Redux and Router
+* Initial fetch and putting data into store
+* Start testing
+* Add linter
+* Keep GitHub Issues up to date
+* Store structure - flat and try not to duplicate data
+* Start building out UI
