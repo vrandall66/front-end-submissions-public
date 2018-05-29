@@ -15,3 +15,7 @@ Scrape each website and do tone analysis on article before it;s displayed
 Having to write too many custom scrapers
 
 #### Deliverables for next checkin:
+- Focus extensively on UI
+- Scraper for pulling text from acceptable News sources
+- Make call to Watson for news comparison
+- Able to hold “score” in redux store
