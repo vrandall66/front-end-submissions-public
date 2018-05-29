@@ -16,11 +16,15 @@ None
 
 #### Next Steps?
 
-Determine contributors, Limit poll to one vote per contributor, Create results graph using D3, Start testing
+1. Determine contributors,
+2. Limit poll to one vote per contributor,
+3. Create results graph using D3,
+4. Start testing
 
 #### What are your concerns (if any)
 
-Moving fetch function that requires a mapped dispatch
-Prevent double entries of contributors
+1. Moving fetch function that requires a mapped dispatch,
+2. Prevent double entries of contributors,
+3. Permission denied message
 
 #### Deliverables for next checkin:
