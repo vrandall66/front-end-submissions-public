@@ -21,3 +21,8 @@ Fix the bug. Start doing TDD with my API calls.
 #### What are your concerns (if any) - Testing.
 
 #### Deliverables for next checkin:
+- More api calls, getting back cuisines for a given city
+- Page for narrowing down cuisines
+- Page for narrowing down price range
+- Listing of all restaurants based on input
+- Make it all responsive
