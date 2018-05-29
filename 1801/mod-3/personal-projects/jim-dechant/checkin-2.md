@@ -26,3 +26,11 @@
 - Can I finish everything that needs to be done with the gaps in my knowledge.
 
 #### Deliverables for next checkin:
+
+- Display results
+- Continue testing
+- Work on filters
+- MVP status by Monday
+- Polish the UI
+- Implement favorites
+
