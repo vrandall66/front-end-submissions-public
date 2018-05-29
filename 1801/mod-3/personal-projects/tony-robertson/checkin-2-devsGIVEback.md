@@ -32,3 +32,9 @@
 - Time
 
 #### Deliverables for next checkin:
+
+* Be able to fetch data from GitHub and store in backend and Redux
+* Continue testing
+* Implement categories page
+* Full functionality for dev and client
+
