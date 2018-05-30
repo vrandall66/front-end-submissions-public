@@ -162,8 +162,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://github.com/skenne21/Promise-pledges)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial](https://github.com/skenne21/chat-box) - (Broadcast connected users, add user message notsent to user).
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/skenne21/pattern-party)
+* [Pattern Party GitHub Pages](https://skenne21.github.io/pattern-party/)
 
 ### Steven Lawson
 
