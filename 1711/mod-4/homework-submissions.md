@@ -123,8 +123,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Palette Picker PWA]()
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/mngatewood/pattern-party)
+* [Pattern Party GitHub Pages](https://mngatewood.github.io/pattern-party/)
 
 ### Ngoc Phan
 
