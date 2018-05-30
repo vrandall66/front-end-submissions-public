@@ -35,7 +35,19 @@ Comments:
 
 ## 3. Test-Driven Development & Code Sanitation
 
-3: Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality. Linting shows five or fewer complaints.
+2.5: Application is well tested but lacking in some areas, and demonstrates some confusion in others.
+
+
+* Flag for using the word [thing](https://github.com/kevinkrom787/complete-me/blob/master/lib/test/tree-test.js#L13)! (it should exist is better)
+
+* Also check the defaut value of `data` is null if nothing is passed in.
+
+* Check that the root node [here](https://github.com/kevinkrom787/complete-me/blob/master/test/tree-test.js#L33-L37) is an instance of a Node...not just that it exists.  
+* Nothing should really [console log something](https://github.com/kevinkrom787/complete-me/blob/master/test/tree-test.js#L56). Console logs are for developers and debugging and shouldn't make it into production code.
+
+* 'Should create an array' isn't a totally accurate representation of what youre testing [here](https://github.com/kevinkrom787/complete-me/blob/master/test/tree-test.js#78). This seems like a redundant test from like 64, just with a different description
+
+
 ## 4. Functional Expectations
 
 4: Application meets all requirements, and implements one extension properly.

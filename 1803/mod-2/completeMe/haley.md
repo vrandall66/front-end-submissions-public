@@ -3,7 +3,7 @@
 ### Evaluator: Brittany
 
 Comments:
-*
+* Really great problem-solving process but seemed to lack confidence. Made it to a perfectly fine solution for a new method in a short amount of time, but seemed overwhelmed and rushed by the challenge of it. 
 *
 *
 
