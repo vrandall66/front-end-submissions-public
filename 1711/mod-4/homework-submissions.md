@@ -80,8 +80,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://gist.github.com/mmdberg/5f818f5fa954a4b788752e12ffbe09ee)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/mmdberg/Pattrn-Party)
+* [Pattern Party GitHub Pages](https://mmdberg.github.io/Pattrn-Party/)
 
 ### Matt Renn
 
