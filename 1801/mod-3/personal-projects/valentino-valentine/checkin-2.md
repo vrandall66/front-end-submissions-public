@@ -25,3 +25,9 @@
  -Testing? 
 
 #### Deliverables for next checkin:
+- hook up savory and sweet buttons
+- clean data
+- render data on the page
+- TEST, TEST, TEST
+- work on the UI
+- you shouls have a MVP on Monday when we meet
