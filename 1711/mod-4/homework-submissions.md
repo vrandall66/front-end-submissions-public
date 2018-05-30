@@ -38,10 +38,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/CharlesY712/node-prework)
 * [Express Tutorial](https://github.com/CharlesY712/express-prework) - All 4
 * [Promise Practice Exercises](https://github.com/CharlesY712/promises-prework)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@charlesy712/turing-house-of-vars-open-source-project-eb1f4bc34f1d)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/CharlesY712/pattrn-party)
+* [Pattern Party GitHub Pages](https://charlesy712.github.io/pattrn-party/)
 
 ### Jared Eklin
 
