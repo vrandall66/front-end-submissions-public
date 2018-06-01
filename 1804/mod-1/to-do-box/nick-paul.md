@@ -1,142 +1,107 @@
-## Students:
-## Evaluator:
+## Students: Nick Paul
+## Evaluator: Nathaniel
 ## Notes/What To Work On:
+
+Functional
+Partial phase 3, through importance
+
+UI
+Make input text different color from placeholder text
+remove quotes around body
+Show completed items, should have completed class
+
+ARIA
+all interactive elements should have an aria-label
+
+HTML
+Be careful with elements with only one child
+use cdn version of jquery
+
+GIT
+Make sure to use imperative present voice, be more descriptive with description
+
+JS
+Make sure you are using parameters in your functions, e.g. IdeaCard id parameter
 
 ## Functional Expectations
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
 
 ## TERMINOLOGY
 
 #### Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
 

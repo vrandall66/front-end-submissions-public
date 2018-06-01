@@ -1,142 +1,109 @@
-## Students:
-## Evaluator:
+## Students: James Laura
+## Evaluator: Nathaniel
 ## Notes/What To Work On:
+
+Functional
+add feedback for save button, not working
+prevent more than 120 letters from being typed
+re-enable save button if less than 120 letters
+
+2 extensions
+
+Aria
+Make sure to use Aria on all interactive
+
+Be very careful with floats, if you need to float right, try to use flexbox
+
+JS
+Storing ideas in an array before putting in localStorage
+When using ternaries in if/else statements consider combining the conditional from the ternary and the conditional from the if statement e.g. the conditional in changeImportance
+
+HTML
+use header/footer
+
+Practice vocabulary
+
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
 
 ## TERMINOLOGY
 
 #### Technical Vocabulary
 
-* Novice
 * Advanced Beginner
-* Proficient
-* Exceptional
 
