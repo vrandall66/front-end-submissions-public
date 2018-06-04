@@ -20,3 +20,12 @@ See above.
 Just Router
 
 #### Deliverables for next checkin:
+* Router
+* TESTING (no red)
+* Add date to each article
+* See if you can figure out the image issue (check for 404 status codes)
+* Prop Types
+* Lint
+* Readme
+
+
