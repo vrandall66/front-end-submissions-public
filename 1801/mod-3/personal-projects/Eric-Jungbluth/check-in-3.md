@@ -3,13 +3,13 @@
 #### Check In: 3
 
 #### Progress made?
-Can create a new activity and store it in firebase
-Making initial fetch of those activities and adding them to the redux store
-Built Create Activity component
-Using geolocation api to get lat and long from zip code
-Figured out a way to timestamp activities and remove them from firebase when expired
-Storing user zip code on sign up to display activities by distance in their area when signed in
-ADDED EXTENSION OF SEARCHING BY TYPE!!!
+* Can create a new activity and store it in firebase
+* Making initial fetch of those activities and adding them to the redux store
+* Built Create Activity component
+* Using geolocation api to get lat and long from zip code
+* Figured out a way to timestamp activities and remove them from firebase when expired
+* Storing user zip code on sign up to display activities by distance in their area when signed in
+* ADDED EXTENSION OF SEARCHING BY TYPE!!!
 
 
 #### What deliverables still need to be completed from your last checkin?
