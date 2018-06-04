@@ -23,3 +23,10 @@ A little more testing
 
 
 #### Deliverables for next checkin:
+* Testing (no red)
+* Show user that is signed in and the zip code that they are looking at
+* Tweak the UI
+* Name your application, show it on every page and make it a link to home
+* Prop Types
+* Readme
+* Linter
