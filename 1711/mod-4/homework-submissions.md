@@ -39,7 +39,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/CharlesY712/express-prework) - All 4
 * [Promise Practice Exercises](https://github.com/CharlesY712/promises-prework)
 * [House of Vars Blog Post](https://medium.com/@charlesy712/turing-house-of-vars-open-source-project-eb1f4bc34f1d)
-* [Websockets Tutorial]() - What additional items did you work on?
+* [Websockets Tutorial](https://github.com/CharlesY712/websprockets) - Username, emit connect, broadcast message
 * [Pattern Party Repo](https://github.com/CharlesY712/pattrn-party)
 * [Pattern Party GitHub Pages](https://charlesy712.github.io/pattrn-party/)
 
@@ -141,8 +141,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://github.com/patrickmc21/promises-prework)
 * [House of Vars Blog Post](https://medium.com/@patrickmc21/open-source-contributions-b36b0e84107)
 * [Websockets Tutorial](https://github.com/patrickmc21/websockets-tutorial) - First three bullet points
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/patrickmc21/pattrn-party)
+* [Pattern Party GitHub Pages](https://patrickmc21.github.io/pattrn-party/)
 
 ### Ricardo Viera
 
@@ -160,7 +160,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/skenne21/Node.js-tutorial)
 * [Express Tutorial](https://github.com/skenne21/intro-to-express) - all four
 * [Promise Practice Exercises](https://github.com/skenne21/Promise-pledges)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://gist.github.com/skenne21/17686ce0750553eb7583a3d11aba19a2)
 * [Websockets Tutorial](https://github.com/skenne21/chat-box) - (Broadcast connected users, add user message notsent to user).
 * [Pattern Party Repo](https://github.com/skenne21/pattern-party)
 * [Pattern Party GitHub Pages](https://skenne21.github.io/pattern-party/)
