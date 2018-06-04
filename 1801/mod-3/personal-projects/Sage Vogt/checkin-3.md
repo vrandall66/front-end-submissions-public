@@ -15,3 +15,13 @@ Add more functionality. Error handling.
 A lot more needs to be done
 
 #### Deliverables for next checkin:
+* Testing (no red)
+* Tweak the UI
+* Error handling
+* Active status on nav links
+* Extention - filter by date
+* Remove ride after event has passed
+* Prop Types
+* Readme
+* Linter
+
