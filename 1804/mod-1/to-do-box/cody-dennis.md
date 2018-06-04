@@ -1,133 +1,111 @@
-## Students:
-## Evaluator:
+## Students: Cody and Dennis
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+### HTML
+
+* Get rid of those <br>s! 
+* Good addition of aria-labels
+* Like that you switched to 2 space tabs instead of 4
+
+### CSS
+
+* Add organizational comments
+* Remove ids as they are too specific
+* dry it up
+
+## JS
+
+* Look at the style guide
+* Work on naming conventions!
+  * Be more descriptive
+  * Keep data model separate from how it is displayed on the page
+  * Pluralize properly ie. `parsedObjects` is a singular object so call it `parsedObject`
+* dry it up
+* single responsibility
 
 ## Functional Expectations
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional
 
@@ -135,8 +113,5 @@
 
 #### Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
 
