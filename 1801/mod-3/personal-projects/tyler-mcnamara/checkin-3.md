@@ -24,3 +24,11 @@
 - Being able to complete the selected plan page in combo with saving to firebase
 
 #### Deliverables for next checkin:
+- Testing (no red)
+- Complete Firebase functionality
+- Tweak the UI
+- Readme
+- Continue linting
+- Make sure you're getting a lat and long for each location
+- Select a plan - save in firebase 
+
