@@ -26,3 +26,8 @@ Looked into hoverable definitions and it might be really tricky with the randomn
 
 #### Deliverables for next checkin:
 - Fishished App
+- Testing (no red)
+- Show clicked team
+- Prop Types
+- Linter
+- Make responsive
