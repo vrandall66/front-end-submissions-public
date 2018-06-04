@@ -23,4 +23,10 @@
 
 #### Deliverables for next checkin:
 - Completed Project ready for Demo night
+- TESTING (no red)
+- Favorite functionality with Firebase and putting favorites in the store
+- Work on the UI (home)
+- Finish sign in/sign out UI
+- Be able to speak to every line of code
+
 
