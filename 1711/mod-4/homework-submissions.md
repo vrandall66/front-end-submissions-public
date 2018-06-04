@@ -141,8 +141,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://github.com/patrickmc21/promises-prework)
 * [House of Vars Blog Post](https://medium.com/@patrickmc21/open-source-contributions-b36b0e84107)
 * [Websockets Tutorial](https://github.com/patrickmc21/websockets-tutorial) - First three bullet points
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/patrickmc21/pattrn-party)
+* [Pattern Party GitHub Pages](https://patrickmc21.github.io/pattrn-party/)
 
 ### Ricardo Viera
 
