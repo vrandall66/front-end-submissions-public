@@ -23,6 +23,10 @@
 #### Deliverables for next checkin:
 
 * Be able to fetch data from GitHub and store in backend and Redux
-* Continue testing
+* TESTING (no red)
 * Implement categories page
 * Full functionality for dev and client
+* Prop Types
+* Readme
+* Work on CSS
+* Working out last minute bugs bacause of change to dev
