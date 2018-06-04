@@ -7,31 +7,28 @@
   * Refactor the hourlyCard and the dayCard into a single component that leverages conditional rendering
   * In App.test.js, that first test implies that you'll be checking all 3 pieces of state, but only checks one. Be detailed and verbose when testing :)
   * In App.test.js, nice job testing the conditional rendering
-  * *Testing is incomplete; if a passing score is desired, please complete by 11:59pm on Friday*
 
 ## Specification Adherence
 
-Score: failing - pending implementation of autocomplete
+_4 - The application meets all of the requirements listed above and implements one or more of the extensions._
 
-4 - The application meets all of the requirements listed above and implements one or more of the extensions.
+_3 - The application consists of one page with all of the major functionality being provided by React. No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use._
 
-3 - The application consists of one page with all of the major functionality being provided by React. No approach was taken that is counter to the spirit of the project and its learning goals. There are no features missing from above that make the application feel incomplete or hard to use.
+*2 - The application is in a usable state, but is missing 1 or more of the features outline in the specification above.*
 
-2 - The application is in a usable state, but is missing 1 or more of the features outline in the specification above.
+_1 - The application is missing 3 or more smaller features or 1 major feature essential to having a complete application._
 
-1 - The application is missing 3 or more smaller features or 1 major feature essential to having a complete application.
-
-0 - The application is unusable.
+_0 - The application is unusable._
 
 ## User Interface
 
-4 - The application is pleasant, logical, and easy to use. The application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer.
+_4 - The application is pleasant, logical, and easy to use. The application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality and the application stands on it own to be used by the instructor without guidance from the developer._
 
-3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality. The application less than 3 aXe-core violations
+*3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality. The application less than 3 aXe-core violations*
 
-2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
+_2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories._
 
-1 - The application is confusing or difficult to use.
+_1 - The application is confusing or difficult to use._
 
 ## HTML Style
 
@@ -55,29 +52,25 @@ _1 - Your application has a significant amount of duplication and one or more ma
 
 ## JavaScript / React Style
 
-Pending refactor of cards into a single Card class
+_4 - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture._
 
-4 - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture.
+*3- Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application has at least 6 components built out.*
 
-3- Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application has at least 6 components built out.
+_2 - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing. The application has large components and logic could be broken out to smaller stateless components._
 
-2 - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing. The application has large components and logic could be broken out to smaller stateless components.
+_1 - Your application has a significant amount of duplication and one or more major bugs. Developer cannot speak to most choices and does not know what every line of code is doing._
 
-1 - Your application has a significant amount of duplication and one or more major bugs. Developer cannot speak to most choices and does not know what every line of code is doing.
-
-0 - Your client-side application does not function or the application does not make use of localStorage for updating information on the client. Developer writes code with unnecessary variables, operations, or steps which do not increase clarity.
+_0 - Your client-side application does not function or the application does not make use of localStorage for updating information on the client. Developer writes code with unnecessary variables, operations, or steps which do not increase clarity._
 
 ## Testing & Sanitation
 
-Score: failing - refactor due by 11:59pm.
+_4 - Project has a running test suite that exercises the application at multiple levels (feature and unit). The test suite covers almost all aspects of the application. ESLint shows 0 complaints._
 
-4 - Project has a running test suite that exercises the application at multiple levels (feature and unit). The test suite covers almost all aspects of the application. ESLint shows 0 complaints.
+*3 - Project has a running test suite that tests and multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of feature testing. ESLint shows less than 5 complaints.*
 
-3 - Project has a running test suite that tests and multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of feature testing. ESLint shows less than 5 complaints.
+_2 - Project has sporadic use of tests and multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows more than 5 complaints._
 
-2 - Project has sporadic use of tests and multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows more than 5 complaints.
-
-1 - There is little or no evidence of testing in this application. ESLint shows more than 10 complaints.
+_1 - There is little or no evidence of testing in this application. ESLint shows more than 10 complaints._
 
 ## Workflow
 

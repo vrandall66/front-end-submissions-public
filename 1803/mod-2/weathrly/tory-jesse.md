@@ -13,7 +13,7 @@
 
 ## Specification Adherence
 
-Missing autocomplete - spec adherence score is currently a 2
+Missing autocomplete
 
 _4 - The application meets all of the requirements listed above and implements one or more of the extensions._
 
@@ -69,15 +69,13 @@ _0 - Your client-side application does not function or the application does not 
 
 ## Testing & Sanitation
 
-Testing is incomplete - testing score is currently a 1
-
 _4 - Project has a running test suite that exercises the application at multiple levels (feature and unit). The test suite covers almost all aspects of the application. ESLint shows 0 complaints._
 
-_3 - Project has a running test suite that tests and multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of feature testing. ESLint shows less than 5 complaints._
+*3 - Project has a running test suite that tests and multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of feature testing. ESLint shows less than 5 complaints.*
 
 _2 - Project has sporadic use of tests and multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows more than 5 complaints._
 
-*1 - There is little or no evidence of testing in this application. ESLint shows more than 10 complaints.*
+_1 - There is little or no evidence of testing in this application. ESLint shows more than 10 complaints._
 
 ## Workflow
 
