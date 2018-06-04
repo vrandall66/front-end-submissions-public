@@ -1,5 +1,4 @@
-## Project Name:
-TeamUp?
+## Project Name: TeamUp?
 
 #### Check In: 3
 
