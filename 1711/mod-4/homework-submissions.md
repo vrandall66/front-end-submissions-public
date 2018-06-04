@@ -160,7 +160,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/skenne21/Node.js-tutorial)
 * [Express Tutorial](https://github.com/skenne21/intro-to-express) - all four
 * [Promise Practice Exercises](https://github.com/skenne21/Promise-pledges)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://gist.github.com/skenne21/17686ce0750553eb7583a3d11aba19a2)
 * [Websockets Tutorial](https://github.com/skenne21/chat-box) - (Broadcast connected users, add user message notsent to user).
 * [Pattern Party Repo](https://github.com/skenne21/pattern-party)
 * [Pattern Party GitHub Pages](https://skenne21.github.io/pattern-party/)
