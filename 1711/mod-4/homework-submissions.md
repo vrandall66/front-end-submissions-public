@@ -120,8 +120,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://github.com/nphan24/promises-prework)
 * [House of Vars Blog Post](https://medium.com/@ngoc.gilmore24/my-first-dive-into-an-open-source-project-31219599baa4)
 * [Websockets Tutorial](https://github.com/nphan24/web-sockets) - First 3
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/nphan24/pattrn-party)
+* [Pattern Party GitHub Pages](https://nphan24.github.io/pattrn-party/)
 
 ### Om Saetehn
 
