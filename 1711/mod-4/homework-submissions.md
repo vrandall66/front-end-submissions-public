@@ -187,7 +187,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/stevenleelawson/express-tutorial-prework) - All 4!
 * [Promise Practice Exercises](https://repl.it/@wolfshark/Promises-Practice)
 * [Palette Picker PWA]()
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@stevenleelawson/my-first-open-source-contribution-1b5545c7f828)
+* [Websockets Tutorial](https://github.com/stevenleelawson/web-sockets-tutorial) 
+* [Pattern Party Repo](https://github.com/stevenleelawson/pattern-party)
+* [Pattern Party GitHub Pages](https://stevenleelawson.github.io/pattern-party)
