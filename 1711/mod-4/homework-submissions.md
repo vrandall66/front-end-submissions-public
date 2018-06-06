@@ -98,7 +98,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/mttwlkr/node-backend/tree/master/messages)
 * [Express Tutorial](https://github.com/mttwlkr/express-backend/tree/master/public) - All 4
 * [Promise Practice Exercises](https://github.com/mttwlkr/promises-homework/blob/master/promises-homework.js)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://gist.github.com/mttwlkr/bf5f81bc593c7c97045d60c6b7ef4323)
 * [Websockets Tutorial](https://github.com/mttwlkr/web-sockets-hw) - Nicknames, Show Who is Online, Broadcast Message when User Connects"
 * [Pattern Party Repo](https://github.com/mttwlkr/pattern-party)
 * [Pattern Party GitHub Pages](https://mttwlkr.github.io/pattern-party/)
