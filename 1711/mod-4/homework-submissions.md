@@ -149,7 +149,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/rvwatch/node-server-tutorial)
 * [Express Tutorial](https://github.com/rvwatch/express-tutorial) - 2-4
 * [Promise Practice Exercises](https://gist.github.com/rvwatch/f2e6f7c6f8a4b14efa066655247f72a3)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/p/1c72149a16bc)
 * [Websockets Tutorial](https://github.com/rvwatch/mychatter) - User names / User Typing / Disconnected / Broadcast only
 * [Pattern Party Repo](https://github.com/rvwatch/pattrn-party)
 * [Pattern Party GitHub Pages](https://rvwatch.github.io/pattrn-party/)
