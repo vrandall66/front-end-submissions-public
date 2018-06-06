@@ -58,10 +58,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/JSweet314/node-server-tutorial)
 * [Express Tutorial](https://github.com/JSweet314/express-tutorial) - Addtl. challenges 1-3
 * [Promise Practice Exercises](https://github.com/JSweet314/promise-practice-exercises)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://gist.github.com/JSweet314/37864821b7551811f44fd1776e0e1b2d)
+* [Websockets Tutorial](https://github.com/JSweet314/websocket-tutorial) - 1, 3, & 4
+* [Pattern Party Repo](https://github.com/JSweet314/pattrn-party)
+* [Pattern Party GitHub Pages](https://jsweet314.github.io/pattrn-party/)
 
 ### Kailin Cannon
 
