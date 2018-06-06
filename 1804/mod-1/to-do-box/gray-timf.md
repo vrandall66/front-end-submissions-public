@@ -1,142 +1,110 @@
-## Students:
-## Evaluator:
+## Students: Gray and Tim
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+## OVERALL
+- Through all the phases with extensions!
+- Keep the same design for all buttons/update with pointer
+- Check gradient and colors for accessibility
+
+## HTML
+- Nice job running through a screenreader
+- Add form to search input
+
+## GIT/GITHUB
+- Be more descriptive in commits
+
+## CSS
+- Opportunites for refactoring/cleaning up duplicated code
+- Add comments to CSS for organization
+
+## JS
+- Some global vars, longer functions, opportunities for refactoring
+- Read through code with partner - refactor in places where code is hard to read or unreadable
+
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+ 
+* Proficient    
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient    
 
 #### Style
-
-* Novice  
+  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+  
+* Proficient    
 
 #### Github
-
-* Novice  
-* Advanced Beginner  
+  
 * Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
 
 ## TERMINOLOGY
 
 #### Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
-

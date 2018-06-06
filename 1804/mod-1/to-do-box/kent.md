@@ -1,142 +1,91 @@
-## Students:
+## Students: Kent
 ## Evaluator:
 ## Notes/What To Work On:
 
+- Quality is not persisting
+- Not labeled as 2dobox
+- No refactoring done of HTML or CSS
+- 5 commits total
+- It is not clear that this was a true refactor. many spots in the JS have solutions that do not incorporate the original codebase.
+
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Novice   
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Novice   
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Novice   
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Novice   
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Novice    
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Functions & Scope
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Arrays
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
+
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### DOM Manipulation
-
-* Novice  
+ 
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+ 
+* Advanced Beginner     
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Novice   
 
 #### Github
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
+  
 ## DESIGN
 
 #### Design Concepts
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## PAIRING
-
-#### Collaboration
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional
 
 ## TERMINOLOGY
 
 #### Technical Vocabulary
 
-* Novice
 * Advanced Beginner
-* Proficient
-* Exceptional
-

@@ -1,30 +1,36 @@
-## Students:
-## Evaluator:
+## Students: Derek and Kevin
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+## OVERALL
+- Cards do not persist
+- Quality is not working
+- Can create cards without information
+
+## HTML/CSS
+- Make sure that application is accessible
+- Organize your CSS with comments and SMACSS
+
+## JS
+- Good naming - easy to follow
+- Look into reworking template literal to take advantage of bubbling
+- Remove commented out code
+- Remove console logs
 
 ## Functional Expectations
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Style
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
@@ -32,111 +38,72 @@
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Implementation
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 #### Arrays
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner    
 
 #### Objects & Prototypes
 
-* Novice  
+* Novice
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
 #### Git
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Github
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## PAIRING
 
 #### Collaboration
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional
 
 ## TERMINOLOGY
 
 #### Technical Vocabulary
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
-
