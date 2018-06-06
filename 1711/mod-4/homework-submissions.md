@@ -48,7 +48,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/jaredeklin/node-prework)
 * [Express Tutorial](https://github.com/jaredeklin/express-tutorial) - 1,2,4
 * [Promise Practice Exercises](https://gist.github.com/jaredeklin/c0b3f4027fe8f73bcbb94ffac8b54e27)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://gist.github.com/jaredeklin/18faa30d9c510676985efc4ac4c8d19c)
 * [Websockets Tutorial](https://github.com/jaredeklin/chatty-mc-chat) - first three
 * [Pattern Party Repo](https://github.com/jaredeklin/pattern-party)
 * [Pattern Party GitHub Pages](https://jaredeklin.github.io/pattern-party/)
