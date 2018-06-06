@@ -4,9 +4,9 @@
 
 TODO:
 
-- add tests for Card conditional rendering & data cleaning
-- refactor fetch method in App component
-- pay attention to spacing and indentation 
+- (Done) add tests for Card conditional rendering & data cleaning
+- (Done) refactor fetch method in App component
+- (Done? Sure, looks good) pay attention to spacing and indentation
 
 ## Specification Adherence
 
@@ -37,9 +37,6 @@ TODO:
 
 3 - Project has a running test suite that tests and multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of feature testing. ESLint shows less than 5 complaints.
 
-2 - Project has sporadic use of tests and multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows more than 5 complaints.
-
 ## Workflow
 
 3 - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
-

@@ -4,8 +4,8 @@
 
 ## Todos:
 
-- move conditional rendering tests for Card into the Card test
-- refactor App fetching/localStorage
+- (Done) move conditional rendering tests for Card into the Card test
+- (Done) refactor App fetching/localStorage
 - reduce use of magic numbers
 
 ## Specification Adherence
@@ -32,9 +32,8 @@
 
 ## JavaScript / React Style
 
+4- Well written
 3- Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application has at least 6 components built out.
-
-2 - Your application has some duplication and minor bugs. Developer can speak to most choices made in the code and knows what every line is doing. The application has large components and logic could be broken out to smaller stateless components.
 
 ## Testing & Sanitation
 
@@ -47,4 +46,3 @@
 4 - The developer effectively uses Git branches and many small, atomic commits that document the evolution of their application.
 
 3 - The developer makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base.
-
