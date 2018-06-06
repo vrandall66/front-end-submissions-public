@@ -151,8 +151,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Promise Practice Exercises](https://gist.github.com/rvwatch/f2e6f7c6f8a4b14efa066655247f72a3)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial](https://github.com/rvwatch/mychatter) - User names / User Typing / Disconnected / Broadcast only
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/rvwatch/pattrn-party)
+* [Pattern Party GitHub Pages](https://rvwatch.github.io/pattrn-party/)
 
 
 ### Sabrina Kennedy
