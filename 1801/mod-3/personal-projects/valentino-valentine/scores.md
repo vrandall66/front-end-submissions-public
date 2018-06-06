@@ -8,7 +8,7 @@ A good project idea should:
 
 ### Feature Delivery
 
-**Completion**
+### Completion
 
 * 4: Developer completed all the user stories and requirements set in check-ins in timely manner.
 * 3: Developer completed all the user stories and requirements set during check-ins.
@@ -35,6 +35,16 @@ A good project idea should:
 * 3: All state changes are handled by Redux with exeception to Controlled Forms. Actions and Reducers are simple. Containers don't hold unnecessary data.
 * 2: Application state is mostly outside the control of Redux. Application did not make use of Redux actions and reducers to mutate state. Components do not demonstrate a clear understanding of stateful vs. statelessness.
 * 1: Application does not make use of Redux to manage state. There are little or no connected components.
+
+### PropType Implementation
+
+- Pass - Proptype validation is implemented for any component receiving props.
+- Fail - There are components missing proptype validation.
+
+### README Updates
+- Pass - The README.md file has been updated with a description of the project, the team, and how to get it up and
+  running
+- Fail - The boilerplate README is still in place
 
 ### Code Sanitation
 
