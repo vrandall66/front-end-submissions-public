@@ -28,10 +28,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/amercado1014/node-server-tutorial)
 * [Express Tutorial](https://github.com/amercado1014/express-tutorial) - All 4
 * [Promise Practice Exercises](https://github.com/amercado1014/promise-practice-exercises)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://gist.github.com/amercado1014/b616c5a50de94609331faad8cab385bc)
 * [Websockets Tutorial](https://github.com/amercado1014/chat-example) - Add username, Dont send message to user, Connect message. 
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/amercado1014/pattrn-party)
+* [Pattern Party GitHub Pages](https://amercado1014.github.io/pattrn-party/)
 
 ### Charles Yach
 
