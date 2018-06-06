@@ -8,7 +8,7 @@ A good project idea should:
 
 ### Feature Delivery
 
-**1. Completion**
+**Completion**
 
 * 4: Developer completed all the user stories and requirements set in check-ins in timely manner.
 * 3: Developer completed all the user stories and requirements set during check-ins.
