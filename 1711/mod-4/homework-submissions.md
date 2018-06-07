@@ -88,10 +88,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/rennmatthewp/node-server-tutorial)
 * [Express Tutorial](https://github.com/rennmatthewp/express-tutorial) - All 4
 * [Promise Practice Exercises](https://repl.it/@rennmatthewp/promises-pledges)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@mattrenn32/open-source-contributions-are-totally-cool-and-you-should-do-them-dc9285cc9380)
+* [Websockets Tutorial](https://github.com/rennmatthewp/sockets-io-tutorial) - 1, 2, 3
+* [Pattern Party Repo](https://github.com/rennmatthewp/pattrn-party)
+* [Pattern Party GitHub Pages](https://rennmatthewp.github.io/pattrn-party/)
 
 ### Matt Walker
 
