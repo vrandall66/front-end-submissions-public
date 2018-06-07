@@ -121,8 +121,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/mngatewood/express-tutorial) 1-4
 * [Promise Practice Exercises](https://github.com/mngatewood/promise-practice)
 * [Palette Picker PWA]()
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [House of Vars Blog Post](https://medium.com/@mngatewood/my-first-dive-into-open-source-59fab6458b2c)
+* [Websockets Tutorial](https://github.com/mngatewood/web-sockets) - What additional items did you work on? User name, connect/disconnect, user is typing
 * [Pattern Party Repo](https://github.com/mngatewood/pattern-party)
 * [Pattern Party GitHub Pages](https://mngatewood.github.io/pattern-party/)
 
