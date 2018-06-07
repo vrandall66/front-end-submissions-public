@@ -26,10 +26,9 @@ A good project idea should:
 
 ### PropType Implementation
 
-- Fail - There are components missing proptype validation.
+- Pass - Proptype validation is implemented for any component receiving props.
 
 ### README Updates
-
 - Pass - The README.md file has been updated with a description of the project, the team, and how to get it up and
   running
 
@@ -37,14 +36,15 @@ A good project idea should:
 
 The output from ESLint shows…
 
-* 2 - Six to ten complaints
-  
+* 4 - Zero complaints
+
 ### Testing
 
-- 2.5 - A valid attempt was made to test functionality with obvious gaps where functionality is not tested
+- 3 - Almost all components are tested to a level that indicates developer has an understanding of testing
 
 
 ### Workflow
 
-- 2.5 - Developer make large, inconsistent commits that contain irrelevant changesets and make it difficult to follow the evolution of the application. Developer rarely use git branches and frequently incorporate changes directly into master with little or no review process. There are instances of committed source code that should be .gitignored and instances of dead code and/or debugger statements.
+
+- 3 - Developer make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer have committed source code that should be .gitignored. There may be some instances of "dead" or commented-out code and debugger statements like console.log that need to be cleaned up.
 
