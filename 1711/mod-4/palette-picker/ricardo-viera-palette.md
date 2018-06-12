@@ -39,8 +39,24 @@ Everything else I wrote might be ugly, but at least I wrote it. This was a neces
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-This one is pending as for some reason I can't get any of my tests to run right now... 
-[test suite]()
+Test results: 
+
+`API tests      
+
+    ✓ should GET all the projects   
+    ✓ should GET all the palettes   
+    ✓ should POST a new project to the database    
+    ✓ should THROW a 422 if no params are sent     
+    ✓ should POST a new palette to the database    
+    ✓ should THROW a 422 if no params are sent     
+    ✓ should DELETE a project from the DB      
+    ✓ should not DELETE a project if ID does not exist      
+    ✓ should DELETE a palette from the DB       
+    ✓ should not DELETE a palette if ID does not exist   
+    
+  10 passing (1s)`
+
+[test suite](https://github.com/rvwatch/palette-picker/blob/master/test/routes.spec.js)
 
 #### Link to Design Inspiration
 
