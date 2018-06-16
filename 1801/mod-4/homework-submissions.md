@@ -85,9 +85,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Helen Dechat
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/hdechat/Node-Server-Tutorial)
+* [Express Tutorial](https://github.com/hdechat/Express-Intro) - all 4
+* [Promise Practice Exercises](https://github.com/hdechat/Promise-Practice)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
