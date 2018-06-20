@@ -55,9 +55,14 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Daniela Carey
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/danielafcarey/102ec0c228bb0222137fa236322d4afb)
+* [Express Tutorial](https://github.com/danielafcarey/express-intro)
+- What additional items did you work on?
+1. Challenge #3: load JSON data from another file to use in server.js instead of {'name': 'Robbie'}
+2. Challenge #4: add custom 404 page if client requests to undefined endpoint
+3. Challenge #2: show pics of sunsets if client makes a get request to /sunsets
+4. Challenge #1: Added a button that changed the background color of the button when clicked
+* [Promise Practice Exercises](https://gist.github.com/danielafcarey/20e54f117d445a20b43a531dc8b87d5e)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
