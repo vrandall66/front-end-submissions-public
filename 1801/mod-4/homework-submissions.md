@@ -163,11 +163,15 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
-### Tyler MacNamara
+### Tyler McNamara
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/mcnamara14/node-server-tutorial)
+* [Express Tutorial](https://github.com/mcnamara14/node-express-intro)
+  Additional items:
+  1. Add a button with an event listener
+  2. Create a localhost:3000/sunsets endpoint that displays sunset images
+  4. Add a custom 404 page 
+* [Promise Practice Exercises](https://github.com/mcnamara14/promises)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
