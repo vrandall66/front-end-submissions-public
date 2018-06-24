@@ -25,6 +25,11 @@
 * 2 - Developer has made intentional design decisions to create a user friendly application but Louisa would be mad. Attempts to follow 10 Essential Usability Guidelines.
 * 1 - Developer did minimal to no CSS for this project besides what was indicated in the comp.
 
+### SASS/SCSS
+
+- Pass - Styles are written using either SASS or SCSS
+- Fail - Styles are written using vanilla CSS
+
 ### Testing
 
 * 4 - Every component is tested from both a unit and acceptance standpoint, all crucial functionality is tested
