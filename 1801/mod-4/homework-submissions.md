@@ -155,9 +155,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Tony Robertson
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/tonyr729/mod4-prework-node)
+* [Express Tutorial](https://github.com/tonyr729/mod4-prework-express) - Additional items 1-3
+* [Promise Practice Exercises](https://github.com/tonyr729/mod4-prework-promises)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
