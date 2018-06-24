@@ -80,9 +80,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Eric Jungbluth
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/EricMellow/mod4prework/tree/master/messages)
+* [Express Tutorial](https://github.com/EricMellow/mod4prework/tree/master/robbie-tutorial)
+  Additional items: Challenge #1, Challenge #2, and Challenge #4
+* [Promise Practice Exercises](https://github.com/EricMellow/mod4prework/blob/master/promises.js)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
