@@ -148,9 +148,12 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 
 ### Seamus Quinn
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/seamus-quinn/617b4959144b362a17ef1cf2e62a0453)
+* [Express Tutorial](https://github.com/seamus-quinn/express-practice)  - What additional items did you work on?
+    * Challenge #3: load JSON data from another file to use in server.js instead of {'name': 'Robbie'}
+    * Challenge #2: show pics of sunsets if client makes a get request to /sunsets
+    * Challenge #1: Added a button that changed the background color of the button when clicked
+* [Promise Practice Exercises](https://gist.github.com/seamus-quinn/2b21edeeb9c4321092bdb422d4dbf565)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
