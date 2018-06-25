@@ -70,9 +70,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### David Doc Daughtery
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/daughedm/NodeTutorial)
+* [Express Tutorial](https://github.com/daughedm/ExpressTutorial) - 2,3,4
+* [Promise Practice Exercises](https://repl.it/@daughedm/Promises-practice)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
