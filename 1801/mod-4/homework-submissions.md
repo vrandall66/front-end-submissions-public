@@ -121,9 +121,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Krista Handel
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/meloncatty/f6b8c3dd9fbe7eceb227b5d7c0fbc1eb)
+* [Express Tutorial](https://gist.github.com/meloncatty/ce7bf965514f1c5803d7285371dbd5c2) - What additional items did you work on?
++ Completed further challenges 1, 2 and 3
+* [Promise Practice Exercises](https://gist.github.com/meloncatty/ad65447ebe95b4b4fe367031a436fff8)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
