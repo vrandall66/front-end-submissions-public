@@ -25,9 +25,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Cameron Buscher
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/YayFiber/8bcc8abe9cba7c6bb43d9ded2c8114ff)
+* [Express Tutorial](https://github.com/YayFiber/express-tutorial) - What additional items did you work on?
+
+I did the first three additional problems - Add a client-side JavaScript file, Make a new endpoint so that if the client makes a GET request to localhost:3000/sunsets and Create some JSON data in a separate file.
+* [Promise Practice Exercises](https://gist.github.com/YayFiber/df456f17d5348800495158931c3f4a7f)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
