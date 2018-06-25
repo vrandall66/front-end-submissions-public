@@ -35,9 +35,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Camilo Snapp
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/CamArturo/node-mod4-pre)
+* [Express Tutorial](https://github.com/CamArturo/node-mod4-pre-express) - What additional items did you work on?
+1. Challenge #1: Added a button that appended 'clicked' when pressed
+2. Challenge #2: show pics of sunsets if client makes a get request to /sunsets
+3. Challenge #4: add custom 404 page if client requests to undefined endpoint
+* [Promise Practice Exercises](https://github.com/CamArturo/mod4-pre-promises)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
