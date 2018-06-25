@@ -145,8 +145,8 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Steph Ospina
 
-* [Node Server Tutorial](https://github.com/sospinar21/express-node)
-* [Express Tutorial]() - What additional items did you work on? 
+* [Node Server Tutorial](https://github.com/sospinar21/Node)
+* [Express Tutorial](https://github.com/sospinar21/express-node) - What additional items did you work on? 
 
 - Add client-side JavaScript file in the public directory for some interactivity. 
 - Make a new endpoint so that if the client makes a GET request to localhost:3000/sunsets, then the user sees a page with a bunch of pictures of sunsets.
