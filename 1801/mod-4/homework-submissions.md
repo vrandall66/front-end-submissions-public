@@ -6,11 +6,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 **Week 1 (Prework)**
 
-* [Node Server Tutorial](http://frontend.turing.io/lessons/module-4/node-prework.html) -- DONE
+* [Node Server Tutorial](http://frontend.turing.io/lessons/module-4/node-prework.html)
 
 * [Express Tutorial](https://medium.com/@jaeger.rob/introduction-to-nodes-express-js-db5617047150) - Link to completed Express tutorial repo with a note about which of the 3 out of 4 of the problems in the "Further Challenges" section at the end of the tutorial you worked on
 
-* [Promise Practice Exercises](https://gist.github.com/robbiejaeger/dc8f55c1f9462741090862f736b82cab) -- DONE
+* [Promise Practice Exercises](https://gist.github.com/robbiejaeger/dc8f55c1f9462741090862f736b82cab)
 
 **Week 4**
 
@@ -25,11 +25,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Cameron Buscher
 
-* [Node Server Tutorial](https://gist.github.com/YayFiber/8bcc8abe9cba7c6bb43d9ded2c8114ff)
+* [Node Server Tutorial](https://gist.github.com/YayFiber/8bcc8abe9cba7c6bb43d9ded2c8114ff) -- DONE
 * [Express Tutorial](https://github.com/YayFiber/express-tutorial) - What additional items did you work on?
 
 I did the first three additional problems - Add a client-side JavaScript file, Make a new endpoint so that if the client makes a GET request to localhost:3000/sunsets and Create some JSON data in a separate file.
-* [Promise Practice Exercises](https://gist.github.com/YayFiber/df456f17d5348800495158931c3f4a7f)
+* [Promise Practice Exercises](https://gist.github.com/YayFiber/df456f17d5348800495158931c3f4a7f) -- DONE
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
