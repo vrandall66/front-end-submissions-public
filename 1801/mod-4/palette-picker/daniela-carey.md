@@ -37,6 +37,8 @@ I'm proud of these tests because it took me a while to get it figured out. While
 
 This feels like a gnarly method and so many nested callbacks - there is likely a better way to refactor but I felt time-crunched so I just made it work and didn't go back to it. 
 
+Also, I did not have time to do error handling or any try/catches on my fetch calls, so I'm not super proud of that. 
+
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
 Palette Picker is running on 3000
