@@ -106,9 +106,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 
 ### Jack Laird
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/JackLaird0/node-tutorial)
+* [Express Tutorial](https://github.com/JackLaird0/express-tutorial) - What additional items did you work on?
+* [Promise Practice Exercises](https://repl.it/@JackLaird97/Promises-Practice)
 * [House of Vars Blog Post]()
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
