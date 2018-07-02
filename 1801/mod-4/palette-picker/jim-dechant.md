@@ -11,7 +11,7 @@
 [heroku](https://notpalettepicker.herokuapp.com/)
 
 #### Link to your annotated server file
-[annotated server file](https://www.youtube.com/watch?v=dQw4w9WgXcQ) - coming soon
+[annotated server file](https://github.com/Ecksi/palette-picker/tree/annotated-server)
 
 ## Completion
 
@@ -45,7 +45,7 @@ I don't remember when but I felt like I paniced and froze for this project. I ha
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite](https://i.imgur.com/IJc1R9k.png)
+[test suite](https://i.imgur.com/GP2Jx5p.jpg)
 
 #### Link to Design Inspiration
 
@@ -57,6 +57,10 @@ I don't remember when but I felt like I paniced and froze for this project. I ha
 #### Please feel free to ask any other questions or make any other statements below!
 
 I am not feeling good about my start to mod 4, this is part of the reason I wanted to leave at the end of mod 3. I burned out last mod and my fear was that it would effect my future learning if I couldn't pull myself out of this burnout mode, and I am living my nightmare right now seeing everything start to crack and crumble.. I need to get some damage control going on and muster the energy to do one more push. Sorry to let y'all down =/
+
+### Weekend update
+
+Feeling better, but still shaky. It was a long haul to get this up to where is should have been by Friday afternoon.. getting my shit together and taking care of business.
 
 -----
 
