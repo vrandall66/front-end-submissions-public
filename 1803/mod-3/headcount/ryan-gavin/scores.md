@@ -17,7 +17,6 @@
 ### PropType Implementation
 
 - Pass - Proptype validation is implemented for any component receiving props.
-- Fail - There are components missing proptype validation.
 
 ### README Updates
 
