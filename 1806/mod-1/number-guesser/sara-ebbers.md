@@ -1,50 +1,41 @@
-## Student:
-## Evaluator:
+## Student: Sara Ebbers
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+
+* Fantastic user experience
+* Little more spacing between header and input
+* Small differences in between spec and your user interface
+* Clean and organized html
+* Cheers to the use of aria "name" 
+* Keep organization of elements, classes, ids, etc.
+* Grouping elements together that share similar rules
+* Don't put text-align on all elements :)
+* Clean and organized javascript
+* Setting default disabled in HTML
+* Be careful of going after the same input and having to rename it multiple times depending on logic
+    - See if there is something with the order of the javascript so that you only have one variable to your input instead of selecting it multiple times.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
 * Hot Fire  
-* Sparkles  
-* Magic
