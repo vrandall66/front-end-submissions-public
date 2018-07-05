@@ -1,50 +1,42 @@
-## Student:
-## Evaluator:
+## Student: Kevin Ryan
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
 
-## Functional Expectations
+* Overall clean code and organized well.
+* Keep ids on inputs only
+* Be careful of going too 'em' crazy on CSS.
+* Keep refactoring some of your logic to remove some extra if/else statements.
+* When increasing the max and min, make sure that the variables have increased.
+* Cleaning up logs and commented out lines for next project.
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
+## Functional Expectations
+ 
+* Advanced Beginner: Application meets all of the expectations of phase two.
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## CSS
-
-* Novice  
+ 
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
 * Hot Fire  
-* Sparkles  
-* Magic

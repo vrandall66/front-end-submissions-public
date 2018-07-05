@@ -1,50 +1,39 @@
-## Student:
-## Evaluator:
+## Student: Tobin Nelson
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+
+* Awesome copying the comp.  Super clean.
+* Taking it to the next step, adding aria roles/labels.
+* Use cascading stylesheets effectively so you don't need multiple spans in your h1.
+* Organize CSS based on element, class, id, etc.
+* Grouping classes together that have similar rules/properties.
+* Make sure functions in event listeners are consistent
+* Cleaning up redundant code and moving them into their own functions
+* Make sure to clean up logs
 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
+* Advanced Beginner: Application meets all of the expectations of phase two.   
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
 * Hot Fire  
-* Sparkles  
-* Magic

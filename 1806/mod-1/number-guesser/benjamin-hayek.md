@@ -1,50 +1,44 @@
-## Student:
-## Evaluator:
+## Student: Benjamin Hayek
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+
+Clean html.  Make sure not to leave extra html tags.
+Start using some aria roles/labels
+Organization of classes are good
+    - Start experiement using "ems" especially with fonts
+Organization of javascript is also fantastic
+    - Well refactored and clean
+    - Keep working on the disabled and enabled functionality.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
+* Novice: Application meets all of the expectations of phase one.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
-
-* Novice  
+ 
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+ 
+* Sparkles
+ 

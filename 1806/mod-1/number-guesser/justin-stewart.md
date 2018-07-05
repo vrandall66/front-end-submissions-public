@@ -1,50 +1,40 @@
-## Student:
-## Evaluator:
+## Student: Justin Stewart
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
 
+* More spacing in UI
+* Reset button looks disabled but isn't
+* Work on cleaning up some HTML
+* Work on cleaning up and removing redundant code in styles
+* Clean and organized javascript
+* Great job breaking out your functions into smaller functions and calling functions inside of other functions
+* Be consistent with either using anonymous functions or function declarations in your event listeners
+* Some small refactoring with if/else statements
+
 ## Functional Expectations
-
-* Novice: Application meets all of the expectations of phase one.  
+ 
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
-
-* Novice  
+ 
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner   
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
 * Hot Fire  
-* Sparkles  
-* Magic
