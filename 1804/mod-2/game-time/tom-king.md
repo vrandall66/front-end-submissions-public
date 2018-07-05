@@ -1,11 +1,11 @@
 # Game Time
-* Students:
-* Evaluator:
+* Students: Tom King
+* Evaluator: Brittany Storoz
 
 Comments:
-*
-*
-*
+* 
+* 
+* 
 
 ### Functional Expectations
 
