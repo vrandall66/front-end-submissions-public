@@ -1,50 +1,39 @@
-## Student:
-## Evaluator:
+## Student: James
+## Evaluator: Holt
+
 ## Notes/What To Work On:
+- Great job getting the functionality and recreating comp overall.
+- Make sure only push features that are fully working up to master branch.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+  - Looks solid, make sure to have the font and all colors from spec!
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+  - Nice and lean! Next project would like to see ARIA standards met.
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+  - Very nice and organized!
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+  - A couple of opportunities to refactor that we talked though.
 
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+* Unicorn Rainbows 🦄
