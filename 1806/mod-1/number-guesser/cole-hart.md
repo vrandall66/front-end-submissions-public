@@ -1,50 +1,36 @@
-## Student:
-## Evaluator:
+## Student: Cole Hart
+## Evaluator: Holt
 ## Notes/What To Work On:
+ 
+- Great job creating helper functions to keep everything clean and pretty short!
+- Make sure to use kebab-case in HTML/CSS; only use camelCase is JS :)
+- Leaving a little white space between CSS rules will make it a little more readable.
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
 
 ## COMP RECREATION / DESIGN
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
+ 
 * Magic
