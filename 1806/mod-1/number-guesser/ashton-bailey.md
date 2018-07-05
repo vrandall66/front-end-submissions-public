@@ -1,50 +1,36 @@
-## Student:
-## Evaluator:
+## Student: Ashton
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+* HTML
+  * add aria-labels to inputs
+
+* CSS
+  * Love that you added font defaults to the body
+  * Organize aplhabetically within css rules
+  * Always default to using classes!
+
+* JS
+  * Check out style guide
+  * Always use .value for input elements and you can use .innertext for everything else
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

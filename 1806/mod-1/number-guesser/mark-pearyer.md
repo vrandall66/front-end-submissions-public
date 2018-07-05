@@ -1,14 +1,22 @@
-## Student:
-## Evaluator:
+## Student: Mark
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+* HTML
+  * add aria-labels to inputs
+
+* CSS
+  * Work on naming conventions ie. plural names indicate to me that its a container element
+  * Check out style guide
+
+* JS
+  * Check out style guide
+  * Work on naming conventions
+  * Love that you're pulling things out into smaller functions
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 

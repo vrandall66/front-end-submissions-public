@@ -1,50 +1,46 @@
-## Student:
-## Evaluator:
+## Student: Jessica
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+Checkout the style guides!
+
+* HTML 
+  * use kabob-case for class and id names
+  * Add aria-labels to inputs
+  * default to multiple classes instead of ids
+
+* CSS
+  * font, font weight, and font size used most often should be added to the body 
+  * Default to using classes
+  * Consider adding organizational comments
+  * Use more broad classes and override where necessary ie. button class and override with wide-button class
+
+* JS
+  * No comments 
+  * Work on being a little more descriptive in naming things like 'feedback2' 
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
 * Sparkles  
-* Magic
+

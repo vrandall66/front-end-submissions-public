@@ -1,50 +1,39 @@
-## Student:
-## Evaluator:
+## Student: Chris
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+* CSS
+  * font, font weight, and font size used most often should be added to the body 
+  * Consider adding organizational comments
+  * Consider using BEM for class naming (google it)
+
+* JS
+  * Work on naming functions like a verb
+  * Always have one statement per var declaration
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
 * Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
-
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
 * Magic
+

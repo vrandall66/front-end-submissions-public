@@ -1,50 +1,40 @@
-## Student:
-## Evaluator:
+## Student: Kylee
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+* Push yourself, I bet you could have gotten further!
+* Refer back to the style guides
+
+* HTML
+  * add aria-labels to inputs
+
+* CSS
+  * Pull duplicate lines into a more broad class
+
+* JS
+  * Good naming conventions
+  * Love that you made the disable buttons function
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
