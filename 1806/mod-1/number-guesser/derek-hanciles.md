@@ -1,50 +1,40 @@
-## Student:
-## Evaluator:
+## Student: Derek Hanciles
+## Evaluator: Holt
 ## Notes/What To Work On:
+
+- Nice job following spec; make sure that when you add things in (range inputs), they provide a good UI
+- I love that you were tackling iteration 4 - I think you are super close💪
+- Like we talked about, I'd recommend planning out your design before coding - draw your wireframes, label variables, event listeners, functions, etc. so you have a clear vision of the flow of entire app. I think this will help with those couple of spots where you were calling functions in places you didn't want/need to be. 
+
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
+  - on the wip-mpmode branch
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+  - make sure your buttons have the right font!
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+  - I love that you put thought into organizing within each rule! 
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner / Proficient  
+  - Implementing that planning piece will improve this a lot!
 
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+* Hot Fire 🔥
