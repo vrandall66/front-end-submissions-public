@@ -1,50 +1,40 @@
-## Student:
-## Evaluator:
+## Student: Alexander Ela
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+
+* Careful of margins and spacing in header for UI
+* Next step: adding aria-labels to html buttons and inputs
+* Careful of where you are using rems in your CSS.
+    - experiment with pixels and percentages so you can hone in on the styles
+* Great organization of javascript
+* Keep working on refactoring repeated lines of code in your javascript
+* Make sure to pass event as a parameter in event listener functions
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
+* Advanced Beginner: Application meets all of the expectations of phase two.   
 
 
 ## COMP RECREATION / DESIGN
-
-* Novice  
+ 
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
 
 
 ## CSS
-
-* Novice  
+  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
 * Hot Fire  
-* Sparkles  
-* Magic
