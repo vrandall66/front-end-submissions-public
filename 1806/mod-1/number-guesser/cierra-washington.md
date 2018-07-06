@@ -1,50 +1,39 @@
-## Student:
-## Evaluator:
+## Student: Cierra
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- got through phase 3!!
+- very minimal styling, not fonts
+- watch indentation, especially with JS
+- in a good spot for refactoring
+- watch out for long functions
+
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
+* Proficient: Application meets all of the expectations of phase three.   
 
 ## COMP RECREATION / DESIGN
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+* Unicorn Rainbows

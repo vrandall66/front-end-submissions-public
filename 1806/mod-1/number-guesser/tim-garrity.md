@@ -1,50 +1,31 @@
-## Student:
-## Evaluator:
+## Student: Tim
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- keep working at really locking in your JS foundation, glad to hear that things were solidifying as you worked on this project
+- in bigger functions, don't be afraid to pull logic out into it's own function and then call it inside other functions
+- code is in a good place for a refactor
 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Advanced Beginner   
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
