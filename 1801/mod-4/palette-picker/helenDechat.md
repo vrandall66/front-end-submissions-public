@@ -55,34 +55,73 @@ I'm pretty happy with my functionality. I would have liked to have had more time
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Robbie)
 
 ## Specification Adherence
 
-**x points**: (50 possible points)
+**35 points**: (50 possible points)
+
+- Not seeing the projects and palettes list. I saved a project, refreshed the page, and all of the project were gone. Tough to know if projects are persisting and 
+can't tell if I can save a palette to a project
 
 ## User Interface
 
-**x points**: (20 possible points)
+**12 points**: (20 possible points)
+
+- The UI is confusing in that you can save a palette without a project (this wasn't in the project specification), and then there is another button 
+to save the palette into a project. So as a user I'm not sure which one is better or what is the recommended workflow. I think the "Save Palette to Project" button 
+could be moved to its own visually separated section with the palette and project selection areas so that the button is grouped closely with the selection 
+that is needed. It was tough to know what to do without the text guiding me.
+- Slight bug in showing the hex values. The hex colors will not show until you click the "Pick Me Some Colors!" button, but clicking on saved-palette colors does 
+not trigger the hex codes to show.
 
 ## Testing
 
-**x points**: (20 possible points)
+**10 points**: (20 possible points)
+
+- Ideally, setting [this environment variable](https://github.com/hdechat/Palette-Picker/blob/master/test/routes.spec.js#L1) should be done in your `npm test` script command: something 
+like: `"test": "NODE_ENV=test mocha --exit"`
+- Good job testing for body properties and values in [this test](https://github.com/hdechat/Palette-Picker/blob/master/test/routes.spec.js#L60-L86) and others
+- Why the empty line [here](https://github.com/hdechat/Palette-Picker/blob/master/test/routes.spec.js#L107) and in other tests?
+- [These commented out tests](https://github.com/hdechat/Palette-Picker/blob/master/test/routes.spec.js#L167-L270) should be fixed. One reason why these are behaving 
+in a strange way is because the IDs are changing every time you run the seed files. Unfortunately, `knex` does not have a good tool for "database cleaning", which means 
+something that runs every unit test (`it` block) and resets the ID values so they start incrementing from 1 each test. You can get around this by hard-coding ID values in 
+your _test_ seed file, but it's not a best practice. See how you can fix these tests so they are not commented out anymore.
 
 ## Commented Server File
 
-**x points**: (10 possible points)
+**7 points**: (10 possible points)
+
+- What do you mean by ["root" here](https://github.com/hdechat/Palette-Picker/blob/commented-server-file/server.js#L5)?
+- For [these lines](https://github.com/hdechat/Palette-Picker/blob/commented-server-file/server.js#L7-L9), be more specific than "user environment". What environment 
+variables are being accessed in these lines?
+- Good, I like the raw SQL interpretation [here](https://github.com/hdechat/Palette-Picker/blob/commented-server-file/server.js#L18) and other lines
+- I would expect [this line](https://github.com/hdechat/Palette-Picker/blob/commented-server-file/server.js#L25) to have more information about what the `projects` variable contains. What do we expect to be passed through into the callback?
+- Good explanation [here](https://github.com/hdechat/Palette-Picker/blob/commented-server-file/server.js#L91)
 
 ## JavaScript Style
 
-**x points**: (30 possible points)
+**22 points**: (30 possible points)
+
+- You should not need to explicitly set [this endpoint](https://github.com/hdechat/Palette-Picker/blob/master/server.js#L17) in your server file if you are setting the static asset path 
+as you are [here](https://github.com/hdechat/Palette-Picker/blob/master/server.js#L15)
+- Good error handling [here](https://github.com/hdechat/Palette-Picker/blob/master/server.js#L28-L30) for the case where the ID does not exist in the DB
+- [This endpoint](https://github.com/hdechat/Palette-Picker/blob/master/server.js#L56) should not return a `204` if the project ID does not exist
+- Why are [these endpoints](https://github.com/hdechat/Palette-Picker/blob/master/server.js#L98-L120) even created if they're not needed for the spec and other areas 
+like UI or testing could be improved?
+- Good first and [second migration](https://github.com/hdechat/Palette-Picker/blob/master/db/migrations/20180627141113_add-colors.js) to drop old column and add colors columns - the 
+`up` and `down` look good
+- In your client-side JS, don't forget to add `catch` to your promise chains to catch errors, handle errors, or at least use the catch for debugging (by console.log-ing)
 
 ## Workflow
 
-**x points**: (20 possible points)
+**15 points**: (20 possible points)
+
+- Would expect to see more granular commits for a project of this size. There were 54 commits when I looked, and this is after Heroku and travisCI setup
+- Great job adding a `.gitignore` file in your first commit
 
 
 ### To get a 3 on this project, you need to score 110 points or higher
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 101 / 150
