@@ -3,23 +3,23 @@
 * Evaluator: Brittany Storoz
 
 Comments:
-* 
-* 
+* Both articulated their knowledge of classes/OOP very well
+* Little too many things in the index.js that could be moved into the Game class but overall classes seemed well-structured and they each had appropriate methods and instance properties on them
 * 
 
 ### Functional Expectations
 
-* 4 - Application is fully playable and exceeds the expectations set by instructors
-* 3 - Application is fully playable without crashes or bugs
-* 2 - Application has some missing functionality but no crashes
-* 1 - Application crashes during normal usage
+* 3.5 - Application is fully playable without crashes or bugs
+
+* Attempted an extension but didn't quite get there
 
 ### User Interface
 
-* 4 - The application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
-* 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* 2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* 1 - The application is confusing or difficult to use.
+* 3.5 - The application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer. Couple stylistic things that could improve.
+
+* Able to use the application without any guidance or instruction
+* Make a bit more difference in the green of the frog vs. the grass so I can tell I've been killed and have started over
+* Prioritize the game by giving it a bit more space, and de-emphasize the instructions/about section by making it more of a sidebar
 
 ### Testing
 
@@ -35,6 +35,7 @@ Comments:
 * 2 - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
 * 1 - Your client-side application does not function. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code is not separated at all.
 
+* Stylistic nitpick, decide whether youre using [single quotes or double quotes](https://github.com/Alexbruce1/game-time/blob/master/lib/Game.js#L19-L20)
 
 ### Workflow
 
@@ -43,3 +44,5 @@ Comments:
 * 2 - The developer/team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
 * 1 - The developer/team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
 * 0 - The application was not checked into version control.
+
+* Nice readable and consistent commit messages

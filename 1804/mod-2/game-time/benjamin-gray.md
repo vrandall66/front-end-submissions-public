@@ -14,6 +14,8 @@ Comments:
 * 2 - Application has some missing functionality but no crashes
 * 1 - Application crashes during normal usage
 
+* 4 - level up + github pages extension
+
 ### User Interface
 
 * 4 - The application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
@@ -43,3 +45,5 @@ Comments:
 * 2 - The developer/team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
 * 1 - The developer/team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
 * 0 - The application was not checked into version control.
+
+* Nice readable and consistent commit messages

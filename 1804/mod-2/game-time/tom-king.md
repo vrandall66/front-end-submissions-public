@@ -21,12 +21,26 @@ Comments:
 * 2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
 * 1 - The application is confusing or difficult to use.
 
+* Just needs a bit more instruction on keyboard shortcuts but otherwise easy to understand and play
+
 ### Testing
 
 * 4 - Project has a running test suite that exercises the application at multiple levels. The test suite covers almost all aspects of the application and uses mocks and stubs when appropriate. ESLint shows 0 complaints.
 * 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
 * 1 - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
+
+* Also [assert](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L31) that it's an instance of the Game class. (Do this for all test classes), there is syntax for that assertion specifically if you look through the mocha chai docs.
+
+* [It should set instance properties appropriately](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L34) not store all the things
+
+* Your descriptions like [this](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L85) are a little vague, and should be more geared towards explaining what the actual code is doing. e.g. "It should decrease the player's missile count when they shoot"
+
+* Do you need to be calling [findBattery](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L129-L131) twice each time? This looks like something that should be refactored so that you can just call it directly in your assertion once.
+
+* [This](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L141) isn't really asserting what you're describing. It looks like you're just testing that the game level gets updated after the loop.
+
+* [I would break out setup like this](https://github.com/tomkingkong/game-time/blob/master/test/Weapon-test.js#L8-L20) into a separate file since you're repeating it across test files, then you can just import it in rather than having it in all those different places. 
 
 ### JavaScript Style & OOP
 
