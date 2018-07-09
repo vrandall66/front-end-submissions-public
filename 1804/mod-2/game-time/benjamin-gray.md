@@ -3,7 +3,6 @@
 * Evaluator: Brittany Storoz
 
 Comments:
-* 
 * Testing it block descriptions could be a bit more accurate -- focus more on what the code is doing. What methods are being called and what values are updating.
 * Code is clean, readable and stylistically consistent. Some opportunities for refactoring but overall demonstration of skills is there.
 
@@ -25,8 +24,6 @@ Comments:
 
 * You also want to assert that your `tail` is an instance of the `Tail` class [here](https://github.com/gray-smith/gs-bp-game-time/blob/master/test/Tail-test.js#L6-L8). You can import `expect` from chai and test something like: `expect(tail).to.be.an.instanceof(Tail);`
 
-* **Can you test against inheritance?**
-
 * I would combine all of [these](https://github.com/gray-smith/gs-bp-game-time/blob/master/test/Tail-test.js#L11-L35) instance property checks into a single it block with a description like 'should set initial instance properties'
 
 * Break out this context [setup](https://github.com/gray-smith/gs-bp-game-time/blob/master/test/Player-test.js#L7-L19) into it's own file (it could be in a /test/mocks/ directory) so that you don't have to repeat that setup in every test file and you can just import it instead
@@ -46,10 +43,6 @@ Comments:
 * 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
 
 * Since you're resetting the players array in `isGameOver`, and you're not calling `loadPlayers` anywhere else, you could just reassign `this.players` to an array like `this.players = [playerOne, playerTwo]` instead of pushing them in [separately](https://github.com/gray-smith/gs-bp-game-time/blob/master/lib/Game.js#L22-L23)
-
-* **Find in array for declare winner**
-
-* **NewLevel refactoring**
 
 * [This](https://github.com/gray-smith/gs-bp-game-time/blob/master/lib/Game.js#L103) reads a little weird to me. Maybe it's the collision detection that was set up for you - but the way I read this conditional is that if player 1 is *not* colliding with the canvas object, update player 2's score. I'm confused why there's a bang in front of the conditional. Does `isCollidingWith` return true if the first object is colliding with the object passed in? Or false?
 
@@ -71,4 +64,8 @@ Comments:
 
 
 
-* **Public directory**
+<!-- * **Public directory**
+
+* **Find in array for declare winner**
+
+* **NewLevel** -->
