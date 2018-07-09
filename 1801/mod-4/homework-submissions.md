@@ -84,7 +84,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial](https://github.com/EricMellow/mod4prework/tree/master/robbie-tutorial)
   Additional items: Challenge #1, Challenge #2, and Challenge #4
 * [Promise Practice Exercises](https://github.com/EricMellow/mod4prework/blob/master/promises.js)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@ericmellow/contributing-to-open-source-a-beginners-guide-5b6b759f0081)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
