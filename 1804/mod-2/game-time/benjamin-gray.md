@@ -40,7 +40,7 @@ Comments:
 
 ### JavaScript Style & OOP
 
-* 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
+* 3.5 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
 
 * Since you're resetting the players array in `isGameOver`, and you're not calling `loadPlayers` anywhere else, you could just reassign `this.players` to an array like `this.players = [playerOne, playerTwo]` instead of pushing them in [separately](https://github.com/GraySmith00/gs-bp-game-time/blob/master/lib/Game.js#L22-L23)
 
