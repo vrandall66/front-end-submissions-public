@@ -42,12 +42,17 @@ Comments:
 
 ### JavaScript Style & OOP
 
-* 4 - Application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don’t repeat yourself) principles are utilized. There are zero instances where an instructor would recommend taking a different approach. Application is organized into classes (and correctly uses inheritance) and there are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
 * 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
-* 2 - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
-* 1 - Your client-side application does not function. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code is not separated at all.
 
 * Stylistic nitpick, decide whether youre using [single quotes or double quotes](https://github.com/Alexbruce1/game-time/blob/master/lib/Game.js#L19-L20)
+
+* [These](https://github.com/Alexbruce1/game-time/blob/master/lib/Frog.js#L6-L9) instance properties should be passed into super and inherited from the parent, not set here.
+
+* [Score](https://github.com/Alexbruce1/game-time/blob/master/lib/Frog.js#L11) is something I might put on the game class rather than the frog.
+
+* [These](https://github.com/Alexbruce1/game-time/blob/master/lib/Frog.js#L46) might be a bit too complex for ternaries. Keep them as simple and bare bones as possible, and if you can't, switch to an if else
+
+* Seems like [this](https://github.com/Alexbruce1/game-time/blob/master/lib/Frog.js#L82) else condition is unecessary if you're just setting the pre-existing value equal to itself.
 
 ### Workflow
 
