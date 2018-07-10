@@ -45,8 +45,8 @@ Comments:
 
 ### Workflow
 
-* 4 - The developer/team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc) and utilizes some sort of planning tool (GitHub issues, Waffle, Trello, etc). The team develops a clear MVP (minimum viable product) and conducts a DTR (define the relationship). Both members contribute meaningfully to the application.
 * 3 - The developer/team makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base. The team conducts a DTR (define the relationship) and utilizes a planning tool and pairing practices. Both members contribute meaningfully to the application.
-* 2 - The developer/team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
-* 1 - The developer/team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
-* 0 - The application was not checked into version control.
+
+* You definitely want more than 76 commits on a project of this size and complexity Aim for about 200 at minimum. This is a sign your commits are probably all doing a bit too much and the diffs are likely not easily readable.
+
+* Look into `git rebase --interactive` for squashing commits. You have a *lot* of commits that have the same exact message, likely as you iterated on whatever piece of functionality you were working on. (Like "Optimize High Score Input"). You don't want duplicate commits like that. You want to merge them into a single commit by squashing.
