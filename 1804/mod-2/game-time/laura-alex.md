@@ -22,10 +22,23 @@ Comments:
 
 ### Testing
 
-* 4 - Project has a running test suite that exercises the application at multiple levels. The test suite covers almost all aspects of the application and uses mocks and stubs when appropriate. ESLint shows 0 complaints.
 * 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
-* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* 1 - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
+
+* You also want to assert that your objects are instances of the class [they belong to](https://github.com/Alexbruce1/game-time/blob/master/test/Vehicle-test.js#L26). You can import `expect` from chai and test something like: `expect(vehicle).to.be.an.instanceof(Vehicle);`
+
+* Nice pre-and-post [assertions here](https://github.com/Alexbruce1/game-time/blob/master/test/Frog-test.js#L77-L83)
+
+* [This test](https://github.com/Alexbruce1/game-time/blob/master/test/Frog-test.js#L97) makes me feel like `generateScore` is something that should happen automatically every time the frog moves, rather than having to call it manually after each `move` call. 
+
+* In order to test Game methods like `drawBackground` and `loadStartScreen`, you'd want to mock out that `ctx` object so that they don't yell at you. In your setup code, like in a `before` block, you could do something like: 
+
+```js
+  const ctx = {
+    fillRect() => {}
+    otherMethods() => {}
+  }
+```
+
 
 ### JavaScript Style & OOP
 
