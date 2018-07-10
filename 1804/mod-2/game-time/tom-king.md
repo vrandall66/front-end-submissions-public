@@ -3,32 +3,25 @@
 * Evaluator: Brittany Storoz
 
 Comments:
-* 
-* 
-* 
+* Nice work going solo, but don't use it as an excuse to do less ;) It's often actually faster and easier working alone than struggling through pairings, so instructors and future employers won't have much sympathy
+* Testing was better after re-visiting it, use this project as a way to practice writing tests in the future and finish fleshing them out
+* Demonstration of OOP skills is clear though code can be difficult to read at times -- there's a lot of complex logic here, but make sure you can still speak to it after graduation. An employer might ask you to talk through the code and I think you will have a hard time remembering exactly how it works (I would even if I wrote it). Create a branch for yourself with annotations for each line during an intermission/after graduation if you have to. 
 
 ### Functional Expectations
 
 * 4 - Application is fully playable and exceeds the expectations set by instructors
-* 3 - Application is fully playable without crashes or bugs
-* 2 - Application has some missing functionality but no crashes
-* 1 - Application crashes during normal usage
+
+* Level up extension in place by adding more missiles, good work!
 
 ### User Interface
 
-* 4 - The application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
 * 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* 2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* 1 - The application is confusing or difficult to use.
 
 * Just needs a bit more instruction on keyboard shortcuts but otherwise easy to understand and play
 
 ### Testing
 
-* 4 - Project has a running test suite that exercises the application at multiple levels. The test suite covers almost all aspects of the application and uses mocks and stubs when appropriate. ESLint shows 0 complaints.
 * 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
-* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* 1 - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
 
 * Also [assert](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L31) that it's an instance of the Game class. (Do this for all test classes), there is syntax for that assertion specifically if you look through the mocha chai docs.
 

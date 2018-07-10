@@ -5,7 +5,6 @@
 Comments:
 * Both articulated their knowledge of classes/OOP very well
 * Little too many things in the index.js that could be moved into the Game class but overall classes seemed well-structured and they each had appropriate methods and instance properties on them
-* 
 
 ### Functional Expectations
 
