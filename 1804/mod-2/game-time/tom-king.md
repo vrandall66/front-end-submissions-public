@@ -37,11 +37,48 @@ Comments:
 
 ### JavaScript Style & OOP
 
-* 4 - Application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don’t repeat yourself) principles are utilized. There are zero instances where an instructor would recommend taking a different approach. Application is organized into classes (and correctly uses inheritance) and there are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
 * 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
-* 2 - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
-* 1 - Your client-side application does not function. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code is not separated at all.
 
+
+* If you're just using [this](https://github.com/tomkingkong/game-time/blob/master/lib/Context.js) for tests, a more common convention would be to put it in a directory like `/tests/mocks/Context.js` to separate it from the code that's actually needed to run your application.
+
+* Based on the instance properties on your Game class, it looks like you could make another Player/Enemy class that keeps track of its own missiles and weapon counts.
+
+* `false` is a weird default value for the [nextLevel](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L19) property. I'd assume it would be 0, but I also see you have a level property as an integer. Are both of these completely necessary? Can what you're accomplishing with `nextLevel` be done automatically without routing through an instance property?
+
+* With so many instance properties on your Game class, I'd recommend at least ordering them in some semantic order - like keeping all the player/enemy, missile/weapon information together, all the score/level information together, etc.
+
+* Having to call [animateMissiles twice](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L33-L34) looks more like a bug than something intentional. I see you're passing different values in for each call, but could you refactor `animateMissiles` to exist on a Player/Enemy class that's shared between the two? That way you could instead call `this.player.animateMissiles()` and `this.enemy.animateMissiles()` which makes the distinction more clear for why you're calling it twice.
+
+* [No](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L38-L40). ;) 
+
+* All of these [if elses](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L32-L56) are really difficult to read. One way to refactor, if they're all entirely necessary, is break out the logic within each if/else into a separate function with a very descriptive name. Something like:
+
+```js
+if (!nextLevel && !gameOver) {
+  startGame();
+
+  if (!enemy.missiles.length) {
+    advanceToNextLevel();
+  }
+}
+
+else if (nextLevel) {
+  if (timer !==0) {
+    continueLevel();
+  } else {
+    advanceLevel();
+  }
+}
+
+else if (gameOver) {
+  handleGameOver();
+}
+```
+
+That would make it at least clear what all the different behaviors/routes the game could take based on those conditions.
+
+* Having a [pause](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L63) method directly after a `togglePause` method is a little bizarre. I'd rename this to be something like `drawPauseText()`
 
 ### Workflow
 
