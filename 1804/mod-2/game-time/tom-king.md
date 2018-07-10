@@ -42,7 +42,7 @@ Comments:
 
 * If you're just using [this](https://github.com/tomkingkong/game-time/blob/master/lib/Context.js) for tests, a more common convention would be to put it in a directory like `/tests/mocks/Context.js` to separate it from the code that's actually needed to run your application.
 
-* Based on the instance properties on your Game class, it looks like you could make another Player/Enemy class that keeps track of its own missiles and weapon counts.
+* Based on the instance properties on your Game class, it looks like you could make some Player/Enemy classes that keep track of their own missiles and weapon counts, have the ability to shoot, etc.
 
 * `false` is a weird default value for the [nextLevel](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L19) property. I'd assume it would be 0, but I also see you have a level property as an integer. Are both of these completely necessary? Can what you're accomplishing with `nextLevel` be done automatically without routing through an instance property?
 
