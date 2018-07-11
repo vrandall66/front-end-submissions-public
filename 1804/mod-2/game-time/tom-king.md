@@ -3,43 +3,87 @@
 * Evaluator: Brittany Storoz
 
 Comments:
-* 
-* 
-* 
+* Nice work going solo, but don't use it as an excuse to do less ;) It's often actually faster and easier working alone than struggling through pairings, so instructors and future employers won't have much sympathy
+* Testing was better after re-visiting it, use this project as a way to practice writing tests in the future and finish fleshing them out
+* Demonstration of OOP skills is clear though code can be difficult to read at times -- there's a lot of complex logic here, but make sure you can still speak to it after graduation. An employer might ask you to talk through the code and I think you will have a hard time remembering exactly how it works (I would even if I wrote it). Create a branch for yourself with annotations for each line during an intermission/after graduation if you have to. 
 
 ### Functional Expectations
 
 * 4 - Application is fully playable and exceeds the expectations set by instructors
-* 3 - Application is fully playable without crashes or bugs
-* 2 - Application has some missing functionality but no crashes
-* 1 - Application crashes during normal usage
+
+* Level up extension in place by adding more missiles, good work!
 
 ### User Interface
 
-* 4 - The application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
 * 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* 2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* 1 - The application is confusing or difficult to use.
+
+* Just needs a bit more instruction on keyboard shortcuts but otherwise easy to understand and play
 
 ### Testing
 
-* 4 - Project has a running test suite that exercises the application at multiple levels. The test suite covers almost all aspects of the application and uses mocks and stubs when appropriate. ESLint shows 0 complaints.
 * 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
-* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* 1 - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
+
+* Also [assert](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L31) that it's an instance of the Game class. (Do this for all test classes), there is syntax for that assertion specifically if you look through the mocha chai docs.
+
+* [It should set instance properties appropriately](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L34) not store all the things
+
+* Your descriptions like [this](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L85) are a little vague, and should be more geared towards explaining what the actual code is doing. e.g. "It should decrease the player's missile count when they shoot"
+
+* Do you need to be calling [findBattery](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L129-L131) twice each time? This looks like something that should be refactored so that you can just call it directly in your assertion once.
+
+* [This](https://github.com/tomkingkong/game-time/blob/master/test/Game-test.js#L141) isn't really asserting what you're describing. It looks like you're just testing that the game level gets updated after the loop.
+
+* [I would break out setup like this](https://github.com/tomkingkong/game-time/blob/master/test/Weapon-test.js#L8-L20) into a separate file since you're repeating it across test files, then you can just import it in rather than having it in all those different places. 
 
 ### JavaScript Style & OOP
 
-* 4 - Application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don’t repeat yourself) principles are utilized. There are zero instances where an instructor would recommend taking a different approach. Application is organized into classes (and correctly uses inheritance) and there are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
 * 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
-* 2 - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
-* 1 - Your client-side application does not function. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code is not separated at all.
 
+
+* If you're just using [this](https://github.com/tomkingkong/game-time/blob/master/lib/Context.js) for tests, a more common convention would be to put it in a directory like `/tests/mocks/Context.js` to separate it from the code that's actually needed to run your application.
+
+* Based on the instance properties on your Game class, it looks like you could make some Player/Enemy classes that keep track of their own missiles and weapon counts, have the ability to shoot, etc.
+
+* `false` is a weird default value for the [nextLevel](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L19) property. I'd assume it would be 0, but I also see you have a level property as an integer. Are both of these completely necessary? Can what you're accomplishing with `nextLevel` be done automatically without routing through an instance property?
+
+* With so many instance properties on your Game class, I'd recommend at least ordering them in some semantic order - like keeping all the player/enemy, missile/weapon information together, all the score/level information together, etc.
+
+* Having to call [animateMissiles twice](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L33-L34) looks more like a bug than something intentional. I see you're passing different values in for each call, but could you refactor `animateMissiles` to exist on a Player/Enemy class that's shared between the two? That way you could instead call `this.player.animateMissiles()` and `this.enemy.animateMissiles()` which makes the distinction more clear for why you're calling it twice.
+
+* [No](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L38-L40). ;) 
+
+* All of these [if elses](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L32-L56) are really difficult to read. One way to refactor, if they're all entirely necessary, is break out the logic within each if/else into a separate function with a very descriptive name. Something like:
+
+```js
+if (!nextLevel && !gameOver) {
+  startGame();
+
+  if (!enemy.missiles.length) {
+    advanceToNextLevel();
+  }
+}
+
+else if (nextLevel) {
+  if (timer !==0) {
+    continueLevel();
+  } else {
+    advanceLevel();
+  }
+}
+
+else if (gameOver) {
+  handleGameOver();
+}
+```
+
+That would make it at least clear what all the different behaviors/routes the game could take based on those conditions.
+
+* Having a [pause](https://github.com/tomkingkong/game-time/blob/master/lib/Game.js#L63) method directly after a `togglePause` method is a little bizarre. I'd rename this to be something like `drawPauseText()`
 
 ### Workflow
 
-* 4 - The developer/team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc) and utilizes some sort of planning tool (GitHub issues, Waffle, Trello, etc). The team develops a clear MVP (minimum viable product) and conducts a DTR (define the relationship). Both members contribute meaningfully to the application.
 * 3 - The developer/team makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base. The team conducts a DTR (define the relationship) and utilizes a planning tool and pairing practices. Both members contribute meaningfully to the application.
-* 2 - The developer/team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
-* 1 - The developer/team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
-* 0 - The application was not checked into version control.
+
+* You definitely want more than 76 commits on a project of this size and complexity Aim for about 200 at minimum. This is a sign your commits are probably all doing a bit too much and the diffs are likely not easily readable.
+
+* Look into `git rebase --interactive` for squashing commits. You have a *lot* of commits that have the same exact message, likely as you iterated on whatever piece of functionality you were working on. (Like "Optimize High Score Input"). You don't want duplicate commits like that. You want to merge them into a single commit by squashing.

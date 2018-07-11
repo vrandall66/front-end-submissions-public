@@ -60,34 +60,70 @@ Anything else you wanna say!
 -----
 
 
-# Instructor Feedback (Instructor Name)
+# Instructor Feedback (Leta)
 
-## Specification Adherence
+### Specification Adherence (out of 50 points): 20 points
 
-**x points**: (50 possible points)
+* **20 points** - There are two features missing from the base expectations that make the application feel incomplete or hard to use.
 
-## User Interface
+Notes:
 
-**x points**: (20 possible points)
+- Functionality yet to be implemented:
+  - Locking functionality
+  - On page refresh, the palettes should display in the projects
+  - On page refresh, the projects should persist in the dropdown menu
+  - Be able to delete palettes
+  - If palette in projects is clicked, it should display in main palette
 
-## Testing
+### User Interface (out of 20 points): 15 points
 
-**x points**: (20 possible points)
+* **15 points** - User interface is mostly intuitive, though the instructor might need some guidance on interactions. Styling is mostly consistent, but could use some clean up. Application may be missing some relevant feedback that would help guide the user.
 
-## Commented Server File
+Notes:
 
-**x points**: (10 possible points)
+- Palettes saved without a specified project still show up on the screen
+- The palettes should be grouped together under the project they're a part of, instead of individual cards that each list a project
+- The buttons could use hover states to communicate more to the user
+- Nice messaging to indicate success and failure to the user! (It should align more with the functionality - palettes saved without a project should not automatically be appended to the DOM)
+- It would be nice if the last selected project remained selected when the palette is saved, so you don't have to re-select the same project if you're creating multiple palettes in it
 
-## JavaScript Style
 
-**x points**: (30 possible points)
 
-## Workflow
+### Testing (out of 20 points): 7 points
 
-**x points**: (20 possible points)
+* **7 points** - Project has sporadic testing of some server-side endpoints. There are happy path tests, but there are is one or zero sad path cases.
 
+Notes:
+
+- Testing is incomplete
+
+### Commented Server File (out of 10 points): 0 points
+
+* **10 points** - Each line of the server file (on a separate branch) is commented and explains the code using precise, correct terminology and specificity
+* **5 points** - Most lines of the server file (on a separate branch) are commented, but the explanation of code does not display understanding of the underlying code
+* **0 points** - Lines are sparsely commented in the server file (on a separate branch) and understanding of the code is clearly lacking
+
+Notes:
+
+- I could not locate the annotated server file; I checked every branch of the repo
+
+### JavaScript Style (out of 30 points): 20 points
+
+* **20 points** - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing.
+
+### Workflow (out of 20 points): 13 points
+
+* **15 points** - Developer(s) make many small, atomic commits that document the evolution of the application but sometimes contain irrelevant changesets and inconsistent commit messages. Developer(s) use git branches and pull requests when applicable to incorporate changes into the application, and are not pushing fresh changes directly to master. Pull requests may contain little or no code review. There may be slight instances where the developer(s) have committed source code that should be .gitignored. There may be some instances of "dead" or commented-out code and debugger statements like console.log that need to be cleaned up.
+* **10 points** - Developer(s) make large, inconsistent commits that contain irrelevant changesets and make it difficult to follow the evolution of the application. Developer(s) rarely use git branches and frequently incorporate changes directly into master with little or no review process. There are instances of committed source code that should be .gitignored and instances of dead code and/or debugger statements.
+
+Notes:
+
+- Good number of commits, but git errors make it difficult to follow the evolution of the project coherently
+
+### Project is worth 150 points
 
 ### To get a 3 on this project, you need to score 110 points or higher
+
 ### To get a 4 on this project, you need to score 130 points or higher
 
-# Final Score: x / 150
+# Final Score: 75 / 150
