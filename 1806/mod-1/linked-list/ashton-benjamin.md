@@ -1,42 +1,33 @@
-## Student:
-## Evaluator:
+## Student: Ashton & Ben
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- some buggy UI behavior and a few little fine tuning layout details left over , but overall good job
+- code is in a good place for a refactor
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
 * Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
 * Exceptional
@@ -44,24 +35,16 @@
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Advanced Beginner   
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
-* Proficient
-* Exceptional
+
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 

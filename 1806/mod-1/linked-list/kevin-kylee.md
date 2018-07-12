@@ -1,67 +1,53 @@
-## Student:
-## Evaluator:
+## Student: Kevin & Kylee
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- UI has some buggy behavior because of VH on the form section
+- remember: you're a team, and working together to share in the process of problem solving is an important skill to be working on. 
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient    
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
 
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
+* Exceptional
 
 ## Pairing/Collaboration
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
-* Proficient
-* Exceptional
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 

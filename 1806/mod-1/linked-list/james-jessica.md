@@ -1,67 +1,55 @@
-## Student:
-## Evaluator:
+## Student: James & Jessica
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- YAY ARIA!!!
+- nicely done UI, a few little fine tuning tweaks but over all well done
+- work on clear, understandable commit messages that describe what is in the commit more clearly
+- great communication
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 * Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
 
-
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
 
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
+
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
