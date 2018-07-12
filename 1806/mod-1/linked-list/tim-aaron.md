@@ -1,71 +1,62 @@
-## Student:
-## Evaluator:
+## Student: Tim Garrity & Aaron Weissman
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+
+* More detail commited messages
+* break out into more branches
+* nice organization of UI
+* keep working on responsiveness (experiment with bigger screens)
+* adding aria roles/labels
+* careful of adding extra layers like divs just for styling purposes
+* Good organization of css elements, classes, ids, and media queries
+* Next step: organizing properties a little more
+* experiment more with pixels and percentages especially for margins and padding
+* consistency between anonymous functions and function declarations for anonymous functions
+* breaking out functions into smaller functions
+* keep looking into true/false statements and how you can refactor those
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
-* Proficient: Application meets all of the functional expectations in Phase Three.
 * Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
 
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
 * Sparkles  
-* Magic  
