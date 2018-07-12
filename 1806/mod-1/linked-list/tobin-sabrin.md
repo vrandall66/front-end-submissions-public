@@ -1,71 +1,58 @@
-## Student:
-## Evaluator:
+## Student: Tobin Nelson & Sabrin Nasreddin
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+* Nice job on lots of small commits
+* Make more branches for each feature/bug
+* great responsiveness 
+* HTML structure is fantastic
+* Add more aria roles and labels and use more semantic elements than div
+* Nice organization of CSS and very well refactored
+* Add more grouping for CSS
+* Nice work with breaking out functionality into smaller functions
+* Be consistent with either anonymous functions or function declarations for event listeners
+* Experiment more with && and || operators and looking into truthy and falsy values
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
 * Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
 
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
 * Sparkles  
-* Magic  
