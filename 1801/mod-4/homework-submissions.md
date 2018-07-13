@@ -53,7 +53,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/hmmChase/mod4-prework-node)
 * [Express Tutorial](https://github.com/hmmChase/mod4-prework-express) 1,2,3
 * [Promise Practice Exercises](https://github.com/hmmChase/mod4-prework-promises)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://gist.github.com/hmmChase/b6aa872e3a0bcad90fa9270bd84b49fd)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
