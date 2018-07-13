@@ -54,16 +54,16 @@ Because I thought it would be harder
 I felt that I needed to move on to do other things.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
-
-[test suite](![image](https://user-images.githubusercontent.com/8752377/42706727-0af56102-8695-11e8-9d0a-8b19c9e5219f.png))
-
-#### Attach a screenshot or paste the output from your terminal of the result of your linter running.
-
-[linter output](![image](https://user-images.githubusercontent.com/8752377/42706790-3584b102-8695-11e8-84d5-535e111d7a03.png))
-
-#### Attach a screenshot of your TravisCI build passing
-
-[TravisCI build](![image](https://user-images.githubusercontent.com/8752377/42706826-56d86178-8695-11e8-8dc1-93e00d56b077.png))
+ 	 
+-[test suite]()	+[test suite]![image](https://user-images.githubusercontent.com/8752377/42706727-0af56102-8695-11e8-9d0a-8b19c9e5219f.png)
+ 	 
+ #### Attach a screenshot or paste the output from your terminal of the result of your linter running.	 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
+ 	 
+-[linter output]()	+[linter output]![image](https://user-images.githubusercontent.com/8752377/42706790-3584b102-8695-11e8-84d5-535e111d7a03.png)
+ 	 
+ #### Attach a screenshot of your TravisCI build passing	 #### Attach a screenshot of your TravisCI build passing
+ 	 
+-[TravisCI build]()	+[TravisCI build]![image](https://user-images.githubusercontent.com/8752377/42706826-56d86178-8695-11e8-8dc1-93e00d56b077.png)
 
 -----
 
