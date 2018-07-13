@@ -180,7 +180,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/tonyr729/mod4-prework-node)
 * [Express Tutorial](https://github.com/tonyr729/mod4-prework-express) - Additional items 1-3
 * [Promise Practice Exercises](https://github.com/tonyr729/mod4-prework-promises)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@tonyr729/my-first-open-source-experience-9a916ce0bd2)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
