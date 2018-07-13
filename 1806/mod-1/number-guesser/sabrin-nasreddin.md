@@ -1,50 +1,31 @@
-## Student:
-## Evaluator:
+## Student: Sabrin
+## Evaluator:Louisa
 ## Notes/What To Work On:
+
+- code is a little messy: watch indentation and nesting
+- remember that HTML structure and nesting is the foundation of everything you're building, so work to really lock in solid HTML before you start adding CSS and JS
+- watch for unused properties in your CSS
+- watch for long functions and think about places to refactor
 
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
+* Advanced Beginner: Application meets all of the expectations of phase two.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Novice   
 
 ## HTML
 
 * Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Novice
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
+* Novice

@@ -2,6 +2,20 @@
 ## Evaluator:
 ## Notes/What To Work On:
 
+Take a look at the style guides that are pinned in the channel
+
+* HTML
+  * Add aria-labels to inputs
+
+* CSS 
+  * Alphabetize within rules
+  * Default to using classes
+  * DRY it up
+
+* JS
+  * Work on naming
+  * DRY it up (pull duplicate lines into a function that you can invoke in multiple places)
+
 ## Functional Expectations
 
 * Novice: Application meets all of the expectations of phase one.  
@@ -12,39 +26,24 @@
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
 * Hot Fire  
-* Sparkles  
-* Magic
+
