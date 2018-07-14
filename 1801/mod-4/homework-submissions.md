@@ -30,7 +30,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 I did the first three additional problems - Add a client-side JavaScript file, Make a new endpoint so that if the client makes a GET request to localhost:3000/sunsets and Create some JSON data in a separate file.
 * [Promise Practice Exercises](https://gist.github.com/YayFiber/df456f17d5348800495158931c3f4a7f) -- DONE
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@cameronbuscher/choosing-my-own-open-source-adventure-7e64555ae229)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
