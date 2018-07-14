@@ -109,7 +109,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/JackLaird0/node-tutorial)
 * [Express Tutorial](https://github.com/JackLaird0/express-tutorial) - What additional items did you work on?
 * [Promise Practice Exercises](https://repl.it/@JackLaird97/Promises-Practice)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@jack.laird0/contributing-to-open-source-dd91bf334b9b)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
