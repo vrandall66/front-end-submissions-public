@@ -54,20 +54,15 @@ We were certain that there was a better way to check the requested keys against 
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite](<img width="1440" alt="screen shot 2018-07-13 at 6 06 19 pm" src="https://user-images.githubusercontent.com/11744547/42718589-852c974c-86c7-11e8-8245-3fbbebd5eec9.png">
-)
+[test suite](https://user-images.githubusercontent.com/11744547/42718589-852c974c-86c7-11e8-8245-3fbbebd5eec9.png)
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-[linter output](
-![linter-output-07-13](https://user-images.githubusercontent.com/11744547/42718559-39697f6e-86c7-11e8-9eeb-2cf8eac63757.png)
-
-)
+[linter output](https://user-images.githubusercontent.com/11744547/42718559-39697f6e-86c7-11e8-9eeb-2cf8eac63757.png)
 
 #### Attach a screenshot of your TravisCI build passing
 
-[TravisCI build](![screen shot 2018-07-13 at 7 02 00 pm](https://user-images.githubusercontent.com/11744547/42720986-37970efe-86ef-11e8-91fd-9587c986f303.png)
-)
+[TravisCI build](https://user-images.githubusercontent.com/11744547/42720986-37970efe-86ef-11e8-91fd-9587c986f303.png)
 
 -----
 
