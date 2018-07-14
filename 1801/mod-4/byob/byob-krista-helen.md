@@ -10,7 +10,7 @@
 [BYOB](https://github.com/hdechat/byob-volcanoes)
 
 #### Link to the Deployed Application
-[Heroku](https://dashboard.heroku.com/apps/kh-palette-picker)
+[Heroku](https://byob-volcanoes-krishel.herokuapp.com/)
 
 
 ## Completion
