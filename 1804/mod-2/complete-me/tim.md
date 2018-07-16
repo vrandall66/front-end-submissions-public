@@ -3,7 +3,7 @@
 ### Evaluator: Brittany
 
 Comments:
-* Really good with responding to prompting/guidance during the delete method problem-solving. Though a little unsure where to start, did well coding out a final solution after talking through it with paper and pencil. Yay!
+* Really good with responding to prompting/guidance during the problem-solving process. Though a little unsure where to start, did well coding out a final solution after talking through it with paper and pencil. Yay!
 *
 *
 
