@@ -3,7 +3,7 @@
 ### Evaluator: Brittany
 
 Comments:
-*
+* Difficult time knowing how to get started and very rigid in thought-process, couldn't respond to prompting in a way that would get them on the right path again.
 *
 *
 
