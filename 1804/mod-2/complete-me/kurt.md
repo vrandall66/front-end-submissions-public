@@ -3,16 +3,13 @@
 ### Evaluator: Brittany
 
 Comments:
-* 
+* Lacked a little confidence when presented with a new problem but did very well after talking it through and whiteboarding a bit. Came up with a solid coded out solution after walking through the thought process and responded well to prompting and guidance.
 *
 *
 
 ## 1. Process
 
-4: Developer demonstrates a clear understanding of their own problem solving process. Logically breaks down large problems into manageable challenges. Has a thoughtful, refined strategy for approaching complex challenges. Developer clearly articulates thought processes.
 3: Developer has strategies for approaching complex challenges. Can explain thought process and strategy when prompted.
-2: Developer demonstrates a haphazard, trial and error approach, without clear strategy. Developer does not articulate thought process clearly, and cannot explain the problem-solving strategies they utilized.
-1: Developer does not demonstrate any strategy or process. No meaningful code is written and developer cannot articulate their process.
 
 ## 2. Fundamental JavaScript & Style
 
