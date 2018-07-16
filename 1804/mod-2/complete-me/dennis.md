@@ -3,7 +3,7 @@
 ### Evaluator: Brittany
 
 Comments:
-* 
+* Fine articulation and ability to think through a problem, responded to prompting but needed a bit more than we'd like. Little more practice will solidify this. 
 *
 *
 

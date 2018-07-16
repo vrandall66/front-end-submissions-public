@@ -3,7 +3,7 @@
 ### Evaluator: Brittany
 
 Comments:
-* 
+* Thorough thought process and articulation; needed some extra guidance around the coding but overall kept a logical step-by-step process.
 *
 *
 
