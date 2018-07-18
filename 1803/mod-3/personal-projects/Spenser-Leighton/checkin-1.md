@@ -15,7 +15,8 @@ React, react-redux, router.
 Yelp.
 
 #### Wireframes
-![mockup]()
+![mockup]('./New Mockup 2.png')
+![mockup]('./New Mockup 3.png')
 
 #### Waffle & Github
 Github.
