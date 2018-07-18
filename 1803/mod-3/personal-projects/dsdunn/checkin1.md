@@ -22,7 +22,7 @@ Github issues
 #### Order Of Attack
 File structure, api calls, data cleaner, map integration, info display/ ui
 #### MVP
-map of shows goin on tonight (w genre filter)?
+map of shows going on tonight (w genre filter)?
 #### Nice To Haves
 links to tickets/ artist websites/social media
 
