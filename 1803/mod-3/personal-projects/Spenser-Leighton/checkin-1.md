@@ -16,7 +16,7 @@ Yelp.
 
 #### Wireframes
 ![mockup](./NewMockup2.png)
-![mockup]()
+![mockup](./NewMockup3.png)
 
 #### Waffle & Github
 Github.
