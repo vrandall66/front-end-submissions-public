@@ -15,7 +15,7 @@ React, Redux, React-Router
 JamBase and/or Eventful and google maps.
 
 #### Wireframes
-
+![mockup]()
 #### Waffle & Github
 Github issues
 
