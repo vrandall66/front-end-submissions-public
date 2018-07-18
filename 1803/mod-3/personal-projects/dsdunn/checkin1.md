@@ -15,7 +15,7 @@ React, Redux, React-Router
 JamBase and/or Eventful and google maps.
 
 #### Wireframes
-![mockup](front-end-submissions-public/1803/mod-3/personal-projects/dsdunn/sceneit.mockup.png)
+![mockup](./sceneit.mockup.png)
 #### Waffle & Github
 Github issues
 
