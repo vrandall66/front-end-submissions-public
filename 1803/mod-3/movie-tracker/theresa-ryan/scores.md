@@ -45,7 +45,8 @@ The output from ESLint shows…
 
 ### Routing
 
-* 4: Application is a single page and uses the React Router to display appropriate components based on URL.
+* 3.5: Application is a single page and uses the React Router but does not display the appropriate components upon navigating.
+
 
 ### Workflow
 
