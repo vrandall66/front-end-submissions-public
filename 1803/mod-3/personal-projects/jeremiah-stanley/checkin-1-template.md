@@ -44,3 +44,7 @@ API cost, displaying the data with visual interest.
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Boilerplate for React, Redux, React-Router
+* Search kick off api call and add to redux store
+* Make more wireframes, focus on the visual element of application
+* Attempt to do test-driven-development
