@@ -24,3 +24,8 @@ Biggest Challenges:  Biggest challenges are going to be digging through all this
 Instructor Notes
 
 Deliverables for next checkin:
+1. add redux, router boilerplate
+2. make initial api call and pull data into store on current fires
+3. research if there is an api for restrictions or use weather data.
+5. research how fire restrictions are determined.
+4. switch page routes to have current fires first in line.
