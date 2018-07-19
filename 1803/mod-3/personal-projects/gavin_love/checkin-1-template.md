@@ -3,7 +3,7 @@
 #### Check In 1
 
 #### Project Pitch
-      the app displays open restaurants within a one mile radius eliminating wasted time sorting through the stack. User can filter by price, cuisine, and open reservations. 
+the app displays open restaurants within a one mile radius eliminating wasted time sorting through the stack. User can filter by price, cuisine, and open reservations. 
 
 ### Deliverables
 
@@ -14,29 +14,31 @@
 #### Wireframes
 
 ![landing](./landing.png)
-      
+[main](./main.png)
+[details](./details.png)
+[directions](./directions.png)
 #### Github
 
 #### Order Of Attack
-    get google api working with user location.
-    get data of restaurants.
-    default: filter restaurants that are open
-    filter by price range
-    filter by cuisine
-    filter by open reservations
-    make reservation
+get google api working with user location.
+get data of restaurants.
+default: filter restaurants that are open
+filter by price range
+filter by cuisine
+filter by open reservations
+make reservation
 
 #### MVP
-      App shows what restaurants are open within given radius.
+App shows what restaurants are open within given radius.
 
 #### Nice To Haves
-      price filter
-      cuisine filter
-      open reservations filter
-      make reservations
+price filter
+cuisine filter
+open reservations filter
+make reservations
 
 #### Biggest Challenges
-      finding and making reservations
+finding and making reservations
 
 #### Instructor Notes
 
