@@ -12,8 +12,9 @@
 #### APIs: Google, Resy, yelp
 
 #### Wireframes
-      ![LANDING](./gavin_love/landing.png)
 
+      ![landing](./landing.png)
+      
 #### Github
 
 #### Order Of Attack
