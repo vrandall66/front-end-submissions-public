@@ -52,3 +52,11 @@ parsing the data from the APIs
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+ * Make sure that you can access the data you need from the api
+ * Setup file structure, connect redux and router
+ * Start building out the UI
+ * Making initial fetch and put data into the store
+ * Start testing
+ * Linter
+ * Keep github issues current
+ 
