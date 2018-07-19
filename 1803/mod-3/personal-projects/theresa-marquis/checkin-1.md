@@ -42,5 +42,14 @@ Search alternative fuel stations based on location.  Render closest three as car
 #### Biggest Challenges
 
 #### Instructor Notes
+* Great idea.... love the design
 
 #### Deliverables for next checkin:
+
+* Keep GitHub Issues current
+* Setup file structure... react, redux, and router
+* Start building out UI... mobile design first
+* Make initial fetch and put data into the store
+* Think about store structure... keep data flat and don't duplicate data
+* Start testing
+* Linter
