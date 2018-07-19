@@ -6,7 +6,7 @@
 Owners of alternative fuel vehicles need to know where the closest fuel station is.  They also need to know where fuel stations are at destination points.
 
 ### Deliverables - 
-Single page app
+Single page application
 
 #### Stack: 
 React, Redux
