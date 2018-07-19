@@ -41,3 +41,6 @@ Accept payment, possibly issues with hosting videos, dealing with a client on su
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+Boilerplate bullt, complete with, react and redux 
+Wireframes
+A fetch call made with relevant data at least in the store
