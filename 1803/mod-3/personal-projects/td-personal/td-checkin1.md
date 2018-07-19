@@ -45,3 +45,11 @@ Back-end, working on a project without an official spec/guidelines
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Setup file structure and connect redux and router
+* Start building out UI
+* Be able to add a user to the store
+* Make intial fetch call for BBQ and put data in the store
+* Start testing
+* Add linter
+* Look into building Express backend
+
