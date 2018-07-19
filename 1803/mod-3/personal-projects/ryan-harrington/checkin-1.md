@@ -10,10 +10,14 @@ Create an app like wix that's personalized.  Admin sign-in that allows client to
 ### Deliverables
 
 #### Stack:
-React, Redux, Firebase, JS, CSS, HTML
+React, Redux, Router, Firebase, JS, CSS, HTML
 
 #### APIs:
-TipTapLabApi and/or https://www.programmableweb.com/api/health-and-human-services-syndication
+https://www.programmableweb.com/news/let-psychology-drive-customer-interaction-tiptap-lab-api/brief/2013/09/16 
+and/or
+https://www.programmableweb.com/api/health-and-human-services-syndication
+and 
+https://newsapi.org/docs/endpoints/sources
 
 #### Wireframes
 <img src="./KevinHarrington-sketch.jpg>
