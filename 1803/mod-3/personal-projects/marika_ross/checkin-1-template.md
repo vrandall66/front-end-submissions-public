@@ -25,6 +25,12 @@ If the wine API comes through, I will potentially be able to offer a pairing of 
 * potentially a wine api to pair...still waiting on the wine api
 
 #### Wireframes
+![Home Page](/wireframes/Home.png)
+![Sign up/in](/wireframes/SignIn-SignUp.png)
+![Search](/wireframes/Search.png)
+![Explore](/wireframes/explore-link.png)
+![user-page](/wireframes/user-page.png)
+
 
 
 #### Waffle & Github
