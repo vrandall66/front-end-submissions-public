@@ -14,9 +14,10 @@ the app displays open restaurants within a one mile radius eliminating wasted ti
 #### Wireframes
 
 ![landing](./landing.png)
-[main](./main.png)
-[details](./details.png)
-[directions](./directions.png)
+![main](./main.png)
+![details](./details.png)
+![directions](./directions.png)
+
 #### Github
 
 #### Order Of Attack
