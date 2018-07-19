@@ -1,27 +1,27 @@
-## Project Name:
+## Project Name: Setify
 
-#### Check In (what checkin number is this?)
+#### Check In (what checkin number is this?): 1
 
-#### Project Pitch
+#### Project Pitch: An app which takes data from the setlist api and the spotify api which will convert concert setlists to spotify playlists
 
-### Deliverables
+### Deliverables:
 
-#### Stack:
+#### Stack: 
 
-#### APIs:
+#### APIs: setlist.fm api, spotify api
 
-#### Wireframes
+#### Wireframes: https://github.com/kmarler2/front-end-submissions-public/blob/master/1803/mod-3/personal-projects/PersonalProject.pdf
 
-#### Waffle & Github
+#### Waffle & Github:
 
-#### Order Of Attack
+#### Order Of Attack: Set up and test setlist api call, get result into store. Then build out backend, and finally take result of setlist search and create a new playlist.
 
-#### MVP
+#### MVP: App takes in and returns concert setlists
 
-#### Nice To Haves
+#### Nice To Haves: App adds playlist to spotify, shuffle playlists feature.
 
-#### Biggest Challenges
+#### Biggest Challenges: Building the backend, using multiple apis
 
-#### Instructor Notes
+#### Instructor Notes:
 
 #### Deliverables for next checkin:
