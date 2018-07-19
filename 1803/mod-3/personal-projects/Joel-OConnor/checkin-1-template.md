@@ -43,8 +43,18 @@
 
 #### Instructor Notes
 
-
+* Good job nailing down all the details of this project.
+* Good luck with all the math
+* Excited to see you incorporate a cool graph
 
 #### Deliverables for next checkin:
+* setup all file structure, redux, router
+* linter
+* getting a user into the store
+* fetch data from news api and put data into the store
+* start testing 
+* start building out the UI
+* keep your github issues current
+* store structure - don't duplicate and keep data flat
 
 
