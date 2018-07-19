@@ -45,15 +45,27 @@ Will use github to track issues
 
 
 #### MVP
-An app where users can research and save favorite cheeses
+* An app where users can research and save favorite cheeses
 
 
 #### Nice To Haves
-a back-end for repeat user
+* a back-end for repeat user
+* wine
 
 #### Biggest Challenges
 I think time will be a big challenge for me.  I am not the fastest coder, nor do I have the fastest logic brain.  If there is a backend, I will most certainly have some challenges with that having never used one before.  But I have several people I can reach out to.
 
 #### Instructor Notes
 
+* LOVE THIS IDEA!!!
+
 #### Deliverables for next checkin:
+
+* Setup file structure, react, redux and router
+* Start building out the UI
+* Add a user to the store
+* Make initial fetch and add data to the store
+* Linter
+* Keep you github issues current
+* Start testing
+
