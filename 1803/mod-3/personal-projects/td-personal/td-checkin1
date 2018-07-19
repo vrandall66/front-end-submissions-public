@@ -14,8 +14,8 @@ React, Router, Redux
 Yelp
 
 #### Wireframes
-![HomePage]( "bbq tracker home")
-![ResultsPage]( "bbq tracker results page")
+![HomePage](./bbq-welcome-page.png "bbq tracker home")
+![ResultsPage](./bbq-wire-frame.png "bbq tracker results page")
 
 
 #### Waffle & Github
