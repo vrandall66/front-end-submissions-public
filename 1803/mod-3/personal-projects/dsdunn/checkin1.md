@@ -33,3 +33,11 @@ connecting data sets
 #### Instructor Notes
 
 #### Deliverables for next checkin:
+* Set up file structure, connect redux and router
+* Start building out the UI
+* Putting the location into the store
+* Make inital fetch to event api and adding that data to the store
+* Start testing
+* Linter
+* Keep github issues current
+* Intigrate map and get familiar with google api
