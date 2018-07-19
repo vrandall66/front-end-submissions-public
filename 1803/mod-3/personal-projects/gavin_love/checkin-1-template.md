@@ -12,11 +12,7 @@
 #### APIs: Google, Resy, yelp
 
 #### Wireframes
-      <img url="https://github.com/gavin-love/front-end-submissions-public/blob/master/1803/mod-3/personal-projects/gavin_love/Screen%20Shot%202018-07-19%20at%2011.22.41%20AM.png"/>
-      
-      ![MAIN PAGE](https://github.com/gavin-love/front-end-submissions-public/blob/master/1803/mod-3/personal-projects/gavin_love/Screen%20Shot%202018-07-19%20at%2011.24.36%20AM.png)
-      ![DETAILS WITH MAP](https://github.com/gavin-love/front-end-submissions-public/blob/master/1803/mod-3/personal-projects/gavin_love/Screen%20Shot%202018-07-19%20at%2011.25.15%20AM.png)
-      ![MAP WITH DIRECTIONS](https://github.com/gavin-love/front-end-submissions-public/blob/master/1803/mod-3/personal-projects/gavin_love/Screen%20Shot%202018-07-19%20at%2011.25.31%20AM.png)
+      ![LANDING](https://github.com/gavin-love/front-end-submissions-public/blob/master/1803/mod-3/personal-projects/gavin_love/landing.png)
 
 #### Github
 
