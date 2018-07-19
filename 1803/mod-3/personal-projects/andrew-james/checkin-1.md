@@ -52,3 +52,5 @@ I feel my biggest challenges will be building out my back-end as I have not done
 
 
 #### Deliverables for next check-in:
+More Wireframes describing user interaction
+Make a decision on firebase
