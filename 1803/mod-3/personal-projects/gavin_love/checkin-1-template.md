@@ -12,7 +12,7 @@
 #### APIs: Google, Resy, yelp
 
 #### Wireframes
-      ![LANDING](./landing.png)
+      ![LANDING](landing.png)
 
 #### Github
 
