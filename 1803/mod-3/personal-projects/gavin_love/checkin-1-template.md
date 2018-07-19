@@ -21,8 +21,11 @@ the app displays open restaurants within a one mile radius eliminating wasted ti
 #### Github
 
 #### Order Of Attack
-get google api working with user location.
-get data of restaurants.
+React, Redux, Router boiler plate setup.
+Capture restaurant data.
+Render Google maps.
+mobile first design.
+
 default: filter restaurants that are open
 filter by price range
 filter by cuisine
