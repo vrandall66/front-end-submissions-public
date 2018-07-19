@@ -1,4 +1,5 @@
-## Project Name: Setify
+
+## Project Name: SetList
 
 #### Check In (what checkin number is this?): 1
 
@@ -10,7 +11,7 @@
 
 #### APIs: setlist.fm api, spotify api
 
-#### Wireframes: https://github.com/kmarler2/front-end-submissions-public/blob/master/1803/mod-3/personal-projects/PersonalProject.pdf
+#### Wireframes: https://github.com/kmarler2/front-end-submissions-public/blob/master/1803/mod-3/personal-projects/KeelianaM_personalProject_mod3.pdf
 
 #### Waffle & Github:
 
@@ -24,4 +25,4 @@
 
 #### Instructor Notes:
 
-#### Deliverables for next checkin:
+#### Deliverables for next checkin: Have boilerplate in place, redux, and router set up, initial api call working and adding correct values to store.
