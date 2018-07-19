@@ -15,7 +15,7 @@ React, Redux
 https://developer.nrel.gov/api/alt-fuel-stations/v1.json?fuel_type=E85,ELEC&state=CA&limit=2&api_key=${apiKey}&format=JSON, apiKey: 8gIFYN4zAfGe58aAF4mxE9A8j0AFcSdZGavbO55G
 
 #### Wireframes
-[gyffy wirefram](./gyffy-wireframe.png)
+[gyffy wireframe](/gyffy-wireframe.png)
 
 #### Waffle & Github 
 https://github.com/tmcjunkinmarquis
