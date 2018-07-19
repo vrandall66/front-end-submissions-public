@@ -25,14 +25,19 @@ https://github.com/tmcjunkinmarquis
 - [ ] create github repo
 - [ ] create basic components and containers, understanding what belongs in component state or redux store
 - [ ] successful fetch call with tests
+- [ ] pull current location from user's device with error message if location is not available from device.
 - [ ] successful search functionality, with tests
 - [ ] successful card render, with tests
 - [ ] \(Optional) Open a followup issue
 
 #### MVP 
-Search alternative fuel stations based on location.  Render closest three as cards.
+Search alternative fuel stations based on location.  Render closest three as cards, showing station name and distance from current location.
 
 #### Nice To Haves
+
+- [ ] \(Optional) Modal for choosing from filters that could include: fuel type (electric, cng, etc.), nozzle type, and make revisions to card elements based on filtered selections
+- [ ] \(Optional) Open a followup issue
+- [ ] \(Optional) Open a followup issue
 
 #### Biggest Challenges
 
