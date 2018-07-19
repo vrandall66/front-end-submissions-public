@@ -19,6 +19,7 @@ the app displays open restaurants within a one mile radius eliminating wasted ti
 ![directions](./directions.png)
 
 #### Github
+https://github.com/gavin-love/qwickbiit
 
 #### Order Of Attack
 React, Redux, Router boiler plate setup.
