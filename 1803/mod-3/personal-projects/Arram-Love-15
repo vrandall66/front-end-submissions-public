@@ -9,7 +9,9 @@ Api: google places
 
 wireframes: https://marvelapp.com/project/3212259/
 
-
+Github and waffle: 
+gh: https://github.com/airum82/love-15
+wfl: https://waffle.io/airum82/love-15
 
 Order of Attack: 
 iteration0: basic ccs styling. User should be able to create an account. Account should be stored in backend.
