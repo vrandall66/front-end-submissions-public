@@ -22,7 +22,7 @@ https://developer.sportradar.com
 
 #### Wireframes
 
-![url=https://ibb.co/iGxXWy][img]https://preview.ibb.co/hbe1PJ/IMG_7926.jpg[/img][/url]
+![img](https://preview.ibb.co/hbe1PJ/IMG_7926.jpg)
 
 
 #### Waffle & Github
