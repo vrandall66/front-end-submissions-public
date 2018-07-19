@@ -20,6 +20,7 @@ and
 https://newsapi.org/docs/endpoints/sources
 
 #### Wireframes
+<img src='./psychHomepage.sketch>
 <img src="./KevinHarrington-sketch.jpg>
 
 #### Waffle & Github
