@@ -25,5 +25,11 @@ Nice to Haves: Could pull from tennis api to display major news stories about pr
 
 Biggest Challenges: Building the backend.
 
+Deliverables: 
+-React, redux, router, boilerplate
+-make initial API call
+-Put data into Redux store
+-start implementing UI
+
 
 
