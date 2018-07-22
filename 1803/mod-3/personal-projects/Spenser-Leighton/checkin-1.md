@@ -1,31 +1,31 @@
 ## Project Name:
-Schmelp.
+Vegan Recipe Finder (working title)
 
 #### Check In (what checkin number is this?)
 1.
 #### Project Pitch
-App to allow service industry workers to rate customers.
+App to allow vegan and vegetarien folk search recipes by ingredient without scrolling through meat products.
 
 ### Deliverables
+Update this PR. Add updated wireframe with more detail. Add React, Redux and Router boilerplate.
 
 #### Stack:
 React, react-redux, router.
 
 #### APIs:
-Yelp.
+food2fork
 
 #### Wireframes
-![mockup](./NewMockup2.png)
-![mockup](./NewMockup3.png)
+![mockup](./personal-project-wireframe.png)
 
 #### Waffle & Github
 Github.
 
 #### Order Of Attack
-set up file structure, get and clean data, set up search for reviews, display reviews, allow comments.
+set up file structure, get and clean data, set up search for recipes, display recipes, potentially add more filters.
 
 #### MVP
-Users should be able to review customers.
+Users should be able to search recipes.
 
 #### Nice To Haves
 Back end.
@@ -34,5 +34,7 @@ Back end.
 Back end.
 
 #### Instructor Notes
+Update PR. Set up boilerplate, get to work!
 
 #### Deliverables for next checkin:
+Update PR. Get api calls working and have data in the Redux store.
