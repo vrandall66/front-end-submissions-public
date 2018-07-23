@@ -20,3 +20,9 @@ TBD
 #### What are your concerns (if any)
 
 #### Deliverables for next checkin:
+
+[] Work on styling
+  - Cards
+  - Navlinks
+[] Get jobs into UI
+[] Work on responsive design of app
