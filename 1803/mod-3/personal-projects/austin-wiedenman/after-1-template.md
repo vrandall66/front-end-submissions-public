@@ -21,3 +21,8 @@ What are your concerns (if any):
 No concerns.  Still have a lot to learn about google maps. Has been sort of confusing so far.
 
 Deliverables for next checkin:
+
+[] Get pins (fires) to show up on page
+[] Add some kind of menu overlay
+[] Overlay menu should be responsive
+[] Clicking on pin should give info about fire
