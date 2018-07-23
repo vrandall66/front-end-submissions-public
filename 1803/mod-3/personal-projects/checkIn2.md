@@ -4,4 +4,10 @@ Check In: 1
 - What deliverables still need to be completed from your last checkin? None.
 - Next Steps? Implement log in and createAccount message. Start adding styling. I may implement local storage to save account   info.
 - What are your concerns (if any): Finding a good design. Building a back end(if I get there).
-- Deliverables for next checkin: appropriate feedback for createAccount and log in. Add customize account component. Have some   type of solid design implemented.
+
+Deliverables for next checkin:
+  [] Separate routes for login and search
+  [] Style both forms
+  [] Add UI for each of the courts
+  [] Each court should link to its own component, address should link to a map
+  [] Implement firebase authentication for login
