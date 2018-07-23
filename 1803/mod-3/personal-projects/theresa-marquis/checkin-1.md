@@ -9,7 +9,7 @@ Owners of alternative fuel vehicles need to know where the closest fuel station 
 Single page application
 
 #### Stack: 
-React, Redux
+React, Redux, Router
 
 #### APIs: NREL
 https://developer.nrel.gov/api/alt-fuel-stations/v1.json?fuel_type=E85,ELEC&state=CA&limit=2&api_key=${apiKey}&format=JSON, apiKey: 8gIFYN4zAfGe58aAF4mxE9A8j0AFcSdZGavbO55G
@@ -53,3 +53,4 @@ Search alternative fuel stations based on location.  Render closest three as car
 * Think about store structure... keep data flat and don't duplicate data
 * Start testing
 * Linter
+
