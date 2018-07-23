@@ -22,3 +22,9 @@
 * Downdrop menus code clarity
 
 #### Deliverables for next checkin:
+
+[] Work towards implementing wireframes
+[] Work on the responsiveness of the app
+[] Graphs should use same x/y accross countries
+[] Implement country comparison
+[] More info for user on why to use this, what it means
