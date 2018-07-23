@@ -16,3 +16,8 @@ Build out sign in form, start working on functionality to be able to save visite
 My back-end. The sign-in fetch call requires the username and password in the url instead of a body object.
 
 #### Deliverables for next checkin:
+
+[] Spend time styling UI
+[] Add a login & search forms (styled)
+[] Add component for a single BBQ joint
+[] Save 'favorite' BBQ joints to DB
