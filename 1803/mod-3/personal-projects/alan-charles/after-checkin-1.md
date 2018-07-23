@@ -39,3 +39,8 @@ drag and drop functionality
 # Instructor Notes
 
 # Deliverables for next checkin:
+
+[] Be able to add teams to user board
+[] Add user login via firebase
+[] Store user info and draft info in firebase
+[] Pull back draft info specific to a user (or users)
