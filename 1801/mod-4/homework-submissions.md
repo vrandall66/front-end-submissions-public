@@ -99,7 +99,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/hdechat/Node-Server-Tutorial)
 * [Express Tutorial](https://github.com/hdechat/Express-Intro) - all 4
 * [Promise Practice Exercises](https://github.com/hdechat/Promise-Practice)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@hdechat/my-first-pull-request-24bf78cd9522)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
