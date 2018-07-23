@@ -78,7 +78,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/daughedm/NodeTutorial)
 * [Express Tutorial](https://github.com/daughedm/ExpressTutorial) - 2,3,4
 * [Promise Practice Exercises](https://repl.it/@daughedm/Promises-practice)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@david.m.daugherty/why-no-one-is-contributing-to-your-open-source-project-4cdf66690c36)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
