@@ -23,3 +23,9 @@
 * fetch tests failing
 
 #### Deliverables for next checkin:
+
+[] Work on fetch tests
+[] Implement router
+[] Make sure not to lose unique station id
+[] Be able to click on an individual station to display more details
+[] Add filtering checkboxes to the form
