@@ -15,3 +15,7 @@ Possibly build backend.
 #### What are your concerns (if any)
 
 #### Deliverables for next checkin:
+
+[] Work on styling, make images smaller
+[] Add ability to save recipies (favorite)
+[] Add user auth, saving of favorites via firebase
