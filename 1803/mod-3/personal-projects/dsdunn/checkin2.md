@@ -19,3 +19,6 @@ populate map with markers, build mouseover elements and connect to details viewe
 effectively leveraging the maps apis and the Higher Order components, using best practices in architecture
 
 ## Deliverables for next checkin:
+
+[] Venue cards should display instead of just text
+[] Add markers to map
