@@ -19,3 +19,7 @@ Solve github issue, fix api call for setlist, create backend repo
 Not enough time if I need to build backends into both api requests
 
 #### Deliverables for next checkin:
+
+[] Find an API that can pull setlists into the browser
+[] Get those shows (or similar) appearing on the page
+[] Spend some time working on the UI
