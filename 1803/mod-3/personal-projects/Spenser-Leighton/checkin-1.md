@@ -28,10 +28,10 @@ set up file structure, get and clean data, set up search for recipes, display re
 Users should be able to search recipes.
 
 #### Nice To Haves
-Back end.
+Backend.
 
 #### Biggest Challenges
-Back end.
+api filters.
 
 #### Instructor Notes
 Update PR. Set up boilerplate, get to work!
