@@ -20,3 +20,7 @@ that the app is boring.
 
 #### Deliverables for next checkin:
 
+[] App needs styling
+[] Games should have user friendly dates
+[] Team page needs styling
+
