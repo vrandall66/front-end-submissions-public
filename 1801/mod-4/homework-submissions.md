@@ -194,7 +194,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
   2. Create a localhost:3000/sunsets endpoint that displays sunset images
   4. Add a custom 404 page 
 * [Promise Practice Exercises](https://github.com/mcnamara14/promises)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@mcnamara14/newbies-experience-contributing-to-open-source-afd77799869f)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
