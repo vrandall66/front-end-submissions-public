@@ -23,6 +23,8 @@ Cheese-Plate
 * I may have to use the wikipedia api for the pictures of cheese - the current api seems to have info on them, but I am currently unable to access them
 
 #### Deliverables for next checkin:
-* favorites
-* basic UX + to get feedback from peers
-* testing!
+
+[] Implement UI, ideally with some pictures
+[] Save favorites (1 user) into the store
+[] Each cheese should have its own route
+[] Favorites page for cheeses
