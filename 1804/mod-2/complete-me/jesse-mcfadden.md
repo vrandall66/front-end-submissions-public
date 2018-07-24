@@ -17,7 +17,7 @@ Comments:
 
 ## 3. Test-Driven Development & Code Sanitation
 
-3.5: Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality.  Linting shows 0 complaints.
+3: Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality.  Linting shows 0 complaints.
 
 - ESLint shows no errors!
 - Testing for `insert` could be more verbose - add tests for inserting multiple words
