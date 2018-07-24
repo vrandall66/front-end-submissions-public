@@ -37,10 +37,7 @@ time managment
 
 #### Deliverables for next checkin:
 
-I need to finish creating the income and expense forms and having that data put into the store.
-
-Info in store needs to be visually available in the UI
-
-More tests
-
-graphical interface for retirment calculator
+[] Individual cards (or similar) for news articles
+[] Display various incomes on page
+[] Display various expenses on page
+[] Spend time on styling both pages
