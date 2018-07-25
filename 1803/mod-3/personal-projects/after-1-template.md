@@ -4,22 +4,18 @@
 
 #### Progress made? 
 
-Set up redux/react, set up basic structure, learned more about building backends
+Set up backend, got api data cleaned and added to state
 
 #### What deliverables still need to be completed from your last checkin? 
 
-Api call needs to be made and set to state
+Data needs to be displayed
 
 #### Next Steps?
 
-Solve github issue, fix api call for setlist, create backend repo
+Display data, test what I have, start making spotify api calls
 
 #### What are your concerns (if any)
 
-Not enough time if I need to build backends into both api requests
+Understanding frontend / backend interaction
 
 #### Deliverables for next checkin:
-
-[] Find an API that can pull setlists into the browser
-[] Get those shows (or similar) appearing on the page
-[] Spend some time working on the UI
