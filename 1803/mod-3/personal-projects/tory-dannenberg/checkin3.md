@@ -18,7 +18,7 @@ Continue working on CSS, Add mark as visited functionality
 
 #### Deliverables for next checkin:
 
-- [] Add more styling to forms and BBQ joint component
-- [] Some kind of loading state for the joint
-- [] Save joints as visited
-- [] Meet with Louisa about styling
+-[] Add more styling to forms and BBQ joint component
+-[] Some kind of loading state for the joint
+-[] Save joints as visited
+-[] Meet with Louisa about styling
