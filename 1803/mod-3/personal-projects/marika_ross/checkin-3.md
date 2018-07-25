@@ -1,7 +1,7 @@
 ## Project Name:
 Cheese-Plate
 
-#### Check In: 2
+#### Check In: 3
 
 #### Progress made?
 * favorites
@@ -22,3 +22,10 @@ Cheese-Plate
 * I have poor design skills
 
 #### Deliverables for next checkin:
+
+- [ ] Placeholder or wikipedia for cheeses without image
+- [ ] Top nav needs styling
+- [ ] Fun logo
+- [ ] Route for a specific cheese, and cheese details
+- [ ] Meet with Louisa about styling direction
+- [ ] Continue to test
