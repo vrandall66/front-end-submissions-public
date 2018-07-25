@@ -1,6 +1,6 @@
-## Project Name:
+## Project Name: Setlist
 
-#### Check In: 2
+#### Check In: 3
 
 #### Progress made? 
 
@@ -17,5 +17,7 @@ Display data, test what I have, start making spotify api calls
 #### What are your concerns (if any)
 
 Understanding frontend / backend interaction
+
+#### What deliverables still need to be completed from your last checkin? 
 
 #### Deliverables for next checkin:

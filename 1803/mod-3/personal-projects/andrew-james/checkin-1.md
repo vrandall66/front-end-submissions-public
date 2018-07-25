@@ -22,7 +22,6 @@ https://github.com/marklocklear/remote_gig
 **LinkedIN** only if I can get oAuth2 configured
 
 #### Wireframes
-**Desktop**
 ![desktop](./images/desktop.JPG)
 ![mobile](./images/mobile.JPG)
 

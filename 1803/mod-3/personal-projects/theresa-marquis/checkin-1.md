@@ -53,3 +53,4 @@ Search alternative fuel stations based on location.  Render closest three as car
 * Think about store structure... keep data flat and don't duplicate data
 * Start testing
 * Linter
+
