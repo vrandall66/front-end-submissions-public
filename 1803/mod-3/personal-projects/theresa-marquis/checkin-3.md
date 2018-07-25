@@ -23,8 +23,8 @@
 
 #### Deliverables for next checkin:
 
-[] 
-[] 
-[] 
-[] 
-[] 
+- [ ] Continue to style cards
+- [ ] New route an individual Station
+- [ ] Add map with marker for station location
+- [ ] Meet with Louisa for styling direction
+- [ ] Continue to work of stying
