@@ -55,8 +55,8 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Promise Practice Exercises](https://github.com/hmmChase/mod4-prework-promises)
 * [House of Vars Blog Post](https://gist.github.com/hmmChase/b6aa872e3a0bcad90fa9270bd84b49fd)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/hmmChase/pattrn-party)
+* [Pattern Party GitHub Pages](http://www.hmmchase.com/pattrn-party/)
 
 ### Daniela Carey
 
