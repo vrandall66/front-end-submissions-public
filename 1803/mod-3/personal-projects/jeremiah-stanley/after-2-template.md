@@ -20,3 +20,7 @@
 * Finding a usable Chart library
 
 #### Deliverables for next checkin:
+
+- [ ] Switch to Victory.js for graphing
+- [ ] More info for the narrative
+- [ ] Meet with Louisa about styling
