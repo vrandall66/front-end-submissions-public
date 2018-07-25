@@ -41,9 +41,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 2. Challenge #2: show pics of sunsets if client makes a get request to /sunsets
 3. Challenge #4: add custom 404 page if client requests to undefined endpoint
 * [Promise Practice Exercises](https://github.com/CamArturo/mod4-pre-promises)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://gist.github.com/CamArturo/2d09d4f7b32f24869a88be5b9c462639)
+* [Pattern Party Repo](https://github.com/CamArturo/pattrn-party)
+* [Pattern Party GitHub Pages](https://camarturo.github.io/pattrn-party/#)
 
 ### Chase Richard
 
