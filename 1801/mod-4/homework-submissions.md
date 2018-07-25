@@ -30,7 +30,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 I did the first three additional problems - Add a client-side JavaScript file, Make a new endpoint so that if the client makes a GET request to localhost:3000/sunsets and Create some JSON data in a separate file.
 * [Promise Practice Exercises](https://gist.github.com/YayFiber/df456f17d5348800495158931c3f4a7f) -- DONE
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@cameronbuscher/choosing-my-own-open-source-adventure-7e64555ae229)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
@@ -99,7 +99,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/hdechat/Node-Server-Tutorial)
 * [Express Tutorial](https://github.com/hdechat/Express-Intro) - all 4
 * [Promise Practice Exercises](https://github.com/hdechat/Promise-Practice)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@hdechat/my-first-pull-request-24bf78cd9522)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
@@ -109,7 +109,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/JackLaird0/node-tutorial)
 * [Express Tutorial](https://github.com/JackLaird0/express-tutorial) - What additional items did you work on?
 * [Promise Practice Exercises](https://repl.it/@JackLaird97/Promises-Practice)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@jack.laird0/contributing-to-open-source-dd91bf334b9b)
 * [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
