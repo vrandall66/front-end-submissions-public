@@ -120,10 +120,10 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://repl.it/@Ecksi/Node-Express) - What additional items did you work on?
   * Worked on all additional items.
 * [Promise Practice Exercises](https://repl.it/@Ecksi/Promise-Prework)
-* [House of Vars Blog Post]()
+* [House of Vars Blog Post](https://medium.com/@jimmy.dechant/its-dangerous-to-go-alone-take-this-documentation-11884169fe6e)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/Ecksi/pattrn-party)
+* [Pattern Party GitHub Pages](https://ecksi.github.io/pattrn-party/)
 
 ### Krista Handel
 
