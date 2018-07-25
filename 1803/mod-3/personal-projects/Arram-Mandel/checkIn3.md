@@ -10,4 +10,10 @@ Next Steps: A welcome message should display after user has logged in or created
 
 What are your concerns (if any): None at this time.
 
-Deliverables for next checkin: Have site fully styled Have log in UI ready Maybe have a backend ready
+Deliverables for next checkin:
+
+- [ ] Cards should be stylized
+- [ ] Continue to style court page
+- [ ] Meet with Louisa to get styling direction
+- [ ] Ability to favorite (or save) a particular court for a user
+- [ ] Add firebase for real user authentication and saving of favorites
