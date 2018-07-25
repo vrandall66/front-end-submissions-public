@@ -20,7 +20,7 @@ finding an images API.
 
 #### Deliverables for next checkin:
 
-[] App needs styling
-[] Games should have user friendly dates
-[] Team page needs styling
+- [ ] Work on styling of team page
+- [ ] Work on styling of todays games
+- [ ] Meet with Lousia today for styling help
 
