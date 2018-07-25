@@ -1,0 +1,27 @@
+Project Name: colorado-fire
+
+Check In: 1
+
+Progress made?: 
+I have cleaned my data to  come in with only the information that I need.  I have built out the marker portion of my application and the info windows.  I have displayed the information from my fires api and put it into cooresponding windows.
+
+What deliverables still need to be completed from your last checkin?:
+1. I am only at about 60% test coverge.
+2. I need to figure out how I am going to build out my report a fire page/ possible search functionality
+
+Next Steps?:
+
+1. Finish writing tests for all existing code adn for each as I write going forward.
+2. Build out repot a fire form.
+3. Build out search functionality. 
+4. continue researching node.js and express.
+5. Look into microservices (Amazon Lambda).
+
+What are your concerns (if any):
+I need to think about how I am structuring my code with router and thunks and determine if I need to rearrange things now, or stay the course.
+
+Deliverables for next checkin:
+
+
+
+
