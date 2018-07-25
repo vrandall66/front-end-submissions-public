@@ -18,4 +18,11 @@ At this point things are looking good. The plan is to keep it simple until all s
 
 #### Deliverables for next checkin:
 
-
+- [ ] Landing page style form
+- [ ] Add loading indicator to landing
+- [ ] Disable 'current location' button on loading
+- [ ] More styling of cards on main
+- [ ] More styling on details (smaller image)
+- [ ] Start writing tests in earnest
+- [ ] Meet with Louisa about styling
+- [ ] Buttons for ($, $$, $$$)

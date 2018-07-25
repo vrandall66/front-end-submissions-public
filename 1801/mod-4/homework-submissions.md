@@ -15,7 +15,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 **Week 4**
 
 * [House of Vars Blog Post]()
-* [Websockets Tutorial](https://socket.io/get-started/chat/) - Link to completed Websockets tutorial repo with a note about which of the 3 problems in the "Homework" section that you worked on
 
 **Week 5**
 
@@ -52,8 +51,8 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://github.com/hmmChase/mod4-prework-express) 1,2,3
 * [Promise Practice Exercises](https://github.com/hmmChase/mod4-prework-promises)
 * [House of Vars Blog Post](https://gist.github.com/hmmChase/b6aa872e3a0bcad90fa9270bd84b49fd)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/hmmChase/pattrn-party)
+* [Pattern Party GitHub Pages](http://www.hmmchase.com/pattrn-party/)
 
 ### Daniela Carey
 
@@ -75,8 +74,8 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://github.com/daughedm/ExpressTutorial) - 2,3,4
 * [Promise Practice Exercises](https://repl.it/@daughedm/Promises-practice)
 * [House of Vars Blog Post](https://medium.com/@david.m.daugherty/why-no-one-is-contributing-to-your-open-source-project-4cdf66690c36)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/daughedm/pattern-party)
+* [Pattern Party GitHub Pages](https://daughedm.github.io/pattern-party/)
 
 ### Eric Jungbluth
 
@@ -112,9 +111,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://repl.it/@Ecksi/Node-Express) - What additional items did you work on?
   * Worked on all additional items.
 * [Promise Practice Exercises](https://repl.it/@Ecksi/Promise-Prework)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@jimmy.dechant/its-dangerous-to-go-alone-take-this-documentation-11884169fe6e)
+* [Pattern Party Repo](https://github.com/Ecksi/pattrn-party)
+* [Pattern Party GitHub Pages](https://ecksi.github.io/pattrn-party/)
 
 ### Krista Handel
 

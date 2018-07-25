@@ -4,8 +4,7 @@
 
 Comments:
 * Nice whiteboarding and articulation at a high-level, falls apart a little bit when converting that into code. Seems to have a thought process in place but looses track of it when switching contexts.
-*
-*
+* Naming conventions need some work to improve readibility of your code
 
 ## 1. Process
 
@@ -18,16 +17,22 @@ Comments:
 2: Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring
 1: Application generates syntax error or crashes during execution
 
+* Child should probably be renamed to [children](https://github.com/kielzor/complete-me/blob/master/lib/node.js#L4) as you can have more than one child per node
+
+* What is [this](https://github.com/kielzor/complete-me/blob/master/lib/trie.js#L1)
+
+* Not a huge fan of your abbreviations [here](https://github.com/kielzor/complete-me/blob/master/lib/trie.js#L11-L12). 'word' would be better than 'val' and 'letters' would be better than 'arr'
+
+* Arrays should be [plural](https://github.com/kielzor/complete-me/blob/master/lib/trie.js#L36) - suggestedWords
+
 ## 3. Test-Driven Development & Code Sanitation
 
-4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Linting shows 0 complaints.
 3: Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality. Linting shows five or fewer complaints.
-2: Application makes some use of tests, but the coverage is insufficient. Linting shows ten or fewer complaints.
-1: Application does not demonstrate strong use of TDD. Linting shows more than ten complaints.
+
+* I'd rephrase this [it block](https://github.com/kielzor/complete-me/blob/master/test/trie-test.js#L100) to say 'it should not increment when adding a duplicate word'. Otherwise it sounds like a repeat of one of your earlier insert tests
+
+* Nice job testing edge cases like duplicates and words that should not be suggested
 
 ## 4. Functional Expectations
 
-4: Application meets all requirements, and implements one extension properly.
 3: Application meets all requirements as laid out per the specification.
-2: Application runs, but does not work properly, or does not meet specifications.
-1: Application does not run, crashes on start.

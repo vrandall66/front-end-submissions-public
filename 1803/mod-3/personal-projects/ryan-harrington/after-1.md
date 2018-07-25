@@ -5,7 +5,7 @@ Psych1
 
 
 #### Progress made?
-Relevan news articles in store, wireframes, React/Redux boilerplate
+Relevant news articles in store, wireframes, React/Redux boilerplate
 
 #### What deliverables still need to be completed from your last checkin?
 n/a
@@ -17,7 +17,9 @@ Finish content object w/ conditional styling depending on page.
 Currently struggling to find page I'm on, window.location.href is one step behind. Creating a backend to store secure admin user, and to hold the minimum amount of info to send alerts (due to HIPPA concerns). And haven't gotten started on the online scheduling yet.
 
 #### Deliverables for next checkin:
-
 [] Articles should each have its own card
 [] Get the redux devtools back up and running
 [] Implement master page for static content
+
+
+
