@@ -1,12 +1,10 @@
 ## Project Name:
-Psych1
 
-#### Check In: 2
+#### Check In:
 
+#### Progress made? 
 
-#### Progress made?
-
-#### What deliverables still need to be completed from your last checkin?
+#### What deliverables still need to be completed from your last checkin? 
 
 #### Next Steps?
 
