@@ -1,6 +1,6 @@
 ## Project Name:
 
-#### Check In: 1
+#### Check In:
 
 #### Progress made?
 

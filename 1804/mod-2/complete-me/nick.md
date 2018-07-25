@@ -4,8 +4,6 @@
 
 Comments:
 * Thorough thought process and articulation; needed some extra guidance around the coding but overall kept a logical step-by-step process.
-*
-*
 
 ## 1. Process
 
@@ -13,21 +11,27 @@ Comments:
 
 ## 2. Fundamental JavaScript & Style
 
-4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring
 3: Application shows strong effort towards organization, content, and refactoring
-2: Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring
-1: Application generates syntax error or crashes during execution
+
+* You're passing in a [currentLetter](https://github.com/30ozSteak/complete-me/blob/master/lib/Trie.js#L17) when instantiating a new Node here, but your Node class doesn't actually take in any [parameters](https://github.com/30ozSteak/complete-me/blob/master/lib/Node.js#L2), so this isn't doing anything.
+
+* Using the word [node](https://github.com/30ozSteak/complete-me/blob/master/lib/Trie.js#L47-L49) here as a parameter, and pushing into it seems a little confusing. If this represents your suggestions array, I would rename it to something more explicit like 'suggestions'. node makes me think it represents an instance of the node class.
+
+* Curious what the spread operator is doing for you [here](https://github.com/30ozSteak/complete-me/blob/master/lib/Trie.js#L59), it looks like your insert method just takes in a word on its own and spreads it right away.
+
+* Instead of a `countUp` method, you can look into getters and setters for ES6 classes to create a method that returns that count value for you. It would look something like `get count() { return count }`
 
 ## 3. Test-Driven Development & Code Sanitation
 
-4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Linting shows 0 complaints.
 3: Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality. Linting shows five or fewer complaints.
-2: Application makes some use of tests, but the coverage is insufficient. Linting shows ten or fewer complaints.
-1: Application does not demonstrate strong use of TDD. Linting shows more than ten complaints.
+
+* Put your suggestion tests in a separate describe block, it's hard to see they exist as their meshed in with your insert tests.
+
+* I'd make an initial assertion [here](https://github.com/30ozSteak/complete-me/blob/master/test/trie-test.js#L96-L99) that ensures the count is 0, then 1, then 0 again after the delete. As this test is written now, it might be that the counter value is never updated and always remains at 0. We want to make sure that it decrements from 1 to 0 after a delete is performed.
+
 
 ## 4. Functional Expectations
 
 4: Application meets all requirements, and implements one extension properly.
-3: Application meets all requirements as laid out per the specification.
-2: Application runs, but does not work properly, or does not meet specifications.
-1: Application does not run, crashes on start.
+
+* Delete method completed during eval
