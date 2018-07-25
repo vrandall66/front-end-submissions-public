@@ -1,0 +1,42 @@
+## Project Name: Retirement Planner
+
+#### Check In: 3
+
+#### Progress made?
+setup file structure, redux. I need to setup my expenses info to be displayed and stored in Redux as I did with the income
+info.
+
+getting a user into the store, I have user info being place into the store. Just user info is setup no user identiy just yet.
+
+start testing, only a few simple unit test are going.
+
+The UI is a littl rough right now but the information needed is starting to come together and accessable where it is need to be displayed.
+
+store structure is very flat and I plan to keep it that way.
+
+#### What deliverables still need to be completed from your last checkin?
+
+more testing
+
+update UI and finish income and expense features
+
+#### Next Steps?
+
+I need to finish creating the expense forms and having that data put into the store.
+
+Info in store needs to be visually available in the UI
+
+More tests
+
+graphical interface for retirment calculator
+
+#### What are your concerns (if any)
+
+time managment
+
+#### Deliverables for next checkin:
+
+[] Individual cards (or similar) for news articles
+[] Display various incomes on page
+[] Display various expenses on page
+[] Spend time on styling both pages
