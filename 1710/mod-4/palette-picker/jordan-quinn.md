@@ -17,29 +17,59 @@
 
 #### Were you able to complete the base functionality?
 
-If not, explain what is missing and why.
+Indeed I was!
 
 #### Which extensions, if any, did you complete?
+N/A
 
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code]()
+[happy code](https://github.com/JordanPQuinn/palette-picker/blob/3751dbe3312b8bd273a5a14c5f3e2ded977e3464/public/js/scripts.js#L100)
 
-* Why were you proud of this piece of code?
+* I really liked my approach for mapping the palettes back into their corresponding project here. I think it created a fun data structure to approach solving the rest of the problem with. 
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code]()
+[sad code](https://github.com/JordanPQuinn/palette-picker/blob/3751dbe3312b8bd273a5a14c5f3e2ded977e3464/public/js/scripts.js#L100)
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+Ironically, my answer is the same. While I really like what I did in lines 100-104, I don't like the append methods. I think it was a little messier than it needed to be. I tried doing it all in one method with a bunch of nested maps and forEach's, which was definitely uglier than the finished submission. However, still not something I felt was particularly well executed. 
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
+Palette Picker is running on 3000.
+  Client Routes
+    ✓ should return the homepage with text
+    ✓ should return a 404 if the requested page is not found
 
-[test suite]()
+  API Routes
+    GET /api/v1/projects
+Data seeded!
+      ✓ should get all projects
+    POST /api/v1/projects
+Data seeded!
+      ✓ should post a new project
+Data seeded!
+      ✓ should return a 422 with appropriate param message when no name is provided
+    GET /api/v1/palettes
+Data seeded!
+      ✓ should return return all of the palettes
+    POST /api/v1/palettes
+Data seeded!
+      ✓ should post a new palette
+Data seeded!
+      ✓ should return a 422 with appropriate param message when no name is provided
+Data seeded!
+      ✓ should return a 422 with appropriate param message when no colors are provided
+Data seeded!
+      ✓ should return a 422 with appropriate param message when no project id is provided
+    DELETE /api/v1/palettes/:id
+Data seeded!
+      ✓ should return 204 on deleting a palette specified by an id
+Data seeded!
+      ✓ should return a 404 status code when the delete request fails due to an invalid id
 
 #### Link to Design Inspiration
 
-* Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
+https://coolors.co/f7ebec-ddbdd5-ac9fbb-59656f-1d1e2c I just tried to recreate a very simple and clean UI, like coolers has. I like the way that coolers was able to generate complimentary colors to display the hex code. I opted for creating a nice transparent background behind them to make sure it stayed readable against darker colors.
 
 #### Please feel free to ask any other questions or make any other statements below!
 
@@ -73,7 +103,7 @@ Anything else you wanna say!
 
 - I like [this comment](https://github.com/JordanPQuinn/palette-picker/blob/server-comments/test/routes.spec.js#L91) because it tells other developers what the intention of the test is
 
-**- Missing a sad path for the DELETE endpoint (what happens if some sends a DELETE request to `/api/v1/palettes/10001` where the record 10001 does not exist in the database?)**
+**- Missing a sad path for the DELETE endpoint (what happens if some sends a DELETE request to `/api/v1/palettes/10001` where the record 10001 does not exist in the database?)** 
 
 - Good job testing the properties and values of each response body
 
