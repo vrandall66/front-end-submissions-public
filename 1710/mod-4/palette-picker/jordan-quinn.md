@@ -72,7 +72,9 @@ Anything else you wanna say!
 **16 points**: (20 possible points)
 
 - I like [this comment](https://github.com/JordanPQuinn/palette-picker/blob/server-comments/test/routes.spec.js#L91) because it tells other developers what the intention of the test is
+
 **- Missing a sad path for the DELETE endpoint (what happens if some sends a DELETE request to `/api/v1/palettes/10001` where the record 10001 does not exist in the database?)**
+
 - Good job testing the properties and values of each response body
 
 ## Commented Server File
@@ -90,10 +92,13 @@ Anything else you wanna say!
 **23 points**: (30 possible points)
 
 **- A 202 response is not quite the correct status code in [this case for DELETE](https://github.com/JordanPQuinn/palette-picker/blob/master/server.js#L84). If we look at the definition of a [202](https://httpstatuses.com/202), it means that the request will be finished at a later time, but by the time you have sent the response, the record has already been deleted from the table. You can use a 200 status code or 204 status code if you are not sending content back in the response.**
+
 - [This HTTPS redirect](https://github.com/JordanPQuinn/palette-picker/blob/master/server.js#L14-L20) isn't necessary for this project...but would be good to have if you were making this application into a progressive web app
 - A good next step would be to extract [this](https://github.com/JordanPQuinn/palette-picker/blob/master/server.js#L35-L41) and other parameter checking into their own middleware function that can be reused
 - Need to be able to handle an unknown ID for the DELETE endpoint (as mentioned in the testing section above), should send a 404 status code for an unknown ID
+
 **- [This endpoint](https://github.com/JordanPQuinn/palette-picker/blob/master/server.js#L24) should be plural, `projects` instead of singular project - same with the POST endpoint**
+
 **- Along those lines of the endpoint being plural, the table names can be singular or plural based on your development teams style, but usually plural is preferred. Your `project` table is singular, but the `palettes` table is plural. Be consistent here - [make the project table plural](https://github.com/JordanPQuinn/palette-picker/blob/master/db/migrations/20180517193729_initial.js).**
 
 ## Workflow
