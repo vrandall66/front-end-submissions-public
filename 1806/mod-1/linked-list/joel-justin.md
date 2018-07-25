@@ -1,71 +1,63 @@
-## Student:
-## Evaluator:
+## Student: Joel and Justin
+## Evaluator: David
 ## Notes/What To Work On:
+
+### Comp
+* Make sure to follow it to a T
+
+### HTML
+* Use aria labels
+* Work on indentation - follow the style guides!
+
+### CSS
+* Consider using organizational comments
+* Alphabetize within blocks
+* dry it up
+
+### JS
+* Work on indentation - follow the style guides!
+* dry it up
+
+### Git/Github
+* Good number of commits
+* Be sure to capitalize subject lines of messages and be more descriptive
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
 * Magic  
+
