@@ -84,8 +84,8 @@ I did the first three additional problems - Add a client-side JavaScript file, M
   Additional items: Challenge #1, Challenge #2, and Challenge #4
 * [Promise Practice Exercises](https://github.com/EricMellow/mod4prework/blob/master/promises.js)
 * [House of Vars Blog Post](https://medium.com/@ericmellow/contributing-to-open-source-a-beginners-guide-5b6b759f0081)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/EricMellow/pattern-party)
+* [Pattern Party GitHub Pages](https://ericmellow.github.io/pattern-party/)
 
 ### Helen Dechat
 
