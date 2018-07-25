@@ -166,8 +166,8 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://github.com/tonyr729/mod4-prework-express) - Additional items 1-3
 * [Promise Practice Exercises](https://github.com/tonyr729/mod4-prework-promises)
 * [House of Vars Blog Post](https://medium.com/@tonyr729/my-first-open-source-experience-9a916ce0bd2)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/tonyr729/tr-pattern-party)
+* [Pattern Party GitHub Pages](http://stormy-rule.surge.sh/) GH pages was @#!$ed so  had to use surge
 
 ### Tyler McNamara
 
