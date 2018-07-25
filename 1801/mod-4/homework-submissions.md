@@ -80,8 +80,8 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Promise Practice Exercises](https://repl.it/@daughedm/Promises-practice)
 * [House of Vars Blog Post](https://medium.com/@david.m.daugherty/why-no-one-is-contributing-to-your-open-source-project-4cdf66690c36)
 * [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/daughedm/pattern-party)
+* [Pattern Party GitHub Pages](https://daughedm.github.io/pattern-party/)
 
 ### Eric Jungbluth
 
