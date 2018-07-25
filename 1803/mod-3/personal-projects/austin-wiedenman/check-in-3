@@ -22,6 +22,9 @@ I need to think about how I am structuring my code with router and thunks and de
 
 Deliverables for next checkin:
 
-
+- [ ] Add style to header nav
+- [ ] Work on form for reporting a fire
+- [ ] Add pins for 'reported fires'
+- [ ] Fires should link to more information, or display more info
 
 
