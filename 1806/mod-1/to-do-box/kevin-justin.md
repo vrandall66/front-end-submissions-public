@@ -1,142 +1,108 @@
-## Students:
-## Evaluator:
+## Students: Kevin Ryan and Justin Stewart
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+
+* Nice work on commit messages and branches (keep working on more branches each time you add a new feature)
+* Good work on HTML structure
+* Nice work of using aria roles (next time try adding aria labels in your inputs)
+* Remove brs and keep styles in css instead of after each input
+* Nice structure on your CSS with page flow and properties organized alphabetically
+* Experiment grouping and reusing classes that share similar styles
+* Nice work on no variables
+* Good job structuring your javascript with event listeners and fuction declarations.
+* 1-2 functions longer than 8 lines
+* Nice job breaking most of your functions into SRP functions
+* Experiment storing your data in an array rather than as individual objects
+* Nice work storing your qualities in an array
+* Experiment bumping the index up when upvoting or downvoting rather than multiple else if statements checking if the html is === to an index
 
 ## Functional Expectations
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
 
 ## TERMINOLOGY
 
 #### Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
 

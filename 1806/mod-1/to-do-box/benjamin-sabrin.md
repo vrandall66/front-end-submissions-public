@@ -1,13 +1,22 @@
-## Students:
-## Evaluator:
+## Students: Benjamin Hayek and Sabrin Nasreddin
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+
+* More atomic commits and branches
+* Work on adding aria labels, placeholders, and roles in forms/inputs/buttons
+* Remove br in HTML if it's only for styling purposes
+* Nice work alphabetizing the properties and structure of your css
+* Next step for CSS, cleaning up repeated lines of CSS and grouping them together
+* Nice work of using constructor function
+* Had one function that was over 8 lines
+* Had one anonymous function where it could've been a function declaration
+* Experiment using array prototypes next time over a for loop
+* Try storing your 2dos as an array in localStorage rather than as separate objects
+* Good refactored code in general.  Good use of SRP functions
 
 ## Functional Expectations
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## HTML
 
@@ -15,128 +24,84 @@
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
 * Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional
 
 ## TERMINOLOGY
 
 #### Technical Vocabulary
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
 
