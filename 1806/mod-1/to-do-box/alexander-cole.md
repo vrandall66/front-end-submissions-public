@@ -1,113 +1,93 @@
-## Students:
-## Evaluator:
+## Students: Alex and Cole
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- nice UI details
+- filter is misbehqavaing
+- very well executed UI, good work!
+- make sure to maximize use of screen space on small screens, inputs and buttons get a little narrow
+- good use of ARIA
+- HTML is really tidy and clean
+- a couple properties in CSS aren't really doing much and could be removed
+- JS is very tidy, good job really hitting the 8-line function rule
+- good at talking through and speaking to the code
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
+
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
+
 * Proficient  
 * Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
+
 * Proficient  
 * Exceptional  
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
+
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
+
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
+
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient   
 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
+
 * Proficient  
 * Exceptional  
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
+
 * Proficient  
 * Exceptional  
 
@@ -116,18 +96,15 @@
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+
+* Proficient
 
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
+
 * Proficient  
 * Exceptional
 
@@ -135,8 +112,5 @@
 
 #### Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
 * Exceptional
-

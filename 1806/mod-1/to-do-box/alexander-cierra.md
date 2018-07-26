@@ -1,123 +1,91 @@
-## Students:
-## Evaluator:
+## Students: Alex and Cierra
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- nice disabled save button color choices/behavior
+- good "completed" button addition
+- nice use of transitions when filtering cards
+- good github workflow, make sure you're writing clear commit messages, some were a little unclear
+- nice use of ARIA
+- missing closing HTML tag
+- still some unused/unneeded CSS, still could use a clean up refactor pass
+- JS is tidy and well factored
+- Fantastic use of terminology and really, really good at speaking about your code and the decisions that went into it
+- really good team work! So awesome to see a team that worked so well together and enjoyed working together.
+- REALLY GOOD JOB!!!!!
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JAVASCRIPT
 
 #### Data Types
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### Functions & Scope
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 #### DOM Manipulation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
@@ -126,17 +94,10 @@
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional
 
 ## TERMINOLOGY
 
 #### Technical Vocabulary
 
-* Novice
-* Advanced Beginner
-* Proficient
 * Exceptional
-
