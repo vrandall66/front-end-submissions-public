@@ -179,5 +179,5 @@ I did the first three additional problems - Add a client-side JavaScript file, M
   4. Add a custom 404 page 
 * [Promise Practice Exercises](https://github.com/mcnamara14/promises)
 * [House of Vars Blog Post](https://medium.com/@mcnamara14/newbies-experience-contributing-to-open-source-afd77799869f)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/mcnamara14/pattern-party)
+* [Pattern Party GitHub Pages](https://mcnamara14.github.io/pattern-party/)

@@ -1,142 +1,104 @@
-## Students:
-## Evaluator:
+## Students: Ready Freddie & James
+## Evaluator: Holt 
 ## Notes/What To Work On:
+- Loved the way you were able to explain your code, challenges, and strategy to address challenges ⭐️
+- Good on functionality
+- A few opportunities to refactor - you saw them, just need to get used to seeing those patterns of how to pass info to a helper!
+- Seemed like y'all did a great job collaborating based on the way you were both able to explain your code and the way you supported each other in the eval.
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## HTML
 
 #### Accessibility
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Style
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
 #### Structure of Code
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 #### Implementation
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JAVASCRIPT
 
 #### Data Types
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
+
 
 #### Conditional Logic
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+ 
 
 #### Functions & Scope
-
-* Novice  
-* Advanced Beginner  
+  
 * Proficient  
-* Exceptional  
+
 
 #### Arrays
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
 
 #### Objects & Prototypes
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
 
 #### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
+
 
 #### Style
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
+
 
 
 ## GIT & GITHUB
 
 #### Git
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
 
 #### Github
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
 
 
 ## DESIGN
 
 #### Design Concepts
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## PAIRING
 
 #### Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional
+* Exceptional 🎉
 
 ## TERMINOLOGY
 
 #### Technical Vocabulary
-
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
+
 
