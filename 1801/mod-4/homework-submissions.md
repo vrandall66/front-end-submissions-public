@@ -65,8 +65,8 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 4. Challenge #1: Added a button that changed the background color of the button when clicked
 * [Promise Practice Exercises](https://gist.github.com/danielafcarey/20e54f117d445a20b43a531dc8b87d5e)
 * [House of Vars Blog Post](https://medium.com/@danielafcarey/contributing-to-your-first-open-source-project-4244edb1f3b8)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/danielafcarey/pattrn-party)
+* [Pattern Party GitHub Pages](https://danielafcarey.github.io/pattrn-party/)
 
 ### David Doc Daughtery
 
