@@ -18,3 +18,11 @@ finish testing
 time
 
 #### Deliverables for next checkin:
+
+- [ ] Style cheese details page
+- [ ] Get alt image in place
+- [ ] Fix broken image link
+- [ ] Favorites link is hard to find
+- [ ] 'favorite' button should toggle text
+- [ ] 'favorite' button should be a button
+- [ ] Work on responsiveness
