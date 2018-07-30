@@ -19,3 +19,11 @@ Need to test new actions and firebase methods
 What are your concerns (if any) Deliverables for next checkin:
 
 testing firebase methods is my main concern.
+
+# Deliverables for next checkin
+
+- [ ] Background image should have an opacity screen in front of it
+- [ ] 'Other users' should have cards that are not full width
+- [ ] Add favorites route
+- [ ] Make court card clickable
+- [ ] Move back button on court route into card
