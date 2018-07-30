@@ -26,3 +26,7 @@
 
 
 #### Deliverables for next checkin:
+
+- [ ] Have classmates bug test application
+- [ ] Key for different countries
+- [ ] Default (error boundary) route if things go wrong
