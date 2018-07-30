@@ -20,3 +20,9 @@ CSS
 How long xpress will take
 
 #### Deliverables for next checkin:
+
+- [ ] Articles on pages shold be styled as cards, get rid of links
+- [ ] Meet with Louisa for styling direction
+- [ ] Admin page for updating details
+- [ ] Connect app to firebase so data can be updated
+- [ ] Set data in firebase, pull back into app
