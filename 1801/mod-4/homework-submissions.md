@@ -94,7 +94,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Promise Practice Exercises](https://github.com/hdechat/Promise-Practice)
 * [House of Vars Blog Post](https://medium.com/@hdechat/my-first-pull-request-24bf78cd9522)
 * [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party GitHub Pages](https://hdechat.github.io/Pattrn-Party/)
 
 ### Jack Laird
 
