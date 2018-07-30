@@ -23,3 +23,7 @@ The editing on admin login
 
 
 #### Deliverables for next checkin:
+
+- [ ] Style sign up form
+- [ ] Don't center text
+- [ ] Admin page for editing content
