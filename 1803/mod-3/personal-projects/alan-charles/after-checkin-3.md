@@ -32,3 +32,7 @@ relational databases for leagues
 
 
 # Deliverables for next checkin:
+
+- [ ] Pick a Sport vs Pick a League
+- [ ] Send league to backend
+- [ ] Display existing league
