@@ -1,20 +1,31 @@
 ## Project Name:
+Cheese-Plate
 
-#### Check In: 4
+#### Check In: 3
 
 #### Progress made?
-Testing up to 75% - mostly integration tests left
+* favorites
+* router to favorites
+* images for cheese...for the ones that have them within the API
+* color palette has been chosen 
 
 #### What deliverables still need to be completed from your last checkin?
-CSS
-Testing
+* further testing of components
 
 #### Next Steps?
-Get translator npm working
-css
-finish testing
+* UX/UI
+* Route to each individual cheese
+* testing
+* investigate wikipedia API for more info on cheeses
 
 #### What are your concerns (if any)
-time
+* I have poor design skills
 
 #### Deliverables for next checkin:
+
+- [ ] Placeholder or wikipedia for cheeses without image
+- [ ] Top nav needs styling
+- [ ] Fun logo
+- [ ] Route for a specific cheese, and cheese details
+- [ ] Meet with Louisa about styling direction
+- [ ] Continue to test
