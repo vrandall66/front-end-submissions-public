@@ -121,9 +121,10 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://gist.github.com/meloncatty/ce7bf965514f1c5803d7285371dbd5c2) - What additional items did you work on?
 + Completed further challenges 1, 2 and 3
 * [Promise Practice Exercises](https://gist.github.com/meloncatty/ad65447ebe95b4b4fe367031a436fff8)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@petalhead/my-first-open-source-contribution-a9865801a3ca)
+* [Websockets Tutorial]() - What additional items did you work on?
+* [Pattern Party Repo](https://github.com/meloncatty/pattrn-party)
+* [Pattern Party Github Pages](https://meloncatty.github.io/pattrn-party)
 
 ### Sage Vogt
 
