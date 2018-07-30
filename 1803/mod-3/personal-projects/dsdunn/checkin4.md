@@ -14,3 +14,12 @@ fix reset location bug, finish testing, polish style
 I wish my api sucked less....
 
 #### Deliverables for next checkin:
+
+- [ ] Increase opacity on background image
+- [ ] Make sure text is aligned in event description
+- [ ] Bug squashing
+  - New location search requires page refresh
+  - Location search from resluts not working
+  - 'Get events' button looks weird
+- [ ] Event description should keep html, and have greater line height
+- [ ] Link logo back to main page
