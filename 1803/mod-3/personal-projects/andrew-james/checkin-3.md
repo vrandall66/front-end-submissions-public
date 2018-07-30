@@ -1,29 +1,20 @@
 ## Project Name:
-TBD
-#### Check In: 2
+Find First
+#### Check In: 3
 
 #### Progress made?
-✅ Add loader for jobs on Dashboard View
-✅ Add thunk for jobs in Dashboard View
-✅ Add SlideMenu to UI
-✅ Add several updates to redux store for menu, and jobListings
-✅ Add Data from API
+✅ Ability to save job
+✅ Loading Spinner for saving job
+✅ Responsive styling
 
 #### What deliverables still need to be completed from your last checkin?
-Complete styling on cards
-Working on responsive design
-NavLinks need to be implemented
-
+N/A
 #### Next Steps?
-☑️ Implement a tablet layout
+☑️ Implement static search bar
+☑️ Complete responsive design
+☑️ Saved Jobs Featuer
 
 #### What are your concerns (if any)
-
-
+N/A
 #### Deliverables for next checkin:
-
-[] Work on styling
-  - Cards
-  - Navlinks
-[x] Get jobs into UI
-[] Work on responsive design of app
+Completed project
