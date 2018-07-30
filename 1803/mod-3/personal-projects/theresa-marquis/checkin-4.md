@@ -23,5 +23,7 @@
 
 #### Deliverables for next checkin:
 
-- [ ] Continue to style cards
-- [ ] Continue to work of stying
+- [ ] Map should appear full width
+- [ ] Single card should have station information
+- [ ] Filters should not appear on details page
+- [ ] Keep implementing style recommendations 
