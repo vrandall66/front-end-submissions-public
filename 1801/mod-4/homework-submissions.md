@@ -15,7 +15,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 **Week 4**
 
 * [House of Vars Blog Post]()
-* [Websockets Tutorial](https://socket.io/get-started/chat/) - Link to completed Websockets tutorial repo with a note about which of the 3 problems in the "Homework" section that you worked on
 
 **Week 5**
 
@@ -30,10 +29,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 I did the first three additional problems - Add a client-side JavaScript file, Make a new endpoint so that if the client makes a GET request to localhost:3000/sunsets and Create some JSON data in a separate file.
 * [Promise Practice Exercises](https://gist.github.com/YayFiber/df456f17d5348800495158931c3f4a7f) -- DONE
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@cameronbuscher/choosing-my-own-open-source-adventure-7e64555ae229)
+* [Pattern Party Repo](https://github.com/YayFiber/pattrn-party)
+* [Pattern Party GitHub Pages](https://yayfiber.github.io/pattrn-party/)
 
 ### Camilo Snapp
 
@@ -43,20 +41,18 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 2. Challenge #2: show pics of sunsets if client makes a get request to /sunsets
 3. Challenge #4: add custom 404 page if client requests to undefined endpoint
 * [Promise Practice Exercises](https://github.com/CamArturo/mod4-pre-promises)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://gist.github.com/CamArturo/2d09d4f7b32f24869a88be5b9c462639)
+* [Pattern Party Repo](https://github.com/CamArturo/pattrn-party)
+* [Pattern Party GitHub Pages](https://camarturo.github.io/pattrn-party/#)
 
 ### Chase Richard
 
 * [Node Server Tutorial](https://github.com/hmmChase/mod4-prework-node)
 * [Express Tutorial](https://github.com/hmmChase/mod4-prework-express) 1,2,3
 * [Promise Practice Exercises](https://github.com/hmmChase/mod4-prework-promises)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://gist.github.com/hmmChase/b6aa872e3a0bcad90fa9270bd84b49fd)
+* [Pattern Party Repo](https://github.com/hmmChase/pattrn-party)
+* [Pattern Party GitHub Pages](http://www.hmmchase.com/pattrn-party/)
 
 ### Daniela Carey
 
@@ -68,8 +64,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 3. Challenge #2: show pics of sunsets if client makes a get request to /sunsets
 4. Challenge #1: Added a button that changed the background color of the button when clicked
 * [Promise Practice Exercises](https://gist.github.com/danielafcarey/20e54f117d445a20b43a531dc8b87d5e)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [House of Vars Blog Post](https://medium.com/@danielafcarey/contributing-to-your-first-open-source-project-4244edb1f3b8)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -78,10 +73,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/daughedm/NodeTutorial)
 * [Express Tutorial](https://github.com/daughedm/ExpressTutorial) - 2,3,4
 * [Promise Practice Exercises](https://repl.it/@daughedm/Promises-practice)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@david.m.daugherty/why-no-one-is-contributing-to-your-open-source-project-4cdf66690c36)
+* [Pattern Party Repo](https://github.com/daughedm/pattern-party)
+* [Pattern Party GitHub Pages](https://daughedm.github.io/pattern-party/)
 
 ### Eric Jungbluth
 
@@ -89,18 +83,16 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://github.com/EricMellow/mod4prework/tree/master/robbie-tutorial)
   Additional items: Challenge #1, Challenge #2, and Challenge #4
 * [Promise Practice Exercises](https://github.com/EricMellow/mod4prework/blob/master/promises.js)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@ericmellow/contributing-to-open-source-a-beginners-guide-5b6b759f0081)
+* [Pattern Party Repo](https://github.com/EricMellow/pattern-party)
+* [Pattern Party GitHub Pages](https://ericmellow.github.io/pattern-party/)
 
 ### Helen Dechat
 
 * [Node Server Tutorial](https://github.com/hdechat/Node-Server-Tutorial)
 * [Express Tutorial](https://github.com/hdechat/Express-Intro) - all 4
 * [Promise Practice Exercises](https://github.com/hdechat/Promise-Practice)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [House of Vars Blog Post](https://medium.com/@hdechat/my-first-pull-request-24bf78cd9522)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -109,8 +101,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/JackLaird0/node-tutorial)
 * [Express Tutorial](https://github.com/JackLaird0/express-tutorial) - What additional items did you work on?
 * [Promise Practice Exercises](https://repl.it/@JackLaird97/Promises-Practice)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [House of Vars Blog Post](https://medium.com/@jack.laird0/contributing-to-open-source-dd91bf334b9b)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -120,10 +111,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://repl.it/@Ecksi/Node-Express) - What additional items did you work on?
   * Worked on all additional items.
 * [Promise Practice Exercises](https://repl.it/@Ecksi/Promise-Prework)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@jimmy.dechant/its-dangerous-to-go-alone-take-this-documentation-11884169fe6e)
+* [Pattern Party Repo](https://github.com/Ecksi/pattrn-party)
+* [Pattern Party GitHub Pages](https://ecksi.github.io/pattrn-party/)
 
 ### Krista Handel
 
@@ -132,7 +122,6 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 + Completed further challenges 1, 2 and 3
 * [Promise Practice Exercises](https://gist.github.com/meloncatty/ad65447ebe95b4b4fe367031a436fff8)
 * [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -142,7 +131,6 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial]() - What additional items did you work on?
 * [Promise Practice Exercises]()
 * [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -155,7 +143,6 @@ I did the first three additional problems - Add a client-side JavaScript file, M
     * Challenge #1: Added a button that changed the background color of the button when clicked
 * [Promise Practice Exercises](https://gist.github.com/seamus-quinn/2b21edeeb9c4321092bdb422d4dbf565)
 * [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -169,9 +156,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 - Add a custom 404 page for when the client makes a request to an undefined endpoint. 
 
 * [Promise Practice Exercises](https://github.com/sospinar21/promises)
-
 * [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -180,8 +165,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/tonyr729/mod4-prework-node)
 * [Express Tutorial](https://github.com/tonyr729/mod4-prework-express) - Additional items 1-3
 * [Promise Practice Exercises](https://github.com/tonyr729/mod4-prework-promises)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
+* [House of Vars Blog Post](https://medium.com/@tonyr729/my-first-open-source-experience-9a916ce0bd2)
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
 
@@ -194,7 +178,6 @@ I did the first three additional problems - Add a client-side JavaScript file, M
   2. Create a localhost:3000/sunsets endpoint that displays sunset images
   4. Add a custom 404 page 
 * [Promise Practice Exercises](https://github.com/mcnamara14/promises)
-* [House of Vars Blog Post]()
-* [Websockets Tutorial]() - What additional items did you work on?
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@mcnamara14/newbies-experience-contributing-to-open-source-afd77799869f)
+* [Pattern Party Repo](https://github.com/mcnamara14/pattern-party)
+* [Pattern Party GitHub Pages](https://mcnamara14.github.io/pattern-party/)
