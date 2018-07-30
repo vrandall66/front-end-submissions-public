@@ -1,0 +1,24 @@
+Project Name: colorado-fire
+
+Check In: 4
+
+Progress made?: 
+I have built out my controlled form, restructured to have my map passed as component to Home and ReportAFire, some styling, added tests, began building out backend(still need postgress)
+What deliverables still need to be completed from your last checkin?:
+1. testing
+2. backend/ pins on map.
+
+Next Steps?:
+
+1. Fires should link to more information, or display more info
+2. Finish writing tests for all existing code adn for each as I write going forward.
+3. continue researching node.js and express.
+4. Add pins for 'reported fires'
+5. Look into microservices (Amazon Lambda).
+6. Build out search functionality?
+
+What are your concerns (if any):
+I am needing to make decisions about what is priority.
+
+Deliverables for next checkin:
+
