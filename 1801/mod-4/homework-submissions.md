@@ -127,9 +127,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 
 ### Sage Vogt
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/SageVanGogt/node-tutorial)
+* [Express Tutorial](https://github.com/SageVanGogt/node-express-tutorial) - What additional items did you work on?
+* [Promise Practice Exercises](https://gist.github.com/SageVanGogt/3087fa9fd336c794b0136d36cb4034d2)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
