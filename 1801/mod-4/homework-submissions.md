@@ -130,9 +130,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Node Server Tutorial](https://github.com/SageVanGogt/node-tutorial)
 * [Express Tutorial](https://github.com/SageVanGogt/node-express-tutorial) - What additional items did you work on?
 * [Promise Practice Exercises](https://gist.github.com/SageVanGogt/3087fa9fd336c794b0136d36cb4034d2)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@thurmanvogt/documenting-your-open-source-project-bea7fee11e06)
+* [Pattern Party Repo](https://github.com/SageVanGogt/pattern-party)
+* [Pattern Party GitHub Pages](https://sagevangogt.github.io/pattern-party/)
 
 ### Seamus Quinn
 
