@@ -142,9 +142,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
     * Challenge #2: show pics of sunsets if client makes a get request to /sunsets
     * Challenge #1: Added a button that changed the background color of the button when clicked
 * [Promise Practice Exercises](https://gist.github.com/seamus-quinn/2b21edeeb9c4321092bdb422d4dbf565)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@sumaesquinn/another-blog-post-6532d9d34039)
+* [Pattern Party Repo](https://github.com/seamus-quinn/pattrn-party)
+* [Pattern Party GitHub Pages](https://seamus-quinn.github.io/pattrn-party/)
 
 ### Steph Ospina
 
