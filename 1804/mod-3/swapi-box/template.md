@@ -27,8 +27,8 @@
 
 ### SASS/SCSS
 
-- Pass - Styles are written using either SASS or SCSS
-- Fail - Styles are written using vanilla CSS
+* Pass - Styles are written using either SASS or SCSS
+* Fail - Styles are written using vanilla CSS
 
 ### Testing
 
