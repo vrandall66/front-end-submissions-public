@@ -142,9 +142,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Spenser Leighton
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/spenserleighton1/96f2855993b68d88ca7219eebd6a0d65)
+* [Express Tutorial](https://github.com/spenserleighton1/express-tutorial) - What additional items did you work on?
+* [Promise Practice Exercises](https://gist.github.com/spenserleighton1/ccf6cd1b683a445ded7726f1b3518e03)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
