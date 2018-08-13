@@ -133,9 +133,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Ryan Harrington
 
-* [Node Server Tutorial]()
+* [Node Server Tutorial](https://gist.github.com/RyanH5/ade02a4f0c48fb08775f58a21ccd9f4d)
 * [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Promise Practice Exercises](https://gist.github.com/RyanH5/9d978fde18d798e964c1474e6c4e120d)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
@@ -152,7 +152,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Theresa Marquis
 
 * [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
+* [Express Tutorial](https://github.com/RyanH5/expressTutorial) - What additional items did you work on?
 * [Promise Practice Exercises]()
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
