@@ -161,9 +161,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Tory Dannenberg
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/tdberg21/messages)
+* [Express Tutorial](https://github.com/tdberg21/be-practice) - What additional items did you work on? 1, 3, 4
+* [Promise Practice Exercises](https://repl.it/@tdberg21/Promisespractice)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
