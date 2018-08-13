@@ -34,9 +34,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Andrew James
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/andrew-t-james/mod4-pre-work)
+* [Express Tutorial](https://github.com/andrew-t-james/mod4-pre-work) - Complete through 4?
+* [Promise Practice Exercises](https://github.com/andrew-t-james/mod4-pre-work)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
