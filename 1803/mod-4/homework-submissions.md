@@ -79,9 +79,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Jeremiah Stanley
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/jeremiahjstanley/e582019634adaa5ccc1d33da6115ee9c)
+* [Express Tutorial](https://github.com/jeremiahjstanley/express-tutorial) - 1, 2, 4
+* [Promise Practice Exercises](https://gist.github.com/jeremiahjstanley/f884250bf631e604876c5c972ee12d1d)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
