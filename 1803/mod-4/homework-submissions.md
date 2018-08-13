@@ -22,20 +22,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ---
 
-
-### Alan Charles
-
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
-
 ### Andrew James
 
 * [Node Server Tutorial](https://github.com/andrew-t-james/mod4-pre-work)
-* [Express Tutorial](https://github.com/andrew-t-james/mod4-pre-work) - Complete through 4?
+* [Express Tutorial](https://github.com/andrew-t-james/mod4-pre-work) - Complete through 4
 * [Promise Practice Exercises](https://github.com/andrew-t-james/mod4-pre-work)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
@@ -82,33 +72,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://gist.github.com/jeremiahjstanley/e582019634adaa5ccc1d33da6115ee9c)
 * [Express Tutorial](https://github.com/jeremiahjstanley/express-tutorial) - 1, 2, 4
 * [Promise Practice Exercises](https://gist.github.com/jeremiahjstanley/f884250bf631e604876c5c972ee12d1d)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
-
-### Joel OConnor
-
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
-
-### Keeliana Marler
-
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
-
-### Lee Graham
-
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
