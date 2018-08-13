@@ -52,9 +52,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Austin Wiedenman
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/Awiedenman/d4c80d19c071437876fdee248e58b7eb)
+* [Express Tutorial](https://github.com/Awiedenman/express-lesson) - I worked on adding a button that changed the words on the screen on click, I added a response for 404, and I attempted to get a page with sunset pictures to show on another route.
+* [Promise Practice Exercises](https://gist.github.com/Awiedenman/627d37e52a4cda3b4fcafd136af83ad3)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
