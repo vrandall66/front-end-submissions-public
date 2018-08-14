@@ -61,7 +61,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Gavin Love
 
 * [Node Server Tutorial](https://github.com/gavin-love/node-server-pre-work)
-* [Express Tutorial](https://github.com/gavin-love/express-intro) - What additional items did you work on?
+* [Express Tutorial](https://github.com/gavin-love/express-intro) - What additional items did you work on? 1,3,4
 * [Promise Practice Exercises](https://github.com/gavin-love/promises-practice)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
