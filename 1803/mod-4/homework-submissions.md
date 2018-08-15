@@ -88,9 +88,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Quin Hill
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/quinhill/mod4-prework-quin/tree/master/messages)
+* [Express Tutorial](https://github.com/quinhill/mod4-prework-quin/tree/master/express-practice) - sunsets and 404 error
+* [Promise Practice Exercises](https://github.com/quinhill/mod4-prework-quin/tree/master/promises)
 * [House of Vars Blog Post]()
 * [Pattern Party Repo]()
 * [Pattern Party GitHub Pages]()
