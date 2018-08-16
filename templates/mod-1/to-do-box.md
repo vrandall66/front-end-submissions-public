@@ -9,16 +9,14 @@
 * Proficient  
 * Exceptional  
 
-## HTML
-
-#### Accessibility
+## COMP RECREATION / DESIGN
 
 * Novice  
 * Advanced Beginner  
 * Proficient  
 * Exceptional  
 
-#### Style
+## HTML 
 
 * Novice  
 * Advanced Beginner  
@@ -28,66 +26,13 @@
 
 ## CSS
 
-#### Structure of Code
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-#### Implementation
-
 * Novice  
 * Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 
-## JAVASCRIPT
-
-#### Data Types
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-#### Conditional Logic
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-#### Functions & Scope
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-#### Arrays
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-#### Objects & Prototypes
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-#### DOM Manipulation
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-#### Style
+## JS/jQuery
 
 * Novice  
 * Advanced Beginner  
@@ -97,24 +42,13 @@
 
 ## GIT & GITHUB
 
-#### Git
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-#### Github
-
 * Novice  
 * Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 
-## DESIGN
-
-#### Design Concepts
+## Pairing/Collaboration
 
 * Novice  
 * Advanced Beginner  
@@ -122,21 +56,18 @@
 * Exceptional  
 
 
-## PAIRING
-
-#### Collaboration
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional
-
-## TERMINOLOGY
-
-#### Technical Vocabulary
+## Technical Vocabulary
 
 * Novice
 * Advanced Beginner
 * Proficient
 * Exceptional
+
+
+## Surprise and Delight (optional category, but reminder: have fun!)
+
+* Unicorn Rainbows  
+* Hot Fire  
+* Sparkles  
+* Magic 
 
