@@ -30,7 +30,8 @@
 
 [sad code](https://github.com/andrew-t-james/palette-picker/blob/master/public/js/scripts.js)
 
-- I would like to pull out some of the functions into separate smaller single responsibility functions.
+- I would like to pull out some of the functions into separate smaller single responsibility functions. But overall I
+  really enjoyed the DOM traversal practice.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
