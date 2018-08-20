@@ -4,8 +4,7 @@
 
 Comments:
 * Fine articulation and ability to think through a problem, responded to prompting but needed a bit more than we'd like. Little more practice will solidify this. 
-*
-*
+
 
 ## 1. Process
 
@@ -13,21 +12,23 @@ Comments:
 
 ## 2. Fundamental JavaScript & Style
 
-4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring
 3: Application shows strong effort towards organization, content, and refactoring
-2: Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring
-1: Application generates syntax error or crashes during execution
+
+* You're passing in a [currentLetter](https://github.com/dmiller1623/complete-me/blob/master/lib/Trie.js#L16) when instantiating a new Node here, but your Node class doesn't actually take in any [parameters](https://github.com/dmiller1623/complete-me/blob/master/lib/Node.js#L2), so this isn't doing anything.
+
+* This is some really extreme and bizarre [indentation](https://github.com/dmiller1623/complete-me/blob/master/lib/Trie.js#L18)
+
+* This [function](https://github.com/dmiller1623/complete-me/blob/master/lib/Trie.js#L49-L62) should be moved outside to its own method, keeping it within the suggest method makes it much more difficult to test in isolation
+
 
 ## 3. Test-Driven Development & Code Sanitation
 
-4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Linting shows 0 complaints.
-3: Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality. Linting shows five or fewer complaints.
 2: Application makes some use of tests, but the coverage is insufficient. Linting shows ten or fewer complaints.
-1: Application does not demonstrate strong use of TDD. Linting shows more than ten complaints.
+
+* Indentation is also really bizarre in this entire [file](https://github.com/dmiller1623/complete-me/blob/master/test/Trie-test.js)
+
+* Insert method has no tests, and tests are really sparse for suggest. I'd like to see that `getWords` method broken out and tested as well
 
 ## 4. Functional Expectations
 
-4: Application meets all requirements, and implements one extension properly.
 3: Application meets all requirements as laid out per the specification.
-2: Application runs, but does not work properly, or does not meet specifications.
-1: Application does not run, crashes on start.

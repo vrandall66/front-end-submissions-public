@@ -1,0 +1,29 @@
+## Project Name: Retirement Planner
+
+#### Check In: 3
+
+#### Progress made?
+
+The Income info is now being displayed and the data has been reworked to be flatter. Income feature is at about 90% functionality
+just need to add the remove and edit functinality and some styling.
+
+#### What deliverables still need to be completed from your last checkin?
+
+update UI and finish income and expense features
+
+#### Next Steps?
+
+I need to finish creating the expense forms and having that data put into the store.
+
+Info in store needs to be visually available in the UI
+
+graphical interface for retirment calculator
+
+#### What are your concerns (if any)
+
+time managment
+
+#### Deliverables for next checkin:
+
+- [ ] Work on styling!
+- [ ] Meet with Louisa today about style

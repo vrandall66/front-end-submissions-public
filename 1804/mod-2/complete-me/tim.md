@@ -4,8 +4,7 @@
 
 Comments:
 * Really good with responding to prompting/guidance during the problem-solving process. Though a little unsure where to start, did well coding out a final solution after talking through it with paper and pencil. Yay!
-*
-*
+* What is this [comma file](https://github.com/TFisch/complete_me/blob/master/%2C)?
 
 ## 1. Process
 
@@ -13,10 +12,11 @@ Comments:
 
 ## 2. Fundamental JavaScript & Style
 
-4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring
 3: Application shows strong effort towards organization, content, and refactoring
-2: Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring
-1: Application generates syntax error or crashes during execution
+
+* Rather than having `endOfWord` represent a [boolean](https://github.com/TFisch/complete_me/blob/master/lib/Node.js#L3), you could default it to null then replace it with the completed word value. This makes some other trie logic a bit easier (e.g. finding a particular word, you could traverse down to the last letter and simply return the value of `endOfWord` back rather than checking if `endOfWord` is true, then returning what the user searched for)
+* Creating a function inside of a method like [this](https://github.com/TFisch/complete_me/blob/master/lib/PrefixTrie.js#L47-L57) makes your code harder to test. Break this out into it's own method.
+* I think I'd prefer if your Node class had some sort of `data` or `value` property to hold the letter that it represents. I see you're using the letters as keys under children which also works well, but having a designated property for that value might be a bit more explicit/readable.
 
 ## 3. Test-Driven Development & Code Sanitation
 
@@ -25,9 +25,17 @@ Comments:
 2: Application makes some use of tests, but the coverage is insufficient. Linting shows ten or fewer complaints.
 1: Application does not demonstrate strong use of TDD. Linting shows more than ten complaints.
 
+* Some of [these](https://github.com/TFisch/complete_me/blob/master/test/PrefixTrie-test.js#L15-L33) are a little redundant. I would simply assert that count is defaulted to 0 (maybe in a separate it block that asserts against default instance properties), then assert that it updates based on how many words are inserted.
+
+* Insert should also test that no new nodes are added if you try to add a duplicate word.
+
+* [This](https://github.com/TFisch/complete_me/blob/master/test/PrefixTrie-test.js#L55-L57) it block doesn't have any assertions in it.
+
+* In [this](https://github.com/TFisch/complete_me/blob/master/test/PrefixTrie-test.js#L72-L78) test I would also insert a word that *doesn't* start with the letter c, and make sure it doesn't make it into the suggestions array. As the test is written now, it could potentially just be returning an array of all the words in the trie.
+
+
 ## 4. Functional Expectations
 
 4: Application meets all requirements, and implements one extension properly.
-3: Application meets all requirements as laid out per the specification.
-2: Application runs, but does not work properly, or does not meet specifications.
-1: Application does not run, crashes on start.
+
+* Delete completed upon eval

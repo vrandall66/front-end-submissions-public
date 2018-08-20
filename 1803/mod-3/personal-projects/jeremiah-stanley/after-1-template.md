@@ -1,25 +1,23 @@
 ## Project Name: Hello, World
 
-#### Check In: 1
+#### Check In: 2
 
 #### Progress made?
-* Got content in the store and rendering on the DOM
-* Rendering Graphs
-* Applied Middleware
+* Set up countries in array for comparative analysis
+* Complete Routing
+* Add Validation on Form
+* Add Loading Component
+* Import WWDI dataSet 
 
 #### What deliverables still need to be completed from your last checkin?
-* More focus on visual aspect of application
+* Render Graphs
 
 #### Next Steps?
 * Import autocomplete trie for countries
-* Style Application
-* Complete Routing
-* Add loading state prop
-* Add comparison feature to Graphs
-* Import WWDI data set and clean it
+* Continue to Style Application
 
 #### What are your concerns (if any)
-* Downdrop menus code clarity
+* Finding a usable Chart library
 
 #### Deliverables for next checkin:
 
