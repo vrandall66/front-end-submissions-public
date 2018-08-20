@@ -17,7 +17,7 @@
 
 #### Were you able to complete the base functionality?
 
-I got everything except deleting from the backend.
+Yes
 
 #### Which extensions, if any, did you complete?
 
@@ -30,10 +30,10 @@ I got everything except deleting from the backend.
 * Line 77 get request. I don't think I did it the "best" way but found a way to do it without doing two fetches for one thing because my mentor told me he'd laugh me out of the room if I did that in an interview and that's the purpose of sql... ha so I did it. Not sure if it's "nested" but I like it. 
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code](https://github.com/RyanH5/palette-picker/blob/master/server.js)
+[sad code](https://github.com/RyanH5/palette-picker/blob/master/public/js/scripts.js)
 
 * Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
-* Line 115 I didn't get the delete because it was late sunday night and I was being an idiot but think that should be easy so going to work on that when I get a chance.
+* Line 2 felt pretty hacky. I'd also like to have the lock button make the color display in another area and THOSE are the colors that save. More intuitive and save color palettes of varying lengths.
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 <img src="https://github.com/RyanH5/palette-picker/blob/master/server.js">
@@ -43,12 +43,12 @@ I got everything except deleting from the backend.
 #### Link to Design Inspiration
 
 * Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
+https://dribbble.com/shots/4526581-Paper-Space-Illustration
+This was my design inspiration. The new perspective helped me design my backend, though much like this image my server file was maybe more nested(?) than it should have been. 
 
 #### Please feel free to ask any other questions or make any other statements below!
 
-Anything else you wanna say!
-
------
+Great project. Sort of a shocker getting back into JS without state, store, or lifecycle methods. Bit slow out of the gate (perhaps took too much time off over break) but by the end felt pretty solid. Making a variation of this will probalby be first thing I do when I graduate to keep coding because it works on all my skills. Though if I'm being honest I'll use React.
 
 
 # Instructor Feedback (Instructor Name)
