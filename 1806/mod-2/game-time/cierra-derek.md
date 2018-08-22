@@ -5,6 +5,8 @@
 
 Comments:
 * Many opportunities for refactoring, removing dead or unused code, and making long if/else conditions a bit more readable
+* Some instances where methods and properties are on the wrong classes and should be moved to a more appropriate place
+* Seemed to have a difficult pairing with working styles/collaborating on solving problems
 * Worked really hard to get changes in over the weekend
 
 ### Functional Expectations
@@ -14,14 +16,13 @@ Comments:
 * 2 - Application has some missing functionality but no crashes
 * 1 - Application crashes during normal usage
 
-* Scores don't update when lives are lost
+* Pending: Scores don't update when lives are lost
 
 ### User Interface
 
-* 4 - The application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
 * 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* 2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* 1 - The application is confusing or difficult to use.
+
+* Scores on the DOM aren't in the best spot, and text is tiny in comparison to the rest of the game
 
 ### Testing
 
