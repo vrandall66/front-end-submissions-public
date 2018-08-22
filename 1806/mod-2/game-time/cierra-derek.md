@@ -1,11 +1,11 @@
 # Game Time
-* Students:
-* Evaluator:
+* Students: Cierra & Derek
+* Evaluator: Brittany
+
 
 Comments:
-*
-*
-*
+* Many opportunities for refactoring, removing dead or unused code, and making long if/else conditions a bit more readable
+* Worked really hard to get changes in over the weekend
 
 ### Functional Expectations
 
@@ -13,6 +13,8 @@ Comments:
 * 3 - Application is fully playable without crashes or bugs
 * 2 - Application has some missing functionality but no crashes
 * 1 - Application crashes during normal usage
+
+* Scores don't update when lives are lost
 
 ### User Interface
 
