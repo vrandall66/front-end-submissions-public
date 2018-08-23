@@ -1,50 +1,30 @@
-## Student:
-## Evaluator:
+## Student: Mike Duke
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Clean UI/UI - just be sure to replicate the comp exactly unless given creative liberty
+- Use `form` istead of `p` to wrap your inputs
+- Nice job with organization in CSS file!
+- Good naming conventions with JS file - makes code easy to follow
+- Would have liked to see you reach for the extensions/choose your own adventure
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
-* Advanced Beginner  
+ 
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

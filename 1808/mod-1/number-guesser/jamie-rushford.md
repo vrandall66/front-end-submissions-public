@@ -1,50 +1,37 @@
-## Student:
-## Evaluator:
+## Student: Jamie Rushford
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
+- Like the bouncing animation for winning!
+- Be sure to add directions for the user about the range changing - the numbers positined on the side are not intuitive
+- Nice job using forms around inputs
+- Good organization in CSS - look into [clustering related properties](https://github.com/necolas/idiomatic-css) for a different approach to organization
+- Watch formatting in your JS files - follow the style guide [here](https://github.com/turingschool-examples/javascript/tree/master/es5)
+- Work on naming in JS 
+- Nice job with breaking functionality apart
+
 ## Functional Expectations
-
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
+  
 * Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
+ 
 * Sparkles  
-* Magic
