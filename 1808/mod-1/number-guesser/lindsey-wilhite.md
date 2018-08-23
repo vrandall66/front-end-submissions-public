@@ -1,50 +1,47 @@
-## Student:
-## Evaluator:
+## Student: Lindsey
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+* Huge improvement since last time!!!
+
+html
+* love those aria-labels
+* always indent 2 spaces for nested elements only
+
+css
+* consider adding organizational comments
+* dry it up
+
+js
+* create a local var if you find yourself doing the same thing more than once (ie. `var max = maxInput.value;`)
+* super readable!
+* always use verb sounding names for your functions
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
 * Exceptional  
 
-
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
 * Sparkles  
-* Magic
+
