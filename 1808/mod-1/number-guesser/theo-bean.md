@@ -1,50 +1,37 @@
-## Student:
-## Evaluator:
+## Student: Theo Bean
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
+
+- Nice recreation of the comp - some adjustments and things to tighten up
+- Good job using semantic HTML
+- Add comments for organization in CSS. Look into BEM and [SMACSS](https://smacss.com/)
+- Work on naming conventions for classes and JS.
+- Good job articulating what is happening in the code
+- Remove console logs before evals
+- AMAZING gif - nice surprise for winning!!!
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
+* Proficient 
 
 ## Surprise and Delight (reminder: have fun!)
 
 * Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic

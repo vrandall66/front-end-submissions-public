@@ -1,50 +1,38 @@
-## Student:
-## Evaluator:
+## Student: Kylie Stanley
+## Evaluator: Pamela Lovett
 ## Notes/What To Work On:
 
+- Clean UI/UI - just be sure to replicate the comp exactly unless given creative liberty
+- Nice job using semantic HTML
+- Avoid in-line JS in HTML - keep HTML, CSS, JS separated
+- Hooray for alphabetized declarations in CSS!!! Look into [SMACSS](https://smacss.com/) for organizing styles
+- Err on the side of classes before IDs - avoids IDs in CSS
+- Nice job with naming in JS - easy to follow
+- Love the spinning text functionality when you win!
+
 ## Functional Expectations
-
-* Novice: Application meets all of the expectations of phase one.  
-* Advanced Beginner: Application meets all of the expectations of phase two.  
+ 
 * Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
-
-* Novice  
-* Advanced Beginner  
+  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
 * Magic
