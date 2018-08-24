@@ -1,50 +1,51 @@
-## Student:
-## Evaluator:
+## Student: Paul Vangelakos
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+* Good User Experience 
+* Good work on comp design  
+  * pay attention to spacing of elements so that they match
+  * Also pay attention to font weight on buttons
+* Good organization of HTML
+  * Good specificity for classes
+  * Try adding ids for inputs
+  * Good use of semantic tags
+* Make sure to only use text-align on texts
+* Good use of grouping styles 
+* Make sure to use box-sizing: border box so styles work as you expect 
+* Good organization of javascript
+  * All global variables on the top
+  * Good work separating event listeners from functions
+  * Make sure to keep all event listeners together
+* For evals, remove console.logs
+* Nice work on clean and short functions
 
 ## Functional Expectations
 
-* Novice: Application meets all of the expectations of phase one.  
 * Advanced Beginner: Application meets all of the expectations of phase two.  
-* Proficient: Application meets all of the expectations of phase three.  
-* Exceptional: Application meets all of the expectations of phase three and one or more of the extensions.  
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Surprise and Delight (reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
 * Sparkles  
-* Magic
