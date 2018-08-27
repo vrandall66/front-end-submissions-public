@@ -1,11 +1,9 @@
 # Game Time
-* Students:
-* Evaluator:
+* Students: Mark & Alex E
+* Evaluator: Brittany
 
 Comments:
-*
-*
-*
+* Cute snake :) 
 
 ### Functional Expectations
 
