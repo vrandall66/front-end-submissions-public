@@ -1,6 +1,6 @@
-### Evaluator:
-### Students:
-### Comments:
+### Evaluator: Christie
+### Students: Kiel & Dennis
+### Comments: Still has to get eslint working
 
 ## SwapiBox Rubric
 
