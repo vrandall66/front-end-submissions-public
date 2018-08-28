@@ -1,6 +1,6 @@
 # Game Time
 * Students: Sara & Tim
-* Evaluator:
+* Evaluator: Brittany
 
 Comments:
 *
