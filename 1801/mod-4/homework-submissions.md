@@ -127,12 +127,12 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 
 ### Sage Vogt
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Node Server Tutorial](https://github.com/SageVanGogt/node-tutorial)
+* [Express Tutorial](https://github.com/SageVanGogt/node-express-tutorial) - What additional items did you work on?
+* [Promise Practice Exercises](https://gist.github.com/SageVanGogt/3087fa9fd336c794b0136d36cb4034d2)
+* [House of Vars Blog Post](https://medium.com/@thurmanvogt/documenting-your-open-source-project-bea7fee11e06)
+* [Pattern Party Repo](https://github.com/SageVanGogt/pattern-party)
+* [Pattern Party GitHub Pages](https://sagevangogt.github.io/pattern-party/)
 
 ### Seamus Quinn
 
@@ -142,9 +142,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
     * Challenge #2: show pics of sunsets if client makes a get request to /sunsets
     * Challenge #1: Added a button that changed the background color of the button when clicked
 * [Promise Practice Exercises](https://gist.github.com/seamus-quinn/2b21edeeb9c4321092bdb422d4dbf565)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@sumaesquinn/another-blog-post-6532d9d34039)
+* [Pattern Party Repo](https://github.com/seamus-quinn/pattrn-party)
+* [Pattern Party GitHub Pages](https://seamus-quinn.github.io/pattrn-party/)
 
 ### Steph Ospina
 
