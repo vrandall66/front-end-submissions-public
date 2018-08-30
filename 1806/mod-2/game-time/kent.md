@@ -1,11 +1,10 @@
 # Game Time
-* Students:
-* Evaluator:
+* Students: Kent
 
 Comments:
-*
-*
-*
+* Make City Class
+* CreateVolley function
+* 
 
 ### Functional Expectations
 
