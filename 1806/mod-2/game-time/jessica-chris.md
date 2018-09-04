@@ -5,7 +5,7 @@
 Comments:
 * Great job taking the project in a creative direction
 * Try to schedule a check-in with instructors before evals happen; it seemed like there were a lot of things that 'clicked' as we spoke that could've been fixed during a check-in
-*
+
 
 ### Functional Expectations
 
