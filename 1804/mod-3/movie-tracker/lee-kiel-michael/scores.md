@@ -1,6 +1,6 @@
-### Evaluator:
-### Students:
-### Comments:
+### Evaluator: Christie
+### Students: Lee, Kiel & Michael
+### Comments:  Missing MSTP and MDTP tests... going to complete before the end of the week
 
 ## Movie Tracker Rubric
 

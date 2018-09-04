@@ -1,6 +1,6 @@
-### Evaluator:
-### Students:
-### Comments:
+### Evaluator: Christie
+### Students: Dennis, Ben & Laura
+### Comments: Excellent job!!!
 
 ## Movie Tracker Rubric
 

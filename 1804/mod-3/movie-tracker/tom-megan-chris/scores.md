@@ -1,5 +1,5 @@
-### Evaluator:
-### Students:
+### Evaluator: Christie
+### Students: Tom, Megan & Chris
 ### Comments:
 
 ## Movie Tracker Rubric
@@ -19,7 +19,6 @@
 ### SASS/SCSS
 
 * Pass - Styles are written using either SASS or SCSS
-* Fail - Styles are written using vanilla CSS
 
 ### Testing
 
