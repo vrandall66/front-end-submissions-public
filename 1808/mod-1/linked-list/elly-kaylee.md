@@ -1,17 +1,6 @@
-## Student: Kristen and Cody
-## Evaluator: David Whitaker
+## Student:
+## Evaluator:
 ## Notes/What To Work On:
-
-HTML
-* Consider using aria-labels on inputs that don't have labels associated with them
-
-CSS
-* Consider using multiple classes where you have a more broad class for shared styles: ie. card-button
-* consider using organizational comments and organizing within rules
-
-JS
-* Work on naming conventions where you say what kind of element you're storing
-* Leverage template literals to write your markup in your js
 
 ## Functional Expectations
 
@@ -23,35 +12,60 @@ JS
 
 ## COMP RECREATION / DESIGN
 
+* Novice  
 * Advanced Beginner  
 * Proficient  
+* Exceptional  
+
 
 ## HTML
 
+* Novice  
 * Advanced Beginner  
 * Proficient  
+* Exceptional  
+
 
 ## CSS
 
+* Novice  
 * Advanced Beginner  
 * Proficient  
+* Exceptional  
+
 
 ## JS/jQuery
 
+* Novice  
 * Advanced Beginner  
 * Proficient  
+* Exceptional
+
 
 ## GIT & GITHUB
 
 * Novice  
 * Advanced Beginner  
+* Proficient  
+* Exceptional  
 
 ## Pairing/Collaboration
 
+* Novice  
 * Advanced Beginner  
+* Proficient  
+* Exceptional  
 
 ## Technical Vocabulary
 
+* Novice
 * Advanced Beginner
 * Proficient
+* Exceptional
 
+## Surprise and Delight (optional category, but reminder: have fun!)
+
+* Unicorn Rainbows  
+* Hot Fire  
+* Sparkles  
+* Magic  

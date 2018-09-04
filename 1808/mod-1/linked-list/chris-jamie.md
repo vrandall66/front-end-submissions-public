@@ -1,71 +1,57 @@
-## Student:
-## Evaluator:
+## Student: Chris and Jamie
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+COMP
+* like the design decision to have the counters at the top of the bookmark section
+
+HTML
+* Consider using aria-labels on inputs that don't have labels associated with them
+* Think about what pluralization in naming means
+
+CSS
+* Love the organizational comments
+* Love the multiple class structure
+
+JS
+* Good naming conventions
+* pull duplicate chunks of code into their own functions and pass arguments where necessary
 
 ## Functional Expectations
 
-* Novice: Application meets all of the functional expectations in Phase One.
-* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
 * Proficient: Application meets all of the functional expectations in Phase Three.
-* Exceptional: You completed Phase Three and did something with Phase Four.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
 * Magic  
+
