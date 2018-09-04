@@ -56,15 +56,15 @@
 
 #### Attach a screenshot or paste the output from your terminal of the result of your test-suite running.
 
-[test suite]()
+![test suite](./images/testing.png)
 
 #### Attach a screenshot or paste the output from your terminal of the result of your linter running.
 
-[linter output]()
+![linter output](./images/linter.png)
 
 #### Attach a screenshot of your TravisCI build passing
 
-[TravisCI build]()
+![TravisCI build](./images/ci.png)
 
 ---
 
