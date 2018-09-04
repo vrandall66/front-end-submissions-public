@@ -9,7 +9,10 @@ Comments:
 
 ### Functional Expectations
 
-* 3 - Application is fully playable without crashes or bugs
+* 4 - Application is fully playable and exceeds the expectations set by instructors
+
+* GH-pages deploy
+
 
 ### User Interface
 
