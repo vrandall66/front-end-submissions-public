@@ -1,74 +1,56 @@
-## Student:
-## Evaluator:
+## Student: Libby and Theo
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+HTML
+* dont forget that meta tag!
+
+CSS
+* Consider adding organizational comments
+* always indent within media queries
+* consider utilizing min-width for containers
+
+JS
+* love that you're using the data-id attr
+* Consider using arrays and leveraging indices to display text ie. qualities
+* Try using debugger more often to test things out
+* if you can pass an object as an argument, do so - instead of passing properties individually
+
+Git/Github
+* Capitalize the subject line
 
 ## Functional Expectations
 
-* Novice  Application meets all of the basic functional expectations of create, edit, delete, persist in local storage.
 * Advanced Beginner Application allows for upvote/downvote and enables searching/filtering as defined in the spec.
 * Proficient  The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals.
-* Exceptional The application meets all of the requirements listed above and implements one or more of the extensions.
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
-
 
 ## CSS
 
-* Novice
-* Advanced
 * Proficient
-* Exceptional
-
 
 ## JS/jQuery
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
-
 
 ## GIT & GITHUB
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
-
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
 
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic 
