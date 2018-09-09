@@ -1,74 +1,73 @@
-## Student:
-## Evaluator:
+## Student: Cody Price & Jamie Rushford
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+* Nice work with the commits and commit messages
+  * Continue to keep working on creating new branches for each branch name
+* Good UI and UX (awesome attention to detail)
+  * The sorting is really solid
+  * I love the sticky nav bar.
+  * Good responsive view to the app as well.  Very good spacing and sizing.
+* Good work using aria-labels and keeping the html clean and using semantic tags
+  * I would load the script after the body
+* Make sure to add border-box to it
+* Organization and alphabetizing properties of styles
+  * Continue to work on controlling main elements without having to use relative positioning
+  * When you have multiple classes with similar styles trying using one class and putting them on those elements
+* Nice work staying away from using global variables
+* Nice use of constructor function
+  * I wouldn't save the html inside of constructor function and localStorage.
+* Instead of saving your ideas individually into local storage, experiment storing them into one key with an array of ideas.  Makes it easier for scalability and keeping your local storage organized.
+* Nice work breaking out functions into smaller functions
+* Might put the qualities inside of an array instead of multiple else if statements
+* Experiment using more array prototype methods over for loops.
+* Functions where you are using an if/else statement to return true or false, try returning the expression
+
+
 
 ## Functional Expectations
 
-* Novice  Application meets all of the basic functional expectations of create, edit, delete, persist in local storage.
-* Advanced Beginner Application allows for upvote/downvote and enables searching/filtering as defined in the spec.
-* Proficient  The application consists of one page with all of the major functionality being provided by jQuery. No approach was taken that is counter to the spirit of the project and its learning goals.
 * Exceptional The application meets all of the requirements listed above and implements one or more of the extensions.
 
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 
 ## HTML
 
-* Novice
-* Advanced Beginner
 * Proficient
 * Exceptional
 
 
 ## CSS
 
-* Novice
 * Advanced
 * Proficient
-* Exceptional
 
 
 ## JS/jQuery
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
 
 
 ## GIT & GITHUB
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
 
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
 
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
 * Magic 
