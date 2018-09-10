@@ -13,3 +13,6 @@ Need to set up router and getting the selected items to display, also implementi
 just QR codes really
 
 #### Deliverables for next checkin:
+
+- Start implementing wireframes
+- Pull in QR code module, start experimenting
