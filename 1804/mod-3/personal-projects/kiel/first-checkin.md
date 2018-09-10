@@ -22,4 +22,6 @@
 * Continue building out the UI
 * Build a workout routine
 * Fix bug with importing audio
+* Break up Create Workout into 4 forms
+
 
