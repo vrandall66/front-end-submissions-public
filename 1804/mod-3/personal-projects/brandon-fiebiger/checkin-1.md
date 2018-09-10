@@ -15,3 +15,9 @@ I need to write some more tests along with some refactoring and touch ups on UI 
 No concerns on my end. All is wonderful!
 
 #### Deliverables for next checkin:
+* Continue testing
+* Fix decimal places for brewery rating
+* Start making it look pretty
+* Refactor how data is getting to the store (button clicks)
+* Start looking into google maps
+
