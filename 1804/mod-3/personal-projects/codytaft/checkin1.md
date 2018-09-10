@@ -21,3 +21,8 @@
 - ** Firebase DB creation and OAuth **
 
 #### Deliverables for next checkin:
+
+- Create Elder account
+- Create Carer account
+- Elder should be able to recieve message based on Carer action
+- Work on implementing wireframes
