@@ -14,7 +14,7 @@
 * Getting the music player working and tests up and running.
 
 ### What are your concerns (if any) 
-*The api doesn't give me the info in the way that I would want so there might be a lot of data scrubbing.
+* The api doesn't give me the info in the way that I would want so there might be a lot of data scrubbing.
 
 ### Deliverables for next checkin:
 * Testing
