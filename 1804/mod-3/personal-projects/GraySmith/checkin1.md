@@ -30,3 +30,6 @@ BeakSeeker
 - twitter oauth set up seems really difficult.
 
 #### Deliverables for next checkin:
+
+- Start implementing wireframes
+- See if we can get twitter auth working
