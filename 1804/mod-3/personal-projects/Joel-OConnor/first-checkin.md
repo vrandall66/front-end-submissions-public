@@ -20,4 +20,8 @@ can't naildown how to make base auth work with user:password setup and my api ke
 
 #### Deliverables for next checkin:
 
-have user interface complete and general styling done. Have local storage completed and get api fully working.
+* have user interface complete and general styling done. 
+* Have local storage completed and get api fully working.
+* Be making fetch call and get data into the store
+* Start testing
+* Continue building out the UI
