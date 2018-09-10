@@ -25,3 +25,5 @@
 
 #### Deliverables for next checkin:
 ###### - Have fetch calls populate redux store
+###### - Work on UI implementation
+###### - Add ability to start trip
