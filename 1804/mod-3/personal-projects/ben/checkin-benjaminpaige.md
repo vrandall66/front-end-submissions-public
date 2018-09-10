@@ -30,3 +30,7 @@ Refactor
 Id really like to have the server / db functional and working propertly. Im struggling with that a bit. 
 
 #### Deliverables for next checkin:
+
+- Code section should have split screen
+- Read up on and user ReactDOMServer
+- Save the generated HTML
