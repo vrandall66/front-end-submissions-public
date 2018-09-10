@@ -19,3 +19,8 @@ Obtain Authorization token so I can make fetch calls.
 Working with OAuth has been pretty challenging so far. Due to Pinterest's security concerns I also needed to access an outside utility for port forwarding. This requires its own level of maitenence.
 
 #### Deliverables for next checkin:
+* Get access token
+* Make fetch and get data in the store 
+* Start testing
+* Start looking into google maps
+
