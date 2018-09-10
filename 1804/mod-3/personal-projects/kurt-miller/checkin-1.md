@@ -2,7 +2,8 @@
 
 Orbital
 
-#### Check In:
+#### Check In: 1
+
 
 #### Progress made?
 
@@ -22,3 +23,7 @@ Testing, make quizzes and start adding weekly 2 reviews on top of week 1 review 
 How to use NASA API for my application other than the APOD API/photos from it.
 
 #### Deliverables for next checkin:
+
+- Answer should show for flash card on click
+- Start implementing quiz
+- Continue to work towards implementing wireframes
