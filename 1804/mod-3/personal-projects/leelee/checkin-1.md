@@ -17,4 +17,8 @@ Better UI, and things appending to the page.  More Components created for pathwa
 Getting the appropriate naming conventions between actions, reducers, props in store, etc.
 
 #### Deliverables for next checkin:
-Have all of the different pages created for all possible routes, properly navigable by clicking the appropriate buttons/NavLinks.  User signUp and Login, along with initial testing of all those things.
+* Get store set up properly and get images in the store
+* Have all of the different pages created for all possible routes, 
+* properly navigable by clicking the appropriate buttons/NavLinks.  
+* Testing
+* Build out UI
