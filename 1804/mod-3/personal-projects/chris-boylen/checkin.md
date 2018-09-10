@@ -21,5 +21,7 @@ How best to clean displayed data that includes element tags?
 Any recommendations to best implement machine learning?
 
 #### Deliverables for next checkin:
-Complete setting up backend, so that users can be added.
-Start testing
+- Complete setting up backend, so that users can be added.
+- Start testing
+- Continue working on UI
+- Add ability to create account
