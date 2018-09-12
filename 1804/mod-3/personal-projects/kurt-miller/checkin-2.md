@@ -25,3 +25,6 @@ Finish remaining review cards and quizzes, along with additional testing. Possib
 
 #### Deliverables for next checkin:
 
+- Get quiz implemented
+- Flash card names should be centerd
+- Logo should take me home
