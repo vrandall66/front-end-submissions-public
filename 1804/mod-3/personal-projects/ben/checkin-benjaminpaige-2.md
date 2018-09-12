@@ -27,4 +27,6 @@ still have a small issue with router and time management for remaining issues
 
 #### Deliverables for next check in:
 
-
+- Clean up non NavLinks
+- Add context to app for users
+- Get HTML string to display as page
