@@ -21,3 +21,7 @@
 - Still dont quite grasp the flow of twilio, express, knex, ngrok...
 
 #### Deliverables for next checkin:
+
+- Focus on styling throughout app
+  - Login flow, account creation, account page
+- Continue on sending/recieving SMS
