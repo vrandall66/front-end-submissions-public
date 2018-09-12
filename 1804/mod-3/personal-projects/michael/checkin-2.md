@@ -22,4 +22,8 @@
 
 - Linking the searched location with the weather and campground data at the same time.
 
-#### Deliverables for next checkin: s
+#### Deliverables for next checkin: 
+* Display weather
+* Continue Testing
+* Bring in camping sites
+* Continue working on styling
