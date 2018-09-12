@@ -24,3 +24,11 @@ testing fetches are hard.
 #### Deliverables for next checkin:
 
 have rental data managed fully and user able to request quote for item delivery.
+
+* Testing!!!
+* Finish building out the UI/styling
+* Prop Types
+* Populate rental items
+* Get shipping quotes
+* Add a new rental
+
