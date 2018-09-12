@@ -22,3 +22,8 @@ Meetup Matcher
   *  How to authenticate user in multiple components?
   
 #### Deliverables for next checkin:
+
+  * Style nav bar
+  * Strip out HTML tags on found meetups
+  * Style user page
+  * Save user preferences || show user preferences
