@@ -26,3 +26,7 @@
 * having enough time to implement all there new concepts/technologies
 
 #### Deliverables for next checkin:
+* Start setting up database (user table and wishlist table)
+* Start testing
+* Continue building out the UI
+
