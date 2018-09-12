@@ -21,3 +21,6 @@
 
 #### Deliverables for next checkin:
 
+##### - images for 'planets'
+##### - work on styling
+##### - add some jQuery to the project
