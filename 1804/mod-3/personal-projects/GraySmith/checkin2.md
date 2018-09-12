@@ -28,3 +28,7 @@ BeakSeeker
 - router setup
 
 #### Deliverables for next checkin:
+
+- Post something to Twitter
+- Work on the UI
+- Condense routes to single file
