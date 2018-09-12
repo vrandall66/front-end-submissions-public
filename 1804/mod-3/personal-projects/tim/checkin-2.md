@@ -15,3 +15,9 @@ More testing, propTypes, rendering dead drops board and making post.
 I seem to be making more fetch calls after data is obtained from Pinterest. I need to cut this down in order to avoid getting throttled.
 
 ### Deliverables for next checkin:
+• Styling
+• Display images and comments
+• claim deaddrop functionality
+• Prop Types
+• Testing
+• Nice-to-have is the map functionality
