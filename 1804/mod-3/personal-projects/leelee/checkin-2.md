@@ -20,5 +20,10 @@ mapStateToProps tests are proving difficult, but I'll double check in the docs t
 That my project wont be interesting for anyone who is not a flat earth believer.
 
 #### Deliverables for next checkin:
+* Testing
+* Continue working styling
+* Be able to add comments to images
+* Add prop-types
+* Show debunks wit comments for printing
 Implement middleware(thunks).
 Accountability around having completed test suites.  
