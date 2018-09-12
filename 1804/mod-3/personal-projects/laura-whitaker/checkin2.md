@@ -22,3 +22,7 @@
 * Still can't get my setTimeout to work in order to get all the favorites from the api
 
 #### Deliverables for next checkin:
+* Continue working on getting all favorites
+* Testing
+* Prop-types
+* Quey database
