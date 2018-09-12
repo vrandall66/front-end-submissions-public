@@ -16,3 +16,8 @@ finishing functionality
 how to link my qr code to my localhost when the user wont have the server running
 
 ##Deliverables for next checkin:
+
+- Add app context so users know what this does
+- Work on styling of cards
+- Style and basic nav links
+- Continue to work on testing
