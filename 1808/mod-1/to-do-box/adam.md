@@ -1,73 +1,44 @@
-## Students:
-## Evaluator:
+## Students: Adam
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+CSS
+* Consider organizational comments
+* Pull duplicate declarations into a more broad class rule
+
+JS
+* Work on style!!!!!!
+* Always have the style guides open
+* Think about keeping your data as objects - separate from the html
 
 ## Functional Expectations
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 ## HTML 
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
-
-## Pairing/Collaboration
-
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
-* Proficient
-* Exceptional
-
-
-## Surprise and Delight (optional category, but reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic 
 

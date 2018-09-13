@@ -1,73 +1,57 @@
-## Students:
-## Evaluator:
+## Students: Jake and Justin
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+HTML 
+* Make sure aria-labels are not providing redundant info
+* Name things more based on functionality instead of location as location will change
+
+CSS
+* Love the organizational comments
+* Love the multiple class architecture
+* Think about using min-width on containers
+
+JS
+* Think about utilizing early returns more (ie. filter)
+* Think about where you can pass arguments when there is duplication between functions
+* JQuery `.on()` allows for event delegation
+* Style has some inconsistencies with spacing and semicolons
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
 * Exceptional  
 
 ## HTML 
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
-
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
-
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
-* Exceptional
-
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
-* Unicorn Rainbows  
 * Hot Fire  
-* Sparkles  
-* Magic 
 
