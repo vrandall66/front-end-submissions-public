@@ -1,6 +1,10 @@
-## Student:
-## Evaluator:
+## Student: Elly and Kylee
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- make sure you get all the fonts pulled in!
+- good attention to detail in the comp, refactor to have fewer media queries as the screen size breaks down
+- 
 
 ## Functional Expectations
 
@@ -71,4 +75,4 @@
 * Unicorn Rainbows  
 * Hot Fire  
 * Sparkles  
-* Magic 
+* Magic
