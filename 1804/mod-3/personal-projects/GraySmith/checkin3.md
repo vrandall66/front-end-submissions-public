@@ -33,3 +33,7 @@ BeakSeeker
 - testing some of this asynchronus stuff, mainly the thunks with the DB calls
 
 #### Deliverables for next checkin:
+
+- Fix styling problems
+- Work on testing
+- Work through next steps list
