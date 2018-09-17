@@ -20,3 +20,5 @@
 
 #### Deliverables for next checkin:
   * Apply some level of machine learning recommendations based on user preferences
+  * Make sure everything is tested
+  * Fix problem with routes regarding user selected topics
