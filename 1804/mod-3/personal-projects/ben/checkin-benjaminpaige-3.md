@@ -25,4 +25,6 @@ make responsive
 
 #### Deliverables for next check in:
 
-
+- New button for 'check out your page'
+- See if you can deploy app
+- Should not say 'Review custom page'
