@@ -1,0 +1,23 @@
+## Planet Express
+
+#### Check in:
+##### Monday Sept 17th, 2018
+
+#### Progress made?
+##### - Redesign user journey to destination
+##### - Add jQuery scrolling animations
+##### - Increased coverage of testing to +65%
+##### - Cleaned up SCSS
+
+#### What deliverables still need to be completed from your last checkin?
+
+#### Next Steps?
+##### - Complete testing of thunks
+##### - Refine CSS styling
+##### - Add testing for jQuery
+
+#### What are your concerns (if any)
+##### - testing jQuery dom manipulation
+
+#### Deliverables for next checkin:
+##### - Have an app
