@@ -21,3 +21,7 @@
 - Climate change, the energy crisis, corruption in the goverment and making sure my app is fully tested.
 
 #### Deliverables for next checkin:
+
+- Need dashboard (elder and carer)
+- Add user login
+- Tested throughout
