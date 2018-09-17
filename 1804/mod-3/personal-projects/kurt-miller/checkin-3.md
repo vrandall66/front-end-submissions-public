@@ -22,3 +22,8 @@ Testing and refactoring.
 Testing my thunks.
 
 #### Deliverables for next checkin:
+
+- Quiz answers should not show duplicates
+- Results page should tell me what I got wrong
+- Focus on testing
+- See if you can deploy app
