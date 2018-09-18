@@ -47,9 +47,9 @@ A good project idea should:
 - Fail - There are components missing proptype validation.
 
 ### README Updates
+
 - Pass - The README.md file has been updated with a description of the project, the team, and how to get it up and
   running
-- Fail - The boilerplate README is still in place
 
 ### Code Sanitation
 
