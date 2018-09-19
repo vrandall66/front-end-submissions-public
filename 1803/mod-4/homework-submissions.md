@@ -102,9 +102,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
   - What additional items did you work on?
     (1,2,4)
 * [Promise Practice Exercises](https://gist.github.com/RyanH5/9d978fde18d798e964c1474e6c4e120d)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@marika.ross/i-had-never-given-much-thought-to-the-distinction-between-being-a-big-idea-person-versus-one-who-is-32e0a7ec14eb)
+* [Pattern Party Repo](https://github.com/marikaross/Pattrn-Party)
+* [Pattern Party GitHub Pages](https://marikaross.github.io/Pattrn-Party/)
 
 ### Spenser Leighton
 
