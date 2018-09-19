@@ -65,8 +65,8 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 4. Challenge #1: Added a button that changed the background color of the button when clicked
 * [Promise Practice Exercises](https://gist.github.com/danielafcarey/20e54f117d445a20b43a531dc8b87d5e)
 * [House of Vars Blog Post](https://medium.com/@danielafcarey/contributing-to-your-first-open-source-project-4244edb1f3b8)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/danielafcarey/pattrn-party)
+* [Pattern Party GitHub Pages](https://danielafcarey.github.io/pattrn-party/)
 
 ### David Doc Daughtery
 
@@ -94,7 +94,7 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Promise Practice Exercises](https://github.com/hdechat/Promise-Practice)
 * [House of Vars Blog Post](https://medium.com/@hdechat/my-first-pull-request-24bf78cd9522)
 * [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party GitHub Pages](https://hdechat.github.io/Pattrn-Party/)
 
 ### Jack Laird
 
@@ -121,18 +121,18 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://gist.github.com/meloncatty/ce7bf965514f1c5803d7285371dbd5c2) - What additional items did you work on?
 + Completed further challenges 1, 2 and 3
 * [Promise Practice Exercises](https://gist.github.com/meloncatty/ad65447ebe95b4b4fe367031a436fff8)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@petalhead/my-first-open-source-contribution-a9865801a3ca)
+* [Pattern Party Repo](https://github.com/meloncatty/pattrn-party)
+* [Pattern Party Github Pages](https://meloncatty.github.io/pattrn-party)
 
 ### Sage Vogt
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Node Server Tutorial](https://github.com/SageVanGogt/node-tutorial)
+* [Express Tutorial](https://github.com/SageVanGogt/node-express-tutorial) - What additional items did you work on?
+* [Promise Practice Exercises](https://gist.github.com/SageVanGogt/3087fa9fd336c794b0136d36cb4034d2)
+* [House of Vars Blog Post](https://medium.com/@thurmanvogt/documenting-your-open-source-project-bea7fee11e06)
+* [Pattern Party Repo](https://github.com/SageVanGogt/pattern-party)
+* [Pattern Party GitHub Pages](https://sagevangogt.github.io/pattern-party/)
 
 ### Seamus Quinn
 
@@ -142,9 +142,9 @@ I did the first three additional problems - Add a client-side JavaScript file, M
     * Challenge #2: show pics of sunsets if client makes a get request to /sunsets
     * Challenge #1: Added a button that changed the background color of the button when clicked
 * [Promise Practice Exercises](https://gist.github.com/seamus-quinn/2b21edeeb9c4321092bdb422d4dbf565)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@sumaesquinn/another-blog-post-6532d9d34039)
+* [Pattern Party Repo](https://github.com/seamus-quinn/pattrn-party)
+* [Pattern Party GitHub Pages](https://seamus-quinn.github.io/pattrn-party/)
 
 ### Steph Ospina
 
@@ -166,8 +166,8 @@ I did the first three additional problems - Add a client-side JavaScript file, M
 * [Express Tutorial](https://github.com/tonyr729/mod4-prework-express) - Additional items 1-3
 * [Promise Practice Exercises](https://github.com/tonyr729/mod4-prework-promises)
 * [House of Vars Blog Post](https://medium.com/@tonyr729/my-first-open-source-experience-9a916ce0bd2)
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Pattern Party Repo](https://github.com/tonyr729/tr-pattern-party)
+* [Pattern Party GitHub Pages](http://stormy-rule.surge.sh/) GH pages was @#!$ed so  had to use surge
 
 ### Tyler McNamara
 

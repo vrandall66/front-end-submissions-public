@@ -1,13 +1,14 @@
-## Students:
+## Student:
 ## Evaluator:
 ## Notes/What To Work On:
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Novice: Application meets all of the functional expectations in Phase One.
+* Advanced Beginner: Application meets all of the functional expectations in Phase Two.
+* Proficient: Application meets all of the functional expectations in Phase Three.
+* Exceptional: You completed Phase Three and did something with Phase Four.
+
 
 ## COMP RECREATION / DESIGN
 
@@ -16,7 +17,8 @@
 * Proficient  
 * Exceptional  
 
-## HTML 
+
+## HTML
 
 * Novice  
 * Advanced Beginner  
@@ -37,7 +39,7 @@
 * Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
+* Exceptional
 
 
 ## GIT & GITHUB
@@ -47,14 +49,12 @@
 * Proficient  
 * Exceptional  
 
-
 ## Pairing/Collaboration
 
 * Novice  
 * Advanced Beginner  
 * Proficient  
 * Exceptional  
-
 
 ## Technical Vocabulary
 
@@ -63,11 +63,9 @@
 * Proficient
 * Exceptional
 
-
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
 * Unicorn Rainbows  
 * Hot Fire  
 * Sparkles  
-* Magic 
-
+* Magic  

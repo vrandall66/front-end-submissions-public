@@ -1,0 +1,23 @@
+## Project Name: BBQ Tracker
+
+#### Check In: 4
+
+#### Progress made?
+  *Added Mark as Visited functionality, loading gif, made progress on CSS
+
+#### What deliverables still need to be completed from your last checkin?
+  *CSS
+
+#### Next Steps?
+  *CSS
+  *Testing
+  *bug-fixes
+
+#### What are your concerns (if any)
+
+#### Deliverables for next checkin:
+
+- [ ] Keep stlying the details page
+- [ ] Form should only take valid numbers
+- [ ] Past visit should link back to restaurant details
+- [ ] Add pictures for restaurants to visited page
