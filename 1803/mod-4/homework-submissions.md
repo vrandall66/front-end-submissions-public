@@ -120,9 +120,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/tmcjunkinmarquis/Node-Server-Tutorial)
 * [Express Tutorial](https://github.com/tmcjunkinmarquis/Express-Tutorial) - What additional items did you work on? 1,2,3,4
 * [Promise Practice Exercises](https://github.com/tmcjunkinmarquis/prework)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/p/bf0c7692908d/edit)
+* [Pattern Party Repo](https://github.com/tmcjunkinmarquis/pattrn-party)
+* [Pattern Party GitHub Pages](https://tmcjunkinmarquis.github.io/pattrn-party/)
 
 ### Tory Dannenberg
 
