@@ -36,9 +36,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/airum82/mod4-homework/tree/master/node-lesson)
 * [Express Tutorial](https://github.com/airum82/mod4-homework/tree/master/express-lesson) - What additional items did you work on? 1, 2 and 4
 * [Promise Practice Exercises](https://github.com/airum82/mod4-homework/tree/master/prework-promise)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@airum82/first-time-open-source-contribution-22644f0c8169)
+* [Pattern Party Repo](https://github.com/airum82/pattern-party)
+* [Pattern Party GitHub Pages](https://airum82.github.io/pattern-party/)
 
 ### Austin Wiedenman
 
