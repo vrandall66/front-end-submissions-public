@@ -1,65 +1,57 @@
-## Students:
-## Evaluator:
+## Students: Hillary and Jamie
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- really nice looking UI
+- nice animations
+- clean, tight CSS
+- really well executed CSS
+- super tight, clean JS
+- very thoughtful, well factored and smart execution of JS
+- GREAT JOB!!!!!
 
 ## Functional Expectations
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
-## HTML 
+## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
 * Exceptional  
 
 
 ## Technical Vocabulary
 
-* Novice
-* Advanced Beginner
 * Proficient
 * Exceptional
 
@@ -67,7 +59,3 @@
 ## Surprise and Delight (optional category, but reminder: have fun!)
 
 * Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic 
-

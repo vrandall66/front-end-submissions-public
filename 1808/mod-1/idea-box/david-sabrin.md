@@ -2,7 +2,6 @@
 ## Evaluator: Louisa
 ## Notes/What To Work On:
 
-``
 ## Functional Expectations
 
 * Novice  Application meets all of the basic functional expectations of create, edit, delete, persist in local storage.

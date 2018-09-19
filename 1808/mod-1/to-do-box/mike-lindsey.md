@@ -1,67 +1,54 @@
-## Students:
-## Evaluator:
+## Students: Mike and Lindsey
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- inline editing
+- UI looks nice, thoughtful and clean attention to details
+- caught that there were many unused properties in the CSS and did a good job cleaning it up!
+- JS is clean, a couple spots that could be a little DRY-er (upvote/downvote) but overall it's easy to read and clear
+- well done!
 
 ## Functional Expectations
 
-* Novice  
+- got to first part of phase three
+
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
-## HTML 
+## HTML
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
+
 
 
 ## JS/jQuery
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## GIT & GITHUB
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## Pairing/Collaboration
 
-* Novice  
-* Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 
 ## Technical Vocabulary
 
-* Novice
 * Advanced Beginner
 * Proficient
-* Exceptional
 
 
 ## Surprise and Delight (optional category, but reminder: have fun!)
@@ -69,5 +56,4 @@
 * Unicorn Rainbows  
 * Hot Fire  
 * Sparkles  
-* Magic 
-
+* Magic

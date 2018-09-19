@@ -1,59 +1,50 @@
-## Students:
-## Evaluator:
+## Students: Libby and Eric
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- code is in a good place for a refactor
+- good shared ownership of codebase, you are both able to speak to what it's doing and the thought process that went into it
 
 ## Functional Expectations
 
-* Novice  
+- halfway though phase 3
+
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
+* Proficient   
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
-## HTML 
+## HTML
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## JS/jQuery
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## GIT & GITHUB
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Pairing/Collaboration
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
 
 ## Technical Vocabulary
@@ -69,5 +60,4 @@
 * Unicorn Rainbows  
 * Hot Fire  
 * Sparkles  
-* Magic 
-
+* Magic
