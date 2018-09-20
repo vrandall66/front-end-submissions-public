@@ -27,9 +27,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/andrew-t-james/mod4-pre-work)
 * [Express Tutorial](https://github.com/andrew-t-james/mod4-pre-work) - Complete through 4
 * [Promise Practice Exercises](https://github.com/andrew-t-james/mod4-pre-work)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [Submitted in a DM to Robbie](https://www.youtube.com/watch?v=xfr64zoBTAQ)
+* [Pattern Party Repo](https://github.com/andrew-t-james/pattern-party)
+* [Pattern Party GitHub Pages](https://pattryn-party-2018.surge.sh/)
 
 ### Arram Mandel
 
@@ -98,7 +98,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Ryan Harrington
 
 * [Node Server Tutorial](https://gist.github.com/RyanH5/ade02a4f0c48fb08775f58a21ccd9f4d)
-* [Express Tutorial](https://github.com/RyanH5/express-tutorial) 
+* [Express Tutorial](https://github.com/RyanH5/express-tutorial)
   - What additional items did you work on?
     (1,2,4)
 * [Promise Practice Exercises](https://gist.github.com/RyanH5/9d978fde18d798e964c1474e6c4e120d)
