@@ -91,9 +91,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Node Server Tutorial](https://github.com/quinhill/mod4-prework-quin/tree/master/messages)
 * [Express Tutorial](https://github.com/quinhill/mod4-prework-quin/tree/master/express-practice) - sunsets and 404 error
 * [Promise Practice Exercises](https://github.com/quinhill/mod4-prework-quin/tree/master/promises)
-* [House of Vars Blog Post]()
-* [Pattern Party Repo]()
-* [Pattern Party GitHub Pages]()
+* [House of Vars Blog Post](https://medium.com/@quinhill/my-first-dive-into-open-source-adb3f432306f)
+* [Pattern Party Repo](https://github.com/quinhill/pattrn-party)
+* [Pattern Party GitHub Pages](https://quinhill.github.io/pattrn-party/)
 
 ### Ryan Harrington
 
