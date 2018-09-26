@@ -58,7 +58,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Joel OConnor
 
-* [Node Server Tutorial]()
+* [Node Server Tutorial](https://github.com/JoOCon/intro-to-node)
 * [Express Tutorial]() - What additional items did you work on?
 * [Promise Practice Exercises]()
 
