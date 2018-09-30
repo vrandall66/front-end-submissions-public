@@ -46,9 +46,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Gray Smith
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/GraySmith00/node-messages-intro)
+* [Express Tutorial](https://github.com/GraySmith00/express-intro) - What additional items did you work on? sunsets enpoint, external data file for json enpoint, custom 404 page
+* [Promise Practice Exercises](https://github.com/GraySmith00/promises-prework)
 
 ### Jesse McFadden
 
