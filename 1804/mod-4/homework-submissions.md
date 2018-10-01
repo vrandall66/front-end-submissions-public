@@ -28,9 +28,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Chris Boylen
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/chrisboylen/md4-node-prework.git)
+* [Express Tutorial](https://github.com/chrisboylen/express-prework.git) - Items 1, 2, and 3.
+* [Promise Practice Exercises](https://github.com/chrisboylen/promises-prework.git)
 
 ### Cody Taft
 
