@@ -23,7 +23,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ### Brandon Fiebiger
 
 * [Node Server Tutorial](https://github.com/brandonfiebiger/mod-4-prework/tree/master/messages)
-* [Express Tutorial](https://github.com/brandonfiebiger/mod-4-prework/tree/master/express-prework) - What additional items did you work on?
+* [Express Tutorial](https://github.com/brandonfiebiger/mod-4-prework/tree/master/express-prework) - What additional items did you work on? 2, 3, 4
 * [Promise Practice Exercises](https://github.com/brandonfiebiger/mod-4-prework/tree/master/promises)
 
 ### Chris Boylen
