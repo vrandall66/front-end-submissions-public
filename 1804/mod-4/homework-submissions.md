@@ -82,9 +82,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Lee Graham
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/TwirlingGoddess/messages/tree/master)
+* [Express Tutorial](https://github.com/TwirlingGoddess/express-server) - What additional items did you work on? 1, 2, 3, & 4
+* [Promise Practice Exercises](https://github.com/TwirlingGoddess/promises/tree/master)
 
 ### Michael Lyons
 
