@@ -70,9 +70,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Kurt Miller
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/kmiller9393/messages)
+* [Express Tutorial](https://github.com/kmiller9393/express-intro) - What additional items did you work on? 1, 3 and 4
+* [Promise Practice Exercises](https://github.com/kmiller9393/promises)
 
 ### Laura Whitaker
 
