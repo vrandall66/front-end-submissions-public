@@ -100,9 +100,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Tim Fischer
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/TFisch/Node.js_Prework)
+* [Express Tutorial](https://github.com/TFisch/express_tutorial) - 1,3,4
+* [Promise Practice Exercises](https://github.com/TFisch/promises_practice)
 
 ### Tom King
 
