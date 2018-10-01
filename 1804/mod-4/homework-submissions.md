@@ -106,6 +106,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Tom King
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/tomkingkong/Node-Server-Tutorial)
+* [Express Tutorial](https://github.com/tomkingkong/Express-Tutorial) - 1-4
+* [Promise Practice Exercises](https://github.com/tomkingkong/promises-practice)
