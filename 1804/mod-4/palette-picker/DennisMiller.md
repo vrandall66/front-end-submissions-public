@@ -20,8 +20,7 @@
 All functionality is complete
 
 #### Link to an image of your wireframe(s)
-[wireframes]()
-I had physical drawings of my wireframes
+[wireframes](IMG_0857.JPG)
 
 #### Which extensions, if any, did you complete?
 
