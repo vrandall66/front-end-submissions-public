@@ -11,13 +11,13 @@
 [heroku](https://codys-palette-picker.herokuapp.com/)
 
 #### Link to your annotated server file
-[annotated server file]()
+[annotated server file](https://github.com/codytaft/palette-picker/tree/annotated-server)
 
 ## Completion
 
 #### Were you able to complete the base functionality?
 
-Yes, except a minor bug with the lock functionality.
+Yes, except a minor bug with the lock functionality, and i still need to annotate my server file
 
 #### Link to an image of your wireframe(s)
 <img width="898" alt="screen shot 2018-10-08 at 8 24 43 am" src="https://user-images.githubusercontent.com/25713264/46614680-b3e77200-cad3-11e8-9a3b-881aa5c4063e.png">
@@ -29,14 +29,14 @@ None
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code]()
+[happy code](https://user-images.githubusercontent.com/25713264/46618113-e85f2c00-cadb-11e8-923f-f383a8e13503.png)
 
-* Why were you proud of this piece of code?
+* I figured out how to make another endpoint.  Didn't realize this before to just add another /
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code]()
+[sad code](https://user-images.githubusercontent.com/25713264/46617903-3e7f9f80-cadb-11e8-9720-9efadac3ce33.png)
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+* Couldnt figure out how to get the lock funcitonaility without duplciating.  Wasted a lot of time on it, though i bet i could do it now with what i learned after.
 
 #### Link to Design Inspiration
 
@@ -46,7 +46,7 @@ None
  
 #### Please feel free to ask any other questions or make any other statements below!
 
-Anything else you wanna say!
+I enjoyed this. Got hung up on little things, but I feel like i have a really good grasp on how to use knex/express now!!!
 
 -----
 
