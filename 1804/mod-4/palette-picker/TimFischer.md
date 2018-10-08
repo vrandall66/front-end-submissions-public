@@ -27,18 +27,20 @@ yes.
 # Code Quality
 
 #### Link to a specific block of your code on GitHub that you are proud of
-[happy code]()
+[happy code](https://github.com/TFisch/palette_picker/blob/7c01a3fed71e9c8cfe6cd6e3917d25fb0292e700/public/css/styles.css#L134-L148)
 
-* Why were you proud of this piece of code?
+I was really stoked on how this logo turned out.
 
 #### Link to a specific block of your code on GitHub that you feel not great about
-[sad code]()
+[sad code](https://github.com/TFisch/palette_picker/blob/7c01a3fed71e9c8cfe6cd6e3917d25fb0292e700/public/js/scripts.js#L220-L232)
 
-* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+I feel like this code is a little repetitve. It could be better refactored using the classnames npm package.
 
 * Show us what you used as design inspiration (another color picker site, a dribbble UI element, a user flow, etc.) and explain what you stole from it
 
 [Inspiration](https://dribbble.com/shots/2867961-Drop-down-menu)
+
+I took this drop down menu idea as inspiration for the project selector.
 
 
 #### Please feel free to ask any other questions or make any other statements below!
