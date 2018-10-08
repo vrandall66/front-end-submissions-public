@@ -20,7 +20,7 @@
 All functionality is complete
 
 #### Link to an image of your wireframe(s)
-[wireframes](IMG_0857.JPG)
+[wireframes](https://github.com/dmiller1623/pallete-picker/blob/master/public/images/IMG_0857.JPG)
 
 #### Which extensions, if any, did you complete?
 
