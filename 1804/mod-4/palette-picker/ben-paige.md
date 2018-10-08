@@ -21,7 +21,7 @@ Yes, But i was not able to get the color palettes to generate a matching set of 
 
 #### Link to an image of your wireframe(s)
 
-[wireframes]() - Did not complete wireframes :( 
+[wireframes](https://photos.app.goo.gl/iEb4nyxwF1jrLvq86)
 
 #### Which extensions, if any, did you complete?
 
