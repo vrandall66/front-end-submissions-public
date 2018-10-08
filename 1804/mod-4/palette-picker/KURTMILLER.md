@@ -54,7 +54,7 @@ If you scroll down to line 218 and look at my setPaletteView function, I was unh
 
 - https://dribbble.com/shots/4667460-S-M-O-O-T-H
 
-Used this button styling for my main color randomizer button.
+Used this button styling for my main color randomizer button that generates random colors for user.
 
 #### Please feel free to ask any other questions or make any other statements below!
 
