@@ -1,50 +1,41 @@
-## Student:
-## Evaluator:
+## Student: David and Eric
+## Evaluator: David Whitaker
 ## Notes/What To Work On:
+
+### HTML
+
+* Be sure to use forms for inputs and associated buttons
+
+### CSS
+
+* Consider adding organizational comments
+* Try using more broad class declarations in place of comma separated classes
+* Look for duplication as you build
+
+### JS
+
+* Write with good style on the fly
+* Consider using parameters and arguments if you identify duplicate statements to dry things up.
 
 ## Functional Expectations
 
 * Novice: Application meets most of the expectations of phase one and execution of UI is somewhat unpolished.
 * Advanced Beginner: Application meets all of the expectations of phase one and execution of UI is somewhat unpolished but shows attention to detail.
-* Proficient: Application meets some of the phase two extensions and demonstrates good execution and control of the UI.
-* Exceptional: Application meets all of the phase two extensions and demonstrates exceptional execution, creativity, and control of the UI.  
-
 
 ## COMP RECREATION / DESIGN
 
-* Novice  
-* Advanced Beginner  
 * Proficient  
-* Exceptional  
-
 
 ## HTML
 
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
-
 
 ## CSS
 
-* Novice  
 * Advanced Beginner  
 * Proficient  
-* Exceptional  
 
+## JS
 
-## JS/jQuery
-
-* Novice  
 * Advanced Beginner  
-* Proficient  
-* Exceptional  
 
-
-## Surprise and Delight (reminder: have fun!)
-
-* Unicorn Rainbows  
-* Hot Fire  
-* Sparkles  
-* Magic
