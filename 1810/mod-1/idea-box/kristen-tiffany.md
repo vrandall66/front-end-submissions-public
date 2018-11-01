@@ -1,46 +1,51 @@
-## Student:
+## Student: Kristen Hallstrom & Tiffany Bachmann
 ## Evaluator:
 ## Notes/What To Work On:
+* Good start on more commits.  Make even more smaller commits!
+  * Some funny commit messages, but make sure it's super clear on what functionality is being added/fixed.
+  * Good start on branches as well, continue to make more branches as you make each commit
+* Really love the drop down for the filter by ideas
+* Really nice work storing one key with an array into localStorage
+* Awesome UI and really great UX.  Very clean and easy to jump into
+  * Quality buttons and text aren't quite vertically aligned
+* Really nice work making sure things don't break depending on what the user does.  Cheers!
+* Nice clean HTML structure
+  * Good start on adding some accessibility
+  * Some instances where we could use more semantic HTML
+    * Like using h1 over p tag, form over section, or label of p tag next to input
+    * Good start with adding accessibility to certain parts though including aria-labels
+* Nice organization according to page flow with CSS and alphabetizing properties
+  * Good use of grouping styles together that share similar properties.  A few other instances that could be grouped, but in general really good work!
+* Nice work on your Idea class and using filter when trying to delete elements from localStorage array
+  * Might not store the qualityIndex and quality since it gets a bit repetitive.  Store only the qualityIndex
+  * Really good work with refactoring your upVote and downVote functionality.  
+  * I might not hardcode the beginning and ending of array.  Imagine if you need to add more qualities.
+* Really nice organization of main.js separating global variables, event listeners, and function declarations
+* Good use of of array prototype methods over for loops
+* Great work refactoring functions and breaking things out into smaller pieces
+  * Super clean work with qualityFilter functionality and using the value from event.target
+  * Think about how you could refactor the hiding and displaying functionality since that is done both in the Search and the qualityFilter function
+
 
 ### Functional Expectations
 
-*  Novice - Application meets all of the basic functional expectations of create, edit, delete, and those changes persist in `localStorage`
-*  Advanced Beginner - Application adds 'Changing the quality of an idea' and enables 'Filtering and Searching by Text' as defined in the spec
 *  Proficient - Applications adds 'Filtering by Importance' and 'Recent Ideas' as outlined in the spec
-*  Exceptional - Application adds all of the extensions
 
 ### Comp Recreation
 
-*  Novice - Application implements all major comp details accurately and correctly on desktop only (colors, fonts, icons, spacing, alignment, etc.)
-*  Advanced Beginner - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.). Transitions between screen sizes may not be smooth
-*  Proficient - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements added generally match the visuals established in the comps, but may be slightly awkward
 *  Exceptional - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements that have been added match the visuals established in the comps
 
 ### HTML - Style and Implementation
 
-*  Novice - Crafts markup according to the turing html style guide
-*  Advanced Beginner - Application adds to the above by using appropriate semantic elements and using `data-*` attributes for all data related things
 *  Proficient - Applications adds to the above with markup that is easy to read and follow across naming conventions
-*  Exceptional - Application adds to the above by using BEM, SMACCS, or another set of naming conventions for classes and:
-  *  Implements html that is accessible for folks with visual disabilities.
 
 ### CSS - Style and Implementation
 
-*  Novice - Crafts CSS according to the turing css style guide
-*  Advanced Beginner - Application adds organization for the whole stylesheet and within rules
 *  Proficient - Applications adds to the above by removing repetitive rules and blocks of code according to the DRY principle
-*  Exceptional - Application adds to the above by using BEM, SMACCS, or another set of naming conventions for classes
 
 ### JAVASCRIPT - Style and Implementation
 
-*  Novice - Crafts JS according to the turing js style guide
-*  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
 *  Proficient - Application adds readability by incorporating both DRY and SRP practices and students can speak to implementation decisions and:
   *  All functions are less than 10 lines
   *  There are less than 3 global variables
   *  There are no nested if else statements
-*  Exceptional - Application adds to code quality by refactoring all for loops into the proper array prototype iteration methods and:
-  *  Using logical operators instead of if/else
-  *  Application changes anonymous functions to arrow functions and changes all variables to be block scoped (`let` and `const`)
-  *  Application stores all ideas in one array in local storage, instead of individually
-  *  When 'Filtering and Searching by Text' and 'Filtering by Importance' All ideas that do not need to be shown on the dom should be completely removed from the dom, instead of only being hidden from view
