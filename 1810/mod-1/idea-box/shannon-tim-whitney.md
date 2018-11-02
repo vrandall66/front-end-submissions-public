@@ -19,10 +19,7 @@
 
 ### Functional Expectations
 
-*  Novice - Application meets all of the basic functional expectations of create, edit, delete, and those changes persist in `localStorage`
-*  Advanced Beginner - Application adds 'Changing the quality of an idea' and enables 'Filtering and Searching by Text' as defined in the spec
 *  Proficient - Applications adds 'Filtering by Importance' and 'Recent Ideas' as outlined in the spec
-*  Exceptional - Application adds all of the extensions
 
 ### Comp Recreation
 
