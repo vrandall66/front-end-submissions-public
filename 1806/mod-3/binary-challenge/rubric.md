@@ -7,7 +7,7 @@
 * 2 - The application is in a usable state, but is missing part of one or more of the technologies outlined above. Evaluator has multiple recommendations for design changes.
 * 1 - The application is missing multiple features outlined above. Developer did minimal to no CSS for this project.
 
-10 Essential Usability Guidelines.
+[10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
 
 ### Project Professionalism
 
