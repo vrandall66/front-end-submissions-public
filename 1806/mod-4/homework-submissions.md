@@ -64,9 +64,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Drake Bott
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/bottd/Prework-node-intro)
+* [Express Tutorial](https://github.com/bottd/prework-express-intro) - What additional items did you work on? Completed additional items #2,3, & 4 
+* [Promise Practice Exercises](https://repl.it/@bottd/Promise-Practice)
 
 ### Freddie Levenson
 
