@@ -76,9 +76,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Graham Munro
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/gmasterofnone/basicNode)
+* [Express Tutorial](https://github.com/gmasterofnone/basicExpress) - All Items
+* [Promise Practice Exercises](https://repl.it/@gmasterofnone/Mod4-Promises-Practice)
 
 ### Haley Jacobs
 
