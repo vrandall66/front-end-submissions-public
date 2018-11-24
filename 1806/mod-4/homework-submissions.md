@@ -130,6 +130,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Tobin Nelson
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/Tobin-jn/node-prework)
+* [Express Tutorial](https://github.com/Tobin-jn/prework-express) - What additional items did you work on? -All
+* [Promise Practice Exercises](https://gist.github.com/Tobin-jn/244f34cdd60f1fee9952bdfc22a45ba7)
