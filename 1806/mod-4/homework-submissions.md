@@ -28,9 +28,11 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Alexander Rau
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/raualex/c4f8e452484997548cb3b135a49b76eb)
+* [Express Tutorial](https://github.com/raualex/express-tutorial)
+  - What additional items did you work on?
+      I completed all of the extensions.
+* [Promise Practice Exercises](https://gist.github.com/raualex/f7493b831844677d0365e58fcb8d59e8)
 
 ### Benjamin Hayek
 
