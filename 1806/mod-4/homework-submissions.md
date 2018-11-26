@@ -58,9 +58,10 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Dina Caraballo
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/djcaraballo/Mod4Prework/tree/master/messages)
+* [Express Tutorial](https://github.com/djcaraballo/Mod4Prework/tree/master/ExpressTutorial) - What additional items did you work on?
+I worked on the first three challenge problems but was only successful on the first.
+* [Promise Practice Exercises](https://github.com/djcaraballo/Mod4Prework/tree/master/PromisePractice)
 
 ### Drake Bott
 
