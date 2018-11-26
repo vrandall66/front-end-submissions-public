@@ -16,9 +16,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Aaron Weissman
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/aweissman11/node-server-tutorial)
+* [Express Tutorial](https://github.com/aweissman11/express-tutorial) - What additional items did you work on?
+* [Promise Practice Exercises](https://repl.it/@aweissman11/mod4PromisePrework)
 
 ### Alexander Ela
 
