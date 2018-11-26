@@ -118,9 +118,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Megan Haubelt
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/Haub/node-prework)
+* [Express Tutorial](https://github.com/Haub/express-prework) - What additional items did you work on? 2,3,4
+* [Promise Practice Exercises](https://gist.github.com/Haub/a9933c6a178fecad099b865ee50a461d)
 
 ### Tim Garrity
 
