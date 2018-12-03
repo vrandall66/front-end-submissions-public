@@ -1,0 +1,56 @@
+Palette Picker Submission Form
+Project Spec
+
+Basics
+Link to the GitHub Repository for the Project
+https://github.com/lkshamus/Palette-Picker
+
+Link to the Deployed Application
+https://lkshamus-palette-picker.herokuapp.com/
+
+Link to your annotated server file
+https://github.com/lkshamus/Palette-Picker/blob/master/server.js
+
+Completion
+Were you able to complete the base functionality?
+I completed everything except for the delete functionality. This is solely due to time constraints
+
+Link to an image of your wireframe(s)
+On the README:
+https://github.com/lkshamus/Palette-Picker
+
+Which extensions, if any, did you complete?
+no extensions
+
+Code Quality
+Link to a specific block of your code on GitHub that you are proud of
+Honestly I'm not sure which block of code I am proud of. I had the most trouble setting up my Knex server, so I am proud of that, even if I don't think the code is necessarily well written, since it was my first time ever building a real server. 
+
+Why were you proud of this piece of code?
+I am proud of this because it was my first time writing a Knex server. 
+
+Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+I don't think most of my code is dry in my scripts.js file. I found it difficult to not use state in my project, as I typically would in React. Looking back, I should have used classes to dry up my code because some of my functions are very repetitive 
+
+Link to Design Inspiration
+I tried to remake the UI from coolers.co, but add my own personality in it. I really like that my title has randomized colors for each letter of Palette
+
+Instructor Feedback (Instructor Name)
+Specification Adherence
+x points: (50 possible points)
+
+User Interface
+x points: (20 possible points)
+
+Commented Server File
+x points: (10 possible points)
+
+JavaScript Style
+x points: (30 possible points)
+
+Workflow
+x points: (20 possible points)
+
+To get a 3 on this project, you need to score 95 points or higher
+To get a 4 on this project, you need to score 115 points or higher
+Final Score: x / 130
