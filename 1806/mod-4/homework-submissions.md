@@ -95,9 +95,9 @@ I worked on the first three challenge problems but was only successful on the fi
 
 ### Justin Stewart
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/Jstewart3313/prework)
+* [Express Tutorial](https://github.com/Jstewart3313/prework) - What additional items did you work on == (1, 2 & 4)
+* [Promise Practice Exercises](https://repl.it/@JustinS2/Promises)
 
 ### Kevin Simpson
 
