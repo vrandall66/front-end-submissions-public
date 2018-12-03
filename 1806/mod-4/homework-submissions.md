@@ -22,9 +22,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Alexander Ela
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/alexanderela/mod4-prework/tree/master/node-intro/messages)
+* [Express Tutorial](https://github.com/alexanderela/mod4-prework/tree/master/express-intro) - What additional items did you work on?
+  1. Add client-side JavaScript file in the public directory for some interactivity.
+  2. Instead of passing the {“name": “Robbie"} JSON object directly into .json() for the localhost:3000/json route. Create some JSON data in a separate file, load that file in the server, and send that file’s JSON data as a response instead of {“name": “Robbie"}.
+  3. Add a custom 404 page for when the client makes a request to an undefined endpoint. Hint
+* [Promise Practice Exercises](https://github.com/alexanderela/mod4-prework/tree/master/promises-intro)
 
 ### Alexander Rau
 
