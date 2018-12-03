@@ -1,0 +1,77 @@
+# Palette Picker Submission Form
+
+[Project Spec](http://frontend.turing.io/projects/palette-picker.html)
+
+# Basics
+
+#### Link to the GitHub Repository for the Project
+[https://github.com/aweissman11/palette-picker]()
+
+#### Link to the Deployed Application
+[https://palettepals.herokuapp.com/]()
+
+#### Link to your annotated server file
+[https://github.com/aweissman11/palette-picker/blob/master/server.js]()
+
+## Completion
+
+#### Were you able to complete the base functionality?
+
+Yes, the app is fully functional.
+
+#### Link to an image of your wireframe(s)
+[https://dribbble.com/shots/3506894-Back-to-Basics-Part-2/attachments/775920]()
+
+#### Which extensions, if any, did you complete?
+
+# Code Quality
+
+#### Link to a specific block of your code on GitHub that you are proud of
+[https://github.com/aweissman11/palette-picker/blob/master/public/index.js]()
+
+* Why were you proud of this piece of code?
+
+#### Link to a specific block of your code on GitHub that you feel not great about
+[https://github.com/aweissman11/palette-picker/blob/master/public/index.js]()
+
+* Why do you feel not awesome about the code? What challenges did you face trying to write/refactor it?
+
+I wish I had spent more time refactoring and cleaning up all the functions. Instead, I've got some messy code, but all the functionality.
+
+#### Link to Design Inspiration
+
+https://dribbble.com/shots/3506894-Back-to-Basics-Part-2/attachments/775920
+
+#### Please feel free to ask any other questions or make any other statements below!
+
+I miss REACT
+-----
+
+
+# Instructor Feedback (Instructor Name)
+
+## Specification Adherence
+
+**x points**: (50 possible points)
+
+## User Interface
+
+**x points**: (20 possible points)
+
+## Commented Server File
+
+**x points**: (10 possible points)
+
+## JavaScript Style
+
+**x points**: (30 possible points)
+
+## Workflow
+
+**x points**: (20 possible points)
+
+
+### To get a 3 on this project, you need to score 95 points or higher
+### To get a 4 on this project, you need to score 115 points or higher
+
+# Final Score: x / 130
