@@ -46,9 +46,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Chris Chateau
 
-* [Node Server Tutorial]()
-* [Express Tutorial]() - What additional items did you work on?
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/christopherchateau/Node-Server-Tutorial)
+* [Express Tutorial](https://github.com/christopherchateau/Express-Tutorial) - What additional items did you work on? 2, 3 & 4
+* [Promise Practice Exercises](https://github.com/christopherchateau/Promise-Practice-Exercises/)
 
 ### Cole Hart
 
