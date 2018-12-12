@@ -18,6 +18,10 @@
   wireframes from the outset. All git commits are atomic, made first to
   branches, and use descriptive and consise commit messages. Project
   demonstrates a fundamental understanding of React architecture.
+  
+  * 2 - Project is missing PropTypes, README updates, wireframes, or has more
+  than 5 linter errors. Project team makes large infrequent git commits.
+  Project shows a basic understanding of React.
 
 ### Testing
 
