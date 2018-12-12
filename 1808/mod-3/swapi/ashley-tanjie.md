@@ -1,6 +1,6 @@
 ### Evaluator: Christie
 ### Students: Ashley 
-### Comments: Nice job
+### Comments: Nice job, but make sure the linter is added and project can run on someone else's machine
 
 ## SwapiBox Rubric
 
