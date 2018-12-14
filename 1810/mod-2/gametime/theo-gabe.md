@@ -27,7 +27,11 @@ Comments:
 
 * 2 - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
 
+**Now 3**
+
 - Have many global objects other than game (round, round3, clue) - need to at least get `round3` out of the global scope.
+
+This has been fixed so that only the `game` class is global. Tests have been changed to reflect these changes as well.
 
 ### Workflow
 
