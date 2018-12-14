@@ -1,56 +1,57 @@
-## Student:
-## Evaluator:
+## Student: Liza Asbell and Justin Pyktel
+## Evaluator: Khalid Williams 
 ## Notes/What To Work On:
+*GENERAL*
+* Work on using the html errors instead of alerts;
+* Keep commit messages consustatntky specific 
+* Small bug with reseting the text in the current guess section when reseting the game 
+* Nice readme!
+*HTML*
+* Use fieldsets inside of the forms instead of the sections 
+* In the future, don't nest headers
+* Use `for` attributes when labeling inputs 
+*CSS*
+* Good organization of the CSS
+* Try and find areas where rules can be partially DRYed up
+*JS*
+* Good organization of the JS
+* For future projects, use innerHtml over using classes to hide or display hard-coded HTML 
+* DRY up some repeated functions with parameters or smaller helper function that can remove some repeated code 
+* Don't forget to use strict equals for comparisons 
+* Keep function names specific to what the functionality actually is (ex player1Win)
+* Think about what you could do to make the Reset / Clear buttons dissabled when the user manually clears the fields. What type of event could you attach a listener to for this?
 
 ### Functional Expectations
 
-* __Novice:__ Application meets all of the expectations of phase one.
 * __Advanced Beginner:__ Application meets all of the expectations of phase two.
-* __Proficient:__ Application meets all of the expectations of phase three.
-* __Exceptional:__ Application adds three or more of the extensions from phase four.
+
 
 ------------------------------------------------------------------
 
 ### Comp Recreation
 
-* __Novice:__ Application implements all major comp details accurately and correctly on desktop only (colors, fonts, icons, spacing, alignment, etc.)
-* __Advanced Beginner:__ Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons, spacing, alignment,  etc.). Transitions between screen sizes may not be smooth.
 * __Proficient:__ Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons, spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements added generally match the visuals established in the comps, but may be slightly awkward.
-* __Exceptional:__ Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons, spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements that have been added match the visuals established in the comps.
+
 
 ------------------------------------------------------------------
 
 ### HTML - Style and Implementation
 
-* __Novice:__ Crafts markup according to the [turing html style guide](https://github.com/turingschool-examples/html)
 * __Advanced Beginner:__ Application adds to the above with HTML that incorporates semantic HTML elements and has a simple, clean HTML structure.
-* __Proficient:__ Application adds to the above with markup that is easy to read and follows across naming conventions
-* __Exceptional:__ Application adds to the above by using [BEM](http://getbem.com/), [SMACCS](https://smacss.com/), or another set of naming conventions for classes and:
-    * Implements html that is accessible for folks with visual disabilities. Reference [this lesson plan](http://frontend.turing.io/lessons/floating/web-accessibility.html)
+
 
 ------------------------------------------------------------------
 
 ### CSS - Style and Implementation
 
-* __Novice:__ Crafts CSS according to the [turing css style guide](https://github.com/turingschool-examples/css)
-* __Advanced Beginner:__ Application adds organization for the whole stylesheet and within rules and
-  * Has 5 or less media queries for responsiveness
+
 * __Proficient:__ Applications adds to the above by removing repetitive rules and blocks of code according to the DRY principle and
   * Has 3 or less media queries for responsiveness
-* __Exceptional:__ Application adds to the above by using [BEM](http://getbem.com/), [SMACCS](https://smacss.com/), or another set of naming conventions for classes
 
 ------------------------------------------------------------------
 
 ### JAVASCRIPT - Style and Implementation
 
-* __Novice:__ Crafts JS according to the [turing js style guide](https://github.com/turingschool-examples/javascript/tree/master/es5)
-* __Advanced Beginner:__ Displays good understanding of arguments vs parameters and:
-  * Uses function declarations over anonymous functions in event listeners
-  * Uses if/else statements to handle multiple paths of logic/error handling
 * __Proficient:__ Application uses event delegation correctly on dynamic elements and:
   * Keeps functions DRY with a focus on SRP and can call functions within functions
   * There are no nested if/else statements
-*  __Exceptional:__ Functions and code are well-refactored and show developer empathy and:
-  * No global variables aside from query selectors, min & max, number of guesses, and start time
-  * All functions are less than 10 lines
-  * Uses logical operators instead of if/else statements where applicable
