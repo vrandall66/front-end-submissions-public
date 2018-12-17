@@ -19,10 +19,25 @@
 
 ### Testing
 
-* 4 - Project has a running test suite that exercises the application at multiple levels. The test suite covers almost all aspects of the application and uses mocks and stubs when appropriate. ESLint shows 0 complaints.
-* 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
-* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* 1 - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
+* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. Tests that are written are often ineffective/not testing the right code.
+
+
+* For your player class tests, you should be setting up a new instance of a Player, not your entire Game. This is another one of those core benefits of OOP is that every class should be so independent and isolated from each other that you don't need to spin up the entire app in order to test a small piece of functionality. e.g. [this test](https://github.com/ericweissman/wheel_of_fortune/blob/master/test/Player-test.js#L61-L62) is still manually forcing something to be true (the player's name) and testing the code you just wrote in your test file, rather than letting your app take over and testing the code in your app. You would need to rewrite this test to be something like:
+
+```js
+let bob = new Player('bob');
+expect(bob.name).to.equal('bob');
+```
+
+The game should be completely removed from this test file. Any instance of `game.players[0]` should be replaced with something like `bob`. `buyVowel` method isn't tested, 'LOSE A TURN' isn't tested (we should be checking if the player's `turn` property has changed from `true` to `false`).
+
+* Puzzle tests are mostly missing, and the one you do have isn't assertive enough -- we would want to make sure the function is actually returning something that *looks* like what we want. Not just that the two return something different. e.g. assert that you actually get an object back that has the properties a puzzle should have.
+
+* [Here](https://github.com/ericweissman/wheel_of_fortune/blob/master/test/Game-test.js#L59) and [here](https://github.com/ericweissman/wheel_of_fortune/blob/master/test/Game-test.js#L52) are more examples of where you are writing code for the sake of a test and then testing *that* code rather than your app. Don't manually force the game's wheel value or puzzle value to change. Let the app do that when and where it's supposed to. Your Game class generates a wheel and puzzle value for itsel the second it's instantiated, so they should already be properties on the instance of your game that you created in your test file. There's no need to manually change them. Just call the method you're trying to test and make sure you have a new wheel and new puzzle.
+
+* Overall I'm really concerned with the level of understanding for testing. This is something you should get some individualized pairings on going forward as there are some serious fundamental misconceptions I'm noticing here. Reaching out 2 hours before the project is due to get help on testing is not the time to do so.
+
+
 
 ### JavaScript Style & OOP
 
