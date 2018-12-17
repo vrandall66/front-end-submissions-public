@@ -1,6 +1,6 @@
 # Game Time
-* Students:
-* Evaluator:
+* Students: Justin & Travis
+* Evaluator: Brittany
 
 Comments:
 *

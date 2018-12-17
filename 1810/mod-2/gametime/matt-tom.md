@@ -1,6 +1,6 @@
 # Game Time
-* Students:
-* Evaluator:
+* Students: Matt & Tom
+* Evaluator: Brittany
 
 Comments:
 *
