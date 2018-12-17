@@ -2,17 +2,13 @@
 * Students: Justin & Travis
 * Evaluator: Brittany
 
-Comments:
-*
-*
-*
 
 ### Functional Expectations
 
 * 4 - Application is fully playable and exceeds the expectations set by instructors
-* 3 - Application is fully playable without crashes or bugs
-* 2 - Application has some missing functionality but no crashes
-* 1 - Application crashes during normal usage
+
+* Still some bugginess around the wagering for final jeopardy -- it seems like the wager is adding onto everybody's wager when you click through those numbers rather than resetting each time. 
+* +1 for deployment to GH pages
 
 ### User Interface
 

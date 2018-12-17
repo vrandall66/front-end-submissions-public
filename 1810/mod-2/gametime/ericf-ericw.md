@@ -2,23 +2,20 @@
 * Students: Eric & Eric
 * Evaluator: Brittany
 
-Comments:
-*
-*
-*
 
 ### Functional Expectations
 
-* 4 - Application is fully playable and exceeds the expectations set by instructors
-* 3 - Application is fully playable without crashes or bugs
-* 2 - Application has some missing functionality but no crashes
-* 1 - Application crashes during normal usage
+* 2.5 - Application is mostly playable, though with some bugs and slight functionality missing
+
+* Quite a few bugs when trying to guess a letter / buy a vowel with very little indicator of what's going wrong -- is it a user error or is there a bug in the code? Makes it difficult to follow the flow on your own unless you've recognized the patterns of the buggy behavior.
+* Bonus round not quite hooked up
 
 ### User Interface
 
 * 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
 
-* Overall the UI looks really nice, but it's difficult to tell what the user flow should be -- when can I spin? when can I buy a vowel? etc. Overall I think this can be fixed by adding some 'disabled' states to a lot of the UI elements that make them a little less prominent when it's not an option to interact with them.
+* Overall the UI looks really nice, but it's difficult to tell what the user flow should be -- when can I spin? when can I buy a vowel? etc. Overall I think this can be fixed by adding some 'disabled'/'active' states to a lot of the UI elements that make them a little less prominent when it's not an option to interact with them, and make them more obvious when you should be interacting with them.
+* Nice not allowing the game to start without player names but let's make that something other than an alert message in the future
 
 ### Testing
 

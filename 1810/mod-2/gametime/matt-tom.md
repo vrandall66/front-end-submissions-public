@@ -2,17 +2,12 @@
 * Students: Matt & Tom
 * Evaluator: Brittany
 
-Comments:
-*
-*
-*
 
 ### Functional Expectations
 
-* 4 - Application is fully playable and exceeds the expectations set by instructors
-* 3 - Application is fully playable without crashes or bugs
 * 2 - Application has some missing functionality but no crashes
-* 1 - Application crashes during normal usage
+
+* Changes make it so that we can only immediately play the bonus round and not fully through the entire game
 
 ### User Interface
 
