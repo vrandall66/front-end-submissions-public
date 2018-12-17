@@ -16,10 +16,9 @@ Comments:
 
 ### User Interface
 
-* 4 - The application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
 * 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* 2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* 1 - The application is confusing or difficult to use.
+
+* The user flow/interactions are easy to follow which is most important. I would clean up the design a bit by making it a little less busy -- less textures and patterns and differentiate on the colors a bit. Margins & paddings can be cleaned up as well but these are all easy fixes that don't necessarily take away from the intuitiveness of the app.
 
 ### Testing
 

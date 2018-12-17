@@ -16,10 +16,18 @@ Comments:
 
 ### User Interface
 
-* 4 - The application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
-* 3 - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* 2 - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* 1 - The application is confusing or difficult to use.
+* 2.5 - The application has many strong pages/interactions, but a few holes in areas that are important for determining what the user should be doing and where they should be looking.
+
+
+* Font is a bit difficult to read in places; save cool/unique fonts for headings and large titles, not smaller text like on inputs and buttons
+* Is the loading bar actually doing/caculating progress on something? Or is it just there for show? It looks kind of out of place right now/inconsistent with the overall UI.
+* Name entry page is way too spread out, looks like it was designed for a mobile device even when being viewed on a smaller laptop. 
+* Difficult to tell whose turn it is with the small font text in the bottom left.
+* Hover effects are too subtle/non-existant which makes it difficult to tell what's actually clickable or not
+* I think it's a bit *more* confusing to have the players rotating at the top to denote the current player -- you want to avoid moving UI elements around on people unless absolutely necessary. With the rotation as it is, now as a player, I have to keep looking in a different spot to find my score.
+* Shouldn't be able to start a game without inserting player names -- it makes the text in the bottom left unusable.
+* Not sure what the negative numbers are when the wager option pops up for daily doubles -- I would simplify this to just have a single number input field where they can enter their wager manually rather than clicking those numbers. It's also difficult to know that I'm supposed to click on the final wager in order to move on to the actual question. This should be a clearer button that says something like 'Submit Wager >'
+
 
 ### Testing
 
