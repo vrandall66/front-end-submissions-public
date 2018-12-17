@@ -27,10 +27,17 @@
 
 ### Testing
 
-* 4 - Project has a running test suite that exercises the application at multiple levels. The test suite covers almost all aspects of the application and uses mocks and stubs when appropriate. ESLint shows 0 complaints.
-* 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
-* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* 1 - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
+* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
+
+* These two tests  [1](https://github.com/JustinD85/jeopardy/blob/master/test/wager-test.js#L25-L28) and [2](https://github.com/JustinD85/jeopardy/blob/master/test/wager-test.js#L40-L43) are redundant. Just stick with 2.
+
+* Player class is missing tests for incrementing/decrementing wagers and scores.
+
+* Clue class is missing tests for verifying if the answer is correct or not.
+
+* [None of this needs to be tested](https://github.com/JustinD85/jeopardy/blob/master/test/index-test.js) and doesn't give your application any additional integrity
+
+
 
 ### JavaScript Style & OOP
 
@@ -38,6 +45,8 @@
 * 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
 * 2 - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
 * 1 - Your client-side application does not function. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code is not separated at all.
+
+* Wierd to me that you'd be setting an instance property of value in [this method](https://github.com/JustinD85/jeopardy/blob/master/js/wager.js#L6-L8) that's not defined in the constructor anywhere. I would just reassign the `pointValue` property instead of creating another property.
 
 
 ### Workflow
