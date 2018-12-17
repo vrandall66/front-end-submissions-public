@@ -12,7 +12,7 @@
 
 ### User Interface
 
-* 2.5 - The application has many strong pages/interactions, but a few holes in areas that are important for determining what the user should be doing and where they should be looking.
+* 2 - The application has many strong pages/interactions, but a few holes in areas that are important for determining what the user should be doing and where they should be looking.
 
 
 * Font is a bit difficult to read in places; save cool/unique fonts for headings and large titles, not smaller text like on inputs and buttons
@@ -43,7 +43,8 @@
 ### Workflow
 
 * 4 - The developer/team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc) and utilizes some sort of planning tool (GitHub issues, Waffle, Trello, etc). The team develops a clear MVP (minimum viable product) and conducts a DTR (define the relationship). Both members contribute meaningfully to the application.
-* 3 - The developer/team makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base. The team conducts a DTR (define the relationship) and utilizes a planning tool and pairing practices. Both members contribute meaningfully to the application.
-* 2 - The developer/team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
-* 1 - The developer/team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
-* 0 - The application was not checked into version control.
+
+* Mostly nice, consistent commit messages except for little ones like [this]
+(https://github.com/JustinD85/jeopardy/commit/725acca9844a940e4452a1cec58dbda4f02d4be9) that snuck in.
+* Nice use of issue numbers to auto-close them as you push
+* You might want to look into `git squash` to merge some commits before you push them into master -- just a nice tool to be aware of. You can reduce duplicate commits (I noticed a couple) that do the same thing like 'Update README' (if you do this 5 times you can just squash it into a single commit when you're done that includes all the changes you made over all those commits)
