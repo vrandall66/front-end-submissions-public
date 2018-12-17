@@ -32,8 +32,7 @@
 
 ### Workflow
 
-* 4 - The developer/team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc) and utilizes some sort of planning tool (GitHub issues, Waffle, Trello, etc). The team develops a clear MVP (minimum viable product) and conducts a DTR (define the relationship). Both members contribute meaningfully to the application.
 * 3 - The developer/team makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base. The team conducts a DTR (define the relationship) and utilizes a planning tool and pairing practices. Both members contribute meaningfully to the application.
-* 2 - The developer/team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
-* 1 - The developer/team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
-* 0 - The application was not checked into version control.
+
+* Git commit messages are a bit vague and often inconsistent style-wise (e.g you should be writing things like 'Add feature x' not just 'feature added.')
+* I'd like to see commits like [this](https://github.com/foxwellm/Jeopardy/commit/5a6ff6fc05f4184de071c2d7abb8c85894f80aa2) be a bit smaller. It looks like the code changes in here are mostly all relevant, but try to find ways to break up this functionality into multiple commits -- maybe the first commit is just creating the DailyDouble class, but it's not being utilized anywhere. The second commit could be stubbing out the properties and methods it might have. The third commit could be instantiating a new one that doesn't actually do anything just yet. Fourth one could be adding the fully integrated functionality.

@@ -34,8 +34,9 @@
 
 ### Workflow
 
-* 4 - The developer/team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc) and utilizes some sort of planning tool (GitHub issues, Waffle, Trello, etc). The team develops a clear MVP (minimum viable product) and conducts a DTR (define the relationship). Both members contribute meaningfully to the application.
 * 3 - The developer/team makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base. The team conducts a DTR (define the relationship) and utilizes a planning tool and pairing practices. Both members contribute meaningfully to the application.
-* 2 - The developer/team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
-* 1 - The developer/team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
-* 0 - The application was not checked into version control.
+
+
+* Mostly nice, consistent commit messages except for capitalization -- make sure your messages always start with a capital letter
+* Generally a nice breakout of your commits, where they're not doing too much, but make sure that only relevant changesets make it into each commit. e.g. based on [this](https://github.com/ericweissman/wheel_of_fortune/commit/54bd8f08f81d177cacf93cf548672e3971272aba) commit message, I would expect that the index.html changes wouldn't be included there. That kind of change should go in a subsequent commit.
+* You might want to look into `git squash` to merge some commits before you push them into master -- just a nice tool to be aware of. You can reduce duplicate commits (I noticed a couple) that do the same thing like 'Update README' (if you do this 5 times you can just squash it into a single commit when you're done that includes all the changes you made over all those commits)
