@@ -17,10 +17,33 @@
 
 ### Testing
 
-* 4 - Project has a running test suite that exercises the application at multiple levels. The test suite covers almost all aspects of the application and uses mocks and stubs when appropriate. ESLint shows 0 complaints.
-* 3 - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
-* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* 1 - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
+* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and some of them are out of place
+
+* DailyDouble should also test that any inherited properties from the parent got set appropriately. I want to say you should be testing this `collectWager` method as well but it looks like you also have a `collectWagers` method elsewhere in your codebase and it's difficult to tell what's actually being used or not.
+
+* [These two tests](https://github.com/foxwellm/Jeopardy/blob/master/tests/Question-test.js#L19-L27) seem irrelevant to the Question class -- you're not calling any methods or verifying any properties that a question would care about. These seem more like player tests. It seems like what you're trying to test here is the verifyAnswer method, in which case you would write a test that looks more like this:
+
+```
+it should call game.rightAnswer when the guess is correct
+  expect(game.rightAnswer).to.have.been.called(1);
+
+it should call game.wrongAnswer when the guess is incorrect
+  expect(game.wrongAnswer).to.have.been.called(1);
+```
+
+The actual functionality of `rightAnswer` and `wrongAnswer` would then be tested in your Game-test file since those are both methods of your Game class.
+
+* In all test files, you can combine the assertions for default property values like [these](https://github.com/foxwellm/Jeopardy/blob/master/tests/player-test.js#L19-L30) into a single it block.
+
+* Sometimes with tests like [this](https://github.com/foxwellm/Jeopardy/blob/master/tests/player-test.js#L15-L18) you first want to assert that the score was 0 to begin with. Just in case any other test or code had manipulated the starting score ahead of time. Something like:
+
+```
+expect(score).to.equal(0);
+player.updateScore(100)
+expect(score).to.equal(100)
+```
+   
+
 
 ### JavaScript Style & OOP
 
