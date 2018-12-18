@@ -47,11 +47,16 @@ expect(score).to.equal(100)
 
 ### JavaScript Style & OOP
 
-* 4 - Application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don’t repeat yourself) principles are utilized. There are zero instances where an instructor would recommend taking a different approach. Application is organized into classes (and correctly uses inheritance) and there are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
-* 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
-* 2 - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
-* 1 - Your client-side application does not function. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code is not separated at all.
 
+* 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
+
+* I'd be curious how [this](https://github.com/foxwellm/Jeopardy/blob/master/JS/DailyDouble.js#L15) is working if you're not passing in an `event` parameter to the method...
+
+* Usually it's more helpful to order your parameters from most commonly included to least commonly included. e.g. [here](https://github.com/foxwellm/Jeopardy/blob/master/JS/Player.js#L2) you are likely always going to be passing in a 'name' value (or at least more frequently than you'd ever pass in `human` or `score`), so this should be the first parameter listed and passed in. That way you can easily omit the other two without worrying about messing up the order of your arguments.
+
+* Your question class shouldn't have to know about the current round or question set. Just it's own properties that tell us what the current question, answer and point values are. You have a lot of instance properties on this class that look redundant. What's the difference between `questionBoxId`, `manipulatedQuestionObj`, `currentQuestion`, etc.? Try to slim this down a bit. You only want to store the absolute bare minimum information necessary for your methods on the class to work. It doesn't look like your question class is using half of the properties you've set on it.
+
+* Most of the functionality in your Game class looks solid, though there are many opportunities for refactoring and cleaning it up to make it a bit more readable. (Most notably in the right/wrong answer methods).
 
 ### Workflow
 
