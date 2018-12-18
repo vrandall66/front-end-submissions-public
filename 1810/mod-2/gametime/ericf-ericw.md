@@ -41,11 +41,13 @@ The game should be completely removed from this test file. Any instance of `game
 
 ### JavaScript Style & OOP
 
-* 4 - Application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don’t repeat yourself) principles are utilized. There are zero instances where an instructor would recommend taking a different approach. Application is organized into classes (and correctly uses inheritance) and there are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
 * 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
-* 2 - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
-* 1 - Your client-side application does not function. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code is not separated at all.
 
+* Overall the separation of logic between your classes looks good, the right classes are taking care of the right behaviors/properties. (Save some of the update score logic that's in the game class and should be moved to the players)
+
+* What does [this](https://github.com/ericweissman/wheel_of_fortune/blob/master/Game.js#L7) property represent? Based on the name it doesn't sound like it would be an array, though the default value of an empty array tells me otherwise...
+
+* [Here](https://github.com/ericweissman/wheel_of_fortune/blob/master/Game.js#L46-L48) I would just automatically set `this.wheel` to a new instance of a wheel rather than setting it to a variable first (the variable isn't helping you much there, and actually looks a little more confusing because you're just calling it `newWheel = new Wheel`). I would say you could have the wheel call it's own `generateValues` method immediately in the constructor rather than having to invoke it here. That way you can get rid of that last line as well.
 
 ### Workflow
 
