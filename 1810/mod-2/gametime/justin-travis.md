@@ -41,12 +41,20 @@
 
 ### JavaScript Style & OOP
 
-* 4 - Application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don’t repeat yourself) principles are utilized. There are zero instances where an instructor would recommend taking a different approach. Application is organized into classes (and correctly uses inheritance) and there are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
+
 * 3 - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
-* 2 - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
-* 1 - Your client-side application does not function. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code is not separated at all.
 
 * Wierd to me that you'd be setting an instance property of value in [this method](https://github.com/JustinD85/jeopardy/blob/master/js/wager.js#L6-L8) that's not defined in the constructor anywhere. I would just reassign the `pointValue` property instead of creating another property.
+
+* As discussed in eval, the whole data manager class is a bit convoluted -- manipulate your data wherever you need it, into whatever format you need it in rather than in this hidden file. It's a bit too much of an abstraction and I'd rather just see the `clues` array on your Game class be your source of truth.
+
+* [Checking answer](https://github.com/JustinD85/jeopardy/blob/master/js/game.js#L12) should belong to the clue class, not the game class. Updating the wagers and player scores should all be moved into the player class as well out of the game class. (e.g. a player is the only thing that knows about it's score, and that score is unique to that player, so that player should be the only thing in your codebase that can manipulate that value.)
+
+* [Value](https://github.com/JustinD85/jeopardy/blob/master/js/clue.js#L6) can sometimes be a reserved keyword (notice the syntax highlighting is different here). Just keep the property called `pointValue`. No need to change it.
+
+* [These](https://github.com/JustinD85/jeopardy/blob/master/js/clue.js#L7-L8) two instance properties are a little redundant. You don't usually want to store "derived data" anywhere. e.g. if you have the category ID stored, you can always find and reference the category name later in your codebase by leveraging that id value.
+
+* Don't leave [unused code](https://github.com/JustinD85/jeopardy/blob/master/js/board.js) in your codebase. It's confusing for new developers to jump into.
 
 
 ### Workflow
