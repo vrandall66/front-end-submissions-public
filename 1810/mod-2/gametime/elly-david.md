@@ -10,7 +10,7 @@ Comments:
 2. Application allows for selecting an infinite amount of letters on the board without spinning _OR_ after a player has completed a spin. Logic is missing to properly end the player's turn.
 * Remove commented out code
 
-**Given extension to DM link to updated repo with fixes (complete testing and fix bug mentioned above) before 12/14 at 10:00AM. Scores reflect state of project at eval time as no updated repo was submitted.**
+**Given extension to DM link to updated repo with fixes (complete testing and fix bug mentioned above) before 12/14 at 10:00AM.**
 
 ### Functional Expectations
 
@@ -23,6 +23,14 @@ Comments:
 ### Testing
 
 * 1 - There is little or no evidence of testing in this application.
+
+**AFTER RESUBMISSION***
+
+- Make sure that you you're testing the actual output of the methods on the class. There were a number of tests that were testing methods on a class that had no assertions that checked actual functionality.
+- If there is conditional logic within a method being tested, make sure that you check that the conditional logic is working
+- Make sure you are only passing arguments in your test when your methods are set up for those parameters 
+
+* 2 - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
 
 ### JavaScript Style & OOP
 
