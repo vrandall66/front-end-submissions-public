@@ -80,7 +80,7 @@ Comments:
 
 * [ ] Novice - There is a significant amount of duplication and one or two major bugs. JavaScript does not follow the principles of `DRY` (Don't Repeat Yourself)
 
-* [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
+* [x] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
 * [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
@@ -89,10 +89,23 @@ Comments:
 
 Comments:
 
+* There's a *lot* of duplicate code throughout the repo, and you're not leveraging the fact that React allows you to create **reusable** components. Look at how incredibly similar your [CardListItem](https://github.com/dForDeveloper/magic-whateverly/blob/master/src/CardListItem/CardListItem.js) and [WishListItem](https://github.com/dForDeveloper/magic-whateverly/blob/master/src/WishListItem/WishListItem.js) components are. These should be a single component that varies just slightly based on whether it belongs to your wish list or your card list (if that even matters within this component!) Same thing with your CardList and WishList components -- they are too similar to warrant completely separate components. You could probably also combine your FaveListItem and FaveList components with a little conditional rendering logic. With the structure of your app, I'd say you should have two components instead of the 6 I just mentioned: a List component and an Item component that can both be flexible enough to handle a card/wish/favorite. You're doing a lot more work duplicating these components when they should be shared and reused as much as possible. 
 
+* [This](https://github.com/dForDeveloper/magic-whateverly/blob/master/src/Header/Header.js#L4-L29) could be refactored quite a bit. You don't need all these separate methods that are calling the same functions. Just call them directly in your render method with the appropriate arguments. e.g.:
 
+```
+<ul className="header--ul">
+  <li onClick={() => this.props.setAsideView('cardList')} className="my-cards">My Cards</li>
+  <li onClick={() => this.props.setAsideView('faveDecks')} className="fave-decks">Saved Decks</li>
+  <li onClick={() => this.props.setAsideView('wishList')} className="my-wish-list">Wish List</li>
+</ul>
+```
 
+* A little odd to have two methods [here](https://github.com/dForDeveloper/magic-whateverly/blob/master/src/Deck/Deck.js#L5-L12) where one is named after what's actually happening (adding a favorite to the deck) and one is just telling you that a click event occurred (handleClick). I prefer the former naming convention, but if you're going to use `handleClicks`, I'd be consistent and use them everywhere. 
 
+* I'd move this [localStorage](https://github.com/dForDeveloper/magic-whateverly/blob/master/src/App/App.js#L12-L20) logic into your `componentDidMount` method rather than having it in the constructor. Let your state be full of empty arrays to start, and update it with values from localStorage as they become available.
+
+* Overall the code is pretty over-engineered and difficult to follow. I'd say you've written more than double the amount of code you actually needed in order to accomplish the functionality of your app. Getting some more experience with the benefits of React will help you recognize patterns that will allow you to simplify your logic and cut down on the amount of code you're writing.
 
 
 
