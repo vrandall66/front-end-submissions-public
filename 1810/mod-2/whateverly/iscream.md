@@ -82,16 +82,40 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [x] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* You could destructure all of your props [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/SearchByParlor.js#L5) (and in all of your components!) instead of just the one by doing something like:
 
+```
+let { parlors, searchParlor } = props;
+```
 
+* HTML structure is a bit weird [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/ParlorDetail.js#L11-L22) - you have an li tag, with a div inside it, with another li tag inside of it? I would rip out that div and inner li and replace it with a span, if that's even necessary. You could just return a string here to fill in the inner text of the top level li.
 
+* You will learn about this more in Mod 3, but if you're looking for some additional things to look into ahead of time, you might want to do some research on Promise.all() for doing multiple fetch requests like you're doing [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/App.js#L20-L41)
+
+* Nice clean [render](https://github.com/ericweissman/icecream_whateverly/blob/master/src/App.js#L51-L68) method by splitting out your JSX into many components, good job.
+
+* Little vague [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/ParlorCard.js#L10), what about details? Show them? Hide them? And [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/App.js#L14)  - value for what?
+
+* I don't love seeing two [return statements](https://github.com/ericweissman/icecream_whateverly/blob/master/src/CardContainer.js#L19-L22) like this --- my eye immediately goes to the second one, where you're returning an empty array, and it makes me wonder what the rest of the function is doing all that work for. I would refactor to something like:
+
+```
+let parlorFlavors = [];
+
+if (foundParlor) {
+  parlorFlavors = foundParlor.flavors;
+}
+
+return parlorFlavors
+```
+
+This way, you're always returning the same variable -- parlorFlavors -- but what it represents is just reassigned if your condition is true.
 
 
 
