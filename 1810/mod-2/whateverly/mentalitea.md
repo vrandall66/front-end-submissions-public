@@ -99,7 +99,7 @@ Comments:
 
 * You will learn about this more in Mod 3, but if you're looking for some additional things to look into ahead of time, you might want to do some research on Promise.all() for doing multiple fetch requests like you're doing [here](https://github.com/shannonmoranetz/mentalitea/blob/master/src/App.js#L23-L39)
 
-* [This](https://github.com/shannonmoranetz/mentalitea/blob/master/src/Splash.js#L33-L36) looks like a good use-case for an unordered list rather than paragraph tags ;)
+* [This](https://github.com/shannonmoranetz/mentalitea/blob/master/src/Splash.js#L33-L36) looks like a good use-case for an ordered list rather than paragraph tags ;)
 
 * Nice prototype iteration for generating your [options here](https://github.com/shannonmoranetz/mentalitea/blob/master/src/Splash.js#L41-L46)
 
