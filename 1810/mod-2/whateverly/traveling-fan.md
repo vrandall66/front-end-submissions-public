@@ -89,10 +89,15 @@ Comments:
 
 Comments:
 
+* Not sure that the content inside [this article](https://github.com/geet084/traveling-fan/blob/master/src/TeamIcon.js#L7) really represents an article. There's probably a more semantic tag you could use here, otherwise I'd stick with a div.
 
+* [This method](https://github.com/geet084/traveling-fan/blob/master/src/Popup.js#L21-L23) is redundant. No need to create another custom method that just calls another one. In your render method, where you're actually invoking this, you could just directly invoke `this.props.showAllTeams()` instead.
 
+* Conditional logic [here](https://github.com/geet084/traveling-fan/blob/master/src/Popup.js#L36-L63) seems like it could be simplified...there is such a small amount of data that actually changes (just the key prop?) and the Card/City components also have a lot of shared JSX. 
 
+* I'm concerned about your use of h1 and h2 tags [here](https://github.com/geet084/traveling-fan/blob/master/src/Card.js#L16-L28) these should be reserved for top-level application headings and subheadings. I would go back to some Mod 1 lessons and brush up on semantic use of HTML tags.
 
+* [This](https://github.com/geet084/traveling-fan/blob/master/src/City.js#L18-L24) is a bit more logic than I'd like to see within a map inside of your render (maps inside of renders should generally stick to just returning a component on each iteration). I'd create a custom method that returns the data you want to map over exactly as you need it so that you can simplify what you're iterating over here.
 
 
 
