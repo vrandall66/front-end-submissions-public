@@ -82,18 +82,31 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [x] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* Lots of [h3s](https://github.com/kaohman/national-parks/blob/master/src/UsState.js#L7-L12) here. This would be really rough for a user on a screen reader to differentiate what's important here. Also, just because you're breaking your code out into components, doesn't mean everything deserves an h1. The h1 & h2 should pretty much be reserved for your overall app title and subheading. Remember all these components come together to create one cohesive page, and if there are h1's all over the place it's hard to tell what's important.
+
+* Really nice tiny methods [here](https://github.com/kaohman/national-parks/blob/master/src/ParkMap.js#L17-L31)
+
+* The render method [here](https://github.com/kaohman/national-parks/blob/master/src/ParkMap.js#L33) is a little intense. Could you move these icon variables out somewhere into a separate method? The only thing that's changing about each of them is the color. Could you loop through an array of those colors and generate each icon within the loop to reduce some of this duplicate code? We also have a lot going on within this [map](https://github.com/kaohman/national-parks/blob/master/src/ParkMap.js#L81-L103), where again, it seems like all that's changing is the color of the icon. I'd refactor to something like this:
+
+```
+let icon = this.determineIconColor(park) // this method would do some of that conditional logic and return either the green, violet, or blue icon
+
+return <Marker position={[lat, lon]} icon={icon} onClick={this.getPark} key={park.urlCode} id={park.urlCode}>
+  <Tooltip>{park.parkName}</Tooltip>
+</Marker>
+```
+
+* I'd say overall your render methods are a little gnarly and need some cutting down. You can always create methods on your components that simply return a chunk of JSX to slim down what's actually happening in `render`.
 
 
-
-
-
+* [This method](https://github.com/kaohman/national-parks/blob/master/src/FilterControls.js#L21-L23) is redundant. You can just directly invoke `this.props.setMapToState()` instead of wrapping it in another method to call it
 
 
 

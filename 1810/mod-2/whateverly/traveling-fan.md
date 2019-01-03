@@ -82,19 +82,24 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [x] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* Not sure that the content inside [this article](https://github.com/geet084/traveling-fan/blob/master/src/TeamIcon.js#L7) really represents an article. There's probably a more semantic tag you could use here, otherwise I'd stick with a div.
 
+* [This method](https://github.com/geet084/traveling-fan/blob/master/src/Popup.js#L21-L23) is redundant. No need to create another custom method that just calls another one. In your render method, where you're actually invoking this, you could just directly invoke `this.props.showAllTeams()` instead.
 
+* Conditional logic [here](https://github.com/geet084/traveling-fan/blob/master/src/Popup.js#L36-L63) seems like it could be simplified...there is such a small amount of data that actually changes (just the key prop?) and the Card/City components also have a lot of shared JSX. 
 
+* I'm concerned about your use of h1 and h2 tags [here](https://github.com/geet084/traveling-fan/blob/master/src/Card.js#L16-L28) these should be reserved for top-level application headings and subheadings. I would go back to some Mod 1 lessons and brush up on semantic use of HTML tags.
 
+* [This](https://github.com/geet084/traveling-fan/blob/master/src/City.js#L18-L24) is a bit more logic than I'd like to see within a map inside of your render (maps inside of renders should generally stick to just returning a component on each iteration). I'd create a custom method that returns the data you want to map over exactly as you need it so that you can simplify what you're iterating over here.
 
-
+* You have a bit of duplicate state [here](https://github.com/geet084/traveling-fan/blob/master/src/App.js#L11-L16) -- what's the difference between nflTeams and allTeams? nflCities and cities? The more duplicate state you have, the more places you're going to have to update things when they change. It gets very difficult to keep your state in sync when you do this, and makes your app much more prone to bugs. Try to avoid putting any sort of "derived" data in state and just modify your teams when and where you need to.
 
 
 
