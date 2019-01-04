@@ -55,7 +55,7 @@
 
 * [ x ]  Novice - Crafts markup according to the [turing html style guide](https://github.com/turingschool-examples/html)
 
-    * The main thing holding you back from advanced beginner is not utolizing data attributes. Overwise, the html was quite good.
+    * The main thing holding you back from advanced beginner is not utilizing data attributes. Overwise, the html was quite good.
 
 
 ------------------------------------------------------------------
