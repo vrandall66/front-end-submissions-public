@@ -80,7 +80,7 @@ Comments:
 
 * [ ] Novice - There is a significant amount of duplication and one or two major bugs. JavaScript does not follow the principles of `DRY` (Don't Repeat Yourself)
 
-* [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
+* [x] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
 * [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
@@ -88,6 +88,40 @@ Comments:
 
 
 Comments:
+
+* React helps you build these "single-page" applications, so you shouldn't be naming your components like 'SearchPage.js' -- the content that the Search component provides you doesn't represent an entire page - it represents a single component on a page. It wouldn't make sense to view this component on it's own, with nothing else on the page.
+
+* Nice use of [destructuring](https://github.com/whitneyburton/gameflix/blob/master/src/Components/SearchPage.js#L7)
+
+* Lots of [divs all over the place](https://github.com/whitneyburton/gameflix/blob/master/src/Components/SearchPage.js#L10-L12) -- whenever you have a list of something, you should try to use an ol/ul and li tags instead to be a bit more semantic.
+
+* You could do [this](https://github.com/whitneyburton/gameflix/blob/master/src/Components/PopUp.js#L6-L9) classname assignment on one line:
+
+```
+let className = isSearch ? "search-popup" : "PopUp"
+```
+
+That's a little more readable and a more common convention for working with ternaries. Though I'd also stay away from using the word `className` -- React needs that for setting classes on elements in JSX and you might run into naming collisions if you're using that word as a variable name as well.
+
+* You shouldn't be doing any [document query selectors](https://github.com/whitneyburton/gameflix/blob/master/src/Components/Navbar.js#L7) in a React app -- this would be equivalent to combining React and jQuery. If you need to toggle a class, you should be conditionally setting it on the element that requires it based on some value in state/props. e.g.
+
+```
+<li className={stateValue ? 'yes-class' : 'no-class' }>lorem ipsum</li>
+```
+
+* Same thing [here](https://github.com/whitneyburton/gameflix/blob/master/src/Components/App.js#L85-L89) -- set the value attributes of those inputs to a value in state that automatically updates/clears out based on that state value so you don't have to do a DOM lookup for it.
+
+* This [string](https://github.com/whitneyburton/gameflix/blob/master/src/Components/App.js#L98) is hard to read because it's not in camelCase. Make sure you're camelCasing your variables and values. e.g. `resetAll`
+
+* Overall, your app component is reallyyyyy big and holding onto way too much state that's probably not necessary. You should find some ways to break these things out into smaller components that manage their own state. 
+
+* We don't want to incorporate [state](https://github.com/whitneyburton/gameflix/blob/master/src/Components/App.js#L234-L238) just to determine which components should be rendered. This should be determined instead by user interactions (e.g. if I've searched for a game, I should see a game card, if I havent, the search state should be empty. If the search state is empty, I should see the landing page) 
+
+* Is this really a [nav](https://github.com/whitneyburton/gameflix/blob/master/src/Components/Featured.js#L7)?
+
+* Rather than relying on DOM elements [here](https://github.com/whitneyburton/gameflix/blob/master/src/Components/Carousel.js#L8-L12) and accessing their parent elements, you should have some values in state that determine the positioning of the carousel so you can apply CSS attributes to the elements that will position the carousel correctly. When you're working in React, you want to avoid doing any sort of manual DOM traversal to find or select elements -- it takes away from the magic of React.
+
+
 
 
 
@@ -107,7 +141,7 @@ Comments:
 
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
-* [X] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [x] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 
@@ -152,7 +186,7 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [X] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [x] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 

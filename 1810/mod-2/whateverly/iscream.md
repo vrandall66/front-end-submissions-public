@@ -82,16 +82,40 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [x] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* You could destructure all of your props [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/SearchByParlor.js#L5) (and in all of your components!) instead of just the one by doing something like:
 
+```
+let { parlors, searchParlor } = props;
+```
 
+* HTML structure is a bit weird [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/ParlorDetail.js#L11-L22) - you have an li tag, with a div inside it, with another li tag inside of it? I would rip out that div and inner li and replace it with a span, if that's even necessary. You could just return a string here to fill in the inner text of the top level li.
 
+* You will learn about this more in Mod 3, but if you're looking for some additional things to look into ahead of time, you might want to do some research on Promise.all() for doing multiple fetch requests like you're doing [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/App.js#L20-L41)
+
+* Nice clean [render](https://github.com/ericweissman/icecream_whateverly/blob/master/src/App.js#L51-L68) method by splitting out your JSX into many components, good job.
+
+* Little vague [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/ParlorCard.js#L10), what about details? Show them? Hide them? And [here](https://github.com/ericweissman/icecream_whateverly/blob/master/src/App.js#L14)  - value for what?
+
+* I don't love seeing two [return statements](https://github.com/ericweissman/icecream_whateverly/blob/master/src/CardContainer.js#L19-L22) like this --- my eye immediately goes to the second one, where you're returning an empty array, and it makes me wonder what the rest of the function is doing all that work for. I would refactor to something like:
+
+```
+let parlorFlavors = [];
+
+if (foundParlor) {
+  parlorFlavors = foundParlor.flavors;
+}
+
+return parlorFlavors
+```
+
+This way, you're always returning the same variable -- parlorFlavors -- but what it represents is just reassigned if your condition is true.
 
 
 
@@ -104,9 +128,9 @@ Comments:
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 
-* [X] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
+* [x] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
-* [X] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [x] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 
@@ -162,7 +186,7 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [X] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [x] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
