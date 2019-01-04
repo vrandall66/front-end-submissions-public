@@ -126,10 +126,10 @@ Comments:
 
 Comments:
 
-Contribution breakdown:
-Shannon: 40 commits
-Paul: 23 commits
-Gabe: 16 commits
+Contribution breakdown:  
+Shannon: 40 commits  
+Paul: 23 commits  
+Gabe: 16 commits  
 
 - Looking at contributions in a group of three (from commits as well as actual code/features added) the split of the work does not seem balanced.
 - Good, detailed, line-by-line comments and feedback. Good amount of conversation taking place in PRs.

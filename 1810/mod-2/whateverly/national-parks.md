@@ -126,10 +126,10 @@ return <Marker position={[lat, lon]} icon={icon} onClick={this.getPark} key={par
 
 Comments:
 
-Contribution breakdown:
-Karin: 42 commits
-Tiffany: 25 commits
-Adam: 4 commits
+Contribution breakdown:  
+Karin: 42 commits  
+Tiffany: 25 commits  
+Adam: 4 commits  
 
 - This is a pretty significant disparity in contributions in a 3 person project. From the PRs, it looks like a portion of this might be due to portions of code being written/reviewed together; however, even if that is the case - group members should still be switching who the driver of the project is when pairing/reviewing in person. 
 - A good number of feedback/comments on each of the PRs. However, there is still a lot of one-sided conversation happening and questions from PR creators that go unanswered by reviewers. Also a significant amount of comments that are simply thanking the person for adding/updating a feature with the reviewer restating (in their own words) the changes that were made.

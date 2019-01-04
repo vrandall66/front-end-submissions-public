@@ -164,10 +164,10 @@ this.state.userSelectedCounty ? <Beaches county={this.state.userSelectedCounty} 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 Comments:
 
-Contribution breakdown:
-Libby: 29 commits
-Elly: 34 commits
-Kristen: 20 commits 
+Contribution breakdown:  
+Libby: 29 commits  
+Elly: 34 commits  
+Kristen: 20 commits  
 
 - A few times where creator of PR is asking explicit questions around the proposed changes (which is good); however, there is not a response or exchange between developers. 
 - A numbers of PRs with no comments from reviewers - PRs are just merged. A few that state that code was written together... making it unclear as to why a PR was submitted in the first place.

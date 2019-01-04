@@ -127,10 +127,10 @@ Comments:
 Comments:
 
 Contribution breakdown
-Jeo: 63 commits
-Dylan: 54 commits
-Hillary: 38 commits
-David: 11 commits
+Jeo: 63 commits  
+Dylan: 54 commits  
+Hillary: 38 commits  
+David: 11 commits  
 
 - Looking at contributions in a group of four (from commits as well as actual code/features added) the split of the work does not seem balanced.
 - There is a fair amount of conversation happening between devs submitting PRs and those reviewing. Still a number of 

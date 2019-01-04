@@ -118,10 +118,10 @@ Comments:
 
 Comments:
 
-Contribution breakdown:
-Travis: 56 commits
-Eric: 25 commits
-Theo: 23 commits
+Contribution breakdown:  
+Travis: 56 commits  
+Eric: 25 commits  
+Theo: 23 commits  
 
 - Looking at contributions in a group of three (comparing commits as well as actual code/features added) the split of the work does not seem balanced.
 - Make sure that you are giving the _why_ behind your PR. Majority of PRs has no description of what has changed and needs reviewing or simply asks reviewiers to check things out or have a look at things (not being specific on what has changed or why). A lack of direction from the person requesting a review/help makes it infinitely more difficult for a reviewer to give a good review.

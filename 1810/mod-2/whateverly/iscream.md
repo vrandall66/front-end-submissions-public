@@ -138,9 +138,9 @@ This way, you're always returning the same variable -- parlorFlavors -- but what
 Comments:
 
 Contribution breakdown:
-Eric: 37 commits
-Tom: 12 commits
-Heather: 56 commits
+Eric: 37 commits  
+Tom: 12 commits  
+Heather: 56 commits  
 
 - Looking at contributions in a group of three (from commits as well as actual code/features added) the split of the work does not seem balanced.
 - Would like to see more back/forth conversation in your PRs. This [PR](https://github.com/ericweissman/icecream_whateverly/pull/59) and [this](https://github.com/ericweissman/icecream_whateverly/pull/67) are good examples of where some of this happens; however, conversation is inconsistent or completely lacking in other PRs. Lots of instances of a PR creator asking for feedback and not receiving a response.

@@ -147,10 +147,10 @@ That's a little more readable and a more common convention for working with tern
 
 Comments:
 
-Contribution breakdown:
-Justin: 37 commits
-Whitney: 45 commits
-Matt: 25 commits
+Contribution breakdown:  
+Justin: 37 commits  
+Whitney: 45 commits  
+Matt: 25 commits  
 
 - Good amount of conversation and useful comments happening in PRs! Good line-by-line feedback.
 - Tagged instructors 12/21, and 12/27. Each PR was less than 200 lines of code to review.
