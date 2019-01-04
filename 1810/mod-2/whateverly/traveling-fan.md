@@ -104,7 +104,7 @@ Comments:
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 
-* [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
+* [X] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
 * [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
@@ -113,14 +113,15 @@ Comments:
 
 Comments:
 
+Contribution breakdown:
+Travis: 56 commits
+Eric: 25 commits
+Theo: 23 commits
 
-
-
-
-
-
-
-
+- Looking at contributions in a group of three (comparing commits as well as actual code/features added) the split of the work does not seem balanced.
+- Make sure that you are giving the _why_ behind your PR. Majority of PRs has no description of what has changed and needs reviewing or simply asks reviewiers to check things out or have a look at things (not being specific on what has changed or why). A lack of direction from the person requesting a review/help makes it infinitely more difficult for a reviewer to give a good review.
+- Work on giving critical, constructive feeback to make the applicaiton better - many line-by-line comments simply compliment what has been done.
+- Tagged instructors 12/19, 12/29, and 1/2. Lines of code submitted: under 100, around 300, and over 5000 with snapshots.
 
 ------------------------------------------------------------------
 
@@ -137,9 +138,7 @@ Comments:
 
 Comments:
 
-
-
-
+- Per the history, no contributions were found from Theo for testing. It is important that all group members make sure that every member on the project has the opportunity to test.
 
 
 
@@ -154,7 +153,7 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
@@ -162,10 +161,10 @@ Comments:
 Comments:
 
 
-
-
-
-
-
-
-
+- Nice job with a live recording of the application!!
+- Appreciate Eric dressing up a bit for the presentation - shows professionalism and the desire to impress. This doesn't mean you have to dress to the nines - but generally you want to dress slightly better than your audience when presenting
+- Try not to stare at the ground as your other group members are speaking
+- Pay attention to your body language while presenting. Hands in pockets comes off as too relaxed while crossed arms can seem standoffish
+- Really enjoyed the addition (along with the visual) regarding the evolution of the application and how you made changes to your architecture
+- Be sure to use technical terms as much as possible when describing the code that created.
+- Avoid saying things like "we are just trying to just get this presentation out of the way." Showing off your project is a great way to show your passion about what you've created and statements like that give off the impression that you're not excited

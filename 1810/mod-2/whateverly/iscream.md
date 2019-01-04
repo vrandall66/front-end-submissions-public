@@ -104,14 +104,23 @@ Comments:
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 
-* [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
+* [X] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [X] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 
 
 Comments:
+
+Contribution breakdown:
+Eric: 37 commits
+Tom: 12 commits
+Heather: 56 commits
+
+- Looking at contributions in a group of three (from commits as well as actual code/features added) the split of the work does not seem balanced.
+- Would like to see more back/forth conversation in your PRs. This [PR](https://github.com/ericweissman/icecream_whateverly/pull/59) and [this](https://github.com/ericweissman/icecream_whateverly/pull/67) are good examples of where some of this happens; however, conversation is inconsistent or completely lacking in other PRs. Lots of instances of a PR creator asking for feedback and not receiving a response.
+- Tagged instructors 12/21 and 1/2 (2 days past Day 8). One PR was about 400 lines, other was around 200.
 
 
 
@@ -145,7 +154,6 @@ Comments:
 
 
 
-
 ------------------------------------------------------------------
 
 ## Presentation
@@ -154,18 +162,17 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
 
 Comments:
 
-
-
-
-
-
-
-
-
+- Great opening and gif - great ice breaker! 
+- There are a lot of words on the first slide - err on the side of having bullet points 
+- Was frightened when I saw the words "Live Demo" - glad to see that you have a recording of the app demo 
+- Great job with making the presentation very conversational and natural
+- Nice use of humour and keeping it lighthearted
+- Would great to see examples of code in a slide
+- Visuals for your challenges (code snippets - see above) would strengthen the presentation

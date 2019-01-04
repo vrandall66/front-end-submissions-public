@@ -104,7 +104,7 @@ Comments:
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 
-* [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
+* [X] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
 * [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
@@ -113,14 +113,14 @@ Comments:
 
 Comments:
 
+Contribution breakdown:
+Karin: 42 commits
+Tiffany: 25 commits
+Adam: 4 commits
 
-
-
-
-
-
-
-
+- This is a pretty significant disparity in contributions in a 3 person project. From the PRs, it looks like a portion of this might be due to portions of code being written/reviewed together; however, even if that is the case - group members should still be switching who the driver of the project is when pairing/reviewing in person. 
+- A good number of feedback/comments on each of the PRs. However, there is still a lot of one-sided conversation happening and questions from PR creators that go unanswered by reviewers. Also a significant amount of comments that are simply thanking the person for adding/updating a feature with the reviewer restating (in their own words) the changes that were made.
+- Tagged instructors 12/20 (2 days late) and 12/24. First was over 700 (which includes 500 lines to updates on package-lock.json file) while second was just over 900 lines.
 
 ------------------------------------------------------------------
 
@@ -156,16 +156,15 @@ Comments:
 
 * [ ] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
-* [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
+* [X] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
 
 Comments:
 
-
-
-
-
-
-
-
-
+- LOVE the added touch of the national park shirts - fun yet professional 
+- Nice hand gesturing while presenting!!! Your charisma is 👌
+- No need to mention the tech stack based on your audience - though mentioning leaflet is important
+- Love the fact that you created personas and that you incorporated and talked about your users as part of your presentation
+- Great job talking and describing the way that the app works as the recorded demo plays. Yay for not doing a live demo!
+- Slides - good bullet points, easy to scan, not too little or too much information
+- Nice job whiteboarding the different components - though it would likely be a bit easier to add this as a slide and use that as a visual aide during the demo. Gives you the extra security of creating less room for possible errors/mistakes

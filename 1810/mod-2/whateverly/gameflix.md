@@ -102,25 +102,24 @@ Comments:
 
 ## GitHub Collaboration/Workflow
 
+
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [X] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 
-
 Comments:
 
+Contribution breakdown:
+Justin: 37 commits
+Whitney: 45 commits
+Matt: 25 commits
 
-
-
-
-
-
-
-
+- Good amount of conversation and useful comments happening in PRs! Good line-by-line feedback.
+- Tagged instructors 12/21, and 12/27. Each PR was less than 200 lines of code to review.
 
 ------------------------------------------------------------------
 
@@ -137,8 +136,7 @@ Comments:
 
 Comments:
 
-
-
+- Per the history, looks like Justin did the majority of the testing with additions from Whitney. No contributions were found by Matt. It is important that all group members make sure that everyone on the project has the opportunity to test.
 
 
 
@@ -154,18 +152,17 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
-
 Comments:
 
-
-
-
-
-
-
-
-
+- Pay attention to your body language and where your eyes are focused when you are presenting - avoid looking at the floor
+- Many of the slides aren't adding much to the presentation - code snippets or other visuals would strengthen the presentation
+- Nice comic relief regarding the monster method in your application
+- Would like to see the demo of the app a bit sooner - was a bit delayed
+- Nice job using a recording for the application
+- Good positivity/smiles during the presentation
+- Don't throw in F bombs or curse words - always a bit risky in a formal presentation
+- Love your showcasing of the mobile design as part of your project

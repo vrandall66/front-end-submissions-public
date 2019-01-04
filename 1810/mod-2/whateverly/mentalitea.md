@@ -106,21 +106,21 @@ Comments:
 
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
-* [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
+* [X] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 
 
 Comments:
 
+Contribution breakdown:
+Shannon: 40 commits
+Paul: 23 commits
+Gabe: 16 commits
 
-
-
-
-
-
-
-
+- Looking at contributions in a group of three (from commits as well as actual code/features added) the split of the work does not seem balanced.
+- Good, detailed, line-by-line comments and feedback. Good amount of conversation taking place in PRs.
+- Tagged instructors 12/23 (2 days late) and 12/31. First was under 50 lines while second was just over 350
 
 ------------------------------------------------------------------
 
@@ -137,6 +137,7 @@ Comments:
 
 Comments:
 
+- Per the history, no contributions were found from Gabe for testing. It is important that all group members make sure that every member on the project has the opportunity to test.
 
 
 
@@ -154,18 +155,17 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
 
 Comments:
 
-
-
-
-
-
-
-
-
+- Very nice opening with the history of tea. Enjoy the comic relief
+- Since everyone in the class (for the most part) is using the same exact tech stack, it's advisable to leave this portion out. Your presentation should be adjusted for your audience
+- The typeface on the slides is hard to read. I think this may be the same typeface that you used in your app - which may be the reason why it was chosen?
+- Nice use of a recording for the slides and not doing a live demo so that you aren't fumbling through the app
+- Be sure that images on your slides are not covering your text
+- Make sure that images that you are presenting aren't stretched
+- Err on the side of less text on the slides to make them easier to glance at

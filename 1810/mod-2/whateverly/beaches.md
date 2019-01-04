@@ -104,23 +104,21 @@ Comments:
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 
-* [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
+* [X] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
 * [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
-
-
 Comments:
 
+Contribution breakdown:
+Libby: 29 commits
+Elly: 34 commits
+Kristen: 20 commits 
 
-
-
-
-
-
-
-
+- A few times where creator of PR is asking explicit questions around the proposed changes (which is good); however, there is not a response or exchange between developers. 
+- A numbers of PRs with no comments from reviewers - PRs are just merged. A few that state that code was written together... making it unclear as to why a PR was submitted in the first place.
+- Tagged instructors 1/2, 12/20, and 12/22. Each PR was less than 100 lines of code to review.
 
 ------------------------------------------------------------------
 
@@ -154,18 +152,14 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
-
 Comments:
 
-
-
-
-
-
-
-
-
+- Make sure that you are consistently speaking clearly and loudly
+- Nice job with showing why there isn't specific information available for beaches and how your app solves this problem
+- Skip going over the tech stack - know your audience and make sure that you are presenting/crafting your presentation for them
+- Nice job using a recording of app interactions
+- Make sure that you are articulating the code examples. There were a few instances that you were speaking about your code and not using technical terms to articulate things - which would improve the presentation.
