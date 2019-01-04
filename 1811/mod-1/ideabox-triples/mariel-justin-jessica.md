@@ -33,7 +33,8 @@
 * Take a look back at the event delegation on the card field area
 * Some functions are a little long, but seems prety dry on the whole
 * Figure out a way to dry up the filter buttons
-    * The conditional seems unnecessary in the filtering functions 
+    * The conditional seems unnecessary in the filtering functions
+* Remove your commented out code!! 
 
 ### Functional Expectations
 
@@ -69,7 +70,6 @@
 
 ### JAVASCRIPT - Style and Implementation
 
-* [ ]  Novice - Crafts JS according to the [turing js style guide](https://github.com/turingschool-examples/javascript/tree/master/es5)
-* [ ]  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
+* [ x ]  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
 
 
