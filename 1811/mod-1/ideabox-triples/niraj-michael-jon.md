@@ -1,55 +1,58 @@
-## Student: 
-## Evaluator:
+## Student: Niraj Aryal & Michael King-Stockton & Jon Keever
+## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+* Great work on the number of commits
+  * In general, good improvement on making smaller commits.  Still several commits that combine HTML, CSS, and JS
+  * Great start to branch names.  Continue to work on making them clearer and creating more branches
+* A few things in the UI that could be spaced out better in the header such as the save button and quality buttons
+  * Search and title could be centered vertically a bit better
+  * Missing the line on the cards between the title/body and the quality/delete buttons
+  * Not mobile friendly yet. Desktop things could fill out screen a bit better
+* A few extra divs that could potentially be cleaned out in the header and form
+* Could remove one of the spans in the title and style the h1 as a whole and then target one span
+* Work on code readability including spacing between lines and tabbing in correctly
+* Also be consistent with your class names using kabob case
+* Cheers on organization of styles from top to bottom
+  * Remember to alphabetize properties for each class
+  * Might start using some percentages instead of so many pixels to make the site more responsive
+* updateContent could be refactored using bracket notation
+* Careful of nested if/else statements in updateQuality
+  * Potentially instead of keeping track of each quality, try storing your qualities in an array and then only keeping track of the index in the constructor function
+* Clean up console.logs in your javascript
+  * Clean up comments as well in your code
+* Continue to work on tabbing things in correctly in Javascript as well
+  * Could use filter instead of for loop in search functionality
+* For editing cards, instead of adding an event listener manually, use event delegation and attach an event listener on the entire section with all of the idea cards listening for focusout
+* Refactor the upVote and DownVote function into one function
+* PRACTICE TALKING THROUGH YOUR CODE!  Own it and know where things are.  Work on defending your decisions and how things are working.
+* Again, check the styleguides as well and you're using kabob case for classes and make sure spacing & tabbing is correct!
+
 
 ### Functional Expectations
 
-* [ ]  Novice - Application meets all of the basic functional expectations of create, edit, delete, and those changes persist in `localStorage`
-* [ ]  Advanced Beginner - Application adds 'Changing the quality of an idea' and enables 'Filtering and Searching by Text' as defined in the spec
 * [ ]  Proficient - Applications adds 'Filtering by Importance' and 'Recent Ideas' as outlined in the spec
-* [ ]  Exceptional - Application adds all of the extensions
 
 ------------------------------------------------------------------
 
 ### Comp Recreation
 
 * [ ]  Novice - Application implements all major comp details accurately and correctly on desktop only (colors, fonts, icons, spacing, alignment, etc.)
-* [ ]  Advanced Beginner - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.). Transitions between screen sizes may not be smooth
-* [ ]  Proficient - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements added generally match the visuals established in the comps, but may be slightly awkward
-* [ ]  Exceptional - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements that have been added match the visuals established in the comps
 
 ------------------------------------------------------------------
 
 ### HTML - Style and Implementation
 
 * [ ]  Novice - Crafts markup according to the [turing html style guide](https://github.com/turingschool-examples/html)
-* [ ]  Advanced Beginner - Application adds to the above by using appropriate semantic elements and using `data-*` attributes for all data related things
-* [ ]  Proficient - Applications adds to the above with markup that is easy to read and follow across naming conventions
-* [ ]  Exceptional - Application adds to the above by using [BEM](http://getbem.com/), [SMACCS](https://smacss.com/), or another set of naming conventions for classes and:
-  * [ ]  Implements html that is accessible for folks with visual disabilities. Reference [this lesson plan](http://frontend.turing.io/lessons/floating/web-accessibility.html)
 
 ------------------------------------------------------------------
 
 ### CSS - Style and Implementation
 
-* [ ]  Novice - Crafts CSS according to the [turing css style guide](https://github.com/turingschool-examples/css)
 * [ ]  Advanced Beginner - Application adds organization for the whole stylesheet and within rules
-* [ ]  Proficient - Applications adds to the above by removing repetitive rules and blocks of code according to the DRY principle
-* [ ]  Exceptional - Application adds to the above by using [BEM](http://getbem.com/), [SMACCS](https://smacss.com/), or another set of naming conventions for classes
 
 ------------------------------------------------------------------
 
 ### JAVASCRIPT - Style and Implementation
 
-* [ ]  Novice - Crafts JS according to the [turing js style guide](https://github.com/turingschool-examples/javascript/tree/master/es5)
 * [ ]  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
-* [ ]  Proficient - Application adds readability by incorporating both DRY and SRP practices and students can speak to implementation decisions and:
-  * [ ]  All functions are less than 10 lines
-  * [ ]  There are less than 3 global variables
-  * [ ]  There are no nested if else statements
-* [ ]  Exceptional - Application adds to code quality by refactoring all for loops into the proper array prototype iteration methods and:
-  * [ ]  Using logical operators instead of if/else
-  * [ ]  Application changes anonymous functions to arrow functions and changes all variables to be block scoped (`let` and `const`)
-  * [ ]  Application stores all ideas in one array in local storage, instead of individually
-  * [ ]  When 'Filtering and Searching by Text' and 'Flitering by Importance' All ideas that do not need to be shown on the dom should be completely removed from the dom, instead of only being hidden from view
 
