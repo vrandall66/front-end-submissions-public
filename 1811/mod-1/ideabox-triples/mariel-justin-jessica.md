@@ -1,55 +1,75 @@
-## Student: 
-## Evaluator:
+## Student: Mariel, Justin Pyktel, Jessica Hansen
+## Evaluator: Khalid Williams 
 ## Notes/What To Work On:
+
+#### General
+* Look back at the issue with the sorting button
+* Good comp recreation on the whole
+* Additions match the comp
+    * Watch the alignment on the filter buttons (keep a uniform width with the page)
+    * Be careful about keeping the filter buttons consistent in your media queries -- things were getting a little jumpy
+* reloading page doens't call the hidden card function, but it does work on click or on save (new card) 
+    * This is the main thing keeping you from proficient in functionality 
+* Deleting the card works
+* Quality searching is happening using filter in a forEach and searching for the srtring itself
+* Responsiveness:
+    * Show more button isn't reponsive due to time issues this morning
+    * A few jumpy tranistions, no stacking in the filter cards buttons
+* Good job keeping things persisting in localStorage
+
+#### HTML:
+* Nice job using naming conventions for the classes and ids
+    * The intent with the conventions was good, but there are some areas with the naming is a little inconsistent (header section lines 12-20)
+    * Take some more time to look into the deatails and philosophy of BEM, try and use their specific terminology; good job getting into the naming convention mindset though!
+* Pretty semantic markup 
+* Think of areas where you can make things more semantic (like the form at the top)
+* You're misusing the `for` attribute for your input labels; they should correspond to the `id` attributes for your input, not the `name` attribute (it's a little bit different with radio buttons though)
+
+#### CSS:
+* Good organization, think about some areas where you can dry things up by finding a class to connect multiple elements (when you're using > 4 selectors)
+* Try and have fewer media queries and consolidating some of your rules; fewer will keep things less jumpy
+
+#### JS:
+* Take a look back at the event delegation on the card field area
+* Some functions are a little long, but seems prety dry on the whole
+* Figure out a way to dry up the filter buttons
+    * The conditional seems unnecessary in the filtering functions
+* Remove your commented out code!! 
 
 ### Functional Expectations
 
-* [ ]  Novice - Application meets all of the basic functional expectations of create, edit, delete, and those changes persist in `localStorage`
-* [ ]  Advanced Beginner - Application adds 'Changing the quality of an idea' and enables 'Filtering and Searching by Text' as defined in the spec
-* [ ]  Proficient - Applications adds 'Filtering by Importance' and 'Recent Ideas' as outlined in the spec
-* [ ]  Exceptional - Application adds all of the extensions
+* [ x ]  Advanced Beginner - Application adds 'Changing the quality of an idea' and enables 'Filtering and Searching by Text' as defined in the spec
+
 
 ------------------------------------------------------------------
 
 ### Comp Recreation
 
-* [ ]  Novice - Application implements all major comp details accurately and correctly on desktop only (colors, fonts, icons, spacing, alignment, etc.)
-* [ ]  Advanced Beginner - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.). Transitions between screen sizes may not be smooth
-* [ ]  Proficient - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements added generally match the visuals established in the comps, but may be slightly awkward
-* [ ]  Exceptional - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements that have been added match the visuals established in the comps
+* [ x ]  Advanced Beginner - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.). **Transitions between screen sizes may not be smooth**
+
+
 
 ------------------------------------------------------------------
 
 ### HTML - Style and Implementation
 
-* [ ]  Novice - Crafts markup according to the [turing html style guide](https://github.com/turingschool-examples/html)
-* [ ]  Advanced Beginner - Application adds to the above by using appropriate semantic elements and using `data-*` attributes for all data related things
-* [ ]  Proficient - Applications adds to the above with markup that is easy to read and follow across naming conventions
-* [ ]  Exceptional - Application adds to the above by using [BEM](http://getbem.com/), [SMACCS](https://smacss.com/), or another set of naming conventions for classes and:
-  * [ ]  Implements html that is accessible for folks with visual disabilities. Reference [this lesson plan](http://frontend.turing.io/lessons/floating/web-accessibility.html)
+* [ x ]  Novice - Crafts markup according to the [turing html style guide](https://github.com/turingschool-examples/html)
+
+    * The main thing holding you back from advanced beginner is not utilizing data attributes. Overwise, the html was quite good.
+
 
 ------------------------------------------------------------------
 
 ### CSS - Style and Implementation
 
-* [ ]  Novice - Crafts CSS according to the [turing css style guide](https://github.com/turingschool-examples/css)
-* [ ]  Advanced Beginner - Application adds organization for the whole stylesheet and within rules
-* [ ]  Proficient - Applications adds to the above by removing repetitive rules and blocks of code according to the DRY principle
-* [ ]  Exceptional - Application adds to the above by using [BEM](http://getbem.com/), [SMACCS](https://smacss.com/), or another set of naming conventions for classes
+
+* [ x ]  Proficient - Applications adds to the above by removing repetitive rules and blocks of code according to the DRY principle
+
 
 ------------------------------------------------------------------
 
 ### JAVASCRIPT - Style and Implementation
 
-* [ ]  Novice - Crafts JS according to the [turing js style guide](https://github.com/turingschool-examples/javascript/tree/master/es5)
-* [ ]  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
-* [ ]  Proficient - Application adds readability by incorporating both DRY and SRP practices and students can speak to implementation decisions and:
-  * [ ]  All functions are less than 10 lines
-  * [ ]  There are less than 3 global variables
-  * [ ]  There are no nested if else statements
-* [ ]  Exceptional - Application adds to code quality by refactoring all for loops into the proper array prototype iteration methods and:
-  * [ ]  Using logical operators instead of if/else
-  * [ ]  Application changes anonymous functions to arrow functions and changes all variables to be block scoped (`let` and `const`)
-  * [ ]  Application stores all ideas in one array in local storage, instead of individually
-  * [ ]  When 'Filtering and Searching by Text' and 'Flitering by Importance' All ideas that do not need to be shown on the dom should be completely removed from the dom, instead of only being hidden from view
+* [ x ]  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
+
 

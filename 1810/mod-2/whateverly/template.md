@@ -113,7 +113,10 @@ Comments:
 
 Comments:
 
-
+Contribution breakdown:  
+ _student1: <x> commits_  
+ _student2: <x> commits_  
+ _student3: <x> commits_  
 
 
 
