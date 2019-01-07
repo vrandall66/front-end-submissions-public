@@ -10,21 +10,15 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [x] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
 
 
 Comments:
 
-
-
-
-
-
-
-
-
+* The screenshots are nice - next time be a little more selective with which screenshots you choose
+* In your README section for setup, use text formatting when you have shell commands to run like `npm install`
 
 ------------------------------------------------------------------
 
@@ -41,22 +35,15 @@ Comments:
 
 Comments:
 
+
 * Doesn't appear like the filtering is working to change the beaches that are displayed by county after you do your first round of filtering
-
 * Difficult to read the 'Find your happy place' button with the white text and the glare of the sun from the background -- I think the sizing is a bit off overall as well, you should test this a bit further in different screen sizes and check up on the responsiveness. On my laptop I'm seeing a lot of horizontal scrolling that we'd like to avoid
-
 * The maps section is helpful, but I feel like I should be able to click on something here. It's unclear to me that I can't view more information about a beach that appears on the maps here. With the separation of beaches and maps, I have to go back and forth between the Beaches and Maps pages. I'd like to see the beach and where it is simultaneously.
-
 * The click targets for the beach cards are much too tiny -- I should be able to click anywhere on that entire little card, rather than just on the title of the beach
-
 * I would put some sort of semi-opaque overlay on the rest of the site after a user clicks on a particular beach and gets that pop-up of extra details. It's a little overwhelming having so much content so clearly visible, I'd like that pop-up to stand out a little bit more
-
 * I'd like to see a few more hover effects or indicators of the things I can/can't click on in the app. Generally, at minimum, anything that can be clicked on should turn the cursor into a little hand (like it does for regular hyperlinks)
-
 * The hero image is nice in terms of getting the user’s attention.
-
-
-
+* You should never need a "Scroll Down" call-to-action on a page - most people these days are ok with scrolling a little bit if it's clear there is more information
 
 
 
@@ -67,7 +54,7 @@ Comments:
 
 * [ ] Novice - There are several (10+) instances of duplication and one or two major bugs. Developers write code with unnecessary selectors or tags which do not increase clarity.
 
-* [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unncessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
+* [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
 * [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 

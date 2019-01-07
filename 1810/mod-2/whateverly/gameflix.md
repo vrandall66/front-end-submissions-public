@@ -10,21 +10,15 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [x] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
 
 
 Comments:
 
-
-
-
-
-
-
-
-
+* The gif in the README is great - much better than 5 screenshots one after the other, but I would like to see more interactions shown in the gif.
+* Good job with tags on user story issues
 
 ------------------------------------------------------------------
 
@@ -34,19 +28,18 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [x] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
-
-
-
-
-
-
+* Red hover on card seen during a check-in? Good change to gray - still a little thick. Can be thinner and a bit lighter...
+* Filters and search bar can be used together, but from a UI standpoint, they still seem separate when you're using Advanced Search.
+* Why popup vs. expanding the game card? Even though the cards are not in a carousel, there is a disparity in behavior, but I'm not sure why you want that. 
+* Entry page is nice, but people don't want to have to click that every time they use the site. Like that you're matching the Netflix theme. For the future, be careful with use of red because it can mean the user is about to do something destructive (danger).
+* The `Advanced Search` button/link in the nav looks like the other links but behaves differently - some visual key for the user that this is a pull-down menu would be good. Or possible move `Advanced Search` to the right side of the nav bar to augment the search bar. 
 
 
 
@@ -56,7 +49,7 @@ Comments:
 
 * [ ] Novice - There are several (10+) instances of duplication and one or two major bugs. Developers write code with unnecessary selectors or tags which do not increase clarity.
 
-* [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unncessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
+* [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
 * [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 

@@ -10,21 +10,16 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [x] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
 
 
 Comments:
 
-
-
-
-
-
-
-
-
+* Put the screenshots before the wireframes in the README. An employer wants to see what the app looks like, and then maybe they'll be curious about your process. The wireframes looks good.
+* There are too many screenshots/gifs, especially since they all kind of look the same - I'm not sure what to look for in each gif. You could do with one or two gifs.
+* In the future, break out your user stories into multiple issues so each issue can be tackled independently.
 
 ------------------------------------------------------------------
 
@@ -34,19 +29,17 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [x] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
-
-
-
-
-
-
+* The font choice is nice for the topic as well as the color scheme.
+* The ice cream cone images looks a little squished (maybe it just needs some room on the bottom/top of the image) as well as the individual ice cream flavor images.
+* The pints for each ice cream are nice - they are a little big for the space used, especially since there are so many flavors.
+* The ice cream show pages (popups) are a little plain - could use the space a little more effectively. There is some unused space. 
 
 
 
@@ -56,7 +49,7 @@ Comments:
 
 * [ ] Novice - There are several (10+) instances of duplication and one or two major bugs. Developers write code with unnecessary selectors or tags which do not increase clarity.
 
-* [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unncessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
+* [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
 * [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 

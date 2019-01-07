@@ -10,21 +10,16 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [x] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
 
 
 Comments:
 
-
-
-
-
-
-
-
-
+* I would lean toward putting screenshots before wireframes in the README since wireframes tend to be more crude and screenshots are what you want to showcase
+* Better to mark your user stories in issues using a tag rather than only text in the titles. Using tags is clearer and has some added sorting/filtering features
+* Curious why the "Background/About" section is in all bold in the README?
 
 
 ------------------------------------------------------------------
@@ -35,16 +30,16 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [x] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
-
-
-
+* The hover states are really nice on the team cards.
+* The team cards could use a bit more opacity - the text is still a bit hard to read (run through accessibility checker to see if the contrast is enough).
+* The carousel is nice - it would be nice to have an indication of where I am in the carousel. 
 
 
 
@@ -57,7 +52,7 @@ Comments:
 
 * [ ] Novice - There are several (10+) instances of duplication and one or two major bugs. Developers write code with unnecessary selectors or tags which do not increase clarity.
 
-* [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unncessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
+* [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
 * [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
@@ -66,8 +61,7 @@ Comments:
 
 Comments:
 
-
-
+* The color variables use colors in the variable name (e.g. `$cardinals-black`). What if for some reason the cardinals change their color to navy? Then the variable name is almost meaningless because it is tied to the actual color is used. So now you would have to change the variable name everywhere for it to make sense. A common practice is to name the variable for how it is used (e.g. `$cardinals-primary`). Then if the color changes, the variable name still makes sense.
 
 
 
