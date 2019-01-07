@@ -177,9 +177,9 @@ Kristen: 20 commits
 
 ## Testing
 
-* [ ] Novice - There is little or no evidence of testing in the application.
+* [x] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The applicaiton contains numberous holes in testing and/or many features are untested.
+* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The applicaiton contains numberous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
@@ -188,13 +188,9 @@ Kristen: 20 commits
 
 Comments:
 
-
-
-
-
-
-
-
+* Be sure to have consistent snapshot testing and to have tests for default state as well as updates to state with components that holdstate
+* No tests for methods on App
+* Additional assertions could be added to make sure that mock functions are being called a set number of times when a method is invoked. Also be sure to test with `toHaveBeenCalledWith()` when you are passing arguments to these mocked functions  
 
 
 ------------------------------------------------------------------

@@ -141,23 +141,19 @@ Adam: 4 commits
 
 * [ ] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The applicaiton contains numberous holes in testing and/or many features are untested.
+* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
-* [ ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
+* [X] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
 
 
 Comments:
 
-
-
-
-
-
-
-
-
+* Testing looks good with most things covered and high-quality tests. 
+* Great job consistently testing for default state, and updates to state. App testing coverage looks good!
+* Make sure to test for conditional logic in methods (and all possible outcomes based on logic) like in testing for method `saveNewParksArray` in `Button`
+* Additional assertions could be added to make sure that mock functions are being called a set number of times when a method is invoked.
 
 ------------------------------------------------------------------
 

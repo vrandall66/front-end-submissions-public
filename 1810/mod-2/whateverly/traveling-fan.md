@@ -26,6 +26,7 @@ Comments:
 
 
 
+
 ------------------------------------------------------------------
 
 ## UI/UX
@@ -125,7 +126,7 @@ Theo: 23 commits
 
 - Looking at contributions in a group of three (comparing commits as well as actual code/features added) the split of the work does not seem balanced.
 - Make sure that you are giving the _why_ behind your PR. Majority of PRs has no description of what has changed and needs reviewing or simply asks reviewiers to check things out or have a look at things (not being specific on what has changed or why). A lack of direction from the person requesting a review/help makes it infinitely more difficult for a reviewer to give a good review.
-- Work on giving critical, constructive feeback to make the applicaiton better - many line-by-line comments simply compliment what has been done.
+- Work on giving critical, constructive feeback to make the application better - many line-by-line comments simply compliment what has been done.
 - Tagged instructors 12/19, 12/29, and 1/2. Lines of code submitted: under 100, around 300, and over 5000 with snapshots.
 
 ------------------------------------------------------------------
@@ -134,7 +135,7 @@ Theo: 23 commits
 
 * [ ] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The applicaiton contains numberous holes in testing and/or many features are untested.
+* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
@@ -143,12 +144,17 @@ Theo: 23 commits
 
 Comments:
 
-- Per the history, no contributions were found from Theo for testing. It is important that all group members make sure that every member on the project has the opportunity to test.
+* Per the history, no contributions were found from Theo for testing. It is important that all group members make sure that every member on the project has the opportunity to test.
+* Additional assertions could be added to make sure that mock functions are being called a set number of times when a method is invoked (For example, with the testing for the carousel click in `City`. As a side note - you'll want to make sure that you don't have clickHandlers on `h1` elements. If we were testing for accessibility, this would not work... not to mention that it doesn't allow screenreaders to reach the content they need!)
+* You'll want to re-word the descriptions that you have in some of your it blocks to avoid confusion. For example, in your `Popup` files, the wording around "passing methods up" as actions is confusing. 
 
+For the test on line 52, instead of saying:
+`should pass the showAllTeams method actions up from city/card view to container`
+you could simply put:
+`should call this.props.showAllTeams when showAllTeams is invoked`
 
-
-
-
+* Make sure to test both outputs from a conditional. For instance, checking for when the className is `icon-img` or `icon-test` in your test for the `getTargetWord` method in `Container`
+* App missing tests for several methods - in order to test for your methods in App, you'll need to set up mock data to populate your state. You can do this by setting this mock data with `wrapper.setState()` in the `beforeEach` of your describe block. You do not have to test your fetch calls this inning!
 
 ------------------------------------------------------------------
 

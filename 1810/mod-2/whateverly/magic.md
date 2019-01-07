@@ -142,7 +142,7 @@ David: 11 commits
 
 * [ ] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The applicaiton contains numberous holes in testing and/or many features are untested.
+* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The applicaiton contains numberous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
@@ -151,14 +151,11 @@ David: 11 commits
 
 Comments:
 
-
-
-
-
-
-
-
-
+* Really good coverage with snapshot testing
+* Overall the majority of tests for the application are snapshots or testing for whether functions or mocked methods have been called. In order to create a more robust test suite some recommendations are as follows:  
+  - Additional assertions could be added to make sure that mock functions are being called a set number of times when a method is invoked. Also be sure to test with `toHaveBeenCalledWith()` when you are passing arguments to these mocked functions  
+  - If a method is returning a value (like in `updateUsersCardData`) be sure that you are also testing for that returned value. Same goes for any methods with conditional logic - always be sure that you test both possible "paths" in a method  
+  - Create a separate it block for testing for default state and be sure that you are testing for updates to state that are triggered by methods  
 
 ------------------------------------------------------------------
 

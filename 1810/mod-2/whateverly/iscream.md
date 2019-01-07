@@ -119,9 +119,6 @@ This way, you're always returning the same variable -- parlorFlavors -- but what
 
 
 
-
-
-
 ------------------------------------------------------------------
 
 ## GitHub Collaboration/Workflow
@@ -161,9 +158,9 @@ Heather: 56 commits
 
 * [ ] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The applicaiton contains numberous holes in testing and/or many features are untested.
+* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
+* [x] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
 * [ ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
 
@@ -171,12 +168,20 @@ Heather: 56 commits
 Comments:
 
 
+* Nice job with tests directory - the organization makes it much easier to go through the testing suite while comparing tests to the implemented code
+* Additional assertions could be added to make sure that mock functions are being called a set number of times when a method is invoked.
+should change ParlorCard details state to true when the getParlorDetails method is called - what does this mean in terms of the user
+* When you are testing for updates to state, you'll typically want to check for the initial state before _and_ after the interaction that causes state to update. For example, in `ParlorCard` the test for on line 68 should be rewritten as follows:
 
-
-
-
-
-
+```js
+ it('should change ParlorCard details state to true when the getParlorDetails method is called', () => {
+      expect(wrapper.state()).toEqual({details: false})
+      wrapper.find('.parlor-details').simulate('click')
+      expect(wrapper.state('details')).toEqual(true)
+  });
+```
+* Some inconsistencies in using snapshot to test components
+* No tests for `CardContainer`
 
 ------------------------------------------------------------------
 

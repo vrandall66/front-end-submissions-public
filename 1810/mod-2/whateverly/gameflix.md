@@ -159,9 +159,9 @@ Matt: 25 commits
 
 ## Testing
 
-* [ ] Novice - There is little or no evidence of testing in the application.
+* [x] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The applicaiton contains numberous holes in testing and/or many features are untested.
+* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
@@ -170,12 +170,8 @@ Matt: 25 commits
 
 Comments:
 
-- Per the history, looks like Justin did the majority of the testing with additions from Whitney. No contributions were found by Matt. It is important that all group members make sure that everyone on the project has the opportunity to test.
-
-
-
-
-
+* Per the history, looks like Justin did the majority of the testing with additions from Whitney. No contributions were found by Matt. It is important that all group members make sure that everyone on the project has the opportunity to test.
+* Lots of missing tests - there are no tests for `NavBar`, inconsistent snapshot testing and testing for clickHandlers across components, missing tests in `Carousel`, and state and methods are _not_ tested for anything in `App`. Per the history of commits, it looks like tests were written right after the testing lesson and not picked up again until 1-2 day before the project due date. For future projects, be sure to write tests early and try to finish the majority of your testing well before the project due date!
 
 
 ------------------------------------------------------------------

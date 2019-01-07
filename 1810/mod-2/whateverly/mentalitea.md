@@ -143,22 +143,17 @@ Gabe: 16 commits
 
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The applicaiton contains numberous holes in testing and/or many features are untested.
 
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
+* [x] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
 * [ ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
 
 
 Comments:
 
-- Per the history, no contributions were found from Gabe for testing. It is important that all group members make sure that every member on the project has the opportunity to test.
-
-
-
-
-
-
-
-
+* Per the history, no contributions were found from Gabe for testing. It is important that all group members make sure that every member on the project has the opportunity to test.
+* Most of the methods in App tested - good coverage through the rest of the application.
+* Additional assertions could be added to make sure that mock functions are being called a set number of times when a method is invoked.
+* Make sure to test for the initial state before _and_ after the interaction that causes state to update (an additional assertion for this could be added for `App`'s test for caffeine level on line 34)
 
 ------------------------------------------------------------------
 
