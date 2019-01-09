@@ -1,6 +1,6 @@
-### Evaluator:
-### Students:
-### Comments:
+### Evaluator: Christie 
+### Students: Derek
+### Comments: Testing is lacking
 
 ## Rubric
 
@@ -39,15 +39,8 @@
 
 ### Testing
 
-* 4 - All requirements from 3 met, all async functionality is tested, tests are
-  passing and run efficiently (using mount only when appropriate).
-* 3 - All Redux functionality is tested (actions, reducers, mapStateToProps, mapDispatchToProps), all
-  components are unit tested, and a valid attempt was made to test any async
-  functionality.
 * 2 - Nearly all unit tests for Redux and React are in place. No attempt to test
   async functionality was made.
-* 1 - A valid attempt to test this application was made, but there are obvious
-  gaps, with missing unit tests for Redux and React.
 
 ### Redux Architecture
 
