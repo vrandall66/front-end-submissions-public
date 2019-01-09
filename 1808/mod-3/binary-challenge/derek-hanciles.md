@@ -20,10 +20,6 @@
 
 ### Project Professionalism
 
-* 4 - All requirements from 3 met, codebase has zero linter errors/warnings and
-  readme contains screenshots of application. Project team uses a rebase
-  workflow, taking advantage of github issues to track work. Project shows a
-  complete mastery of React architecture.
 * 3 - PropType functionality is complete, the codebase has less than 5 linter
   errors, README has been updated with all group members. Project utilized
   wireframes from the outset. All git commits are atomic, made first to
@@ -52,9 +48,6 @@
 
 ### Routing
 
-* 4 - All requirements from 3 met, and always chooses the correct component for
-  rendering, as well as the correct Route API. Application should account for
-  undefined routes.
 * 3 - Application uses React Router to display appropriate components based on URL.
 * 2 - Application uses React Router, but does not display the appropriate components upon navigating.
 * 1 - Application uses React Router, but does not render/use all routes.
