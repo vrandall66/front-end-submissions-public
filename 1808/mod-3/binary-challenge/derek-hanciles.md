@@ -1,6 +1,6 @@
-### Evaluator:
-### Students:
-### Comments:
+### Evaluator: Christie 
+### Students: Derek
+### Comments: Testing is lacking
 
 ## Rubric
 
@@ -20,10 +20,6 @@
 
 ### Project Professionalism
 
-* 4 - All requirements from 3 met, codebase has zero linter errors/warnings and
-  readme contains screenshots of application. Project team uses a rebase
-  workflow, taking advantage of github issues to track work. Project shows a
-  complete mastery of React architecture.
 * 3 - PropType functionality is complete, the codebase has less than 5 linter
   errors, README has been updated with all group members. Project utilized
   wireframes from the outset. All git commits are atomic, made first to
@@ -39,15 +35,8 @@
 
 ### Testing
 
-* 4 - All requirements from 3 met, all async functionality is tested, tests are
-  passing and run efficiently (using mount only when appropriate).
-* 3 - All Redux functionality is tested (actions, reducers, mapStateToProps, mapDispatchToProps), all
-  components are unit tested, and a valid attempt was made to test any async
-  functionality.
 * 2 - Nearly all unit tests for Redux and React are in place. No attempt to test
   async functionality was made.
-* 1 - A valid attempt to test this application was made, but there are obvious
-  gaps, with missing unit tests for Redux and React.
 
 ### Redux Architecture
 
@@ -59,9 +48,6 @@
 
 ### Routing
 
-* 4 - All requirements from 3 met, and always chooses the correct component for
-  rendering, as well as the correct Route API. Application should account for
-  undefined routes.
 * 3 - Application uses React Router to display appropriate components based on URL.
 * 2 - Application uses React Router, but does not display the appropriate components upon navigating.
 * 1 - Application uses React Router, but does not render/use all routes.
