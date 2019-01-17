@@ -16,9 +16,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Ashley Levi
 
-* [Node Server Tutorial]() - add a link to your repo here
-* [Express Tutorial]() - What additional items did you work on? List the exercises here
-* [Promise Practice Exercises]() - add a link to your repo here
+* [Node Server Tutorial](https://github.com/ashleylevi/node-server) 
+* [Express Tutorial](https://github.com/ashleylevi/express-server) - I worked on 1, 2 , 3 & 4 (all of them)
+* [Promise Practice Exercises](https://repl.it/@AshleyPearl/promises) 
 
 ### Ashton Bailey
 
