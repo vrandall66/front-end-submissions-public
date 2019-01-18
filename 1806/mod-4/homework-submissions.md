@@ -139,3 +139,10 @@ I worked on the first three challenge problems but was only successful on the fi
 * [Node Server Tutorial](https://github.com/Tobin-jn/node-prework)
 * [Express Tutorial](https://github.com/Tobin-jn/prework-express) - What additional items did you work on? -All
 * [Promise Practice Exercises](https://gist.github.com/Tobin-jn/244f34cdd60f1fee9952bdfc22a45ba7)
+
+### Jamie Rushford
+
+
+* [Node Server Tutorial](https://github.com/jarushford/node-prework)
+* [Express Tutorial](https://github.com/jarushford/express-prework) - All Items
+* [Promise Practice Exercises](https://repl.it/@jarushford/Promises)
