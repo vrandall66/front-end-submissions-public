@@ -52,9 +52,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Kylie Stanley
 
-* [Node Server Tutorial]() - add a link to your repo here
-* [Express Tutorial]() - What additional items did you work on? List the exercises here
-* [Promise Practice Exercises]() - add a link to your repo here
+* [Node Server Tutorial]() - https://github.com/KylieStanley/node-tutorial
+* [Express Tutorial]() - https://github.com/KylieStanley/express-tutorial - 1, 2, 3, 4
+* [Promise Practice Exercises]() - https://repl.it/@KylieStanley/PromisesPractice
 
 ### Loryn Mason
 
