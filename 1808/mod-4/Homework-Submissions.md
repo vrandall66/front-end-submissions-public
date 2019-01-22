@@ -22,9 +22,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Ashton Bailey
 
-* [Node Server Tutorial]() - add a link to your repo here
-* [Express Tutorial]() - What additional items did you work on? List the exercises here
-* [Promise Practice Exercises]() - add a link to your repo here
+* [Node Server Tutorial](https://github.com/ashtonkbailey/NodePrework.git) - add a link to your repo here
+* [Express Tutorial](https://github.com/ashtonkbailey/ExpressPrework.git) - What additional items did you work on? List the exercises here - 1, 2, & 4
+* [Promise Practice Exercises](https://repl.it/@AshtonBailey/Promises-Prework?language=babel&folderId=) - add a link to your repo here
 
 ### Cody Price
 
