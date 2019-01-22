@@ -64,9 +64,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Mike Duke
 
-* [Node Server Tutorial]() - add a link to your repo here
-* [Express Tutorial]() - What additional items did you work on? List the exercises here
-* [Promise Practice Exercises]() - add a link to your repo here
+* [Node Server Tutorial]() - [Intro to Node](https://github.com/mike-duke/Intro-to-Node.js)
+* [Express Tutorial]() - [Intro to Express](https://github.com/mike-duke/Intro-to-Express). I did the first, third, and fourth extensions.
+* [Promise Practice Exercises]() - [Promises](https://repl.it/@aithon/Writing-and-Working-with-Promises)
 
 ### Sara Ebbers
 
