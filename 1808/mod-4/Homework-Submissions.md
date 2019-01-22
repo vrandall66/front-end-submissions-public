@@ -46,9 +46,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ### Derek Hanciles
 
-* [Node Server Tutorial]() - add a link to your repo here
-* [Express Tutorial]() - What additional items did you work on? List the exercises here
-* [Promise Practice Exercises]() - add a link to your repo here
+* [Node Server Tutorial](https://github.com/Dhanciles/node-server-tutorial) - add a link to your repo here
+* [Express Tutorial](https://github.com/Dhanciles/express-tutorial) - What additional items did you work on? 2, 3, 4
+* [Promise Practice Exercises](https://repl.it/@Dhanciles/Mod-4-Prework-Promises?language=nodejs&folderId=) - add a link to your repo here
 
 ### Jake Lauer
 
