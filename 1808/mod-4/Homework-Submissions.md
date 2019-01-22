@@ -72,7 +72,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Node Server Tutorial]() - https://github.com/saraebbers/preWorkNodeServer
 * [Express Tutorial]() - What additional items did you work on? List the exercises here
-* [Promise Practice Exercises]() - add a link to your repo here
+* [Promise Practice Exercises]() -https://repl.it/@saraebbers/VelvetyGlamorousCable-AKApromisePractice?language=javascript&folderId=
 
 ### Tanjie McMeans
 
