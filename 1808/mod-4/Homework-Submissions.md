@@ -32,6 +32,12 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 * [Express Tutorial]() - What additional items did you work on? List the exercises here
 * [Promise Practice Exercises]() - add a link to your repo here
 
+### Cole Vanacore
+
+* [Node Server Tutorial](https://github.com/colev1/prework-node) - add a link to your repo here
+* [Express Tutorial](https://github.com/colev1/express-prework) - What additional items did you work on? List the exercises here
+* [Promise Practice Exercises]() - add a link to your repo here
+
 ### Derek Hanciles
 
 * [Node Server Tutorial]() - add a link to your repo here
