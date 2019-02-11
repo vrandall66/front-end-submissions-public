@@ -6,7 +6,7 @@ Comments:
 * Overall, UI colors look good! The text is very small - and I'm unable to see the entire GameBoard on my screen - making it difficult to use the game itself.  
 * Update UX so that wheel spins to color and there is some visual indication of the wheel element that has been chosen
 * Although not a requirement for this project, I would encourage you to update your README per the recommendations we went over in the Github Collab lesson
-* Several bugs that were not presented/revealed/found in evaluation: Can buy a vowel with no money; wheel spins before the next player's turn starts; wheel values change _every_ turn so that a new values are being used throughout the round (not per spec); UX does not clearly show to guess answer; bug showing duplicated letters still present in Bonus Round
+* Several bugs that were not presented/revealed/found in evaluation: Can buy a vowel with no money; wheel spins before the next player's turn starts; wheel values change _every_ turn so that a new values are being used throughout the round (not per spec); UX does not clearly show how to guess an answer; bug showing duplicated letters still present (in Bonus Round)
 
 *Given extension until 2/8 at 5PM to make bugs/areas lacking from remote eval. Resubmitted changes within an hour that adjusted test but did not fix broken functionality around duplicated letters showing on gameboard*
 
