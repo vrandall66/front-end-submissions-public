@@ -26,7 +26,7 @@ Comments:
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
 
 * (These tests [https://github.com/IsaacSunoo/WheelOfFortune/blob/master/test/wheel-test.js#L24-L30]) need fleshed out
-* Opportunities for improving testing be (checking values before running methods)[https://github.com/IsaacSunoo/WheelOfFortune/blob/master/test/wheel-test.js#L24-L30 ]
+* Opportunities for improving testing before each method is called (checking values before running methods)[https://github.com/IsaacSunoo/WheelOfFortune/blob/master/test/wheel-test.js#L24-L30 ]
 * Testing in `Game` could be improved - make sure that you are testing your conditionals as well as side effects that methods are causing.
 
 ### JavaScript Style & OOP
