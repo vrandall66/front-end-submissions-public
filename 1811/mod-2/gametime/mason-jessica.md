@@ -14,7 +14,6 @@ Comments:
 
 ### User Interface
 
-* [x] Proficient - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
 * [x] Exceptional -  Meets all expectations for `Proficient`. In addition, the application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
 
 ### Testing
