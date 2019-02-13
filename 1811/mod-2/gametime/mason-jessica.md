@@ -30,7 +30,7 @@ Comments:
 
 * Be sure to name methods by the "action" they are completing - only a few in there, most are named appropriately
 * Good job with variable names!
-* Game is doing quite a bit of lifting, even 
+* Game is doing quite a bit of lifting
 * Quite a bit of hardcoded values and duplicated code that could be refactored. Opportunities for breaking out methods - `assignCategories` is 143 lines long due to duplicated code
 
 ### Workflow
