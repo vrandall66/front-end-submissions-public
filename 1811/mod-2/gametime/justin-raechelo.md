@@ -3,7 +3,8 @@
 * Evaluator: Robbie
 
 Comments:
-* Overall, there was too much time spent polishing the UI - we are FE developers, but the learning goals here were not UI focused - the focus should be on OOP and testing - features were heavily lacking. In the end, knowledge of OOP was demonstrated.
+* There seemed to be too much time spent polishing the UI - we are FE developers after all, but the learning goals for this project were not UI focused - the focus should be on OOP and testing - some major features were not finished.
+* In the end, knowledge of OOP was demonstrated well.
 
 ### Functional Expectations
 
