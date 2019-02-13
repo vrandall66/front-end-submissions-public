@@ -20,10 +20,7 @@ Comments:
 
 ### Testing
 
-* [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
-* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
 * [x] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
-* [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
 
 * (These tests [https://github.com/IsaacSunoo/WheelOfFortune/blob/master/test/wheel-test.js#L24-L30]) need fleshed out
 * Opportunities for improving testing before each method is called (checking values before running methods)[https://github.com/IsaacSunoo/WheelOfFortune/blob/master/test/wheel-test.js#L24-L30 ]
