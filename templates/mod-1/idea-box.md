@@ -36,6 +36,7 @@
 *  Novice - Crafts JS according to the turing js style guide
 *  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
 *  Proficient - Application adds readability by incorporating both DRY and SRP practices and students can speak to implementation decisions and:
+  *  Uses event delegation correctly on dynamic elements for deleting and editing an idea (clicking outside of the text field)
   *  All functions are less than 10 lines
   *  There are no global variables aside from query selectors and an array for your ideas
   *  There are no nested if else statements
@@ -43,4 +44,4 @@
   *  Using logical operators instead of if/else statements where applicable
   *  Application changes anonymous functions to arrow functions and changes all variables to be block scoped (`let` and `const`)
   *  Application stores all ideas in one array in local storage, instead of individually
-  *  When 'Filtering and Searching by Text' and 'Filtering by Importance' All ideas that do not need to be shown on the dom should be completely removed from the dom, instead of only being hidden from view
+  *  When 'Filtering and Searching by Text' and 'Filtering by Importance', ideas that do not need to be shown on the dom should be completely removed from the dom, instead of only being hidden from view
