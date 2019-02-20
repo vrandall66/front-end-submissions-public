@@ -1,44 +1,51 @@
 # Game Time
-* Students:
-* Evaluator:
+* Students: Tim Taylor
+* Evaluator: Pam
 
 Comments:
-*
-*
-*
+* UX is good - easy to move through the game; buttons are appropriately disabled throughout. UI could use some tightening up in the following areas: font is small, making it hard to read; inputs aren't lined up with buttons; use modals instead of alerts
+* Small bug past round 1: would not allow me to pick a letter that is part of the answer... resulting in a lost turn;
+* Super excited that you went above and beyond when given the extension on your project - nice work!
+
+*Given extension until 2/8 at 5PM to improve in areas of functionality, and OOP. Scores reflect changes made with extension given*
 
 ### Functional Expectations
 
-* [ ] Novice - Application is unplayable due to lack of functionality or broken logic.
-* [ ] Advanced Beginner - Application has some missing functionality but no bugs or broken functionality.
-* [ ] Proficient - Application is fully playable and meets all requirements of the spec.
-* [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application exceeds the expectations set by instructors.
-
+* [x] Proficient - Application is fully playable and meets all requirements of the spec.
 
 ### User Interface
 
-* [ ] Novice - The application is confusing or difficult to use.
-* [ ] Advanced Beginner - The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the user stories.
-* [ ] Proficient - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
-* [ ] Exceptional -  Meets all expectations for `Proficient`. In addition, the application is pleasant, logical, and easy to use. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
+* [x] Proficient - The application has many strong pages/interactions, but a few holes in lesser-used functionality.
 
 ### Testing
 
-* [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
-* [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
+* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
+
+* Be sure that you aren't forcing your testing to do things that your application doesn't do naturally. (Here)[https://github.com/timmiller601/gametime-wheel-of-fortune/blob/master/test/test-Game.js#L57 ] you are essentially doing what the first expression already does in `findPuzzles` and then running `findPuzzles`. For this test - the output is the 4 puzzles for the game with the caveat that each puzzle for each round has a different number of words. To test that, it would look something like this:
+
+```js
+  it.('should return four puzzles from the dataset with a varying number of words', function() {
+    const foundPuzzles = game.findPuzzles();
+    
+    expect(foundPuzzles).to.have.length(4);
+    expect(foundPuzzles[0]).to.have.property('number_of_words', 1);
+    expect(foundPuzzles[1]).to.have.property('number_of_words', 2);
+    expect(foundPuzzles[2]).to.have.property('number_of_words', 3);
+    expect(foundPuzzles[3]).to.have.property('number_of_words', 4);
+  });
+```
+
+* Try to think of testing as a way of isolating parts of your Game. I would expect to see a new instance of Player being created in (this `beforeEach`)[https://github.com/timmiller601/gametime-wheel-of-fortune/blob/master/test/test-Player.js#L9-L11 ] block for our Player Game tests
 
 
 ### JavaScript Style & OOP
 
-* [ ] Novice - Your client-side application does not function. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code is not separated.
-* [ ] Advanced Beginner - Your application has a significant amount of duplication and one or more major bugs. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. There are one or more major bugs.
-* [ ] Proficient - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
-* [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. Application is organized into classes (and correctly uses inheritance) and there are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
+* [x] Proficient - Application is thoughtfully put together with some duplication and no major bugs. Developer can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic and no major bugs. Business-logic code is mostly separated from view-related code. Developer can speak to choices made in the code and knows what each line of code is doing.
+
+* Good job with naming methods!
+* Not sure why an object called `wheelObj` is being passed to the constructor (here)[https://github.com/timmiller601/gametime-wheel-of-fortune/blob/master/src/Wheel.js#L4 ]
+* Nice small methods in Game - generally, most of the code is pretty easy to step through and read.
+* Some opportunities for refactoring and moving functionality around.
 
 ### Workflow
-* [ ] Novice - The developer/team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
-* [ ] Advanced Beginner - The developer/team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
-* [ ] Proficient - The developer/team makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base. The team conducts a DTR (define the relationship) and utilizes a planning tool and pairing practices. Both members contribute meaningfully to the application.
-* [ ] Exceptional - Meets all requirements for `Proficient`. In addition, the developer/team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc) and utilizes some sort of planning tool (GitHub issues, Waffle, Trello, etc). The team develops a clear MVP (minimum viable product) and conducts a DTR (define the relationship). Both members contribute meaningfully to the application.
+* [x] Proficient - The developer/team makes a series of small, atomic commits that document the evolution of their application. There are no formatting issues in the code base. The team conducts a DTR (define the relationship) and utilizes a planning tool and pairing practices. Both members contribute meaningfully to the application.
