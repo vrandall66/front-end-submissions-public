@@ -157,14 +157,17 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
 
 Comments:
 
-
+* Intro was great - the background was a bit long, wanted to get to the point of the problem being solved a little sooner - keep in mind people in the audience who are not familiar with owning a bar
+* Some gifs were a bit small on the screen - hard to see the functionality you were trying to show. Try to make gifs as close to fullscreen as you can
+* When showing code, keep is as small as possible with snippets
+* Great to hear about TDD lesson learned and also that datasets are never perfect
 
 
 
