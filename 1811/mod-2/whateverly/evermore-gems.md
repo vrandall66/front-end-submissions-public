@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/IsaacSunoo/whateverly-evermore-gems
 
 # Rubric
 
@@ -23,9 +24,6 @@ Comments:
 
 
 
-
-
-
 ------------------------------------------------------------------
 
 ## UI/UX
@@ -34,12 +32,20 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [ x ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
+
+* Filtering works well with just one exception -- if I type in a gem name in the search bar, then I select to filter by a color that does *not* match that of the gem name I filtered by, the gem list repopulates to only prioritize the color filter and completely nixes the search bar. I would either have that list reflect results from both filter categories combined, or, clear out that search bar text when someone filters by color to make it more obvious that we're now only filtering by color and no longer by name.
+
+* A cool UI feature to add would be some sort of step-by-step "breadcrumbs" or signifier that there are multiple steps to complete before viewing your results. Think of filling out an online application that has multiple phases -- it usually tells you you're on step 1 and you have 4 to go. I could see a top nav bar that says something like "Select Your Gem > Select Your Metal > View Results" where the step you're currently on is highlighted.
+
+* On the results page, I'd swap the image from the left to the right side of the page -- it's a more common convention to have the important information on the left as people have a tendency to ignore the right side of the page (usually the right column is full of ads and other garbage so we've been conditioned to ignore it.)
+
+
 
 
 

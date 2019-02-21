@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/SallyHaefling/enpsychlopedia
 
 # Rubric
 
@@ -34,13 +35,20 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [ x ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
+* It can be hard to tell that you can scroll horizontally in each music category, I'd add some left/right arrows that denote you can move back and forth in that direction. 
+
+* Any time a user can click on something, I would turn that cursor into a little hand with CSS (e.g. the photos for each band) - the drop shadow on hover is a nice touch and gives me some indication that it's clickable, but the cursor is the number 1 thing people look to change on clicakble elements. 
+
+* Nice job getting an active state on those filtering buttons, but we lose it when we click into one of the bands. Would make sense for that to stick around as when I click out of the band, I'm still only seeing the filtered list in that category.
+
+* Good job getting a modal window/popup implemented - those are hard! I like the semi-transparent background overlay as well. One extra reach for that would be to allow the user to click anywhere outside the popup in order to exit out of it, rather than having to click the x button in the top right corner. Popups are also a good place to implement some very subtle CSS transitions like fadein/fadeouts.
 
 
 

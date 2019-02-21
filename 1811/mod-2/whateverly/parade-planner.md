@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/jlavar1/parade-planner.git
 
 # Rubric
 
@@ -34,13 +35,18 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [ x ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
+* Popup modal windows are a really nice effect, but the full-screen background image is pretty distracting/competing for my attention. I'd put a semi-transparent overlay on top of that image to make it a little more subtle and bring the content in the popup box to the forefront.
+
+* Any time a user can click on something, I would turn that cursor into a little hand with CSS (e.g. the photos for each parade) - the overlay on hover is a nice touch and gives me some indication that it's clickable, but the cursor is the number 1 thing people look to change on clickable elements. 
+
+* It can be hard to tell that you can scroll horizontally for the restaurants nearby, I'd add some left/right arrows that denote you can move back and forth in that direction, or find a new layout for that popup altogether -- having a vertical scroll *and* a horizontal scroll in each popup window is a little disorienting.
 
 
 

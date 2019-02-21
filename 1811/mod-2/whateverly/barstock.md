@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/TomWilhoit/BarStock
 
 # Rubric
 
@@ -36,12 +37,18 @@ Comments:
 
 * [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
-* [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
+* [ x ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
+* This looks great! Incredibly clean and simple. Responsiveness is really effective at multiple breakpoints. Good heirarchy of font styling that clearly denotes what's most/least important on the page at the time. Nice display of 'context' - where I only see what I need to see at any given time. 
 
+* I would make it a bit more obvious that I can click on the subcategories under beer/liquor to expand and collapse them. Maybe just an up/down or plus/minus icon would be enough to suffice. 
+
+* Even though we're mobile-first which doesn't generally have a concept of 'hover' effects, it would still be nice to have those for desktop on clickable elements. (The only one I really notice is the beer/liquor hovers.) 
+
+* Rather than a login button, I'd ask some sort of other question like 'Name of Your Bar' -- I'd be concerned with potential employers recognizing that the login/authentication isn't actually a secure login and not knowing if you recognize that or not. You would never store authentication credentials in state the way you are, so this is something I'd consider taking out or changing to something else.
 
 
 

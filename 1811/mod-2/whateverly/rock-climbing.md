@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/criteriamor/Rock-Climbing
 
 # Rubric
 
@@ -34,15 +35,20 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [ x ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
+* Really cool slider functionality for setting the distance from Denver! I also like the full-screen background image, it is subtle enough to not be distracting.
 
+* Overall, anything clickable needs to be more obvious -- e.g. it's difficult to tell that the search feature is actually a button you have to click. Anything that's clickable should also turn the cursor into a hand like a link would do by default.
 
+* I feel a bit confused by the 'Type' and 'Areas' heading -- the areas heading has nothing underneath it until we select a type, which looks a little buggy to me. Don't show that heading until it has relevant content underneath it. (Remember: only give users the context that they need when they need it, rather than showing everything all at once.) Same thing with that bottom semi-transparent bar that populates with the climb data once you select your filters. (At first it's just an empty bar with no content that looks out of place.)
+
+* Fonts could use some differentiation to provide more visual feedback on heirarchy of content. e.g. when you expand a particular route, all of the text is bold/white/the same exact size. Let's add some diversity there to denote what's a title and what's a value.
 
 
 
