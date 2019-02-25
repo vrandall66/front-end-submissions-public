@@ -13,10 +13,8 @@
 
 * [X] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
+
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
-
-
-
 
 
 ------------------------------------------------------------------
@@ -58,13 +56,16 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
 
 
 Comments:
 
+* Avoid naming color [variables](https://github.com/SallyHaefling/enpsychlopedia/blob/master/src/Styles/_SassMixins.scss#L5-L6) with their actual colors -- if you ever change the color scheme, you'll have to change the variable names now too rather than just the values. Make the names more generic for what those colors represent -- is it the primary color for call to action elements? the default text color? etc.
+
+* Nice use of a mixin for your buttons, that's a good use-case for them. If this were a bigger app that required more CSS, I would break out your variables into a separate variables.scss file, and leave your mixins separate in mixins.scss. Because it's so tiny it's not that big of a deal, but that will be the organizational strategy you see elesewhere.
 
 
 
