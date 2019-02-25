@@ -99,7 +99,7 @@ Comments:
 
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [ x ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 
@@ -107,11 +107,17 @@ Comments:
 Comments:
 
 Contribution breakdown:  
- _student1: <x> commits_  
- _student2: <x> commits_  
- _student3: <x> commits_  
+ _Kim: <x> 18 commits  2,623 ++  314 --_  
+ _Tim: <x> 14 commits  521 ++  192 --_  
+ _Gabe: <x> 12 commits  637 ++  220 --_  
+ _Edgar: <x> 15 commits  18,405 ++  320 --_  
 
 
+* Look into git squashing for getting rid of things like all of [these](https://github.com/criteriamor/Rock-Climbing/commits/master) update readme commits.
+
+* Could be slightly more consistent in the formatting of our commit messages to make the history a bit easier to read -- (capitalize the first letter, omit punctuation at the end, write in the imperative tense, etc.)
+
+* Doesn't quite look like there was an even distribution of work here, and it's difficult to tell that every group member mastered each learning goal of the project. I understand there were some communication issues throughout the project, and hope you've all had time to reflect on what went wrong/what improvements can be made in the future. 
 
 
 

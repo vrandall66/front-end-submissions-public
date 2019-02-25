@@ -105,7 +105,7 @@ Comments:
 
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [ x ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 
@@ -113,11 +113,11 @@ Comments:
 Comments:
 
 Contribution breakdown:  
- _student1: <x> commits_  
- _student2: <x> commits_  
- _student3: <x> commits_  
+ _Mason: <x> 28 commits  4,904 ++  4,027 --_  
+ _Sally: <x> 45 commits  21,726 ++  4,103 --_  
+ _David: <x> 31 commits  10,000 ++  7,685 --_  
 
-
+* Overall as a group you probably need a bit more commits -- 77 likely means that each commit is doing too much work and includes more changesets than a single piece of functionality or work. I'd always aim to be well over 100 commits on projects of this size, especially when a lot of your commits are repeats like 'Update README'
 
 
 

@@ -98,7 +98,7 @@ Comments:
 
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [ x ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 
@@ -106,9 +106,10 @@ Comments:
 Comments:
 
 Contribution breakdown:  
- _student1: <x> commits_  
- _student2: <x> commits_  
- _student3: <x> commits_  
+ _Raechel: <x> 40 commits  4,562 ++  2,545 --_  
+ _Adam: <x> 40 commits  4,080 ++  2,006 --_  
+ _Josh: <x> 36 commits  24,556 ++  3,530 --_  
+ _Niraj: <x> 28 commits  4,153 ++  2,254 --_  
 
 
 

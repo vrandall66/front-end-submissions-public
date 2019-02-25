@@ -103,7 +103,7 @@ Comments:
 
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [ x ] Proficient - Developers tag instructors in both required PRs by due dates. PR is between 350 - 450 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
 
@@ -111,11 +111,14 @@ Comments:
 Comments:
 
 Contribution breakdown:  
- _student1: <x> commits_  
- _student2: <x> commits_  
- _student3: <x> commits_  
+ _Rachael: <x> 18 commits  1,391 ++  163 --_  
+ _Kristen: <x> 14 commits  911 ++  505 --_  
+ _Isaac: <x> 16 commits  19,720 ++  1,956 --_  
 
 
+* Overall as a group you probably need a bit more commits -- 71 likely means that each commit is doing too much work and includes more changesets than a single piece of functionality or work. I'd always aim to be well over 100 commits on projects of this size. e.g. don't combine changes for a [test and css](https://github.com/IsaacSunoo/whateverly-evermore-gems/commit/9320d105c91824b45f582a7543f11b0ff7ffcd98) in the same commit. They are unrelated pieces of work.
+
+* Mostly a readable git history, though I would make sure the formatting of your commit messages is a bit more consistent (e.g. always start with a capital letter, never include punctuation, always write in the imperative tense, etc.)
 
 
 
