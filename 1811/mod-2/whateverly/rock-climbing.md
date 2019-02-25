@@ -130,7 +130,7 @@ Contribution breakdown:
 
 * [ ] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
+* [ x ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
@@ -139,7 +139,11 @@ Contribution breakdown:
 
 Comments:
 
+* It block descriptions are often too [vague](https://github.com/criteriamor/Rock-Climbing/blob/master/src/Filter.test.js#L75), don't [read as sentences](https://github.com/criteriamor/Rock-Climbing/blob/master/src/Filter.test.js#L109) or are full of typos...these are important to get right, as tests should serve as a roadmap to other developers about how the codebase should work
 
+* App component should have a snapshot test and method tests for state changes
+
+* It's not enough to just simulate a change [here](https://github.com/criteriamor/Rock-Climbing/blob/master/src/Filter.test.js#L88), you would need to manually create that event object to tell it that it has been checked as well. Something like `{ target: { checked: true } }`
 
 
 

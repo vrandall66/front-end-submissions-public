@@ -128,10 +128,24 @@ Contribution breakdown:
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
-* [ ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
+* [ x ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
 
 
 Comments:
+
+* Testing coverage is good overall, although there's a lot going on in this filter controls test [file](https://github.com/jlavar1/parade-planner/blob/master/src/Tests/FilterControls.test.js) -- it's a little tricky to follow. I would add some extra decribe blocks for each method you're testing, and split some of your expectations up into separate it blocks here. e.g. something like
+
+```js
+describe('resetFilters', () => {
+  it('should change this piece of state when this element is changed', () => {
+    // stuff
+  });
+
+  it('should change this other piece of state when this other element is changed', () => {
+    // stuff
+  });
+})
+```
 
 
 

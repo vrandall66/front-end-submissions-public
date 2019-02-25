@@ -133,7 +133,7 @@ Contribution breakdown:
 
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
+* [ x ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
 * [ ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
 
@@ -141,7 +141,11 @@ Contribution breakdown:
 Comments:
 
 
+* You should move that App.test.js file into your tests directory so it can sit alongside all the other ones.
 
+* [These methods](https://github.com/IsaacSunoo/whateverly-evermore-gems/blob/master/src/App.test.js#L77-L85) would also need to test that the display state is changed as they are both invoking that changeDisplay method
+
+* Missing tests for metalsCard which should be spying on a mock function passed through as a prop
 
 
 
