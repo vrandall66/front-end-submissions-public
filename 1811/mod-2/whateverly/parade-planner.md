@@ -55,7 +55,7 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
 
@@ -63,7 +63,7 @@ Comments:
 Comments:
 
 
-
+* Overall, CSS is a bit minimal - I'd like to see a bit more logic here for more advanced/granular styling of elements. Good use of variables though the color names are too specific and now you are bound to that color scheme for the rest of your days, unless you go through and make those names a bit more generic like 'backgroundColor', 'defaultTextColor', 'boldTextColor', etc. Minimal use of nesting, which is fine but would like to see you have more opportunities to practice and work with it.
 
 
 

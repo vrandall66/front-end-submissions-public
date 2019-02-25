@@ -57,7 +57,7 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
 
@@ -65,11 +65,12 @@ Comments:
 Comments:
 
 
+* Nitpick, but there are lots of indentation/formatting issues throughout the CSS that make it a bit more difficult to read. Make sure those types of things get cleaned up just like we do with our javascript.
+
+* The transitions [here](https://github.com/IsaacSunoo/whateverly-evermore-gems/blob/master/src/scss/_MetalCardStyle.scss) would be a good use case for a mixin so you can avoid writing all that repeat CSS that's long-winded and complex
 
 
-
-
-
+* Are there any other elements with a class of [header-title](https://github.com/IsaacSunoo/whateverly-evermore-gems/blob/master/src/scss/_Header.scss#L2)? If not, we probably don't want this nested (unecessarily bloats the CSS) and an ID is usually better.
 
 
 

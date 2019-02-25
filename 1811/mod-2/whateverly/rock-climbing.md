@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/criteriamor/Rock-Climbing
 
 # Rubric
 
@@ -50,14 +51,18 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
 
 
 Comments:
 
+* I'd move all your scss files into a 'css', 'sass', or 'styles' directory to make your file structure a bit more organized - there's quite a few things lumped into src that could be broken out into their own folders.
 
+* You want to have a separate file for your sass variables and mixins that can be included so you don't have to define your variables at the top of every file that needs them like [this](https://github.com/criteriamor/Rock-Climbing/blob/master/src/_Header.scss#L1-L2).
+
+* It looks like your only using your [mixins](https://github.com/criteriamor/Rock-Climbing/blob/master/src/_Search.scss#L11) once directly within that file. This wouldn't be a good use-case for a mixin as it's now just more code than directly incorporating those CSS properties into the selector you are targeting. If you were using this mixin in multiple places, it would be worthwhile.
 
 
 

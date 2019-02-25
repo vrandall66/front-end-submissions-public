@@ -53,13 +53,19 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
 
 
 Comments:
 
+
+* Good use-cases for nesting [here](https://github.com/JakeAdmire/JA-DK-JP--Whateverly/blob/master/src/styles/_CheckBox.scss#L1-L21) and elsewhere throughout the CSS, you can rely on nesting a bit more heavily than you do especially for pseudo-selectors/pseudo-elements
+
+* Nice use of functions and includes to add CSS properties that will stay consistent between elements
+
+* Mostly good naming conventions for your variables though be careful with [colors](https://github.com/JakeAdmire/JA-DK-JP--Whateverly/blob/master/src/styles/_GameCard.scss#L57) - if you ever change your color scheme you'll now also have to change the variable names as well unless you make them more generic like `neonGlow` rather than `neonPurple`
 
 
 
