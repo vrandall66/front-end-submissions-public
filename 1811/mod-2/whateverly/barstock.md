@@ -55,14 +55,18 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
 
 
 Comments:
 
+* If you're going to have a CSS directory and an images directory, make sure your files are in the right place. There are a lot of images in the [/css](https://github.com/TomWilhoit/BarStock/tree/master/src/css) directory that should probably be moved out.
 
+* Rather than naming your color variables [by what color they are, like blue](https://github.com/TomWilhoit/BarStock/blob/master/src/css/App.scss#L4-L10) name them by what that color represents in your design. Is it a call-to-action color for buttons? Is it a bold-text-color? Is it a color for emphasized-text? The problem with naming your colors based on what color they actually are is that if you ever do a redesign and change your color scheme, you have to change all your variable names as well. Otherwise, nice usage of variables, though you'd want to pull them out into their own file like `variables.scss` so that they all live in one place and you only ever have to update them in that single file.
+
+* I'd cut back just slightly on the amount of nesting you're doing -- for example, I doubt this [login-quote](https://github.com/TomWilhoit/BarStock/blob/master/src/css/Login.scss#L29-L34) styling actually *needs* to be nested under the .Login selector. If you don't have any elements with a class of login-quote *outside* of the element with a class of Login, you shouldn't have to nest it in your Sass. Unecessary nesting causes the compiled css to be overly specific and more bloated than it should be.
 
 
 

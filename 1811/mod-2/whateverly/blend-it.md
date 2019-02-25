@@ -16,6 +16,9 @@
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
 
 
+Comments:
+
+
 
 
 ------------------------------------------------------------------
@@ -53,17 +56,19 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
 
 
 Comments:
 
+* Nice job pulling your variables out into their own scss file so they only need to be updated in one spot. If you could be just slightly more generic with your color variable names, that would be helpful. e.g. title-color-teal --- what happens if you rebrand/redesign your app and your color scheme no longer uses teal? Now instead of just having to update the value, you have to update the variable name as well in any file that references it.
+
+* Font families would be another good thing to pull out into variables as you're referencing them in multiple places at the moment. Will also make it easier to update the fonts later on if you tweak them.
 
 
-
-
+* I'd recommend looking into strategies for ordering your CSS properties -- the most common I've seen in the wild is ordering them by type as described in [this](https://css-tricks.com/poll-results-how-do-you-order-your-css-properties/) blog post. (I'm shocked that 'randomly' is so high in those poll results, because I've never worked on a team that accepted that.) 
 
 
 
