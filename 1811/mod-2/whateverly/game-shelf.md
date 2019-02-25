@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/JakeAdmire/game-shelf.git
 
 # Rubric
 
@@ -10,19 +11,9 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [X] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
-
-
-Comments:
-
-
-
-
-
-
-
 
 
 
@@ -34,14 +25,18 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [ x ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
+* Really nice effort into the UI, but overall just a bit busy -- subtlety is key. The opacity on the header is a bit to transparent, and the full-screen background image is a little distracting. I would put an overlay on the background image to dull it out a bit and increase the opacity on any content backgrounds to help keep them at the forefront of a user's attention. I'd also dull down the drop-shadows a bit. They are nice for adding some depth to your elements, but I'd go a little softer with them pixel and color wise.
 
+* I really like the way the game buttons are reminiscent of the buttons of a controller, nice touch. Though I'm not sure what the +/- button does when I first come to the page and click on one of the games in that spot?
+
+* Good job getting a modal window/popup implemented - One extra reach for that would be to allow the user to click anywhere outside the popup in order to exit out of it, OR allowing the user to hit the escape key, rather than having to click the x button in the top left corner. (Also, the x buttons are usually placed in the top right rather than top left. That's where most users are conditioned to see that.) Popups are also a good place to implement some very subtle CSS transitions like fadein/fadeouts.
 
 
 
@@ -152,13 +147,16 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
 
 Comments:
 
+* Good intro - describing the problem and potential solution was a bit long
+* Even though you didn't have gifs, the screenshots were still affective
+* Refactoring section could have used some more visuals to show what changed rather than only describing what was done with words (also wanted to see more about SASS refactoring, what did the before and after look like with short snippets?)
 
 
 

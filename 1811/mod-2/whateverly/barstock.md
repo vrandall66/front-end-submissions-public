@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/TomWilhoit/BarStock
 
 # Rubric
 
@@ -10,19 +11,9 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [X] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
-
-
-Comments:
-
-
-
-
-
-
-
 
 
 
@@ -36,12 +27,18 @@ Comments:
 
 * [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
-* [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
+* [ x ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
+* This looks great! Incredibly clean and simple. Responsiveness is really effective at multiple breakpoints. Good hierarchy of font styling that clearly denotes what's most/least important on the page at the time. Nice display of 'context' - where I only see what I need to see at any given time. 
 
+* I would make it a bit more obvious that I can click on the subcategories under beer/liquor to expand and collapse them. Maybe just an up/down or plus/minus icon would be enough to suffice. 
+
+* Even though we're mobile-first which doesn't generally have a concept of 'hover' effects, it would still be nice to have those for desktop on clickable elements. (The only one I really notice is the beer/liquor hovers.) 
+
+* Rather than a login button, I'd ask some sort of other question like 'Name of Your Bar' -- I'd be concerned with potential employers recognizing that the login/authentication isn't actually a secure login and not knowing if you recognize that or not. You would never store authentication credentials in state the way you are, so this is something I'd consider taking out or changing to something else.
 
 
 
@@ -58,14 +55,18 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
 
 
 Comments:
 
+* If you're going to have a CSS directory and an images directory, make sure your files are in the right place. There are a lot of images in the [/css](https://github.com/TomWilhoit/BarStock/tree/master/src/css) directory that should probably be moved out.
 
+* Rather than naming your color variables [by what color they are, like blue](https://github.com/TomWilhoit/BarStock/blob/master/src/css/App.scss#L4-L10) name them by what that color represents in your design. Is it a call-to-action color for buttons? Is it a bold-text-color? Is it a color for emphasized-text? The problem with naming your colors based on what color they actually are is that if you ever do a redesign and change your color scheme, you have to change all your variable names as well. Otherwise, nice usage of variables, though you'd want to pull them out into their own file like `variables.scss` so that they all live in one place and you only ever have to update them in that single file.
+
+* I'd cut back just slightly on the amount of nesting you're doing -- for example, I doubt this [login-quote](https://github.com/TomWilhoit/BarStock/blob/master/src/css/Login.scss#L29-L34) styling actually *needs* to be nested under the .Login selector. If you don't have any elements with a class of login-quote *outside* of the element with a class of Login, you shouldn't have to nest it in your Sass. Unecessary nesting causes the compiled css to be overly specific and more bloated than it should be.
 
 
 
@@ -152,14 +153,17 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
 
 Comments:
 
-
+* Intro was great - the background was a bit long, wanted to get to the point of the problem being solved a little sooner - keep in mind people in the audience who are not familiar with owning a bar
+* Some gifs were a bit small on the screen - hard to see the functionality you were trying to show. Try to make gifs as close to fullscreen as you can
+* When showing code, keep is as small as possible with snippets
+* Great to hear about TDD lesson learned and also that datasets are never perfect
 
 
 

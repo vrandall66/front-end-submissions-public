@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/easbell/Blend-It
 
 # Rubric
 
@@ -10,7 +11,7 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [X] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
 
@@ -28,15 +29,18 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [ x ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
+* Dig the color scheme, it's nice to see something other than blue :) 
 
+* I like the script font reserved specifically for the title -- I would maybe put the subtitle in a slightly more readable font, but pairing this with the Open Sans is nice. Overall I think we could have just slightly more differentiation in headings vs. basic text. e.g. a different font for the ingredient selections vs. the ingredient category titles; 'matching smoothie recipes' heading vs. the name of the smoothies that actually appear; etc. We can differentiate by incorporating another font, or simply adjusting the boldness/size of the pre-existing font. This will help make the hierarchy of content a little more obvious. Right now it looks like there are a couple of different pieces of content competing for my attention.
 
+* Nice handling of clicking into a recipe and being able to head back to the full list - but it appears like I can click anywhere in the recipe to send myself back? (I don't have to just click directly on the back to results link.) This is a more common pattern when you have a popup/modal window of some sort, but is a little disorienting here since it looks like we're navigating to a totally new page. 
 
 
 
@@ -52,17 +56,19 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unnecessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
 
 
 Comments:
 
+* Nice job pulling your variables out into their own scss file so they only need to be updated in one spot. If you could be just slightly more generic with your color variable names, that would be helpful. e.g. title-color-teal --- what happens if you rebrand/redesign your app and your color scheme no longer uses teal? Now instead of just having to update the value, you have to update the variable name as well in any file that references it.
+
+* Font families would be another good thing to pull out into variables as you're referencing them in multiple places at the moment. Will also make it easier to update the fonts later on if you tweak them.
 
 
-
-
+* I'd recommend looking into strategies for ordering your CSS properties -- the most common I've seen in the wild is ordering them by type as described in [this](https://css-tricks.com/poll-results-how-do-you-order-your-css-properties/) blog post. (I'm shocked that 'randomly' is so high in those poll results, because I've never worked on a team that accepted that.) 
 
 
 
@@ -146,14 +152,15 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
 
 Comments:
 
-
+* Good app demo - tighten it up a little bit. We don't need to know every detail of the app - give us more of a high level overview and then dive into details if they are important (consider pre-made gifs to speed things up too).
+* Liked the lessons learned from the user experience section, before and after screenshots/gifs were great
 
 
 

@@ -1,6 +1,7 @@
 # Whateverly 
 * Students:
 * Evaluator:
+* Repo: https://github.com/jlavar1/parade-planner.git
 
 # Rubric
 
@@ -12,16 +13,7 @@
 
 * [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
-* [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
-
-
-Comments:
-
-
-
-
-
-
+* [X] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
 
 
 
@@ -34,13 +26,18 @@ Comments:
 
 * [ ] Advanced Beginner - The application may be confusing or difficult to use at times. The application shows effort in the interface, but the result is not effective because UX and/or UI still present an application that is incomplete or difficult to use. It is not clear that the user stories helped to guide UX.
 
-* [ ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
+* [ x ] Proficient - The application has many strong pages/interactions. The application can stand on its own to be used by instructor without guidance from a developer on the team.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, the application is fully responsive, and has clearly had special consideration around usability on devices. There no holes in functionality.
 
 
 Comments:
 
+* Popup modal windows are a really nice effect, but the full-screen background image is pretty distracting/competing for my attention. I'd put a semi-transparent overlay on top of that image to make it a little more subtle and bring the content in the popup box to the forefront.
+
+* Any time a user can click on something, I would turn that cursor into a little hand with CSS (e.g. the photos for each parade) - the overlay on hover is a nice touch and gives me some indication that it's clickable, but the cursor is the number 1 thing people look to change on clickable elements. 
+
+* It can be hard to tell that you can scroll horizontally for the restaurants nearby, I'd add some left/right arrows that denote you can move back and forth in that direction, or find a new layout for that popup altogether -- having a vertical scroll *and* a horizontal scroll in each popup window is a little disorienting.
 
 
 
@@ -152,14 +149,16 @@ Comments:
 
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 
-* [ ] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
+* [X] Proficient - Everyone in the group has an opportunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
 
 Comments:
 
-
+* The demos were a bit long, tighten up the gifs that were made ahead of time (this was great to do) - going through the user profiles was great
+* For the Planning Phase, this was great to see what went into it - focus less on describing/talking about what you did and focus more on what you got out of it
+* Cool to hear about switching the driver during pairings every 30 minutes
 
 
 
