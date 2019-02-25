@@ -20,12 +20,6 @@ Comments:
 
 
 
-
-
-
-
-
-
 ------------------------------------------------------------------
 
 ## UI/UX
@@ -82,20 +76,15 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [x] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
-
 Comments:
 
-
-
-
-
-
-
-
+* Quite a few places arrow syntax is being used unnecessarily
+* Be mindful of readability when making use of destructuring for your props. You'll most often see destructuring happening within the render method (where you are often trying extract multiple properties to render) as a way to clean up your code. [Destructuring this method here](https://github.com/easbell/Blend-It/blob/master/src/Smoothie.js#L6-L7) did not add additional clarity/readability - instead, it had the reverse effect. This was compounded by the fact that the `showRecipe` method has the same naming as the state property of `showRecipe` within `SmoothieContainer`. 
+* - Opportunities for refactoring renders within the components - lots of conditions that make it hard to read/follow.
 
 
 ------------------------------------------------------------------

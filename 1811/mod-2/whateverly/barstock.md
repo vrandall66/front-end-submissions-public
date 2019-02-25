@@ -82,20 +82,15 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [x] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
-
 Comments:
 
-
-
-
-
-
-
-
+- Nice job with breaking out components for Header and Footer
+- A little more organization in your [file structure](https://reactjs.org/docs/faq-structure.html) would make the codebase easier to work through. You could place the components all into their own folder and move any assets into their own folder (similar to how you have your stylesheets in their own directory)
+- Opportunities for refactoring methods and renders within the components. The size of the components and renders make the code difficult to follow/read. 
 
 
 ------------------------------------------------------------------

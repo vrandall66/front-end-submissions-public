@@ -8,22 +8,17 @@
 
 * [ ] Novice - README is missing or incomplete. Codebase is not organized. User stories from group are never submitted. Application does not solve the presented problem.
 
-* [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
+* [x] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [x] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
 
-
 Comments:
 
-
-
-
-
-
-
-
+* Several places where you are manipulating the document directly, like [here](https://github.com/criteriamor/Rock-Climbing/blob/master/src/Filter.js#L37) and [here](https://github.com/criteriamor/Rock-Climbing/blob/master/src/Filter.js#L58). This is outside of the React model of working with the DOM and considered a bad practice. In the rare cases that you don't want to map your dom with state (SUPER RARE) you should make use of [refs](https://reactjs.org/docs/refs-and-the-dom.html)
+* Remove logs and pseudocode from application
+* Opportunities for next step: updating search with auto-complete so that users don't have to type in the exact string to get results/feedback
 
 
 ------------------------------------------------------------------
