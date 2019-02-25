@@ -132,16 +132,16 @@ Contribution breakdown:
 
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
+* [ x ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
 * [ ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
 
 
 Comments:
 
+* Controls test is missing simulations for all the click events for `getActivity`
 
-
-
+* Genre test is missing assertion for state changes made in getActivity
 
 
 
