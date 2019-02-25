@@ -11,18 +11,9 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [X] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
-
-
-Comments:
-
-
-
-
-
-
 
 
 
@@ -44,7 +35,7 @@ Comments:
 
 * Dig the color scheme, it's nice to see something other than blue :) 
 
-* I like the script font reserved specifically for the title -- I would maybe put the subtitle in a slightly more readable font, but pairing this with the Open Sans is nice. Overall I think we could have just slightly more differentiation in headings vs. basic text. e.g. a different font for the ingredient selections vs. the ingredient category titles; 'matching smoothie recipes' heading vs. the name of the smoothies that actually appear; etc. We can differentiate by incorporating another font, or simply adjusting the boldness/size of the pre-existing font. This will help make the heirarchy of content a little more obvious. Right now it looks like there are a couple of different pieces of content competing for my attention.
+* I like the script font reserved specifically for the title -- I would maybe put the subtitle in a slightly more readable font, but pairing this with the Open Sans is nice. Overall I think we could have just slightly more differentiation in headings vs. basic text. e.g. a different font for the ingredient selections vs. the ingredient category titles; 'matching smoothie recipes' heading vs. the name of the smoothies that actually appear; etc. We can differentiate by incorporating another font, or simply adjusting the boldness/size of the pre-existing font. This will help make the hierarchy of content a little more obvious. Right now it looks like there are a couple of different pieces of content competing for my attention.
 
 * Nice handling of clicking into a recipe and being able to head back to the full list - but it appears like I can click anywhere in the recipe to send myself back? (I don't have to just click directly on the back to results link.) This is a more common pattern when you have a popup/modal window of some sort, but is a little disorienting here since it looks like we're navigating to a totally new page. 
 

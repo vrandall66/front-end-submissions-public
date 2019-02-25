@@ -11,19 +11,9 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [X] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
-
-
-Comments:
-
-
-
-
-
-
-
 
 
 
@@ -42,7 +32,7 @@ Comments:
 
 Comments:
 
-* This looks great! Incredibly clean and simple. Responsiveness is really effective at multiple breakpoints. Good heirarchy of font styling that clearly denotes what's most/least important on the page at the time. Nice display of 'context' - where I only see what I need to see at any given time. 
+* This looks great! Incredibly clean and simple. Responsiveness is really effective at multiple breakpoints. Good hierarchy of font styling that clearly denotes what's most/least important on the page at the time. Nice display of 'context' - where I only see what I need to see at any given time. 
 
 * I would make it a bit more obvious that I can click on the subcategories under beer/liquor to expand and collapse them. Maybe just an up/down or plus/minus icon would be enough to suffice. 
 

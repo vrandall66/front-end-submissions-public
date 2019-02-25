@@ -11,19 +11,14 @@
 
 * [ ] Advanced Beginner - README is complete. Codebase is organized. User stories are completed; however, may be late. Some user stories may be unclear or hard to understand. Application is close to solving presented problem.
 
-* [ ] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
+* [X] Proficient - Developers turn in user stories on time and iterate on user stories throughout the life of the project, as needed. User stories have enough detail - such that an outside developer could jump right in and help with user stories/tickets. Application solves the presented problem.
 
 * [ ] Exceptional - Meets all expectations for `Proficient`. Developers may use personas to help guide their user stories. Developers may also incorporate other tools to assist in planning - workflow diagrams, story maps, etc.
 
 
 Comments:
 
-
-
-
-
-
-
+* An image in the README is broken - also, use code snippets for pieces of code or commands like `npm start`
 
 
 
@@ -48,7 +43,7 @@ Comments:
 
 * I feel a bit confused by the 'Type' and 'Areas' heading -- the areas heading has nothing underneath it until we select a type, which looks a little buggy to me. Don't show that heading until it has relevant content underneath it. (Remember: only give users the context that they need when they need it, rather than showing everything all at once.) Same thing with that bottom semi-transparent bar that populates with the climb data once you select your filters. (At first it's just an empty bar with no content that looks out of place.)
 
-* Fonts could use some differentiation to provide more visual feedback on heirarchy of content. e.g. when you expand a particular route, all of the text is bold/white/the same exact size. Let's add some diversity there to denote what's a title and what's a value.
+* Fonts could use some differentiation to provide more visual feedback on hierarchy of content. e.g. when you expand a particular route, all of the text is bold/white/the same exact size. Let's add some diversity there to denote what's a title and what's a value.
 
 
 
