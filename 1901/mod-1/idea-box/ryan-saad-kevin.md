@@ -1,47 +1,58 @@
-## Student:
-## Evaluator:
+## Student: Ryan Barnett, Saad Baradan, Kevin Krato
+## Evaluator: Khalid 
 ## Notes/What To Work On:
+
+*General*
+* Keep those commit message active
+* Cool job doing the co-authored commits
+* Can still submit ideas when one of the input fields is empty (no exceptional)
+* Filtering by quality is working, along with the show more and show less
+* for comp recreation, make the show more / show less an equal width to the rest of the buttons on small screens. Otherwise the comp recreation looks really good
+* PUT A LINK TO YOUR LIVE SITE IN THE README
+
+*HTML*
+
+* Mover normalize about the styles input
+* Don't put the title inside of a nav tag 
+* good job using the data attributes 
+
+*CSS*
+
+* Just two media queries
+* General element styles at the top, the organized by the page flow, then media queries
+* Don't forget to stack your css selectors if you're applying multiple selectors to a rule
+
+
+*JS*
+* Don't forget to take out the console.logs
+* Take out that global variable for ideaCount
+  * we talked about how to refactor, could make it a local variable for showMore  and showLess function, but pass a second param into the deleteCard function
+* Some functions could be a litle shorter, but the JS is looking well sctructured and organized on the whole
+* Good job removing elements from the DOM instead of just hiding / showing
+* Becuase of the extra global variable and a few functions being over 10 lines, the JS isn't quite at proficient
+
+
 
 ### Functional Expectations
 
-*  Novice - Application meets all of the basic functional expectations of create, edit, delete, and those changes persist in `localStorage`
-*  Advanced Beginner - Application adds 'Changing the quality of an idea' and enables 'Filtering and Searching by Text' as defined in the spec
 *  Proficient - Applications adds 'Filtering by Importance' and 'Recent Ideas' as outlined in the spec
-*  Exceptional - Application adds all of the extensions
 
-### Comp Recreation
 
-*  Novice - Application implements all major comp details accurately and correctly on desktop only (colors, fonts, icons, spacing, alignment, etc.)
-*  Advanced Beginner - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.). Transitions between screen sizes may not be smooth
-*  Proficient - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements added generally match the visuals established in the comps, but may be slightly awkward
+### Comp Recreation -- check about the size of the show more / show less on mobile screens
+
 *  Exceptional - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements that have been added match the visuals established in the comps
 
 ### HTML - Style and Implementation
 
-*  Novice - Crafts markup according to the turing html style guide
-*  Advanced Beginner - Application adds to the above by using appropriate semantic elements and using `data-*` attributes for all data related things
+
 *  Proficient - Applications adds to the above with markup that is easy to read and follow across naming conventions
-*  Exceptional - Application adds to the above by using BEM, SMACCS, or another set of naming conventions for classes and:
-  *  Implements html that is accessible for folks with visual disabilities.
+
 
 ### CSS - Style and Implementation
 
-*  Novice - Crafts CSS according to the turing css style guide
-*  Advanced Beginner - Application adds organization for the whole stylesheet and within rules
 *  Proficient - Applications adds to the above by removing repetitive rules and blocks of code according to the DRY principle
-*  Exceptional - Application adds to the above by using BEM, SMACCS, or another set of naming conventions for classes
+
 
 ### JAVASCRIPT - Style and Implementation
 
-*  Novice - Crafts JS according to the turing js style guide
 *  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
-*  Proficient - Application adds readability by incorporating both DRY and SRP practices and students can speak to implementation decisions and:
-  *  Uses event delegation correctly on dynamic elements for deleting and editing an idea (clicking outside of the text field)
-  *  All functions are less than 10 lines
-  *  There are no global variables aside from query selectors and an array for your ideas
-  *  There are no nested if else statements
-*  Exceptional - Application adds to code quality by refactoring all for loops into the proper array prototype iteration methods and:
-  *  Using logical operators instead of if/else statements where applicable
-  *  Application changes anonymous functions to arrow functions and changes all variables to be block scoped (`let` and `const`)
-  *  Application stores all ideas in one array in local storage, instead of individually
-  *  When 'Filtering and Searching by Text' and 'Filtering by Importance', ideas that do not need to be shown on the dom should be completely removed from the dom, instead of only being hidden from view
