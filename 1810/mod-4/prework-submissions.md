@@ -52,7 +52,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Karin Ohman
 
-* [Node Server Tutorial]()
+* [Node Server Tutorial](https://github.com/kaohman/node-practice)
 * [Annotated Express server file]()
 * [Promise Practice Exercises]()
 
