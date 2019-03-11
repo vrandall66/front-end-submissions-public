@@ -28,9 +28,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Heather Hartley
 
-* [Node Server Tutorial]()
-* [Annotated Express server file]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/hlhartley/node-server)
+* [Annotated Express server file](https://github.com/hlhartley/annotated-server/blob/master/server.js)
+* [Promise Practice Exercises](https://repl.it/@hlhartley/Promise-pledges)
 
 ## Hillary Stewart
 
