@@ -1,6 +1,11 @@
-## Student:
-## Evaluator:
+## Student: Kayla and Andreea
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- would meet every time they started a phase
+- would divvy up remaining tasks for the day at the end of the night to see if they could get them wrapped up individually that evening
+- used checklists to manage work and plan schedule
+- 
 
 ### Functional Expectations
 
