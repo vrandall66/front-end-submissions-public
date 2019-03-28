@@ -1,6 +1,7 @@
 # GameTime
-* Students: 
-* Evaluator:
+* Students: Aidan & Erik
+* Evaluator: Brittany
+* Repo: [https://github.com/ehk9000/Jeopardy](https://github.com/ehk9000/Jeopardy)
 
 ### Functional Expectations
 

@@ -1,6 +1,7 @@
 # GameTime
-* Students: 
-* Evaluator:
+* Students: MKS, Joe
+* Evaluator: Brittany
+* Repo: [https://github.com/joejohnson3985/wheel-of-fortune](https://github.com/joejohnson3985/wheel-of-fortune)
 
 ### Functional Expectations
 

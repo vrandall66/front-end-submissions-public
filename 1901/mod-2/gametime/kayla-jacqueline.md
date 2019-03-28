@@ -1,6 +1,7 @@
 # GameTime
-* Students: 
-* Evaluator:
+* Students: Kayla & Jacqueline
+* Evaluator: Brittany
+* Repo: [https://github.com/KaylaLawson/Jeopardy-JK](https://github.com/KaylaLawson/Jeopardy-JK)
 
 ### Functional Expectations
 

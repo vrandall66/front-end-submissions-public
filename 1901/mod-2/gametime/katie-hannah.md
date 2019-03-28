@@ -1,6 +1,7 @@
 # GameTime
-* Students: 
-* Evaluator:
+* Students: Katie & Hannah
+* Evaluator: Brittany
+* Repo: [https://github.com/kalex19/HH-KL-Family-Feud](https://github.com/kalex19/HH-KL-Family-Feud)
 
 ### Functional Expectations
 

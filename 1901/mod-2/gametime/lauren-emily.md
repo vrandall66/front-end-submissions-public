@@ -1,6 +1,7 @@
 # GameTime
-* Students: 
-* Evaluator:
+* Students: Lauren & Emily
+* Evaluator: Brittany
+* Repo: [https://github.com/emilydittmer/gametime-jeopardy.git](https://github.com/emilydittmer/gametime-jeopardy.git)
 
 ### Functional Expectations
 
