@@ -1,13 +1,18 @@
 # GameTime
-* Students: 
-* Evaluator:
+* Students: Kayla & Jacqueline
+* Evaluator: Brittany
+* Repo: [https://github.com/KaylaLawson/Jeopardy-JK](https://github.com/KaylaLawson/Jeopardy-JK)
 
 ### Functional Expectations
 
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
-* [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
+* [ x ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
 * [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
+
+
+* No Daily Double / Third Round
+
 
 ### UX/Accessibility
 
@@ -15,6 +20,13 @@
 * [ ] Advanced Beginner - The application shows effort in the user experience, but the result is not effective. The evaluator has some difficulty using the application and may need assistance from developers.
 * [ ] Proficient - The application is pleasant, logical, and easy to use. Developers use appropriate semantic elements in markup that allow for both mouse and keyboard navigation to all interactive elements.
 * [ ] Exceptional -  Meets all expectations for `Proficient`.  In addition, developers implement attributes and ARIA labels where appropriate to allow for a better user experience with a screen reader. The application stands on its own to be used by the instructor _without_ guidance from the developers.
+
+* Make sure things that you *cant* click on denote that. Make them look a bit more disabled
+
+* Glad to see some font pairing, but the cursive is a little difficult to read
+
+* Would like it to be a bit more obvious when a user gets a question right or wrong
+
 
 ### User Interface
 

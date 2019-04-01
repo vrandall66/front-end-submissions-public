@@ -1,6 +1,7 @@
 # GameTime
-* Students: 
-* Evaluator:
+* Students: Katie & Hannah
+* Evaluator: Brittany
+* Repo: [https://github.com/kalex19/HH-KL-Family-Feud](https://github.com/kalex19/HH-KL-Family-Feud)
 
 ### Functional Expectations
 
@@ -8,6 +9,10 @@
 * [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
 * [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
+
+* Resetting the answers to blank - what happens with the screen reader?
+
+
 
 ### UX/Accessibility
 
