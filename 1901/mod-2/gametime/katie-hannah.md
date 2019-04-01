@@ -10,6 +10,10 @@
 * [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
+* Resetting the answers to blank - what happens with the screen reader?
+
+
+
 ### UX/Accessibility
 
 * [ ] Novice - The application is confusing or difficult to use.
