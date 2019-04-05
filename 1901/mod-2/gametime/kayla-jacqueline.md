@@ -3,6 +3,10 @@
 * Evaluator: Brittany
 * Repo: [https://github.com/KaylaLawson/Jeopardy-JK](https://github.com/KaylaLawson/Jeopardy-JK)
 
+* Overall, not bad -- I would consider this a passing project where most of the learning goals were met. I would recommend doing a bit more external research on inheritance with OOP, as that's the only area I'm still seeing some subtle misconceptions. 
+
+
+
 ### Functional Expectations
 
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
@@ -11,7 +15,7 @@
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
 
-* No Daily Double / Third Round
+* The implementation of Daily Double is just slightly off -- it probably wouldn't want to extend the Round class. Instead, you'd likely have something like a `Clue` or `Question` class that just holds on to the clue text, the correct answer, and the point value. The Daily Double class would inherit those properties, and maybe differ only slightly by having an `acceptWager` method that allows a user to change the point value of that clue. Right now the DD is inheriting a bit too many unecessary things from the Round class.
 
 
 ### UX/Accessibility
@@ -40,8 +44,14 @@
 
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
+* [ x ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
+
+* Nice use of spies in your round test [here](https://github.com/KaylaLawson/Jeopardy-JK/blob/master/test/Round-test.js#L79) and setup of mock data [here](https://github.com/KaylaLawson/Jeopardy-JK/blob/master/test/Round-test.js#L50-L51)
+
+* Probably don't need to invoke [changePlayer](https://github.com/KaylaLawson/Jeopardy-JK/blob/master/test/Game-test.js#L43-L44) twice here -- it doesn't give you any added assurance of your project working. Once is enough :) 
+
+* You probably don't need to be instantiating an entire game [here](https://github.com/KaylaLawson/Jeopardy-JK/blob/master/test/Round-test.js#L55)? Doesn't look like you're using that game variable anywhere. 
 
 
 ### JavaScript Style & OOP
