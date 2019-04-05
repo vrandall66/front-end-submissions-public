@@ -30,6 +30,8 @@
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
 
+* Some logic is in the domeEvents file, which cannot be tested. Should move this logic to the respective classes so that you can test these methods.
+
 
 ### JavaScript Style & OOP
 
