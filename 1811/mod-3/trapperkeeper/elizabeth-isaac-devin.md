@@ -1,12 +1,11 @@
 ### Evaluator: David Whitaker
-### Students: Edgar, Taylor, Mason
+### Students: Liz, Isaac, Devin
 ### Comments:
 
- Super clean code
- Great testing!!!
- renderItems for naming 
- noteForm not editnote since you both create and edit
- developer empathy A +
+* utilize default values in constructor
+* one source of truth ( state or props ) you picck
+* incorporating new tech incrementally, instead of all at once
+* think about red flags 
 
 ## Rubric
 
@@ -18,7 +17,6 @@
 
 ### Project Professionalism
 
-* 4 - All requirements from 3 met, codebase has zero linter errors/warnings and readme contains screenshots of application. Project team uses a rebase workflow, taking advantage of github issues to track work. Project shows a complete mastery of React architecture.
 * 3 - PropType functionality is complete, the codebase has less than 5 linter errors, README has been updated with all group members. Project utilized wireframes from the outset. All git commits are atomic, made first to branches, and use descriptive and consise commit messages. Project demonstrates a fundamental understanding of React architecture.
 
 ### Testing
