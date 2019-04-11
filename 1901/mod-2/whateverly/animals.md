@@ -1,5 +1,5 @@
 # Whateverly 
-* Students:
+* Students: Kayla, Aidan, DeMarcus, Brennan
 * Evaluator:
 
 # Rubric
@@ -82,13 +82,29 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [ x ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* I'd break up the logic [here](https://github.com/BrennanDuffey/whateverly/blob/master/src/App.js#L33-L45) into two separate methods -- instead of conditionally adding or removing a favorite all within an `addFav` method, you should have a more generic method like `updateFavorites` and conditionally call either `addFav` or `removeFav` from there. It's a bit confusing to have a method named `addFav` that could potentially be removing one instead.
+
+* Look into destructuring your props in scenarios like [this](https://github.com/BrennanDuffey/whateverly/blob/master/src/AnimalCard.js#L33-L37). You could simplify your rendering and not have to prefix everything with `this.props` like so:
+
+```js
+let { endangeredStatus, population, genus, locations, threats } = this.props;
+
+
+<p>{population}</p>
+```
+
+* I feel a little confused about having [isFavorite](https://github.com/BrennanDuffey/whateverly/blob/master/src/App.js#L14) in your App state. Is App really the closest parent for the components that need that information? It looks like you're only passing it down into `Globe` within your render. Could it not live on the `Globe` component instead?
+
+* In general, it looks like the App state might be a bit overloaded -- I'd encourage you to go back and review some of the rules of component communication and where state should live. There might be things I'm not totally recognizing about why certain pieces of information need to be in App, but I'd double-check if App truly needs to be the owner of all that information or not.
+
+* Your AnimalCardContainer and FavoriteCardContainer components are veryyyy similar. I think we could combine these into a single component like `CardContainer`, and do some conditional logic within your render that says something like "if props.showOnlyFavorites - filter the species I'm mapping over"
 
 
 
@@ -133,18 +149,20 @@ Contribution breakdown:
 
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
+* [ x ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
 * [ ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
 
 
 Comments:
 
+* You'll also want to look into doing some additional snapshot tests for components like [AnimalCard](https://github.com/BrennanDuffey/whateverly/blob/master/src/AnimalCard.js#L13-L30) to make sure that the favorite button is rendering appropriately based on your conditional logic
 
+* You should be simulating [this click event](https://github.com/BrennanDuffey/whateverly/blob/master/src/AnimalCard.js#L26) in your test file and asserting that `addFav` was called.
 
+* Good event simulations [here](https://github.com/BrennanDuffey/whateverly/blob/master/src/Header.test.js#L29-L44)
 
-
-
+* Missing some snapshot tests for some of your simpler/render-only components. I know snapshotting gets redundant, but it's good to have in place for every component right off the bat in case you make these components more complex in the future as you iterate.
 
 
 
