@@ -1,6 +1,6 @@
 # Whateverly 
 * Students: Kayla, Aidan, DeMarcus, Brennan
-* Evaluator:
+* Evaluator: Pam, Robbie, Brittany
 
 # Rubric
 
