@@ -1,6 +1,11 @@
-## Student:
-## Evaluator:
+## Student: Brandy Mello & Jon O'Drobinak & Alek Aker
+## Evaluator: Louisa
 ## Notes/What To Work On:
+
+- driver navigator with HTML
+- everyone wanted to work on some CSS, so broke up the page into three sections so they could each "own" a part of it
+- everyone is feeling more comfortable with Git + Github
+- 
 
 ### Functional Expectations
 
