@@ -1,6 +1,14 @@
-## Student:
-## Evaluator:
+## Student: Emily LaLonde, Andreea Hanson, Anneke McGrady
+## Evaluator: Khalid Williams
 ## Notes/What To Work On:
+
+_General_
+
+_HTML_
+
+_CSS_
+
+_JS_
 
 ### Functional Expectations
 
