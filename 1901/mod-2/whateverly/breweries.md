@@ -82,15 +82,33 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [ x ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* Not entirely sure [this](https://github.com/saadricklamar/shakesbeer/blob/master/src/WelcomePage.js#L9-L14) needs to exist in state. Does it ever change? Maybe just in response to the props being passed down? If there are no methods that manipulate this piece of state, it's probably something that could go into a separate method that simply returns the results. e.g. in your render you would say something like:
+
+```js
+<Autocomplete usStates={this.getDataByState()} />
+```
+
+and in that `getDataByState` method, you would do your reduce and just return the results of that newly formatted dataset.
+
+* Try to move away from the idea of your components representing a 'Page' -- React (and other client-side frameworks) are meant for building single-page applications where each component is simply a *piece* of the page, not an entirely independent page.
+
+* The naming of this piece of [state](https://github.com/saadricklamar/shakesbeer/blob/master/src/Beer.js#L10) is a little off. It implies we're displaying/not displaying the Beer, when in reality it's just the description we're toggling. I'd rename this to something like `showDescription` instead.
 
 
+* Good placement of your conditional logic [here](https://github.com/saadricklamar/shakesbeer/blob/master/src/Beer.js#L39-L45) (taking care of it in the parent component rather than in the BeerDescription component itself), but this would be a perfect use-case for that double && syntax:
+
+```js
+this.state.showDescription && <BeerDescription ...props />
+```
+
+so that you don't have to render 'null'
 
 
 
@@ -131,7 +149,7 @@ Contribution breakdown:
 
 * [ ] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
+* [ x ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
@@ -140,13 +158,12 @@ Contribution breakdown:
 
 Comments:
 
+* Good test for the `getCities` method [here](https://github.com/saadricklamar/shakesbeer/blob/master/src/ResultsPage.test.js) but we're missing lots of other method tests in this file! Would like to see [this method](https://github.com/saadricklamar/shakesbeer/blob/master/src/App.js#L47-L50) get tested as well
 
 
+* Careful of your it block descriptions [here](https://github.com/saadricklamar/shakesbeer/blob/master/src/Controls.test.js#L24-L36), we're not testing that we're simulating an event, we're testing what happens when that event is triggered. e.g. `it should invoke updateStyles when #styles is clicked`. I'd also be surprised if these tests are working the way you'd expect them to. You're manually invoking methods on your wrapper instance rather than simulating events.
 
-
-
-
-
+* Lots of nice tiny, functional components that were kept simple and easy to test with snapshots but I think overall we're lacking in some of the method tests, especially around simulating events. I'd make this a big focus on your solo projects so that you can all get a bit more practice in with that, as you will be responsible for even more testing throughout Mod 3.
 
 
 ------------------------------------------------------------------
