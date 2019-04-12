@@ -1,46 +1,54 @@
 ## Student: Ann Cerveny & Katie Williams & Jev Forsberg
 ## Evaluator: Travis Rollins
 ## Notes/What To Work On:
+* Great number of commits but make sure to be consistent with commit messages
+* Be consistent with branch names using kabob case and being specific
+* Would also recommend more branches
+* Great work on your README
+* Missing the search ui button and might put a little padding in the inputs
+* Color of `Filter Starred Ideas` and `New Quality` is off a little bit
+* Spacing of the delete button to the edge of the card is a little off from the comp. 
+  * Notice it is uneven compared to the star and the end of the card as the window gets bigger.
+* Continue to keep working on keeping the star staying updated
+* Not responsive on mobile layouts
+* Really clean structure and nice use of BEM classes within the HTML
+* Remember to include a normalize or reset css stylesheet
+* Might have each of the qualities in a nav within a form
+  * I think since they are related, the input and button to add a new quality could also be in the same form
+* Remember to include box-sizing border box
+* Good organization of styles and alphbetizing properties
+* Might experiment with short hand versions of margin like in lines 69 - 71
+* I would recommend not including the quality array in each class and then the quality property only keeping track of an index, instead of still giving it a value of the string (easier to increment/decrement with a number)
+* See how you can refactor updateTitle, updateBody, and updateStart so that they use bracket notation (this might also help clean up your editCardBody in the main.js)
+* Good organization of global variables, event listeners, and function declarations
+* See how you can only have one event listener on the cardTable listening for the click to handle the deleteDisplayedCards and editStars
+* How could we refactor the enableSaveButton where we store the value of the expression, and then assign the variable to the disabled property
+* Remember to stay semantic with your HTML for each card that gets appended.  I think the entire `card` could be more specific than a div.
+* Good use of event delegation and the closest method
+* Good use of array prototype methods like findIndex, forEach, and map
+* Continue to experiment using toggleClass for the star
+* See how you can refactor the enterToBlur function so you don't have to use the same conditional twice.  `hint: e.target.blur()`
 
 ### Functional Expectations
 
 *  Novice: Application meets all of the expectations of phase one.
-*  Advanced Beginner: Application meets all of the expectations of phase two.
-*  Proficient: Application meets all of the expectations of phase three.
-*  Exceptional: Application adds all of the extensions from phase four.
 
 ### Comp Recreation
 
 *  Novice - Application implements all major comp details accurately and correctly on desktop only (colors, fonts, icons, spacing, alignment, etc.)
-*  Advanced Beginner - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.). Transitions between screen sizes may not be smooth
-*  Proficient - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements added generally match the visuals established in the comps, but may be slightly awkward
-*  Exceptional - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements that have been added match the visuals established in the comps
 
 ### HTML - Style and Implementation
 
-*  Novice - Crafts markup according to the turing html style guide
-*  Advanced Beginner - Application adds to the above by using appropriate semantic elements and using `data-*` attributes for all data related things
 *  Proficient - Applications adds to the above with markup that is easy to read and follow across naming conventions
-*  Exceptional - Application adds to the above by using BEM, SMACCS, or another set of naming conventions for classes and:
-  *  Implements html that is accessible for folks with visual disabilities.
 
 ### CSS - Style and Implementation
 
-*  Novice - Crafts CSS according to the turing css style guide
-*  Advanced Beginner - Application adds organization for the whole stylesheet and within rules
-*  Proficient - Applications adds to the above by removing repetitive rules and blocks of code according to the DRY principle
 *  Exceptional - Application adds to the above by using BEM, SMACCS, or another set of naming conventions for classes
 
 ### JAVASCRIPT - Style and Implementation
 
-*  Novice - Crafts JS according to the turing js style guide
-*  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
 *  Proficient - Application adds readability by incorporating both DRY and SRP practices and students can speak to implementation decisions and:
   *  Uses event delegation correctly on dynamic elements for deleting, editing, & starring an idea
   *  All functions are less than 10 lines
   *  There are no global variables aside from query selectors and two arrays for your ideas and qualities
   *  There are no nested if else statements
-*  Exceptional - Application adds to code quality by refactoring all for loops into the proper array prototype iteration methods and:
-  *  Uses logical operators instead of if/else statements where applicable
-  *  Uses arrow functions, block scoped variables, and destructuring correctly.
-  *  When 'Filtering and Searching by Text' and 'Filtering by Importance', ideas that do not need to be shown on the dom should be completely removed from the dom, instead of only being hidden from view
