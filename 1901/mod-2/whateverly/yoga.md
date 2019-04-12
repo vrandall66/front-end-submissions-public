@@ -1,6 +1,6 @@
 # Whateverly 
-* Students:
-* Evaluator:
+* Students: Kelly, Sally, Matt
+* Evaluator: Pam, Robbie, Brittany
 
 # Rubric
 
@@ -82,15 +82,38 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [ x ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* Lots of similar [code here](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/Studios/Studios.js#L10-L36) - could we clean up this conditional a little bit? At a quick glance, it looks like the only thing that's changing is the array that you're mapping over. Could you maybe do something like this instead:
 
+```js
+let yogaStudios = props.rendered.length ? props.rendered : props.studios;
 
+yogaStudios.map(studio => {
+  // render all your studioCards
+});
+```
+
+* Not sure if you need to be preventing default behavior [on an input click](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/Controls/Controls.js#L10) in your methods here, as they're not wrapped in a form element. (Speaking of, for the sake of semantic HTML, you probably would want to change the section tag here into a form tag instead. ...in which case you would definitely need to prevent the default.)
+
+* Looks like [this](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/App/App.js#L34-L39) could be simplified into a single if statement that runs your fetch call:
+
+```js
+if (nothingInStorage) {
+  this.fetchData();
+}
+
+this.addImgs();
+```
+
+* I generally see this double-ampersand [syntax](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/App/App.js#L62-L71) in JSX for simple conditional rendering. You won't see it used like this for performaing any sort of conditional logic outside of that context. It's a little difficult to read/understand what's actually going to happen in this method, and I'm not 100% sure it behaves the same way. I'd stick to just using it in your JSX as you're rendering elements. For example, your conditional [rendering here](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/App/App.js#L113-L124) has two great use-cases for that && syntax rather than using ternaries ;) 
+
+* Nice tiny [methods here](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/App/App.js#L81-L91)
 
 
 
@@ -131,7 +154,7 @@ Contribution breakdown:
 
 * [ ] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
+* [ x ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
@@ -140,10 +163,17 @@ Contribution breakdown:
 
 Comments:
 
+* Small nitpick, but when you have [this much mock data](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/typeCard/TypeCard.test.js#L9-L71), I'd pull it out into a separate file to tuck it away a little bit and just import it with a single line.
 
+* Overall good coverage on your snapshots and rendered output, though you have a couple tests like [this](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/Search/Search.test.js#L75-L78) and [this](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/typeCard/TypeCard.test.js#L106-L109) that aren't really doing anything for ya. You are already testing all of the rendered output with your snapshot tests, so finding a particular element and testing that it's there isn't going to give you much more assurance about your code.
 
+* [Here](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/typeCard/TypeCard.test.js#L116) you are manually calling `setState` to change the typeId -- essentially *forcing* your test to pass. This means that the assertions here aren't really testing your application code, they're testing the manual setState you just called in your test file. You want to let your component do the work in order to update state. So you'd really want to be invoking your `setTypeId` method on your component and making sure the typeId has changed after that method gets called.
 
+* You also want to be simulating events like [this](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/typeCard/TypeCard.js#L60) and [this](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/typeCard/TypeCard.js#L58) in your tests. 
 
+* Little confused about the mock props you're passing in [here](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/Studios/Studios.test.js#L13) -- it looks like the component itself takes in `rendered` and `studios` as props (based on your render method [here](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/Studios/Studios.js#L10-L36)), but it doesn't seem like you're passing those in as your mock data in your test file for your snapshot.
+
+* Running the simulations [here](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/Search/Search.test.js#L81) and [here](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/Controls/Controls.test.js#L57) but not actually making any expectations against it? It looks like overall you might be getting a bit lost on how to assert against what should happen after these simulations are made. I would recommend pairing up with another group and getting a little review on testing these user interactions so you can practice it thoroughly during your solo projects next week. [Good simulation here though!](https://github.com/MatthewKaplan/yoga-fee-finder/blob/master/src/Search/Search.test.js#L84-L87)
 
 
 

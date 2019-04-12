@@ -1,6 +1,6 @@
 # Whateverly 
 * Students:
-* Evaluator:
+* Evaluator: Pam, Robbie, Brittany
 
 # Rubric
 

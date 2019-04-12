@@ -1,6 +1,6 @@
 # Whateverly 
 * Students:
-* Evaluator:
+* Evaluator: Pam, Robbie, Brittany
 
 # Rubric
 
@@ -82,7 +82,7 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [ x ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
@@ -90,11 +90,35 @@ Comments:
 Comments:
 
 
+* If all [this method](https://github.com/jacobogart/queenly/blob/master/src/components/Thumbnail.js#L8-L10) is doing is calling another one, you don't need it. You could just directly put `this.props.selectSearchResult` in your `onClick` attribute. Something like `onClick={() => this.props.selectSearchResult(params)}`
+
+* Perfect use-case for a switch statement [here](https://github.com/jacobogart/queenly/blob/master/src/components/Sub_Info.js#L11-L22)!
+
+* [Not sure what's happening here](https://github.com/jacobogart/queenly/blob/master/src/components/Sub_Info.js#L23-L31)? I've never seen an element attribute called `dangerouslySetInnerHTML` and it sounds...dangerous. It looks like maybe you're trying to fill that div with some HTML? In which case you should be able to do something like:
+
+```js
+let asset = this.generateImgTag(); 
+// generateImgTag would be a method that returns the img tag populated with the appropriate attribute values
+
+<div>
+  {asset}
+</div>
+```
+
+* Is [this](https://github.com/jacobogart/queenly/blob/master/src/components/SearchResults.js#L26-L28) doing anything/being used anywhere?
 
 
+* Nice [destructuring here](https://github.com/jacobogart/queenly/blob/master/src/components/Queen_Main.js#L9-L13), I think there are quite a few other places you could implement this in other components!
 
+* [This](https://github.com/jacobogart/queenly/blob/master/src/components/Hamburger.js#L11-L15) could be simplified to:
 
+```js
+  toggleBurger = () => {
+    this.setState({ showMenu: !this.state.showMenu })
+  };
+```
 
+* Unless these [icons](https://github.com/jacobogart/queenly/blob/master/src/components/Card.js#L15-L21) are changing in some way, they probably shouldn't be stored as state values. You could just create a plain old object literal to hold a mapping of which icon classes represent what type of icon and import that wherever you need it.
 
 
 
@@ -131,7 +155,7 @@ Contribution breakdown:
 
 * [ ] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
+* [ x ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
@@ -140,9 +164,11 @@ Contribution breakdown:
 
 Comments:
 
+* Not totally sure what we've got going on in [this test](https://github.com/jacobogart/queenly/blob/master/src/tests/Thumbnail.test.js#L36-L40) -- there's a couple different expectations and they don't quite match the description of the it block. I would expect, based on the it block description and based on your component, that we would want to be simulating a click event here and asserting that our mock function, `selectSearchResult` was called. (Same thing with your SearchSuggestion component. Simulate the click event, don't manually invoke a method that isn't doing anything except calling another one). Overall it looks like there's some hesitation around simulating events in your test files...I'd recommend making that a focus for your solo projects so you can get some additional practice in with that flow.
 
+* Would like to see a test for this [onClick function being called](https://github.com/jacobogart/queenly/blob/master/src/components/SearchResults.js#L34) 
 
-
+* You'd also want to be doing some conditional snapshot tests to account for how the rendered output changes [here](https://github.com/jacobogart/queenly/blob/master/src/components/SearchResults.js#L12-L25) based on the length of your search results.  (e.g. shallow render one component with an array of elements, then another with an empty array, and make sure the rendered output matches what you'd expect in both scenarios)
 
 
 

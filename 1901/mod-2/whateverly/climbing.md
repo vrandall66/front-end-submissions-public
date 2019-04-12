@@ -1,6 +1,6 @@
 # Whateverly 
 * Students:
-* Evaluator:
+* Evaluator: Pam, Robbie, Brittany
 
 # Rubric
 
@@ -82,16 +82,24 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [ x ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* Nice [destructuring](https://github.com/jarrettkong/climb-on/blob/master/src/components/Place.jsx#L10)
 
+* You can always just check the length instead of [length > 0](https://github.com/jarrettkong/climb-on/blob/master/src/components/Place.jsx#L12) - 0 is a falsey value in JavaScript
 
+* Don't rely just on the [index](https://github.com/jarrettkong/climb-on/blob/master/src/components/Places.jsx#L19) as your unique key -- you will run into problems as your dataset potentially changes. It's best to rely on some sort of unique ID or other identifier, and at the very least, prefix that index with something like `place-${index}`
 
+* You could probably create an array of these [difficulty levels](https://github.com/jarrettkong/climb-on/blob/master/src/components/SideBar.jsx#L75-L124) and map over it to generate all of these divs -- I'd break it out into a separate method like `generateDifficultyFilters` that returns the generated JSX so you can kind of tuck it away and DRY up your code. Same thing with your type filters if you want, though since there's only 3 of those it won't save you quite as much.
+
+* Some duplicate state in the [App](https://github.com/jarrettkong/climb-on/blob/master/src/App.jsx#L13-L17) and [SideBar](https://github.com/jarrettkong/climb-on/blob/master/src/components/SideBar.jsx) component. This information should live in a single place (I'd imagine it would need to exist in the App component as it seems important for some siblings to know about it).
+
+* Nice job working with [Promise.all()](https://github.com/jarrettkong/climb-on/blob/master/src/App.jsx#L29-L34)
 
 
 
@@ -135,19 +143,18 @@ Contribution breakdown:
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
-* [ ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
+* [ x ] Exceptional - Project has a running test suite that exercises the application used Enzyme. The test suite covers almost all aspects of the application.
 
 
 Comments:
 
+* Good [conditional snapshotting here](https://github.com/jarrettkong/climb-on/blob/master/src/tests/Place.test.js)
 
+* Really nice testing of simulated events across the board, your methods are nice and tiny which hopefully made this much easier. Good method coverage on even the more complex components like SideBar.
 
+* Nitpick You won't see [snake_case](https://github.com/jarrettkong/climb-on/blob/master/src/tests/Sidebar.test.js#L8) a ton in the JS ecosystem. We're mostly into the camelCase these days, but either way just be consistent.
 
-
-
-
-
-
+* I think your it block descriptions [here](https://github.com/jarrettkong/climb-on/blob/master/src/tests/App.test.js#L166-L170) might be a little off? Your testing opposite behavior but have the same description.
 
 ------------------------------------------------------------------
 
