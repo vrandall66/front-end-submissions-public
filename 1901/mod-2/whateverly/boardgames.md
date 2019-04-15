@@ -82,15 +82,24 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [ x ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* Render methods [here](https://github.com/rdren0/BoardGameApp/blob/master/src/Components/CardArea.js#L31) and [here](https://github.com/rdren0/BoardGameApp/blob/master/src/Components/NavBar.js) are pretty hairy -- can you break some of this out into methods that return JSX/other functional components?
 
+* The [App](https://github.com/rdren0/BoardGameApp/blob/master/src/App.js) component is pretty overloaded -- I would go back and verify if everything *actually* needs to be in here. Remember the component communication lesson -- what components actually need these pieces of state, and is App really the closest parent? (Based on your component structure, it may just be. But I would build out some additional components to break this App up a bit regardless). Overall your methods here are pretty nice and tiny though, so it should make that refactoring a bit easier!
 
+* Given that you have so many methods [here](https://github.com/rdren0/BoardGameApp/blob/master/src/App.js#L22-L34), I'd do all of that binding with arrow functions directly in your method definitions rather than binding in the constructor. This is a lot of extra lines of code you could cut out by defining your methods like:
+
+```js
+filterByType = () => {
+
+}
+```
 
 
 
@@ -131,7 +140,7 @@ Contribution breakdown:
 
 * [ ] Novice - There is little or no evidence of testing in the application.
 
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
+* [ x ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features.
 
@@ -140,11 +149,15 @@ Contribution breakdown:
 
 Comments:
 
+* For a test like [this](https://github.com/rdren0/BoardGameApp/blob/master/src/Test/App.test.js#L69-L78) I would just test the entire state object with `wrapper.state()` and write a single assertion about the object equalling what you expect it to, rather than testing each individual piece of state one by one.
 
+* For [these tests](https://github.com/rdren0/BoardGameApp/blob/master/src/Test/App.test.js#L80-L142) you need to be putting more than one object in your arrays of mock data. Right now, some of these tests don't actually assure me that your methods are filtering your data. They could all just be returning the entire array of data each time and the tests would still pass even though the functionality is broken. You need to have more sample data with objects that do and don't meet the filter requirements in order to really verify that your dataset is being filtered the way you expect.
 
+* You're never actually firing a click event within the CardArea component, so [simulating an event here](https://github.com/rdren0/BoardGameApp/blob/master/src/Test/CardArea.test.js#L95-L103) wouldn't make sense. In this case, you would just want to manually invoke that `changeCards` method and assert that it sets the state appropriately.
 
+* [Here](https://github.com/rdren0/BoardGameApp/blob/master/src/Test/LikeButton.test.js#L28-L33) you wouldn't be testing the actual functionality of the `toggleFav` method, you would want to mock out that prop method and assert that it has been called. You would test the actual functionality of this method in the component it was actually defined in. You would **not** mock [this method](https://github.com/rdren0/BoardGameApp/blob/master/src/Test/LikeButton.test.js#L10) - let that functionality be, so that it can run and actually invoke your `toggleFav` method. That's likely why this test needed to be skipped.
 
-
+* Lots of methods in that App component that are missed opportunities for testing!
 
 
 
