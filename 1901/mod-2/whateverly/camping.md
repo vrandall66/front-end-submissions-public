@@ -82,15 +82,22 @@ Comments:
 
 * [ ] Advanced Beginner - There is some duplication and there may be one or two major bugs. The application has large components and logic could be broken apart into smaller, stateless components. JavaScript may be hard to read/follow.
 
-* [ ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
+* [ x ] Proficient - Application has little to no duplication and no major bugs. Application has several components built out that logically break apart the functionality. JavaScript may be hard to follow at times but is generally easy to read/understand. 
 
 * [ ] Exceptional - Application has exceptionally well-factored code with little or no duplication and all components separated out into logical components. There are zero instances where an instructor would recommend taking a different approach to design and component architecture. DRY and SRP (Single Responsibility Principle) practices are incorporated, making JavaScript very easy to follow/read.
 
 
 Comments:
 
+* You don't generally want to be manipulating the DOM like [this](https://github.com/B-Coyle/Whateverly-2019/blob/master/src/CampCard/CampCard.js#L25) in React --- React should take care of adding/removing anything from the page for you. Here you're kind of overriding the magic of React. That section tag should likely be conditionally rendered based on some sort of information in state, rather than simply removed from the DOM because of a click event. Otherwise, nice tiny methods in your CampCard component and good conditional rendering.
 
+* Are [these](https://github.com/B-Coyle/Whateverly-2019/blob/master/src/CampFilterButtons/CampFilterButtons.js#L60-L66) doing anything? Looks like they're just preventing any potential default behavior but have no other functionality associated with them meaning the click events wouldn't actually do anything...?
 
+* Lots of veryyyy similar code in these [filter methods](https://github.com/B-Coyle/Whateverly-2019/blob/master/src/CampFilterButtons/CampFilterButtons.js#L12-L58). It would be really good practice for you to go back and try to make these more dynamic by passing in some params. e.g. the yesRes/noRes methods could be combined, the elevation methods could be combined and dynamically change the behavior with a switch statement to account for all the different elevation scenarios. I'd highly recommend doing this.
+
+* Hiking [components](https://github.com/B-Coyle/Whateverly-2019/blob/master/src/HikeCard/HikeCard.js) look very similar to your camping components. I feel like there is some ability to combine and reuse components here, even if it means doing a bit more conditional rendering in them. Remember component reusability is a big benefit of working with a framework like React!
+
+* [Ahhh](https://github.com/B-Coyle/Whateverly-2019/blob/master/src/App/App.js#L58) this method name is pretty...javascripty...
 
 
 
@@ -129,7 +136,7 @@ Contribution breakdown:
 
 ## Testing
 
-* [ ] Novice - There is little or no evidence of testing in the application.
+* [ x ] Novice - There is little or no evidence of testing in the application.
 
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested.
 
@@ -140,7 +147,7 @@ Contribution breakdown:
 
 Comments:
 
-
+* Not enough testing to really review here, make sure this is an emphasis on your solo projects because you'll be very far behind in Mod 3 if we don't get this down before then.
 
 
 
