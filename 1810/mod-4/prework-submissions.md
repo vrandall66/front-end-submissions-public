@@ -70,9 +70,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Tiffany Bachmann
 
-* [Node Server Tutorial]()
-* [Annotated Express server file]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/trbachmann/node-server-tutorial-prework)
+* [Annotated Express server file](https://github.com/dForDeveloper/trapper-keeper-api/blob/tb-annotation-prework/app.js)
+* [Promise Practice Exercises](https://repl.it/@tbachmann/promise-practice-prework)
 
 ## Travis Gee
 
