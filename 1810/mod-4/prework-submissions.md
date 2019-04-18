@@ -76,9 +76,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Travis Gee
 
-* [Node Server Tutorial]()
-* [Annotated Express server file]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/geet084/node-prework)
+* [Annotated Express server file](https://github.com/geet084/trapper-keeper/tree/mod4-prework)
+* [Promise Practice Exercises](https://Mod4-prework.geet084.repl.run)
 
 ## Whitney Burton
 
