@@ -40,9 +40,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Jeo D
 
-* [Node Server Tutorial]()
-* [Annotated Express server file]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/dForDeveloper/nodejs-prework)
+* [Annotated Express server file](https://github.com/dForDeveloper/trapper-keeper-api/blob/jd-prework/app.js)
+* [Promise Practice Exercises](https://repl.it/@UAv27axHJ9mD/PromisesPrework)
 
 ## Justin Duncan
 
