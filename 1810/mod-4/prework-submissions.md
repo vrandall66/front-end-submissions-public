@@ -34,9 +34,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Hillary Stewart
 
-* [Node Server Tutorial]()
-* [Annotated Express server file]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://gist.github.com/hillstew/1c327eb515e9d3e0907de0a330e7b112)
+* [Annotated Express server file](https://gist.github.com/hillstew/69c4beddde4c21f4cbc44df8b8ff5b8e)
+* [Promise Practice Exercises](https://repl.it/@hillstew/prework-promises)
 
 ## Jeo D
 
