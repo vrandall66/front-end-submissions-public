@@ -16,9 +16,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Dylan Hofmann
 
-* [Node Server Tutorial]()
-* [Annotated Express server file]()
-* [Promise Practice Exercises]()
+* [Node Server Tutorial](https://github.com/dylhof/NodeJS-Practice)
+* [Annotated Express server file](https://github.com/dylhof/trapper-keeper-api/tree/annotate-Dylan)
+* [Promise Practice Exercises](https://repl.it/@dylhof/Promises)
 
 ## Eric Weissman
 
