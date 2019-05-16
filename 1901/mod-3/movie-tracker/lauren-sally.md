@@ -4,9 +4,7 @@
 
 Make sure your reducers are named to match the property of the store they are updating/using. Instead of "setFavoritesReducer", it should be "favoritesReducer".
 
-Linting is poor - indentation is all over the place.
-
-Architecture is shaky - make sure containers are in the containers folder.
+Make sure containers are in the containers folder.
 
 Testing is very thin. Many tests are missing or inappropriately using assertions. Functionality of redux is mostly tested (actions, reducers), but very few component tests are thorough, including both snapshots and proper testing of functions. Asynchronous testing is absent.
 
