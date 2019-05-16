@@ -2,13 +2,17 @@
 ### Students: Mike, Max
 ### Comments:
 
-## Rubric 
+Your reducers should not have verbs in them. It should reflect the name of the piece of the global store they interact with. For example, instead of "addTopMoviesReducer", it should be "moviesReducer" or possibly "topMoviesReducer". Reducers should all be able to do more than one thing, so should not be named to limit them to one thing.
+
+Some components/containers have conditional rendering in them, yet you only have one snapshot test. You should have snapshots to capture each potential outcome of the component/container.
+
+## Rubric
 
 ### Specification Adherence
 
 * 3 - The application completes all iterations above without error. Evaluator has minimal
   recommendations for design changes.
-  
+
 ### Project Professionalism
 
 * 2 - Project is missing PropTypes, README updates, wireframes, or has more
@@ -17,15 +21,7 @@
 
 ### Testing (PENDING)
 
-* 4 - All requirements from 3 met, all async functionality is tested, tests are
-  passing and run efficiently (using mount only when appropriate).
-* 3 - All Redux functionality is tested (actions, reducers, mapStateToProps, mapDispatchToProps), all
-  components are unit tested, and a valid attempt was made to test any async
-  functionality.
-* 2 - Nearly all unit tests for Redux and React are in place. No attempt to test
-  async functionality was made.
-* 1 - A valid attempt to test this application was made, but there are obvious
-  gaps, with missing unit tests for Redux and React.
+* 3 - All Redux functionality is tested (actions, reducers, mapStateToProps, mapDispatchToProps), all components are unit tested, and a valid attempt was made to test any async functionality.
 
 ### Redux Architecture
 

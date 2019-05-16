@@ -1,21 +1,21 @@
-### Evaluator:
-### Students:
-### Comments:
+### Evaluator: Leta
+### Students: Bridgett, Saad
+### Comments: Really solid project in general
 
-## Rubric 
+## Rubric
 
 ### Specification Adherence
 
-* 4 - All requirements from 3 are met. The application completes all iterations above and implements one or 
+* 4 - All requirements from 3 are met. The application completes all iterations above and implements one or
   more of the extensions. And the evaluator has no recommendations for design changes.
 * 3 - The application completes all iterations above without error. Evaluator has minimal
   recommendations for design changes.
-* 2 - The application is in a usable state, but is missing part of one or more of the 
+* 2 - The application is in a usable state, but is missing part of one or more of the
   features outlined above. Evaluator has multiple recommendations for design
   changes.
 * 1 - The application is missing multiple features outlined above. Developer did
   minimal to no CSS for this project.
-  
+
   [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
 
 ### Project Professionalism
