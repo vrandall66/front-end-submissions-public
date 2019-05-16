@@ -2,7 +2,7 @@
 ### Students: Katie, Erik
 ### Comments:
 
-Missing critical functionality (favorites). There are only 76 commits - for a project this size, we'd expect to see upwards of 150.
+Missing critical functionality (favorites). There are only 76 commits - for a project this size, we'd expect to see upwards of 100.
 
 Reducers should not be named with verbs. They should match the part of state they update. For example, instead of "get NowPlayingReducer", it should be "nowPlayingReducer".
 
