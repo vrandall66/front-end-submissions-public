@@ -23,10 +23,10 @@
 * Great organization of styles and alphabetizing properties within each class
 * Good work grouping some styles together
 * Try and stay away from percentages on margins and paddings (especially decimals)
-* Good work organization of global variables, event listeners, and function declarations
+* Good work with organization of global variables, event listeners, and function declarations
 * Clean up console.logs 
 * How could we refactor challengerOne and challengerTwoCompareNumbers into one function using arguments vs parameters
-* Would recommend starting all of those variables out as null
+* Wouldn't recommend starting all of those variables out as null
   * Assign them to their querySelected elements and then grab the values in the event listeners
 * Be consistent with using variables
   * Example in resetGameButton and clearChallenger forms, we are querying the guess-1-form and guess-2-form.  Let's create a variable that I can access more easily as opposed to querying it multiple times.

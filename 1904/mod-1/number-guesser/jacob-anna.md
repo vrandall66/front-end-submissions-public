@@ -16,7 +16,7 @@
 * Assign only one event listener to a button or input, and then fire functions inside of that function
 * How can we refactor error functions  like challenger1 and challenger2GuessError into one?
   * Same with addFeedback1andWinner and addFeedback2andWinner into one function using arguments and parameters.
-* Careful not to use inline styles event in your template literals in JS
+* Careful not to use inline styles even in your template literals in JS
 * Great use of event delegation with the delete functionality
 
 

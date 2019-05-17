@@ -13,14 +13,14 @@
 * Cheers to using alt tags on images for accessibility reasons.  Shouldn't need alt tags on buttons.
 * Remember to include the for attribute in lables to sync them up and make it a bit more accessible
 * Great organziation of styles from top to bottom and alphabetizing properties within each class
-* Good start to grouping up styles, see if you can find more instances or repeated styles you don't need
+* Good start to grouping up styles, see if you can find more instances of repeated styles you don't need
   * Examples include player-input & button-trio or input-name and input-guess 
   * When it becomes 3 or more classes, see if you can use one class and put it on multiple elements
 * Careful of using position absolute and negative margins to style things (can be a little hacky)
 * Great work organizing global variables, event listeners, and function declarations
 * Instead of firing all of the functions in submitEverything, maybe fire the functions for errors first, and then if there are no errors, fire the functions to update guesses
 * How could we refactor playerOneErrors and playerTwoErrors into one function and pass arguments through.
-* Try and avoid inline styles for specificity and organization reason
+* Try and avoid inline styles for specificity and organization reasons
 * In updateAllNames, see how you can use one for loop instead of two to update the names
 
 ### Functional Expectations
