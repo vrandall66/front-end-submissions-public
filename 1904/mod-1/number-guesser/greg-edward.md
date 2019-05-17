@@ -17,11 +17,11 @@
 * Currently missing media queries
 * Good organization of global variables, event listeners, and function declarations
 * Good use of arguments vs parameters with making checkResults and making that function dynamic
-* Some good examples of calling functions inside of other functions and using operators to variable assignments
+* Some good examples of calling functions inside of other functions and using operators for variable assignments
 * Great work using event delegation for deleting functionality
 * See how you could refactor validateForAlphaNumberic and validateForNumeric into one
 * Stay away from double assignment operators in the increasedRange function
-* What is the purprose of returning values?  If it's not being stored anywhere, you don't need the return
+* What is the purpose of returning values?  If it's not being stored anywhere, you don't need the return
   * guessCounter, generateRandomNumber
   * whoWin() is a good example where the return is necessary
 * Likely don't need one line functions like resetCounter if it's not being used anywhere else.
