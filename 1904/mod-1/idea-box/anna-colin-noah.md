@@ -1,17 +1,47 @@
-## Student:
-## Evaluator:
+## Student: Annie Goodwin, Colin Koga, Noah Gibson 
+## Evaluator: Khalid Williams 
 ## Notes/What To Work On:
+
+__General__ 
+* github commits were looking pretty good 
+  * Well structureed 
+
+__Comp Recreation__
+* not fully responsive
+* UI is a little rough around the edges 
+
+__Functional__
+* Can add, edit and deleting ideas 
+  * Edits of ideas do not persist across page refresh 
+* Save button is disabled when it needs to be 
+
+__HTML__
+* Scripts importing in the right order 
+* Used a nav for the side bar 
+* `for` attributes with lavbels aren;t set up quite right -- needs to correspond to `id`, not `name`
+* Using data attributes 
+
+__CSS__ 
+* Following page flow 
+* Alphabetization of the rules 
+* Some redundant rules with the inactive buttons
+  * Don't forget you can stack selectors
+
+__JS__ 
+* PRetty good organization of the file 
+* Right amount of global variables 
+* Could DRY up your event listeners -- in fact, you did, but you need to 
 
 ### Functional Expectations
 
-*  Novice: Application meets all of the expectations of phase one.
+*  __Novice: Application meets all of the expectations of phase one.__
 *  Advanced Beginner: Application meets all of the expectations of phase two.
 *  Proficient: Application meets all of the expectations of phase three.
 *  Exceptional: Application adds all of the extensions from phase four.
 
 ### Comp Recreation
 
-*  Novice - Application implements all major comp details accurately and correctly on desktop only (colors, fonts, icons, spacing, alignment, etc.)
+*  __Novice - Application implements all major comp details accurately and correctly on desktop only (colors, fonts, icons, spacing, alignment, etc.)__
 *  Advanced Beginner - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.). Transitions between screen sizes may not be smooth
 *  Proficient - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements added generally match the visuals established in the comps, but may be slightly awkward
 *  Exceptional - Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons,spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements that have been added match the visuals established in the comps
@@ -20,14 +50,14 @@
 
 *  Novice - Crafts markup according to the turing html style guide
 *  Advanced Beginner - Application adds to the above by using appropriate semantic elements and using `data-*` attributes for all data related things
-*  Proficient - Applications adds to the above with markup that is easy to read and follow across naming conventions
+*  __Proficient - Applications adds to the above with markup that is easy to read and follow across naming conventions__
 *  Exceptional - Application adds to the above by using BEM, SMACCS, or another set of naming conventions for classes and:
   *  Implements html that is accessible for folks with visual disabilities.
 
 ### CSS - Style and Implementation
 
 *  Novice - Crafts CSS according to the turing css style guide
-*  Advanced Beginner - Application adds organization for the whole stylesheet and within rules
+*  __Advanced Beginner - Application adds organization for the whole stylesheet and within rules__
 *  Proficient - Applications adds to the above by removing repetitive rules and blocks of code according to the DRY principle
 *  Exceptional - Application adds to the above by using BEM, SMACCS, or another set of naming conventions for classes
 
