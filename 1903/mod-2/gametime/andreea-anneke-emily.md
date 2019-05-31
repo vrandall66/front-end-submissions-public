@@ -1,5 +1,5 @@
 # GameTime
-* Students: 
+* Game: Family Feud 
 * Evaluator:
 
 ### Functional Expectations

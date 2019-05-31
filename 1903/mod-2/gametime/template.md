@@ -1,5 +1,5 @@
 # GameTime
-* Students: 
+* Game: 
 * Evaluator:
 
 ### Functional Expectations

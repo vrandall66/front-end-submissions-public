@@ -1,5 +1,5 @@
 # GameTime
-* Students: 
+* Game: WOF
 * Evaluator:
 
 ### Functional Expectations
