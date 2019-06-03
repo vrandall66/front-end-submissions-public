@@ -2,12 +2,19 @@
 * Game: WOF 
 * Evaluator:
 
+Repo: https://github.com/alizarincrimson/Wheel-of-Fortune
+
 ### Functional Expectations
 
-* [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
+* [X] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
 * [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
 * [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
+
+* Buy a vowel is not working
+* The puzzle does not change after solving it...
+* You can use vowels when only consonants should be able to be used after spinning
+* No final round
 
 ### UX/Accessibility
 
@@ -22,6 +29,9 @@
 * [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
 * [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
+
+* I'm curious why the wheel spins on hover but doesn't really do anything?...
+* Hard to tell what to do next or when the players should act because the value of the wheel sticks on the screen even when the turn is "finished". It will still saw Bankrupt even though it has moved on to the next player.
 
 
 ### CSS/Sass Style
