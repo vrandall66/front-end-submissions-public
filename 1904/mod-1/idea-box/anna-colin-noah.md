@@ -65,7 +65,7 @@ __JS__
 
 *  Novice - Crafts JS according to the turing js style guide
 *  Advanced Beginner - Application adds to the above by correctly implementing a data model for the `Idea` class including all required methods
-*  Proficient - Application adds readability by incorporating both DRY and SRP practices and students can speak to implementation decisions and:
+*  __Proficient__ - Application adds readability by incorporating both DRY and SRP practices and students can speak to implementation decisions and:
   *  Uses event delegation correctly on dynamic elements for deleting, editing, & starring an idea
   *  All functions are less than 10 lines
   *  There are no global variables aside from query selectors and two arrays for your ideas and qualities
