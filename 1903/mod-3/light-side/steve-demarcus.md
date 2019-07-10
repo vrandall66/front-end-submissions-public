@@ -1,15 +1,11 @@
 ### Evaluator: Leta
-### Students: Anneke, Hindreen
+### Students: Steve, DeMarcus
 ### Comments:
 
-* Overall good use of components
-* Router is solid (no 404 page)
-* Solid approach to conditional rendering
-* Component testing mostly in place (missing some functionality - ex: a method calls another method)
-* Async tests in place
-* Some component testing still needed (make use of manual mocks), ex: componentDidMount in App.js
-* Smaller commits to document more specific changesets
-* Work on syntax (indents, spaces, line breaks, etc)
+* More commits - currently, not enough commits, which means changesets being documented are too large, which can be bad if you need to rewind to an earlier commit - you might lose changes you didn't know you are losing
+* Async testing is missing testing the response/error
+* Component tests still thin: need to test that state updates (with fetches), need to test cleaners in App.js
+* Nice job on conditionally rendering stuff without much redundancy
 
 ## LightSide Rubric
 
