@@ -1,6 +1,6 @@
-## Student:
-## Evaluator:
-## Notes/What To Work On:
+## Student: Kirk & Jeannie
+## Evaluator: Eric W. 
+## Notes/What To Work On: It sounds like you had a great workflow that allowed you both to learn from one another and you built a very solid project. The HTML structure and CSS organization is solid and we discussed some small CSS tweaks (whitespace underneath on larger screens, some spacing in media queries, etc.) The JS had several opportunities to DRY code up using args/params and ways we can reduce using so many comparison operators in one block of code. Overall, solid work! 
 
 ### Functional Expectations
 
@@ -12,21 +12,13 @@
 ------------------------------------------------------------------
 
 ### Comp Recreation
-
-* __Novice:__ Application implements all major comp details accurately and correctly on desktop only (colors, fonts, icons, spacing, alignment, etc.)
 * __Advanced Beginner:__ Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons, spacing, alignment,  etc.). Transitions between screen sizes may not be smooth.
-* __Proficient:__ Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons, spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements added generally match the visuals established in the comps, but may be slightly awkward.
-* __Exceptional:__ Application implements all major comp details accurately and correctly on desktop and mobile (colors, fonts, icons, spacing, alignment,  etc.) with smooth transitions between screen sizes. Additional elements that have been added match the visuals established in the comps.
+
 
 ------------------------------------------------------------------
 
 ### HTML - Style and Implementation
-
-* __Novice:__ Crafts markup according to the [turing html style guide](https://github.com/turingschool-examples/html)
-* __Advanced Beginner:__ Application adds to the above with HTML that incorporates semantic HTML elements and has a simple, clean HTML structure.
 * __Proficient:__ Application adds to the above with markup that is easy to read and follows across naming conventions
-* __Exceptional:__ Application adds to the above by using [BEM](http://getbem.com/), [SMACCS](https://smacss.com/), or another set of naming conventions for classes and:
-    * Implements html that is accessible for folks with visual disabilities. Reference [this lesson plan](http://frontend.turing.io/lessons/floating/web-accessibility.html)
 
 ------------------------------------------------------------------
 
