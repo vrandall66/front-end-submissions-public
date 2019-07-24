@@ -1,5 +1,5 @@
-### Evaluator:
-### Students:
+### Evaluator: Leta
+### Students: Antonio, David
 ### Comments:
 
 * Readme looks great
@@ -8,7 +8,10 @@
 * Refactor to have one Card (use conditional rendering!)
 * Missing some component tests (component methods, updates/changes to state)
 * Nice start to async tests
-
+* Things to focus on:
+  - conditional rendering (reducing redundancy)
+  - component testing (specifically: component methods, updating state)
+  - More frequent commits
 
 ## LightSide Rubric
 
@@ -16,6 +19,9 @@
 
 * 3 - The application completes all iterations above without error. Evaluator has minimal
   recommendations for design changes.
+* 2 - The application is in a usable state, but is missing part of one or more of the
+  features outlined above. Evaluator has multiple recommendations for design
+  changes.
 
 ### Project Professionalism
 
