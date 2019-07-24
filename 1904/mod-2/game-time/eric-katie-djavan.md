@@ -20,16 +20,24 @@
 
 * [ ] Novice - Developers can integrate typography, color choices, and layout in ways that do not detract from legibility.
 * [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
-* [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
+* [ x ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
 
+* **Love** the active/inactive players looking at each other haha that's great!!!
+* Looks like the reset game button isn't working?
+* Would like to see a little more flexibility in the answer checking...e.g. if I enter 'car' for a reason to miss work, I'd expect it to be an accepted answer if 'car trouble' was on the board. Trickier logic to put in place here for that, but might be helpful for users
+* I'd like that start game button to be a little more front and center after entering the player names, it doesn't stand out too much right now and I feel like it's competing with a lot of other elements on the page for attention (also have that start game button disappear in favor of the reset button once we're already playing)
 
 ### CSS/Sass Style
 
 * [ ] Novice - There are several (10+) instances of duplication and one or two major bugs. Developers write code with unnecessary selectors or tags which do not increase clarity.
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unncessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
-* [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
+* [ x ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
 * [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
+
+* Nice use of variables and nesting, variable names could potentially be a bit more specific. e.g. instead of just 'font', I'd like to know if this is a heading font? a body text font? etc.
+
+
 
 ### JavaScript Style & OOP
 

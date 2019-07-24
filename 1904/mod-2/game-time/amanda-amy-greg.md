@@ -7,29 +7,35 @@
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
 * [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
 * [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
-* [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
+* [ x ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
-### UX/Accessibility
+* + CSS animation
 
-* [ ] Novice - The application is confusing or difficult to use.
-* [ ] Advanced Beginner - The application shows effort in the user experience, but the result is not effective. The evaluator has some difficulty using the application and may need assistance from developers.
-* [ ] Proficient - The application is pleasant, logical, and easy to use. Developers use appropriate semantic elements in markup that allow for both mouse and keyboard navigation to all interactive elements.
-* [ ] Exceptional -  Meets all expectations for `Proficient`.  In addition, developers implement attributes and ARIA labels where appropriate to allow for a better user experience with a screen reader. The application stands on its own to be used by the instructor _without_ guidance from the developers.
 
-### User Interface
+### UX/UI
 
 * [ ] Novice - Developers can integrate typography, color choices, and layout in ways that do not detract from legibility.
 * [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
-* [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
+* [ x ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
 
+* Really love the different take on the Game -- it gives you something unique for your portfolio that not every other Turing student is showing. 
+
+* I like the fun witchy font for headings, but for buttons and elements I need to interact with, I'd stick to something a little more boring -- it can be a little overwhelming to try to read the text in that font unless it's really big and spare.
+
+* Thank you for having hover states on your clickable elements!
+
+* There are a *lot* of user interactions with wheel of fortune games, and they have a tendency to compete with each other on the page. I'd like a little more clarity around whether I'm supposed to be: spinning? picking a letter? buying a vowel? (can I even buy a vowel right now?) I think some disabled states would go a long way here -- making the buttons you **shouldnt** be interacting with a little less obvious until it's time to use them again 
 
 ### CSS/Sass Style
 
 * [ ] Novice - There are several (10+) instances of duplication and one or two major bugs. Developers write code with unnecessary selectors or tags which do not increase clarity.
 * [ ] Advanced Beginner - There is some duplication (5-10 instances) in the codebase. There may be one to two minor bugs. There may be some unncessary selectors or tags. Application adds organization for the whole stylesheet and within rules.
 * [ ] Proficient - Application is thoughtfully put together with comments to help guide organization. There may be some duplication (fewer than 5 instances) present. Comments are present to assist with organization of code.
-* [ ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
+* [ x ] Exceptional - Meets all expectations for `Proficient`. The application has exceptionally well-factored CSS/Sass with all styles separated out into logical stylesheets. There are zero instances where an instructor would recommend taking a different approach.
+
+* Nice use of variables and nesting and Ooooh some extends!! Variable names are solid (flexible enough not to have to change as the design changes but specific enough that I know what they represent)
+
 
 ### JavaScript Style & OOP
 
