@@ -48,8 +48,15 @@
 
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
+* [ x ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
+
+* [WOW THATS A LOTTA SPIES](https://github.com/aripp2/wheel-of-wizards/blob/master/test/game-test.js#L14-L40) - I'm not sure I would pre-emptively spy on everything possible right off the bat. It might feel nice to know it's all taken care of, but it does make it a little more difficult to understand the intention/purpose of the spy if we just wipe out every domupdates method with a spy. I'd like to look at your spies and know exactly what to expect we're going to be spying on rather than having them all set up and only actually asserting against one of them
+
+* Hmmm, I'm a little skeptical about this [join method](https://github.com/aripp2/wheel-of-wizards/blob/master/test/puzzle-test.js#L34) you're calling in the execution phase of your test here. That's something thats *not* happening in your application, and now you're asserting against code that you've written in your test file instead. We want to keep any sort of logic like this out of our tests so that we know we're always testing **only** what the app is doing and not something our test is doing.
+
+* Good use of spies for your domUpdates, you can look into the `afterEach` or teardown phase to clean up your spies after each test runs. e.g. in the spies [here](https://github.com/aripp2/wheel-of-wizards/blob/master/test/round-test.js) it almost looks like you're call counts are continuously updating with each test block that finishes. We'd want to reset each spy to 0 and start with a clean slate for every it block so that our tests aren't dependent on each other. (e.g. if you change the order of your tests, would you still expect the `disableConsonants` method to have been called twice? or just once?)
+
 
 ### GitHub Collaboration/Workflow
 
