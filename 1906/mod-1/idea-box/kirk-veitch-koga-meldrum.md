@@ -1,6 +1,6 @@
 ## Student: Kirk, Eric and Colin
 ## Evaluator: Eric W.
-## Notes/What To Work On: Really strong project - was excited to hear that your workflow/communication process was a driving force in your group dynamics. Very good attention to detail on the comp recreation and the decisions to utilize a collapsable menu for smaller screen sizes created a very pleasing user experience. The Idea class was well constructed and we discussed using params in some of the methods to pass an array more dynamically to account for potential adjustments to project down the line. The JS overall was really solid and you did a good job of articulating your choices for manipulating the data. Good use of event delegation/handlers to keep event listeners to a minimum. 
+## Notes/What To Work On: Really strong project - was excited to hear that your workflow/communication process was a driving force in your group dynamics. Very good attention to detail on the comp recreation and the decisions to utilize a collapsable menu for smaller screen sizes created a very pleasing user experience. The Idea class was well constructed and we discussed using params in some of the methods to pass an array more dynamically to account for potential adjustments to project down the line. The JS overall was really solid and you did a good job of articulating your choices for manipulating the data. Good use of event delegation/handlers to keep event listeners to a minimum.
 
 ### Functional Expectations
 
