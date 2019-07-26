@@ -41,8 +41,20 @@
 
 * [ ] Novice - Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code are not separated.
 * [ ] Advanced Beginner - Application has a significant amount of duplication. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. 
-* [ ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
+* [ x ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
 * [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
+
+* [A good use-case for a for loop](https://github.com/aripp2/wheel-of-wizards/blob/master/src/Game.js#L19-L23) - you'll still use for loops once in a while!
+
+
+* Is there a reason we're using [brack notation here](https://github.com/aripp2/wheel-of-wizards/blob/master/src/Puzzle.js#L10-L13) if we know all the names of the properties we're trying to access? I'd imagine dot notation would work just fine?
+
+* The return statemetns in [this method](https://github.com/aripp2/wheel-of-wizards/blob/master/src/Round.js#L39-L46) are probably unecessary. It doesn't seem like you're doing anything with those return values, and you're actually returning an expression here...not a value. Would likely just end up returning `true` after that expression evaluates
+
+* [This](https://github.com/aripp2/wheel-of-wizards/blob/master/src/Round.js#L56-L70) is a good use-case for a switch statement. Any time you have more than 2 possible conditions, I usually forgo the if/else syntax for a switch statement
+
+* Alot of logic in your [BonusRound](https://github.com/aripp2/wheel-of-wizards/blob/master/src/BonusRound.js#L23-L27) duplicates code from your Round class. Remember extending a class means that you have access to all those methods by default, so we don't need to repeat them in our BonusRound class! You could completely delete that assignPuzzle method from BonusRound and it would work exactly the same.
+
 
 ### Testing
 
