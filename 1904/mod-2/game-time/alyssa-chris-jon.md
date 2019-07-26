@@ -6,20 +6,19 @@
 
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
 * [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
-* [ x ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
-* [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
+* [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
+* [ x ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
-* I maybe see some transitions [here](https://github.com/lundgrea/Jeopardy/blob/master/src/css/base.scss#L26-L46) but can't verify them as an extension bc the UI seems to be a bit buggy!
-
+* + css animations
 
 ### UI/UX
 
 * [ ] Novice - Developers can integrate typography, color choices, and layout in ways that do not detract from legibility.
 * [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
-* [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
+* [ x ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
 
-* Hmmm...I can't seem to start a game! It looks like the screen flashes a start button or something really quick but then it disappears and I'm just left with the Jeopardy title :(
+* Very nice! I like the daily double styling and the use of CSS animations. I'd love to give you an exceptional BUT the one big thing I think we'd need to fix is having some sort of indicator when we're waiting for the UI to update. e.g. the splash screen eventually shows inputs for player names, but it takes quite a while before it does that. It wasn't clear to me that I was waiting for something on the UI to change in order to play which is why I thought the UI wasn't working on my first look! Also after answering a question, I can tell that I got it right or wrong, but I felt unsure if I was supposed to do something in order to return to the game board after that. I waited it out and it happened automatically, but for a second or two there I wasn't sure what was supposed to be happening. 
 
 ### CSS/Sass Style
 
