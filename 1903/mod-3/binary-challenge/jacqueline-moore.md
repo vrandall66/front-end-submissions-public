@@ -1,6 +1,12 @@
-### Evaluator:
-### Students:
+### Evaluator: Leta
+### Students: Jacqueline
 ### Comments:
+
+* README is thin
+* Descriptive commit messages
+* No way to get back to form
+* Redux store is unclear - what is `responses`?
+* Data in store is redundant 
 
 ## Rubric
 
