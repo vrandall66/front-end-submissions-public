@@ -20,9 +20,8 @@
 
 PROJECT IS FAILING
 Extension due Thursday @ 9pm:
-  - Add ability to click results of ingredients search to render drink info card on left-hand side
   - Get favorites rendering
-  - Write ALL tests (actions, reducers, component methods, component snapshots, container methods, container snapshots, container mSTP and mDTP, async tests), get them passing
+  - Write tests (ALL actions, ALL reducers, at least one container's component methods, ALL component snapshots, at least one container's  methods, at least one container's mSTP and mDTP, async tests), get them passing
 
 ## Rubric
 

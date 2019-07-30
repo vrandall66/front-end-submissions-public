@@ -14,11 +14,6 @@
 * Missing testing for mapStateToProps and mapDispatchToProps
 * If you're using thunks they must be tested
 
-PROJECT IS FAILING
-Extension due Thursday @ 9pm:
-  - Add container tests (mapStateToProps, mapDispatchToProps) for all components/containers that are connected to the store
-  - Add PropTypes
-  - Add tests for thunks
 
 ## Rubric
 
@@ -28,11 +23,11 @@ Extension due Thursday @ 9pm:
 
 ### Project Professionalism
 
-* 2 - Project is missing PropTypes, README updates, wireframes, or has more than 5 linter errors. Project team makes large infrequent git commits. Project shows a basic understanding of React.
+* 3 - PropType functionality is complete, the codebase has less than 5 linter errors, README has been updated with all group members. Project utilized wireframes from the outset. All git commits are atomic, made first to branches, and use descriptive and concise commit messages. Project demonstrates a fundamental understanding of React architecture.
 
 ### Testing
 
-* 2 - Nearly all unit tests for Redux and React are in place. No attempt to test async functionality was made.
+* 3 - All Redux functionality is tested (actions, reducers, mapStateToProps, mapDispatchToProps), all components are unit tested, and a valid attempt was made to test any async functionality.
 
 ### Redux Architecture
 
