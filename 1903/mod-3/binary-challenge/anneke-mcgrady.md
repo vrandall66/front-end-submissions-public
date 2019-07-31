@@ -1,42 +1,43 @@
-### Evaluator:
-### Students:
+### Evaluator: Travis Rollins
+### Students: Anneke McGrady
 ### Comments:
+* Good consistency with commit messages, could continue to break out some of the bigger commits into smaller ones
+* Cheers to using a GH project to track your progress
+* Could spend more time on CSS, and make it responsive
+* Should be able to click on entire tab instead of just `See More`
+* A lot of data being fetched at the beginning on componentDidMount (would recommend breaking them out into their own cleaner files)
+  * Would recommend fetching only when a user has clicked on a specific tab
+  * Then save that data in the store & only fetch if that data is in the store
+* Would recommend on line 186 in your App.js, that you have some kind of logic if the article is not found.  Maybe go to your NotFound page?  
+  - Example if I hit `http://localhost:3000/health/po-1000`
+* Good work showing an error, would recommend making it easier to see instead of small text at the top.
+* Nice work on the 404 page!
+  * Also good routing with back buttons etc.
+* ADD_GIF shouldn't be firing multiple times.  Should only need to fire adding the gif once.
+* In the App test, for mapStateToProps, would recommend adding more properties to your mockState to make sure you are getting the exact properties you expect.
+* Missing some tests for ADD_GIF in actions, mapStateToProps, mapDispatchToProps
+* Good work with propTypes
+
 
 ## Rubric
 
 ### Specification Adherence
 
-* 4 - All requirements from 3 are met. The application completes all iterations above and implements one or more of the extensions. And the evaluator has no recommendations for design changes.
 * 3 - The application uses the above technologies to a professional level. The evaluator has minimal recommendations for refactoring or design changes.
-* 2 - The application is in a usable state, but is missing part of one or more of the technologies outlined above. Evaluator has multiple recommendations for design changes.
-* 1 - The application is missing multiple features outlined above. Developer did minimal to no CSS for this project.
-
-  [10 Essential Usability Guidelines.](https://speckyboy.com/10-essential-web-application-usability-guidelines/)
 
 ### Project Professionalism
 
-* 4 - All requirements from 3 met, codebase has zero linter errors/warnings and readme contains screenshots of application. Project team uses a rebase workflow, taking advantage of github issues to track work. Project shows a complete mastery of React architecture.
 * 3 - PropType functionality is complete, the codebase has less than 5 linter errors, README has been updated with all group members. Project utilized wireframes from the outset. All git commits are atomic, made first to branches, and use descriptive and concise commit messages. Project demonstrates a fundamental understanding of React architecture.
-* 2 - Project is missing PropTypes, README updates, wireframes, or has more than 5 linter errors. Project team makes large infrequent git commits. Project shows a basic understanding of React.
-* 1 - PropTypes are substantially unused, README is incomplete, wireframes were not used, or more than 10 linter errors are present. Git history does not show evolution of project, with many large and inconsistent commits. Project shows little understanding of React and significant refactoring is required.
 
 ### Testing
 
-* 4 - All requirements from 3 met, all async functionality is tested, tests are passing and run efficiently (using mount only when appropriate).
 * 3 - All Redux functionality is tested (actions, reducers, mapStateToProps, mapDispatchToProps), all components are unit tested, and a valid attempt was made to test any async functionality.
-* 2 - Nearly all unit tests for Redux and React are in place. No attempt to test async functionality was made.
-* 1 - A valid attempt to test this application was made, but there are obvious gaps, with missing unit tests for Redux and React.
 
 ### Redux Architecture
 
-* 4 - All requirements from 3 met, and no duplication of data exists in the store. Data in the store remains flat (not nested).
 * 3 - Appropriate components are wrapped in connected Redux container components. The Redux store contains all necessary      application data. All state changes are handled through Redux actions and reducers.
-* 2 - At least one component is not connected with Redux appropriately. Application state is mutated by more than just Redux. The Redux store is missing application data that it should be handling.
-* 1 - Application state is mostly outside the control of Redux. Application did not make use of Redux actions and reducers to mutate state. Components do not demonstrate a clear understanding of stateful vs. statelessness.
 
 ### Routing
 
 * 4 - All requirements from 3 met, and always chooses the correct component for rendering, as well as the correct Route API. Application should account for undefined routes.
 * 3 - Application uses React Router to display appropriate components based on URL.
-* 2 - Application uses React Router, but does not display the appropriate components upon navigating.
-* 1 - Application uses React Router, but does not render/use all routes.
