@@ -1,5 +1,5 @@
-## Student:
-## Evaluator:
+## Student: Jeannie, Edwin, Elyse
+## Evaluator: Khalid 
 ## Notes/What To Work On:
 
 __General__
