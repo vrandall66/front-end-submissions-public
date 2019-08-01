@@ -21,6 +21,8 @@ Extension due Thursday @ 9pm:
   - Test Redux actions
   - Add PropTypes
 
+AFTER UPDATES, PROJECT IS PASSING
+
 ## Rubric
 
 ### Specification Adherence
@@ -31,9 +33,14 @@ Extension due Thursday @ 9pm:
 
 * 2 - Project is missing PropTypes, README updates, wireframes, or has more than 5 linter errors. Project team makes large infrequent git commits. Project shows a basic understanding of React.
 
+AFTER UPDATES, PASSING
+
 ### Testing
 
 * 2 - Nearly all unit tests for Redux and React are in place. No attempt to test async functionality was made.
+
+AFTER UPDATES, PASSING
+
 
 ### Redux Architecture
 
