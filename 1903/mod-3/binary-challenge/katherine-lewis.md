@@ -16,12 +16,14 @@
 * Missing tests that demonstrate changes to state (example: the form component does not test that simulated events are setting the local state)
 * Redux store is flat and non-redundant which is good
 
-PROJECT IS CURRENTLY FAILING
+<!-- PROJECT IS CURRENTLY FAILING -->
 
-Extension: Thursday @ 9pm
+<!-- Extension: Thursday @ 9pm
   - Fix tests so they are passing
   - Complete component tests (methods, changes to local state)
-  - Write thorough, complete READMEs for both BE and FE applications
+  - Write thorough, complete READMEs for both BE and FE applications -->
+  
+After updates, project is now passing
 
 ## Rubric
 
@@ -33,6 +35,9 @@ Extension: Thursday @ 9pm
 
 * 2 - Project is missing PropTypes, README updates, wireframes, or has more than 5 linter errors. Project team makes large infrequent git commits. Project shows a basic understanding of React.
 
+AFTER UPDATE: PASSING
+
+
 ### Testing
 
 FAILED - score can be updated if: tests are fixed and passed, local state changes are tested, component methods are tested
@@ -41,6 +46,9 @@ FAILED - score can be updated if: tests are fixed and passed, local state change
 * 3 - All Redux functionality is tested (actions, reducers, mapStateToProps, mapDispatchToProps), all components are unit tested, and a valid attempt was made to test any async functionality.
 * 2 - Nearly all unit tests for Redux and React are in place. No attempt to test async functionality was made.
 * 1 - A valid attempt to test this application was made, but there are obvious gaps, with missing unit tests for Redux and React.
+
+AFTER UPDATE: PASSING
+
 
 ### Redux Architecture
 
