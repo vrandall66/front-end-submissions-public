@@ -18,16 +18,20 @@
 * No PropTypes
 * Linter is showing no errors
 
-PROJECT IS FAILING
+<!-- PROJECT IS FAILING
 Extension due Thursday @ 9pm:
   - Get favorites rendering
-  - Write tests (ALL actions, ALL reducers, at least one container's component methods, ALL component snapshots, at least one container's  methods, at least one container's mSTP and mDTP, async tests), get them passing
+  - Write tests (ALL actions, ALL reducers, at least one container's component methods, ALL component snapshots, at least one container's  methods, at least one container's mSTP and mDTP, async tests), get them passing -->
+  
+Project has been updated with required refactors and is now passing
 
 ## Rubric
 
 ### Specification Adherence
 
 * 1 - The application is missing multiple features outlined above. Developer did minimal to no CSS for this project.
+
+AFTER UPDATE: PASSING
 
 ### Project Professionalism
 
@@ -37,11 +41,17 @@ Extension due Thursday @ 9pm:
 
 * 1 - A valid attempt to test this application was made, but there are obvious gaps, with missing unit tests for Redux and React.
 
+AFTER UPDATE: PASSING
+
+
 ### Redux Architecture
 
 App does not demonstrate mastery of Redux - only storing some info, not utilizing information stored
 
 * 2 - At least one component is not connected with Redux appropriately. Application state is mutated by more than just Redux. The Redux store is missing application data that it should be handling.
+
+AFTER UPDATE: PASSING
+
 
 ### Routing
 
