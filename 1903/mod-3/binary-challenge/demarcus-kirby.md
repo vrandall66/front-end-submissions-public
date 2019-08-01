@@ -14,10 +14,12 @@
 * MISSING mapStateToProps and mapDispatchToProps tests!
 * MISSING component method tests
 
-PROJECT FAILING!
+<!-- PROJECT FAILING!
 Extension due Thursday @ 9pm:
   - Complete and pass testing (see notes above)
-  - Implement PropTypes  
+  - Implement PropTypes  -->
+  
+Project has been updated with required refactors - project is now passing!
 
 ## Rubric
 
@@ -27,11 +29,11 @@ Extension due Thursday @ 9pm:
 
 ### Project Professionalism
 
-* 2 - Project is missing PropTypes, README updates, wireframes, or has more than 5 linter errors. Project team makes large infrequent git commits. Project shows a basic understanding of React.
+* Pass
 
 ### Testing
 
-* 2 - Nearly all unit tests for Redux and React are in place. No attempt to test async functionality was made.
+* Pass
 
 ### Redux Architecture
 
