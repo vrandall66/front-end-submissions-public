@@ -1,6 +1,27 @@
-### Evaluator:
-### Students:
+### Evaluator: Robbie
+### Students: Emily and Chris
 ### Comments:
+
+* The intro game is so cool! I was looking for the scrolling text, but this was a fun surprise.
+* Quite a bit of unused space on the index pages before you click on a particular card
+* How do I unfavorite something?...seems like this is not working yet given the commented-out test
+* I like the overall theme of the card glow, matched the Star Wars logo glow
+* Bump up the opacity of the cards a little bit so the background is not quite as distracting
+
+* Good job extracting your fetch calls from the App component - it would be great to move those "cleaner" methods to a helper file too so they don't clutter up the App component file
+* Instead of using the `header` element, use the `nav` element to contain navigation elements: https://github.com/CLLane/swapi-box/blob/master/src/App/App.js#L161
+* Consider how to make these base routes iterable, could you iterate through a list of routes and render the routes according to the list instead of hard-coding each base route? https://github.com/CLLane/swapi-box/blob/master/src/App/App.js#L212
+* Good job getting the dynamic routing going for each type
+* Consider how to refactor this so you don't have to list everything going into the Card component? https://github.com/CLLane/swapi-box/blob/master/src/Container/Container.js#L12-L26 Could you reduce the props or spread the props?
+* Since these are all `h4` elements, could you iterate through the list of data to dynamically create these elements instead of hardcoding each of them? https://github.com/CLLane/swapi-box/blob/master/src/Card/Card.js#L14-L22
+* Why pass the whole card info into `addToFavorites` in App?
+
+* Great job getting async testing into your project
+* A few linting warnings remaining
+* One failing snapshot test at time of review
+* For this test, it would be good make sure this still works when there are multiple people in the `people` array in state: https://github.com/CLLane/swapi-box/blob/master/src/App/App.test.js#L89 Do you know it is finding the correct person or is it just finding the correct thing because it is the only one? 
+* Be sure to test that `toggleFav` has been called witht he correct arguments that you expect: https://github.com/CLLane/swapi-box/blob/master/src/Card/Card.test.js#L67
+
 
 ## SwapiBox Rubric
 
