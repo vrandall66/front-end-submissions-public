@@ -1,5 +1,5 @@
 ### Evaluator: Travis Rollins
-### Students: Greg & Alyssa
+### Students: Greg Anderson & Alyssa Lundgren
 ### Comments:
 * Could have more clarity for what is interactive with the favorite button
 * Would be nice to have some kind of labels for each data point on a card (1 of what?)
@@ -9,16 +9,17 @@
   - Dark theme is awesome, but the contrast with yellow pops out a bit too much (Maybe check with an accessbility tracker?)
 * Nice work with the dynamic routing!  (good extension)
 * From a performance standard, don't fetch all of the data all at once
-  - Fetch when a user clicks on "planets", "vehicles", etc.
+  * Fetch when a user clicks on "planets", "vehicles", etc.
 * Careful on chaining `.then` for each fetch
   * If any one of those fetches fails, it will break the entire app
+* Good work adding catches for fetches but I'm not a fan of just `console.logs` for errors.
 * Might break out cleaning functions into a helper file
 * Duplicate data in state.  Favoriting the entire card inside another array
   * No need for favorites array in state.  Add a property in all of your people, vehicles, planets to keep track of favorite.  
-  * No need for `isFavorite` as well in state. (keep state a minimum)
+  * No need for `isFavorite` as well in state. (keep state as small as you can)
 * Routes & NavLinks could get refactored
   * Either using an array prototype method or making routes more dynamic
-  * Look into how you can create a `404` page if I go to something like `localhost:3000/yolo
+  * Look into how you can create a `404` page if I go to something like `localhost:3000/yolo`
 * `Card` acts more like a container as opposed to a Card
 * Instead of destructuring every single possible prop in your `Card`, use something like object.keys to get all of the keys from your props.
 * Good work with snapshot tests and route notes
@@ -57,4 +58,5 @@
 
 ### Testing
 
-* 2 - Nearly all unit tests are in place. Components are well tested with a diverse set of tests including but not limited to snapshot tests, event simulation tests, and tests on class methods (including `componentDidMount`).  No attempt to test async functionality was made.
+* 3 - A valid attempt to test asynchronous functionality has been made.  Asynchronous tests cover happy paths as well as multiple sad paths.
+
