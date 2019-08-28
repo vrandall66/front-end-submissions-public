@@ -5,7 +5,7 @@
 ## Rubric
 
 ### Functional Expectations
-* [ x ] 4: Application fulfills all expectations of iterations 1 - 5 with no bugs or missing functionality *as well as* [ ] an extension.
+* [x] 4: Application fulfills all expectations of iterations 1 - 5 with no bugs or missing functionality *as well as* [ ] an extension.
 * [ ] 3: Application fulfills expectations of iterations 1 - 5 with no bugs or missing functionality.
 * [ ] 2: Application is usable but has some missing functionality.
 * [ ] 1: Application crashes during normal usage.
@@ -14,13 +14,30 @@
 
 ### Fundamental JavaScript & Style
 * [ ] 4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring.
-* [ ] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring. 
+* [x] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring. 
 * [ ] 2: Class methods use a mix of array and object prototypes and `for` loops. Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring.
 * [ ] 1: Application generates syntax error or crashes during execution.
 
 * You have a lot of methods that start with the word `return` -- usually you would use the word `get` instead. Like `getAverageStepCount()`. Get is better than return in these cases because there might be instances where you are returning the result of that method and you'd be writing code like `return returnAverageStepCount()` which is a little hard to read.
 
+* Overall the code is readable and mostly linted. There are a couple of inconsistencies - arbitrarily using `var` or `let`, missing some semi-colons in places, etc. Little nit picky things that can be cleaned up. 
 
+* Some redundancies in places like [this](https://github.com/posi7790/fitlit/blob/master/src/Activity.js#L41) - in every method you are re-finding that specific user. You could call this directly in the constructor and set it as an instance property right away so that you don't have to keep finding that user over and over again. e.g.:
+
+```js
+constructor(activityData, user) {
+  this.activityData = activityData;
+  this.user = this.findUser(user.id);
+}
+```
+
+and then in the rest of your methods you can just work with `this.user` instead of having to call that function and get your specific user each time.
+
+* Try out that `Object.assign()` syntax I mentioned in class the other week for assigning your instance properties. Just for practice! Everything else looks so solid you can push yourself a little here. You'll see `Object.assign()` when you get to Redux in Mod 3, so you can practice it now and get ahead of things a bit :) 
+
+* I'm not sure I've ever seen anyone use the `Number` class like [this](https://github.com/posi7790/fitlit/blob/master/src/ActivityRepo.js#L10) before. I think it might be bad practice :grimace emoji:  Did you read up on this somewhere or was it recommended some place or is it doing something especially helpful for you?? I'd be interested to know!
+
+* Very nice use of all your prototype methods! Some lines get a little long like [here](https://github.com/posi7790/fitlit/blob/master/src/SleepRepo.js#L53), when this happens, break away from all the chaining and just start assigning the result of each method to a variable instead.
 
 ### Test-Driven Development
 * [ x ] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
@@ -54,13 +71,13 @@ describe('returnAverage', () => {
 That will help format your test output a little cleaner and help group all of these related tests together 
 
 ### Encapsulation / Breaking Logic into Components
-* [ ] 4: Application is expertly divided into logical components each with a clear, single responsibility.
+* [x] 4: Application is expertly divided into logical components each with a clear, single responsibility.
 * [ ] 3: Application effectively breaks logical components apart but breaks the principle of SRP.
 * [ ] 2: Application shows some effort to break logic into components, but the divisions are inconsistent or unclear.
 * [ ] 1: Application logic shows poor decomposition with too much logic mashed together.
 
 ### User Interface
-* [ x ] 4: The application is pleasant, logical, and easy to understand. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
+* [x] 4: The application is pleasant, logical, and easy to understand. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
 * [ ] 3: The application has many strong displays/interactions, but a few holes in lesser-used displays.
 * [ ] 2: The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the users' needs.
 * [ ] 1: The application is confusing or difficult to use.
