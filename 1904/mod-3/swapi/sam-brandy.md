@@ -22,6 +22,7 @@
 * Overall, good state update test for updating the favorites. What about testing `toggleFavorite`?
 * What if there is no data passed in? https://github.com/SamanthaLFreeman/GalaxyFarFarAway/blob/master/src/components/CardContainer/CardContainer.test.js
 
+
 ## SwapiBox Rubric
 
 ### Specification Adherence
