@@ -76,6 +76,9 @@ That will help format your test output a little cleaner and help group all of th
 * [ ] 2: Application shows some effort to break logic into components, but the divisions are inconsistent or unclear.
 * [ ] 1: Application logic shows poor decomposition with too much logic mashed together.
 
+* Very good class structure with appropriate instance properties and methods in each. Take some time to reflect on what areas of your code seem a bit redundant. Were there very similar methods across your classes that you would have liked them to share? This will be a helpful thought exercise for when we get into inheritance and extending classes.
+
+
 ### User Interface
 * [x] 4: The application is pleasant, logical, and easy to understand. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
 * [ ] 3: The application has many strong displays/interactions, but a few holes in lesser-used displays.
