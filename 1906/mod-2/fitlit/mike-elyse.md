@@ -47,6 +47,7 @@ if (avgDrank < 64) {
 return didDrinkEnough;
 ```
 
+* [There is a bit too much logic in this if statement](https://github.com/ec-myers/fitlit/blob/master/src/Sleep-Repository.js#L105-L107) - break that out into a variable to use inside your `if ()` -- and I'm a little confused on what you're returning. It looks like you're assigning an instance property to a new value but returning that whole line? Curious if this is causing any bugs or issues.... And what happens if that if block doesn't evaluate to true, and that code doesn't run? It looks like your function would just return undefined? Is that the behavior you want?
 
 ### Test-Driven Development
 * [x] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
