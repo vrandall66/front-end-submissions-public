@@ -33,6 +33,21 @@ constructor(userData) {
 }
 ```
 
+* It feels a little hard for me to decipher what's being returned [here](https://github.com/ec-myers/fitlit/blob/master/src/Hydration-Repository.js#L31-L34) because there are so many return statements. It's usually better practice to create a single variable for yourself that has a solid name for what you're returning -- and then reassign that value as necessary so that at the end of your function, you're returning a single variable no matter what. e.g. in this method I would do something like :
+
+```js
+let didDrinkEnough = true;
+
+// a bunch of your reduce logic
+
+if (avgDrank < 64) {
+  didDrinkEnough = false;
+}
+
+return didDrinkEnough;
+```
+
+
 ### Test-Driven Development
 * [x] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
 * [ ] 3: All classes and methods are tested. Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality. Tests use smaller, sample data files as input rather than the large, original data files.
