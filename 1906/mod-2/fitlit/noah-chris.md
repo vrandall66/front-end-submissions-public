@@ -5,12 +5,12 @@
 ## Rubric
 
 ### Functional Expectations
-* [x] 4: Application fulfills all expectations of iterations 1 - 5 with no bugs or missing functionality *as well as* [ ] an extension.
-* [ ] 3: Application fulfills expectations of iterations 1 - 5 with no bugs or missing functionality.
+* [ ] 4: Application fulfills all expectations of iterations 1 - 5 with no bugs or missing functionality *as well as* [ ] an extension.
+* [x] 3: Application fulfills expectations of iterations 1 - 5 with no bugs or missing functionality.
 * [ ] 2: Application is usable but has some missing functionality.
 * [ ] 1: Application crashes during normal usage.
 
-* Functionality in place/attempted for all 5 iterations, despite maybe missing some tests for iteration 5? Not seeing any extensions but I cannot see your UI yet so maybe I am mistaken! Either way you have a 4 for completing the base functionality.
+* Functionality in place/attempted for all 5 iterations, despite maybe missing some tests for iteration 5? 
 
 ### Fundamental JavaScript & Style
 * [ ] 4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring.
