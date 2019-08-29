@@ -10,6 +10,8 @@
 * [ ] 2: Application is usable but has some missing functionality.
 * [ ] 1: Application crashes during normal usage.
 
+* Good job getting through iterations and de-prioritizing the optional stuff. (I like that you just built a really nice text-based UI instead of getting overzealous with fancy charts and shit)
+
 
 ### Fundamental JavaScript & Style
 * [ ] 4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring.
@@ -31,11 +33,12 @@
 
 
 ### Encapsulation / Breaking Logic into Components
-* [ ] 4: Application is expertly divided into logical components each with a clear, single responsibility.
+* [x] 4: Application is expertly divided into logical components each with a clear, single responsibility.
 * [ ] 3: Application effectively breaks logical components apart but breaks the principle of SRP.
 * [ ] 2: Application shows some effort to break logic into components, but the divisions are inconsistent or unclear.
 * [ ] 1: Application logic shows poor decomposition with too much logic mashed together.
 
+* Good class structure and organization, we strayed a bit from the spec but that is totally ok/expected. I think the only area where the code gets a little hairy is activity & sleep -- these are doing quite a bit of logic and may have benefited from that repo class.
 
 ### User Interface
 * [x] 4: The application is pleasant, logical, and easy to understand. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
