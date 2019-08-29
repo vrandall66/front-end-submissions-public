@@ -22,16 +22,6 @@
 
 * Overall the code is readable and mostly linted. There are a couple of inconsistencies - arbitrarily using `var` or `let`, missing some semi-colons in places, etc. Little nit picky things that can be cleaned up. 
 
-* Some redundancies in places like [this](https://github.com/posi7790/fitlit/blob/master/src/Activity.js#L41) - in every method you are re-finding that specific user. You could call this directly in the constructor and set it as an instance property right away so that you don't have to keep finding that user over and over again. e.g.:
-
-```js
-constructor(activityData, user) {
-  this.activityData = activityData;
-  this.user = this.findUser(user.id);
-}
-```
-
-and then in the rest of your methods you can just work with `this.user` instead of having to call that function and get your specific user each time.
 
 * Try out that `Object.assign()` syntax I mentioned in class the other week for assigning your instance properties. Just for practice! Everything else looks so solid you can push yourself a little here. You'll see `Object.assign()` when you get to Redux in Mod 3, so you can practice it now and get ahead of things a bit :) 
 
