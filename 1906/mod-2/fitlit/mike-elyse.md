@@ -15,9 +15,13 @@
 
 ### Fundamental JavaScript & Style
 * [ ] 4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring.
-* [ ] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring. 
+* [x] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring. 
 * [ ] 2: Class methods use a mix of array and object prototypes and `for` loops. Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring.
 * [ ] 1: Application generates syntax error or crashes during execution.
+
+* Some inconsistencies in stylistic things like mixing some ES5 and ES6 arbitrarily (let vs var, function() vs. arrow) - just be sure to go back and clean this up later, but otherwise the code is overall clean and easy to read
+
+* Try not to use the word `return` in your method names -- use `get` instead. You won't see functions with the word `return` in their name because it could get confusing if you ran into a scenario where you had to write something like `return returnAverageMinutes()` 
 
 
 ### Test-Driven Development
@@ -26,9 +30,13 @@
 * [ ] 2: Application makes some use of tests, but the coverage is insufficient given project requirements.
 * [ ] 1: Application does not demonstrate strong use of TDD.
 
+* Move that test-data directory into your test directory to keep your root organized. 
+
+* Looks like we're missing the declaration for `user2` before our [beforeEach](https://github.com/ec-myers/fitlit/blob/master/test/activity-repository-test.js#L10-L16)?
+
 
 ### Encapsulation / Breaking Logic into Components
-* [ ] 4: Application is expertly divided into logical components each with a clear, single responsibility.
+* [x] 4: Application is expertly divided into logical components each with a clear, single responsibility.
 * [ ] 3: Application effectively breaks logical components apart but breaks the principle of SRP.
 * [ ] 2: Application shows some effort to break logic into components, but the divisions are inconsistent or unclear.
 * [ ] 1: Application logic shows poor decomposition with too much logic mashed together.
