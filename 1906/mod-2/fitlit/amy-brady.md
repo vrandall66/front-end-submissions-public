@@ -25,7 +25,7 @@
 * [ ] 1: Application does not demonstrate strong use of TDD.
 
 ### Encapsulation / Breaking Logic into Components
-* [ ] 4: Application is expertly divided into logical components each with a clear, single responsibility.
+* [x] 4: Application is expertly divided into logical components each with a clear, single responsibility.
 * [ ] 3: Application effectively breaks logical components apart but breaks the principle of SRP.
 * [ ] 2: Application shows some effort to break logic into components, but the divisions are inconsistent or unclear.
 * [ ] 1: Application logic shows poor decomposition with too much logic mashed together.
@@ -33,12 +33,14 @@
 ### User Interface
 * [ ] 4: The application is pleasant, logical, and easy to understand. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
 * [ ] 3: The application has many strong displays/interactions, but a few holes in lesser-used displays.
-* [ ] 2: The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the users' needs.
+* [x] 2: The application shows strong effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the users' needs.
 * [ ] 1: The application is confusing or difficult to use.
+
+* I like the attempt at keeping the context super simple to start and not showing everything on the page all at once, but it's *really* difficult to tell that something has been added to the page when I click on an icon. e.g. after I click on the profile and I see the user's data, if I click on the hydration icon after that it's really difficult for me to know that something appeared below my profile. I would rework this so that as you click on those icons, only one section of content is displayed at a time rather than each piece staying displayed until you click its icon again. The way it's working now I would also expect some sort of active state or styling to be on the icons to denote that section is currently displayed or not. It's unclear that I can toggle those content areas on and off (e.g. i wasn't sure what would happen if I clicked the profile icon for a 2nd time)
 
 ### Workflow
 * [ ] 4: The team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc.) and utilizes a planning tool more than GitHub issues (GitHub Projects, Trello, etc).
-* [ ] 3: The team makes a series of small, atomic commits that document the evolution of their application. The team conducts a DTR (define the relationship) and utilizes GitHub issues and best pairing practices. Both members contribute meaningfully to the application.
+* [x] 3: The team makes a series of small, atomic commits that document the evolution of their application. The team conducts a DTR (define the relationship) and utilizes GitHub issues and best pairing practices. Both members contribute meaningfully to the application.
 * [ ] 2: The team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
 * [ ] 1: The team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
 
