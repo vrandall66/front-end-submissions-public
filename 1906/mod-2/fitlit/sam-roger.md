@@ -1,22 +1,26 @@
-# FitLit 
-* Students: Amy & Brady
+# FitLit
+* Students: Sam & Roger
 * Evaluator: Brittany
 
 ## Rubric
 
 ### Functional Expectations
-* [x] 4: Application fulfills all expectations of iterations 1 - 5 with no bugs or missing functionality *as well as* [ ] an extension.
+* [ ] 4: Application fulfills all expectations of iterations 1 - 5 with no bugs or missing functionality *as well as* [ ] an extension.
 * [ ] 3: Application fulfills expectations of iterations 1 - 5 with no bugs or missing functionality.
-* [ ] 2: Application is usable but has some missing functionality.
+* [x] 2: Application is usable but has some missing functionality.
 * [ ] 1: Application crashes during normal usage.
 
-* Deployed to GH pages - I dont think this is listed as an actual extension but I'm making it one! Good job
+* Slightly not through iteration 5
+
 
 ### Fundamental JavaScript & Style
 * [ ] 4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring.
 * [ ] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring. 
-* [ ] 2: Class methods use a mix of array and object prototypes and `for` loops. Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring.
+* [x] 2: Class methods use a mix of array and object prototypes and `for` loops. Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring.
 * [ ] 1: Application generates syntax error or crashes during execution.
+
+* Naming conventions could use a little help, and some major opportunities for refactoring. Make jQuery and prototype methods a main focus for you in your group projects!
+
 
 ### Test-Driven Development
 * [ ] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
@@ -41,7 +45,3 @@
 * [ ] 3: The team makes a series of small, atomic commits that document the evolution of their application. The team conducts a DTR (define the relationship) and utilizes GitHub issues and best pairing practices. Both members contribute meaningfully to the application.
 * [ ] 2: The team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
 * [ ] 1: The team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
-
-* Nice consistent git commit messages, but lots of duplicates and merge/conflict fix commits that clutter up the history. Look into `git squash` for squashing duplicate commits into one (e.g. if you have 3 'Update Readme' commits, we can just merge those all into one). Also, if you're looking to push yourself further, you can do some research on the rebasing workflow. So far you've been doing the merge workflow, but on the job you'll likely be expected to rebase instead. This will help you avoid adding a bunch of merge commits into your history (we want to avoid those because they dont give us a ton of insight into the changes that were made there and clutter up our history). You can try the rebasing workflow with your group project if you feel comfortable after doing some research on it.
-
-* Looks like an even distribution of work although maybe Brady committed some large external files/libraries/dependencies? 94K lines of code added is quite a lot :) But commits seem even!
