@@ -88,6 +88,9 @@ class HydrationRepo extends Repo {
 
   // no need for the getAveragePerWeek method in this class or any of your others any more
 }
+
+let hydroRepo = new HydrationRepo();
+hydroRepo.getAveragePerWeek(3, {somedata}); // this would still work because your HydrationRepo would be inheriting this method from the `Repo` class
 ```
 
 
