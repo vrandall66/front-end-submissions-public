@@ -31,7 +31,7 @@
 * Very nice use of a ternary [here](https://github.com/chrisdbasham317/FitLit-Activity-Tracker/blob/master/src/Activity.js#L53), don't let your ternaries get any more complex than this!
 
 * Try to have all of these [elements](https://github.com/chrisdbasham317/FitLit-Activity-Tracker/blob/master/src/scripts.js#L22-L87) already laid out in your HTML so that you can just access them by their classes and IDs, and update the text/html inside of them rather than having jQuery do all of this appending/inserting. e.g. instead of inserting an entire new paragraph tag for `<p class="p p--comunity-stairs">` - put that in your index.html to start, and just leave its inner text empty for now, until jQuery can go find it and put the necessary data in it. That will clean up your jQuery/dom manipulation code quite a bit.
-  
+
 
 ### Test-Driven Development
 * [x] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
@@ -93,9 +93,18 @@ class HydrationRepo extends Repo {
 
 ### User Interface
 * [ ] 4: The application is pleasant, logical, and easy to understand. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
-* [ ] 3: The application has many strong displays/interactions, but a few holes in lesser-used displays.
+* [x] 3: The application has many strong displays/interactions, but a few holes in lesser-used displays.
 * [ ] 2: The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the users' needs.
 * [ ] 1: The application is confusing or difficult to use.
+
+* Heading title I think could be spread out a bit more, on a wide screen it looks weird that it's on 3 separate lines -- it ends up taking up a lot of vertical space 
+
+* Font choices are making it a little difficult to decipher the heirarchy of content in places like [this](https://imgur.com/vgBOpDt) -- I feel like the headings here (Todays Stairs and Weekly Stair Average) dont stand out quite enough against the body copy. I would make your body font size a bit smaller, or fix up some line spacing here so that it more clearly denotes that "4 flights of stairs climbed today!" is related to "Todays Stairs". Right now i feel like all the text in this box is kind of competing for my attention. Something like [this](https://imgur.com/RUy7iqw) might read a little easier. (This goes for all your boxes of content -- lets denote that heirarchy of content a little better)
+
+* It's a little weird for some boxes to be superrrr long vertically when they dont have that much content in them. I think the content you're displaying is pretty predictable and consistent, so you can be confident that certain boxes will only need x amount of vertical space, and you can combine them a bit better. e.g. I would combine the 'Time Active' and the 'Stair Count' boxes into one, and stack them on top of each other so that it fills up a bit more vertial space in a single box and aligns well with the 'Miles Walked'/'Step Goal' boxes. 
+
+* Overall things just feel a bit HUGE. I have to do a lot of scrolling to see all the content. I think you can bump down the size of everything a tad, even with my very bad old tired eyes, I would still be able to read the content if it were a bit smaller.
+
 
 ### Workflow
 * [x] 4: The team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc.) and utilizes a planning tool more than GitHub issues (GitHub Projects, Trello, etc).
