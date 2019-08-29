@@ -15,14 +15,25 @@
 
 ### Fundamental JavaScript & Style
 * [ ] 4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring.
-* [ ] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring. 
+* [x] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring. 
 * [ ] 2: Class methods use a mix of array and object prototypes and `for` loops. Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring.
 * [ ] 1: Application generates syntax error or crashes during execution.
+
+* [These methods](https://github.com/Asilo5/fitlit-starter-kit/blob/master/src/Sleep.js#L10-L26) are very similar -- how could you combine them and make it more dynamic? My initial thought would be that you can rename the method to something like `getSleepAverage` and pass in another argument thats either `hoursSlept` or `sleepQuality` -- then use bracket notation to access whichever sleep property was passed in.  Same [here](https://github.com/Asilo5/fitlit-starter-kit/blob/master/src/Sleep.js#L28-L34)
+
+* [This](https://github.com/Asilo5/fitlit-starter-kit/blob/master/src/Sleep.js#L72) is a little fancy and scary, where did it come from??
+
+* Overall nice ES6 syntax and good use of your prototype methods, chained together nicely when necessary.
+
+* [You did it!!!](https://github.com/Asilo5/fitlit-starter-kit/blob/master/src/User.js#L3)
+
+* You accomplished a LOT of functionality with very minimal code, this is nice and easy to read through
+
 
 ### Test-Driven Development
 * [ ] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
 * [ ] 3: All classes and methods are tested. Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality. Tests use smaller, sample data files as input rather than the large, original data files.
-* [ ] 2: Application makes some use of tests, but the coverage is insufficient given project requirements.
+* [x] 2: Application makes some use of tests, but the coverage is insufficient given project requirements.
 * [ ] 1: Application does not demonstrate strong use of TDD.
 
 * I'd put your mock data [in a directory called mocks under your test directory](https://github.com/Asilo5/fitlit-starter-kit/blob/master/test/Activity-test.js#L4-L5) rather than in your actual data directory. This makes it clearer that certain data is for testing purposes only, not being used as actual application data.
@@ -30,6 +41,9 @@
 
 * `avgNumOfKey` is probably not the best name for a [method here](https://github.com/Asilo5/fitlit-starter-kit/blob/master/test/Activity-test.js#L43-L46) -- but that's besides the point. Break these expectations out into separate it blocks. I would say any time you are giving different input to a method, and expecting different output based on that input, that warrants its own it block.
 
+* Good use of your beforeEach blocks to reduce redundant code
+
+* Missing some method tests for some of the bigger classes like Activity -- e.g. no method test for `numberOfSteps` -- no need to go back and finish this, as I can tell you have a grasp on testing based on what's there, but because we're missing some method tests I gotta give you a 2 here!! 
 
 
 ### Encapsulation / Breaking Logic into Components
