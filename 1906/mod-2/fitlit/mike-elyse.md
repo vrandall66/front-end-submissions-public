@@ -23,16 +23,27 @@
 
 * Try not to use the word `return` in your method names -- use `get` instead. You won't see functions with the word `return` in their name because it could get confusing if you ran into a scenario where you had to write something like `return returnAverageMinutes()` 
 
+* [These](https://github.com/ec-myers/fitlit/blob/master/src/Activity-Repository.js#L33-L48) are all veryyyy similar methods. How can we combine them into one and make it more dynamic??? Same [here](https://github.com/ec-myers/fitlit/blob/master/src/Activity-Repository.js#L59-L72)
+
+* Try using that `Object.assign()` trick I mentioned in class [here](https://github.com/ec-myers/fitlit/blob/master/src/User.js#L2-L10) -- e.g.:
+
+```js
+constructor(userData) {
+  Object.assign(this, userData);
+}
+```
 
 ### Test-Driven Development
-* [ ] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
+* [x] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
 * [ ] 3: All classes and methods are tested. Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality. Tests use smaller, sample data files as input rather than the large, original data files.
 * [ ] 2: Application makes some use of tests, but the coverage is insufficient given project requirements.
 * [ ] 1: Application does not demonstrate strong use of TDD.
 
 * Move that test-data directory into your test directory to keep your root organized. 
 
-* Looks like we're missing the declaration for `user2` before our [beforeEach](https://github.com/ec-myers/fitlit/blob/master/test/activity-repository-test.js#L10-L16)?
+* Looks like we're missing the declaration for `user2` before our [beforeEach](https://github.com/ec-myers/fitlit/blob/master/test/activity-repository-test.js#L10-L16)? Did this cause any issues?
+
+* VERY good coverage for all of your methods, I can't find any methods that are untested. Nice use of your beforeEach blocks to dry up that setup code. Good work!
 
 
 ### Encapsulation / Breaking Logic into Components
@@ -41,6 +52,7 @@
 * [ ] 2: Application shows some effort to break logic into components, but the divisions are inconsistent or unclear.
 * [ ] 1: Application logic shows poor decomposition with too much logic mashed together.
 
+* The sleep and activity classes look just a littleeeee overloaded to me, but I think if you took some of the refactoring advice above and made your methods more dynamic, you could cut down on a lot of that code. Then I'd feel perfectly fine with your division of responsibilities among your classes!
 
 ### User Interface
 * [ ] 4: The application is pleasant, logical, and easy to understand. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
