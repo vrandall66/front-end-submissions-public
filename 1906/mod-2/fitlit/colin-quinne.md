@@ -1,32 +1,30 @@
 # FitLit
-* Students: Scott Schipke and Matt Malone
+* Students: Colin & Quinne
 * Evaluator: Khalid
 
 ## Rubric
 
 ### Functional Expectations
 * [ ] 4: Application fulfills all expectations of iterations 1 - 5 with no bugs or missing functionality *as well as* [ ] an extension.
-* [x] 3: Application fulfills expectations of iterations 1 - 5 with no bugs or missing functionality.
-* [ ] 2: Application is usable but has some missing functionality.
+* [ ] 3: Application fulfills expectations of iterations 1 - 5 with no bugs or missing functionality.
+* [x] 2: Application is usable but has some missing functionality.
 * [ ] 1: Application crashes during normal usage.
 
-- Great job with your functionality, no extensions but no problems
+- Still in a very good place
 
 ### Fundamental JavaScript & Style
-* [ ] 4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring.
-* [x] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring.
+* [x] 4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring.
+* [ ] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring.
 * [ ] 2: Class methods use a mix of array and object prototypes and `for` loops. Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring.
 * [ ] 1: Application generates syntax error or crashes during execution.
 
-- No stress on the `for... in` loop. Try using prototypes with `Object.keys()`, for the sake of practice, but using for in is fine as well. Just stay away from the regular `for` loops
-
 ### Test-Driven Development
-* [ ] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
-* [x] 3: All classes and methods are tested. Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality. Tests use smaller, sample data files as input rather than the large, original data files.
+* [x] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
+* [ ] 3: All classes and methods are tested. Application is well tested but does not balance isolation and integration tests, using only the data necessary to test the functionality. Tests use smaller, sample data files as input rather than the large, original data files.
 * [ ] 2: Application makes some use of tests, but the coverage is insufficient given project requirements.
 * [ ] 1: Application does not demonstrate strong use of TDD.
 
-- You have a few methods without coverage, like we talked about in the SleepRepository class. Get these holes patched up and you'll be in good shape
+- Some tests could be a little cleaner with regards to all the data, but using webpack can
 
 ### Encapsulation / Breaking Logic into Components
 * [x] 4: Application is expertly divided into logical components each with a clear, single responsibility.
@@ -39,8 +37,7 @@
 * [ ] 3: The application has many strong displays/interactions, but a few holes in lesser-used displays.
 * [ ] 2: The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the users' needs.
 * [ ] 1: The application is confusing or difficult to use.
-
-- Adjust your text-based UI to look more balanced on the desktop view, keep thing looking symmetrical
+- Small changes could be made to make the UI look a little more cohesive, but on the whole things were looking good
 
 ### Workflow
 * [ ] 4: The team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc.) and utilizes a planning tool more than GitHub issues (GitHub Projects, Trello, etc).
@@ -48,6 +45,4 @@
 * [ ] 2: The team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
 * [ ] 1: The team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
 
-- Commit number and frequency looks good
-- Make sure to keep your commit messages active and to capitalize the first letter -- remember you can always `git commit --amend` if you need to fix your most recent one (that hasn't been pushed)
-- Look into adfding you `.DS_Store` and `.vscode` files to your  `.gitignore` to avoid commit them next time!
+- Rename your forked repos!! Other than that the workflow looks solid

@@ -1,6 +1,6 @@
 # FitLit
-* Students: Scott Schipke and Matt Malone
-* Evaluator: Khalid
+* Students:
+* Evaluator:
 
 ## Rubric
 
@@ -10,15 +10,15 @@
 * [ ] 2: Application is usable but has some missing functionality.
 * [ ] 1: Application crashes during normal usage.
 
-- Great job with your functionality, no extensions but no problems
-
 ### Fundamental JavaScript & Style
 * [ ] 4: Application demonstrates excellent knowledge of JavaScript syntax, style, and refactoring.
-* [x] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring.
-* [ ] 2: Class methods use a mix of array and object prototypes and `for` loops. Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring.
+* [ ] 3: Class methods use array and object prototypes - `for` loops are not used in the application. Application shows strong effort towards organization, content, and refactoring.
+* [x] 2: Class methods use a mix of array and object prototypes and `for` loops. Application runs but the code has long methods, unnecessary or poorly named variables, and needs significant refactoring.
 * [ ] 1: Application generates syntax error or crashes during execution.
 
-- No stress on the `for... in` loop. Try using prototypes with `Object.keys()`, for the sake of practice, but using for in is fine as well. Just stay away from the regular `for` loops
+- The longer methods are all that's holding you back here, you've got some good areas for refactoring
+- Think about using `Object.assign()` for doing the property assignment in your `User` class (not being counted against you, just something to clean things up in the future)
+- Your averaging methods and `find[Property]ByDate` methods in `Sleep` could be DRYed up and combined (think about bracket notation...)
 
 ### Test-Driven Development
 * [ ] 4: Application is broken into components which are well tested in both isolation and integration using appropriate data. Test feature many sad paths for methods as well.
@@ -26,21 +26,23 @@
 * [ ] 2: Application makes some use of tests, but the coverage is insufficient given project requirements.
 * [ ] 1: Application does not demonstrate strong use of TDD.
 
-- You have a few methods without coverage, like we talked about in the SleepRepository class. Get these holes patched up and you'll be in good shape
+- I don't think it's necessary to have a new describe block for every method you test; I'd save this kind of pattern for when you're testing multiple paths of a given method, not just one
 
 ### Encapsulation / Breaking Logic into Components
-* [x] 4: Application is expertly divided into logical components each with a clear, single responsibility.
-* [ ] 3: Application effectively breaks logical components apart but breaks the principle of SRP.
+* [ ] 4: Application is expertly divided into logical components each with a clear, single responsibility.
+* [x] 3: Application effectively breaks logical components apart but breaks the principle of SRP.
 * [ ] 2: Application shows some effort to break logic into components, but the divisions are inconsistent or unclear.
 * [ ] 1: Application logic shows poor decomposition with too much logic mashed together.
 
+- Break down some of the longer methods into discreet tasks (ex finding all friends, then sorting friends by high to low steps in `Activity`)
+
 ### User Interface
-* [x] 4: The application is pleasant, logical, and easy to understand. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
-* [ ] 3: The application has many strong displays/interactions, but a few holes in lesser-used displays.
+* [ ] 4: The application is pleasant, logical, and easy to understand. There are no holes in functionality and the application stands on its own to be used by the instructor _without_ guidance from the developer.
+* [x] 3: The application has many strong displays/interactions, but a few holes in lesser-used displays.
 * [ ] 2: The application shows effort in the interface, but the result is not effective. The evaluator has some difficulty using the application when reviewing the features in the users' needs.
 * [ ] 1: The application is confusing or difficult to use.
 
-- Adjust your text-based UI to look more balanced on the desktop view, keep thing looking symmetrical
+- It's very clear what to do in the app, but we talked about a few places where you could improve the UI (scrollable main, adjusting margins, etc)
 
 ### Workflow
 * [ ] 4: The team effectively uses Git branches and many small, atomic commits that document the evolution of their application with descriptive commit messages. The team displays good pairing practices (driver-navigator, dividing up work, etc.) and utilizes a planning tool more than GitHub issues (GitHub Projects, Trello, etc).
@@ -48,6 +50,4 @@
 * [ ] 2: The team makes large commits covering multiple features that make it difficult for the evaluator to determine the evolution of the application. The team does not utilize a planning tool or equitable pairing practices. One or both members do not contribute meaningfully to the application.
 * [ ] 1: The team committed the code to version control in only a few commits. The evaluator cannot determine the evolution of the application.
 
-- Commit number and frequency looks good
-- Make sure to keep your commit messages active and to capitalize the first letter -- remember you can always `git commit --amend` if you need to fix your most recent one (that hasn't been pushed)
-- Look into adfding you `.DS_Store` and `.vscode` files to your  `.gitignore` to avoid commit them next time!
+- Rename your forked repos! Don't have the next one be called `webpack-starter-kit`
