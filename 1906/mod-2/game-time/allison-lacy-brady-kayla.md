@@ -7,8 +7,9 @@
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
 * [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
 * [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
-* [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
+* [x] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
+* Change the title on your deployed HTML from 'Gametime starter kit' to a real title
 
 ### UI/UX
 
@@ -33,17 +34,23 @@
 
 * [ ] Novice - Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code are not separated.
 * [ ] Advanced Beginner - Application has a significant amount of duplication. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. 
-* [ ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
+* [x] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
 * [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
 
+* You could likely combine [these methods](https://github.com/bradybridges/jeopardy/blob/master/src/Player.js#L8-L14) into a single method that takes in a number that's either positive or negative, then add that number to the current score. (If it's a negative number, adding it will actually do the subtraction as you'd expect.)
+
+* Your use-case for inheritance is ok, but you aren't fully leveraging the benefit of inheritance. Round3 should/will automatically inherit all the methods from Round -- you seem to have some duplicates and redundant code like `handleGuess` and `isGoodWager`. Wagering functionality should *only* exist on DailyDoubles, not be available on every round by default.
 
 ### Testing
 
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
+* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
 
+* Not sure if you ran into issues with this or not, but [spying on methods](https://github.com/bradybridges/jeopardy/blob/master/test/Game-test.js#L55) that eventually need to be tested could cause problems. e.g. you are spying on `generatePlayers` for this test, but then actually testing the functionality of that method later in the test file. Uusually you would want to clean up and remove any spies after each test --- something like `chai.spy.restore()` in an `afterEach` block
+
+* Missing a lot of tests for your class files (Round3?) and not making use of spies for DOM manipulation -- I'm not quite sure how your DOM would react appropriately along with changes to your classes without having some calls to domUpdates within your classes. Make this a point to practice in your solo projects, as it will be very heavy DOM manipulation there!
 
 ### GitHub Collaboration/Workflow
 
