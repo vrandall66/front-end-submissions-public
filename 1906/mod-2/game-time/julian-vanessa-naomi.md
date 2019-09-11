@@ -46,8 +46,14 @@
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is over 100 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [x] Proficient - Developers tag instructors in both required PRs by due dates. PR is over 100 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
+
+- Make sure to keep your commit messages active (start them with a verb, not a noun)
+- Also, ensure that they're detailed (provide the what, more than just "Update")
+- Opt for commits to be on the smaller side, think about what would be mist helpful if you had to backtrack and revert a commit
+- Noami, check your git config and make sure that the email associated with Git is the same as the one on your GH account (`git config user.email`) -- your commits are showing up as coming frmo two different people
+- Make sure if you're driving / navigating, you alternate whose computer is doing the driving. You want to get those good good contributions on your account (co-authoring doens't fully share the contributions across partners)
 
 ### Presentation
 
