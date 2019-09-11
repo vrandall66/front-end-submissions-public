@@ -58,9 +58,17 @@
 ### GitHub Collaboration/Workflow
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
-* [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
+* [x] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
 * [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is over 100 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
+
+- Make sure to keep your commit messages active, not passive ("Remove line", not "Removed line")
+
+- You have some pretty heavy commits in here. Make sure to opt on the side of keeping your commits small and organized -- rather than committing after fixing several bugs, commit after each bug gets fixed
+
+- Looking at the insights, it seems like Matt had nearly all of the contributions, in terms of line numbers. I know you were coauthoring a lot of commits -- this can make it hard to accurately determine how much everyone contributed. It looks like Foster has a low number relative to other group members, and I know Michael is having issues with his account. Make sure that if you're working as a driver-navigator, you regularly switch who is driving to keep the commits evenly distributed.
+
+- We were only tagged in one PR -- make sure you're checking the required number of PRs so we can give you enough code review
 
 ### Presentation
 
@@ -69,7 +77,7 @@
 * [x] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
 
-- they have slide s talking about their planning phase 
+- they have slides talking about their planning phase 
 - utilized GH issues 
 - Presentation could have been a little more polished, but they had a good demo and sldie structure 
 - Didn't get all the way through round three 
