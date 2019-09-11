@@ -19,7 +19,9 @@
 
 * VERY CREEPY!!!! I am legit scared looking at this, it's great. The CSS fade transition when starting a game is awesome for this theme. Normally I recommend making your CSS animations as fast and subtle as possible, but having this super slow fade really adds to the creepiness. 
 
-* UX only took a little bit of getting used to before I knew my way around. Good job at keeping relevant/possible interactions at the forefront, and otthers in the background. I think something that would help further would be to contain related elements together a bit. e.g. each of your player name/score elements are pretty far apart horizontally. If we could cluster those together a bit closer, and maybe give them a container element with a subtle background or border, that might help me mentally group the elements on the page a little better. 
+* UX only took a little bit of getting used to before I knew my way around. Good job at keeping relevant/possible interactions at the forefront, and otthers in the background. I think something that would help further would be to contain related elements together a bit. e.g. each of your player name/score elements are pretty far apart horizontally. If we could cluster those together a bit closer, and maybe give them a container element with a subtle background or border, that might help me mentally group the elements on the page a little better.
+
+* The transparancies on the `Solve Puzzle` button made it a little unclear that it was interactible 
 
 
 ### CSS/Sass Style
@@ -58,4 +60,10 @@
 * [ ] Novice - Not all presenters speak. Presenters give too much or too little information about the application. Presenters do not use audio/visual aids or media.
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 * [ ] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
-* [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
+* [x] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
+
+- Nice explanation of the way the game works 
+- Solid demo 
+- Nice presentation structure
+- Make issues that represent the future changes you would make 
+- Great presentation!
