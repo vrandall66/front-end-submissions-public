@@ -6,7 +6,7 @@
 
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
 * [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
-* [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
+* [x] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
 
@@ -33,17 +33,28 @@
 
 * [ ] Novice - Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code are not separated.
 * [ ] Advanced Beginner - Application has a significant amount of duplication. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. 
-* [ ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
-* [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
+* [] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
+* [x] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
+
+* [This](https://github.com/KVeitch/FamilyFeud/blob/master/src/fastMoneyRound.js#L19) is a bit too complex/too much code for a ternary - i'd switch this to an if/else 
+
+* Let's move this [jQuery](https://github.com/KVeitch/FamilyFeud/blob/master/src/turn.js#L13) outta here so that we can test this method!
+
+* Overall nice tiny methods with small responsibilities and good organization of behaviors/information
 
 
 ### Testing
 
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
+* [x] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
 
+* No need to instantiate and test against [two players](https://github.com/KVeitch/FamilyFeud/blob/master/test/player-test.js#L7-L19) in this test file. Just one will do :)
+
+* I'm curious about trying to spy on your Turn methods [here](https://github.com/KVeitch/FamilyFeud/blob/master/test/turn-test.js#L14)? If you are trying to test your Turn class, you would actually want these to run and assert against their behavior, not just verify that they were called.
+
+* You should be able to rip [this out](https://github.com/KVeitch/FamilyFeud/blob/master/test/turn-test.js#L16-L17) if you set up all your spies correctly on your DOM manipulation. It seems like this can be an area of practice for your solo projects. Make sure everyone fully understands how to implement spies!
 
 ### GitHub Collaboration/Workflow
 
