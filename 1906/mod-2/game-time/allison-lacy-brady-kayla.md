@@ -1,5 +1,5 @@
 # GameTime
-* Game: Jeopardy
+* Game: [Jeopardy](https://github.com/bradybridges/jeopardy)
 * Evaluator: 
 
 ### Functional Expectations
