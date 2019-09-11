@@ -36,7 +36,7 @@
 
 * There are still some gaps in OOP understanding when it comes to what behaviors exist where. We discussed during check-in something like the player's score --- if the player class holds onto the score as their instance property, they should be the ones updating it. Right now your clue class is manually updating the player score rather than letting the player class handle its own state. I recall during that check-in that Mike articulated this approach perfectly, I'm curious why that strategy wasn't taken.
 
-* It seems you have some duplicate methods - e.g. `checkDailyDouble` on the clue and the round class -- this is a little confusing and makes it hard to follow the code and understand your separation of responsibilities between classes.
+* It seems you have some duplicate methods - e.g. `checkDailyDouble` on the clue and the round class -- this is a little confusing and makes it hard to understand your separation of responsibilities between classes.
 
 ### Testing
 
