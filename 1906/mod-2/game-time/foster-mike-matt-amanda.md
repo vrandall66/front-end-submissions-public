@@ -1,5 +1,5 @@
 # GameTime
-* Game:
+* Game: [J](https://github.com/mschneider247/quest-to-jeff)
 * Evaluator:
 
 ### Functional Expectations
@@ -29,17 +29,30 @@
 ### JavaScript Style & OOP
 
 * [ ] Novice - Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code are not separated.
-* [ ] Advanced Beginner - Application has a significant amount of duplication. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. 
-* [ ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
+* [x] Advanced Beginner - Application has a significant amount of duplication. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. 
+* [x] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
 * [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
 
+
+* There are still some gaps in OOP understanding when it comes to what behaviors exist where. We discussed during check-in something like the player's score --- if the player class holds onto the score as their instance property, they should be the ones updating it. Right now your clue class is manually updating the player score rather than letting the player class handle its own state. I recall during that check-in that Mike articulated this approach perfectly, I'm curious why that strategy wasn't taken.
+
+* It seems you have some duplicate methods - e.g. `checkDailyDouble` on the clue and the round class -- this is a little confusing and makes it hard to follow the code and understand your separation of responsibilities between classes.
 
 ### Testing
 
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
+* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
+
+* You shouldn't need to be doing [this much setup](https://github.com/mschneider247/quest-to-jeff/blob/master/test/Clue-test.js#L12-L17) to test your clue class. The point of classes is that each of them can mostly stand on their own in isolation to work and be tested. In this instance, you should just have to spin up a new instance of a clue, and test: default properties, the `checkAnswer`  and `checkDailyDouble` method. The `updatePlayerScore` method should exist on your player class, not your clue class.
+
+* Manually set values for [these arguments](https://github.com/mschneider247/quest-to-jeff/blob/master/test/Clue-test.js#L17) like `new Clue(clueObject, false)` rather than trying to instantiate a round and game to do all that heavy lifting. That will reduce the amount of setup code you're doing here.
+
+* You should at the very least be testing default properties for your Player class, even if it's small and simple!
+
+* Missing a lot of method tests due to not spying on domUpdate calls -- spies are something you'll need to be doing in your solo projects and in Mod 3 so please get some practice with that!
+
 
 
 ### GitHub Collaboration/Workflow

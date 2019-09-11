@@ -1,5 +1,5 @@
 # GameTime
-* Game:
+* Game: [WOF](https://github.com/JEduardoRJx/game-time.git)
 * Evaluator:
 
 ### Functional Expectations
@@ -13,9 +13,13 @@
 ### UI/UX
 
 * [ ] Novice - Developers can integrate typography, color choices, and layout in ways that do not detract from legibility.
-* [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
+* [x] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
 * [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
+
+* VERY CREEPY!!!! I am legit scared looking at this, it's great. The CSS fade transition when starting a game is awesome for this theme. Normally I recommend making your CSS animations as fast and subtle as possible, but having this super slow fade really adds to the creepiness. 
+
+* UX only took a little bit of getting used to before I knew my way around. Good job at keeping relevant/possible interactions at the forefront, and otthers in the background. I think something that would help further would be to contain related elements together a bit. e.g. each of your player name/score elements are pretty far apart horizontally. If we could cluster those together a bit closer, and maybe give them a container element with a subtle background or border, that might help me mentally group the elements on the page a little better. 
 
 
 ### CSS/Sass Style

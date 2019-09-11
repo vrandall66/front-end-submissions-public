@@ -1,5 +1,5 @@
 # GameTime
-* Game:
+* Game: [FF](https://github.com/sschipke/gameTime)
 * Evaluator:
 
 ### Functional Expectations
@@ -15,8 +15,11 @@
 * [ ] Novice - Developers can integrate typography, color choices, and layout in ways that do not detract from legibility.
 * [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
 * [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
-* [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
+* [x] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
 
+* B-e-a-utiful UI! One of the best I've seen from Mod 2ers. Love the bold background and large text. Font pairings look great. Definitely be showing this off at code fair!!! Great disabled/active/hover states on your clickable elements. Love the subtle CSS transition in the background as the game gets started to bring the UI into place, while we read the instructiosn in the popup window.
+
+* One thing I mighttttttt do - is some content alignment on your theme. I like the git-style action labels for interacting with the app, but I think they'd work better if the dataset was full of tech/programming related questions. e.g. if you could find developer surveys (they do one on JS every year) that had questions like 'Name the top three most used git commands' or 'Name a framework you might develop a front-end application in', the git labels would make a little more sense here. Obviously changing your dataset wasn't an option based on the spec, but maybe for a future iteration. It's a good risk to have taken but right now it's making me expect some tech-related content.
 
 ### CSS/Sass Style
 
