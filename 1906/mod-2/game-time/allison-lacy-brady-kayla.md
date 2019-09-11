@@ -49,8 +49,14 @@
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is over 100 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [x] Proficient - Developers tag instructors in both required PRs by due dates. PR is over 100 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
+
+- Make sure to keep commits small. Some of the linting commits are pretty beefy and could likely get broken down at more regular intervals 
+
+- It looks like there are pretty unbalanced amount of contributions -- there's a wide discrepancy between the contributions from Brady / Lacy, and Allison / Kayla. It makes it hard to determine how much code everyone was able contribute. If you're doing driver-navigator, make sure you switch the driver frequently enough that contributions reflect the collaboration going on 
+
+- Make sure commit messages are all capitalized at the start 
 
 ### Presentation
 

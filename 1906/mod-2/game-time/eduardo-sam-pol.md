@@ -52,8 +52,14 @@
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is over 100 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [x] Proficient - Developers tag instructors in both required PRs by due dates. PR is over 100 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
+
+- Eduardo, it looks like you have a low number of contributinos compared to the rest of the team. I know you all did a fiar amount of co-authoring, but the line contributions only show up on the driver's account. If you're using a driver-navigator workflow, make sure you alternate who is driving reguarly, so that your contributinos show up accutately on your account 
+
+- The PR you submitted for review had enough changes that we could give some real code review, good job here
+
+- Break down your commits a bit more. You have one that encompasses nearly all the bonus round functionality. This can get broken down into commits for methods and properties if you wanted. Think about what would be helpful if you had to revert a fiel back to a commit. Would you want to have to roll back all of your bonus round functionality? 
 
 ### Presentation
 
