@@ -33,17 +33,27 @@
 
 * [ ] Novice - Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code are not separated.
 * [ ] Advanced Beginner - Application has a significant amount of duplication. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. 
-* [ ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
+* [x] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
 * [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
 
+* I wouldn't expect your player class to take in a [currentscore and grandtotal](https://github.com/ec-myers/wheel-of-death/blob/master/src/Player.js#L6) as arguments -- is there ever a scenario where you're instantiating a new player that should start with a score greater than 0? If you added this in just for testing purposes - don't. (You never want to change your application code just for the sake of a test.) You should have methods on your player class that increment their currentScore/grandTotal and you would invoke those in your tests in order to assert against those values. 
+
+* Naming conventions are a little rough...[hasEnoughMoney](https://github.com/ec-myers/wheel-of-death/blob/master/src/Player.js#L13) for what? [endGame](https://github.com/ec-myers/wheel-of-death/blob/master/src/Game.js#L72) returns the winner's score? Let's be more specific with that and call it `getWinner()` instead.
+
+* Overall I think the round class is doing a bit much. Who is buying a vowel? The player. Who is spinning the wheel? The player. The round class is handling a lot of functionality that should belong to the player.
 
 ### Testing
 
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
+* [x] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
 
+* Good use of spies
+
+* Your descriptions for [these](https://github.com/ec-myers/wheel-of-death/blob/master/test/round-test.js#L78-L87) are a bit too vague - it sounds like the same thing should be happening whether or not the user guessed correctly. I have to look into the test logic to see that they're being pushed into different arrays. Clarify that in your it block descriptions by being a little more specific about what should be happening!
+
+* You're instantiating your [wheel](https://github.com/ec-myers/wheel-of-death/blob/master/test/wheel-test.js#L10-L35) with an argument but in your wheel class, the constructor doesn't actually take anything in??
 
 ### GitHub Collaboration/Workflow
 
