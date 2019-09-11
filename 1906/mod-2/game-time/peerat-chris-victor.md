@@ -1,5 +1,5 @@
 # GameTime
-* Game:
+* Game: WOF
 * Evaluator:
 
 ### Functional Expectations
@@ -17,6 +17,9 @@
 * [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
 
+- Fonts are a little hard to see from far away, but the overall UI looks nice. Good color mathcing, nice pixel fonts in terms of design 
+
+- Like the arcade-stlye layout 
 
 ### CSS/Sass Style
 
@@ -55,3 +58,8 @@
 * [ ] Advanced Beginner - Everyone in the group speaks. Presenters do a live demo of the application. The group may speak about the planning/challenges/rewards of the project; however, the delivery does not seem thought out/well-planned. 
 * [ ] Proficient - Everyone in the group has an opporunity to speak during the presentation. The group has a visual of the application to demo (e.g. slides, recordings of interactions, live demo). The group talks about the app, speaking to the challenges, rewards, and collaborative aspects of the project.
 * [ ] Exceptional - Meets all expectations of `Proficient`. In addition, the presentation runs smoothly w/no hiccups - indicating that it was planned/rehearsed/polished. The presentation is so engaging that there is no time that the evaluators find themselves checking the time/clock.
+
+- Reflected on the challenges of working remotely 
+  - Also the learning opportunities it presented 
+- What were the reasons for the UI or class structure switch ups 
+- Good job touching on extra functionality you would implement -- make sure they're represented in GH issues!
