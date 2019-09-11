@@ -7,7 +7,7 @@
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
 * [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
 * [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
-* [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
+* [x] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
 
 ### UI/UX
@@ -33,8 +33,14 @@
 
 * [ ] Novice - Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code are not separated.
 * [ ] Advanced Beginner - Application has a significant amount of duplication. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. 
-* [ ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
+* [x] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
 * [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
+
+* OVerall nice practice with your prototype methods but [ahhhhhh](https://github.com/sschipke/gameTime/blob/master/src/FastMoney.js#L16) break this one out into some variables instead of nesting and chaining all on a single line.
+
+* Lets add some methods to this [player class](https://github.com/sschipke/gameTime/blob/master/src/Player.js) ;) 
+
+* Avoid storing duplicate information on multiple classes. e.g. it looks like both your Round class and Game class are storing a property called `answers` -- does this represent the same data in both classes? Are there subtle differences? Does it need to be stored on both classes or can you reference a single instance of one class and pass that information through to others that need it as an argument? The more data duplication you have, the harder it will be to keep things in sync as that data changes.
 
 
 ### Testing
@@ -42,8 +48,11 @@
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
-* [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
+* [x] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
 
+* I would maybe do a deep equal test on the actual array [here](https://github.com/sschipke/gameTime/blob/master/test/Game-test.js#L31-L34) rather than just asserting against the second player's name. Whenever it's possible to be more specific with our assertions, let's do that. There are some other tests I'd recommend the same thing, so take a look back at what's been written and see if there are any opportunities for more specificity in your assertions.
+
+* Overall really nice test coverage and use of spies! Leverage those nested describe blocks for grouping tests that all exercise the same method (e.g. `submitGuess` tests for right vs. wrong answers)
 
 ### GitHub Collaboration/Workflow
 
