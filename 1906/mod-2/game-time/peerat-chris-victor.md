@@ -34,17 +34,30 @@
 
 * [ ] Novice - Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code are not separated.
 * [ ] Advanced Beginner - Application has a significant amount of duplication. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. 
-* [ ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
+* [x] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
 * [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
+
+* Overall pretty solid separation of responsibilities between your classes (I still believe your Round class is doing a bit extra that could be offloaded to your player instead) but OOP fundamentals have been demonstrated just fine
+
+* [Hmmm whats this line of code doing? Nothing?](https://github.com/peeratmac/game-time/blob/master/src/Player.js#L26)
+
+* I would expect a method called [getWinnerThisRound](https://github.com/peeratmac/game-time/blob/master/src/Game.js#L47-L56) to do something like return a player's name/score. I'm a little confused by what we're doing with the map here. Maybe the name of this method just needs to change to be a little more explicit about what the logic is doing?
 
 
 ### Testing
 
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
+* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
 
+* I'm not sure how [this test](https://github.com/peeratmac/game-time/blob/master/test/Game-test.js#L56-L70) verifies that your game is determining the winner for each round. You are passing through player 0 to your method call and then expecting your players array to be stored in `game.players`? Is there something significant about the sort order of the players here that's verifying which player is the winner? I would not be able to reimplement the functionality of `getWinnerThisRound` simply by looking at this test. (That should always be the goal!)
+
+* I think we have a few too many [assertions](https://github.com/peeratmac/game-time/blob/master/test/Player-test.js#L23-L31) here. They seem a bit random as well. I would have 1 it block that tests that `updateCurrentRoundMoney` changes a single players value, and another it block that tests a call to `updateTotalMoney` for a single player. Working with two different players and exercises two different methods in a single it block makes it a little hard to follow.
+
+* Can we get any more specific with the assertions [here](https://github.com/peeratmac/game-time/blob/master/test/Puzzle-test.js)? Rather than just testing if something is an array or object? Again, I feel like I would not be able to re-implement your Puzzle class based on reading your tests here.
+
+* Make sure to leverage spies in your solo projects to get that practice down before Mod 3!!
 
 ### GitHub Collaboration/Workflow
 
