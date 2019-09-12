@@ -14,9 +14,12 @@
 
 * [ ] Novice - Developers can integrate typography, color choices, and layout in ways that do not detract from legibility.
 * [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
-* [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
+* [x] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
 
+* Very nice background, such a cool design element!! Way to go on that.
+
+* As mentioned during check-in, heirarchy of what's important can be denoted a little better through your font styling. Overall not too difficult to use but definitely takes a minute to orient yourself. 
 
 ### CSS/Sass Style
 
