@@ -14,10 +14,10 @@
 
 * [ ] Novice - Developers can integrate typography, color choices, and layout in ways that do not detract from legibility.
 * [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
-* [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
+* [x] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
 
-- Nice animations with the appended HTML 
+- Nice animations with the appended HTML - I would make them just a bitttt faster with transitioning out that modal window -- when that pops up, I feel like I want a way to X out of it, and I'm not anticipating that it will happen on its own.
 
 
 
