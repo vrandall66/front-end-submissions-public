@@ -14,9 +14,17 @@
 ### UI/UX
 
 * [ ] Novice - Developers can integrate typography, color choices, and layout in ways that do not detract from legibility.
-* [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
+* [x] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
 * [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
+
+* Careful with the scaling of that background video, in certain dimensions it makes your content cut off in a weird spot (eg the player name fields extend past the background video into yellow space that looks a little odd)
+
+* Need hover states on your clickable elements to denote to a user that they can be interacted with
+
+* Little buggy with submitting an answer - my answer to a previous question never gets cleared out. There's also nothing to indicate to me that the clues have already been picked/can no longer be answered
+
+* With the vertical scroll, on my machine, I don't see the players/whose turn it is/our scores at all.
 
 
 ### CSS/Sass Style
