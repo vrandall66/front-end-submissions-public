@@ -5,10 +5,11 @@
 ### Functional Expectations
 
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
-* [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
+* [x] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
 * [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
+* Missing DailyDouble/inheritance logic
 
 ### UI/UX
 
@@ -33,14 +34,21 @@
 * [ ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
 * [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
 
+* Opportunity for some refactoring [here](https://github.com/vrandall66/Jeopardy/blob/master/src/Game.js#L70-L95) with a loop -- might be a good use-case for a standard for-loop that runs when i is 1 - 4. Then you can replace all your hardcoded 1-4 numbers with i
+
+* The Game class is turning into a bit of a "God" class that's a little too powerful for it's own good. We want to spread some of this responsibility out into other classes. Overall, I don't see anything alarming about the code that's been written, but there's so little of it that it's really hard to assess that the JS/OOP learning goals were truly met. I'm going to refrain from leaving a score here for now.
+
 
 ### Testing
 
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
-* [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
+* [x] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
 * [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
 
+* Missing many method tests, no use of spies. Also be sure to delete any files that don't actually have any code in them! It's better to leave them out completely than incorporate empty files into your repo
+
+* Can we get more specific with tests like [these](https://github.com/vrandall66/Jeopardy/blob/master/test/Game-test.js#L23-L36) to assert against more than just the length of the array? Especially since these assertions are exactly the same, it doesn't give me any insight into how each of these methods behaves differently from one another.
 
 ### GitHub Collaboration/Workflow
 
