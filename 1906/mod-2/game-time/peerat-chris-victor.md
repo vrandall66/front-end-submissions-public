@@ -5,16 +5,17 @@
 ### Functional Expectations
 
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
-* [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
+* [x] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
 * [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
+* Missing use-case for inheritance
 
 ### UI/UX
 
 * [ ] Novice - Developers can integrate typography, color choices, and layout in ways that do not detract from legibility.
 * [ ] Advanced Beginner - Developers can apply fundamental design concepts with increased sensitivity that result in clear legibility but likely break in areas of layout or “noise”.
-* [ ] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
+* [x] Proficient - Developers can apply fundamental design concepts that demonstrates a thoughtful, purposeful, cohesive strategy that does not detract from legibility or overall design integrity.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, typography, color choices, and layout decisions are thoughtful and appropriate, and strongly enhance the layout and legibility of the design.
 
 - Fonts are a little hard to see from far away, but the overall UI looks nice. Good color mathcing, nice pixel fonts in terms of design 
