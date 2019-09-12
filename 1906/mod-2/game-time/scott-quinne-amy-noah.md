@@ -58,8 +58,14 @@
 
 * [ ] Novice - Developers do not tag instructors in the two required PRs by due dates listed in the project outline or tagged PR has fewer than 200 lines of code. The developer creating the PR does not summarize the changes or why the changes were made. Reviewers are not leaving line-by-line feedback/comments _or_ are merging the PR before changes are made.
 * [ ] Advanced Beginner - Developers tag instructors in both required PRs by due dates _or_ in one of the two required. PR has less than the required lines of code in PR. Reviewers do not leave line-by-line feedback. May be merging PR before feedback is incorporated.
-* [ ] Proficient - Developers tag instructors in both required PRs by due dates. PR is over 100 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
+* [x] Proficient - Developers tag instructors in both required PRs by due dates. PR is over 100 lines of code. The developer creating the PR summarizes the changes made, why those changes were necessary, and asks for insights. Reviewers leave line-by-line comments/feedback and wait to merge PR until feedback is incorporated.
 * [ ] Exceptional - Meets all expectations for `Proficient`. The feedback is both kind _and_ insightful. There may be numerous threads of conversation where developers go back and forth to find the best solution to the problems they are solving together.
+
+- Nice code review! Love to see y'all getting into that work flow 
+- PRs to us were nicely sized 
+- Noah, it looks like your contributions were on the lower side of the groups (in terms of line numbers). It was still a good number of lines (~500), but I want to make sure that if you were driving and navigating, ensure that everyone gets an equal amount of driving time. That way, people's contributions truly match when they were there to work (co-authoring also doesn't fully share contributions)
+- Most commits weren't too too long, make sure to always opt on the shorter side
+- Most commit messages looked good, but don't forget to always capitalize them, and to keep them active / imperative
 
 ### Presentation
 
