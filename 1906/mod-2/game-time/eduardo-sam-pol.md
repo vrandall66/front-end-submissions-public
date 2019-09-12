@@ -6,9 +6,10 @@
 
 * [ ] Novice - Application is unplayable due to lack of functionality or broken logic. The majority of user stories are incomplete.
 * [ ] Advanced Beginner - Application has some missing functionality. Developers have implemented functionality for most of the user stories. There are 1 or more major bugs.
-* [ ] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
+* [x] Proficient - Application is fully playable. Developers have implemented functionality for all user stories.
 * [ ] Exceptional - Meets all expectations for `Proficient`. In addition, developers have implemented one or more extensions.
 
+* Bonus round is missing tests and needs refactoring to work/test properly, but OK
 
 ### UI/UX
 
@@ -36,16 +37,27 @@
 
 * [ ] Novice - Application is not separated into classes, or methods and properties are illogically assigned to classes. Developer writes code with unnecessary variables, operations, or steps that do not increase clarity. Business-side logic and view-related code are not separated.
 * [ ] Advanced Beginner - Application has a significant amount of duplication. Application is organized into classes that do not display a good understanding of encapsulation, and logic is not well-divided. Developer cannot articulate what each line of code is doing. 
-* [ ] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
+* [x] Proficient - Application is thoughtfully put together with some duplication. Developers can speak to choices made in the code and knows what every line of code is doing. Application is organized into classes (and correctly uses inheritance) with some misplaced logic. Business-logic code is mostly separated from view-related code. 
 * [ ] Exceptional - Meets all requirements of `Proficient`. In addition, application has exceptionally well-factored code with little or no duplication. SRP (single responsibility principle) and DRY (don't repeat yourself) principles are utilized. There are _zero_ instances where an instructor would recommend taking a different approach. There are no instances where instructor would suggest moving logic or data to another class. The business-logic code driving functionality is cleanly separated from rendering, view-related code.
 
+* Make sure you delete any files that aren't doing anything...if employers are taking a really quick look at your file structure they might be misled about your classes/codebase organization just by seeing how many files there are rather than how many are actually doing something. Also get rid of any commented out code. As a first impression, the codebase looks a little sloppy due to these things.
+
+* Mostly a solid representation of OOP skills although like many, I feel the Turn class is doing a bit more than it should compared to that Player class. Make these methods a bit smaller if possible and move them to a more appropriate place.
 
 ### Testing
 
 * [ ] Novice - There is little or no evidence of testing in this application. ESLint shows 10+ complaints.
 * [ ] Advanced Beginner - Project has sporadic use of tests at multiple levels. The application contains numerous holes in testing and/or many features are untested. ESLint shows 5+ complaints.
-* [ ] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
+* [x] Proficient - Project has a running test suite that tests multiple levels but fails to cover some features. All functionality is covered by tests. The application makes some use of integration testing. ESLint shows < 5 complaints.
 * [ ] Exceptional - Meets all requires of `Proficient`. In addition, the test suite makes use of mocks and stubs when appropriate. ESLint shows 0 complaints.
+
+* [This](https://github.com/JEduardoRJx/game-time/blob/master/test/game-test.js#L9) shouldn't be necessary, and I'm interested if it's actually causing problems rather than helping. It could potentially be overriding your actual `domUpdates` object which would be clearing out any of it's methods that you want to be spying on.
+
+* I would break [these](https://github.com/JEduardoRJx/game-time/blob/master/test/turn-test.js#L57-L60) into separate tests - one for when the puzzle is solved correctly/one for when its not. Any time you have conditional logic that changes the state of your app in a different way, have separate it blocks for both conditions.
+
+* You shouldnt have to do [quite so much setup code](https://github.com/JEduardoRJx/game-time/blob/master/test/turn-test.js#L21-L30) -- pass in an object literal that looks like a round to your Turn class when you instantiate it rather than spinning up an entire game instance and round instance to stub that functionality. If your classes are truly independent of each other, you shouldn't need to spin up all these other class instances just to test one class.
+
+* Many method tests missing due to not breaking out jQuery dom manipulation well enough in classes
 
 
 ### GitHub Collaboration/Workflow
