@@ -1,6 +1,10 @@
-### Evaluator:
-### Students:
+### Evaluator: Robbie
+### Student: Jon
 ### Comments:
+
+* Looking at the `getting-rolling` branch at time of eval, `master` branch does not have much at this time
+* Can't get it back running with any quick fixes...
+* 3 tests written at time of eval
 
 ## Rubric 
 

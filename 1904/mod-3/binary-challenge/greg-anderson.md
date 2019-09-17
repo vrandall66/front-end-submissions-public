@@ -1,6 +1,17 @@
-### Evaluator:
-### Students:
+### Evaluator: Robbie
+### Students: Greg
 ### Comments:
+
+* Saw that an artist had my last name (http://localhost:3000/artist/Andries%20Jager) - not my cup of tea...
+* Great job with the routing for an artist details page - `http://localhost:3000/artist/Delizy` is close to what you would see in a production app, the only difference would be `http://localhost:3000/artists/Delizy` (artists plural), but we haven't gone over this - you'll see it more in mod 4
+* I would not expect an entire route for the Artist, Color, etc. because these feel like selectors and not separate pages...eliminating these routes can really reduce the complexity of the routing
+* `-1` and `-2` centuries selection?
+* I really like the aesthetic of the app - would be awesome to view the art as more of an immersive gallery view, maybe a horizontal scroll? Or images of different sizes like they would be on the wall, and then if you're interested in it, click on it and it expends as if you walked up close to it...
+* Lots of `UnhandledPromiseRejectionWarning` in the terminal when running the tests - any idea where these are coming from?
+* Good to see the `localStorage` helper file
+* **Bug:** an interesting bug where clicking on a specific filter (Artist, Color, etc.) before the images have loaded results in the app breaking - the spinner is great, though
+* Get something rendered if there are no favorites yet, but someone goes to the favorites page
+* The back button functionality is interesting - it takes me back to what I was viewing, but the route (in the URL) is not what I had selected before...so if I go home, I don't really get the original home page anymore
 
 ## Rubric 
 
