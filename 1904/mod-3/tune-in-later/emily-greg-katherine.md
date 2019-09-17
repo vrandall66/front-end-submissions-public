@@ -1,49 +1,72 @@
-### Evaluator:
-### Students:
+### Evaluator: Travis Rollins
+### Students: Emily & Greg & Katie
 ### Comments:
+* Great number of commits.  Would recommend being even more specific at times.  
+  * Ex: `Add action creator tests` may not be specific enough months down the line.  What if more actions get added later?  We'll need to write more tests.
+* Good start to conversations on PRs.  Would like it even more to see reviews on comments on code.  What can be refactored?  What is still not working? etc.
+* Good work keeping up with GH Projects
+* Nice work on the README including contributors, description.  I might also include a part about setup for other developers as well as wireframes you used.
+* Several linter errors, I would recommend adding in `"lint": "eslint src/"` into your `package.json` under `scripts` and run `npm run lint`.  
+* Love how there are some albums already on display on `/` route
+* Might run this app through an accessibility reader
+  * Lots of red's and blues and for someone who is color blind, it could be challenging for them to make out details.
+  * Interesting to note, the sound icon made me "as a user" want to click on it.  I expected it to play or do something.
+* Love the creativity behind the hover effect to display more info on each Album.  Careful not to go overboard though.
+* Good work displaying error if I try to favorite something without logging in. I might move the message to a different location.
+* UI and scrolling get's a bit odd when I search for an artist but still see all of the previous ones.  I only get the 5 top albums.
+  * Scrolling on mobile also gets a bit challenging.
+* Might recommend using `type of password` for password input so others can't see user's password.
+* Should a user be able to go to the `login` or `create account` page if they are already signed in?
+  * Should clear out inputs when I create an account.
+* Good work showing errors if account has already been used or if email and password don't match.
+* Remember to move Component folders over into `Containers` if they are connected to the store
+* Would look into how you can create a 404 page if the route doesn't exist.
+* Good work with actions and reducers.  Very clean.  No duplicate data.
+* Might recommend moving a few other things over to the Redux store like fetch errors and data for searchedArtist.
+* All async functions in `componentDidMount` can be called in one try/catch.
+* Good setup of using `.then` in `createTheUser`, `loginTheUser`, etc.
+* Some unnecessary pieces of data being stored in state
+  * Lots of properties in each of those objects that you don't need (hence the reason you have to clean it out when favoriting)
+  * I might recommend cleaning the data before setting it to state.
+* I might recommend mapping through all of the `WelcomeContainers` in the App component.
+* Good work including propTypes.
+* In `FavoritesContainer`, think about how you can refactor `isThisAFav` function.  Doesn't `includes` already return to you a boolean?
+  * Likely don't need to do the `forEach` either here.  Map through your favorites, and pass a property of `isFav={true}` since you already know your favorites includes favorited albums.
+* Might be some ways to refactor the two form components (especially reusing methods)
+* Good work getting in most of the tests for `apiCalls`
+  * Also solid tests for your reducers
+  * Make sure all of your snapshot tests are up to date.  Also check that you are exporting/importing containers correctly.  You don't want to import the `connected` component like `Nav`.  Throw in an export in front of the function, and import nav with `{}`.
+  * Same thing for `FavoritesContainer`.
+  * Missing tests for mapStateToProps and mapDispatchToProps.
+  * Would like to see some more tests in the future for `App` like that methods/actions have been called.  
+  * Missing many component tests like changes in state and event simulations in Form components.
+
 
 ## Rubric 
 
 ### Specification Adherence
 
-* 1 - The application is missing multiple features outlined above and in it's current state is non-functioning. Developer did minimal to no CSS for this project.
 * 2 - The application is in a usable state, but is missing part of one or more of the features outlined above. There are one or more major bugs and the evaluator has multiple recommendations for design changes.
-* 3 - The application completes all iterations above without error. Evaluator has minimal recommendations for design changes.
-* 4 - The application completes all iterations above and implements one or more of the extensions.  The evaluator has no recommendations for design changes.
 
 ### Project Professionalism
 
-* 1 - Either the README is incomplete, wireframes are not used, no project managment system was utilized, or more than 10 linter errors are present. Git history does not show evolution of project with many large and inconsistent commits. 
 * 2 -  README has been updated but is missing group members, setup, tech used, application images, or etc.  Wireframes are included and a project management tool was started, but are not utilized throughout the entire project. Project has more than 5 linter errors. Project team makes large infrequent git commits. 
 * 3 - The codebase has less than 5 linter errors and README has been updated with all group members. Project utilized wireframes from the outset and updated them as changes were made. A project management tool was continuously used from the beginning of the project.  All git commits are atomic, made first to branches, and use descriptive and consise commit messages. 
-* 4 - Codebase has zero linter errors/warnings and README is well documented with images of different pages, setup, purpose of application, and group members. Project team uses a rebase workflow, taking advantage of github issues to track work.
 
 ### React Architecture
 
-* 1 - PropTypes are substantially unused. Project shows little understanding of React and significant refactoring is required including but not limited to component structure, knowing when to use class vs functional components, mutation of props, or etc.  Unneccessary data is being passed down to child components through props. File structure is not modular.
-* 2 - PropType functionality is complete.  There are no unnecessary props being passed down to child components.  However, there are still methods that are being created inside of functional components instead of being passed down through props from a class component.  File structure is modular but api calls have not been broken out into a separate file.  
 * 3 - React architecture is clean and organized.  Logic is kept out of return statements.  There are some issues with the asynchronous js where the frontend is not matching with the backend.  There are multiple functions (including fetch calls) that are doing similar pieces of functionality that could continue to be refactored. Data fetched from API is not cleaned before being set to state.
-* 4 - Functions including fetch calls have been refactored to be reusuable for multiple queries.  Frontend data always matches the backend data.  Data fetched from API is run through a cleaning function (which lives in a separate file).  Implements excellent error handling if server is down or fetch fails.  This includes loading images as well as error messages on the frontend.
 
 ### Redux Architecture
 
-* 1 - Application state is mostly outside the control of Redux. Application did not make use of Redux actions and reducers to mutate state. Components do not demonstrate a clear understanding of stateful vs. statelessness.
 * 2 - At least one component is not connected with Redux appropriately. Application state is mutated by more than just Redux. The Redux store is missing application data that it should be handling.
-* 3 - Appropriate components are wrapped in connected Redux container components. The Redux store contains all necessary application data. All state changes are handled through Redux actions and reducers.
-* 4 - All requirements from 3 met, and no duplication of data exists in the
-  store. Data in the store remains flat (not nested).
 
 ### Testing
 
 * 1 - A valid attempt to test this application was made, but there are obvious
   gaps with missing unit tests for Redux and React.  
 * 2 - Nearly all unit tests are in place. React components are well tested with a diverse set of tests including but not limited to snapshot tests, event simulation tests, and tests on class methods.  All routes have been tested as well including dynamic routes.  There are tests in place for actions, reducers, mapStateToProps, and mapDispatchToProps.  No attempt to test async functionality was made.
-* 3 - All Redux functionality is tested (actions, reducers, mapStateToProps, mapDispatchToProps), all components are unit tested, and a valid attempt was made to test any async functionality.
-* 4 - All async functionality is tested.   Asynchronous tests cover happy paths as well as multiple sad paths.  All pieces of functionality have been tested and are passing and run efficiently (using mount only when appropriate). Evaluator has no recommendations for testing.
 
 ### Routing
 
-* 1 - Application uses React Router, but does not render/use all routes according to spec. Application does not utilize built in React Router components and manipulates history instead.  UX is challenging and frustrating where multiple pages on the application are missing links to routes.
-* 2 - Application uses React Router, but does not display the appropriate components upon navigating.  There are one or more issues with the UX and access to routes is either unclear or not full implemented on some pages.
 * 3 - Application uses React Router to display appropriate components based on URL.  UX is clear and set up well so that user has access to previous routes.
-* 4 - React Router components have been refactored for developer empathy and code quality is clean.  Application accounts for undefined routes. UX is excellent and set up well to have links to all routes on all pages.
