@@ -1,6 +1,36 @@
-### Evaluator:
-### Students:
+### Evaluator: Robbie
+### Students: Djavan and Sam
 ### Comments:
+
+* Really like the aesthetic of the home page - it's very clean
+* The Favorites button has some room to grow stylistically, but it does at least match
+* The display of each book on the homepage is great - super clear and easy to see what everything is
+* The search functionality seems to be working well. It would be nice to have something say "No results" if I search for something not found
+* In a search, do you always want to clear the input of a search? Sometimes it's nice to keep the search term in the input so you can modify the search if the results are not what you expect
+* My lastpass asks me if I want to save my email and password for this site, so that's a good sign in terms of form design
+* The genre filtering is great - would like to see which filter is active
+* The book details page is nice - narrow the width of the page to reduce line length, and it would be nice to still see the image of the book
+* On the book details page, careful with the word `back` because if I came from my favorites page, it takes me back to the main search page instead - it's not truly like a browser back button and might not be what a user expects
+* Features are all there and not buggy - great work!
+* Still signed in after refresh!
+* Is the favorited button like a bookmark?
+
+* Files are all modular, organized, and named well
+* Overall I like the structure of your redux store - it's pretty flat and there isn't much duplicated data - tell me more about why you want to store the favorites in the store
+* Actions and action tests look good!
+* Be sure to be consistent with semicolons (in actions index file)
+* Reducer and reducer tests look good!
+* Good job mocking your props in the App test (in place of Redux handing down the props)
+* I would move the `releaseSplit` business into a helper function
+* `it('should', ()` for Book snapshot test...
+* Since your mock state is repeated a lot in test files, how could you DRY this up?
+* No linting errors/warnings - nice
+* Solid API calls testing - what was a challenge there?
+* In App, be consistent about order of params in `postFavorite` and `deleteFavorite`
+* In App, could the logic for this route be moved somewhere else? `<Route path='/book/:id' render={({ match }) => {...`
+* In book, definitely a refactor opportunity for the `shortName` process
+* Project board looks good
+
 
 ## Rubric 
 
@@ -13,17 +43,17 @@
 
 ### Project Professionalism
 
-* 1 - Either the README is incomplete, wireframes are not used, no project managment system was utilized, or more than 10 linter errors are present. Git history does not show evolution of project with many large and inconsistent commits. 
+* 1 - Either the README is incomplete, wireframes are not used, no project management system was utilized, or more than 10 linter errors are present. Git history does not show evolution of project with many large and inconsistent commits. 
 * 2 -  README has been updated but is missing group members, setup, tech used, application images, or etc.  Wireframes are included and a project management tool was started, but are not utilized throughout the entire project. Project has more than 5 linter errors. Project team makes large infrequent git commits. 
-* 3 - The codebase has less than 5 linter errors and README has been updated with all group members. Project utilized wireframes from the outset and updated them as changes were made. A project management tool was continuously used from the beginning of the project.  All git commits are atomic, made first to branches, and use descriptive and consise commit messages. 
-* 4 - Codebase has zero linter errors/warnings and README is well documented with images of different pages, setup, purpose of application, and group members. Project team uses a rebase workflow, taking advantage of github issues to track work.
+* 3 - The codebase has less than 5 linter errors and README has been updated with all group members. Project utilized wireframes from the outset and updated them as changes were made. A project management tool was continuously used from the beginning of the project.  All git commits are atomic, made first to branches, and use descriptive and concise commit messages. 
+* 4 - Codebase has zero linter errors/warnings and README is well documented with images of different pages, setup, purpose of application, and group members. Project team uses a rebase workflow, taking advantage of GitHub issues to track work.
 
 ### React Architecture
 
-* 1 - PropTypes are substantially unused. Project shows little understanding of React and significant refactoring is required including but not limited to component structure, knowing when to use class vs functional components, mutation of props, or etc.  Unneccessary data is being passed down to child components through props. File structure is not modular.
-* 2 - PropType functionality is complete.  There are no unnecessary props being passed down to child components.  However, there are still methods that are being created inside of functional components instead of being passed down through props from a class component.  File structure is modular but api calls have not been broken out into a separate file.  
-* 3 - React architecture is clean and organized.  Logic is kept out of return statements.  There are some issues with the asynchronous js where the frontend is not matching with the backend.  There are multiple functions (including fetch calls) that are doing similar pieces of functionality that could continue to be refactored. Data fetched from API is not cleaned before being set to state.
-* 4 - Functions including fetch calls have been refactored to be reusuable for multiple queries.  Frontend data always matches the backend data.  Data fetched from API is run through a cleaning function (which lives in a separate file).  Implements excellent error handling if server is down or fetch fails.  This includes loading images as well as error messages on the frontend.
+* 1 - PropTypes are substantially unused. Project shows little understanding of React and significant refactoring is required including but not limited to component structure, knowing when to use class vs functional components, mutation of props, or etc.  Unnecessary data is being passed down to child components through props. File structure is not modular.
+* 2 - PropType functionality is complete.  There are no unnecessary props being passed down to child components.  However, there are still methods that are being created inside of functional components instead of being passed down through props from a class component.  File structure is modular but API calls have not been broken out into a separate file.  
+* 3 - React architecture is clean and organized.  Logic is kept out of return statements.  There are some issues with the asynchronous JS where the frontend is not matching with the backend.  There are multiple functions (including fetch calls) that are doing similar pieces of functionality that could continue to be refactored. Data fetched from API is not cleaned before being set to state.
+* 4 - Functions including fetch calls have been refactored to be reusable for multiple queries.  Frontend data always matches the backend data.  Data fetched from API is run through a cleaning function (which lives in a separate file).  Implements excellent error handling if server is down or fetch fails.  This includes loading images as well as error messages on the frontend.
 
 ### Redux Architecture
 

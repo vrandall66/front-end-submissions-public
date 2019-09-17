@@ -1,6 +1,27 @@
-### Evaluator:
-### Students:
+### Evaluator: Robbie
+### Students: Brandy, David, and Brianna
 ### Comments:
+
+* Nice landing page displaying the different genres
+* The overall page is pretty bright for me, but I think that is somewhat personal preference - it's a pleasant use of a gradient for once on the web!
+* I like that if you try to favorite something, it prompts you to sign in
+* In a search, do you always want to clear the input of a search? Sometimes it's nice to keep the search term in the input so you can modify the search if the results are not what you expect
+* The search functionality seems to be working well. It would be nice to have something say "No results" if I search for something not found
+* Possibly hide the create account form by default since it is less frequently used and takes up a bit of real estate on the top of the page
+* My lastpass asks me if I want to save my email and password for this site, so that's a good sign in terms of form design
+* The top section of the main page ("Welcome Alan!") is so big and only displays text - think about how to rearrange this information to utilize the page space
+* "My Collection" with nothing in it displays an empty narrow bar - consider some indication that there is nothing in the collection yet or else a user will think something might be wrong
+
+* Not seeing dynamic routing being used for the book details page - this still feels very much like a single-page application since the collection is also on the home page filling in the top section.
+
+* 88 tests at time of eval, a lot of tests! 2 tests hard failing, can't see the whole output to verify all tests.
+* Actions and action tests look good
+* Reducers and reducer tests look good
+* Looks like you attempted router testing - what did you end up trying?
+* Tell me more about decision to store all books in state instead of redux (not saying that this is bad)
+* Lots of async tests written, which is great to see
+
+
 
 ## Rubric 
 
@@ -13,17 +34,17 @@
 
 ### Project Professionalism
 
-* 1 - Either the README is incomplete, wireframes are not used, no project managment system was utilized, or more than 10 linter errors are present. Git history does not show evolution of project with many large and inconsistent commits. 
+* 1 - Either the README is incomplete, wireframes are not used, no project management system was utilized, or more than 10 linter errors are present. Git history does not show evolution of project with many large and inconsistent commits. 
 * 2 -  README has been updated but is missing group members, setup, tech used, application images, or etc.  Wireframes are included and a project management tool was started, but are not utilized throughout the entire project. Project has more than 5 linter errors. Project team makes large infrequent git commits. 
-* 3 - The codebase has less than 5 linter errors and README has been updated with all group members. Project utilized wireframes from the outset and updated them as changes were made. A project management tool was continuously used from the beginning of the project.  All git commits are atomic, made first to branches, and use descriptive and consise commit messages. 
-* 4 - Codebase has zero linter errors/warnings and README is well documented with images of different pages, setup, purpose of application, and group members. Project team uses a rebase workflow, taking advantage of github issues to track work.
+* 3 - The codebase has less than 5 linter errors and README has been updated with all group members. Project utilized wireframes from the outset and updated them as changes were made. A project management tool was continuously used from the beginning of the project.  All git commits are atomic, made first to branches, and use descriptive and concise commit messages. 
+* 4 - Codebase has zero linter errors/warnings and README is well documented with images of different pages, setup, purpose of application, and group members. Project team uses a rebase workflow, taking advantage of GitHub issues to track work.
 
 ### React Architecture
 
-* 1 - PropTypes are substantially unused. Project shows little understanding of React and significant refactoring is required including but not limited to component structure, knowing when to use class vs functional components, mutation of props, or etc.  Unneccessary data is being passed down to child components through props. File structure is not modular.
-* 2 - PropType functionality is complete.  There are no unnecessary props being passed down to child components.  However, there are still methods that are being created inside of functional components instead of being passed down through props from a class component.  File structure is modular but api calls have not been broken out into a separate file.  
-* 3 - React architecture is clean and organized.  Logic is kept out of return statements.  There are some issues with the asynchronous js where the frontend is not matching with the backend.  There are multiple functions (including fetch calls) that are doing similar pieces of functionality that could continue to be refactored. Data fetched from API is not cleaned before being set to state.
-* 4 - Functions including fetch calls have been refactored to be reusuable for multiple queries.  Frontend data always matches the backend data.  Data fetched from API is run through a cleaning function (which lives in a separate file).  Implements excellent error handling if server is down or fetch fails.  This includes loading images as well as error messages on the frontend.
+* 1 - PropTypes are substantially unused. Project shows little understanding of React and significant refactoring is required including but not limited to component structure, knowing when to use class vs functional components, mutation of props, or etc.  Unnecessary data is being passed down to child components through props. File structure is not modular.
+* 2 - PropType functionality is complete.  There are no unnecessary props being passed down to child components.  However, there are still methods that are being created inside of functional components instead of being passed down through props from a class component.  File structure is modular but API calls have not been broken out into a separate file.  
+* 3 - React architecture is clean and organized.  Logic is kept out of return statements.  There are some issues with the asynchronous JS where the frontend is not matching with the backend.  There are multiple functions (including fetch calls) that are doing similar pieces of functionality that could continue to be refactored. Data fetched from API is not cleaned before being set to state.
+* 4 - Functions including fetch calls have been refactored to be reusable for multiple queries.  Frontend data always matches the backend data.  Data fetched from API is run through a cleaning function (which lives in a separate file).  Implements excellent error handling if server is down or fetch fails.  This includes loading images as well as error messages on the frontend.
 
 ### Redux Architecture
 
