@@ -10,6 +10,7 @@
 * Is `candidate` needed as a prop for the `App` container - I'm just not seeing the connection
 * 93 tests! Any you have questions about?
 * I would remove the root reducer test (`expect(true).toEqual(true)`)
+* Brianna seeing a behavior where going to a route directly does not pass pass information through the `match`, and therefore could not use that information to fetch data for that page, how to handle this if not coming in from `Link` or `NavLink`
 
 ## Rubric 
 
