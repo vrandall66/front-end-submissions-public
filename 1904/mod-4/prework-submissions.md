@@ -44,9 +44,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Brianna DelValle
 
-* [Node Server Tutorial]()
-* [Promise Practice Exercises]()
-* [Web Scraping Workshop]()
+* [Node Server Tutorial](https://github.com/bld010/1904fe-prework-api)
+* [Promise Practice Exercises](https://repl.it/@bld010/1904-FE-Mod-4-Prework-Promises)
+* [Web Scraping Workshop](https://github.com/bld010/1904FE-Prework-webscraper)
 
 
 ## Christopher Lane
