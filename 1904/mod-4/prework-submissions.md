@@ -58,6 +58,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## David Gitlen
 
+
 * [Node Server Tutorial](https://github.com/davidagitlen/node-server)
 * [Promise Practice Exercises](https://repl.it/@davidagitlen/Promise-practice)
 * [Web Scraping Workshop](https://github.com/davidagitlen/webscraping-workshop)
@@ -66,7 +67,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Djavan Munroe
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
