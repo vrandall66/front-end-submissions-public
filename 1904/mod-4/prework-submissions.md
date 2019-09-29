@@ -17,7 +17,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Aidan McKay
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -25,7 +24,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Alyssa Lundgren
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -33,7 +31,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Ann Cerveny
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -41,7 +38,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Brandy Mello
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -49,7 +45,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Brianna DelValle
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -57,7 +52,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Christopher Lane
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -65,7 +59,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## David Gitlen
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -73,7 +66,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Djavan Munroe
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -81,7 +73,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Emily Lalonde
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -89,7 +80,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Eric O'Neill
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -97,7 +87,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Gregory Anderson
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -105,7 +94,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Jacob Ogren
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -113,7 +101,6 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Katherine Williams
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
 
@@ -121,6 +108,5 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 ## Samantha Freeman
 
 * [Node Server Tutorial]()
-* [Annotated Express server file]()
 * [Promise Practice Exercises]()
 * [Web Scraping Workshop]()
