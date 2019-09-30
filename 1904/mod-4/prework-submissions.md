@@ -73,9 +73,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Emily Lalonde
 
-* [Node Server Tutorial]()
-* [Promise Practice Exercises]()
-* [Web Scraping Workshop]()
+* [Node Server Tutorial](https://github.com/EmilyLalonde/Node-Server_Tutorial)
+* [Promise Practice Exercises](https://repl.it/@EmilyLalonde/Promise-PreWork)
+* [Web Scraping Workshop](https://github.com/EmilyLalonde/Web-scraping)
 
 
 ## Eric O'Neill
