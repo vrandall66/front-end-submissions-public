@@ -66,9 +66,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Djavan Munroe
 
-* [Node Server Tutorial]()
-* [Promise Practice Exercises]()
-* [Web Scraping Workshop]()
+* [Node Server Tutorial](https://github.com/djavanm/messages-api)
+* [Promise Practice Exercises](https://github.com/djavanm/promises-practice)
+* [Web Scraping Workshop](https://github.com/djavanm/webscripting)
 
 
 ## Emily Lalonde
