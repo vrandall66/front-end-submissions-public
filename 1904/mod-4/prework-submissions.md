@@ -37,9 +37,9 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 ## Brandy Mello
 
-* [Node Server Tutorial]()
-* [Promise Practice Exercises]()
-* [Web Scraping Workshop]()
+* [Node Server Tutorial](https://github.com/BrandyMello/messages)
+* [Promise Practice Exercises](https://repl.it/join/vxzjjwqr-brandymello)
+* [Web Scraping Workshop](https://github.com/BrandyMello/messages)
 
 
 ## Brianna DelValle
