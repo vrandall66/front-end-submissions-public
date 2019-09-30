@@ -25,7 +25,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Node Server Tutorial](https://github.com/lundgrea/Intro-To-Node)
 * [Promise Practice Exercises](https://repl.it/@lundgrea/Mod4-Prework-Promises)
-* [Web Scraping Workshop]()
+* [Web Scraping Workshop](https://github.com/lundgrea/Intro-To-Webscraping)
 
 
 ## Ann Cerveny
