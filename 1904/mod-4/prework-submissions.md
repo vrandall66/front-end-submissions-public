@@ -82,7 +82,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Node Server Tutorial](https://github.com/eoneill23/mod4-messages-pw)
 * [Promise Practice Exercises](https://repl.it/@eoneill23/Mod-4-Promises-Prework)
-* [Web Scraping Workshop]()
+* [Web Scraping Workshop](https://github.com/eoneill23/webscraping-workshop)
 
 
 ## Gregory Anderson
