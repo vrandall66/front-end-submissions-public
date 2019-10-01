@@ -32,7 +32,7 @@ Add a label of the homework with a link to the gist/repo/..etc for each homework
 
 * [Node Server Tutorial](https://github.com/CervAnn/ann_cerveny_prework_mod4)
 * [Promise Practice Exercises](https://repl.it/@CervAnn/Mod4PromisesPrework)
-* [Web Scraping Workshop]()
+* [Web Scraping Workshop](https://github.com/CervAnn/web_scraping_workshop.git)
 
 
 ## Brandy Mello
