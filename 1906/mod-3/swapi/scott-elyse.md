@@ -1,40 +1,59 @@
-### Evaluator:
-### Students:
+### Evaluator: Travis Rollins
+### Students: Scott & Elyse
 ### Comments:
+* Good work with README including descriptions, setup, collaborators, and screenshots, and live project.
+* Did you stick with your trello board?  I would also link that in your README along with your wireframes.
+* Good work only having a couple of linting errors.  To check this, include this script, `"lint": "eslint src/" `, inside of your `package.json` and run `npm run script`.
+* Great number of commits and being mostly consistent with detailed commits.
+  * Some commit messages can be a bit more specific.  Like [tests for form](https://github.com/ec-myers/swapi-trivia/commit/7ea82fc59491b9058ee3216828c7c140ea3ad390).  What exactly did you test?
+* I love it when I see conversations on [PRs](https://github.com/ec-myers/swapi-trivia/pull/13).  I would like to see more of this on every PR.  Test out the branch on your computer and leave a code review (even if you worked on it together).
+  * Also it would be great to be consistent with a PR template including info like is this resolving a bug, adding a feature, or adding a test.  Etc.
+* First start of the App, it breaks due to an error about PropType being not defined.  Double check bugs like this before evals (aka pushing something into production).
+* Very clean interface.
+  * LOVE the info that shows my profile information.  Very creative and nice subtle touch on the UI.
+  * Excellent error handling.
+  * Cool idea to show the scrolling text while its loading.
+* Look into how you can create a 404 page if a route doesn't exist `/yolo`
+* Good work with the toggling of favorites so it is clear to the user whether they are adding/removing a favorite.
+  * I might store the info about how many favorites the user has next to the `Link` as opposed to being on each card.  (Could be confusing to the user on what the number means)
+* Good work implementing localStorage as well (and good place to check if there is any data is in `componentDidMount`)
+* A bit of a bug when trying to go to the `/favorites` route.
+  * See if you can finish the `/favorites` route and I'll update the Specification Adherence score.
+  * Interesting to note that on the `/favorites` route, you are passing cards and favorites as props (both with the value of favorites).
+* Is there a way to keep properties like `haveFavorites` and `haveMovies` out?  
+  * Can we check the length of the array?
+* Good work breaking out fetches so it doesn't take forever.  Only fetch the data if the user goes to that route.  AWESOME!
+* Cheers to using the error message and rendering it.  THANK YOU! 
+* For displaying errors on the Form, how we could we refactor the conditionals?  For conditionals where the value is true or false, see if you can use the conditional logic.
+  * Example `this.setState({ nameErr: !this.state.name })`
+* Excellent work testing and including a wide variety of tests
+  * Good event simulations, tests on methods and changes in tests, snapshots, and start to async tests.
+    * Good work with tests for isolated fetches.  Remember to include a test for if the `Promise.resolves` but the property of `ok` is false.
+    * Double check some of the warnings you are getting on tests as well.  (Errors like `Cannot read property 'slice' of undefined`)
+  * I really love the test on line 59 in `App.test.js`.  Great work asserting changes in state and checking that the function was called.  Cheers!
+* Good work with propTypes.  Take note that some of the proptypes are not passing in your tests.
+
 
 ## SwapiBox Rubric
 
 ### Specification Adherence
 
-* 1 - The application is missing multiple features outlined above and in it's current state is non-functioning. Developer did minimal to no CSS for this project.
-* 2 - The application is in a usable state, but is missing part of one or more of the features outlined above. There are one or more major bugs and the evaluator has multiple recommendations for design changes.
 * 3 - The application completes all iterations above without error. Evaluator has minimal recommendations for design changes.
 * 4 - The application completes all iterations above and implements one or more of the extensions.  The evaluator has no recommendations for design changes.
 
 ### Project Professionalism
 
-* 1 - Either the README is incomplete, wireframes are not used, no project managment system was utilized, or more than 10 linter errors are present. Git history does not show evolution of project with many large and inconsistent commits. 
 * 2 -  README has been updated but is missing group members, setup, tech used, application images, or etc.  Wireframes are included and a project management tool was started, but are not utilized throughout the entire project. Project has more than 5 linter errors. Project team makes large infrequent git commits. 
 * 3 - The codebase has less than 5 linter errors and README has been updated with all group members. Project utilized wireframes from the outset and updated them as changes were made. A project management tool was continuously used from the beginning of the project.  All git commits are atomic, made first to branches, and use descriptive and consise commit messages. 
-* 4 - Codebase has zero linter errors/warnings and README is well documented with images of different pages, setup, purpose of application, and group members. Project team uses a rebase workflow, taking advantage of github issues to track work.
 
 ### React Architecture
 
-* 1 - PropTypes are substantially unused. Project shows little understanding of React and significant refactoring is required including but not limited to component structure, knowing when to use class vs functional components, mutation of props, or etc.  Unneccessary data is being passed down to child components through props. File structure is not modular.
-* 2 - PropType functionality is complete.  There are no unnecessary props being passed down to child components.  However, there are still methods that are being created inside of functional components instead of being passed down through props from a class component.  File structure is modular but api calls have not been broken out into a separate file.  
-* 3 - React architecture is clean and organized.  Logic is kept out of return statements.  There are some issues with the asynchronous js where the frontend is not matching with the backend.  There are multiple functions (including fetch calls) that are doing similar pieces of functionality that could continue to be refactored. Data fetched from API is not cleaned before being set to state.
 * 4 - Functions including fetch calls have been refactored to be reusuable for multiple queries.  Frontend data always matches the backend data.  Data fetched from API is run through a cleaning function (which lives in a separate file).  Implements excellent error handling if server is down or fetch fails.  This includes loading images as well as error messages on the frontend.
 
 ### Routing
 
-* 1 - Application uses React Router, but does not render/use all routes according to spec. Application does not utilize built in React Router components and manipulates history instead.  UX is challenging and frustrating where multiple pages on the application are missing links to routes.
-* 2 - Application uses React Router, but does not display the appropriate components upon navigating.  There are one or more issues with the UX and access to routes is either unclear or not full implemented on some pages.
 * 3 - Application uses React Router to display appropriate components based on URL.  UX is clear and set up well so that user has access to previous routes.
-* 4 - React Router components have been refactored for developer empathy and code quality is clean.  Application accounts for undefined routes. UX is excellent and set up well to have links to all routes on all pages.
 
 ### Testing
 
-* 1 - There is little or no evidence of testing in the application.  There are some UI tests including snapshot tests, but major gaps in unit testing functionality.
-* 2 - Nearly all unit tests are in place. Components are well tested with a diverse set of tests including but not limited to snapshot tests, event simulation tests, and tests on class methods (including `componentDidMount`).  No attempt to test async functionality was made.
-* 3 - A valid attempt to test asynchronous functionality has been made.  Asynchronous tests cover happy paths as well as multiple sad paths.
 * 4 - All async functionality is tested, tests are passing and run efficiently (using mount only when appropriate).  Unit tests for snapshots and methods cover not only happy paths but also sad paths.  Evaluator has no recommendations for testing.
