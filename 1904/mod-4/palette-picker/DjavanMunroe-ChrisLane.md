@@ -64,22 +64,28 @@ We chose to do more of a graffiti spin on this website.
  -----
 
 
- # Instructor Feedback (Instructor Name)
+ # Instructor Feedback (Leta)
 
  ## Specification Adherence
 
- **x score**: 
+ **4**: 
 
  ## User Interface
 
- **x score**: 
+ **3**: 
 
  ## Testing
 
- **x score**: 
+ **4**: 
 
  ## Workflow
 
- **x score**: 
+ **2**: 
 
- # Outcome: pass/fail
+ # Outcome: Pass
+ 
+Notes:
+ 
+- If something is hard to test, then it's time to refactor code 
+- More specific error codes could be used (422, etc) in server
+- UI could stand to be tweaked (error messages are hard to read, button text should have a bit more breathing room)
