@@ -2,6 +2,18 @@
 ### Students:
 ### Comments:
 
+**Project Professionalism**
+
+**Specification Adherence**
+
+**React Architecture**
+
+**Redux Architecture**
+
+**Routing**
+
+**Testing**
+
 ## Rubric 
 
 ### Specification Adherence
