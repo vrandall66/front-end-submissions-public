@@ -1,49 +1,103 @@
-### Evaluator:
-### Students:
+### Evaluator: Travis Rollins
+### Students: Matthew Malone
 ### Comments:
+
+**Project Professionalism**
+* Good number of commits and start to branches.
+  * Good work being consistent with descriptive commits and branches
+* Excellent work using a project management tool.
+  * I appreciate how you broke the tickets out into multiple pieces.
+* Great work with the README including the table of contents, mission, useability of the app, and screenshot.  Might include wireframes as well.
+* A very large amount of linter errors.
+  * Don't need to include an `.eslintrc` file.  React already has it's own linter.  This is likely a result of this.
+
+**Specification Adherence**
+* Really awesome idea here.
+  * Smooth experience and has a deep meaning to it.
+* Would be nice to have the ability to restart the game. (seems like this is a future iteration in the MVP)
+* Really good work with the UI
+* Appreciate having the indicator when two words do not match.
+
+**React Architecture**
+* Remember to clean up commented out lines like in the `completedCard`
+* Good work keeping components and containers in their respective directories.
+* Gets a bit div heavy in card components.
+* Extremely confusing to have methods defined inside of `componentDidMount` (and much more challenging to test)
+  * Separate the methods out of the `componentDidMount`.
+* Completely missing propTypes.
+* No reason to have `Game` as a class component.  Keep it functional.
+* Quite a lot going on in `round` component with some of the methods.
+  * Could be interesting to see how this could get refactored.
+  * Good work keeping logic out of render.
+* Remember to do something with errors.  Console.logs are not helpful.
+
+**Redux Architecture**
+* Gets a bit nested with the gameData property.
+  * An array of arrays can be a bit tricky to utilize.  Maybe could be refactored a bit.
+* Love the setup of `prefixRoundData` and `prefixMeaningData` and matching ids as necessary.
+* Would like to see an `errorMsg` and `isLoading` property if something breaks or takes a long time to load.
+* I believe the hardcoded data in `gameData` used in actions is unnecessary.
+* Otherwise good work with actions and reducers.
+  * Would love to hear an explanation of the `.sort((a, b) => 0.5 - Math.random())` used in some of the reducers.
+* Good work using `mapStateToProps` and `mapDispatchToProps` where necessary.
+  * `Round` component appears to be having quite a few extra props that no longer exist.  Clean this up.
+
+**Routing**
+* Buttons and clear and routing is smooth.  
+* Could be nice to log out and go back to the previous page if I wanted to change my name.
+* Good work using `component` for Routes since you didn't need to pass props
+* Would be awesome to look into creating a 404 page if a route doesn't exist.
+
+**Testing**
+* Missing a lot of tests.
+* Good work with having most snapshot tests.
+* Good work testing out your actions and reducers.
+* Good work testing mapDispatchToProps in `WelcomeForm`.  Missing tests for mapStateToProps here.
+  * Would also be good to have some unit tests for methods and checking changes in state.
+* Good start with testing apiCall for url and happy path.
+  * Include tests for sad path.
+* Alot of mock data like in the `App` that could be included in a separate file and used in multiple files.
+* No tests for event simulations, changes in state, or mapStateToProps.
+  * Also missing tests for async methods as well as regular methods.
+
+*Update*
+* Great work including some tests for the sad path!
+  * I think for the `server down` test, it might be better to have the `Promise.reject` as opposed to resolve.  When a 500 error happens, it rejects throwing an error object.
+* Good work testing `mapStateToProps` in your App.
+  * I would say to take this one step further, add in all of the properties that should be in the store.  Then the expect is after running the function, it should only return the `gameData`.
+* Good work with the first test for the event simulation in `WelcomeForm`.  Super close on the 2nd one.  Double check the error (it is because you are missing some props).  `setPlayer is not a function` because you haven't passed it that prop.
+  * Good example of the state change as well in `WelcomeForm`.
+* Double check some of the warnings you are getting.  Some of these are coming from the App.  As a result, tests are silently failing.
+  * `Cannot read property 'word' of undefined`
+  * `addFetchedWords is not a function`
 
 ## Rubric 
 
 ### Specification Adherence
 
-* 1 - The application is missing multiple features outlined above and in it's current state is non-functioning. Developer did minimal to no CSS for this project.
-* 2 - The application is in a usable state, but is missing part of one or more of the features outlined above. There are one or more major bugs and the evaluator has multiple recommendations for design changes.
 * 3 - The application completes all iterations above without error. Evaluator has minimal recommendations for design changes.
 * 4 - The application completes all iterations above and implements one or more of the extensions.  The evaluator has no recommendations for design changes.
 
 ### Project Professionalism
 
-* 1 - Either the README is incomplete, wireframes are not used, no project managment system was utilized, or more than 10 linter errors are present. Git history does not show evolution of project with many large and inconsistent commits. 
-* 2 -  README has been updated but is missing group members, setup, tech used, application images, or etc.  Wireframes are included and a project management tool was started, but are not utilized throughout the entire project. Project has more than 5 linter errors. Project team makes large infrequent git commits. 
 * 3 - The codebase has less than 5 linter errors and README has been updated with all group members. Project utilized wireframes from the outset and updated them as changes were made. A project management tool was continuously used from the beginning of the project.  All git commits are atomic, made first to branches, and use descriptive and consise commit messages. 
-* 4 - Codebase has zero linter errors/warnings and README is well documented with images of different pages, setup, purpose of application, and group members. Project team uses a rebase workflow, taking advantage of github issues to track work.
 
 ### React Architecture
 
-* 1 - PropTypes are substantially unused. Project shows little understanding of React and significant refactoring is required including but not limited to component structure, knowing when to use class vs functional components, mutation of props, or etc.  Unneccessary data is being passed down to child components through props. File structure is not modular.
 * 2 - PropType functionality is complete.  There are no unnecessary props being passed down to child components.  However, there are still methods that are being created inside of functional components instead of being passed down through props from a class component.  File structure is modular but api calls have not been broken out into a separate file.  
 * 3 - React architecture is clean and organized.  Logic is kept out of return statements.  There are some issues with the asynchronous js where the frontend is not matching with the backend.  There are multiple functions (including fetch calls) that are doing similar pieces of functionality that could continue to be refactored. Data fetched from API is not cleaned before being set to state.
-* 4 - Functions including fetch calls have been refactored to be reusuable for multiple queries.  Frontend data always matches the backend data.  Data fetched from API is run through a cleaning function (which lives in a separate file).  Implements excellent error handling if server is down or fetch fails.  This includes loading images as well as error messages on the frontend.
 
 ### Redux Architecture
 
-* 1 - Application state is mostly outside the control of Redux. Application did not make use of Redux actions and reducers to mutate state. Components do not demonstrate a clear understanding of stateful vs. statelessness.
 * 2 - At least one component is not connected with Redux appropriately. Application state is mutated by more than just Redux. The Redux store is missing application data that it should be handling.
 * 3 - Appropriate components are wrapped in connected Redux container components. The Redux store contains all necessary application data. All state changes are handled through Redux actions and reducers.
-* 4 - All requirements from 3 met, and no duplication of data exists in the
-  store. Data in the store remains flat (not nested).
 
 ### Testing
 
-* 1 - A valid attempt to test this application was made, but there are obvious
-  gaps with missing unit tests for Redux and React.  
 * 2 - Nearly all unit tests are in place. React components are well tested with a diverse set of tests including but not limited to snapshot tests, event simulation tests, and tests on class methods.  All routes have been tested as well including dynamic routes.  There are tests in place for actions, reducers, mapStateToProps, and mapDispatchToProps.  No attempt to test async functionality was made.
 * 3 - All Redux functionality is tested (actions, reducers, mapStateToProps, mapDispatchToProps), all components are unit tested, and a valid attempt was made to test any async functionality.
-* 4 - All async functionality is tested.   Asynchronous tests cover happy paths as well as multiple sad paths.  All pieces of functionality have been tested and are passing and run efficiently (using mount only when appropriate). Evaluator has no recommendations for testing.
 
 ### Routing
 
-* 1 - Application uses React Router, but does not render/use all routes according to spec. Application does not utilize built in React Router components and manipulates history instead.  UX is challenging and frustrating where multiple pages on the application are missing links to routes.
 * 2 - Application uses React Router, but does not display the appropriate components upon navigating.  There are one or more issues with the UX and access to routes is either unclear or not full implemented on some pages.
 * 3 - Application uses React Router to display appropriate components based on URL.  UX is clear and set up well so that user has access to previous routes.
-* 4 - React Router components have been refactored for developer empathy and code quality is clean.  Application accounts for undefined routes. UX is excellent and set up well to have links to all routes on all pages.
